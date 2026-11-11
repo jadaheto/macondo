@@ -1,0 +1,35 @@
+{
+ "title": "Los símbolos patrios de Colombia",
+ "description": "La bandera, el escudo y el himno nacional, junto con el ave, la flor y el árbol que representan a Colombia. Conoce su historia y su significado.",
+ "gradeMin": 1, "gradeMax": 6,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Cívica", "Símbolos patrios"],
+ "cover": 2,
+ "credits": {"1": "República de Colombia (dibujo vectorial de Wikimedia Commons)", "3": "República de Colombia (dibujo vectorial de Wikimedia Commons)", "6": "Autor anónimo (partitura publicada en 1920)"},
+ "items": [
+  ["Bandera rectangular con tres franjas horizontales: amarilla arriba, que ocupa la mitad, y azul y roja abajo.",
+   "La bandera de Colombia tiene tres franjas: amarillo, azul y rojo. El amarillo ocupa la mitad y suele asociarse con las riquezas del país, el azul con los mares y ríos, y el rojo con la sangre de quienes lucharon por la independencia."],
+  ["Bandera de Colombia ondeando en un mástil contra un cielo con nubes.",
+   "Los colores amarillo, azul y rojo vienen de la bandera que diseñó Francisco de Miranda. La bandera actual se adoptó en 1861."],
+  ["Escudo con un cóndor arriba, cintas con las palabras Libertad y Orden, cuernos de la abundancia, un gorro rojo y dos barcos en el mar, rodeado de banderas.",
+   "El escudo de Colombia tiene un cóndor, símbolo de libertad, y el lema 'Libertad y Orden'. Abajo se ven el istmo de Panamá y dos mares, pues cuando se diseñó, en 1834, Panamá era parte del país."],
+  ["Sello antiguo redondo de metal oscuro con un escudo y un águila en relieve, exhibido en un museo.",
+   "Sello con el escudo de la República de la Nueva Granada, el nombre que tenía Colombia en 1834, cuando se creó ese escudo. Los sellos se usaban para marcar documentos oficiales."],
+  ["Bandera de tres franjas amarilla, azul y roja con un escudo ovalado rodeado de ramas de laurel en el centro.",
+   "Bandera de la Gran Colombia (1821–1831), el país que formaban Colombia, Venezuela, Ecuador y Panamá. Por eso las banderas de Colombia, Venezuela y Ecuador se parecen."],
+  ["Página antigua de partitura musical con pentagramas y notas impresas.",
+   "Una de las primeras partituras publicadas del himno nacional. La letra la escribió Rafael Núñez y la música el italiano Oreste Síndici; se cantó por primera vez en Bogotá en 1887."],
+  ["Gran ave negra con un collar de plumas blancas y la cabeza sin plumas, volando con las alas extendidas.",
+   "El cóndor de los Andes es el ave nacional de Colombia y aparece en el escudo. Sus alas abiertas pueden medir más de 3 metros."],
+  ["Dos flores de orquídea de pétalos rosados y labio morado con centro amarillo.",
+   "La orquídea Cattleya trianae, llamada flor de mayo, es la flor nacional. Crece en los bosques andinos de Colombia."],
+  ["Valle verde de montaña con palmas muy altas y delgadas que sobresalen en el horizonte.",
+   "La palma de cera del Quindío es el árbol nacional y puede superar los 50 metros de altura: es la palma más alta del mundo. Se ve en el valle de Cocora."]
+ ],
+ "questions": [
+  ["¿Qué color ocupa la mitad de la bandera de Colombia?", ["El azul", "El amarillo", "El rojo"], 1, "La franja amarilla ocupa la mitad superior."],
+  ["¿Qué ave aparece en el escudo y es el ave nacional?", ["El cóndor de los Andes", "La guacamaya", "El colibrí"], 0, "El cóndor simboliza la libertad."],
+  ["¿Cuál es el árbol nacional de Colombia?", ["La ceiba", "La palma de cera", "El mango"], 1, "La palma de cera es la palma más alta del mundo."],
+  ["¿Quién escribió la letra del himno nacional?", ["Rafael Núñez", "Simón Bolívar", "Gabriel García Márquez"], 0, "La música es de Oreste Síndici."]
+ ],
+ "reviewNotes": "La bandera y el escudo tienen en Commons la advertencia 'insignia' (restricción de uso de emblemas oficiales, no de derechos de autor); su uso educativo es legítimo. Se aceptaron por excepción documentada."
+}

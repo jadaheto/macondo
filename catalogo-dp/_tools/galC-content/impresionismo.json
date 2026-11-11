@@ -1,0 +1,94 @@
+{
+ "title": "El impresionismo",
+ "description": "A finales del siglo XIX, un grupo de pintores franceses salió a pintar al aire libre para captar la luz y el color de cada momento. Obras de Monet, Renoir, Degas, Pissarro, Caillebotte y Berthe Morisot.",
+ "gradeMin": 4,
+ "gradeMax": 11,
+ "categories": [
+  "Artes",
+  "Historia del arte",
+  "Pintura",
+  "Europa"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Pintura de un puente japonés curvo sobre un estanque cubierto de nenúfares, rodeado de vegetación verde.",
+   "El puente sobre el estanque de nenúfares, de Claude Monet (1899). Monet construyó este jardín en su casa de Giverny y lo pintó cientos de veces."
+  ],
+  [
+   "Paisaje de un campo de hierba con pequeñas flores, dos árboles altos, un cielo con nubes y una figura diminuta caminando.",
+   "Campo de amapolas cerca de Argenteuil, de Monet (1875). Los impresionistas pintaban con pinceladas cortas de color puro, sin dibujar los contornos."
+  ],
+  [
+   "Fachada de una catedral gótica pintada con tonos naranjas y azules, como si se disolviera en la luz del atardecer.",
+   "Monet pintó más de 30 veces la fachada de la catedral de Ruan a distintas horas del día, para mostrar cómo la luz cambia los colores."
+  ],
+  [
+   "Escena de un baile al aire libre con muchas personas conversando y bailando bajo los árboles, con manchas de luz.",
+   "Baile en el Moulin de la Galette, de Pierre-Auguste Renoir (1876). Muestra una tarde de domingo en París, con la luz del sol filtrándose entre las hojas."
+  ],
+  [
+   "Grupo de amigos almorzando y conversando en una terraza con toldo a rayas junto a un río.",
+   "El almuerzo de los remeros, de Renoir (1881). Retrata a sus amigos en un restaurante a orillas del río Sena; la joven con el perrito fue luego su esposa."
+  ],
+  [
+   "Salón con piso de madera donde varias bailarinas con tutú blanco escuchan a un maestro mayor con un bastón.",
+   "La clase de danza, de Edgar Degas (1874). Degas pintó muchas veces a bailarinas de ballet en ensayos y clases, como si las viera a escondidas."
+  ],
+  [
+   "Vista nocturna de un bulevar de ciudad con luces de faroles reflejadas en el suelo mojado y filas de árboles.",
+   "El bulevar Montmartre de noche, de Camille Pissarro (1897). Pissarro pintó esta calle desde la ventana de un hotel a diferentes horas y estaciones."
+  ],
+  [
+   "Calle de París en un día de lluvia, con personas elegantes bajo paraguas, edificios grises y adoquines brillantes.",
+   "Calle de París, día de lluvia, de Gustave Caillebotte (1877). Muestra las nuevas avenidas anchas de París, construidas en esa época."
+  ],
+  [
+   "Pintura de una mujer sentada que observa con ternura a un bebé dormido en una cuna cubierta con un velo transparente.",
+   "La cuna, de Berthe Morisot (1872). Morisot fue una de las grandes pintoras impresionistas; aquí retrató a su hermana mirando a su hija dormida."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué querían captar los impresionistas?",
+   [
+    "La luz y el color de cada momento",
+    "Escenas de batallas antiguas",
+    "Figuras geométricas"
+   ],
+   0,
+   "Pintaban al aire libre para observar la luz."
+  ],
+  [
+   "¿Qué pintó Monet más de 30 veces a distintas horas?",
+   [
+    "La catedral de Ruan",
+    "La torre Eiffel",
+    "Un volcán"
+   ],
+   0,
+   "Quería mostrar cómo la luz cambia los colores."
+  ],
+  [
+   "¿Qué tema pintaba con frecuencia Degas?",
+   [
+    "Bailarinas de ballet",
+    "Barcos piratas",
+    "Animales de la selva"
+   ],
+   0,
+   "Pintó ensayos y clases de danza."
+  ],
+  [
+   "¿Cómo se llama la gran pintora impresionista autora de La cuna?",
+   [
+    "Berthe Morisot",
+    "Frida Kahlo",
+    "Débora Arango"
+   ],
+   0,
+   "Retrató a su hermana y a su sobrina."
+  ]
+ ],
+ "reviewNotes": "Impresión, sol naciente (Monet) y las obras de Van Gogh ya están en grandes-pintores."
+}

@@ -1,0 +1,94 @@
+{
+ "title": "El desierto de La Guajira",
+ "description": "El Cabo de la Vela, las dunas de Taroa, Punta Gallinas, las salinas de Manaure, los flamencos de Camarones y la serranía de la Macuira: paisajes del norte de Colombia, territorio del pueblo wayuu.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Ecosistemas",
+  "Región Caribe",
+  "Geografía"
+ ],
+ "cover": 2,
+ "items": [
+  [
+   "Playa de arena rojiza con mar azul turquesa y un cerro junto a la costa, en el Cabo de la Vela.",
+   "El Cabo de la Vela es un lugar sagrado para el pueblo wayuu, que lo llama Jepira: según su tradición, allí viajan los espíritus. Tiene playas de mar azul junto al desierto."
+  ],
+  [
+   "Dunas de arena dorada que llegan hasta el mar azul en Taroa.",
+   "Las dunas de Taroa, cerca de Punta Gallinas, son montañas de arena formadas por el viento que terminan directamente en el mar. El viento constante va moviendo la arena poco a poco."
+  ],
+  [
+   "Un faro de estructura metálica roja y blanca junto a una pequeña construcción de piedra en el desierto.",
+   "Punta Gallinas es el punto más al norte de Colombia y de toda Suramérica. Su faro guía a los barcos que navegan por el mar Caribe."
+  ],
+  [
+   "Un cerro solitario a lo lejos en medio de una llanura desértica amarilla.",
+   "El Pilón de Azúcar es un cerro junto al mar cerca del Cabo de la Vela. Desde arriba se ve una playa de arena dorada y el contraste entre el desierto y el mar."
+  ],
+  [
+   "Vista desde la ventana de un avión de las salinas de Manaure: estanques rectangulares blancos junto al mar.",
+   "En las salinas de Manaure se llenan estanques con agua de mar; el sol y el viento evaporan el agua y queda la sal. Allí se produce gran parte de la sal marina de Colombia."
+  ],
+  [
+   "Una bandada de flamencos rosados caminando en aguas poco profundas.",
+   "Los flamencos del Santuario de Fauna y Flora Los Flamencos, en Camarones, son rosados por los pequeños camarones y algas que comen. Los jóvenes son más pálidos."
+  ],
+  [
+   "Cactus redondos y verdes con un gorro rojizo en la parte de arriba, entre pastos secos.",
+   "Estos cactus redondos con un «gorro» rojizo se llaman melones o cabezas de turco. Como otros cactus del desierto guajiro, guardan agua en su tallo y tienen espinas en vez de hojas para perder menos agua."
+  ],
+  [
+   "Montañas de la serranía de la Macuira bajo un cielo nublado, con vegetación seca en primer plano.",
+   "En medio del desierto, la serranía de la Macuira es un oasis: sus montañas atrapan la humedad del mar y en lo alto crece un bosque de niebla. Es un parque nacional natural en territorio wayuu."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el punto más al norte de Suramérica?",
+   [
+    "El Cabo de la Vela",
+    "Punta Gallinas",
+    "Santa Marta",
+    "Leticia"
+   ],
+   1,
+   "Punta Gallinas, en La Guajira, es el extremo norte del continente."
+  ],
+  [
+   "¿Cómo se obtiene la sal en Manaure?",
+   [
+    "El sol y el viento evaporan el agua de mar en estanques",
+    "Se saca de una mina subterránea",
+    "Se fabrica con máquinas",
+    "La traen los ríos"
+   ],
+   0,
+   "Al evaporarse el agua de mar, la sal queda en el fondo de los estanques."
+  ],
+  [
+   "¿Por qué los flamencos son rosados?",
+   [
+    "Porque toman sol",
+    "Porque se pintan",
+    "Por los camarones y algas que comen",
+    "Porque viven en el desierto"
+   ],
+   2,
+   "Los pigmentos de su alimento tiñen sus plumas."
+  ],
+  [
+   "¿Qué tiene de especial la serranía de la Macuira?",
+   [
+    "Es un volcán activo",
+    "Tiene nieve todo el año",
+    "Es una isla",
+    "Es un oasis con bosque de niebla en medio del desierto"
+   ],
+   3,
+   "Sus montañas atrapan la humedad del mar."
+  ]
+ ],
+ "reviewNotes": "Territorio indígena wayuu: los pies de foto mencionan el valor cultural de los lugares; no aparecen personas."
+}

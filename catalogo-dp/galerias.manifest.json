@@ -1,0 +1,975 @@
+[
+  {
+    "file": "galerias/fauna-del-caribe-colombiano",
+    "cover": "galerias/fauna-del-caribe-colombiano/07-titi-cabeciblanco.jpg",
+    "title": "Fauna del Caribe colombiano",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Conoce animales que viven en las costas, ciénagas, manglares y bosques del Caribe colombiano, desde la iguana y la hicotea hasta el manatí y el tití cabeciblanco.",
+    "gradeMin": 1,
+    "gradeMax": 6,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Región Caribe",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "fauna-del-caribe-colombiano",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 4,
+        "CC0": 2,
+        "Dominio público": 1,
+        "CC BY 4.0": 2,
+        "CC BY 2.0": 1,
+        "CC BY-SA 2.0": 2
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 7020828,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/manglares-golfo-de-morrosquillo",
+    "cover": "galerias/manglares-golfo-de-morrosquillo/02-cienaga-la-caimanera.jpg",
+    "title": "Manglares y costa del golfo de Morrosquillo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Un recorrido por los manglares, ciénagas, pastos marinos y arrecifes del golfo de Morrosquillo (Sucre y Córdoba): qué especies de mangle hay, cómo se reproducen y por qué son tan importantes.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Región Caribe",
+      "Sucre",
+      "Medio ambiente"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "manglares-golfo-de-morrosquillo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "CC BY 3.0": 1,
+        "CC BY-SA 3.0": 2,
+        "CC0": 2
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 7084793,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/aves-de-colombia",
+    "cover": "galerias/aves-de-colombia/04-guacamaya-bandera.jpg",
+    "title": "Aves de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Colombia es uno de los países con más especies de aves del mundo. Esta galería presenta aves de los Andes, la selva, los llanos y el Caribe, como el cóndor andino, la guacamaya, el chavarrí y la guacharaca caribeña.",
+    "gradeMin": 1,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Aves",
+      "Biodiversidad",
+      "Colombia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "aves-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 8,
+        "CC0": 1,
+        "CC BY 4.0": 1,
+        "CC BY-SA 2.0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 5292509,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/ecosistemas-de-colombia",
+    "cover": "galerias/ecosistemas-de-colombia/06-cano-cristales.jpg",
+    "title": "Ecosistemas de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Del páramo al arrecife de coral: un viaje por los grandes ecosistemas de Colombia —páramos, bosques andinos, selva amazónica, llanos, desiertos, manglares y tepuyes— con ejemplos reales de cada uno.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Geografía",
+      "Ecosistemas",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "ecosistemas-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 7,
+        "CC BY 4.0": 2,
+        "CC BY-SA 3.0": 1,
+        "CC0": 1
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 6537311,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/rio-magdalena",
+    "cover": "galerias/rio-magdalena/02-represa-betania.jpg",
+    "title": "El río Magdalena",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "El Magdalena es el río más importante de Colombia: nace en el sur del país y desemboca en el mar Caribe. Esta galería sigue su recorrido, su historia de navegación y la vida de los pueblos que viven a sus orillas.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Geografía",
+      "Historia",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "rio-magdalena",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 4.0": 1,
+        "CC BY-SA 4.0": 2,
+        "Dominio público": 2,
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 2.0": 1,
+        "CC0": 1,
+        "CC BY 2.0": 1,
+        "CC BY-SA 2.5": 1
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 5404488,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/orfebreria-precolombina",
+    "cover": "galerias/orfebreria-precolombina/01-balsa-muisca.jpg",
+    "title": "Orfebrería precolombina de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Piezas de oro y tumbaga de los pueblos zenú, muisca, quimbaya, tairona, calima y tolima. Descubre cómo trabajaban el metal, qué significaban estos objetos y quiénes vivían en el territorio de Sucre y Córdoba antes de la llegada de los europeos.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Arte precolombino",
+      "Pueblos indígenas"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "orfebreria-precolombina",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 1,
+        "CC0": 11
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 3776617,
+    "reviewNotes": "El pie de foto del poporo menciona el uso ceremonial de hojas de coca (contexto histórico-cultural)."
+  },
+  {
+    "file": "galerias/mapas-historicos",
+    "cover": "galerias/mapas-historicos/03-waldseemuller-1507.jpg",
+    "title": "Mapas históricos de América y Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Cómo se dibujó el Nuevo Mundo: desde el primer mapa con América (1500) y el que le dio su nombre (1507), hasta los mapas de la Gran Colombia, del Estado de Bolívar —al que pertenecía Sucre— y de la Colombia de 1886.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Geografía",
+      "Cartografía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "mapas-historicos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 9,
+        "CC0": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 9157860,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/independencia-de-colombia",
+    "cover": "galerias/independencia-de-colombia/08-batalla-boyaca-tovar.jpg",
+    "title": "La independencia de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Documentos, retratos y pinturas históricas en dominio público sobre la independencia de la Nueva Granada: el Acta de Cartagena de 1811, los próceres, las heroínas y la Batalla de Boyacá.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Independencia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "independencia-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 10
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 4516291,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/grandes-pintores",
+    "cover": "galerias/grandes-pintores/09-noche-estrellada.jpg",
+    "title": "Grandes pintores y sus obras",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Obras maestras de la pintura en dominio público, de Leonardo da Vinci a Van Gogh, junto con dos artistas de la Nueva Granada: Gregorio Vásquez de Arce y Ceballos y Ramón Torres Méndez.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Educación artística",
+      "Arte",
+      "Historia del arte",
+      "Pintura"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "grandes-pintores",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 11
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 8431855,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/el-sistema-solar",
+    "cover": "galerias/el-sistema-solar/08-saturno.jpg",
+    "title": "El sistema solar",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Fotografías reales del Sol, los planetas, la Luna, el planeta enano Plutón y un cometa, tomadas por sondas espaciales, telescopios y astronautas, con datos curiosos de cada uno.",
+    "gradeMin": 1,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Astronomía",
+      "Espacio"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-sistema-solar",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 10,
+        "CC BY-SA 3.0": 2
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 5543787,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/el-universo-y-el-espacio",
+    "cover": "galerias/el-universo-y-el-espacio/01-pilares-de-la-creacion.jpg",
+    "title": "El universo y la exploración espacial",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Nebulosas, galaxias y el primer retrato de un agujero negro, junto con los telescopios, estaciones y misiones que nos permitieron verlos, desde el Apolo 11 hasta el telescopio James Webb.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Astronomía",
+      "Física",
+      "Tecnología"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-universo-y-el-espacio",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 9,
+        "CC BY 2.0": 1,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 6156799,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/el-cuerpo-humano",
+    "cover": "galerias/el-cuerpo-humano/02-corazon.png",
+    "title": "El cuerpo humano",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Diagramas en español de los principales sistemas del cuerpo humano —esqueleto, corazón, circulación, respiración, digestión y nervios—, la célula y los dientes, junto con dos dibujos históricos de Leonardo da Vinci y Andrés Vesalio.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias naturales",
+      "Cuerpo humano",
+      "Biología",
+      "Salud"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-cuerpo-humano",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 7,
+        "CC0": 1,
+        "CC BY-SA 4.0": 1,
+        "CC BY-SA 3.0": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 9413231,
+    "reviewNotes": "Incluye dos obras históricas con figuras humanas desnudas de carácter artístico/anatómico (Hombre de Vitruvio de Leonardo y lámina de músculos de Vesalio). Revisar si se mantienen para los grados inferiores."
+  },
+  {
+    "file": "galerias/dinosaurios-y-fosiles",
+    "cover": "galerias/dinosaurios-y-fosiles/01-tiranosaurio-sue.jpg",
+    "title": "Dinosaurios y fósiles",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Esqueletos de dinosaurios en museos, ilustraciones clásicas de animales prehistóricos y fósiles como amonitas, trilobites y la vértebra de la Titanoboa, la serpiente gigante hallada en La Guajira.",
+    "gradeMin": 1,
+    "gradeMax": 7,
+    "categories": [
+      "Ciencias naturales",
+      "Paleontología",
+      "Dinosaurios",
+      "Historia de la Tierra"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "dinosaurios-y-fosiles",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 2,
+        "CC BY-SA 3.0": 2,
+        "CC0": 2,
+        "CC BY 3.0": 1,
+        "Dominio público": 4,
+        "CC BY 2.5": 1
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 8333998,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/instrumentos-musicales-de-colombia",
+    "cover": "galerias/instrumentos-musicales-de-colombia/01-instrumentos-vallenato.png",
+    "title": "Instrumentos musicales de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Instrumentos de la música colombiana: el trío vallenato del Caribe, las maracas, el tiple andino, la bandola llanera, el capador y antiguos instrumentos de cuerda conservados en la colección de la Biblioteca Luis Ángel Arango.",
+    "gradeMin": 1,
+    "gradeMax": 11,
+    "categories": [
+      "Educación artística",
+      "Música",
+      "Patrimonio cultural",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "instrumentos-musicales-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 5,
+        "Dominio público": 1,
+        "CC BY 2.0": 1,
+        "CC0": 3
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 4889539,
+    "reviewNotes": "No se encontraron fotos libres de gaitas de los Montes de María sin personas identificables; se mencionan en el texto de las maracas."
+  },
+  {
+    "file": "galerias/oficios-y-vida-cotidiana-siglo-xix",
+    "cover": "galerias/oficios-y-vida-cotidiana-siglo-xix/03-arriero.jpg",
+    "title": "Oficios y vida cotidiana en la Colombia antigua",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Fotografías, acuarelas y postales en dominio público del siglo XIX y comienzos del XX: recolectores de café, zapateros, arrieros, calles, mercados y viajes por el Magdalena. Para comparar cómo se vivía y trabajaba antes con cómo vivimos hoy.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Oficios",
+      "Fotografía antigua"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "oficios-y-vida-cotidiana-siglo-xix",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 11
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 4629015,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/autores-de-la-biblioteca",
+    "cover": "galerias/autores-de-la-biblioteca/05-rafael-pombo.jpg",
+    "title": "Autores de la biblioteca",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Retratos en dominio público de escritores cuyas obras puedes leer en la Biblioteca Macondo: de Cervantes y Sor Juana a Pombo, Isaacs, Martí, Darío, Silva, Quiroga, Carrasquilla y el poeta momposino Candelario Obeso.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Lenguaje",
+      "Literatura",
+      "Autores",
+      "Biografías"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "autores-de-la-biblioteca",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 9,
+        "CC0": 1,
+        "CC BY-SA 4.0": 2
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 4377438,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/inventos-y-cientificos",
+    "cover": "galerias/inventos-y-cientificos/09-primer-vuelo-wright.jpg",
+    "title": "Inventos y científicos",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Retratos en dominio público de científicas y científicos que cambiaron nuestra forma de ver el mundo —de Galileo y Newton a Marie Curie y Einstein—, junto con los naturalistas de la Expedición Botánica y dos inventos que marcaron época.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Tecnología",
+      "Historia de la ciencia",
+      "Biografías"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "inventos-y-cientificos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 10,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 5498055,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/volcanes-y-relieve",
+    "cover": "galerias/volcanes-y-relieve/06-santa-helena-1980.jpg",
+    "title": "Volcanes y relieve",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Volcanes nevados y activos de Colombia, el volcán de lodo del Totumo en el Caribe, erupciones famosas del mundo y formas del relieve como cañones, monolitos y glaciares.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Geografía",
+      "Geología",
+      "Relieve"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "volcanes-y-relieve",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 4,
+        "CC BY-SA 4.0": 3,
+        "CC0": 2,
+        "CC BY-SA 2.0": 1,
+        "CC BY-SA 3.0": 1
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 5394551,
+    "reviewNotes": "El pie de foto del Nevado del Ruiz menciona la tragedia de Armero (1985); revisar el tono para grados 4-5."
+  },
+  {
+    "file": "galerias/animales-en-peligro",
+    "cover": "galerias/animales-en-peligro/01-oso-de-anteojos.jpg",
+    "title": "Animales en peligro de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Doce animales que viven en Colombia y están amenazados de extinción según la Unión Internacional para la Conservación de la Naturaleza (UICN), con las causas de su amenaza y lo que podemos hacer para protegerlos.",
+    "gradeMin": 1,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Conservación",
+      "Medio ambiente"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "animales-en-peligro",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 1,
+        "CC BY-SA 3.0": 3,
+        "CC BY 4.0": 3,
+        "CC BY-SA 4.0": 2,
+        "CC BY 3.0": 1,
+        "CC BY 2.0": 1,
+        "CC BY-SA 2.0": 1
+      },
+      "imageCount": 12
+    },
+    "sha256": null,
+    "sizeBytes": 6240756,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/arquitectura-colonial",
+    "cover": "galerias/arquitectura-colonial/02-puerta-del-reloj.jpg",
+    "title": "Arquitectura colonial de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Fortalezas, murallas, iglesias, plazas y calles de la época colonial en Cartagena, Mompox, Villa de Leyva, Barichara y Popayán, varias de ellas declaradas Patrimonio de la Humanidad.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Arquitectura",
+      "Patrimonio cultural",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "arquitectura-colonial",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 7,
+        "CC BY-SA 3.0": 1,
+        "CC BY 3.0": 3
+      },
+      "imageCount": 11
+    },
+    "sha256": null,
+    "sizeBytes": 5774943,
+    "reviewNotes": "En la foto del Palacio de la Inquisición aparecen transeúntes pequeños en segundo plano."
+  }
+]

@@ -1,0 +1,94 @@
+{
+ "title": "La antigua Grecia",
+ "description": "Templos de mármol, teatros al aire libre, vasijas pintadas y grandes pensadores. Descubre cómo vivían los antiguos griegos y por qué su cultura sigue presente en nuestras ciudades, palabras e ideas.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Historia antigua",
+  "Europa"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Templo de mármol con muchas columnas en la fachada, parcialmente en ruinas, bajo un cielo azul intenso.",
+   "El Partenón se levantó en la Acrópolis de Atenas hace unos 2.450 años en honor de la diosa Atenea. Sus columnas y proporciones han inspirado edificios en todo el mundo."
+  ],
+  [
+   "Dos estatuas de mujeres vestidas con túnicas largas que sostienen en la cabeza un capitel, exhibidas en una sala de museo.",
+   "Las cariátides son columnas con forma de mujer que sostenían el techo de un pórtico del templo Erecteion, en Atenas. Las originales se protegen hoy en el Museo de la Acrópolis."
+  ],
+  [
+   "Graderías de piedra en semicírculo subiendo por una ladera, con una entrada de columnas a un lado.",
+   "El teatro de Epidauro podía recibir a unas 14.000 personas. Su acústica es tan buena que desde las últimas filas se oye a alguien hablar en el centro."
+  ],
+  [
+   "Columnas blancas de un templo en ruinas sobre una colina rocosa, con bloques de piedra en primer plano.",
+   "El templo de Poseidón, dios del mar, se alza en el cabo Sunión, frente al mar Egeo. Los marineros lo veían al llegar a las costas de Atenas."
+  ],
+  [
+   "Restos de un edificio circular de piedra con tres columnas en pie, entre árboles y montañas.",
+   "El Tolos de Delfos era un templo circular cerca del santuario de Apolo. Los griegos viajaban a Delfos para consultar al oráculo sobre el futuro."
+  ],
+  [
+   "Moneda antigua de plata con la cabeza de perfil de una diosa que lleva casco.",
+   "Tetradracma de Atenas con la cabeza de la diosa Atenea. Por el otro lado llevaba una lechuza, símbolo de la sabiduría y de la ciudad."
+  ],
+  [
+   "Copa plana de cerámica anaranjada pintada en negro con un barco de vela, racimos de uvas y delfines alrededor.",
+   "Copa pintada por Exequias hace unos 2.500 años. Muestra al dios Dioniso navegando entre delfines: los griegos decoraban así su cerámica con escenas de mitos."
+  ],
+  [
+   "Busto de mármol de un hombre con barba rizada y casco levantado sobre la frente.",
+   "Busto de Pericles, gobernante de Atenas en su época de mayor esplendor. Durante su gobierno se construyó el Partenón y se fortaleció la democracia ateniense."
+  ],
+  [
+   "Busto de mármol de un hombre mayor con barba larga y ondulada.",
+   "Heródoto es llamado el 'padre de la historia' porque fue de los primeros en investigar y escribir sobre el pasado, viajando y preguntando a muchas personas."
+  ]
+ ],
+ "questions": [
+  [
+   "¿A qué diosa estaba dedicado el Partenón?",
+   [
+    "Atenea",
+    "Afrodita",
+    "Hera"
+   ],
+   0,
+   "El Partenón honraba a Atenea, protectora de Atenas."
+  ],
+  [
+   "¿Qué animal aparece en las monedas de Atenas?",
+   [
+    "Un águila",
+    "Una lechuza",
+    "Un caballo"
+   ],
+   1,
+   "La lechuza era el símbolo de Atenea y de la sabiduría."
+  ],
+  [
+   "¿Qué son las cariátides?",
+   [
+    "Vasijas para guardar aceite",
+    "Columnas con forma de mujer",
+    "Barcos de guerra"
+   ],
+   1,
+   "Sostenían el techo de un pórtico del Erecteion."
+  ],
+  [
+   "¿A quién se le llama 'padre de la historia'?",
+   [
+    "Pericles",
+    "Heródoto",
+    "Poseidón"
+   ],
+   1,
+   "Heródoto investigó y escribió sobre el pasado de muchos pueblos."
+  ]
+ ],
+ "reviewNotes": null
+}

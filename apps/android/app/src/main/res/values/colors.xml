@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Paleta kiosco Comfasucre (branding/branding.md §3.4). -->
+<resources>
+    <color name="brand_primary">#064679</color>
+    <color name="brand_primary_dark">#073258</color>
+    <color name="brand_cyan">#087ea4</color>
+    <color name="brand_text">#153d5c</color>
+    <color name="brand_muted">#557086</color>
+    <color name="brand_border">#cddce7</color>
+    <color name="brand_bg">#eef4f8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

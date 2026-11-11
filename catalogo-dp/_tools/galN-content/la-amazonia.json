@@ -1,0 +1,98 @@
+{
+ "title": "La Amazonía colombiana",
+ "description": "El río Amazonas, Leticia, Puerto Nariño, el lago Tarapoto, la victoria regia, la anaconda y los bosques que se inundan: un viaje por la selva tropical más grande del mundo.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Ecosistemas",
+  "Región Amazónica",
+  "Geografía"
+ ],
+ "cover": 2,
+ "items": [
+  [
+   "El río Amazonas visto desde el espacio, serpenteando entre la selva verde oscura, con lagos en forma de media luna.",
+   "El río Amazonas visto desde la Estación Espacial Internacional, cerca de Leticia, donde se encuentran Colombia, Brasil y Perú. Es el río más caudaloso del mundo. Sus curvas abandonadas forman lagos en forma de media luna."
+  ],
+  [
+   "Atardecer anaranjado sobre el ancho río Amazonas, con la silueta de la selva en el horizonte.",
+   "Atardecer en el río Amazonas, en Leticia, capital del departamento del Amazonas. El río lleva tanta agua que en algunas partes no se alcanza a ver la otra orilla."
+  ],
+  [
+   "Un camino peatonal entre prados verdes y palmeras en Puerto Nariño; al fondo, dos niños caminan de espaldas.",
+   "Puerto Nariño es un pueblo amazónico sin carros, donde se camina por senderos peatonales. Sus habitantes, muchos de ellos indígenas, cuidan el río y los delfines rosados que viven cerca."
+  ],
+  [
+   "Una persona de espaldas rema en una canoa sobre el lago Tarapoto, de aguas tranquilas que reflejan el cielo.",
+   "El lago Tarapoto, cerca de Puerto Nariño, es un sistema de lagos donde se pueden ver delfines rosados y grises. Fue declarado sitio Ramsar, es decir, un humedal de importancia mundial."
+  ],
+  [
+   "Hojas enormes y redondas de victoria regia, con los bordes levantados, flotando en un estanque.",
+   "La victoria regia tiene las hojas flotantes más grandes del mundo: pueden medir más de 2 metros de ancho. Por debajo tienen nervios con espinas que las hacen fuertes. Foto tomada en el Jardín Botánico de Río de Janeiro."
+  ],
+  [
+   "Una flor grande de victoria regia con muchos pétalos blancos y rosados sobre el agua.",
+   "La flor de la victoria regia se abre de noche y es blanca; a la noche siguiente se vuelve rosada. Atrae escarabajos que ayudan a polinizarla."
+  ],
+  [
+   "Una anaconda con manchas oscuras nadando en agua clara sobre un fondo de piedras.",
+   "La anaconda verde es la serpiente más pesada del mundo y vive en ríos y pantanos de la Amazonía y la Orinoquía. No es venenosa: pasa mucho tiempo en el agua esperando a sus presas."
+  ],
+  [
+   "Un puente de madera que se adentra en un bosque inundado de árboles altos; al fondo, una persona pequeña y lejana.",
+   "En la Amazonía, cuando el río crece, el agua entra al bosque y lo inunda durante meses. Peces como la cachama nadan entre los árboles y comen sus frutos y semillas. Foto tomada en el Amazonas colombiano."
+  ],
+  [
+   "Una mariposa búho grande y café posada en un tronco, con una mancha redonda como un ojo.",
+   "Mariposa búho fotografiada en el Parque Nacional Natural Amacayacu, en el Amazonas colombiano. La Amazonía alberga una de las mayores diversidades de insectos del planeta."
+  ]
+ ],
+ "questions": [
+  [
+   "¿En qué ciudad colombiana se encuentran Colombia, Brasil y Perú junto al Amazonas?",
+   [
+    "Leticia",
+    "Cartagena",
+    "Sincelejo",
+    "Pasto"
+   ],
+   0,
+   "Leticia es la capital del departamento del Amazonas, en la frontera con Brasil y Perú."
+  ],
+  [
+   "¿Qué planta tiene las hojas flotantes más grandes del mundo?",
+   [
+    "El buchón",
+    "La victoria regia",
+    "La ceiba",
+    "El frailejón"
+   ],
+   1,
+   "Sus hojas pueden superar los 2 metros de ancho."
+  ],
+  [
+   "¿Qué pasa en el bosque amazónico cuando el río crece?",
+   [
+    "Se seca",
+    "Se congela",
+    "El agua lo inunda durante meses",
+    "Se incendia"
+   ],
+   2,
+   "En los bosques inundables los peces nadan entre los árboles."
+  ],
+  [
+   "¿Por qué es especial Puerto Nariño?",
+   [
+    "Tiene el aeropuerto más grande",
+    "Está en el desierto",
+    "Tiene muchas fábricas",
+    "Es un pueblo sin carros donde se camina por senderos"
+   ],
+   3,
+   "Es un pueblo amazónico peatonal que cuida su río y su selva."
+  ]
+ ],
+ "reviewNotes": "03: dos niños caminan de espaldas a lo lejos (no identificables). 04: persona remando de espaldas (no identificable). 05 es de un jardín botánico de Brasil. 08: persona diminuta al fondo, no identificable."
+}

@@ -1,0 +1,33 @@
+{
+ "title": "Culturas indígenas de Colombia antes de 1500",
+ "description": "Terrazas en la Sierra Nevada, estatuas de piedra en el Huila, tumbas pintadas bajo tierra y cerámicas del Caribe. Un recorrido por los lugares y objetos de los pueblos tairona, agustiniano, de Tierradentro y zenú.",
+ "gradeMin": 3, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Pueblos indígenas", "Arqueología"],
+ "cover": 2,
+ "credits": {"7": "Los Angeles County Museum of Art (LACMA), dominio público"},
+ "items": [
+  ["Terrazas circulares de piedra cubiertas de pasto en lo alto de una montaña, rodeadas de selva.",
+   "Teyuna, conocida como Ciudad Perdida, fue construida por los taironas en la Sierra Nevada de Santa Marta hacia el año 800. Sus terrazas de piedra sostenían casas y templos, y hoy es un lugar sagrado para los koguis, arhuacos y wiwas."],
+  ["Escultura de piedra con rostro de grandes ojos y boca con colmillos, protegida bajo un techo con baranda de madera.",
+   "En el Parque Arqueológico de San Agustín (Huila) hay cientos de estatuas talladas hace unos 1.500 a 2.000 años. Muchas tienen colmillos de felino y cuidaban las tumbas."],
+  ["Estatua alta y delgada de piedra con dos rostros, uno encima del otro, en un parque con árboles.",
+   "Estatua del Alto de los Ídolos, en San Agustín. Algunas figuras tienen un 'doble yo', un segundo rostro o animal sobre la cabeza, que quizá representaba su espíritu protector."],
+  ["Pared de roca clara de una tumba subterránea pintada con líneas y rombos negros y rojos.",
+   "En Tierradentro (Cauca) hay tumbas subterráneas llamadas hipogeos, excavadas en la roca y pintadas por dentro con dibujos geométricos rojos y negros."],
+  ["Entrada a una cámara excavada en la roca, con escalones que bajan hacia la oscuridad.",
+   "Para entrar a los hipogeos de Tierradentro hay escaleras en espiral talladas en la roca. Algunas cámaras están a más de 7 metros de profundidad."],
+  ["Vasija redonda de barro con un cuello ancho, decorada con líneas incisas y con figuras humanas modeladas a los lados.",
+   "Olla de la cultura zenú, que habitó los valles de los ríos Sinú y San Jorge, en los actuales Córdoba y Sucre. Los zenúes eran hábiles alfareros y orfebres."],
+  ["Vasija de cerámica gris con forma de caimán, con la cabeza levantada y un pico de vertedera.",
+   "Vasija tairona con forma de caimán. Los taironas representaban en su cerámica animales de su entorno, desde el mar Caribe hasta las cumbres de la Sierra Nevada."],
+  ["Pequeña ocarina redonda de barro con varios agujeros y un pico para soplar.",
+   "Ocarina tairona, un instrumento de viento de barro. Al tapar los agujeros con los dedos se producían distintas notas. La música acompañaba ceremonias y fiestas."]
+ ],
+ "questions": [
+  ["¿Qué pueblo construyó Ciudad Perdida?", ["Los taironas", "Los incas", "Los mayas"], 0, "Los taironas la construyeron en la Sierra Nevada de Santa Marta."],
+  ["¿Qué son los hipogeos de Tierradentro?", ["Templos en la cima de montañas", "Tumbas subterráneas pintadas", "Puentes colgantes"], 1, "Son tumbas excavadas en la roca y decoradas por dentro."],
+  ["¿En qué departamento está el Parque Arqueológico de San Agustín?", ["Huila", "Sucre", "Boyacá"], 0, "Está en el sur del Huila, cerca del nacimiento del río Magdalena."],
+  ["¿Qué ríos habitaban los zenúes?", ["Sinú y San Jorge", "Amazonas y Putumayo", "Cauca y Atrato"], 0, "Vivían en los actuales Córdoba y Sucre."]
+ ],
+ "reviewNotes": "Se priorizaron sitios y objetos (sin personas identificables). Ciudad Perdida es sitio sagrado para los pueblos de la Sierra Nevada; se menciona en el pie de foto."
+}

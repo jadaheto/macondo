@@ -1,0 +1,119 @@
+# Registro de decisiones de arquitectura (ADR)
+
+Formato: contexto → decisión → consecuencias. Estado: Aceptada / Provisional.
+
+## ADR-001 — npm workspaces en lugar de pnpm (Aceptada)
+- **Contexto**: la especificación sugiere un monorepo; pnpm no está instalado en el equipo y no se instalan herramientas sin autorización.
+- **Decisión**: npm workspaces (`packages/*`, `apps/*`). npm 11 bloquea scripts postinstall: se listan en `allowScripts` de `package.json` y se aprueban con `npm install-scripts approve <pkg>`.
+- **Consecuencias**: un solo `package-lock.json`; `node_modules` sin enlaces estrictos (riesgo de dependencias fantasma, mitigado con typecheck por workspace).
+
+## ADR-002 — Puertos 3100 / 4100 / 5544 (Aceptada)
+- **Contexto**: el equipo ya ejecuta otros servicios en 3000, 5433, 3307, 8000 y 8080.
+- **Decisión**: web 3100, API 4100, Postgres publicado solo en `127.0.0.1:5544`; contenedor `macondo_db`.
+- **Consecuencias**: no tocar contenedores ni puertos ajenos; documentado en `CLAUDE.md`.
+
+## ADR-003 — NestJS + Prisma + PostgreSQL (Aceptada)
+- **Contexto**: API REST validada, roles, auditoría, migraciones reproducibles.
+- **Decisión**: NestJS 11 + Prisma 6 + PostgreSQL 16 (Docker). Validación con los esquemas zod de `packages/shared`.
+- **Consecuencias**: el contrato zod es la única fuente de verdad para API y web.
+
+## ADR-004 — Almacenamiento local con punto de extensión S3 (Aceptada)
+- **Contexto**: despliegue local sin nube; posible MinIO más adelante.
+- **Decisión**: `STORAGE_DRIVER=local` sobre `storage/`, detrás de una interfaz de proveedor; claves internas generadas por el servidor, SHA-256 calculado al subir.
+- **Consecuencias**: respaldo = `pg_dump` + `storage/`. Migrar a S3/MinIO implica solo un nuevo driver.
+
+## ADR-005 — PWA primero, contenedor nativo como respaldo (Provisional)
+- **Contexto**: Fire OS no trae Google Play; la persistencia de almacenamiento de una PWA no está garantizada.
+- **Decisión**: construir como PWA; preparar alternativa WebView/Capacitor con APK por *sideload* si fallan las pruebas 1, 4 o 5 de la matriz física.
+- **Consecuencias**: decisión final **pendiente de validación física** en una Fire HD 10 antes de desplegar en 30 unidades.
+
+## ADR-006 — JWT de corta duración para el personal; estudiantes anónimos (Aceptada)
+- **Contexto**: menores de edad (Ley 1581 de 2012); kiosco público.
+- **Decisión**: solo bibliotecarios/administradores se autentican (JWT de vida corta, contraseñas bcrypt, límite de intentos). Estudiantes y kiosco sin cuentas; progreso solo en el dispositivo; estadísticas agregadas sin identidad.
+- **Consecuencias**: no hay recuperación de progreso entre tablets; se minimiza el tratamiento de datos personales.
+
+## ADR-007 — Retirar, no borrar (Aceptada)
+- **Contexto**: trazabilidad de licencias y auditoría.
+- **Decisión**: `DELETE /api/admin/resources/:id` cambia el estado a `RETIRED`; el archivo y el historial se conservan. Las diapositivas de TV que lo referencien quedan con `resourceId = null` solo si el recurso se elimina físicamente (no previsto en v1).
+- **Consecuencias**: los recursos retirados no aparecen en catálogo ni en el manifest offline; el borrado físico (p. ej. por fin de licencia con obligación de destrucción) será un procedimiento administrativo aparte, auditado.
+
+## ADR-008 — Identidad corporativa Comfasucre por perfil (2026-10-31)
+**Contexto:** el usuario aportó `branding/` (guía `branding.md` + kit con CSS, fuentes, iconos y logos originales de PQR/Digiturno). La guía prefiere reutilizar los archivos originales y advierte que reinterpretar tokens no garantiza fidelidad. La web usa Next.js + Tailwind; Bootstrap/Velzon y Tailwind chocan si se cargan juntos.
+**Decisión:**
+- `/admin` → **perfil PQR con CSS originales** (`bootstrap.min.css`, `icons.min.css`, `app.min.css`, `custom*.css`, `pqr.css`, orden §14.3) y marcado `pqr-*`. Vive en un **root layout propio** (`src/app/(admin)/layout.tsx`), sin Tailwind; cruzar entre admin y portal provoca recarga completa, así que no hay fuga de estilos. Sin jQuery/Select2/Velzon JS: React gestiona el comportamiento (desviación documentada).
+- `/kiosco` → valores del **perfil kiosco Digiturno** (§3.4) como tokens Tailwind. No se carga `turnos-kiosco.css` (DOM distinto y reglas globales).
+- `/tv` → valores del **perfil pantalla de sala** (§3.5), Inter local. No se carga `turnos-pantalla-publica.css`.
+- Portal de estudiantes → **propuesta**: paleta PQR (§3.1/§10) con escalas grandes para niños; la guía no define un perfil público infantil y prohíbe usar las escalas compactas en portales públicos/kiosco.
+- Recursos copiados a `apps/web/public/brand/` (CSS sin modificar, fuentes OFL, Remix Icon, logos). Licencias: `public/brand/LICENCIAS-Y-ORIGEN.md`. La identidad Macondo (mariposa) queda solo como acento secundario.
+**Consecuencias:** alta fidelidad en admin; el resto depende de tokens (contraste verificado: 57 parejas, 0 fallos).
+**Actualización 2026-10-31 (usuario):** licencia de Velzon **confirmada** por Comfasucre para este proyecto. Estilo del portal estudiantil **aprobado** por el usuario (deja de ser propuesta). Icono PWA 512 px creado desde el logo original.
+
+## ADR-009 — Despliegue en EasyPanel con Docker (2026-10-31)
+**Contexto:** el destino de despliegue es EasyPanel. Se necesita acceso desde varias IP (tablets, kiosco, TV) durante el desarrollo.
+**Decisión:** un Dockerfile por app (`apps/api`, `apps/web`) con contexto en la raíz del monorepo; web en modo `standalone`; API ejecuta `prisma migrate deploy` (+ seed opcional `SEED_ON_START`) al arrancar; `docker-compose.yml` en la raíz usable local y como servicio Compose de EasyPanel. Solo la web se publica; API y DB quedan en la red interna. Desarrollo: `CORS_ORIGIN=*`, escucha en `0.0.0.0`, `ALLOWED_DEV_ORIGINS` para `next dev`.
+**Consecuencias:** antes de producción hay que restringir `CORS_ORIGIN`, cambiar secretos y desactivar el seed. Guía: `docs/DEPLOY-EASYPANEL.md`.
+
+## ADR-010 — Galerías ZIP, retos en base de datos y extras de recurso (2026-10-31)
+**Contexto:** los agentes de contenido producen galerías (carpeta con imágenes + `gallery.json`), retos (`retos/retos.json`) y audiobiografías/audioresúmenes con campos extra (ver `catalogo-dp/FORMATO.md`). El contrato no definía cómo almacenarlos ni servirlos.
+**Decisión:**
+- Galerías: se suben como **un ZIP** (formato `IMAGE_SET`, solo tipo `GALLERY`), validado con un lector ZIP propio sin dependencias y límites estrictos (traversal, symlinks, 1 nivel de carpeta, ≤ 60 entradas, ≤ 300 MB descomprimidos, proporción ≤ 100:1, CRC). Las imágenes se extraen a objetos individuales del `StorageProvider` (namespace `galleries`) y los metadatos a `Resource.gallery` (JSON). Se conserva el ZIP original como archivo del recurso.
+- Offline de galerías: se descargan **las imágenes individuales** (no el ZIP), cada una verificada con su SHA-256 del manifest (`OfflineManifestEntry.assets`, campo opcional y retrocompatible).
+- Retos: tabla `Challenge` con id = slug (importación idempotente), `payload` JSON validado con `ChallengeImportSchema` del contrato. La web conserva los retos incorporados como respaldo cuando la API está vacía o caída.
+- Extras: `Resource.extra` JSON validado con `ResourceExtraSchema` en alta/edición y revalidado al leer.
+- `ResourcePatchSchema`, `AdminStatsDTO` y `AuditEntryDTO` pasan al contrato compartido (la API los reexporta).
+**Consecuencias:** migración `20261101011334_gallery_challenges_extra` (se aplica sola al arrancar la API en Docker). La extracción se hace en memoria (aceptable con imágenes ≤ 1,5 MB; un ZIP de 300 MB descomprimidos usaría esa memoria de forma transitoria). El importador necesita el CLI `zip` para empaquetar carpetas.
+
+## ADR-011 — Proxy /api propio en streaming en lugar del rewrite de Next (2026-10-31)
+**Contexto:** con el rewrite de `next.config`, las subidas de varios MB (MP3/ZIP) se colgaban (medido: 12 MB → sin respuesta a los 60 s vía Next; 0,07 s directo a la API).
+**Decisión:** route handler `apps/web/src/app/api/[...path]/route.ts` que reenvía método, cabeceras y cuerpo en streaming (`duplex: 'half'`) y devuelve la respuesta tal cual (Range/206 incluido). `API_INTERNAL_URL` pasa a leerse en ejecución.
+**Evidencia:** subida 12 MB → 201 en 0,11 s; Range → 206; tests web 61/61, E2E 22/22.
+**Pendiente:** la API ve la IP del contenedor web; el límite de intentos de login es global, no por cliente (aceptable en desarrollo).
+
+## ADR-012 — Nuevas metas de capacidad y rediseño de Biblioteca TV (2026-10-31)
+**Contexto:** el usuario fijó nuevas metas (300 libros, 100 audiolibros, 50 audiobiografías, 20 audioresúmenes, 100 galerías = 570, más 100 retos lectores) y aportó una maqueta de TV con programación automática en 6 bloques de 20 s.
+**Decisión:** `CAPACITY_TARGETS` = 570 y `CHALLENGE_TARGET` = 100 en el contrato (KPI propio en el panel; los retos no suman a la capacidad de recursos). Nuevo `TvSlideKind.TUTORIAL` (migración `tv_tutorial_kind`, duración por defecto 20 s). Cada tipo se asigna a uno de 6 bloques (`TV_KIND_BLOCK`); el rail de la pantalla siempre muestra los 6 en orden fijo y la rotación sigue el `order` de las diapositivas. QR con origen público configurable (`?origin=`).
+**Consecuencias:** las diapositivas sin bloque propio (MESSAGE, GALLERY) se muestran como agenda/curiosidades; MESSAGE sin recurso conserva el tratamiento institucional (también para el respaldo).
+
+## ADR-013 — Miniaturas de portada en el servidor con `sharp`, cacheadas en el almacenamiento (2026-11-01)
+**Contexto:** las 570 portadas son PNG de 600×900 (~250 KB cada una). La página 1 del catálogo (24 tarjetas) descargaba 8,9 MB solo en portadas; en tablets Fire HD 10 por Wi-Fi local eso domina el tiempo de carga y el consumo de caché offline. Las opciones eran: (a) optimizar las portadas al subirlas (destructivo, pierde el original autorizado), (b) `next/image` (requiere que el servidor web descargue y procese imágenes de la API, y acopla la caché a Next), (c) miniaturas generadas por la API bajo demanda.
+**Decisión:** (c). `GET /api/resources/:id/cover?w=240|480` devuelve WebP generado por `sharp` en la primera petición y guardado como objeto derivado `thumbs/<uuid-portada>-w<ancho>.webp` a través del `StorageProvider` (nuevo método `put` con clave determinista; la interfaz sigue siendo el único punto de contacto con el disco, así que un driver S3/MinIO también cubriría las miniaturas). Solo anchos de una lista blanca (`COVER_THUMB_WIDTHS` en el contrato) para que nadie use la API como redimensionador arbitrario. El original se conserva intacto y se sigue sirviendo sin `w`. ETag/304 igual que la portada; al reemplazar la portada se borran las miniaturas de la anterior. Si la imagen no se puede decodificar se sirve el original (degradación, no error). En la web, `Cover` pide 240 px en cuadrículas y 480 px en fichas/TV con `srcset` y `width/height` fijos; el manifest offline entrega la miniatura pequeña.
+**Alternativas descartadas:** generar las miniaturas al subir la portada (habría exigido un backfill de las 570 existentes y bloquearía la subida; la generación perezosa reparte el coste y la primera visita ya la paga una sola vez); negociar JPEG según `Accept` (WebP tiene soporte en Silk/Chromium del parque de tablets; se deja como opción futura).
+**Evidencia:** API 44/44 + unitarias 8/8 (incluye miniatura real generada con `sharp`, 400 en anchos no permitidos, 304, limpieza al reemplazar portada, original si la imagen está dañada); web `Cover.test.tsx`; stack real: 8 939 728 B → 162 976 B en la página 1 del catálogo (−98,2 %). `sharp` 0.35 trae binarios precompilados (`@img/sharp-linux-arm64`/`x64` en el lockfile) y **no tiene script de instalación**, así que `npm ci` en `node:22-bookworm-slim` no necesita aprobación de `install-scripts` ni compilación.
+**Consecuencias:** `storage/thumbs/` crece hasta 2 archivos por portada (~5–12 KB cada uno; ~10 MB para 570 recursos). El respaldo puede omitir `thumbs/` (se regenera). Las miniaturas se generan con la CPU de la API en la primera petición (~40 ms por imagen en el servidor de desarrollo).
+
+## ADR-014 — Contenedor Android (WebView) + HTTPS local con CA propia para las Fire HD 10 (2026-11-01)
+**Contexto:** la simulación (`docs/FIRE-HD10-SIMULACION.md`, hallazgo 2) mostró que `http://IP:3100` no es contexto seguro en las tablets: sin service worker ni Cache Storage no hay descargas offline (pruebas 1, 4 y 5 del §7). ADR-005 preveía un contenedor nativo como respaldo exactamente para ese caso. Fire OS no tiene Google Play; el APK se instala por *sideload*.
+**Decisión:** (1) HTTPS en la LAN con una **CA local** de la biblioteca (`scripts/make-local-certs.sh` → `infra/certs/`) y un proxy Caddy opcional (`macondo-https`, perfil `https`, puerto 3443) que no altera `docker compose up -d`. (2) App Android `apps/android/` (`co.com.comfasucre.macondo`, minSdk 28) que envuelve la web en un WebView y **confía en esa CA mediante `network_security_config.xml`**, sin ignorar errores SSL en código. Navegación confinada al origen, modos Tablet/Kiosco/TV, modo kiosco con lock task si la app es *device owner* (ADB `dpm set-device-owner`) y PIN para salir. Página `/instalar` con QR, pasos y SHA-256. Se descarta Capacitor (dependencias y peso innecesarios para un WebView) y el *bypass* de SSL (anula TLS).
+**Consecuencias:** si se regenera la CA hay que recompilar el APK; el certificado de servidor (825 días) se reemite sin tocar la app. Con dominio público HTTPS (EasyPanel) basta cambiar la URL en Configuración. La compilación se hace en Docker (`eclipse-temurin:17-jdk`, linux/amd64) con el SDK local. El APK está compilado y verificado estáticamente, **no ejecutado en hardware**: ADR-005 sigue *provisional* hasta la matriz física (`docs/TESTING.md`). La PWA sigue siendo la vía para PCs y, con la CA instalada manualmente en la tablet, también para Silk.
+**Nota 1.1.0 (2026-11-01):** servidor por defecto `https://macondo.comfasucre.co` (dominio público: sin CA propia); la CA local queda como respaldo para `https://192.168.31.240:3443` sin internet. La app se extiende al **kiosco táctil Android de 32"** (Android ≥ 9): autoarranque (`RECEIVE_BOOT_COMPLETED`), alias HOME opcional para actuar como launcher, orientación, escala (`textZoom` + `?escala=`), endurecimiento de kiosco y acceso a Configuración por esquina (3 s) + PIN. Sigue sin ejecutarse en hardware.
+
+## ADR-015 — Adaptación al hardware real: tótem Android 32" con escala, TV en mini PC Windows con Edge kiosco (2026-11-01)
+**Contexto:** la biblioteca concretó el hardware (`docs/HARDWARE.md`): 30 Fire HD 10, un tótem táctil Android de 32" («tipo K», marca/versión/orientación aún sin confirmar; lo más probable vertical 1080×1920) usado por niños a 0,6–1 m, y un Dell OptiPlex 3000 Thin Client (Pentium N6005, Windows 11 Pro) conectado al televisor. El kiosco estaba maquetado para monitores de 22–24" horizontales y la TV solo se había verificado a 1080p.
+**Decisión:**
+- `/kiosco` admite `?escala=1|1.25|1.5|1.75` aplicado con **CSS `zoom`** en la raíz (respaldo `transform: scale` solo si el motor no admite `zoom`), persistido en `macondo.kiosk.config`; la maquetación se decide con el **tamaño efectivo** (ventana ÷ escala, `kioskLayout`) porque las media queries no cambian con `zoom`: vertical → 2 columnas de categorías (quinta a toda la fila) y 2–3 de recursos, ficha apilada con QR de 320 px; horizontal → como antes. Objetivos táctiles ≥ 56 px (categorías ≥ 72). Panel oculto de configuración por pulsación larga (3 s) en el logotipo, **sin PIN**: el bloqueo del público lo impone la app Android (lock task) o el modo kiosco del sistema; el panel solo toca presentación. La app Android pasa la escala en la URL (1.25–1.5).
+- `/tv` en el mini PC: **Microsoft Edge `--kiosk`** lanzado por una tarea programada al iniciar sesión (paquete `infra/tv-windows/`: instalador PowerShell idempotente, inicio manual, desinstalador, guía), en lugar del «Acceso asignado» de Windows (exige UWP o política de dispositivo) o de un reproductor de señalización. Energía/protector/bloqueo se fijan por `powercfg` y registro HKCU; la CA local solo se instala cuando la URL es una IP privada por HTTPS. URL por defecto `https://macondo.comfasucre.co/tv`; respaldo LAN con `?origin=`. Nuevo `?animaciones=0` para desactivar transiciones en equipos modestos (equivalente manual de `prefers-reduced-motion`).
+**Consecuencias:** un solo APK y una sola web sirven a tablets, tótem y TV. La orientación real del tótem no cambia el código (se detecta), pero sí el valor recomendado de escala, que se fija en el dispositivo. Los scripts de Windows se validaron por revisión (sin `pwsh` ni equipo Windows en el entorno) y la primera instalación la hace el técnico con el registro a la vista. Todo lo que depende del hardware sigue **pendiente de validación física**; las incógnitas (marca/Android/orientación del tótem, resolución del televisor) quedan listadas en `docs/HARDWARE.md`.
+
+
+## ADR-016 — Imagen todo en uno para EasyPanel (2026-11-02)
+**Contexto:** al subir el ZIP a EasyPanel como un único servicio «App», EasyPanel usó Nixpacks (no había `Dockerfile` en la raíz) y la construcción falló; además un solo servicio no puede levantar API y web por separado.
+**Decisión:** `Dockerfile` en la raíz que construye API + web en una sola imagen; `infra/docker/start-all.sh` aplica migraciones, seed opcional, arranca la API en `127.0.0.1:4100` (no expuesta) y la web en `$PORT` (3100) que reenvía `/api/*`; si un proceso muere, el contenedor termina para que EasyPanel lo reinicie. Un volumen (`/app/storage`) y un servicio Postgres. Las opciones Compose / dos servicios se mantienen.
+**Consecuencias:** despliegue sin configurar el build; la imagen es más grande (incluye dependencias de ambas apps); escalar API y web por separado requeriría volver a la opción B.
+
+## ADR-017 — Narración sintética en el servidor con Piper `es_ES-davefx-medium` como proceso aparte (2026-11-05)
+**Contexto:** las audiobiografías y audioresúmenes propios se narraban con voces sintéticas generadas fuera de la app (macOS «Paulina» en la demo; Piper `es_ES-carlfm-x_low`, 16 kHz, en el lote de `catalogo-dp/`), «inteligibles pero robóticas», y regrabar exigía correr scripts en un equipo del desarrollador. Se generaron muestras del mismo párrafo con cuatro candidatas (`entregables/muestras-voz/LEEME.md`): Piper `es_ES-carlfm-x_low` (actual), Kokoro-82M `ef_dora`/`em_alex` (Apache 2.0; +1,7 GB de imagen, torch en CPU, 0,2–0,5× tiempo real), Piper `es_MX-claude-high` (MIT · Apache 2.0, acento mexicano), Piper `es_ES-davefx-medium` (datos CC0, transcripción perfecta con whisper) y MeloTTS-Spanish (MIT; no llegó a generarse: +3 GB, dependencias frágiles). También se consideró un servicio en la nube con voz es-CO: descartado porque el texto saldría del servidor de la biblioteca y exigiría internet y contrato.
+**Decisión:** el usuario **escuchó las muestras y eligió Piper `es_ES-davefx-medium`**. Se integra la síntesis **en el servidor**: `TtsService` lanza Piper (`piper-tts` 1.8.0, GPL-3) como **proceso independiente** en su venv (`/opt/piper-venv`) — nunca se enlaza con la API (código MIT/propio), de modo que la GPL no alcanza al resto del software — y codifica a MP3 con `lame`. La voz (modelo + dataset CC0) se descarga en el build de las dos imágenes y se verifica por SHA-256. Endpoint `POST /api/admin/resources/:id/narrar` y botón «Regrabar con la voz de la biblioteca» en el panel; crédito fijo `TTS_VOICE_CREDIT` en `narrator`.
+**Consecuencias:** +≈260 MB por imagen (venv 156 MB + voz 63 MB + Python mínimo y lame 39 MB); regrabar un recurso es un clic auditado y el texto nunca sale del servidor; síntesis ~100× más rápida que tiempo real en CPU. Acento de España (no colombiano): si se quiere acento latino se cambia el `.onnx` (`es_MX-claude-high`) sin tocar código. Sin Piper instalado (desarrollo local) la función responde 503 y el resto de la app no cambia. La narración humana con cesión de derechos sigue siendo el objetivo final para producción (CONTENT-LICENSING).
+
+
+## ADR-018 — Taller de cuentos con DeepSeek, revisión obligatoria de la bibliotecaria y plantilla propia como respaldo (2026-11-05)
+**Contexto:** la especificación pide «Construye tu cuento»: cuentos infantiles escritos con IA y narrados, para que estudiantes de primaria creen historias ambientadas en Sucre. Riesgos: contenido inadecuado para menores, datos personales de niños saliendo a un proveedor externo (Ley 1581), dependencia de internet en una biblioteca que funciona en red local, costo y abuso (muchas peticiones desde tablets compartidas).
+**Decisión:**
+1. **Proveedor**: DeepSeek (Chat Completions compatible con OpenAI, modelo `deepseek-chat`, `response_format: json_object`), elegido por el usuario por costo y disponibilidad; detrás de una interfaz `LlmProvider` para poder cambiarlo (OpenAI, Gemini, un modelo local) sin tocar el servicio. Clave solo en el servidor (`DEEPSEEK_API_KEY`), nunca en el navegador ni en los registros.
+2. **Privacidad por diseño**: al proveedor viajan únicamente la banda, tres opciones cerradas y el nombre del protagonista (validado: letras, 2–30, lista de bloqueo). El nombre de autor que el niño escribe (opcional) se guarda solo en nuestra BD y aparece en el catálogo si la bibliotecaria aprueba. No se guardan IP ni cuentas: un id aleatorio por tablet (localStorage) cuyo SHA-256 sirve solo para el límite de 3 cuentos por hora (más un tope global).
+3. **Nada se publica sin revisión humana**: el cuento queda `PENDING_REVIEW`; solo al aprobar se crean el libro EPUB (con portada) y el audiolibro en el catálogo, con licencia propia de la biblioteca. Rechazar no borra (queda auditado).
+4. **Controles automáticos antes de guardar**: prompt del sistema fijo (sin violencia, miedo, romance, marcas, religión ni política; lugares reales de Sucre; longitud por banda; JSON estricto), validación zod + lista de bloqueo propia + heurística de español + límites de longitud; un reintento con prompt más estricto; si falla, plantilla.
+5. **Modo plantilla**: generador determinista con fragmentos escritos por nosotros (4 tipos × 4 lugares × 4 valores, nombre insertado, ~250 palabras, 3 preguntas y glosario) cuando no hay clave, no hay internet o el proveedor falla. La interfaz lo dice con honestidad («Hoy el cuento lo armamos con nuestras plantillas»). Así el taller funciona también en modo red local.
+6. **Audio**: narración con la voz de la biblioteca (ADR-017) en segundo plano; sin motor el cuento sigue sin audio.
+**Alternativas descartadas:** generar en el navegador (expondría la clave), publicar automáticamente (sin revisión no es aceptable para menores), enviar el nombre del autor al modelo para «firmar» el cuento (innecesario: se añade localmente), guardar IP para el límite (dato personal innecesario), un modelo local en el servidor de la biblioteca (sin GPU; posible futuro detrás de la misma interfaz).
+**Consecuencias:** dependencia opcional de internet solo para el modo IA; la bibliotecaria tiene una cola nueva de revisión (KPI en el Resumen); costo por cuento ≈ 1 800 tokens; el DNS de algunas redes bloquea `api.deepseek.com` (en compose se fija DNS público; sin resolución, la API pasa a plantilla y lo registra). Verificado en vivo el 2026-11-05 (TESTING.md). Pendiente: valorar el acento colombiano en la voz y una revisión pedagógica de las plantillas.

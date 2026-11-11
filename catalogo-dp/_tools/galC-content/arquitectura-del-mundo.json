@@ -1,0 +1,32 @@
+{
+ "title": "Arquitectura del mundo",
+ "description": "Catedrales, templos, palacios y castillos de distintos continentes y épocas: de Santa Sofía y Notre-Dame a Angkor Wat, la Ciudad Prohibida, el castillo de Himeji y la Sagrada Familia.",
+ "gradeMin": 5, "gradeMax": 11,
+ "categories": ["Artes", "Arquitectura", "Historia", "Patrimonio mundial"],
+ "cover": 3,
+ "items": [
+  ["Gran edificio de color rosado con una enorme cúpula central rodeada de cúpulas menores y cuatro minaretes.",
+   "Santa Sofía, en Estambul (Turquía), se construyó en el año 537 como iglesia cristiana y luego fue mezquita. Su cúpula de 31 metros fue una maravilla de la ingeniería durante siglos."],
+  ["Fachada de una catedral gótica de piedra clara con tres grandes portales llenos de esculturas.",
+   "La catedral de Notre-Dame de París, de estilo gótico, se empezó a construir en 1163. Sus portales están decorados con cientos de esculturas que contaban historias a quienes no sabían leer."],
+  ["Gran templo de piedra con cinco torres en forma de flor de loto, reflejado en un estanque bajo un cielo con nubes.",
+   "Angkor Wat, en Camboya, construido en el siglo XII, es el monumento religioso más grande del mundo. Sus torres representan las cumbres del monte Meru, morada de los dioses."],
+  ["Vista panorámica de un palacio chino con techos de tejas amarillas sobre una gran terraza de mármol blanco y una plaza enorme.",
+   "El Salón de la Suprema Armonía, en la Ciudad Prohibida de Pekín, era el lugar de las grandes ceremonias de los emperadores de China. El palacio tiene casi mil edificios."],
+  ["Techo de una iglesia moderna con columnas que se ramifican como árboles y bóvedas llenas de formas y luz.",
+   "Interior de la Sagrada Familia de Barcelona, diseñada por Antoni Gaudí. Sus columnas imitan un bosque de árboles; la obra empezó en 1882 y todavía se está terminando."],
+  ["Castillo japonés blanco de varios pisos con techos curvos superpuestos, sobre una base de piedra.",
+   "El castillo de Himeji (Japón), del siglo XVII, es llamado 'la Garza Blanca' por sus muros blancos. Ha sobrevivido a guerras y terremotos."],
+  ["Iglesia con varias cúpulas de colores en forma de cebolla, con rayas y escamas, frente a un cielo azul.",
+   "La catedral de San Basilio, en Moscú (Rusia), fue construida entre 1555 y 1561. Sus cúpulas de colores en forma de cebolla son un símbolo de la arquitectura rusa."],
+  ["Pabellón con arcos muy finos y columnas delgadas decorados con encajes de yeso tallado.",
+   "Pabellón del Patio de los Leones, en la Alhambra de Granada (España), palacio construido por los reyes nazaríes entre los siglos XIII y XIV. Sus paredes parecen encajes tallados en yeso."]
+ ],
+ "questions": [
+  ["¿Quién diseñó la Sagrada Familia?", ["Antoni Gaudí", "Gustave Eiffel", "Miguel Ángel"], 0, "Sus columnas imitan árboles."],
+  ["¿En qué país está Angkor Wat?", ["Camboya", "Japón", "México"], 0, "Es el monumento religioso más grande del mundo."],
+  ["¿Cómo llaman al castillo de Himeji por su color?", ["La Garza Blanca", "El Dragón Rojo", "La Torre Negra"], 0, "Sus muros son blancos."],
+  ["¿Qué forma tienen las cúpulas de San Basilio?", ["De cebolla", "De pirámide", "De cubo"], 0, "Son un símbolo de la arquitectura rusa."]
+ ],
+ "reviewNotes": null
+}

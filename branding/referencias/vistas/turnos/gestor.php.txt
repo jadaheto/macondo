@@ -1,0 +1,947 @@
+<?php
+$rotuloDestinoGestor = static function ($destino) {
+    $nombre = $destino['destino_publico'] ?? $destino['nombre_modulo'] ?? $destino['nombre'] ?? 'Módulo';
+    return $nombre . (($destino['tipo_destino'] ?? 'MODULO') === 'OFICINA' && !empty($destino['nombre_puesto']) ? ' · '.$destino['nombre_puesto'] : '');
+};
+$esOficinaGestor = false;
+foreach (($modulos ?? []) as $destinoGestor) {
+    if ((int)$destinoGestor['id'] === (int)$puesto_id) {
+        $esOficinaGestor = ($destinoGestor['tipo_destino'] ?? 'MODULO') === 'OFICINA';
+        break;
+    }
+}
+?>
+<link rel="stylesheet" href="<?= base_url('assets/css/turnos-gestor.css') ?>?v=<?= (int)filemtime(FCPATH.'assets/css/turnos-gestor.css') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/css/turnos-avisos.css') ?>?v=<?= (int)filemtime(FCPATH.'assets/css/turnos-avisos.css') ?>">
+<script src="<?= base_url('assets/js/turnos-avisos.js') ?>?v=<?= (int)filemtime(FCPATH.'assets/js/turnos-avisos.js') ?>"></script>
+<div class="main-content gt-main">
+  <div class="page-content gt-page">
+    <div class="container-fluid gestor-turnos" data-puesto-id="<?= (int)$puesto_id ?>" data-avisos-base="<?= html_escape(base_url()) ?>">
+      <header class="gt-toolbar">
+        <div class="gt-title">
+          <h4>Gestor de turnos</h4>
+          <details class="gt-coverage">
+            <summary><i class="ri-information-line" aria-hidden="true"></i> Servicios y ayuda</summary>
+            <div class="gt-coverage-content">
+              <p id="dependenciasModuloGestor" aria-live="polite"></p>
+              <p class="mb-0">Puedes cambiar a un módulo o puesto libre si no tienes un turno activo.</p>
+              <p id="estadoAvisosGestor" class="small mt-2 mb-0" role="status">Avisos de escritorio desactivados</p>
+            </div>
+          </details>
+        </div>
+        <div class="gt-destination-control">
+          <label for="selectorModuloGestor" class="form-label">Módulo / oficina y puesto</label>
+          <select id="selectorModuloGestor" class="form-select">
+            <?php foreach ($modulos as $modulo): ?>
+              <?php $ocupadoOtro = !empty($modulo['ocupado']) && empty($modulo['ocupado_por_mi']); ?>
+              <option value="<?= (int)$modulo['id'] ?>" <?= (int)$modulo['id'] === (int)$modulo_id ? 'selected' : '' ?> <?= $ocupadoOtro ? 'disabled' : '' ?>>
+                <?= htmlspecialchars($rotuloDestinoGestor($modulo), ENT_QUOTES, 'UTF-8') ?>
+                <?= $ocupadoOtro ? ' · Ocupado' : '' ?>
+                <?= empty($modulo['disponibilidad']['disponible']) ? ' · No disponible' : '' ?>
+              </option>
+            <?php endforeach; ?>
+          </select>
+        </div>
+        <div id="moduloDisponibilidad" class="modulo-disponibilidad">
+          <div class="gt-availability-text">
+            <div class="d-flex align-items-center gap-2"><span class="estado-dot" aria-hidden="true"></span><span id="moduloDisponibilidadTexto" class="estado-texto">Disponible</span></div>
+            <div id="moduloDisponibilidadDetalle" class="text-muted small">Listo para llamar turnos.</div>
+          </div>
+          <button type="button" id="btnToggleDisponibilidad" class="btn btn-outline-secondary btn-sm"><i class="ri-pause-circle-line me-1" aria-hidden="true"></i> Pausar</button>
+          <div class="dropdown gt-session-menu">
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" id="btnOpcionesJornada"><i class="ri-settings-3-line" aria-hidden="true"></i> Jornada</button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="btnOpcionesJornada">
+              <li><button type="button" id="btnCerrarJornada" class="dropdown-item text-danger"><i class="ri-logout-box-line me-1" aria-hidden="true"></i> Cerrar jornada</button></li>
+              <li><button type="button" id="btnExtenderJornada" class="dropdown-item"><i class="ri-time-line me-1" aria-hidden="true"></i> Extender jornada</button></li>
+              <li><button type="button" id="btnAvisosGestor" class="dropdown-item">Activar avisos en este computador</button></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><button type="button" id="btnLiberarPuesto" class="dropdown-item"><i class="ri-logout-circle-r-line me-1" aria-hidden="true"></i> <span id="btnLiberarPuestoTexto"><?= $esOficinaGestor ? 'Liberar puesto' : 'Liberar módulo' ?></span></button></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="gt-workspace">
+        <section class="card gt-current" aria-labelledby="gtActualTitle">
+          <div class="card-header gt-current-header">
+            <div class="gt-card-heading"><h5 class="card-title" id="gtActualTitle"><i class="ri-ticket-2-line" aria-hidden="true"></i> Turno actual</h5><span id="estadoActualBadge" class="badge bg-secondary-subtle text-secondary">Sin turno</span></div>
+            <button type="button" class="btn btn-primary" id="btnLlamarSiguiente"><i class="ri-notification-3-line" aria-hidden="true"></i> Llamar siguiente</button>
+          </div>
+          <div class="gt-turn-scroll" tabindex="0" role="region" aria-label="Datos del turno actual">
+            <div id="turnoActualEmpty" class="gt-empty text-muted"><i class="ri-user-search-line" aria-hidden="true"></i><strong>No hay turno en atención.</strong><span>Usa «Llamar siguiente» para comenzar.</span></div>
+            <div id="turnoActualPanel" class="d-none">
+              <div class="gt-turn-heading">
+                <div><div class="text-muted small">Código del turno</div><div id="turnoNumero">—</div></div>
+                <div class="gt-turn-destination"><div id="turnoModulo">—</div><div id="turnoDependencia" class="text-muted">—</div><span id="turnoLlamados" class="badge bg-info-subtle text-info">0 llamados</span></div>
+              </div>
+              <div class="gt-person"><i class="ri-user-line" aria-hidden="true"></i><div><div id="turnoNombre">—</div><div id="turnoDocumento" class="text-muted">—</div></div></div>
+              <div class="gt-metrics">
+                <div><i class="ri-time-line" aria-hidden="true"></i><span class="text-muted">Tiempo de atención</span><strong id="turnoDuracion">—</strong></div>
+                <div><i class="ri-star-line" aria-hidden="true"></i><span class="text-muted">Prioridad</span><strong id="turnoPrioridad">Normal</strong></div>
+              </div>
+              <details id="datosTurnoGestor" class="gt-details">
+                <summary><i class="ri-information-line" aria-hidden="true"></i><span>Información del turno</span><small class="text-muted">Contacto y fechas</small><i class="ri-arrow-down-s-line gt-details-arrow" aria-hidden="true"></i></summary>
+                <div class="gt-details-content">
+                  <section class="gt-detail-section gt-contact">
+                    <div class="gt-detail-title"><i class="ri-contacts-book-line" aria-hidden="true"></i><span>Contacto</span></div>
+                    <div id="turnoContacto" class="gt-contact-value">—</div>
+                  </section>
+                  <section class="gt-detail-section">
+                    <div class="gt-detail-title"><i class="ri-calendar-event-line" aria-hidden="true"></i><span>Fechas del turno</span></div>
+                    <dl class="gt-dates"><div><dt>Generado</dt><dd id="turnoCreado">—</dd></div><div><dt>Llamado</dt><dd id="turnoLlamado">—</dd></div><div><dt>Inicio atención</dt><dd id="turnoInicio">—</dd></div></dl>
+                  </section>
+                </div>
+              </details>
+            </div>
+          </div>
+          <footer class="gestion-stage d-none" id="accionesTurnoGestor">
+            <div id="textoEtapaGestion" class="text-muted small" aria-live="polite"></div>
+            <div class="acciones-gestion" aria-label="Acciones del turno">
+              <button type="button" class="btn btn-success accion-turno" data-accion="iniciar"><i class="ri-play-circle-line" aria-hidden="true"></i> Iniciar gestión</button>
+              <button type="button" class="btn btn-success accion-turno" data-accion="finalizar"><i class="ri-check-line" aria-hidden="true"></i> Finalizar atención</button>
+              <button type="button" class="btn btn-soft-info accion-turno" data-accion="rellamar"><i class="ri-volume-up-line" aria-hidden="true"></i> Rellamar</button>
+              <button type="button" class="btn btn-light" id="btnAbrirTransferencia"><i class="ri-arrow-left-right-line" aria-hidden="true"></i> Transferir</button>
+              <button type="button" class="btn btn-light accion-turno" data-accion="ausente"><i class="ri-user-unfollow-line" aria-hidden="true"></i> Ausente</button>
+              <button type="button" class="btn btn-light accion-turno" data-accion="cancelar"><i class="ri-close-circle-line" aria-hidden="true"></i> Cancelar</button>
+            </div>
+          </footer>
+        </section>
+        <section class="card gt-queue" aria-labelledby="gtQueueTitle">
+          <div class="card-header gt-queue-header"><div><h5 class="card-title" id="gtQueueTitle"><i class="ri-group-line" aria-hidden="true"></i> Cola disponible</h5><p class="text-muted mb-0">Según los servicios de tu módulo o puesto.</p></div><button type="button" id="gtColaCantidad" class="btn btn-soft-primary gt-pending-indicator" aria-label="Ver aviso de turnos pendientes" title="Ver aviso de pendientes" disabled>0</button></div>
+          <div id="listaCola" class="list-group list-group-flush gt-queue-scroll" tabindex="0" role="region" aria-label="Turnos pendientes disponibles"><div class="text-center text-muted py-4">Cargando cola...</div></div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade gt-pending-modal" id="modalPendientesGestor" tabindex="-1" aria-labelledby="gtAvisoTitulo" aria-describedby="gtAvisoDescripcion" aria-hidden="true" data-bs-backdrop="static">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="btn-close gt-pending-close" data-bs-dismiss="modal" aria-label="Cerrar aviso"></button>
+      <div class="modal-body">
+        <div class="gt-pending-icon" aria-hidden="true"><i class="ri-notification-3-line"></i></div>
+        <p class="gt-pending-eyebrow">GESTIÓN DE TURNOS</p>
+        <h2 id="gtAvisoTitulo">Hay afiliados esperando</h2>
+        <div class="gt-pending-count" id="gtAvisoCantidad">0</div>
+        <p id="gtAvisoDescripcion">Turnos pendientes que puedes atender</p>
+        <p class="gt-pending-destination" id="gtAvisoDestino"></p>
+        <ul class="gt-pending-services" id="gtAvisoDependencias" aria-label="Dependencias con pendientes"></ul>
+        <p class="gt-pending-help">Revisa la cola para comenzar. Este aviso no llama turnos automáticamente.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar aviso</button>
+        <button type="button" class="btn btn-primary" id="gtAvisoVerCola"><i class="ri-group-line me-1" aria-hidden="true"></i> Ver cola</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalTransferir" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Transferir turno</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="transferTurnoId">
+        <div class="mb-3">
+          <label for="transferDependencia" class="form-label">1. Servicio que necesita en el destino</label>
+          <select id="transferDependencia" class="form-select"></select>
+          <div class="form-text">Si vas a otra área, selecciona su servicio; por ejemplo, Vivienda. La dependencia actual solo se conserva si el destino también la atiende.</div>
+        </div>
+        <div class="mb-3">
+          <label for="transferModulo" class="form-label">2. Módulo / oficina y puesto de destino</label>
+          <select id="transferModulo" class="form-select" required></select>
+          <div class="form-text">Úsalo solo cuando el turno deba quedar reservado para un módulo o puesto específico.</div>
+          <div id="transferAyudaDestino" class="form-text" role="status"></div>
+        </div>
+        <div class="mb-0">
+          <label for="transferObservacion" class="form-label">Observación</label>
+          <textarea id="transferObservacion" class="form-control" rows="3" placeholder="Motivo o indicación para el siguiente gestor"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" id="btnConfirmarTransferencia">
+          <i class="ri-arrow-left-right-line me-1"></i> Transferir a cola
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalDisponibilidad" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Pausar módulo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="disponibilidadMotivo" class="form-label">Motivo</label>
+          <select id="disponibilidadMotivo" class="form-select">
+            <option value="BANO">Baño</option>
+            <option value="TAREA_INTERNA">Tarea interna</option>
+            <option value="ALMUERZO">Almuerzo</option>
+            <option value="NO_ASISTIO">No asistió</option>
+            <option value="SOPORTE">Soporte</option>
+            <option value="OTRO">Otro</option>
+          </select>
+        </div>
+        <div class="mb-0">
+          <label for="disponibilidadObservacion" class="form-label">Observación <span class="text-muted">(opcional)</span></label>
+          <textarea id="disponibilidadObservacion" class="form-control" rows="3" maxlength="500" placeholder="Detalle breve para control operativo"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary" id="btnConfirmarNoDisponible">
+          <i class="ri-pause-circle-line me-1"></i> Pausar módulo
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="<?= base_url('assets/js/turnos-fechas.js') ?>?v=<?= (int)filemtime(FCPATH.'assets/js/turnos-fechas.js') ?>"></script>
+<script src="<?= base_url('assets/js/turnos-hora-editor.js') ?>?v=<?= (int)filemtime(FCPATH.'assets/js/turnos-hora-editor.js') ?>"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const baseGestorUrl = '<?= base_url('turnos/gestor') ?>';
+    // Compatibility variable name; its value is always the physical desk ID.
+    const moduloIdInicial = parseInt($('.gestor-turnos').data('puesto-id'), 10) || 0;
+    const endpoints = {
+        estado: '<?= base_url('turnos/api_gestor_estado') ?>',
+        llamar: '<?= base_url('turnos/api_llamar_siguiente') ?>',
+        rellamar: '<?= base_url('turnos/api_rellamar_turno') ?>',
+        iniciar: '<?= base_url('turnos/api_iniciar_atencion') ?>',
+        finalizar: '<?= base_url('turnos/api_finalizar_turno') ?>',
+        ausente: '<?= base_url('turnos/api_marcar_ausente') ?>',
+        cancelar: '<?= base_url('turnos/api_cancelar_turno') ?>',
+        transferir: '<?= base_url('turnos/api_transferir_turno') ?>',
+        disponibilidadEstado: '<?= base_url('turnos/api_modulo_disponibilidad_estado') ?>',
+        marcarDisponible: '<?= base_url('turnos/api_modulo_marcar_disponible') ?>',
+        marcarNoDisponible: '<?= base_url('turnos/api_modulo_marcar_no_disponible') ?>',
+        cerrarJornada: '<?= base_url('turnos/api_modulo_cerrar_jornada') ?>',
+        extenderJornada: '<?= base_url('turnos/api_modulo_extender_jornada') ?>',
+        tomarModulo: '<?= base_url('turnos/api_tomar_modulo') ?>',
+        liberarModulo: '<?= base_url('turnos/api_liberar_modulo') ?>'
+    };
+
+    let moduloId = moduloIdInicial;
+    let turnoActual = null;
+    let modulos = [];
+    let modulosDestino = [];
+    let dependencias = [];
+    let disponibilidadModulo = { disponible: true, estado: 'DISPONIBLE', label: 'Disponible' };
+    let puedeTransferir = true;
+    let estadoPeticion = null;
+    const gestorRoot = document.querySelector('.gestor-turnos');
+    const gestorWorkspace = gestorRoot.querySelector('.gt-workspace');
+    let layoutFrame = 0;
+    function ajustarEspacioGestor() {
+        layoutFrame = 0;
+        const footer = document.querySelector('.footer');
+        const footerRect = footer && footer.getBoundingClientRect();
+        const footerPosition = footer && getComputedStyle(footer).position;
+        const footerHeight = footer && ['fixed', 'sticky', 'absolute'].includes(footerPosition) && footerRect.height > 0 ? Math.ceil(footerRect.height) : 0;
+        const page = gestorRoot.closest('.gt-page');
+        const bottomReserve = Math.max(footerHeight, parseFloat(getComputedStyle(page).paddingBottom) || 0);
+        const wide = gestorRoot.clientWidth >= 900 && window.innerHeight >= 560;
+        let actionClearance = footerHeight;
+        if (!wide) {
+            const cardRect = gestorRoot.querySelector('.gt-current').getBoundingClientRect();
+            document.querySelectorAll('.cs-chat-fab, #back-to-top').forEach(function (widget) {
+                const rect = widget.getBoundingClientRect();
+                if (getComputedStyle(widget).position === 'fixed' && rect.width && rect.height && rect.left < cardRect.right && rect.right > cardRect.left) {
+                    actionClearance = Math.max(actionClearance, window.innerHeight - rect.top + 8);
+                }
+            });
+        }
+        gestorRoot.style.setProperty('--gt-footer-clearance', actionClearance + 'px');
+        gestorRoot.classList.toggle('gt-wide', wide);
+        const available = window.innerHeight - (gestorWorkspace.getBoundingClientRect().top + window.scrollY) - bottomReserve - 8;
+        // A minimum preserves readability when zoom or unusually tall headers need page scrolling.
+        gestorRoot.style.setProperty('--gt-workspace-height', Math.max(320, Math.floor(available)) + 'px');
+    }
+    function programarAjusteGestor() {
+        if (!layoutFrame) layoutFrame = requestAnimationFrame(ajustarEspacioGestor);
+    }
+    window.addEventListener('resize', programarAjusteGestor);
+    window.addEventListener('scroll', programarAjusteGestor, { passive: true });
+    window.addEventListener('load', programarAjusteGestor);
+    document.addEventListener('fullscreenchange', programarAjusteGestor);
+    if (window.ResizeObserver) {
+        const layoutObserver = new ResizeObserver(programarAjusteGestor);
+        layoutObserver.observe(gestorRoot);
+        layoutObserver.observe(gestorRoot.querySelector('.gt-toolbar'));
+        const appFooter = document.querySelector('.footer');
+        if (appFooter) layoutObserver.observe(appFooter);
+    }
+    ajustarEspacioGestor();
+    let serverClientOffsetMs = 0;
+    let serverClockBogotaOffsetMs = 0;
+    const modalTransferir = new bootstrap.Modal(document.getElementById('modalTransferir'));
+    const modalDisponibilidad = new bootstrap.Modal(document.getElementById('modalDisponibilidad'));
+
+    function escapeHtml(value) {
+        return String(value || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function rotuloDestino(destino) {
+        const nombre = destino.destino_publico || destino.nombre_modulo || destino.nombre || ('Módulo ' + (destino.modulo_id || '--'));
+        return nombre + (destino.tipo_destino === 'OFICINA' && destino.nombre_puesto ? ' · ' + destino.nombre_puesto : '');
+    }
+
+    function esOficinaActual() {
+        const destino = modulos.find(function (m) { return Number(m.id) === moduloId; });
+        return !!destino && destino.tipo_destino === 'OFICINA';
+    }
+
+    function formatFecha(value) {
+        return TurnosFecha.fechaHora(value, {fecha: 'iso'});
+    }
+
+    function parseFechaLocal(value) {
+        if (!value) return null;
+        const limpio = String(value).replace(' ', 'T').replace(/\.\d+$/, '');
+        const fecha = new Date(limpio);
+        return isNaN(fecha.getTime()) ? null : fecha;
+    }
+
+    function ahoraServidorMs() {
+        return Date.now() + serverClientOffsetMs;
+    }
+
+    function formatDuracion(ms) {
+        if (!ms || ms < 0) return '0 min 00 s';
+        const totalSegundos = Math.floor(ms / 1000);
+        const horas = Math.floor(totalSegundos / 3600);
+        const minutos = Math.floor((totalSegundos % 3600) / 60);
+        const segundos = totalSegundos % 60;
+        if (horas > 0) return horas + ' h ' + String(minutos).padStart(2, '0') + ' min';
+        return minutos + ' min ' + String(segundos).padStart(2, '0') + ' s';
+    }
+
+    function actualizarDuracionAtencion() {
+        if (!turnoActual || !turnoActual.iniciado_en) {
+            $('#turnoDuracion').removeClass('tiempo-atencion-activo').text('--');
+            return;
+        }
+        const inicio = parseFechaLocal(turnoActual.iniciado_en);
+        if (!inicio) {
+            $('#turnoDuracion').removeClass('tiempo-atencion-activo').text('--');
+            return;
+        }
+        $('#turnoDuracion')
+            .addClass('tiempo-atencion-activo')
+            .text(formatDuracion(ahoraServidorMs() - inicio.getTime()));
+    }
+
+    function nombrePersona(t) {
+        const partes = [t.primer_nombre, t.segundo_nombre, t.primer_apellido, t.segundo_apellido].filter(Boolean);
+        return partes.length ? partes.join(' ') : (t.nombre_afiliado || 'Sin nombre registrado');
+    }
+
+    function documento(t) {
+        return [t.tipo_id, t.num_id].filter(Boolean).join(' ') || '--';
+    }
+
+    function contacto(t) {
+        const datos = [];
+        if (t.celular) datos.push('Cel. ' + t.celular);
+        if (t.telefono) datos.push('Tel. ' + t.telefono);
+        if (t.email) datos.push(t.email);
+        return datos.join(' · ') || 'Sin contacto registrado';
+    }
+
+    function codigoTurno(t) {
+        return (t && (t.numero_formateado || t.turno_codigo || t.numero)) || '--';
+    }
+
+    let ultimaCargaCompleta = 0;
+    function navegadorAvisos() {try{return window.TurnosAvisosNavegador?.() || localStorage.getItem('app_comfasucre_device_id') || '';}catch(_){return '';}}
+    function cargarEstado(soloAvisos) {
+        if (accionEnCurso || estadoPeticion) return;
+        soloAvisos = soloAvisos === true;
+        const version = estadoVersion;
+        estadoPeticion=$.ajax({url:endpoints.estado,data:{puesto_id:moduloId,navegador_id:navegadorAvisos(),solo_avisos:soloAvisos?'1':'0'},dataType:'json',timeout:10000})
+            .done(function (resp) {
+                if (accionEnCurso || version !== estadoVersion) return;
+                if (!resp || !resp.ok) {
+                    window.dispatchEvent(new CustomEvent('turnos:gestor-invalido',{detail:{revocado:true}}));
+                    Swal.fire('Atención', (resp && resp.msg) || 'No fue posible cargar el gestor.', 'warning');
+                    return;
+                }
+                if(soloAvisos){
+                    window.dispatchEvent(new CustomEvent('turnos:gestor-estado',{detail:{avisos:resp.avisos_cola || null,ligero:true}}));
+                    return;
+                }
+                ultimaCargaCompleta = Date.now();
+
+                const serverNow = parseFechaLocal(resp.server_now);
+                if (serverNow) {
+                    serverClientOffsetMs = serverNow.getTime() - Date.now();
+                }
+                // Presentation clock is explicit Bogotá; duration keeps its existing parser.
+                const serverClockBogota = TurnosFecha.parse(resp.server_now);
+                if (serverClockBogota) {
+                    serverClockBogotaOffsetMs = serverClockBogota.getTime() - Date.now();
+                }
+
+                turnoActual = resp.turno_actual || null;
+                puedeTransferir = resp.puede_transferir !== false;
+                modulos = resp.modulos || [];
+                modulosDestino = resp.modulos_destino || [];
+                dependencias = resp.dependencias || [];
+                $('#dependenciasModuloGestor').text('Dependencias que atiende: ' + ((resp.dependencias_modulo || []).map(function(d){return d.nombre;}).join(' · ') || 'Sin dependencias configuradas'));
+                disponibilidadModulo = resp.disponibilidad || { disponible: true, estado: 'DISPONIBLE', label: 'Disponible' };
+                renderTurnoActual();
+                renderCola(resp.cola || []);
+                llenarSelectsTransferencia();
+                actualizarSelectorModulos();
+                renderDisponibilidadModulo();
+                window.dispatchEvent(new CustomEvent('turnos:gestor-estado',{detail:{avisos:resp.avisos_cola || null}}));
+            })
+            .fail(function (xhr) {
+                window.dispatchEvent(new CustomEvent('turnos:gestor-invalido',{detail:{revocado:xhr.status===401 || xhr.status===403}}));
+                if(!soloAvisos)Swal.fire('Error', 'No fue posible cargar el estado del gestor.', 'error');
+            }).always(function(){estadoPeticion=null;});
+    }
+
+    function renderTurnoActual() {
+        gestorRoot.classList.toggle('has-active-turn', !!turnoActual);
+        if (!turnoActual) {
+            $('#turnoActualEmpty').removeClass('d-none');
+            $('#turnoActualPanel').addClass('d-none');
+            $('#estadoActualBadge').attr('class', 'badge bg-secondary-subtle text-secondary').text('Sin turno');
+            renderAccionesTurno(false);
+            return;
+        }
+
+        const enGestion = !!turnoActual.iniciado_en;
+        $('#turnoActualEmpty').addClass('d-none');
+        $('#turnoActualPanel').removeClass('d-none');
+        $('#estadoActualBadge')
+            .attr('class', enGestion ? 'badge bg-primary-subtle text-primary' : 'badge bg-success-subtle text-success')
+            .text(enGestion ? 'En gestión' : 'En atención');
+        $('#turnoNumero').text(codigoTurno(turnoActual));
+        $('#turnoModulo').text(rotuloDestino(turnoActual));
+        $('#turnoDependencia').text(turnoActual.nombre_dependencia || 'Sin dependencia');
+        $('#turnoLlamados').text((parseInt(turnoActual.llamados, 10) || 0) + ' llamado(s)');
+        $('#turnoNombre').text(nombrePersona(turnoActual));
+        $('#turnoDocumento').text(documento(turnoActual));
+        $('#turnoContacto').text(contacto(turnoActual));
+        $('#turnoCreado').text(formatFecha(turnoActual.creado_en));
+        $('#turnoLlamado').text(formatFecha(turnoActual.llamado_en));
+        $('#turnoInicio').text(formatFecha(turnoActual.iniciado_en));
+        $('#turnoPrioridad').text(parseInt(turnoActual.prioridad, 10) > 0 ? 'Prioritario' : 'Normal');
+        actualizarDuracionAtencion();
+        renderAccionesTurno(enGestion);
+    }
+
+    function renderAccionesTurno(enGestion) {
+        const hayTurno = !!turnoActual;
+        $('#accionesTurnoGestor').toggleClass('d-none', !hayTurno);
+        $('#btnLlamarSiguiente').prop('disabled', hayTurno || !moduloEstaDisponible());
+        $('[data-accion="iniciar"]').toggleClass('d-none', !hayTurno || enGestion).prop('disabled', !hayTurno || enGestion);
+        $('[data-accion="rellamar"]').toggleClass('d-none', !hayTurno || enGestion);
+        $('[data-accion="ausente"]').toggleClass('d-none', !hayTurno || enGestion);
+        $('[data-accion="cancelar"]').toggleClass('d-none', !hayTurno);
+        $('[data-accion="finalizar"]').toggleClass('d-none', !hayTurno || !enGestion);
+        $('#btnAbrirTransferencia').toggleClass('d-none', !hayTurno);
+        $('#btnAbrirTransferencia,[data-accion="ausente"],[data-accion="cancelar"]').prop('disabled',!puedeTransferir).attr('title',puedeTransferir?'':'Necesitas el permiso de transferencias para esta acción.');
+        $('#textoEtapaGestion').text(!hayTurno
+            ? ''
+            : (enGestion ? 'Gestión en curso. El tiempo corre desde el inicio de atención.' : 'Turno llamado. Puedes rellamar, iniciar gestión o marcar novedad.'));
+    }
+
+    function moduloEstaDisponible() {
+        return !disponibilidadModulo || disponibilidadModulo.disponible !== false;
+    }
+
+    function renderDisponibilidadModulo() {
+        const disponible = moduloEstaDisponible();
+        const motivo = disponibilidadModulo && (disponibilidadModulo.motivo_label || disponibilidadModulo.motivo);
+        const observacion = disponibilidadModulo && disponibilidadModulo.observacion;
+        const estado = disponibilidadModulo && disponibilidadModulo.estado;
+        const sinJornada = estado === 'NO_DISPONIBLE' && (disponibilidadModulo.motivo === 'SIN_JORNADA' || disponibilidadModulo.motivo === 'FUERA_HORARIO');
+        $('#moduloDisponibilidad').toggleClass('no-disponible', !disponible);
+        $('#moduloDisponibilidadTexto').text(disponible ? 'Disponible' : (disponibilidadModulo.label || 'No disponible'));
+        $('#moduloDisponibilidadDetalle').text(disponible
+            ? 'Listo para llamar turnos.'
+            : ('Motivo: ' + (motivo || 'No informado') + (observacion ? ' · ' + observacion : '')));
+        $('#btnToggleDisponibilidad')
+            .attr('class', disponible ? 'btn btn-outline-secondary btn-sm' : 'btn btn-success btn-sm')
+            .html(disponible ? '<i class="ri-pause-circle-line me-1"></i> Pausar' : '<i class="ri-play-circle-line me-1"></i> Volver disponible');
+        $('#btnToggleDisponibilidad').prop('disabled', disponibilidadModulo && disponibilidadModulo.motivo === 'FUERA_HORARIO');
+        $('#btnCerrarJornada').prop('disabled', !!turnoActual || sinJornada);
+        $('#btnLlamarSiguiente').prop('disabled', !!turnoActual || !disponible);
+    }
+
+    function actualizarSelectorModulos() {
+        if (!modulos.length) return;
+        const options = modulos.map(function (m) {
+            const disp = m.disponibilidad || {};
+            const ocupadoOtro = !!m.ocupado && !m.ocupado_por_mi;
+            let etiqueta = ocupadoOtro ? ' · Ocupado' : '';
+            etiqueta += disp.disponible === false ? ' · No disponible' : '';
+            return `<option value="${m.id}" ${parseInt(m.id, 10) === moduloId ? 'selected' : ''} ${ocupadoOtro ? 'disabled' : ''}>${escapeHtml(rotuloDestino(m) + (m.ocupado_por_nombre ? ' · '+m.ocupado_por_nombre : '') + etiqueta)}</option>`;
+        }).join('');
+        // Do not replace focused options on every poll: keyboard navigation must survive updates.
+        const selector = document.getElementById('selectorModuloGestor');
+        if (document.activeElement !== selector && selector.dataset.optionsMarkup !== options) {
+            selector.innerHTML = options;
+            selector.dataset.optionsMarkup = options;
+        }
+        $('#btnLiberarPuestoTexto').text(esOficinaActual() ? 'Liberar puesto' : 'Liberar módulo');
+    }
+
+    function renderCola(cola) {
+        gestorRoot.classList.toggle('has-empty-queue', !cola.length);
+        $('#gtColaCantidad').text(cola.length);
+        const lista = document.getElementById('listaCola');
+        if (!cola.length) {
+            if (lista.dataset.queueMarkup !== 'empty') {
+                lista.innerHTML = '<div class="gt-queue-empty text-muted"><i class="ri-inbox-archive-line" aria-hidden="true"></i><strong>Sin turnos pendientes</strong><span>No hay turnos disponibles para este módulo o puesto.</span></div>';
+                lista.dataset.queueMarkup = 'empty';
+            }
+            return;
+        }
+
+        const html = cola.map(function (t, idx) {
+            const prioridad = parseInt(t.prioridad, 10) > 0;
+            const moduloDestino = t.modulo_id ? rotuloDestino(t) : 'Cola general';
+            return `
+                <div class="list-group-item gt-queue-row">
+                    <div class="gt-queue-ticket">${escapeHtml(codigoTurno(t))}</div>
+                    <div class="gt-queue-info">
+                      <div class="gt-queue-name">${escapeHtml(nombrePersona(t))}</div>
+                      <div class="gt-queue-meta">${escapeHtml(t.nombre_dependencia || 'Sin dependencia')} · ${escapeHtml(moduloDestino)}</div>
+                    </div>
+                    <div class="gt-queue-side">
+                      ${prioridad ? '<span class="badge bg-warning-subtle text-warning">Prioritario</span>' : '<span class="badge bg-primary-subtle text-primary">En espera</span>'}
+                      <span class="gt-queue-time">${escapeHtml(formatFecha(t.creado_en))}</span>
+                    </div>
+                </div>`;
+        }).join('');
+
+        if (lista.dataset.queueMarkup !== html) {
+            const scrollTop = lista.scrollTop;
+            lista.innerHTML = html;
+            lista.dataset.queueMarkup = html;
+            lista.scrollTop = scrollTop;
+        }
+    }
+
+    function llenarSelectsTransferencia() {
+        const anterior = $('#transferDependencia').val();
+        let depOptions = '<option value="">Conservar dependencia actual</option>';
+        depOptions += dependencias.map(function (d) {
+            return `<option value="${d.id}">${escapeHtml(d.nombre)}</option>`;
+        }).join('');
+        const selector = document.getElementById('transferDependencia');
+        if (document.activeElement !== selector && selector.dataset.optionsMarkup !== depOptions) {
+            selector.innerHTML = depOptions;
+            selector.dataset.optionsMarkup = depOptions;
+            $(selector).val(anterior || '');
+        }
+        filtrarModulosTransferencia();
+    }
+
+    function filtrarModulosTransferencia() {
+        const destino = Number($('#transferDependencia').val() || (turnoActual && turnoActual.dependencia_id) || 0);
+        const previo = $('#transferModulo').val();
+        let moduloOptions = '<option value="">Selecciona un módulo o puesto de oficina con gestor disponible</option>';
+        moduloOptions += modulosDestino.filter(function(m){return (m.dependencias || []).some(function(d){return Number(d.id)===destino;});}).map(function (m) {
+            const disp = m.disponibilidad || {};
+            const etiqueta = disp.disponible === false ? ' · No disponible' : '';
+            const disabled = !m.ocupado || disp.disponible !== true || Number(m.id)===moduloId ? 'disabled' : '';
+            return `<option value="${m.id}" ${disabled}>${escapeHtml(rotuloDestino(m) + (m.ocupado_por_nombre ? ' · '+m.ocupado_por_nombre : '') + etiqueta)}</option>`;
+        }).join('');
+        const selector = document.getElementById('transferModulo');
+        const compatibles=modulosDestino.filter(m=>(m.dependencias||[]).some(d=>Number(d.id)===destino));
+        const disponibles=compatibles.filter(m=>m.ocupado && m.disponibilidad?.disponible===true && Number(m.id)!==moduloId);
+        $('#transferAyudaDestino').text(!compatibles.length?'No hay puestos que atiendan este servicio. Si vas a otra área, cambia primero el servicio.':(!disponibles.length?'Los puestos compatibles están vacíos, pausados, cerrados o son tu puesto actual. Solicita disponibilidad al destino.':'Selecciona el puesto y gestor de destino.'));
+        if (document.activeElement === selector) return;
+        if (selector.dataset.optionsMarkup !== moduloOptions) {
+            selector.innerHTML = moduloOptions;
+            selector.dataset.optionsMarkup = moduloOptions;
+        }
+        if ($('#transferModulo option').toArray().some(function(o){return o.value===previo&&!o.disabled;})) $('#transferModulo').val(previo);
+    }
+    $('#transferDependencia').on('change', filtrarModulosTransferencia);
+
+    function enviarOperacion(url, payload, callback) {
+        if (accionEnCurso) return $.Deferred().reject({status:409, responseJSON:{msg:'Ya hay una acción en proceso.'}}).promise();
+        accionEnCurso = true;
+        window.dispatchEvent(new CustomEvent('turnos:gestor-operacion',{detail:{enCurso:true}}));
+        estadoVersion++;
+        const controles = $('.gestor-turnos button, .gestor-turnos select, #modalTransferir button, #modalDisponibilidad button');
+        controles.each(function () { $(this).data('turnosDisabledAnterior', this.disabled).prop('disabled', true); });
+        const peticion = $.ajax({url:url, type:'POST', data:payload, dataType:'json', timeout:10000});
+        peticion.done(callback).always(function () {
+            accionEnCurso = false;
+            window.dispatchEvent(new CustomEvent('turnos:gestor-operacion',{detail:{enCurso:false}}));
+            controles.each(function () { $(this).prop('disabled', !!$(this).data('turnosDisabledAnterior')); });
+            cargarEstado();
+        });
+        return peticion;
+    }
+
+    function postAccion(url, payload, successMsg, options) {
+        if (accionEnCurso) return;
+        options = options || {};
+        enviarOperacion(url, payload, function (resp) {
+            if (resp && resp.ok) {
+                if (resp.turno) {
+                    turnoActual = resp.turno;
+                    renderTurnoActual();
+                }
+                if (options.silent) {
+                    cargarEstado();
+                    return;
+                }
+                TurnosAvisos.mostrar('Listo', resp.msg || successMsg || 'Acción realizada.', 'success');
+                cargarEstado();
+            } else {
+                if (resp && resp.disponibilidad) {
+                    disponibilidadModulo = resp.disponibilidad;
+                    renderDisponibilidadModulo();
+                }
+                Swal.fire('Atención', (resp && resp.msg) || 'No fue posible completar la acción.', 'warning');
+                cargarEstado();
+            }
+        }).fail(function (xhr) {
+            const resp = xhr.responseJSON;
+            Swal.fire(xhr.status === 409 ? 'Atención' : 'Error', (resp && resp.msg) || 'No fue posible comunicarse con el servidor.', xhr.status === 409 ? 'warning' : 'error');
+        });
+    }
+
+    let accionEnCurso = false;
+    let estadoVersion = 0;
+
+    function pedirObservacion(titulo, requerida, callback) {
+        Swal.fire({
+            title: titulo,
+            input: 'textarea',
+            inputPlaceholder: requerida ? 'Escribe el motivo' : 'Observación opcional',
+            inputAttributes: { maxlength: 500 },
+            showCancelButton: true,
+            confirmButtonText: 'Confirmar',
+            cancelButtonText: 'Cancelar',
+            buttonsStyling: false,
+            customClass: { confirmButton: 'btn btn-primary', cancelButton: 'btn btn-light ms-2' },
+            preConfirm: function (value) {
+                if (requerida && !String(value || '').trim()) {
+                    Swal.showValidationMessage('La observación es obligatoria.');
+                    return false;
+                }
+                return value || '';
+            }
+        }).then(function (result) {
+            if (result.isConfirmed) callback(result.value || '');
+        });
+    }
+
+    $('#selectorModuloGestor').on('change', function () {
+        const nuevo = parseInt($(this).val(), 10);
+        const selector = this;
+        enviarOperacion(endpoints.tomarModulo, { puesto_id: nuevo }, function (resp) {
+            if (resp && resp.ok) {
+                window.location.href = baseGestorUrl + '/' + nuevo;
+                return;
+            }
+            selector.value = String(moduloId);
+            Swal.fire('No fue posible cambiar', (resp && resp.msg) || 'El módulo no está disponible.', 'warning');
+        }, 'json').fail(function (xhr) {
+            selector.value = String(moduloId);
+            const resp = xhr.responseJSON || {};
+            Swal.fire('No fue posible cambiar', resp.msg || 'El módulo no está disponible.', 'warning');
+        });
+    });
+
+    $('#btnLiberarPuesto').on('click', function () {
+        const lugar = esOficinaActual() ? 'puesto' : 'módulo';
+        if (turnoActual) {
+            Swal.fire('Turno activo', 'Finaliza, transfiere, cancela o marca ausente antes de liberar el ' + lugar + '.', 'warning');
+            return;
+        }
+        Swal.fire({
+            title: '¿Liberar este ' + lugar + '?',
+            text: 'El ' + lugar + ' quedará disponible para otro gestor.',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, liberar',
+            cancelButtonText: 'Cancelar'
+        }).then(function (result) {
+            if (!result.isConfirmed) return;
+            enviarOperacion(endpoints.liberarModulo, {}, function (resp) {
+                if (resp && resp.ok) window.location.href = baseGestorUrl;
+                else Swal.fire('Atención', (resp && resp.msg) || 'No fue posible liberar el ' + lugar + '.', 'warning');
+            }, 'json').fail(function (xhr) {
+                const resp = xhr.responseJSON || {};
+                Swal.fire('Atención', resp.msg || 'No fue posible liberar el ' + lugar + '.', 'warning');
+            });
+        });
+    });
+
+    $('#btnLlamarSiguiente').on('click', function () {
+        if (!moduloEstaDisponible()) {
+            TurnosAvisos.mostrar('Módulo no disponible', 'Marca el módulo como disponible antes de llamar turnos.', 'info');
+            return;
+        }
+        postAccion(endpoints.llamar, { puesto_id: moduloId }, 'Turno llamado correctamente.');
+    });
+
+    $('#btnToggleDisponibilidad').on('click', function () {
+        if (moduloEstaDisponible()) {
+            if (turnoActual) {
+                Swal.fire('Turno activo', 'Finaliza, transfiere, cancela o marca ausente antes de pausar el módulo.', 'warning');
+                return;
+            }
+            $('#disponibilidadMotivo').val('BANO');
+            $('#disponibilidadObservacion').val('');
+            modalDisponibilidad.show();
+            return;
+        }
+
+        Swal.fire({
+            title: '¿Volver disponible?',
+            text: 'El módulo podrá llamar nuevos turnos nuevamente.',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Sí, volver disponible',
+            cancelButtonText: 'Cancelar',
+            buttonsStyling: false,
+            customClass: { confirmButton: 'btn btn-success', cancelButton: 'btn btn-light ms-2' }
+        }).then(function (result) {
+            if (!result.isConfirmed) return;
+            enviarOperacion(endpoints.marcarDisponible, { puesto_id: moduloId }, function (resp) {
+                if (resp && resp.ok) {
+                    disponibilidadModulo = resp.disponibilidad || { disponible: true, estado: 'DISPONIBLE' };
+                    TurnosAvisos.mostrar('Listo', resp.msg || 'Módulo disponible nuevamente.', 'success');
+                    cargarEstado();
+                } else {
+                    Swal.fire('Atención', (resp && resp.msg) || 'No fue posible cambiar la disponibilidad.', 'warning');
+                    cargarEstado();
+                }
+            }, 'json').fail(function () {
+                Swal.fire('Error', 'No fue posible comunicarse con el servidor.', 'error');
+            });
+        });
+    });
+
+    $('#btnCerrarJornada').on('click', function () {
+        if (turnoActual) {
+            Swal.fire('Turno activo', 'Finaliza, transfiere, cancela o marca ausente antes de cerrar jornada.', 'warning');
+            return;
+        }
+
+        Swal.fire({
+            title: '¿Cerrar jornada?',
+            input: 'textarea',
+            inputPlaceholder: 'Observación opcional',
+            inputAttributes: { maxlength: 500 },
+            text: 'El módulo quedará no disponible hasta el próximo ingreso de jornada.',
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonText: 'Cerrar jornada',
+            cancelButtonText: 'Cancelar',
+            buttonsStyling: false,
+            customClass: { confirmButton: 'btn btn-danger', cancelButton: 'btn btn-light ms-2' }
+        }).then(function (result) {
+            if (!result.isConfirmed) return;
+            enviarOperacion(endpoints.cerrarJornada, { puesto_id: moduloId, observacion: result.value || '' }, function (resp) {
+                if (resp && resp.ok) {
+                    disponibilidadModulo = resp.disponibilidad || { disponible: false, estado: 'NO_DISPONIBLE', motivo: 'CIERRE_JORNADA' };
+                    TurnosAvisos.mostrar('Listo', resp.msg || 'Jornada cerrada.', 'success');
+                    cargarEstado();
+                } else {
+                    Swal.fire('Atención', (resp && resp.msg) || 'No fue posible cerrar la jornada.', 'warning');
+                    cargarEstado();
+                }
+            }, 'json').fail(function () {
+                Swal.fire('Error', 'No fue posible comunicarse con el servidor.', 'error');
+            });
+        });
+    });
+
+    $('#btnExtenderJornada').on('click', function () {
+        const sugerida = TurnosFecha.hora24(new Date(Date.now() + serverClockBogotaOffsetMs + 3600000));
+        Swal.fire({
+            title: 'Extender jornada',
+            html: `
+                <div class="text-start">
+                  <label class="form-label" for="swalHoraFin">Nueva hora fin</label>
+                  <input type="time" id="swalHoraFin" class="form-control mb-3" value="${sugerida}" required>
+                  <label class="form-label">Motivo</label>
+                  <input type="text" id="swalMotivoExtension" class="form-control mb-3" maxlength="180" placeholder="Ej: Alta afluencia de usuarios">
+                  <label class="form-label">Observación</label>
+                  <textarea id="swalObsExtension" class="form-control" rows="3" maxlength="500" placeholder="Opcional"></textarea>
+                </div>`,
+            showCancelButton: true,
+            confirmButtonText: 'Registrar extensión',
+            cancelButtonText: 'Cancelar',
+            buttonsStyling: false,
+            customClass: { confirmButton: 'btn btn-primary', cancelButton: 'btn btn-light ms-2' },
+            didOpen: function () {
+                const editor = TurnosHoraEditor.enhance(document.getElementById('swalHoraFin'));
+                editor.element.classList.add('mb-3');
+            },
+            preConfirm: function () {
+                const editor = TurnosHoraEditor.get(document.getElementById('swalHoraFin'));
+                if (!editor || !editor.validate()) {
+                    Swal.showValidationMessage('Indica una hora final válida con a. m. o p. m.');
+                    if (editor) editor.focus();
+                    return false;
+                }
+                const horaFin = $('#swalHoraFin').val();
+                const motivo = $('#swalMotivoExtension').val();
+                if (!horaFin) {
+                    Swal.showValidationMessage('Indica la nueva hora final.');
+                    return false;
+                }
+                if (!String(motivo || '').trim()) {
+                    Swal.showValidationMessage('Indica el motivo de la extensión.');
+                    return false;
+                }
+                return { hora_fin: horaFin, motivo: motivo, observacion: $('#swalObsExtension').val() };
+            }
+        }).then(function (result) {
+            if (!result.isConfirmed) return;
+            const payload = result.value || {};
+            payload.puesto_id = moduloId;
+            enviarOperacion(endpoints.extenderJornada, payload, function (resp) {
+                if (resp && resp.ok) {
+                    disponibilidadModulo = resp.disponibilidad || disponibilidadModulo;
+                    TurnosAvisos.mostrar('Listo', resp.msg || 'Extensión registrada.', 'success');
+                    cargarEstado();
+                } else {
+                    Swal.fire('Atención', (resp && resp.msg) || 'No fue posible registrar la extensión.', 'warning');
+                    cargarEstado();
+                }
+            }, 'json').fail(function () {
+                Swal.fire('Error', 'No fue posible comunicarse con el servidor.', 'error');
+            });
+        });
+    });
+
+    $('#btnConfirmarNoDisponible').on('click', function () {
+        const payload = {
+            puesto_id: moduloId,
+            motivo: $('#disponibilidadMotivo').val(),
+            observacion: $('#disponibilidadObservacion').val()
+        };
+
+        enviarOperacion(endpoints.marcarNoDisponible, payload, function (resp) {
+            if (resp && resp.ok) {
+                disponibilidadModulo = resp.disponibilidad || { disponible: false, estado: 'NO_DISPONIBLE' };
+                modalDisponibilidad.hide();
+                TurnosAvisos.mostrar('Listo', resp.msg || 'Módulo marcado como no disponible.', 'success');
+                cargarEstado();
+            } else {
+                Swal.fire('Atención', (resp && resp.msg) || 'No fue posible cambiar la disponibilidad.', 'warning');
+                cargarEstado();
+            }
+        }, 'json').fail(function () {
+            Swal.fire('Error', 'No fue posible comunicarse con el servidor.', 'error');
+        });
+    });
+
+    $('.accion-turno').on('click', function () {
+        if (!turnoActual) {
+            TurnosAvisos.mostrar('Sin turno', 'No hay turno actual para gestionar.', 'info');
+            return;
+        }
+
+        const accion = $(this).data('accion');
+        const payloadBase = { turno_id: turnoActual.id };
+
+        if (accion === 'rellamar') {
+            postAccion(endpoints.rellamar, payloadBase, 'Turno rellamado correctamente.');
+            return;
+        }
+
+        if (accion === 'iniciar') {
+            postAccion(endpoints.iniciar, payloadBase, 'Atención iniciada correctamente.', { silent: true });
+            return;
+        }
+
+        if (accion === 'finalizar') {
+            pedirObservacion('Finalizar turno', false, function (obs) {
+                postAccion(endpoints.finalizar, { turno_id: turnoActual.id, observacion: obs }, 'Turno finalizado.');
+            });
+            return;
+        }
+
+        if (accion === 'ausente') {
+            pedirObservacion('Marcar como ausente', false, function (obs) {
+                postAccion(endpoints.ausente, { turno_id: turnoActual.id, observacion: obs }, 'Turno marcado como ausente.');
+            });
+            return;
+        }
+
+        if (accion === 'cancelar') {
+            pedirObservacion('Cancelar turno', true, function (obs) {
+                postAccion(endpoints.cancelar, { turno_id: turnoActual.id, observacion: obs }, 'Turno cancelado.');
+            });
+        }
+    });
+
+    $('#btnAbrirTransferencia').on('click', function () {
+        if (!turnoActual) {
+            TurnosAvisos.mostrar('Sin turno', 'No hay turno actual para transferir.', 'info');
+            return;
+        }
+
+        $('#transferTurnoId').val(turnoActual.id);
+        $('#transferTurnoId').data('etapa',Number(turnoActual.etapa)||1);
+        $('#transferDependencia').val(turnoActual.dependencia_id || '');
+        filtrarModulosTransferencia();
+        $('#transferModulo').val('');
+        $('#transferObservacion').val('');
+        modalTransferir.show();
+    });
+
+    $('#btnConfirmarTransferencia').on('click', function () {
+        if(!$('#transferModulo').val()){Swal.fire('Destino','Selecciona un módulo o puesto de oficina compatible con gestor disponible.','warning');return;}
+        const payload = {
+            turno_id: $('#transferTurnoId').val(),
+            etapa_esperada: $('#transferTurnoId').data('etapa'),
+            puesto_destino_id: $('#transferModulo').val(),
+            dependencia_destino_id: $('#transferDependencia').val(),
+            observacion: $('#transferObservacion').val()
+        };
+
+        enviarOperacion(endpoints.transferir, payload, function (resp) {
+            if (resp && resp.ok) {
+                modalTransferir.hide();
+                TurnosAvisos.mostrar('Listo', resp.msg || 'Turno transferido a la cola de destino.', 'success');
+                cargarEstado();
+            } else {
+                Swal.fire('Atención', (resp && resp.msg) || 'No fue posible transferir el turno.', 'warning');
+            }
+        }, 'json').fail(function (xhr) {
+            Swal.fire('Atención', (xhr.responseJSON && xhr.responseJSON.msg) || 'No fue posible transferir el turno.', 'warning');
+        });
+    });
+
+    cargarEstado();
+    window.addEventListener('turnos:actualizar-estado',cargarEstado);
+    setInterval(actualizarDuracionAtencion, 1000);
+    setInterval(function(){
+        if(Date.now()-ultimaCargaCompleta>=15000)cargarEstado(false);
+        else if(document.visibilityState==='visible')cargarEstado(true);
+    }, 2000);
+});
+</script>
+<script src="<?= base_url('assets/js/turnos-gestor-avisos.js') ?>?v=<?= (int)filemtime(FCPATH.'assets/js/turnos-gestor-avisos.js') ?>"></script>

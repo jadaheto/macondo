@@ -1,0 +1,98 @@
+{
+ "title": "La Tierra vista desde el espacio",
+ "description": "América y Colombia vistas desde satélites y desde la Estación Espacial Internacional: la Sierra Nevada, el río Atrato, las luces de las ciudades, auroras, huracanes y el «punto azul pálido».",
+ "gradeMin": 4,
+ "gradeMax": 9,
+ "categories": [
+  "Ciencias naturales",
+  "Astronomía",
+  "Geografía",
+  "Espacio"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "La Tierra vista desde el espacio con América del Norte, el océano Atlántico y África, entre nubes blancas.",
+   "Esta imagen de la NASA, hecha uniendo fotos de satélites, muestra la Tierra como una canica azul: se ven América del Norte, el océano Atlántico y África. Los satélites toman imágenes así todos los días."
+  ],
+  [
+   "América de noche vista desde el espacio, con puntos de luz amarilla donde están las ciudades.",
+   "De noche, las luces de las ciudades dibujan el mapa de América. Las zonas oscuras son selvas, desiertos, montañas y océanos. Imagen compuesta con datos de satélites de la NASA."
+  ],
+  [
+   "Montañas con picos nevados y cañones vistos desde arriba, entre nubes.",
+   "La Sierra Nevada de Santa Marta fotografiada por astronautas desde la Estación Espacial Internacional. Es la montaña costera más alta del mundo: sus picos nevados están a solo 42 kilómetros del mar Caribe."
+  ],
+  [
+   "Vista desde el espacio de una mancha café de sedimentos que un río lleva al mar, entre nubes.",
+   "El río Atrato, en el Chocó, visto desde la Estación Espacial. Es uno de los ríos más caudalosos de Colombia y desemboca en el golfo de Urabá. Desde 2016 es reconocido como sujeto de derechos."
+  ],
+  [
+   "Franjas de luz verde de una aurora sobre la Tierra oscura, vistas desde la Estación Espacial.",
+   "Desde la Estación Espacial, los astronautas ven las auroras desde arriba, como cortinas de luz verde sobre la Tierra. Esta es una aurora austral, cerca del polo sur."
+  ],
+  [
+   "El ojo de un huracán visto desde arriba, rodeado de nubes blancas que giran.",
+   "El ojo de un huracán fotografiado por un astronauta en 2003. En el centro del huracán, el ojo, el cielo está casi despejado y el aire está en calma. Desde el espacio se puede vigilar cómo avanzan estas tormentas."
+  ],
+  [
+   "Montañas nevadas del Himalaya vistas desde el espacio, con valles y nubes.",
+   "El Himalaya, la cordillera más alta del mundo, visto desde la Estación Espacial. Allí está el monte Everest, de 8.849 metros."
+  ],
+  [
+   "El desierto del Sahara visto desde el espacio, de color amarillo y naranja, con formas onduladas.",
+   "El desierto del Sahara, en África, es el desierto cálido más grande del mundo. Desde el espacio se ven sus dunas y montañas de colores amarillos y rojizos."
+  ],
+  [
+   "Imagen casi negra con franjas de luz; la Tierra es un punto diminuto apenas visible.",
+   "En 1990, la sonda Voyager 1 fotografió la Tierra desde unos 6.000 millones de kilómetros: es ese pequeño punto azul. El astrónomo Carl Sagan lo llamó «un punto azul pálido» y nos invitó a cuidar nuestro único hogar."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué muestran los puntos de luz en la foto de América de noche?",
+   [
+    "Volcanes",
+    "Las ciudades",
+    "Estrellas",
+    "Incendios en el mar"
+   ],
+   1,
+   "Las luces eléctricas de las ciudades se ven desde el espacio."
+  ],
+  [
+   "¿Qué tiene de especial la Sierra Nevada de Santa Marta?",
+   [
+    "Es la montaña costera más alta del mundo",
+    "Es un desierto",
+    "Está en el océano Pacífico",
+    "Es un volcán activo"
+   ],
+   0,
+   "Sus picos nevados están muy cerca del mar Caribe."
+  ],
+  [
+   "¿Cómo llamó Carl Sagan a la foto de la Tierra tomada por la Voyager 1?",
+   [
+    "La canica azul",
+    "La Tierra brillante",
+    "Un punto azul pálido",
+    "El planeta rojo"
+   ],
+   2,
+   "La Tierra aparece como un punto diminuto en la inmensidad del espacio."
+  ],
+  [
+   "¿Cómo está el aire en el ojo de un huracán?",
+   [
+    "Con vientos muy fuertes",
+    "Lleno de granizo",
+    "Muy frío y con nieve",
+    "Casi en calma y con cielo despejado"
+   ],
+   3,
+   "Alrededor del ojo están los vientos más fuertes, pero en el centro hay calma."
+  ]
+ ],
+ "reviewNotes": null
+}

@@ -1,0 +1,1938 @@
+[
+  {
+    "file": "galerias/mamiferos-de-colombia",
+    "cover": "galerias/mamiferos-de-colombia/01-chiguiro.jpg",
+    "title": "Mamíferos de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Chigüiros, armadillos, osos hormigueros, zarigüeyas, venados y murciélagos: algunos de los más de 500 mamíferos que viven en Colombia, con datos curiosos de cada uno.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "mamiferos-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "CC BY 4.0": 1,
+        "CC BY 3.0": 1,
+        "CC BY-SA 2.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5443640,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/reptiles-y-anfibios",
+    "cover": "galerias/reptiles-y-anfibios/05-rana-de-ojos-rojos.jpg",
+    "title": "Reptiles y anfibios",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Boas, basiliscos, tortugas, ranas venenosas y de cristal, sapos y salamandras: conoce a los reptiles de piel escamosa y a los anfibios de piel húmeda que viven en América tropical.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "reptiles-y-anfibios",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 5,
+        "CC BY 3.0": 1,
+        "CC BY 2.0": 1,
+        "CC BY-SA 3.0": 2
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4749195,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/insectos",
+    "cover": "galerias/insectos/05-escarabajo-hercules.jpg",
+    "title": "El mundo de los insectos",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Hormigas arrieras, abejas, mariquitas, libélulas, escarabajos gigantes, mantis y cigarras: los insectos son los animales más numerosos del planeta y cada uno tiene un trabajo importante.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Insectos"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "insectos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 3,
+        "CC BY-SA 4.0": 4,
+        "CC BY 4.0": 2
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4559444,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/mariposas-de-colombia",
+    "cover": "galerias/mariposas-de-colombia/01-morfo-azul.jpg",
+    "title": "Mariposas de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Colombia es el país con más especies de mariposas del mundo. Conoce morfos azules, mariposas búho y de cristal, y el viaje de la oruga a la mariposa.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Insectos",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "mariposas-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 4,
+        "CC BY-SA 2.5": 1,
+        "CC BY-SA 3.0": 1,
+        "Dominio público": 2
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3241337,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/peces-de-rio-y-mar",
+    "cover": "galerias/peces-de-rio-y-mar/08-pez-leon.jpg",
+    "title": "Peces de río y de mar",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Del bocachico de la subienda al tiburón ballena: peces de los ríos, ciénagas y mares de Colombia, cómo viven y por qué algunos, como el pez león, son un problema.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Agua",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "peces-de-rio-y-mar",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 4.0": 2,
+        "CC BY-SA 4.0": 6,
+        "CC0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4412245,
+    "reviewNotes": "01: la foto es de Prochilodus lineatus, pariente cercano del bocachico (Prochilodus magdalenae); la única foto libre del bocachico ya se usa en la galería rio-magdalena."
+  },
+  {
+    "file": "galerias/arrecifes-de-coral",
+    "cover": "galerias/arrecifes-de-coral/01-arrecife-caribe.jpg",
+    "title": "Arrecifes de coral del Caribe",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Corales cerebro y cuerno de alce, abanicos de mar, esponjas, estrellas y erizos: un viaje bajo el agua por los arrecifes del Caribe, como los de San Andrés y las Islas del Rosario, y las amenazas que enfrentan.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Mar",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "arrecifes-de-coral",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 3.0": 1,
+        "CC BY 2.0": 2,
+        "CC0": 1,
+        "CC BY-SA 4.0": 2,
+        "Dominio público": 2,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 6967851,
+    "reviewNotes": "Ninguna foto es de arrecifes colombianos (no se hallaron fotos libres de calidad de San Andrés o Rosario); son del mismo mar Caribe (Bonaire, Bahamas, Florida) y se indica en los pies de foto."
+  },
+  {
+    "file": "galerias/tortugas-marinas",
+    "cover": "galerias/tortugas-marinas/07-crias-hacia-el-mar.jpg",
+    "title": "Tortugas marinas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "La caguama, la carey, la verde, la canal y la golfina: cómo viven las tortugas marinas, cómo ponen sus huevos en la playa y por qué necesitan nuestra ayuda.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Mar",
+      "Medio ambiente"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "tortugas-marinas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 2.0": 1,
+        "CC BY-SA 2.0": 2,
+        "CC0": 1,
+        "CC BY-SA 3.0": 1,
+        "Dominio público": 2
+      },
+      "imageCount": 7
+    },
+    "sha256": null,
+    "sizeBytes": 3459270,
+    "reviewNotes": "02-carey muestra a un buzo de espaldas con máscara (no identificable)."
+  },
+  {
+    "file": "galerias/aves-marinas-y-playeras",
+    "cover": "galerias/aves-marinas-y-playeras/04-rayador.jpg",
+    "title": "Aves marinas y playeras",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Fragatas, piqueros, gaviotas, rayadores, cormoranes, ostreros y playeros: aves que viven del mar y de las playas, y sus ingeniosas formas de pescar.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Aves",
+      "Mar",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "aves-marinas-y-playeras",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 5,
+        "CC BY-SA 3.0": 1,
+        "CC0": 1,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 2496550,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/animales-de-la-granja",
+    "cover": "galerias/animales-de-la-granja/04-gallina-y-pollitos.jpg",
+    "title": "Animales de la granja",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Vacas, caballos, burros, gallinas, cerdos, cabras, ovejas, patos y conejos: los animales de la finca y sus crías, con datos sencillos para los más pequeños.",
+    "gradeMin": 1,
+    "gradeMax": 3,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Vida en el campo"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "animales-de-la-granja",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 4,
+        "CC BY-SA 4.0": 4,
+        "Dominio público": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5907790,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/primates-de-colombia",
+    "cover": "galerias/primates-de-colombia/06-titi-pigmeo.jpg",
+    "title": "Primates de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Capuchinos, monos nocturnos, titíes, monos ardilla, churucos, monos araña y aulladores: Colombia es uno de los países con más especies de primates de América.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "primates-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 1,
+        "CC BY-SA 4.0": 2,
+        "CC BY 4.0": 1,
+        "CC BY-SA 3.0": 3,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4534660,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/animales-de-la-sabana-sucrena",
+    "cover": "galerias/animales-de-la-sabana-sucrena/01-alcaravan.jpg",
+    "title": "Animales de la sabana sucreña",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "El alcaraván vigilante, la garcita del ganado, el turpial, el sinsonte, los pisingos y otros vecinos de los potreros, ciénagas y montes de las sabanas de Sucre.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Sucre",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "animales-de-la-sabana-sucrena",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 7,
+        "CC BY-SA 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3371656,
+    "reviewNotes": "Fotos de las mismas especies tomadas fuera de Sucre (Tobago, Belice, Canadá, Francia); no se hallaron fotos libres de calidad tomadas en Sucre. «Lobito» es nombre local aproximado para lagartijas del género Ameiva."
+  },
+  {
+    "file": "galerias/felinos-de-america",
+    "cover": "galerias/felinos-de-america/01-jaguar.jpg",
+    "title": "Felinos de América",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Jaguar, puma, ocelote, margay, yaguarundí y tigrillo, los seis felinos silvestres de Colombia, junto al gato andino y el lince rojo de otras regiones de América.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "felinos-de-america",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 4,
+        "CC BY 2.0": 2,
+        "CC BY-SA 3.0": 2
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4365147,
+    "reviewNotes": "06-tigrillo: Commons la identifica como Leopardus tigrinus (foto en un parque de felinos de Francia); por la reciente división del grupo podría ser L. guttulus, especie del sur de Brasil. 05-yaguarundí es un ejemplar de color oscuro."
+  },
+  {
+    "file": "galerias/ballenas-y-delfines",
+    "cover": "galerias/ballenas-y-delfines/01-yubarta-saltando.jpg",
+    "title": "Ballenas y delfines",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Yubartas que llegan al Pacífico colombiano a tener sus crías, delfines, orcas, cachalotes y la ballena azul: los cetáceos, mamíferos que viven en el mar.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Mar"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "ballenas-y-delfines",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 5,
+        "Dominio público": 2,
+        "CC BY-SA 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3833823,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/orquideas-de-colombia",
+    "cover": "galerias/orquideas-de-colombia/01-flor-de-mayo.jpg",
+    "title": "Orquídeas de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Colombia es el país con más especies de orquídeas del mundo. Conoce la flor de mayo, flor nacional, y otras orquídeas sorprendentes, en fotos y en láminas botánicas del siglo XIX.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Plantas",
+      "Biodiversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "orquideas-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 1,
+        "Dominio público": 2,
+        "CC BY-SA 3.0": 3,
+        "CC BY-SA 4.0": 2
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 2361620,
+    "reviewNotes": "Dos láminas botánicas en dominio público: 02 (Reichenbachia, 1888; pintor Henry George Moon, †1905) y 06 (Bateman, Monograph of Odontoglossum; Walter Hood Fitch, †1892). 05: al fondo se ve borrosa la mano de una persona (no identificable)."
+  },
+  {
+    "file": "galerias/frutas-tropicales",
+    "cover": "galerias/frutas-tropicales/01-mango.jpg",
+    "title": "Frutas tropicales",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Mango, papaya, guanábana, maracuyá, piña, guayaba, mamoncillo, lulo, coco y banano: las frutas de nuestros patios y mercados, con datos sencillos y curiosos.",
+    "gradeMin": 1,
+    "gradeMax": 3,
+    "categories": [
+      "Ciencias naturales",
+      "Plantas",
+      "Alimentación"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "frutas-tropicales",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "CC BY 3.0": 1,
+        "CC0": 2,
+        "Dominio público": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 4350472,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/arboles-nativos",
+    "cover": "galerias/arboles-nativos/03-guayacan-amarillo.jpg",
+    "title": "Árboles nativos de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Ceibas, guayacanes, robles morados, caracolíes, campanos, totumos, orejeros y la palma de cera: árboles de nuestros bosques, sabanas y montañas, y lo que nos dan.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Plantas",
+      "Medio ambiente"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "arboles-nativos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 4.0": 4,
+        "CC BY 4.0": 1,
+        "CC BY-SA 2.0": 2
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5979448,
+    "reviewNotes": "Algunas fotos son de otros países (Guayana Francesa, Ecuador, México, Laos) porque no se hallaron fotos libres de calidad tomadas en Colombia; se indica en los pies de foto."
+  },
+  {
+    "file": "galerias/plantas-medicinales-y-aromaticas",
+    "cover": "galerias/plantas-medicinales-y-aromaticas/01-quina-lamina.jpg",
+    "title": "Plantas medicinales y aromáticas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "La quina, la sábila, la manzanilla, la hierbabuena, la albahaca y otras plantas que las personas han usado por siglos en la cocina y la medicina tradicional. Una mirada histórica y botánica, no una guía de remedios.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Plantas",
+      "Historia de la ciencia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "plantas-medicinales-y-aromaticas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 6,
+        "CC0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 6055544,
+    "reviewNotes": "Galería con enfoque histórico y botánico; los pies de foto no recomiendan usos medicinales. 01 es una lámina de Köhler's Medizinal-Pflanzen (1887; H. A. Köhler †1879, ilustradores fallecidos antes de 1945)."
+  },
+  {
+    "file": "galerias/semillas-y-germinacion",
+    "cover": "galerias/semillas-y-germinacion/01-frijol-germinando.jpg",
+    "title": "Semillas y germinación",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "¿Cómo una semilla se convierte en planta? Frijoles que germinan, plántulas con cotiledones, mazorcas, semillas que vuelan con el viento y semillas que viajan por el mar.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Plantas",
+      "Experimentos"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "semillas-y-germinacion",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "Dominio público": 2,
+        "CC BY-SA 3.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 3832220,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/hongos",
+    "cover": "galerias/hongos/06-hongo-luminoso.jpg",
+    "title": "El reino de los hongos",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Ni plantas ni animales: los hongos forman su propio reino. Setas venenosas y comestibles, hongos que brillan en la oscuridad, mohos que dieron origen a los antibióticos y levaduras que hacen crecer el pan.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Biodiversidad",
+      "Microorganismos"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "hongos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 3.0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 4,
+        "CC BY 4.0": 1,
+        "CC0": 1,
+        "Dominio público": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5014458,
+    "reviewNotes": "01 muestra un hongo venenoso; el pie de foto advierte no consumir hongos silvestres."
+  },
+  {
+    "file": "galerias/el-paramo",
+    "cover": "galerias/el-paramo/02-frailejones.jpg",
+    "title": "El páramo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Frailejones, lagunas, niebla y plantas resistentes al frío: el páramo es una fábrica de agua en lo alto de los Andes, y Colombia tiene la mayor parte de los páramos del mundo.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Agua",
+      "Región Andina"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-paramo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 5,
+        "CC BY 4.0": 3
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5268020,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/la-amazonia",
+    "cover": "galerias/la-amazonia/02-atardecer-en-el-amazonas.jpg",
+    "title": "La Amazonía colombiana",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "El río Amazonas, Leticia, Puerto Nariño, el lago Tarapoto, la victoria regia, la anaconda y los bosques que se inundan: un viaje por la selva tropical más grande del mundo.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Región Amazónica",
+      "Geografía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "la-amazonia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 2,
+        "CC BY-SA 2.0": 2,
+        "CC BY 3.0": 2,
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4654210,
+    "reviewNotes": "03: dos niños caminan de espaldas a lo lejos (no identificables). 04: persona remando de espaldas (no identificable). 05 es de un jardín botánico de Brasil. 08: persona diminuta al fondo, no identificable."
+  },
+  {
+    "file": "galerias/la-orinoquia-y-los-llanos",
+    "cover": "galerias/la-orinoquia-y-los-llanos/01-cano-cristales.jpg",
+    "title": "La Orinoquía y los Llanos",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Caño Cristales, la serranía de La Macarena, los morichales, el río Orinoco y las sabanas inundables llenas de garzas y chigüiros: la región de los Llanos Orientales.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Región Orinoquía",
+      "Geografía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "la-orinoquia-y-los-llanos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 5,
+        "CC BY 3.0": 2,
+        "CC BY-SA 2.0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4548004,
+    "reviewNotes": "07 fue tomada en los Llanos de Venezuela (misma región natural)."
+  },
+  {
+    "file": "galerias/desierto-de-la-guajira",
+    "cover": "galerias/desierto-de-la-guajira/02-dunas-de-taroa.jpg",
+    "title": "El desierto de La Guajira",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "El Cabo de la Vela, las dunas de Taroa, Punta Gallinas, las salinas de Manaure, los flamencos de Camarones y la serranía de la Macuira: paisajes del norte de Colombia, territorio del pueblo wayuu.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Región Caribe",
+      "Geografía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "desierto-de-la-guajira",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 2.0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC0": 2,
+        "CC BY-SA 4.0": 4
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4484674,
+    "reviewNotes": "Territorio indígena wayuu: los pies de foto mencionan el valor cultural de los lugares; no aparecen personas."
+  },
+  {
+    "file": "galerias/islas-de-san-andres-y-providencia",
+    "cover": "galerias/islas-de-san-andres-y-providencia/01-johnny-cay.jpg",
+    "title": "Islas de San Andrés y Providencia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Johnny Cay, el mar de los siete colores, el Hoyo Soplador, Providencia y el cangrejo negro: el archipiélago colombiano en medio del mar Caribe, parte de la Reserva de Biosfera Seaflower.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Geografía",
+      "Región Insular",
+      "Mar"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "islas-de-san-andres-y-providencia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 2.0": 1,
+        "CC BY-SA 4.0": 6,
+        "Dominio público": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3462749,
+    "reviewNotes": "03: lancha con pasajeros diminutos, no identificables. 06 es de la misma especie, fotografiada en Centroamérica. 08: mapa antiguo de la Biblioteca Nacional de Francia (dominio público)."
+  },
+  {
+    "file": "galerias/golfo-de-morrosquillo-y-sus-playas",
+    "cover": "galerias/golfo-de-morrosquillo-y-sus-playas/05-isla-mucura.jpg",
+    "title": "El golfo de Morrosquillo y sus playas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Tolú, Coveñas, la isla Múcura y Santa Cruz del Islote: playas, islas y paisajes del golfo de Morrosquillo, en la costa de Sucre y Córdoba.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Geografía",
+      "Sucre",
+      "Región Caribe",
+      "Mar"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "golfo-de-morrosquillo-y-sus-playas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 4,
+        "CC BY-SA 3.0": 4
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4243387,
+    "reviewNotes": "03, 06 y 07: personas diminutas a lo lejos, no identificables."
+  },
+  {
+    "file": "galerias/cienagas-y-humedales",
+    "cover": "galerias/cienagas-y-humedales/01-cienaga-de-zapatosa.jpg",
+    "title": "Ciénagas y humedales",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "La Mojana, la ciénaga de Zapatosa, la Ciénaga Grande de Santa Marta y los humedales de las ciudades: ecosistemas de agua que regulan las inundaciones, dan pesca y refugio a miles de aves.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Ecosistemas",
+      "Agua",
+      "Región Caribe"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "cienagas-y-humedales",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 2.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 3474241,
+    "reviewNotes": "02 es una panorámica muy alargada (1600×295 px)."
+  },
+  {
+    "file": "galerias/la-luna",
+    "cover": "galerias/la-luna/01-fases-de-la-luna.jpg",
+    "title": "La Luna",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Las fases de la Luna, su cara oculta, sus cráteres, la huella de los astronautas y la Luna vista junto a la Tierra: todo sobre nuestro satélite natural.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Astronomía",
+      "Espacio"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "la-luna",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 2.0": 1,
+        "CC0": 1,
+        "Dominio público": 5,
+        "CC BY-SA 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4328652,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/eclipses",
+    "cover": "galerias/eclipses/01-eclipse-total-de-sol.jpg",
+    "title": "Eclipses de Sol y de Luna",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "¿Por qué a veces el Sol se oscurece de día o la Luna se pone roja? Fotos de eclipses totales, anulares y parciales, la sombra de la Luna vista desde el espacio y cómo observarlos sin peligro.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Astronomía",
+      "Espacio"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "eclipses",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 4,
+        "CC BY-SA 3.0": 1,
+        "CC0": 1,
+        "Dominio público": 3
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 1782239,
+    "reviewNotes": "Los pies de foto incluyen la advertencia de no mirar el Sol directamente."
+  },
+  {
+    "file": "galerias/constelaciones",
+    "cover": "galerias/constelaciones/01-orion.jpg",
+    "title": "Constelaciones",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Orión, la Cruz del Sur, la Osa Mayor, el Escorpión y las Pléyades: los dibujos que las personas han imaginado en el cielo nocturno durante miles de años, y cómo encontrarlos.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Astronomía",
+      "Espacio"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "constelaciones",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY 2.0": 1,
+        "CC BY 4.0": 2,
+        "CC BY-SA 4.0": 1,
+        "Dominio público": 1,
+        "CC BY 3.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5593675,
+    "reviewNotes": "06: lámina de Urania's Mirror (1824), dominio público; Sidney Hall murió en 1831."
+  },
+  {
+    "file": "galerias/la-tierra-vista-desde-el-espacio",
+    "cover": "galerias/la-tierra-vista-desde-el-espacio/01-hemisferio-occidental.jpg",
+    "title": "La Tierra vista desde el espacio",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "América y Colombia vistas desde satélites y desde la Estación Espacial Internacional: la Sierra Nevada, el río Atrato, las luces de las ciudades, auroras, huracanes y el «punto azul pálido».",
+    "gradeMin": 4,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias naturales",
+      "Astronomía",
+      "Geografía",
+      "Espacio"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "la-tierra-vista-desde-el-espacio",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 9
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4347485,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/rocas-y-minerales",
+    "cover": "galerias/rocas-y-minerales/01-esmeralda.jpg",
+    "title": "Rocas y minerales",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Esmeraldas de Muzo, cuarzo, pirita, obsidiana, granito, basalto, piedra pómez, sal y geodas: cómo se forman las rocas ígneas, sedimentarias y metamórficas, y los minerales que las componen.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Geología",
+      "Ciencias de la Tierra"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "rocas-y-minerales",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 4.0": 4,
+        "CC BY 2.0": 1,
+        "CC BY 3.0": 1,
+        "Dominio público": 1,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 6556942,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/el-clima-y-las-nubes",
+    "cover": "galerias/el-clima-y-las-nubes/01-cumulos.jpg",
+    "title": "El clima y las nubes",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Cúmulos, cirros, estratos, cumulonimbos y nubes de formas curiosas: aprende a reconocer las nubes y a saber qué tiempo anuncian, y conoce cómo se mide el clima.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Clima",
+      "Ciencias de la Tierra"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-clima-y-las-nubes",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "CC0": 2,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 2754168,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/el-ciclo-del-agua",
+    "cover": "galerias/el-ciclo-del-agua/01-diagrama-del-ciclo-del-agua.png",
+    "title": "El ciclo del agua",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Evaporación, nubes, lluvia, rocío, glaciares, ríos, mar y manantiales: el viaje sin fin del agua por el planeta, con un diagrama en español del Servicio Geológico de EE. UU.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Agua",
+      "Ciencias de la Tierra"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-ciclo-del-agua",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 2,
+        "CC BY-SA 4.0": 3,
+        "CC0": 2,
+        "CC BY-SA 3.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5486959,
+    "reviewNotes": "06 es una pintura de Frederic Edwin Church (†1900), dominio público. 01 es un diagrama del USGS (dominio público) con texto pequeño a 1600 px."
+  },
+  {
+    "file": "galerias/fenomenos-naturales",
+    "cover": "galerias/fenomenos-naturales/03-arcoiris.jpg",
+    "title": "Fenómenos naturales del cielo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Rayos, el relámpago del Catatumbo, arcoíris, halos, parhelios, auroras, huracanes, granizo y arcoíris de Luna: los espectáculos de la atmósfera explicados con calma.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Clima",
+      "Ciencias de la Tierra"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "fenomenos-naturales",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 4.0": 3,
+        "CC BY-SA 2.0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 2,
+        "CC BY 2.5": 1,
+        "Dominio público": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 3762663,
+    "reviewNotes": "Tono tranquilo y orientado a la seguridad (refugiarse bajo techo durante tormentas)."
+  },
+  {
+    "file": "galerias/energia-sol-viento-y-agua",
+    "cover": "galerias/energia-sol-viento-y-agua/01-parque-eolico-jepirachi.jpg",
+    "title": "Energía del sol, el viento y el agua",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Parques eólicos en La Guajira, paneles solares en Córdoba, represas, molinos, ruedas hidráulicas y energía geotérmica: cómo convertimos las fuerzas de la naturaleza en energía.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Tecnología",
+      "Medio ambiente",
+      "Energía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "energia-sol-viento-y-agua",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 2,
+        "CC BY-SA 3.0": 2,
+        "Dominio público": 3,
+        "CC BY 2.0": 1,
+        "CC BY-SA 2.0": 1,
+        "CC BY-SA 3.0 nl": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 6359407,
+    "reviewNotes": "03: foto del Gobierno de Colombia publicada en Flickr con Marca de Dominio Público (sin personas). 07: fotografía de 1932 de autor anónimo (PD-Colombia)."
+  },
+  {
+    "file": "galerias/los-cinco-sentidos",
+    "cover": "galerias/los-cinco-sentidos/01-la-vista.jpg",
+    "title": "Los cinco sentidos",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Vista, oído, olfato, gusto y tacto: cómo conocemos el mundo con nuestro cuerpo, y algunos animales con sentidos asombrosos.",
+    "gradeMin": 1,
+    "gradeMax": 3,
+    "categories": [
+      "Ciencias naturales",
+      "Cuerpo humano",
+      "Animales"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "los-cinco-sentidos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 4,
+        "CC BY-SA 4.0": 3,
+        "CC0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4823206,
+    "reviewNotes": "Sin personas identificables: solo primeros planos de un ojo, una lengua y un dedo."
+  },
+  {
+    "file": "galerias/microorganismos-al-microscopio",
+    "cover": "galerias/microorganismos-al-microscopio/05-tardigrado.png",
+    "title": "Microorganismos al microscopio",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Paramecios, amebas, diatomeas, tardígrados, rotíferos, algas y bacterias: el mundo invisible que descubrió Anton van Leeuwenhoek con sus pequeños microscopios en el siglo XVII.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Microorganismos",
+      "Biología",
+      "Historia de la ciencia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "microorganismos-al-microscopio",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 4.0": 4,
+        "Dominio público": 3,
+        "CC BY 2.5": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 5710033,
+    "reviewNotes": "10: lámina de Ehrenberg (1838), dominio público."
+  },
+  {
+    "file": "galerias/las-celulas",
+    "cover": "galerias/las-celulas/04-cloroplastos.jpg",
+    "title": "Las células",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "De las celdas de corcho que vio Robert Hooke en 1665 a las neuronas y la mitosis: células vegetales y animales vistas al microscopio, y sus partes.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias naturales",
+      "Biología",
+      "Historia de la ciencia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "las-celulas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 3,
+        "CC BY 2.0": 1,
+        "CC BY-SA 4.0": 4
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5021555,
+    "reviewNotes": "01: lámina de Micrographia (Robert Hooke, 1665), dominio público."
+  },
+  {
+    "file": "galerias/esqueletos-de-animales",
+    "cover": "galerias/esqueletos-de-animales/01-esqueleto-de-ballena.jpg",
+    "title": "Esqueletos de animales",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Ballenas, caballos, gatos, tortugas, aves, chigüiros, murciélagos, serpientes y peces: lo que los huesos nos cuentan sobre cómo viven, se mueven y se parecen los animales vertebrados.",
+    "gradeMin": 4,
+    "gradeMax": 8,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Biología"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "esqueletos-de-animales",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 4.0": 4,
+        "CC BY 2.0": 1,
+        "Dominio público": 2
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 3623971,
+    "reviewNotes": "09: ilustración de A. Günther, An Introduction to the Study of Fishes (1880), dominio público."
+  },
+  {
+    "file": "galerias/animales-del-polo-y-la-montana",
+    "cover": "galerias/animales-del-polo-y-la-montana/01-osa-polar-y-cria.jpg",
+    "title": "Animales del polo y la montaña",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Osos polares, pingüinos, morsas, zorros árticos, renos, búhos nivales, leopardos de las nieves, vicuñas e íbices: animales que viven en los lugares más fríos del planeta y cómo se protegen del frío.",
+    "gradeMin": 1,
+    "gradeMax": 5,
+    "categories": [
+      "Ciencias naturales",
+      "Animales",
+      "Ecosistemas"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "animales-del-polo-y-la-montana",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 3,
+        "CC BY 2.0": 1,
+        "CC0": 1,
+        "CC BY-SA 3.0": 3,
+        "CC BY-SA 2.5": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4730686,
+    "reviewNotes": null
+  }
+]

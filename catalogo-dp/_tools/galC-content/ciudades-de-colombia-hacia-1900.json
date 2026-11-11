@@ -1,0 +1,33 @@
+{
+ "title": "Ciudades de Colombia a comienzos del siglo XX",
+ "description": "Fotografías de hace más de cien años de Bogotá, Medellín y Barranquilla: plazas, avenidas, teatros, comercios y la vida junto al río. Compara cómo eran las ciudades entonces y cómo son hoy.",
+ "gradeMin": 5, "gradeMax": 11,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Fotografía histórica", "Ciudades"],
+ "cover": 2,
+ "credits": {"1": "Fotógrafo anónimo, Libro Azul de Colombia (1918)", "2": "Fotógrafo anónimo, Libro Azul de Colombia (1918)", "3": "Fotógrafo anónimo, Libro Azul de Colombia (1918)", "4": "Fotógrafo anónimo, Libro Azul de Colombia (1918)", "5": "Fotógrafo anónimo, Libro Azul de Colombia (1918)", "6": "Fotografía Americana (Medellín, 1918)", "8": "Fotografía estereoscópica anónima, Biblioteca del Congreso de EE. UU."},
+ "items": [
+  ["Fotografía antigua en tono sepia de una ciudad extendida al pie de montañas, con árboles en primer plano.",
+   "Panorámica de Bogotá publicada en el Libro Azul de Colombia en 1918. La ciudad tenía entonces unos 140.000 habitantes; hoy tiene más de siete millones."],
+  ["Fotografía antigua de una plaza con árboles frente a una catedral de dos torres y otros edificios, con montañas detrás.",
+   "La Plaza de Bolívar de Bogotá en 1918, con la catedral primada al fondo. En esa época la plaza tenía jardines y árboles, que luego se retiraron."],
+  ["Fotografía antigua de una avenida ancha con un monumento, un coche tirado por caballos y montañas al fondo.",
+   "La avenida Colón de Bogotá en 1918. Por las calles circulaban coches de caballos, tranvías y los primeros automóviles."],
+  ["Fotografía antigua de un edificio grande de dos pisos con ventanas en arco, en una esquina.",
+   "El Teatro Municipal de Bogotá, que fue demolido en 1952. Los teatros eran el centro de la vida cultural, con óperas, zarzuelas y conciertos."],
+  ["Fotografía antigua de una multitud de personas con sombrero y traje frente a un pabellón con cúpula entre árboles.",
+   "El Parque de la Independencia de Bogotá se creó para la gran exposición del primer centenario de la independencia, en 1910."],
+  ["Fotografía antigua de una gran iglesia de ladrillo con cúpulas y torres, rodeada de terrenos con vegetación.",
+   "La catedral metropolitana de Medellín, todavía en construcción hacia 1918. Es una de las iglesias de ladrillo más grandes del mundo; se terminó en 1931."],
+  ["Fotografía antigua del interior de un almacén elegante con vitrinas, jarrones, flores y un pasillo con techo de vidrio.",
+   "El almacén Salón Rojo de Medellín, fotografiado en 1910 por Melitón Rodríguez, uno de los grandes fotógrafos colombianos de su tiempo."],
+  ["Fotografía doble antigua de un grupo de mujeres lavando ropa en la orilla de un río ancho, con árboles al otro lado.",
+   "Lavanderas en el río Magdalena, cerca de Barranquilla, a comienzos del siglo XX. Antes de que hubiera acueductos, muchas familias lavaban la ropa en los ríos."]
+ ],
+ "questions": [
+  ["¿Qué celebración se preparó en Bogotá en 1910?", ["El primer centenario de la independencia", "La llegada del primer avión", "La fundación de la ciudad"], 0, "Para el centenario se creó el Parque de la Independencia."],
+  ["¿Con qué material está construida la catedral de Medellín?", ["Ladrillo", "Mármol", "Madera"], 0, "Es una de las iglesias de ladrillo más grandes del mundo."],
+  ["¿Cómo circulaban muchas personas por Bogotá en 1918?", ["En coches de caballos y tranvías", "En metro", "En avión"], 0, "Los automóviles apenas empezaban a llegar."],
+  ["¿Quién fue Melitón Rodríguez?", ["Un fotógrafo de Medellín", "Un presidente", "Un pintor de Cartagena"], 0, "Melitón Rodríguez (1875–1942) fotografió la vida de Medellín."]
+ ],
+ "reviewNotes": "Fotos del Libro Azul de Colombia (1918), obra anónima publicada hace más de 80 años, y de Melitón Rodríguez (†1942). Las personas que aparecen son de hace más de un siglo."
+}

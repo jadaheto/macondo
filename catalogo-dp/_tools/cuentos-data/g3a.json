@@ -1,0 +1,2414 @@
+[
+ {
+  "slug": "el-secreto-del-manglar",
+  "title": "El secreto del manglar",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "ciencia",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "ciencia",
+   "conservación"
+  ],
+  "synopsis": "Dayana y Samuel visitan el manglar de Tolú con su curso y descubren un secreto: entre las raíces viven miles de crías de peces y cangrejos, y los árboles protegen la costa del Golfo de Morrosquillo.",
+  "coverScene": {
+   "bg": "manglar",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     690,
+     90,
+     0.8
+    ],
+    [
+     "mangle",
+     130,
+     400,
+     1.1
+    ],
+    [
+     "mangle",
+     680,
+     390,
+     0.9
+    ],
+    [
+     "garza",
+     560,
+     380,
+     0.7
+    ],
+    [
+     "canoa",
+     380,
+     470,
+     1.1,
+     {
+      "color": "#c0703f"
+     }
+    ],
+    [
+     "persona",
+     330,
+     470,
+     0.75,
+     {
+      "piel": "oscura",
+      "pelo": "rizos",
+      "ropa": "coral",
+      "pantalon": "navy",
+      "brazos": "saluda"
+     }
+    ],
+    [
+     "persona",
+     420,
+     470,
+     0.75,
+     {
+      "piel": "trigueña",
+      "pelo": "corto",
+      "ropa": "green",
+      "pantalon": "navy",
+      "gafas": true
+     }
+    ],
+    [
+     "pez",
+     250,
+     570,
+     0.7,
+     {
+      "color": "yellow"
+     }
+    ],
+    [
+     "cangrejo",
+     120,
+     420,
+     0.5
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "El martes, el curso tercero B del colegio de Tolú no fue al salón. La profe Edilsa los llevó al manglar que queda a la orilla del Golfo de Morrosquillo. Dayana iba adelante, con su cuaderno de dibujo bajo el brazo. Samuel caminaba detrás, limpiándose las gafas cada dos minutos porque el aire olía a sal y a hojas mojadas.",
+     "—¿Qué tiene de especial un montón de árboles en el agua? —preguntó Samuel—. En el parque hay árboles más bonitos.",
+     "—Hoy vamos a descubrir el secreto del manglar —respondió la profe Edilsa, y les guiñó un ojo.",
+     "Subieron a una canoa larga que manejaba don Arnulfo, un pescador del barrio que conocía cada canal. La canoa avanzó despacio entre túneles verdes. Los árboles tenían raíces largas y curvas, como patas de araña que salían del tronco y se clavaban en el barro. Una garza blanca los miró desde una rama, muy quieta, y luego siguió pescando."
+    ],
+    "alt": "Dos niños y su profesora en una canoa entre los árboles del manglar, con una garza blanca en una rama.",
+    "scene": {
+     "bg": "manglar",
+     "time": "dia",
+     "items": [
+      [
+       "mangle",
+       110,
+       390,
+       1.0
+      ],
+      [
+       "mangle",
+       700,
+       395,
+       1.0
+      ],
+      [
+       "garza",
+       610,
+       400,
+       0.6
+      ],
+      [
+       "canoa",
+       400,
+       500,
+       1.3,
+       {
+        "color": "#c0703f"
+       }
+      ],
+      [
+       "persona",
+       330,
+       495,
+       0.75,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "coral",
+        "pantalon": "navy",
+        "sosten": "libro"
+       }
+      ],
+      [
+       "persona",
+       410,
+       495,
+       0.75,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "navy",
+        "gafas": true
+       }
+      ],
+      [
+       "persona",
+       480,
+       495,
+       0.75,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Don Arnulfo detuvo la canoa junto a unas raíces. —Miren aquí abajo, sin tocar —dijo en voz baja.",
+     "Dayana se asomó. El agua era clara y poco profunda. Entre las raíces se movían cientos de pececitos plateados, tan pequeños como un grano de arroz. Sobre el barro caminaban cangrejos rojos que levantaban las pinzas como si saludaran. Pegadas a las raíces había ostras y caracoles.",
+     "—¡Parece una guardería! —exclamó Dayana.",
+     "—Eso es exactamente el manglar —explicó la profe Edilsa—. Muchos peces que después viven en el mar nacen y crecen aquí. Las raíces los esconden de los peces grandes y el agua tranquila les da comida. Sin manglar, habría menos pescado para las familias de Tolú y de Coveñas.",
+     "Samuel abrió la boca, sorprendido. Luego vio un cangrejito azul muy cerca de la canoa y tuvo una idea. —Profe, ¿me lo puedo llevar a la casa en el balde? Lo cuido bien, se lo prometo.",
+     "La profe se quedó pensando un momento. —¿Dónde crees que estará más feliz ese cangrejo? ¿En un balde de plástico o aquí, con su barro, su agua y su familia?",
+     "Samuel miró el balde vacío y luego miró el cangrejo, que se metió en un hueco del barro. —Aquí —dijo—. Mejor lo dibujo."
+    ],
+    "alt": "Bajo las raíces del mangle nadan peces pequeños y caminan cangrejos; Samuel los mira desde una canoa.",
+    "scene": {
+     "bg": "manglar",
+     "time": "dia",
+     "items": [
+      [
+       "mangle",
+       400,
+       420,
+       1.3
+      ],
+      [
+       "pez",
+       200,
+       520,
+       0.6,
+       {
+        "color": "#c7d3dc"
+       }
+      ],
+      [
+       "pez",
+       270,
+       560,
+       0.5,
+       {
+        "color": "#c7d3dc"
+       }
+      ],
+      [
+       "pez",
+       560,
+       540,
+       0.6,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "cangrejo",
+       300,
+       440,
+       0.7
+      ],
+      [
+       "cangrejo",
+       520,
+       445,
+       0.6,
+       {
+        "color": "blue"
+       }
+      ],
+      [
+       "canoa",
+       130,
+       470,
+       0.75,
+       {
+        "color": "#c0703f",
+        "remo": false
+       }
+      ],
+      [
+       "persona",
+       120,
+       462,
+       0.6,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Más adelante, don Arnulfo les mostró la orilla de una playa donde ya no había manglar. Allí la arena estaba revuelta y algunas palmeras se inclinaban, con las raíces al aire.",
+     "—Hace años cortaron los mangles de esta parte —contó—. Cuando llegan los vientos fuertes y las olas grandes, el mar se come la playa. En cambio, donde hay manglar, las raíces frenan las olas y sostienen el barro, como una muralla viva.",
+     "—Entonces el manglar también cuida las casas —dijo Samuel, pensativo.",
+     "—Y limpia el agua, y es casa de aves como la garza —añadió Dayana, contando con los dedos—. ¡Tiene muchos secretos!",
+     "La profe Edilsa sonrió. —Por eso hay que protegerlo. No botar basura, no cortar sus ramas y contarles a otros lo que aprendimos hoy."
+    ],
+    "alt": "Una playa sin manglar con palmeras inclinadas y olas, junto a otra parte protegida por mangles.",
+    "scene": {
+     "bg": "playa",
+     "time": "dia",
+     "items": [
+      [
+       "nube",
+       220,
+       100,
+       0.8
+      ],
+      [
+       "palmera",
+       160,
+       470,
+       0.9
+      ],
+      [
+       "palmera",
+       300,
+       480,
+       0.8
+      ],
+      [
+       "olas",
+       260,
+       380,
+       1.0
+      ],
+      [
+       "mangle",
+       640,
+       440,
+       1.0
+      ],
+      [
+       "persona",
+       470,
+       540,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "coral",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       550,
+       545,
+       0.9,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "navy",
+        "gafas": true
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "De regreso al colegio, el curso tercero B decidió hacer algo. Pintaron carteles con dibujos de cangrejos, peces y garzas. El de Samuel tenía un cangrejito azul enorme y decía: «El manglar es la guardería del mar».",
+     "El sábado siguiente, con sus familias y con don Arnulfo, sembraron veinte plantitas de mangle en una orilla donde faltaban árboles. Cada plantita parecía un lápiz verde clavado en el barro.",
+     "—Van a tardar años en crecer —dijo Dayana—, pero cuando seamos grandes aquí habrá peces nuevos.",
+     "Samuel se agachó junto a su plantita y le susurró: —Cuida bien a los cangrejos. Yo vuelvo a visitarte.",
+     "Y así, el secreto del manglar dejó de ser un secreto: ahora todo el barrio lo conocía y lo cuidaba."
+    ],
+    "alt": "Niñas, niños y adultos siembran pequeñas plantas de mangle en la orilla con un cartel de un cangrejo.",
+    "scene": {
+     "bg": "playa",
+     "time": "atardecer",
+     "items": [
+      [
+       "planta",
+       200,
+       455,
+       0.7,
+       {
+        "etapa": 1
+       }
+      ],
+      [
+       "planta",
+       320,
+       455,
+       0.7,
+       {
+        "etapa": 2
+       }
+      ],
+      [
+       "planta",
+       460,
+       455,
+       0.7,
+       {
+        "etapa": 1
+       }
+      ],
+      [
+       "persona",
+       260,
+       560,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "coral",
+        "pantalon": "navy",
+        "sosten": "planta"
+       }
+      ],
+      [
+       "persona",
+       400,
+       565,
+       0.9,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       560,
+       570,
+       0.85,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "corto",
+        "pelocolor": "canoso",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "sombrero": true
+       }
+      ],
+      [
+       "cangrejo",
+       690,
+       560,
+       0.7,
+       {
+        "color": "blue"
+       }
+      ],
+      [
+       "sol",
+       700,
+       110,
+       0.7,
+       {
+        "cara": false
+       }
+      ]
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué la profe Edilsa dice que el manglar es como una guardería?",
+    "options": [
+     "Porque allí los niños juegan después de clase",
+     "Porque muchos peces y cangrejos pequeños nacen y crecen protegidos entre sus raíces",
+     "Porque los pescadores guardan allí sus canoas"
+    ],
+    "answer": 1,
+    "explanation": "Entre las raíces del manglar las crías encuentran refugio y comida hasta que crecen."
+   },
+   {
+    "prompt": "¿Qué decidió Samuel sobre el cangrejito azul?",
+    "options": [
+     "Dejarlo en el manglar y dibujarlo",
+     "Llevarlo a la casa en un balde",
+     "Regalárselo a don Arnulfo"
+    ],
+    "answer": 0,
+    "explanation": "Samuel entendió que el cangrejo vive mejor en su hogar natural."
+   },
+   {
+    "prompt": "¿Cómo protege el manglar a la costa?",
+    "options": [
+     "Hace que el mar se seque",
+     "Atrae a los turistas",
+     "Sus raíces frenan las olas y sostienen el barro"
+    ],
+    "answer": 2,
+    "explanation": "Las raíces funcionan como una muralla viva que evita que el mar se lleve la playa."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "manglar",
+    "meaning": "Bosque de árboles llamados mangles que crece en la orilla del mar, donde se mezclan el agua dulce y la salada."
+   },
+   {
+    "word": "guardería",
+    "meaning": "Lugar donde se cuida a los más pequeños mientras crecen."
+   },
+   {
+    "word": "golfo",
+    "meaning": "Parte grande del mar que entra en la tierra, como el Golfo de Morrosquillo."
+   },
+   {
+    "word": "ostra",
+    "meaning": "Animal marino con concha dura que vive pegado a las rocas o a las raíces."
+   },
+   {
+    "word": "muralla",
+    "meaning": "Pared grande y fuerte que protege un lugar."
+   }
+  ]
+ },
+ {
+  "slug": "las-tortugas-de-rincon-del-mar",
+  "title": "Las tortugas de Rincón del Mar",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "conservación",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "conservación",
+   "responsabilidad"
+  ],
+  "synopsis": "Yeison y Luz Ángela se unen al grupo de voluntarios de Rincón del Mar que cuida los nidos de tortuga marina. Una noche de luna llena aprenden por qué hay que apagar las luces para que las tortuguitas encuentren el camino al mar.",
+  "coverScene": {
+   "bg": "playa",
+   "time": "noche",
+   "items": [
+    [
+     "luna",
+     640,
+     110,
+     0.9,
+     {
+      "fase": "llena",
+      "cara": true
+     }
+    ],
+    [
+     "estrellas",
+     400,
+     150,
+     1
+    ],
+    [
+     "tortuguita",
+     260,
+     560,
+     1.4
+    ],
+    [
+     "tortuguita",
+     380,
+     560,
+     1.3
+    ],
+    [
+     "tortuguita",
+     500,
+     560,
+     1.4
+    ],
+    [
+     "persona",
+     120,
+     590,
+     0.85,
+     {
+      "piel": "oscura",
+      "pelo": "corto",
+      "ropa": "yellow",
+      "pantalon": "navy"
+     }
+    ],
+    [
+     "persona",
+     690,
+     590,
+     0.85,
+     {
+      "piel": "morena",
+      "pelo": "trenzas",
+      "ropa": "purple",
+      "pantalon": "navy",
+      "audifono": true,
+      "flip": true
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En Rincón del Mar, un pueblo de pescadores de San Onofre, todos conocían a la señora Rosario. Tenía el pelo blanco como la espuma y caminaba cada mañana por la playa con una libreta y unos palitos de madera.",
+     "—¿Qué busca, señora Rosario? —le preguntó un día Yeison, que tenía nueve años y vivía en la casa azul del final de la playa.",
+     "—Busco huellas de tortuga —respondió ella—. Cuando una tortuga marina sale del mar de noche, deja en la arena un rastro ancho, como el de una llanta. Al final del rastro, enterrados, están sus huevos.",
+     "Ese mismo día, Yeison y su mejor amiga, Luz Ángela, se inscribieron en el grupo de voluntarios. Luz Ángela usaba un audífono de color coral y se sentaba siempre adelante en las reuniones para leer bien los labios de quien hablaba. Era la que mejor anotaba todo en la libreta."
+    ],
+    "alt": "La señora Rosario, de pelo blanco, camina por la playa junto a Yeison y Luz Ángela mirando huellas en la arena.",
+    "scene": {
+     "bg": "playa",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       690,
+       90,
+       0.8
+      ],
+      [
+       "nube",
+       200,
+       100,
+       0.8
+      ],
+      [
+       "palmera",
+       80,
+       470,
+       0.9
+      ],
+      [
+       "persona",
+       330,
+       550,
+       1.05,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "blue",
+        "sosten": "libro"
+       }
+      ],
+      [
+       "persona",
+       470,
+       560,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       570,
+       560,
+       0.9,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "pantalon": "navy",
+        "audifono": true
+       }
+      ],
+      [
+       "casa",
+       720,
+       450,
+       0.55,
+       {
+        "color": "#7fb8e0",
+        "techo": "zinc"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Una semana después encontraron un rastro nuevo. La señora Rosario midió con cuidado y marcó el nido con cuatro palitos y una cinta. Luz Ángela escribió en la libreta: «Nido 7. Encontrado el 2 de mayo».",
+     "—Ahora hay que esperar unos dos meses —explicó la señora Rosario—. El sol calienta la arena y la arena calienta los huevos. Nadie debe pisar aquí ni sacar los huevos, porque las tortugas marinas están en peligro y cada nido es un tesoro.",
+     "Durante semanas, Yeison y Luz Ángela visitaron el nido después de clase. Quitaban la basura que traía el mar y les explicaban a los turistas por qué no podían poner las sillas encima de la cinta. Algunos niños de otros barrios empezaron a ayudar también."
+    ],
+    "alt": "Un nido marcado con palitos en la arena; los niños recogen botellas de la playa.",
+    "scene": {
+     "bg": "playa",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       100,
+       90,
+       0.7
+      ],
+      [
+       "nido",
+       400,
+       520,
+       1.3,
+       {
+        "huevos": 3
+       }
+      ],
+      [
+       "texto",
+       400,
+       460,
+       1,
+       {
+        "t": "Nido 7",
+        "size": 34,
+        "color": "navy",
+        "bg": "yellow"
+       }
+      ],
+      [
+       "persona",
+       220,
+       570,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "sosten": "botella"
+       }
+      ],
+      [
+       "persona",
+       590,
+       570,
+       0.9,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "pantalon": "navy",
+        "audifono": true,
+        "sosten": "libro"
+       }
+      ],
+      [
+       "caneca",
+       720,
+       580,
+       0.6,
+       {
+        "color": "blue",
+        "label": "Plástico"
+       }
+      ],
+      [
+       "olas",
+       600,
+       380,
+       0.9
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Por fin llegó la noche esperada. Era luna llena. La señora Rosario reunió al grupo junto al nido y habló bajito: —Hoy pueden salir. Nada de linternas ni de fotos con luz. Las tortuguitas buscan el horizonte más brillante, que normalmente es el mar iluminado por la luna. Si ven otra luz, se confunden y caminan hacia el lado equivocado.",
+     "Pero en ese momento, Yeison vio algo que lo preocupó. En una casa cercana alguien había encendido un bombillo muy fuerte en el patio, justo frente a la playa.",
+     "—Esa luz las va a despistar —dijo Luz Ángela, que había leído los labios de la señora Rosario.",
+     "Yeison respiró hondo y corrió hasta la casa. Tocó la puerta y, con mucho respeto, le explicó al señor que vivía allí lo que estaba pasando. —¿Nos ayuda a apagar el bombillo un ratico? Es por las tortuguitas.",
+     "El señor se sorprendió, pero sonrió y apagó la luz. —No lo sabía. Gracias por contarme —dijo, y salió con su hija a mirar desde lejos."
+    ],
+    "alt": "De noche, con luna llena, Yeison habla con un vecino frente a su casa para pedirle que apague el bombillo.",
+    "scene": {
+     "bg": "pueblo",
+     "time": "noche",
+     "items": [
+      [
+       "luna",
+       660,
+       110,
+       0.8,
+       {
+        "fase": "llena"
+       }
+      ],
+      [
+       "estrellas",
+       400,
+       140,
+       1
+      ],
+      [
+       "casa",
+       250,
+       450,
+       1.0,
+       {
+        "color": "#f6c36b",
+        "techo": "palma"
+       }
+      ],
+      [
+       "persona",
+       420,
+       560,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       520,
+       560,
+       1.05,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       650,
+       565,
+       0.9,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "pantalon": "navy",
+        "audifono": true,
+        "flip": true
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Cuando todo quedó oscuro, la arena del nido empezó a moverse. Primero salió una cabecita, después dos, después muchas. Eran tortuguitas del tamaño de una galleta, con aletas que se movían como remos.",
+     "Nadie las tocó. Nadie las cargó. Todos se quedaron a los lados, en silencio, formando un pasillo. Las tortuguitas avanzaron hacia el brillo plateado del mar y, una a una, las olas se las llevaron.",
+     "Luz Ángela contó en voz baja y anotó en la libreta: «Nido 7. Salieron 84 tortuguitas. Todas llegaron al mar».",
+     "—Algún día, algunas de estas tortugas volverán a esta misma playa a poner sus huevos —dijo la señora Rosario—. Y ustedes estarán aquí para cuidarlas.",
+     "Yeison miró el mar y sintió el pecho lleno, como si se le hubiera metido la luna adentro. Al día siguiente, el vecino del bombillo se inscribió en el grupo de voluntarios."
+    ],
+    "alt": "Tortuguitas caminan por la arena hacia el mar plateado por la luna, mientras los niños observan sin tocarlas.",
+    "scene": {
+     "bg": "playa",
+     "time": "noche",
+     "items": [
+      [
+       "luna",
+       400,
+       110,
+       0.9,
+       {
+        "fase": "llena",
+        "cara": true
+       }
+      ],
+      [
+       "estrellas",
+       400,
+       150,
+       1
+      ],
+      [
+       "tortuguita",
+       300,
+       520,
+       1.3
+      ],
+      [
+       "tortuguita",
+       400,
+       560,
+       1.3
+      ],
+      [
+       "tortuguita",
+       500,
+       520,
+       1.3
+      ],
+      [
+       "tortuguita",
+       420,
+       480,
+       1.0
+      ],
+      [
+       "persona",
+       140,
+       590,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       660,
+       590,
+       0.9,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "pantalon": "navy",
+        "audifono": true,
+        "sosten": "libro"
+       }
+      ]
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué la señora Rosario pidió que no usaran linternas?",
+    "options": [
+     "Porque las tortuguitas se confunden con otras luces y no encuentran el mar",
+     "Porque las linternas asustan a los pescadores",
+     "Porque estaba prohibido salir de noche"
+    ],
+    "answer": 0,
+    "explanation": "Las tortuguitas se guían por el horizonte más brillante, que debe ser el mar iluminado por la luna."
+   },
+   {
+    "prompt": "¿Qué hizo Yeison cuando vio el bombillo encendido?",
+    "options": [
+     "Se puso a llorar",
+     "Le tiró arena al bombillo",
+     "Fue a la casa y le pidió con respeto al vecino que lo apagara"
+    ],
+    "answer": 2,
+    "explanation": "Yeison explicó la situación con respeto y el vecino entendió y ayudó."
+   },
+   {
+    "prompt": "¿Qué hacía Luz Ángela en el grupo de voluntarios?",
+    "options": [
+     "Cargaba las tortuguitas hasta el mar",
+     "Anotaba con cuidado los datos de los nidos en la libreta",
+     "Vendía recuerdos a los turistas"
+    ],
+    "answer": 1,
+    "explanation": "Luz Ángela llevaba el registro de cada nido, un trabajo muy importante para cuidar las tortugas."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "voluntario",
+    "meaning": "Persona que ayuda en una tarea porque quiere, sin que le paguen."
+   },
+   {
+    "word": "rastro",
+    "meaning": "Marca o huella que deja algo al pasar."
+   },
+   {
+    "word": "horizonte",
+    "meaning": "Línea lejana donde parece que el cielo se junta con el mar o con la tierra."
+   },
+   {
+    "word": "en peligro",
+    "meaning": "Que quedan pocos y podrían desaparecer si no se cuidan."
+   },
+   {
+    "word": "audífono",
+    "meaning": "Aparato pequeño que se pone en la oreja y ayuda a escuchar mejor."
+   }
+  ]
+ },
+ {
+  "slug": "la-canoa-de-la-abuela-mercedes",
+  "title": "La canoa de la abuela Mercedes",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "historia",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "historia",
+   "pueblo zenú"
+  ],
+  "synopsis": "Cuando llega la creciente del río San Jorge, Camilo se pregunta cómo se puede vivir con tanta agua. En un paseo en canoa por La Mojana, su abuela Mercedes le cuenta cómo los antiguos zenúes construyeron canales para convivir con el río.",
+  "coverScene": {
+   "bg": "rio",
+   "time": "atardecer",
+   "items": [
+    [
+     "sol",
+     680,
+     110,
+     0.8,
+     {
+      "cara": false
+     }
+    ],
+    [
+     "ceiba",
+     120,
+     330,
+     0.7
+    ],
+    [
+     "canoa",
+     400,
+     480,
+     1.3,
+     {
+      "color": "#a8774f"
+     }
+    ],
+    [
+     "persona",
+     350,
+     470,
+     0.9,
+     {
+      "adulto": true,
+      "piel": "trigueña",
+      "pelo": "moño",
+      "pelocolor": "canoso",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "orange",
+      "sombrero": true
+     }
+    ],
+    [
+     "persona",
+     450,
+     470,
+     0.8,
+     {
+      "piel": "trigueña",
+      "pelo": "corto",
+      "ropa": "turq",
+      "pantalon": "navy",
+      "brazos": "saluda"
+     }
+    ],
+    [
+     "garza",
+     650,
+     420,
+     0.6
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En la casa de Camilo, en La Mojana, el río San Jorge tiene dos caras. En los meses secos se queda quieto en su cauce, angosto y tranquilo. Pero cuando llegan las lluvias, el río crece, se desborda y cubre los potreros hasta donde alcanza la vista. A eso le dicen la creciente.",
+     "Ese año el agua llegó hasta el último escalón de la casa. Camilo, que tenía nueve años, miraba por la ventana con la frente arrugada.",
+     "—Abuela, ¿por qué vivimos en un lugar donde el agua lo tapa todo? —preguntó—. ¿No sería mejor vivir lejos del río?",
+     "La abuela Mercedes dejó a un lado la trenza de caña flecha que estaba tejiendo. Era zenú, como sus padres y sus abuelos, y siempre tenía una historia guardada para las preguntas difíciles.",
+     "—Ven conmigo —le dijo—. Vamos a dar un paseo en la canoa. Hay cosas que se entienden mejor desde el agua."
+    ],
+    "alt": "Una casa rodeada de agua por la creciente del río; la abuela y Camilo suben a su canoa.",
+    "scene": {
+     "bg": "cienaga",
+     "time": "dia",
+     "items": [
+      [
+       "nube",
+       200,
+       100,
+       0.8
+      ],
+      [
+       "lluvia",
+       560,
+       110,
+       0.7
+      ],
+      [
+       "casa",
+       250,
+       420,
+       1.0,
+       {
+        "color": "#f6c36b",
+        "techo": "palma"
+       }
+      ],
+      [
+       "canoa",
+       560,
+       500,
+       1.1,
+       {
+        "color": "#a8774f",
+        "remo": false
+       }
+      ],
+      [
+       "persona",
+       520,
+       492,
+       0.8,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "orange"
+       }
+      ],
+      [
+       "persona",
+       610,
+       492,
+       0.7,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "La canoa se deslizó entre árboles medio sumergidos. Pasaron junto a una garza que pescaba y a un grupo de patos que nadaban en fila. La abuela remaba despacio, sin prisa, como si el río fuera un camino conocido.",
+     "—Hace más de mil años —empezó a contar— aquí vivían nuestros antepasados, los zenúes. Ellos no peleaban con el agua. La estudiaban. Sabían que cada año el río crecía y que después bajaba.",
+     "—¿Y qué hacían cuando crecía? —preguntó Camilo.",
+     "—Construyeron miles de canales, largos y derechitos, uno al lado del otro, como las espinas de un pescado. Y entre canal y canal levantaron caminos de tierra más altos, que llamamos camellones. Cuando llegaba la creciente, el agua se repartía por los canales sin hacer daño. En los camellones sembraban maíz y yuca, y en los canales había peces para todos.",
+     "Camilo abrió los ojos. —¡Era como un rompecabezas de agua y tierra!",
+     "—Exacto. Desde un avión todavía se pueden ver las huellas de esos canales en la tierra de La Mojana y del San Jorge. Los científicos vienen desde lejos a estudiarlas."
+    ],
+    "alt": "Camilo y su abuela reman en canoa entre los árboles del río mientras ella le cuenta historias de los zenúes.",
+    "scene": {
+     "bg": "rio",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       0.7
+      ],
+      [
+       "ceiba",
+       110,
+       330,
+       0.7
+      ],
+      [
+       "juncos",
+       720,
+       390,
+       1
+      ],
+      [
+       "canoa",
+       420,
+       470,
+       1.3,
+       {
+        "color": "#a8774f"
+       }
+      ],
+      [
+       "persona",
+       370,
+       460,
+       0.9,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "orange",
+        "sombrero": true
+       }
+      ],
+      [
+       "persona",
+       470,
+       460,
+       0.8,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "garza",
+       620,
+       400,
+       0.6
+      ],
+      [
+       "pez",
+       250,
+       520,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Remaron un rato en silencio. Camilo miraba el agua de otra manera. Ya no le parecía una enemiga, sino una vecina con la que había que aprender a convivir.",
+     "—Abuela, ¿y nosotros todavía hacemos cosas como los zenúes? —preguntó.",
+     "—Claro que sí. Por eso nuestra casa tiene el piso alto y por eso todos en el pueblo sabemos manejar una canoa. Y cuando el agua baje, la tierra quedará llena de barro fértil, perfecta para sembrar. El río se lleva cosas, pero también trae regalos.",
+     "Camilo pensó en los peces que su papá pescaría en la ciénaga, en el maíz que crecería después. Se dio cuenta de que la creciente era parte del ritmo de La Mojana, como el día y la noche."
+    ],
+    "alt": "Un dibujo de canales en forma de espina de pescado con camellones donde crecen plantas de maíz.",
+    "scene": {
+     "bg": "huerta",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       0.7
+      ],
+      [
+       "texto",
+       400,
+       160,
+       1,
+       {
+        "t": "canales y camellones",
+        "size": 38,
+        "color": "navy",
+        "bg": "#fff6e5"
+       }
+      ],
+      [
+       "planta",
+       150,
+       420,
+       0.8,
+       {
+        "etapa": 2
+       }
+      ],
+      [
+       "planta",
+       400,
+       410,
+       0.8,
+       {
+        "etapa": 3,
+        "color": "yellow"
+       }
+      ],
+      [
+       "planta",
+       650,
+       420,
+       0.8,
+       {
+        "etapa": 2
+       }
+      ],
+      [
+       "pez",
+       280,
+       485,
+       0.6,
+       {
+        "color": "turq"
+       }
+      ],
+      [
+       "pez",
+       540,
+       555,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Al otro día, en el colegio, Camilo le contó todo a su curso. La profe Yaneth propuso un experimento. En una bandeja grande hicieron canales con barro y dejaron camellones altos en medio. Luego echaron agua con una jarra, como si fuera la creciente.",
+     "El agua corrió por los canales y los camellones quedaron secos. En otra bandeja, sin canales, el agua lo inundó todo.",
+     "—¡Funciona! —gritó Daniela, una compañera.",
+     "—Los zenúes eran ingenieros —dijo Camilo, orgulloso.",
+     "Esa tarde, cuando volvió a casa, encontró a la abuela Mercedes tejiendo otra vez. Se sentó a su lado y le pidió que le enseñara a hacer la trenza de caña flecha. —Quiero aprender todo lo que sabían nuestros abuelos —dijo.",
+     "La abuela sonrió y le puso las fibras en las manos."
+    ],
+    "alt": "En el aula, Camilo y sus compañeros echan agua sobre una maqueta de canales de barro.",
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "Los zenúes",
+        "size": 54,
+        "color": "white"
+       }
+      ],
+      [
+       "pupitre",
+       400,
+       560,
+       1.4
+      ],
+      [
+       "balde",
+       400,
+       462,
+       0.8
+      ],
+      [
+       "persona",
+       230,
+       580,
+       0.95,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       570,
+       580,
+       0.95,
+       {
+        "piel": "oscura",
+        "pelo": "coletas",
+        "ropa": "pink",
+        "falda": true,
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       690,
+       585,
+       1.05,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "flip": true
+       }
+      ]
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué es la creciente en La Mojana?",
+    "options": [
+     "Una fiesta del pueblo",
+     "El tiempo de lluvias en que el río sube y cubre los potreros",
+     "Una canoa muy grande"
+    ],
+    "answer": 1,
+    "explanation": "En la temporada de lluvias, el río San Jorge crece y el agua se extiende por la tierra."
+   },
+   {
+    "prompt": "¿Para qué construyeron los zenúes canales y camellones?",
+    "options": [
+     "Para repartir el agua de la creciente y poder sembrar y pescar",
+     "Para hacer carreras de canoas",
+     "Para esconderse del sol"
+    ],
+    "answer": 0,
+    "explanation": "Los canales llevaban el agua y en los camellones, más altos, sembraban; en los canales había peces."
+   },
+   {
+    "prompt": "¿Cómo cambió lo que Camilo pensaba del río?",
+    "options": [
+     "Decidió irse a vivir lejos del agua",
+     "Siguió creyendo que el río era un enemigo",
+     "Entendió que se puede convivir con el agua, como hacían los zenúes"
+    ],
+    "answer": 2,
+    "explanation": "Camilo aprendió que la creciente es parte del ritmo de La Mojana y que trae barro fértil y peces."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "creciente",
+    "meaning": "Tiempo en que el agua del río sube mucho por las lluvias."
+   },
+   {
+    "word": "cauce",
+    "meaning": "Camino por donde corre normalmente el agua de un río."
+   },
+   {
+    "word": "antepasados",
+    "meaning": "Personas de nuestra familia o pueblo que vivieron hace mucho tiempo."
+   },
+   {
+    "word": "camellón",
+    "meaning": "Franja de tierra alta entre dos canales, donde se puede sembrar."
+   },
+   {
+    "word": "fértil",
+    "meaning": "Tierra buena donde las plantas crecen fácilmente."
+   },
+   {
+    "word": "caña flecha",
+    "meaning": "Planta cuyas fibras usa el pueblo zenú para tejer trenzas y sombreros."
+   }
+  ]
+ },
+ {
+  "slug": "el-club-de-la-luna",
+  "title": "El club de la Luna",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "ciencia",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "ciencia",
+   "astronomía"
+  ],
+  "synopsis": "En un colegio de Sincelejo, cuatro amigos forman el Club de la Luna y la dibujan cada noche durante un mes. Con una pelota y una lámpara descubren por qué la Luna parece cambiar de forma.",
+  "coverScene": {
+   "bg": "pueblo",
+   "time": "noche",
+   "items": [
+    [
+     "luna",
+     600,
+     120,
+     1.0,
+     {
+      "fase": "creciente"
+     }
+    ],
+    [
+     "estrellas",
+     400,
+     140,
+     1
+    ],
+    [
+     "casa",
+     150,
+     430,
+     0.8,
+     {
+      "color": "#7fb8e0",
+      "techo": "zinc"
+     }
+    ],
+    [
+     "persona",
+     330,
+     560,
+     0.95,
+     {
+      "piel": "clara",
+      "pelo": "coletas",
+      "ropa": "pink",
+      "pantalon": "navy",
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "persona",
+     440,
+     565,
+     0.95,
+     {
+      "piel": "oscura",
+      "pelo": "rizos",
+      "ropa": "orange",
+      "pantalon": "navy",
+      "sosten": "libro"
+     }
+    ],
+    [
+     "persona",
+     550,
+     560,
+     0.95,
+     {
+      "piel": "morena",
+      "pelo": "largo",
+      "ropa": "purple",
+      "falda": true,
+      "pantalon": "navy",
+      "gafas": true
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Todo empezó con una discusión en el recreo del colegio, en Sincelejo.",
+     "—La Luna cambia de forma porque la sombra de la Tierra la va tapando —dijo Andrés, muy seguro.",
+     "—Yo creo que la Luna se va gastando y después vuelve a crecer, como las uñas —dijo Valeria, riéndose.",
+     "Sofía se acomodó las gafas. —No sé cuál es la respuesta, pero podemos averiguarlo. ¡Como científicos de verdad!",
+     "Así nació el Club de la Luna. El profe Ismael, que enseñaba Ciencias Naturales, aceptó ser su asesor. Les dio una tarea: durante un mes, cada noche, mirar la Luna desde su casa, dibujarla en un cuaderno y escribir la fecha. —Un buen científico primero observa —les dijo—, y después piensa."
+    ],
+    "alt": "Tres niños discuten en el patio del colegio mientras su profesor los escucha con un libro en la mano.",
+    "scene": {
+     "bg": "patio",
+     "time": "dia",
+     "items": [
+      [
+       "escuela",
+       400,
+       400,
+       0.9
+      ],
+      [
+       "sol",
+       700,
+       90,
+       0.7
+      ],
+      [
+       "persona",
+       200,
+       560,
+       1.0,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       320,
+       565,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "coletas",
+        "ropa": "pink",
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       470,
+       560,
+       1.0,
+       {
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       630,
+       570,
+       1.05,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "sosten": "libro"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Las primeras noches no se veía nada. —¡La Luna se perdió! —escribió Valeria en su cuaderno. El profe les explicó que era luna nueva: la Luna estaba allí, pero no la veíamos iluminada.",
+     "Después apareció una rayita curva, delgada como una uña. Cada noche la parte brillante era un poquito más grande. A la semana parecía media galleta: era el cuarto creciente. Una semana después, la Luna estaba completamente redonda y brillante sobre los techos de Sincelejo: luna llena.",
+     "Luego empezó a achicarse por el otro lado, hasta quedar otra vez como una rayita y desaparecer. Cuando juntaron sus cuadernos, los cuatro vieron lo mismo: el ciclo completo duraba casi un mes, unos veintinueve días y medio.",
+     "—Entonces no se gasta —reconoció Valeria—, porque vuelve igualita.",
+     "—Pero todavía no sabemos por qué cambia —dijo Andrés."
+    ],
+    "alt": "Cinco dibujos de la Luna en fila: luna nueva, creciente, cuarto, llena y menguante.",
+    "scene": {
+     "bg": "cielo",
+     "time": "noche",
+     "items": [
+      [
+       "estrellas",
+       400,
+       200,
+       1
+      ],
+      [
+       "luna",
+       100,
+       300,
+       0.75,
+       {
+        "fase": "nueva"
+       }
+      ],
+      [
+       "luna",
+       250,
+       300,
+       0.75,
+       {
+        "fase": "creciente"
+       }
+      ],
+      [
+       "luna",
+       400,
+       300,
+       0.75,
+       {
+        "fase": "cuarto"
+       }
+      ],
+      [
+       "luna",
+       550,
+       300,
+       0.75,
+       {
+        "fase": "llena"
+       }
+      ],
+      [
+       "luna",
+       700,
+       300,
+       0.75,
+       {
+        "fase": "menguante"
+       }
+      ],
+      [
+       "texto",
+       400,
+       470,
+       1,
+       {
+        "t": "29 días y medio",
+        "size": 44,
+        "color": "navy",
+        "bg": "#fff6e5"
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Para resolver el misterio, el profe Ismael oscureció el salón, cerró las cortinas y encendió una lámpara en una esquina. —La lámpara es el Sol —dijo—. Sofía, tu cabeza será la Tierra. Y esta pelota blanca, en un palito, será la Luna.",
+     "Sofía sostuvo la pelota con el brazo estirado y empezó a girar despacio sobre sí misma, mirando siempre la pelota.",
+     "Primero, cuando la pelota quedó entre su cara y la lámpara, Sofía solo vio el lado oscuro. —¡Luna nueva! —gritó Valeria.",
+     "Al girar un poco, apareció un borde iluminado. Luego media pelota brillante. Y cuando la lámpara quedó detrás de Sofía, la pelota se veía toda iluminada. —¡Luna llena! —dijeron todos a la vez."
+    ],
+    "alt": "En el salón oscuro, una lámpara ilumina una pelota blanca que una niña con gafas sostiene frente a su cara.",
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "Sol · Tierra · Luna",
+        "size": 42,
+        "color": "white"
+       }
+      ],
+      [
+       "lampara",
+       130,
+       560,
+       1.2
+      ],
+      [
+       "persona",
+       420,
+       580,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "gafas": true,
+        "sosten": "pelota"
+       }
+      ],
+      [
+       "persona",
+       600,
+       580,
+       0.95,
+       {
+        "piel": "clara",
+        "pelo": "coletas",
+        "ropa": "pink",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       720,
+       585,
+       0.95,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "flip": true
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "El profe Ismael encendió la luz del salón. —¿Qué descubrieron?",
+     "Andrés pensó un rato. —Que la Luna no tiene luz propia. El Sol siempre ilumina la mitad de la Luna, pero nosotros, desde la Tierra, vemos más o menos de esa parte brillante según dónde esté la Luna en su viaje alrededor de nosotros.",
+     "—¡Exacto! —dijo el profe—. Y no es la sombra de la Tierra. La sombra de la Tierra solo cae sobre la Luna en los eclipses, que pasan pocas veces.",
+     "Andrés se rascó la cabeza y sonrió. —Me equivoqué. Pero ahora sé más que antes.",
+     "—Eso es lo mejor de la ciencia —dijo Sofía—. Equivocarse también sirve para aprender.",
+     "Esa noche había luna llena. Los cuatro amigos la miraron desde sus casas, cada uno en un barrio distinto de Sincelejo, y sintieron que estaban juntos. Al día siguiente, el Club de la Luna tenía siete miembros nuevos."
+    ],
+    "alt": "Cuatro amigos miran la luna llena desde la calle de su barrio por la noche.",
+    "scene": {
+     "bg": "pueblo",
+     "time": "noche",
+     "items": [
+      [
+       "luna",
+       400,
+       120,
+       1.1,
+       {
+        "fase": "llena",
+        "cara": true
+       }
+      ],
+      [
+       "estrellas",
+       400,
+       160,
+       1
+      ],
+      [
+       "casa",
+       110,
+       430,
+       0.7,
+       {
+        "color": "#f6c36b",
+        "techo": "zinc"
+       }
+      ],
+      [
+       "casa",
+       700,
+       430,
+       0.7,
+       {
+        "color": "#f49ac1",
+        "techo": "zinc"
+       }
+      ],
+      [
+       "persona",
+       260,
+       570,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       360,
+       575,
+       0.9,
+       {
+        "piel": "clara",
+        "pelo": "coletas",
+        "ropa": "pink",
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       450,
+       570,
+       0.9,
+       {
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "gafas": true
+       }
+      ],
+      [
+       "persona",
+       550,
+       575,
+       0.9,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "green",
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué hizo el Club de la Luna antes del experimento?",
+    "options": [
+     "Leyó un libro de cuentos",
+     "Observó y dibujó la Luna cada noche durante un mes",
+     "Viajó a la Luna en un cohete"
+    ],
+    "answer": 1,
+    "explanation": "El profe Ismael les enseñó que un buen científico primero observa."
+   },
+   {
+    "prompt": "En el experimento, ¿qué representaba la lámpara?",
+    "options": [
+     "La Luna",
+     "La Tierra",
+     "El Sol"
+    ],
+    "answer": 2,
+    "explanation": "La lámpara era el Sol, la cabeza de Sofía la Tierra y la pelota la Luna."
+   },
+   {
+    "prompt": "¿Por qué la Luna parece cambiar de forma?",
+    "options": [
+     "Porque vemos más o menos de su mitad iluminada por el Sol, según dónde esté en su recorrido",
+     "Porque se gasta y vuelve a crecer",
+     "Porque la sombra de la Tierra la tapa cada noche"
+    ],
+    "answer": 0,
+    "explanation": "El Sol siempre ilumina la mitad de la Luna; desde la Tierra vemos partes distintas de esa mitad."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "fases de la Luna",
+    "meaning": "Las distintas formas en que vemos la Luna durante un mes: nueva, creciente, llena y menguante."
+   },
+   {
+    "word": "observar",
+    "meaning": "Mirar algo con mucha atención para conocerlo mejor."
+   },
+   {
+    "word": "asesor",
+    "meaning": "Persona que guía y da consejos a un grupo."
+   },
+   {
+    "word": "luz propia",
+    "meaning": "Luz que algo produce por sí mismo, como el Sol. La Luna no tiene luz propia: refleja la del Sol."
+   },
+   {
+    "word": "eclipse",
+    "meaning": "Cuando la Tierra, el Sol y la Luna se alinean y uno tapa la luz del otro por un rato."
+   }
+  ]
+ },
+ {
+  "slug": "el-porro-de-la-banda",
+  "title": "El porro de la banda escolar",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "inclusión",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "inclusión",
+   "música tradicional"
+  ],
+  "synopsis": "Daniela toca el redoblante en la banda de su colegio, pero el desfile de las fiestas tiene escalones y calles empinadas para su silla de ruedas. Toda la banda busca una solución para que el porro suene completo.",
+  "coverScene": {
+   "bg": "pueblo",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     690,
+     90,
+     0.8
+    ],
+    [
+     "nube",
+     180,
+     90,
+     0.7
+    ],
+    [
+     "persona",
+     400,
+     570,
+     1.1,
+     {
+      "piel": "oscura",
+      "pelo": "trenzas",
+      "ropa": "turq",
+      "pantalon": "navy",
+      "silla": true,
+      "sosten": "tambor"
+     }
+    ],
+    [
+     "persona",
+     230,
+     565,
+     1.0,
+     {
+      "piel": "trigueña",
+      "pelo": "corto",
+      "ropa": "yellow",
+      "pantalon": "navy",
+      "sosten": "tambor"
+     }
+    ],
+    [
+     "persona",
+     580,
+     565,
+     1.0,
+     {
+      "piel": "morena",
+      "pelo": "coletas",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "navy",
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "mariposa",
+     120,
+     260,
+     0.6
+    ],
+    [
+     "mariposa",
+     690,
+     250,
+     0.5,
+     {
+      "color": "orange"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En el colegio de Daniela, en las sabanas de Sucre, la banda ensayaba todas las tardes debajo del palo de mango. Había trompetas que brillaban al sol, clarinetes, un bombardino gordo y dorado, platillos, un bombo y un redoblante. El redoblante era de Daniela.",
+     "Daniela tenía diez años, unas trenzas largas y una silla de ruedas azul con calcomanías de mariposas amarillas. Cuando tocaba, sus baquetas iban tan rápido que parecían colibríes.",
+     "—¡Así se toca un porro! —decía siempre el profe Rafael, el director de la banda—. El porro nació aquí, en las sabanas de Sucre y Córdoba, en las bandas de los pueblos. Hay que tocarlo con alegría, para que la gente no aguante las ganas de bailar.",
+     "Ese año, la banda estaba invitada a tocar en el desfile de las fiestas del pueblo. Todos estaban felices. Todos menos Daniela."
+    ],
+    "alt": "La banda escolar ensaya bajo un árbol: una niña en silla de ruedas toca el redoblante y un niño el bombo.",
+    "scene": {
+     "bg": "patio",
+     "time": "dia",
+     "items": [
+      [
+       "ceiba",
+       620,
+       400,
+       0.9
+      ],
+      [
+       "sol",
+       110,
+       90,
+       0.7
+      ],
+      [
+       "persona",
+       220,
+       570,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       380,
+       575,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "silla": true,
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       570,
+       575,
+       1.1,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "navy",
+        "pantalon": "#24364b",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       700,
+       570,
+       0.95,
+       {
+        "piel": "morena",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "flip": true
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "—¿Qué te pasa? —le preguntó Julián, el niño del bombo, cuando terminó el ensayo.",
+     "Daniela miró al suelo. —El desfile sale de la plaza y sube por la calle de la iglesia vieja. Allí hay un sardinel altísimo y la calle es empinada. Además, ustedes marchan muy rápido. No voy a poder seguirlos.",
+     "Julián se quedó callado. Nunca había pensado en eso. Para él, el sardinel era solo un escalón. Para Daniela, era una pared.",
+     "—Entonces no voy a tocar en el desfile —dijo Daniela, con la voz bajita—. Que vaya otro con el redoblante.",
+     "—¡No! —dijo Julián—. Un porro sin tu redoblante suena cojo. Vamos a hablar con el profe Rafael."
+    ],
+    "alt": "Julián y Daniela conversan en la calle junto a un escalón alto; ella lo mira preocupada.",
+    "scene": {
+     "bg": "pueblo",
+     "time": "atardecer",
+     "items": [
+      [
+       "casa",
+       150,
+       430,
+       0.85,
+       {
+        "color": "#f6c36b",
+        "techo": "zinc"
+       }
+      ],
+      [
+       "casa",
+       680,
+       430,
+       0.85,
+       {
+        "color": "#7fb8e0",
+        "techo": "palma"
+       }
+      ],
+      [
+       "roca",
+       560,
+       540,
+       0.9
+      ],
+      [
+       "persona",
+       330,
+       570,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "silla": true
+       }
+      ],
+      [
+       "persona",
+       450,
+       565,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Al día siguiente, el profe Rafael reunió a toda la banda en círculo. Daniela explicó el problema. Hubo un silencio largo. Luego empezaron a llover ideas.",
+     "—Podemos cambiar la ruta —propuso Mayerlis, la de los platillos—. Por la calle del mercado no hay sardineles y es plana.",
+     "—Y podemos marchar más despacio —dijo Julián—. El porro suena igual de sabroso si caminamos al ritmo de Daniela.",
+     "—¡Que Daniela vaya adelante! —gritó el niño del bombardino—. Así ella marca el paso y nosotros la seguimos.",
+     "El profe Rafael sonrió de oreja a oreja. —Una banda es como un solo cuerpo. Si una parte no puede avanzar, todo el cuerpo se detiene a buscar el camino. Eso se llama trabajar en equipo.",
+     "Esa tarde fueron con el profe a hablar con la alcaldía. Explicaron su idea y les dieron permiso para cambiar la ruta. Además, el señor encargado prometió poner una rampa en la entrada de la plaza para siempre."
+    ],
+    "alt": "Los músicos de la banda, sentados en círculo, levantan la mano para proponer ideas al profesor.",
+    "scene": {
+     "bg": "patio",
+     "time": "dia",
+     "items": [
+      [
+       "corazon",
+       400,
+       200,
+       0.9,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       150,
+       570,
+       0.95,
+       {
+        "piel": "morena",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       270,
+       575,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       400,
+       575,
+       1.0,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "silla": true,
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       540,
+       575,
+       1.1,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "navy",
+        "pantalon": "#24364b"
+       }
+      ],
+      [
+       "persona",
+       670,
+       570,
+       0.95,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "green",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "arriba",
+        "flip": true
+       }
+      ]
+     ]
+    }
+   },
+   {
+    "text": [
+     "Llegó el día de las fiestas. La calle del mercado estaba llena de banderines de colores y de familias con sombreros vueltiaos, que en las sabanas se usan con orgullo como herencia del pueblo zenú.",
+     "Adelante iba Daniela con su redoblante. Detrás, Julián con el bombo, Mayerlis con los platillos, las trompetas, los clarinetes y el bombardino dorado. Avanzaban al mismo paso, ni muy rápido ni muy lento.",
+     "Cuando Daniela marcó el ritmo con sus baquetas de colibrí, la banda arrancó con un porro. La música llenó la calle. Una abuela empezó a bailar con su nieto. Un señor levantó su sombrero y gritó: —¡Eso sí es un porro sabanero!",
+     "Al llegar a la plaza, la silla de Daniela subió suavecito por la rampa nueva. La gente aplaudió.",
+     "—Ahora el porro sí está completo —le dijo Julián, sudado y feliz.",
+     "Daniela sonrió. Esa noche, en su cuaderno, escribió: «Hoy aprendí que cuando un camino no sirve para todos, se puede construir otro entre todos»."
+    ],
+    "alt": "La banda desfila por una calle con banderines: Daniela va adelante con su redoblante y la gente baila con sombreros vueltiaos.",
+    "scene": {
+     "bg": "pueblo",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       700,
+       90,
+       0.7
+      ],
+      [
+       "nube",
+       200,
+       90,
+       0.7
+      ],
+      [
+       "persona",
+       150,
+       560,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "silla": true,
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       290,
+       560,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       400,
+       560,
+       1.0,
+       {
+        "piel": "morena",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       560,
+       570,
+       1.1,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "pink",
+        "brazos": "arriba",
+        "sombrero": true
+       }
+      ],
+      [
+       "persona",
+       680,
+       570,
+       0.85,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "arriba",
+        "sombrero": true
+       }
+      ]
+     ]
+    }
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué Daniela estaba preocupada por el desfile?",
+    "options": [
+     "Porque no le gustaba el porro",
+     "Porque la ruta tenía un sardinel alto y una calle empinada, y la banda marchaba muy rápido",
+     "Porque había perdido sus baquetas"
+    ],
+    "answer": 1,
+    "explanation": "La ruta tenía barreras que no le permitían avanzar con su silla de ruedas."
+   },
+   {
+    "prompt": "¿Qué decidió la banda para que Daniela pudiera tocar?",
+    "options": [
+     "Cambiar la ruta, marchar más despacio y que ella fuera adelante",
+     "Que Daniela se quedara en la casa",
+     "Tocar sin redoblante"
+    ],
+    "answer": 0,
+    "explanation": "Entre todos encontraron soluciones para que nadie se quedara por fuera."
+   },
+   {
+    "prompt": "¿Dónde nació el porro, según el profe Rafael?",
+    "options": [
+     "En las montañas de los Andes",
+     "En una ciudad muy lejana",
+     "En las sabanas de Sucre y Córdoba"
+    ],
+    "answer": 2,
+    "explanation": "El porro es música tradicional de las bandas de los pueblos de las sabanas del Caribe colombiano."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "porro",
+    "meaning": "Música y baile tradicional de las sabanas de Sucre y Córdoba, tocado por bandas de viento."
+   },
+   {
+    "word": "redoblante",
+    "meaning": "Tambor pequeño que se toca con dos palitos llamados baquetas."
+   },
+   {
+    "word": "sardinel",
+    "meaning": "Borde alto de cemento entre la calle y el andén."
+   },
+   {
+    "word": "empinada",
+    "meaning": "Calle o camino muy inclinado, que sube mucho."
+   },
+   {
+    "word": "rampa",
+    "meaning": "Superficie inclinada que permite subir sin escalones, útil para sillas de ruedas y coches."
+   }
+  ]
+ }
+]

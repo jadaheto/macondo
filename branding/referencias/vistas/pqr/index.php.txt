@@ -1,0 +1,59 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); function pqr_index_h($v){return html_escape((string)($v??''));} ?>
+<div class="main-content"><div class="page-content"><div class="container-fluid pqr-shell pqr-inbox pqr-inbox-v2">
+    <section class="pqr-hero pqr-hero-compact pqr-inbox-hero" aria-label="Gestión de PQR">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div><h3>Gestión de PQR</h3><p>Solicitudes, respuestas y próximos vencimientos.</p></div>
+            <div class="d-flex gap-2 pqr-hero-actions">
+                <?php if($can_reports):?><a href="<?=base_url('pqr/estadisticas')?>" class="btn btn-pqr-report"><i class="ri-bar-chart-box-line me-1" aria-hidden="true"></i>Reportes</a><?php endif;?>
+                <?php if($can_create):?><a href="<?=base_url('pqr/crear')?>" class="btn btn-pqr"><i class="ri-add-line me-1" aria-hidden="true"></i>Radicar PQR</a><?php endif;?>
+            </div>
+        </div>
+    </section>
+    <p id="priorityMessage" class="visually-hidden" role="status">Consultando prioridades…</p>
+    <section class="pqr-priority-summary pqr-priority-compact" aria-label="Filtrar por prioridad">
+        <?php foreach([
+            ['vencida','danger','ri-alarm-warning-line','sumExpired','Vencidas','Requieren atención'],
+            ['hoy','danger','ri-timer-flash-line','sumToday','Vencen hoy','Atención inmediata'],
+            ['proxima','warning','ri-time-line','sumUpcoming','Próximas','En los próximos días'],
+            ['sin_termino','attention','ri-route-line','sumUnclassified','Sin término','Sin fecha asignada'],
+            ['prorroga','info','ri-calendar-check-line','sumExtensions','Prórrogas','Pendientes de decisión'],
+            ['suspendida','secondary','ri-pause-circle-line','sumSuspended','Suspendidas','Temporalmente']
+        ] as $stat):?>
+        <button type="button" class="pqr-priority-stat <?=$stat[1]?>" data-urgency="<?=$stat[0]?>" aria-pressed="false">
+            <i class="<?=$stat[2]?>" aria-hidden="true"></i><span class="pqr-priority-copy"><strong id="<?=$stat[3]?>">0</strong><span><?=$stat[4]?></span><small><?=$stat[5]?></small></span>
+        </button>
+        <?php endforeach;?>
+    </section>
+    <section class="card pqr-card pqr-inbox-card" aria-label="Bandeja de peticiones">
+        <div class="card-header pqr-list-toolbar pqr-inbox-toolbar">
+            <div class="pqr-inbox-search">
+                <label for="pqrQuickSearch" class="visually-hidden">Buscar radicado, documento, nombre o asunto</label>
+                <i class="ri-search-line" aria-hidden="true"></i>
+                <input id="pqrQuickSearch" type="search" maxlength="180" class="form-control" placeholder="Buscar radicado, documento, nombre o asunto…" autocomplete="off" aria-controls="pqrResults">
+                <button id="pqrQuickClear" class="pqr-search-clear" type="button" aria-label="Limpiar búsqueda" hidden><i class="ri-close-line" aria-hidden="true"></i></button>
+            </div>
+            <div class="pqr-inbox-shortcuts" role="group" aria-label="Vistas rápidas de la bandeja">
+                <button type="button" class="pqr-shortcut" data-urgency="" aria-pressed="true">Todos <span data-summary-count="total">0</span></button>
+                <button type="button" class="pqr-shortcut" data-urgency="vencida" aria-pressed="false">Vencidas <span data-summary-count="vencidas">0</span></button>
+                <button type="button" class="pqr-shortcut" data-urgency="prorroga" aria-pressed="false">Prórrogas <span data-summary-count="prorrogas">0</span></button>
+                <button type="button" class="pqr-shortcut" data-urgency="lista_cierre" aria-pressed="false">Listas para cerrar</button>
+                <button type="button" class="pqr-shortcut" data-urgency="suspendida" aria-pressed="false">Suspendidas <span data-summary-count="suspendidas">0</span></button>
+            </div>
+            <button id="pqrFilterToggle" class="btn btn-pqr-filter" type="button" data-bs-toggle="modal" data-bs-target="#pqrFilterModal"><i class="ri-filter-3-line me-1" aria-hidden="true"></i>Filtros <span id="pqrFilterCount" class="badge bg-primary" hidden></span></button>
+        </div>
+        <div id="pqrResults" aria-live="polite" aria-busy="true"><div class="pqr-empty"><span class="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>Cargando expedientes…</div></div>
+    </section>
+</div></div></div>
+<div class="modal fade pqr-shell" id="pqrFilterModal" tabindex="-1" aria-labelledby="pqrFilterTitle"><div class="modal-dialog modal-lg modal-dialog-scrollable modal-fullscreen-sm-down"><form id="pqrFilters" class="modal-content" novalidate><div class="modal-header"><h5 class="modal-title" id="pqrFilterTitle"><i class="ri-filter-3-line me-1" aria-hidden="true"></i>Filtros y orden</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar filtros"></button></div><div class="modal-body"><div class="row g-3">
+<div class="col-12"><label for="pqrQ">Buscar</label><input id="pqrQ" name="q" class="form-control" maxlength="180" placeholder="Radicado, documento, nombre o asunto" autocomplete="off"></div>
+<div class="col-md-6"><label for="pqrUrgency">Prioridad</label><select id="pqrUrgency" name="urgencia" class="form-select"><option value="">Todas</option><?php foreach(['vencida'=>'Vencidas','hoy'=>'Vencen hoy','proxima'=>'Próximas: 1 a 3 días','sin_termino'=>'Sin término','preventiva'=>'Tramo preventivo','en_termino'=>'En término normal','prorroga'=>'Prórroga pendiente','lista_cierre'=>'Listas para cerrar','suspendida'=>'Suspendidas'] as $key=>$label):?><option value="<?=$key?>"><?=$label?></option><?php endforeach;?></select></div>
+<div class="col-md-6"><label for="pqrState">Estado</label><select id="pqrState" name="estado" class="form-select"><option value="">Todos</option><?php foreach(['pendiente_canalizacion','canalizada','en_gestion','pendiente_prorroga','suspendida','respondida','cerrada','trasladada','anulada'] as $status):?><option value="<?=$status?>"><?=pqr_index_h(ucwords(str_replace('_',' ',$status)))?></option><?php endforeach;?></select></div>
+<div class="col-md-6"><label for="pqrArea">Dependencia</label><select id="pqrArea" name="area_id" class="form-select"><option value="">Todas</option><?php foreach($catalogs['areas'] as $area):?><option value="<?=pqr_index_h($area['ref'])?>"><?=pqr_index_h($area['nombre'])?></option><?php endforeach;?></select></div>
+<div class="col-md-6"><label for="pqrOrder">Ordenar por</label><select id="pqrOrder" name="orden" class="form-select"><option value="prioridad">Prioridad</option><option value="vencimiento">Vencimiento</option><option value="antiguas">Recepción más antigua</option><option value="recientes">Recepción más reciente</option></select></div>
+<div class="col-12"><p id="pqrAdditionalCounts" class="pqr-help mb-0" aria-live="polite"></p></div>
+<div class="col-sm-6"><label for="pqrFrom">Desde</label><input id="pqrFrom" type="date" name="desde" class="form-control"></div><div class="col-sm-6"><label for="pqrTo">Hasta</label><input id="pqrTo" type="date" name="hasta" class="form-control"></div>
+<div class="col-md-6"><label for="pqrSize">Registros por página</label><select id="pqrSize" name="per_page" class="form-select"><?php foreach([7,10,20,50] as $n):?><option value="<?=$n?>" <?=$n===10?'selected':''?>><?=$n?></option><?php endforeach;?></select></div></div></div>
+<div class="modal-footer justify-content-between"><button id="pqrClearFilters" type="button" class="btn btn-light"><i class="ri-refresh-line me-1" aria-hidden="true"></i>Limpiar filtros</button><div class="d-flex gap-2"><button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button><button type="submit" class="btn btn-pqr">Aplicar filtros</button></div></div></form></div></div>
+<script src="<?=base_url('assets/js/pqr-security.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-security.js')?>"></script>
+<script src="<?=base_url('assets/js/pqr-inbox.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-inbox.js')?>"></script>
+<script>document.addEventListener('DOMContentLoaded',function(){initPqrInbox({security:<?=json_encode($security??[],JSON_UNESCAPED_SLASHES)?>,refreshUrl:<?=json_encode(base_url('pqr/seguridad/renovar'))?>,loginUrl:<?=json_encode(base_url('Login'))?>,listUrl:<?=json_encode(base_url('pqr/listado'))?>});});</script>

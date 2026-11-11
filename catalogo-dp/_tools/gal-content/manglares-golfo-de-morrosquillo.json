@@ -1,0 +1,38 @@
+{
+"title": "Manglares y costa del golfo de Morrosquillo",
+"description": "Un recorrido por los manglares, ciénagas, pastos marinos y arrecifes del golfo de Morrosquillo (Sucre y Córdoba): qué especies de mangle hay, cómo se reproducen y por qué son tan importantes.",
+"gradeMin": 3, "gradeMax": 9,
+"categories": ["Ciencias naturales", "Ecosistemas", "Región Caribe", "Sucre", "Medio ambiente"],
+"cover": 2,
+"items": [
+ ["Mar azul y tranquilo junto a una pequeña punta rocosa cubierta de árboles; al fondo, el horizonte.",
+  "El golfo de Morrosquillo es una bahía del mar Caribe compartida por Sucre y Córdoba; en sus orillas están Tolú y Coveñas. Esta vista se tomó desde la Ciénaga de La Caimanera."],
+ ["Laguna de aguas calmadas bordeada por una franja verde de manglar, con algunas casas de techo de palma al fondo.",
+  "La Ciénaga de La Caimanera es una laguna costera rodeada de manglares, entre Coveñas y Tolú. Allí el agua dulce y la salada se mezclan, y muchos peces, cangrejos y aves encuentran refugio y alimento."],
+ ["Árboles de mangle densos y verdes que se reflejan en el agua quieta de una ciénaga.",
+  "Los manglares son bosques de árboles que toleran el agua salada. Protegen la costa contra la erosión y las tormentas, y sirven de criadero para peces, camarones y cangrejos."],
+ ["Muchas raíces delgadas y arqueadas que bajan desde el tronco de un mangle hasta el agua.",
+  "El mangle rojo (Rhizophora mangle) se sostiene sobre raíces en forma de zancos que bajan desde el tronco. Entre esas raíces se esconden peces pequeños. Esta foto se tomó en Florida (Estados Unidos)."],
+ ["Suelo fangoso con hojas secas y pequeñas plántulas alargadas que brotan del barro.",
+  "Las semillas del mangle rojo germinan cuando aún están en el árbol y forman propágulos alargados. Al caer flotan en el agua hasta clavarse en el fango, donde crecen nuevas plantas. Esta foto se tomó en México."],
+ ["Árbol de mangle aislado sobre una franja de arena a la orilla del mar, con raíces visibles en la base.",
+  "En esta imagen crecen juntos el mangle negro (Avicennia germinans), de hojas más claras, y el mangle rojo, de hojas más oscuras. El mangle negro saca raíces cortas del suelo, llamadas neumatóforos, que le ayudan a respirar. Foto tomada en Florida."],
+ ["Ramas con hojas verdes y redondeadas sobre un agua poco profunda de fondo rojizo.",
+  "El mangle blanco (Laguncularia racemosa) crece en zonas que se inundan menos. Tiene glándulas en la base de las hojas que le ayudan a expulsar la sal. Esta foto se tomó en un estuario de Brasil."],
+ ["Arbusto de hojas verdes brillantes con pequeños frutos redondos agrupados.",
+  "El mangle zaragoza o botoncillo (Conocarpus erectus) crece en la parte del manglar más cercana a tierra firme. Sus frutos forman pequeñas bolitas, como botones. Foto tomada en Guadalupe, en el Caribe."],
+ ["Pradera de pasto marino de hojas alargadas que queda al descubierto en la orilla con la marea baja.",
+  "Los pastos marinos, como la Thalassia o \"pasto de tortuga\", forman praderas bajo el agua cerca de los manglares. Son alimento de tortugas verdes y manatíes. Esta foto se tomó en la isla de Margarita (Venezuela)."],
+ ["Mapa en tonos azules del archipiélago de San Bernardo, con sus islas y arrecifes, y la costa al lado derecho.",
+  "Frente al golfo de Morrosquillo está el archipiélago de San Bernardo, con pequeñas islas y arrecifes de coral. Hace parte del Parque Nacional Natural Corales del Rosario y de San Bernardo."],
+ ["Puente con baranda amarilla sobre una ciénaga, con manglar y casas en la orilla del fondo.",
+  "Un puente cruza la Ciénaga de La Caimanera en Coveñas. Cuidar los manglares de la tala y la basura es tarea de todos los habitantes de la costa."]
+],
+"questions": [
+ ["¿Qué dos municipios de Sucre están a orillas del golfo de Morrosquillo, según la galería?", ["Tolú y Coveñas", "Sincelejo y Corozal", "Sampués y Since"], 0, "Tolú y Coveñas están en las orillas del golfo."],
+ ["¿Cómo se llaman las raíces en forma de zancos típicas del mangle rojo?", ["Raíces zancos", "Raíces de papa", "Bulbos"], 0, "El mangle rojo se sostiene sobre raíces en forma de zancos."],
+ ["¿Qué hacen los propágulos del mangle rojo después de caer del árbol?", ["Flotan hasta clavarse en el fango y crecer", "Se convierten en flores", "Se secan y desaparecen siempre"], 0, "Flotan y, al clavarse en el fango, crecen nuevas plantas."],
+ ["¿Para qué le sirven los neumatóforos al mangle negro?", ["Para ayudarle a respirar", "Para atrapar insectos", "Para producir sal"], 0, "Son raíces cortas que salen del suelo y le ayudan a respirar."],
+ ["¿Qué animales se alimentan de los pastos marinos?", ["Tortugas verdes y manatíes", "Jaguares y pumas", "Cóndores y águilas"], 0, "Los pastos marinos son alimento de tortugas verdes y manatíes."]
+]
+}

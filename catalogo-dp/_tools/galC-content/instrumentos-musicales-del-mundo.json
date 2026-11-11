@@ -1,0 +1,32 @@
+{
+ "title": "Instrumentos musicales del mundo",
+ "description": "Instrumentos de cuerda, viento y percusión de distintos continentes: el sitar de la India, el djembé de África occidental, la gaita escocesa, un violín Stradivarius, el arpa, el erhu chino, la balalaika rusa y el piano de cola.",
+ "gradeMin": 1, "gradeMax": 8,
+ "categories": ["Artes", "Música", "Culturas del mundo"],
+ "cover": 4,
+ "items": [
+  ["Instrumento de cuerda muy largo con mástil de madera, clavijas laterales y una caja redonda abajo, exhibido en una vitrina.",
+   "El sitar es un instrumento de cuerda de la India con un mástil muy largo. Además de las cuerdas que se tocan, tiene cuerdas que vibran solas y le dan su sonido brillante."],
+  ["Tambor de madera en forma de copa con parche de cuero blanco, junto a otros tambores.",
+   "El djembé es un tambor de África occidental que se toca con las manos. Según dónde se golpee el parche, suena grave o agudo."],
+  ["Gaita con una bolsa forrada en tela de cuadros verdes y azules, tres tubos largos y uno con agujeros.",
+   "La gaita escocesa tiene una bolsa que el músico llena de aire soplando. Al apretarla, el aire sale por los tubos: tres dan una nota fija y el puntero hace la melodía."],
+  ["Violín antiguo de madera rojiza brillante exhibido verticalmente en una vitrina de museo.",
+   "El violín 'Mesías', fabricado en 1716 por Antonio Stradivari en Cremona (Italia). Los violines Stradivarius son famosos por su sonido y valen millones."],
+  ["Arpa grande y dorada con muchas cuerdas, en un salón con alfombra y muebles antiguos.",
+   "El arpa de pedales tiene 47 cuerdas. Con siete pedales el arpista cambia la afinación de las cuerdas. En los Llanos de Colombia se toca un arpa más pequeña, el arpa llanera."],
+  ["Instrumento de dos cuerdas con mástil largo y una pequeña caja de resonancia, junto a su arco, en una vitrina.",
+   "El erhu es un violín chino de solo dos cuerdas. Se toca con un arco cuyas cerdas pasan entre las dos cuerdas."],
+  ["Dos instrumentos de cuerda de madera con caja triangular, uno pequeño y otro muy grande, en un museo.",
+   "La balalaika es un instrumento ruso de caja triangular y tres cuerdas. Hay balalaikas de varios tamaños, desde la pequeña 'prima' hasta el gran contrabajo."],
+  ["Piano de cola negro y brillante con la tapa abierta, sobre fondo blanco.",
+   "El piano de cola tiene 88 teclas. Al pulsar una tecla, un martillo de fieltro golpea las cuerdas; por eso el piano es a la vez instrumento de cuerda y de percusión."]
+ ],
+ "questions": [
+  ["¿De qué país es el sitar?", ["India", "Escocia", "Rusia"], 0, "Tiene un mástil muy largo y cuerdas que vibran solas."],
+  ["¿Cómo se toca el djembé?", ["Con las manos", "Con un arco", "Soplando"], 0, "Es un tambor de África occidental."],
+  ["¿Cuántas cuerdas tiene el erhu?", ["Dos", "Seis", "Cuarenta y siete"], 0, "Es un violín chino."],
+  ["¿Qué forma tiene la caja de la balalaika?", ["Triangular", "Redonda", "Cuadrada"], 0, "Es un instrumento ruso."]
+ ],
+ "reviewNotes": "Se descartó una foto de músicos de steelpan con rostros identificables. Los instrumentos colombianos están en la galería instrumentos-musicales-de-colombia."
+}

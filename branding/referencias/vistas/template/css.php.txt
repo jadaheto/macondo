@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es" data-layout="vertical" data-layout-style="default" data-sidebar="dark" data-topbar="light" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
+    <head>
+        <meta charset="utf-8" />
+        <title>COMFASUCRE - DASHBOARD</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="COMFASUCRE - DASHBOARD" name="description" />
+        <meta content="Faider Sequeda" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="<?php echo base_url() ?>assets/images/favicon.ico">
+        <!-- jsvectormap css -->
+        <?php if (empty($inicio_assets_minimos)): ?>
+        <link href="<?php echo base_url() ?>assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+        <!--Swiper slider css-->
+        <link href="<?php echo base_url() ?>assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+        <?php endif; ?>
+        <!-- Layout config Js -->
+        <script src="<?php echo base_url() ?>assets/js/layout.js"></script>
+        <!-- Bootstrap Css -->
+        <link href="<?php echo app_asset_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="<?php echo base_url() ?>assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <!-- SweetAlert2 base styles (required by the global footer script) -->
+        <link href="<?php echo base_url() ?>assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="<?php echo app_asset_url('assets/css/app.min.css'); ?>" rel="stylesheet" type="text/css" />
+        <!-- custom Css-->
+        <link href="<?php echo base_url() ?>assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url() ?>assets/css/custom.css?v=<?php echo (int)@filemtime(FCPATH.'assets/css/custom.css'); ?>" rel="stylesheet" type="text/css" />
+        <?php if (!empty($pqr_assets)): ?>
+        <link href="<?php echo base_url('assets/select2/dist/css/select2.min.css'); ?>" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url('assets/libs/flatpickr/flatpickr.min.css'); ?>" rel="stylesheet" type="text/css" />
+        <link href="<?php echo base_url('assets/css/pqr.css'); ?>?v=<?php echo (int)@filemtime(FCPATH.'assets/css/pqr.css'); ?>" rel="stylesheet" type="text/css" />
+        <?php endif; ?>
+        
+    
+        <!-- PWA App Comfasucre -->
+        <meta name="theme-color" content="#695eef">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="apple-mobile-web-app-title" content="Comfasucre">
+        <meta name="app-base-url" content="<?php echo rtrim(base_url(), '/'); ?>/">
+        <link rel="manifest" href="<?php echo base_url('manifest.json'); ?>">
+        <link rel="apple-touch-icon" href="<?php echo base_url('assets/images/icons/icon-192.png'); ?>">
+    </head>
+    
+    <body>
+        <!-- Begin page -->
+        <div id="layout-wrapper">

@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Pantalla de Turnos - COMFASUCRE</title>
+        <link rel="shortcut icon" href="<?= base_url('assets/images/favicon.ico') ?>">
+
+        <!-- Fuente + Iconos -->
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- jQuery solo para turnos -->
+        <script src="<?= base_url('assets/js/funciones/jquery-3.6.4.min.js') ?>"></script>
+        <script src="<?= base_url('assets/js/turnos-fechas.js') ?>?v=<?= (int)@filemtime(FCPATH.'assets/js/turnos-fechas.js') ?>"></script>
+
+        <link rel="stylesheet" href="<?= base_url('assets/css/turnos-pantalla-publica.css') ?>?v=<?= (int)@filemtime(FCPATH.'assets/css/turnos-pantalla-publica.css') ?>">
+    </head>
+
+    <body>
+        <div class="turnos-layout turnos-public-v2">
+            <!-- BARRA SUPERIOR -->
+            <header class="turnos-topbar">
+                <div class="turnos-topbar-brand">
+                    <div class="turnos-topbar-logo">
+                        <img src="<?= base_url('assets/images/logo_comfasucre.png') ?>" alt="Comfasucre">
+                    </div>
+                    <span class="turnos-topbar-divider" aria-hidden="true"></span>
+                    <div class="turnos-topbar-copy">
+                        <div class="turnos-topbar-title">Turnos de atención</div>
+                        <div class="turnos-topbar-subtitle">Más bienestar para nuestra gente</div>
+                    </div>
+                </div>
+                <div class="turnos-topbar-right">
+                    <div class="turnos-topbar-date"><span id="fechaTexto">-- de -- de ----</span></div>
+                    <div class="turnos-topbar-clock" id="clock">--:--</div>
+                    <div id="estadoConexion" class="turnos-connection-state">Conectando con turnos...</div>
+                    <div class="turnos-topbar-actions">
+                        <button id="btnAudioTurnos" class="turnos-audio-btn turnos-activate-btn" type="button">
+                            <i class="ri-volume-up-line"></i><span>Activar sonido</span>
+                        </button>
+                        <button id="btnConfigVoz" class="turnos-config-btn" type="button" title="Configurar voz" aria-label="Configurar voz">
+                            <i class="ri-settings-3-line"></i>
+                        </button>
+                    </div>
+                    <div id="estadoVoz" class="turnos-voz-estado turnos-voz-estado-compact">Cargando voces...</div>
+                </div>
+            </header>
+
+            <!-- CONTENIDO -->
+            <div class="turnos-main">
+
+                <!-- IZQUIERDA: TURNOS -->
+                <div class="turnos-col-left">
+
+                    <!-- LLAMANDO / EN ATENCIÓN -->
+                    <section class="turnos-card turnos-call-section">
+                        <div class="turnos-card-header">
+                            <div>
+                                <div class="turnos-card-title" id="tituloAtencion">Llamando ahora</div>
+                                <div class="turnos-card-subtitle" id="subtituloAtencion">Acércate al módulo indicado</div>
+                            </div>
+                            <div class="turnos-badge turnos-badge-success" id="badgeAtencion">
+                                <i class="ri-notification-3-line"></i> Llamando
+                            </div>
+                            <div id="indicadorAtencion" class="turnos-page-indicator"></div>
+                        </div>
+                        <div class="turnos-card-body turnos-card-body-atencion">
+                            <div id="gridAtencion" class="turnos-grid-modulos"></div>
+                            <div id="msgNoAtencion" class="turnos-no-atencion" style="display:none;">
+                                No hay turnos llamados en este momento.
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- EN COLA -->
+                    <section class="turnos-card turnos-queue-section">
+                        <div class="turnos-card-header">
+                            <div>
+                                <div class="turnos-card-title">Próximos turnos</div>
+                                <div class="turnos-card-subtitle">Afiliados en espera de ser llamados</div>
+                            </div>
+                            <div class="turnos-badge turnos-badge-pend">
+                                <i class="ri-time-line"></i> En espera
+                            </div>
+                            <div id="indicadorPendientes" class="turnos-page-indicator"></div>
+                        </div>
+                        <div class="turnos-card-body turnos-card-body-cola">
+                            <div id="listaPendientes" class="turnos-list">
+                                <div class="turnos-empty">Cargando turnos...</div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <!-- DERECHA: PUBLICIDAD -->
+                <div class="turnos-col-right">
+                    <div class="turnos-ads-panel">
+
+                        <!-- SLIDER IMAGEN + VIDEO -->
+                        <div class="turnos-ads-slider-wrapper">
+                            <!-- Fondo dinámico (gradiente según la imagen/video) -->
+                            <div class="turnos-ads-backdrop" id="adsBackdrop"></div>
+
+                            <!-- Slider real -->
+                            <div class="turnos-ads-slider" id="adsSlider">
+                                <!-- Slides cargados dinámicamente desde el módulo de publicidad -->
+                            </div>
+                        </div>
+
+                        <!-- Texto inferior -->
+                        <div class="turnos-ads-content">
+                            <div class="turnos-ads-badge">
+                                <i class="ri-megaphone-line"></i>
+                                <span id="adBadge">Campaña institucional</span>
+                            </div>
+                            <div class="turnos-ads-title" id="adTitle">
+                                Vive experiencias inolvidables
+                            </div>
+                            <div class="turnos-ads-text">
+                                <span id="adText">
+                                    Disfruta nuestros programas, eventos y beneficios exclusivos para afiliados Comfasucre.
+                                </span>
+                            </div>
+                            <div id="adDots" class="turnos-ad-dots" aria-hidden="true"></div>
+                        </div>
+
+                    </div>
+
+                    <footer class="turnos-dashboard turnos-dashboard-bar" aria-label="Resumen de turnos">
+                        <div class="turnos-stat turnos-stat-atencion">
+                            <span class="turnos-stat-icon"><i class="ri-user-voice-line"></i></span>
+                            <div><div id="statAtencion" class="turnos-stat-value">0</div><div class="turnos-stat-label">En atención</div></div>
+                        </div>
+                        <div class="turnos-stat turnos-stat-espera">
+                            <span class="turnos-stat-icon"><i class="ri-time-line"></i></span>
+                            <div><div id="statPendientes" class="turnos-stat-value">0</div><div class="turnos-stat-label">En espera</div></div>
+                        </div>
+                        <div class="turnos-stat turnos-stat-prioridad">
+                            <span class="turnos-stat-icon"><i class="ri-star-fill"></i></span>
+                            <div><div id="statPrioritarios" class="turnos-stat-value">0</div><div class="turnos-stat-label">Prioritarios</div></div>
+                        </div>
+                        <div class="turnos-dashboard-message">Juntos construimos <strong>más oportunidades</strong><span class="turnos-wave" aria-hidden="true">⌁</span></div>
+                        <span id="statProximo" hidden>--</span>
+                    </footer>
+                </div>
+
+            </div> <!-- /turnos-main -->
+
+        </div> <!-- /turnos-layout -->
+
+        <div id="vozOverlay" class="turnos-voz-overlay" role="dialog" aria-modal="true" aria-labelledby="tituloConfigVoz">
+            <div class="turnos-voz-panel">
+                <h2 id="tituloConfigVoz">Configurar voz de llamados</h2>
+                <p>Selecciona una voz instalada en este equipo y usa <strong>Probar voz</strong> antes de guardarla. Chrome no informa si una voz es masculina o femenina.</p>
+                <label for="selectVozTurnos">Voz disponible</label>
+                <select id="selectVozTurnos" class="turnos-voz-select"></select>
+                <div id="vozSeleccionEstado" class="turnos-voz-detalle"></div>
+                <label class="turnos-voz-filtros" for="mostrarTodasVoces">
+                    <input id="mostrarTodasVoces" type="checkbox"> Mostrar también voces de otros idiomas
+                </label>
+                <div id="ayudaVocesRegion" class="turnos-voz-ayuda"></div>
+                <div class="turnos-voz-actions">
+                    <button id="btnCerrarVoz" class="turnos-voz-action" type="button">Cerrar</button>
+                    <button id="btnProbarVoz" class="turnos-voz-action" type="button"><i class="ri-volume-up-line"></i> Probar voz</button>
+                    <button id="btnGuardarVoz" class="turnos-voz-action is-primary" type="button"><i class="ri-save-line"></i> Guardar voz fija</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Audio bip para llamados de turno -->
+        <audio id="beepAudioTurno" preload="auto">
+            <source src="<?= base_url('assets/sounds/beep_turno.ogg') ?>" type="audio/ogg">
+        </audio>
+
+        <!-- MODAL ALERTA DE TURNO -->
+        <div id="turnoAlertOverlay" class="turno-alert-overlay">
+            <div class="turno-alert-modal">
+                <div class="turno-alert-icon">
+                    <i class="ri-notification-3-line"></i>
+                </div>
+                <div class="turno-alert-title">¡Atención, afiliado!</div>
+                <div class="turno-alert-turno-label">Turno</div>
+                <div id="alertTurnoNumero" class="turno-alert-turno-numero">--</div>
+                <div id="alertTurnoPersona" class="turno-alert-persona">--</div>
+                <div id="alertTurnoModulo" class="turno-alert-modulo">MÓDULO --</div>
+                <div class="turno-alert-text">
+                    Por favor acérquese al destino de atención indicado.
+                </div>
+            </div>
+        </div>
+
+        <script src="<?= base_url('assets/js/turnos-anuncios.js') ?>?v=puestos-1"></script>
+        <script src="<?= base_url('assets/js/turnos-pantalla-layout.js') ?>?v=20261002-llamado-compacto-1"></script>
+        <script>
+            (function ($) {
+                "use strict";
+
+                // ================== AUDIO Y ALERTAS ==================
+                let audioTurnosHabilitado = false;
+                let cursorLlamados = 0;
+                let alcanceActual = null;
+                let desfaseServidor = 0;
+                let estadoCargando = false;
+                let pantallaRevocada = false;
+                const anuncios = new TurnosAnuncios(function (t) {
+                    mostrarAlertaTurno(t);
+                    return Promise.all([
+                        reproducirAudioTurno(codigoTurno(t), t.destino_llamado || ('al módulo ' + t.modulo_id), nombreTurno(t)),
+                        new Promise(resolve => setTimeout(resolve, 6500))
+                    ]);
+                }, { now: function () { return Date.now() + desfaseServidor; } });
+                let publicidadTimeoutId = null;
+                let publicidadCargando = false;
+                let wakeLockTurnos = null;
+                const MODULO_PUBLICIDAD = 'general';
+
+                function bloquearDispositivoRevocado() {
+                    if (pantallaRevocada) return;
+                    pantallaRevocada = true;
+                    anuncios.habilitado = false;
+                    anuncios.cola = [];
+                    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+                    $('#estadoConexion').css('color', '#b91c1c').text('Dispositivo revocado. Solicitando reactivación...');
+                    setTimeout(function () { window.location.reload(); }, 1500);
+                }
+
+                // Cambia esta línea si quieres otro acento:
+                // 'es-ES' (España), 'es-MX' (México), 'es-US', 'es-419', etc.
+                const VOZ_LANG_PREDETERMINADA = 'es-CO';
+                const VOZ_GUARDADA_INICIAL = <?= json_encode([
+                    'nombre' => isset($dispositivo['voz_nombre']) ? (string) $dispositivo['voz_nombre'] : '',
+                    'lang' => isset($dispositivo['voz_lang']) ? (string) $dispositivo['voz_lang'] : '',
+                    'uri' => isset($dispositivo['voz_uri']) ? (string) $dispositivo['voz_uri'] : ''
+                ], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>;
+                let vozGuardada = VOZ_GUARDADA_INICIAL;
+                let vocesDisponibles = [];
+
+                function claveTurno(t) {
+                    const marcaLlamado = t.rellamado_en || t.llamado_en || '';
+                    if (t.id)
+                        return 'id_' + t.id + '_' + marcaLlamado;
+                    return (t.numero || '') + '_' + (t.modulo_id || t.nombre_modulo || '') + '_' + marcaLlamado;
+                }
+
+                function codigoTurno(t) {
+                    return (t && (t.numero_formateado || t.turno_codigo || t.numero)) || '--';
+                }
+
+                function nombreTurno(t) {
+                    return (t && t.nombre_publico || '').trim() || 'Afiliado';
+                }
+
+                function obtenerVozPreferidaAnterior() {
+                    if (!('speechSynthesis' in window))
+                        return null;
+                    const voces = window.speechSynthesis.getVoices();
+                    if (!voces || !voces.length)
+                        return null;
+
+                    // 1) Voz exacta por lang
+                    let v = voces.find(v => v.lang === VOZ_LANG_PREDETERMINADA);
+                    if (v)
+                        return v;
+
+                    // 2) Cualquier español
+                    v = voces.find(v => v.lang.toLowerCase().startsWith('es'));
+                    if (v)
+                        return v;
+
+                    // 3) Fallback: primera voz disponible
+                    return voces[0];
+                }
+
+                function identidadVoz(voz) {
+                    return [voz.name || '', voz.lang || '', voz.voiceURI || ''].join('|||');
+                }
+
+                function ordenarVoces(voces) {
+                    return voces.slice().sort(function (a, b) {
+                        const pesoA = prioridadRegionVoz(a);
+                        const pesoB = prioridadRegionVoz(b);
+                        return pesoA !== pesoB
+                                ? pesoA - pesoB
+                                : identidadVoz(a).localeCompare(identidadVoz(b), 'es', { sensitivity: 'base' });
+                    });
+                }
+
+                const REGIONES_LATINOAMERICA = ['419', 'AR', 'BO', 'CL', 'CR', 'CU', 'DO', 'EC', 'GT', 'HN', 'MX', 'NI', 'PA', 'PE', 'PR', 'PY', 'SV', 'US', 'UY', 'VE'];
+
+                function codigoRegionVoz(voz) {
+                    const partes = String(voz.lang || '').replace('_', '-').toUpperCase().split('-');
+                    return partes.length > 1 ? partes[partes.length - 1] : '';
+                }
+
+                function grupoRegionVoz(voz) {
+                    const idioma = String(voz.lang || '').toLowerCase();
+                    if (idioma === 'es-co') return 'Colombia';
+                    if (idioma.startsWith('es') && REGIONES_LATINOAMERICA.includes(codigoRegionVoz(voz))) return 'Latinoamérica';
+                    if (idioma === 'es-es') return 'España';
+                    if (idioma.startsWith('es')) return 'Otros acentos en español';
+                    return 'Otros idiomas';
+                }
+
+                function prioridadRegionVoz(voz) {
+                    return { 'Colombia': 0, 'Latinoamérica': 1, 'Otros acentos en español': 2, 'España': 3, 'Otros idiomas': 4 }[grupoRegionVoz(voz)];
+                }
+
+                function etiquetaRegionVoz(voz) {
+                    const grupo = grupoRegionVoz(voz);
+                    const region = codigoRegionVoz(voz);
+                    if (grupo === 'Colombia') return 'Colombia';
+                    if (grupo === 'Latinoamérica') return region === '419' ? 'Latinoamérica' : 'Latinoamérica / ' + region;
+                    return grupo;
+                }
+
+                function buscarVozGuardada() {
+                    if (!vozGuardada || !vozGuardada.nombre) return null;
+                    const exacta = vocesDisponibles.find(function (voz) {
+                        return voz.name === vozGuardada.nombre
+                                && voz.lang === vozGuardada.lang
+                                && (!vozGuardada.uri || voz.voiceURI === vozGuardada.uri);
+                    });
+                    if (exacta) return exacta;
+                    return vocesDisponibles.find(function (voz) {
+                        return voz.name === vozGuardada.nombre && voz.lang === vozGuardada.lang;
+                    }) || null;
+                }
+
+                function obtenerVozPreferida() {
+                    if (!vocesDisponibles.length) return null;
+                    if (vozGuardada && vozGuardada.nombre) return buscarVozGuardada();
+                    const espanolas = vocesDisponibles.filter(function (voz) {
+                        return String(voz.lang || '').toLowerCase().startsWith('es');
+                    });
+                    return espanolas[0] || vocesDisponibles[0] || null;
+                }
+
+                function actualizarEstadoVoz() {
+                    if (!('speechSynthesis' in window)) {
+                        $('#estadoVoz').css('color', '#b91c1c').text('Este navegador no admite voz');
+                        return;
+                    }
+                    if (!vocesDisponibles.length) {
+                        $('#estadoVoz').css('color', '#b45309').text('Esperando voces de Chrome...');
+                        return;
+                    }
+                    if (!vozGuardada.nombre) {
+                        const temporal = obtenerVozPreferida();
+                        $('#estadoVoz').css('color', '#b45309').text(temporal ? 'Voz sin fijar: ' + temporal.name : 'No hay voces disponibles');
+                        return;
+                    }
+                    const voz = buscarVozGuardada();
+                    if (!voz) {
+                        $('#estadoVoz').css('color', '#b91c1c').text('Voz fija no disponible: ' + vozGuardada.nombre);
+                        return;
+                    }
+                    $('#estadoVoz').css('color', '#15803d').text('Voz fija: ' + voz.name + ' (' + voz.lang + ')');
+                }
+
+                function cargarVoces() {
+                    if (!('speechSynthesis' in window)) {
+                        actualizarEstadoVoz();
+                        return;
+                    }
+                    vocesDisponibles = ordenarVoces(window.speechSynthesis.getVoices() || []);
+                    const $select = $('#selectVozTurnos');
+                    const seleccionAnterior = $select.val();
+                    $select.empty();
+                    const mostrarTodas = $('#mostrarTodasVoces').is(':checked');
+                    const vocesEspanol = vocesDisponibles.filter(function (voz) {
+                        return String(voz.lang || '').toLowerCase().startsWith('es');
+                    });
+                    const vocesMostrar = mostrarTodas ? vocesDisponibles : vocesEspanol;
+                    const grupos = {};
+                    vocesMostrar.forEach(function (voz) {
+                        const nombreGrupo = grupoRegionVoz(voz);
+                        if (!grupos[nombreGrupo]) {
+                            grupos[nombreGrupo] = $('<optgroup>').attr('label', nombreGrupo).appendTo($select);
+                        }
+                        $('<option>').val(identidadVoz(voz))
+                                .text(voz.name + ' — ' + voz.lang + ' · ' + etiquetaRegionVoz(voz) + (voz.localService ? ' (local)' : ''))
+                                .appendTo(grupos[nombreGrupo]);
+                    });
+                    const guardada = buscarVozGuardada();
+                    const valores = $select.find('option').map(function () { return this.value; }).get();
+                    if (guardada && valores.includes(identidadVoz(guardada))) {
+                        $select.val(identidadVoz(guardada));
+                    } else if (seleccionAnterior && valores.includes(seleccionAnterior)) {
+                        $select.val(seleccionAnterior);
+                    }
+                    const colombianas = vocesEspanol.filter(function (voz) { return grupoRegionVoz(voz) === 'Colombia'; });
+                    const latinoamericanas = vocesEspanol.filter(function (voz) { return grupoRegionVoz(voz) === 'Latinoamérica'; });
+                    $('#vozSeleccionEstado').css('color', '').text(vocesMostrar.length
+                            ? vocesMostrar.length + ' voces visibles · ' + colombianas.length + ' de Colombia · ' + latinoamericanas.length + ' de Latinoamérica.'
+                            : 'Chrome no devolvió voces para el filtro seleccionado.');
+                    $('#ayudaVocesRegion').html(colombianas.length
+                            ? '<strong>Voces colombianas disponibles.</strong> Pruébalas y guarda la que prefieras.'
+                            : '<strong>No hay una voz es-CO instalada en este computador.</strong> La aplicación no puede descargarla desde Chrome. En Windows agrega voces desde <em>Configuración → Hora e idioma → Voz</em> y reinicia Chrome. También puedes instalar Español (México) para ampliar las voces latinoamericanas.');
+                    $('#btnProbarVoz, #btnGuardarVoz').prop('disabled', !vocesMostrar.length);
+                    actualizarEstadoVoz();
+                    if (audioTurnosHabilitado && vocesDisponibles.length && (guardada || !vozGuardada.nombre)) anuncios.activar();
+                }
+
+                function vozSeleccionada() {
+                    const identidad = $('#selectVozTurnos').val();
+                    return vocesDisponibles.find(function (voz) { return identidadVoz(voz) === identidad; }) || null;
+                }
+
+                function reproducirAudioTurno(numero, moduloTexto, nombrePersona) {
+                    if (!audioTurnosHabilitado)
+                        return Promise.reject(new Error('Activa el sonido.'));
+                    return new Promise(function (resolve, reject) {
+
+                    // 1) Bip
+                    const beep = document.getElementById('beepAudioTurno');
+                    if (beep) {
+                        try {
+                            beep.currentTime = 0;
+                            const p = beep.play();
+                            if (p && typeof p.then === 'function') {
+                                p.catch(() => {
+                                });
+                            }
+                        } catch (e) {
+                        }
+                    }
+
+                    // 2) Voz
+                    if ('speechSynthesis' in window) {
+                        // Forzar carga de voces en Chrome
+                        window.speechSynthesis.getVoices();
+
+                        const frase = `${nombrePersona || 'Afiliado'}, Turno ${numero}, diríjase ${moduloTexto}`;
+                        const u = new SpeechSynthesisUtterance(frase);
+                        u.rate = 0.95;
+                        u.pitch = 1;
+
+                        const voz = obtenerVozPreferida();
+                        if (voz) {
+                            u.voice = voz;
+                            u.lang = voz.lang;
+                        } else if (vozGuardada.nombre) {
+                            actualizarEstadoVoz();
+                            reject(new Error('La voz guardada no está disponible.'));
+                            return;
+                        } else {
+                            u.lang = VOZ_LANG_PREDETERMINADA;
+                        }
+
+                        const limite = setTimeout(function () { window.speechSynthesis.cancel(); resolve(); }, 20000);
+                        u.onend = u.onerror = function () { clearTimeout(limite); resolve(); };
+                        window.speechSynthesis.speak(u);
+                    } else {
+                        resolve();
+                    }
+                    });
+                }
+
+                function mostrarAlertaTurno(t) {
+                    const numero = codigoTurno(t);
+                    const persona = nombreTurno(t);
+                    const moduloTexto = (t.destino_publico || t.nombre_modulo || ('Módulo ' + (t.modulo_id || '--'))) + (t.tipo_destino === 'OFICINA' && t.nombre_puesto ? ' · '+t.nombre_puesto : '');
+
+                    $('#alertTurnoNumero').text(numero || '--');
+                    $('#alertTurnoPersona').text(persona || '--');
+                    $('#alertTurnoModulo').text(moduloTexto);
+
+                    // Preserve flex centering; fadeIn alone restores a hidden div as block.
+                    $('#turnoAlertOverlay').stop(true, true).css('display', 'flex').hide().fadeIn(200);
+                    setTimeout(function () {
+                        $('#turnoAlertOverlay').fadeOut(300);
+                    }, 6000);
+                }
+
+                function detectarNuevosLlamados(listaEnAtencion) {
+                    anuncios.actualizar([], listaEnAtencion);
+                }
+
+                // Botón para habilitar audio (obligatorio para Chrome)
+                function inicializarBotonAudio() {
+                    $('#btnAudioTurnos').on('click', async function () {
+                        // Intentamos desbloquear el audio con un bip silencioso
+                        const beep = document.getElementById('beepAudioTurno');
+                        audioTurnosHabilitado = true;
+
+                        if (beep) {
+                            try {
+                                beep.currentTime = 0;
+                                const p = beep.play();
+                                if (p && typeof p.then === 'function') {
+                                    p.then(() => {
+                                        // detener el sonido de prueba inmediatamente
+                                        beep.pause();
+                                        beep.currentTime = 0;
+                                    }).catch(() => {
+                                    });
+                                }
+                            } catch (e) {
+                            }
+                        }
+
+                        // Disparar una utterance vacía para desbloquear voces
+                        if ('speechSynthesis' in window) {
+                            try {
+                                const u = new SpeechSynthesisUtterance(" ");
+                                const voz = obtenerVozPreferida();
+                                u.lang = voz ? voz.lang : VOZ_LANG_PREDETERMINADA;
+                                if (voz) u.voice = voz;
+                                window.speechSynthesis.speak(u);
+                            } catch (e) {
+                            }
+                        }
+
+                        try {
+                            if (!document.fullscreenElement && document.documentElement.requestFullscreen) {
+                                await document.documentElement.requestFullscreen();
+                            }
+                        } catch (e) {
+                        }
+                        await solicitarWakeLock();
+                        anuncios.activar();
+
+                        $(this)
+                                .addClass('turnos-audio-on')
+                                .prop('disabled', true)
+                                .html('<i class="ri-volume-up-line"></i> Sonido y pantalla activos');
+                    });
+                }
+
+                function inicializarConfiguracionVoz() {
+                    $('#btnConfigVoz').on('click', function () {
+                        cargarVoces();
+                        $('#vozOverlay').addClass('is-visible');
+                    });
+                    $('#btnCerrarVoz').on('click', function () {
+                        $('#vozOverlay').removeClass('is-visible');
+                    });
+                    $('#vozOverlay').on('click', function (e) {
+                        if (e.target === this) $(this).removeClass('is-visible');
+                    });
+                    $('#mostrarTodasVoces').on('change', cargarVoces);
+                    $('#btnProbarVoz').on('click', function () {
+                        const voz = vozSeleccionada();
+                        if (!voz || !('speechSynthesis' in window)) return;
+                        window.speechSynthesis.cancel();
+                        const prueba = new SpeechSynthesisUtterance('Esta es la voz seleccionada para anunciar los turnos de Comfasucre.');
+                        prueba.voice = voz;
+                        prueba.lang = voz.lang;
+                        prueba.rate = .95;
+                        window.speechSynthesis.speak(prueba);
+                        $('#vozSeleccionEstado').css('color', '').text('Reproduciendo: ' + voz.name + ' (' + voz.lang + ')');
+                    });
+                    $('#btnGuardarVoz').on('click', function () {
+                        const voz = vozSeleccionada();
+                        if (!voz) return;
+                        const $boton = $(this).prop('disabled', true);
+                        $('#vozSeleccionEstado').css('color', '').text('Guardando voz fija...');
+                        $.ajax({
+                            url: '<?= base_url("turnos/api_guardar_voz_pantalla") ?>',
+                            method: 'POST',
+                            dataType: 'json',
+                            data: { nombre: voz.name, lang: voz.lang, uri: voz.voiceURI || '' }
+                        }).done(function (resp) {
+                            if (!resp || !resp.ok) {
+                                $('#vozSeleccionEstado').css('color', '#b91c1c').text('No fue posible guardar la voz.');
+                                return;
+                            }
+                            vozGuardada = resp.voz;
+                            if (audioTurnosHabilitado) anuncios.activar();
+                            actualizarEstadoVoz();
+                            $('#vozSeleccionEstado').css('color', '#15803d').text('Voz guardada. Los próximos llamados usarán esta voz.');
+                        }).fail(function (xhr) {
+                            const mensaje = xhr.responseJSON && (xhr.responseJSON.msg || xhr.responseJSON.message)
+                                    ? (xhr.responseJSON.msg || xhr.responseJSON.message)
+                                    : 'No fue posible guardar la voz.';
+                            $('#vozSeleccionEstado').css('color', '#b91c1c').text(mensaje);
+                        }).always(function () {
+                            $boton.prop('disabled', false);
+                        });
+                    });
+
+                    if ('speechSynthesis' in window) {
+                        window.speechSynthesis.addEventListener('voiceschanged', cargarVoces);
+                    }
+                    cargarVoces();
+                    setTimeout(cargarVoces, 350);
+                    setTimeout(cargarVoces, 1200);
+                }
+
+                async function solicitarWakeLock() {
+                    if (!('wakeLock' in navigator) || document.visibilityState !== 'visible') return;
+                    try {
+                        wakeLockTurnos = await navigator.wakeLock.request('screen');
+                        wakeLockTurnos.addEventListener('release', function () { wakeLockTurnos = null; });
+                    } catch (e) {
+                    }
+                }
+
+                document.addEventListener('visibilitychange', function () {
+                    if (document.visibilityState === 'visible' && audioTurnosHabilitado) solicitarWakeLock();
+                });
+
+                // ================== RELOJ Y FECHA ==================
+                function pad(n) {
+                    return n < 10 ? '0' + n : n;
+                }
+
+                function actualizarRelojYFecha() {
+                    const d = new Date(Date.now() + desfaseServidor);
+                    $('#clock').text(TurnosFecha.hora(d, {segundos:true}));
+                    $('#fechaTexto').text(new Intl.DateTimeFormat('es-CO', {timeZone:'America/Bogota', day:'numeric', month:'long', year:'numeric'}).format(d));
+                }
+
+                // ================== CONSTRUCCIÓN DE TURNOS ==================
+                const estadoPantalla = {
+                    enAtencion: [],
+                    pendientes: [],
+                    paginaAtencion: 0,
+                    paginaPendientes: 0,
+                    firma: '',
+                    jornadaAbierta: true
+                };
+
+                function escaparHtml(valor) {
+                    return String(valor || '')
+                            .replace(/&/g, '&amp;')
+                            .replace(/</g, '&lt;')
+                            .replace(/>/g, '&gt;')
+                            .replace(/"/g, '&quot;')
+                            .replace(/'/g, '&#039;');
+                }
+
+                function esPrioritario(t) {
+                    return String(t.prioridad || '').toUpperCase() === 'T'
+                            || String(t.prioridad || '') === '1'
+                            || String(t.prioridad || '').toUpperCase() === 'TRUE'
+                            || String(t.prioridad_tipo || '').trim() !== '';
+                }
+
+                function etiquetaPrioridad(t) {
+                    const tipo = (t.prioridad_tipo || '').toString().replace(/_/g, ' ').trim();
+                    return tipo ? tipo : 'Prioritario';
+                }
+
+                function tamanoPagina(tipo) {
+                    return tipo === 'atencion' ? 1 : TurnosPantallaLayout.tamanoCola();
+                }
+
+                function paginaVisible(lista, pagina, tamano) {
+                    if (!Array.isArray(lista) || lista.length === 0)
+                        return [];
+                    const totalPaginas = Math.max(1, Math.ceil(lista.length / tamano));
+                    const paginaNormalizada = pagina % totalPaginas;
+                    return lista.slice(paginaNormalizada * tamano, paginaNormalizada * tamano + tamano);
+                }
+
+                function textoRango(lista, pagina, tamano) {
+                    if (!Array.isArray(lista) || lista.length === 0)
+                        return '';
+                    const totalPaginas = Math.max(1, Math.ceil(lista.length / tamano));
+                    const paginaNormalizada = pagina % totalPaginas;
+                    const inicio = paginaNormalizada * tamano + 1;
+                    const fin = Math.min(lista.length, inicio + tamano - 1);
+                    return `${inicio}-${fin} de ${lista.length}`;
+                }
+
+                function firmaEstado(resp) {
+                    const serializar = (lista) => (lista || []).map(t => [
+                            t.id,
+                            t.numero_formateado || t.numero,
+                            t.modulo_id,
+                            t.puesto_id,
+                            t.etapa,
+                            t.estado,
+                            t.llamado_en,
+                            t.rellamado_en,
+                            t.iniciado_en,
+                            t.prioridad,
+                            t.prioridad_tipo
+                        ].join(':')).join('|');
+                    return serializar(resp.en_atencion) + '//' + serializar(resp.pendientes);
+                }
+
+                function construirPendienteItem(t) {
+                    const nombre = escaparHtml(t.nombre_publico || 'Afiliado');
+                    const dependencia = escaparHtml(t.nombre_dependencia || 'Atención Comfasucre');
+                    const turno = escaparHtml(codigoTurno(t));
+                    const prioritario = esPrioritario(t);
+                    const badge = prioritario
+                            ? `<span class="turnos-queue-badge is-priority"><i class="ri-star-fill"></i>${escaparHtml(etiquetaPrioridad(t))}</span>`
+                            : '<span class="turnos-queue-badge">En espera</span>';
+
+                    return `
+                    <div class="turnos-queue-row ${prioritario ? 'is-priority' : ''}">
+                        <strong class="turnos-queue-code">${turno}</strong>
+                        <div class="turnos-queue-person">
+                            <strong>${nombre}</strong>
+                            <span>${dependencia}</span>
+                        </div>
+                        ${badge}
+                    </div>`;
+                }
+
+                function construirModuloCard(t) {
+                    const nombre = escaparHtml(t.nombre_publico || 'Afiliado');
+                    const dependencia = escaparHtml(t.nombre_dependencia || 'Atención Comfasucre');
+                    const modulo = escaparHtml((t.destino_publico || t.nombre_modulo || (t.modulo_id ? ('Módulo ' + t.modulo_id) : 'Módulo por asignar')) + (t.tipo_destino === 'OFICINA' && t.nombre_puesto ? ' · '+t.nombre_puesto : ''));
+                    const turno = escaparHtml(codigoTurno(t));
+                    const prioritario = esPrioritario(t);
+                    const estaEnGestion = !!String(t.iniciado_en || '').trim();
+                    const estadoLabel = estaEnGestion ? 'En atención' : 'Llamando ahora';
+                    const estadoIcon = estaEnGestion ? 'ri-user-voice-line' : 'ri-volume-up-line';
+                    const prioridad = prioritario
+                            ? `<span class="turnos-call-priority"><i class="ri-star-fill"></i>${escaparHtml(etiquetaPrioridad(t))}</span>`
+                            : '';
+
+                    return `
+                    <article class="turnos-call-card ${prioritario ? 'is-priority' : ''} ${estaEnGestion ? 'is-atencion' : 'is-llamando'}">
+                        <div class="turnos-call-head">
+                            <span class="turnos-call-kicker"><i class="${estadoIcon}"></i>${estadoLabel}</span>
+                            <span class="turnos-call-live ${estaEnGestion ? 'is-steady' : 'is-fresh'}"><i class="ri-checkbox-blank-circle-fill"></i>${estaEnGestion ? 'Activo' : 'Nuevo llamado'}</span>
+                        </div>
+                        ${prioridad}
+                        <div class="turnos-call-code">${turno}</div>
+                        <div class="turnos-call-destination">
+                            <i class="ri-building-4-line"></i>
+                            <div><span>Dirígete a</span><strong>${modulo}</strong></div>
+                        </div>
+                        <div class="turnos-call-person">
+                            <i class="ri-user-3-line"></i>
+                            <div><strong>${nombre}</strong><span>${dependencia}</span></div>
+                        </div>
+                    </article>`;
+                }
+
+                function actualizarEncabezadoAtencion(enAtencion) {
+                    const lista = Array.isArray(enAtencion) ? enAtencion : [];
+                    let titulo = 'Llamando ahora';
+                    let subtitulo = 'Acércate al módulo indicado';
+                    let icono = 'ri-notification-3-line';
+                    let textoBadge = 'Llamando';
+
+                    if (lista.length) {
+                        const totalEnGestion = lista.filter(t => !!String(t.iniciado_en || '').trim()).length;
+                        if (totalEnGestion === lista.length) {
+                            titulo = 'En atención';
+                            subtitulo = 'Turnos que ya están siendo atendidos';
+                            icono = 'ri-user-voice-line';
+                            textoBadge = 'En atención';
+                        } else if (totalEnGestion > 0) {
+                            titulo = 'Llamando y en atención';
+                            subtitulo = 'Revisa tu turno y módulo';
+                            icono = 'ri-pulse-line';
+                            textoBadge = 'Activo';
+                        }
+                    }
+
+                    $('#tituloAtencion').text(titulo);
+                    $('#subtituloAtencion').text(subtitulo);
+                    $('#badgeAtencion').html(`<i class="${icono}"></i> ${textoBadge}`);
+                }
+
+                function renderizarTurnos() {
+                    const tamAtencion = tamanoPagina('atencion');
+                    const tamPendientes = tamanoPagina('pendientes');
+                    const pendientes = estadoPantalla.pendientes || [];
+                    const enAtencion = estadoPantalla.enAtencion || [];
+                    const $listaPend = $('#listaPendientes');
+                    $listaPend.empty().removeClass('is-few is-single');
+                    if (pendientes.length > 0 && pendientes.length <= 3) $listaPend.addClass('is-few');
+                    if (pendientes.length === 1) $listaPend.addClass('is-single');
+                    actualizarEncabezadoAtencion(enAtencion);
+
+                    if (!pendientes.length) {
+                        $listaPend.append('<div class="turnos-empty">' + (estadoPantalla.jornadaAbierta ? 'No hay afiliados en espera.' : 'Jornada finalizada. La publicidad continuará disponible.') + '</div>');
+                        $('#indicadorPendientes').text('');
+                    } else {
+                        const totalPaginas = Math.ceil(pendientes.length / tamPendientes);
+                        estadoPantalla.paginaPendientes %= totalPaginas;
+                        $('#indicadorPendientes').text(pendientes.length + ' en espera' + (totalPaginas > 1 ? ' · ' + (estadoPantalla.paginaPendientes + 1) + '/' + totalPaginas : ''));
+                        paginaVisible(pendientes, estadoPantalla.paginaPendientes, tamPendientes).forEach(t => {
+                            $listaPend.append(construirPendienteItem(t));
+                        });
+                    }
+
+                    const $grid = $('#gridAtencion');
+                    const $msgNo = $('#msgNoAtencion');
+                    $grid.empty();
+
+                    if (!enAtencion.length) {
+                        $msgNo.show();
+                        $msgNo.text(estadoPantalla.jornadaAbierta ? 'No hay turnos llamados en este momento.' : 'No hay turnos activos. Jornada finalizada.');
+                        $('#indicadorAtencion').text('');
+                    } else {
+                        $msgNo.hide();
+                        $('#indicadorAtencion').text('');
+                        paginaVisible(enAtencion, estadoPantalla.paginaAtencion, tamAtencion).forEach(t => {
+                            $grid.append(construirModuloCard(t));
+                        });
+                    }
+                    TurnosPantallaLayout.contenidoActualizado(estadoPantalla.firma);
+                }
+
+                function actualizarResumen() {
+                    const pendientes = estadoPantalla.pendientes || [];
+                    const enAtencion = estadoPantalla.enAtencion || [];
+                    const prioritarios = pendientes.filter(esPrioritario).length;
+                    const proximo = pendientes.length ? codigoTurno(pendientes[0]) : '--';
+
+                    $('#statAtencion').text(enAtencion.length);
+                    $('#statPendientes').text(pendientes.length);
+                    $('#statPrioritarios').text(prioritarios);
+                    $('#statProximo').text(proximo);
+                }
+
+                function actualizarUI(resp) {
+                    estadoPantalla.jornadaAbierta = resp.jornada_abierta !== false;
+                    const nuevaFirma = firmaEstado(resp);
+                    if (nuevaFirma !== estadoPantalla.firma) {
+                        estadoPantalla.enAtencion = resp.en_atencion || [];
+                        estadoPantalla.pendientes = resp.pendientes || [];
+                        estadoPantalla.paginaAtencion = 0;
+                        estadoPantalla.paginaPendientes = 0;
+                        estadoPantalla.firma = nuevaFirma;
+                    }
+
+                    renderizarTurnos();
+                    actualizarResumen();
+
+                    detectarNuevosLlamados(resp.en_atencion || []);
+                }
+
+                function rotarPaginasTurnos() {
+                    const tamAtencion = tamanoPagina('atencion');
+                    const tamPendientes = tamanoPagina('pendientes');
+                    const totalAtencion = Math.ceil((estadoPantalla.enAtencion || []).length / tamAtencion);
+                    const totalPendientes = Math.ceil((estadoPantalla.pendientes || []).length / tamPendientes);
+                    let cambio = false;
+
+                    if (totalAtencion > 1) {
+                        estadoPantalla.paginaAtencion = (estadoPantalla.paginaAtencion + 1) % totalAtencion;
+                        cambio = true;
+                    }
+                    if (totalPendientes > 1) {
+                        estadoPantalla.paginaPendientes = (estadoPantalla.paginaPendientes + 1) % totalPendientes;
+                        cambio = true;
+                    }
+
+                    if (cambio) {
+                        renderizarTurnos();
+                    }
+                }
+
+                // ===== Fondo dinámico del slider según la imagen =====
+                function obtenerColorPromedioDeImagen(imgEl, callback) {
+                    try {
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+                        const w = canvas.width = 32;
+                        const h = canvas.height = 32;
+
+                        ctx.drawImage(imgEl, 0, 0, w, h);
+                        const data = ctx.getImageData(0, 0, w, h).data;
+
+                        let r = 0, g = 0, b = 0, count = 0;
+                        for (let i = 0; i < data.length; i += 4) {
+                            r += data[i];
+                            g += data[i + 1];
+                            b += data[i + 2];
+                            count++;
+                        }
+                        r = Math.round(r / count);
+                        g = Math.round(g / count);
+                        b = Math.round(b / count);
+
+                        callback({r, g, b});
+                    } catch (e) {
+                        console.warn('No se pudo calcular el color promedio', e);
+                        callback(null);
+                    }
+                }
+
+                function aplicarFondoGradiente(slideEl) {
+                    const backdrop = document.getElementById('adsBackdrop');
+                    if (!backdrop)
+                        return;
+
+                    const img = slideEl.querySelector('img');
+                    const video = slideEl.querySelector('video');
+                    const iframe = slideEl.querySelector('iframe');
+
+                    const setDefault = () => {
+                        backdrop.style.backgroundImage = 'radial-gradient(circle at top left, #17395f, #061327 72%)';
+                        backdrop.style.backgroundColor = '#071327';
+                    };
+
+                    if (img) {
+                        const procesar = () => {
+                            const src = img.currentSrc || img.src || '';
+                            obtenerColorPromedioDeImagen(img, function (color) {
+                                const overlay = color
+                                        ? `linear-gradient(rgba(${color.r},${color.g},${color.b},.18), rgba(4,18,36,.34))`
+                                        : 'linear-gradient(rgba(7,28,52,.18), rgba(4,18,36,.35))';
+                                if (src) {
+                                    const safeSrc = src.replace(/"/g, '\\"');
+                                    backdrop.style.backgroundImage = `${overlay}, url("${safeSrc}")`;
+                                    backdrop.style.backgroundSize = 'cover';
+                                    backdrop.style.backgroundPosition = 'center';
+                                    backdrop.style.backgroundRepeat = 'no-repeat';
+                                } else {
+                                    setDefault();
+                                }
+                            });
+                        };
+
+                        if (img.complete && img.naturalWidth) procesar();
+                        else img.addEventListener('load', procesar, {once:true});
+                    } else if (video || iframe) {
+                        setDefault();
+                    } else {
+                        setDefault();
+                    }
+                }
+
+
+                function normalizarYoutube(url) {
+                    if (!url)
+                        return '';
+
+                    let videoId = '';
+                    try {
+                        const parsed = new URL(url);
+                        if (parsed.hostname.includes('youtu.be')) {
+                            videoId = parsed.pathname.replace('/', '');
+                        } else if (parsed.searchParams.get('v')) {
+                            videoId = parsed.searchParams.get('v');
+                        } else if (parsed.pathname.includes('/embed/')) {
+                            videoId = parsed.pathname.split('/embed/')[1].split('/')[0];
+                        } else if (parsed.pathname.includes('/shorts/')) {
+                            videoId = parsed.pathname.split('/shorts/')[1].split('/')[0];
+                        }
+                    } catch (e) {
+                        videoId = url;
+                    }
+
+                    if (!videoId)
+                        return '';
+
+                    return 'https://www.youtube.com/embed/' + videoId +
+                            '?autoplay=1&mute=1&controls=0&rel=0&showinfo=0&modestbranding=1&playsinline=1';
+                }
+
+                function escaparAtributo(value) {
+                    return String(value || '')
+                            .replace(/&/g, '&amp;')
+                            .replace(/"/g, '&quot;')
+                            .replace(/</g, '&lt;')
+                            .replace(/>/g, '&gt;');
+                }
+
+                function cargarPublicidadDesdeBD() {
+                    if (publicidadCargando || pantallaRevocada) return;
+                    publicidadCargando = true;
+                    $.ajax({url: '<?= base_url("publicidad/api_publicidad_activa") ?>', data: {modulo: MODULO_PUBLICIDAD}, dataType: 'json', timeout: 10000, cache: false})
+                            .done(function (resp) {
+                                const slider = document.getElementById('adsSlider');
+                                if (!slider)
+                                    return;
+
+                                if (!resp || !resp.ok || !Array.isArray(resp.data)) {
+                                    mostrarMensajeSinPublicidad();
+                                    return;
+                                }
+
+                                const items = resp.data.filter(function (item) {
+                                    if (!item)
+                                        return false;
+                                    if (item.tipo_contenido === 'IMAGEN' || item.tipo_contenido === 'VIDEO_MP4') {
+                                        return !!item.archivo_path;
+                                    }
+                                    if (item.tipo_contenido === 'YOUTUBE') {
+                                        return !!(item.youtube_url || item.archivo_path);
+                                    }
+                                    return false;
+                                });
+
+                                if (!items.length) {
+                                    mostrarMensajeSinPublicidad();
+                                    return;
+                                }
+
+                                if (publicidadTimeoutId) {
+                                    clearTimeout(publicidadTimeoutId);
+                                    publicidadTimeoutId = null;
+                                }
+
+                                let html = '';
+                                items.forEach(function (item, idx) {
+                                    const tipo = item.tipo_contenido;
+                                    const titulo = escaparAtributo(item.titulo);
+                                    const modulo = escaparAtributo(item.modulo);
+                                    const descripcion = escaparAtributo(item.descripcion);
+                                    const duracion = item.duracion_seg && parseInt(item.duracion_seg, 10) > 0
+                                            ? parseInt(item.duracion_seg, 10)
+                                            : 10;
+
+                                    let contenidoSlide = '';
+                                    if (tipo === 'IMAGEN') {
+                                        contenidoSlide = '<img class="turnos-ad-img" src="<?= base_url() ?>' + item.archivo_path + '" alt="' + titulo + '">';
+                                    } else if (tipo === 'VIDEO_MP4') {
+                                        contenidoSlide =
+                                                '<video class="turnos-ad-video" muted preload="auto">' +
+                                                '<source src="<?= base_url() ?>' + item.archivo_path + '" type="video/mp4">' +
+                                                'Tu navegador no soporta video HTML5.' +
+                                                '</video>';
+                                    } else if (tipo === 'YOUTUBE') {
+                                        const embedUrl = normalizarYoutube(item.youtube_url || item.archivo_path);
+                                        contenidoSlide =
+                                                '<iframe class="turnos-ad-yt" data-src="' + escaparAtributo(embedUrl) + '" src="" ' +
+                                                'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+                                    }
+
+                                    html += '<div class="turnos-ads-slide' + (idx === 0 ? ' active' : '') + '"' +
+                                            ' data-tipo="' + tipo + '"' +
+                                            ' data-duracion="' + duracion + '"' +
+                                            ' data-modulo="' + modulo + '"' +
+                                            ' data-titulo="' + titulo + '"' +
+                                            ' data-descripcion="' + descripcion + '">' +
+                                            contenidoSlide +
+                                            '</div>';
+                                });
+
+                                slider.innerHTML = html;
+                                iniciarSliderPublicidad();
+                            })
+                            .fail(function (xhr) {
+                                if (xhr && xhr.status === 401) bloquearDispositivoRevocado();
+                                if (!document.querySelector('#adsSlider .turnos-ads-slide')) mostrarMensajeSinPublicidad();
+                            })
+                            .always(function () { publicidadCargando = false; });
+                }
+
+                function mostrarMensajeSinPublicidad() {
+                    const slider = document.getElementById('adsSlider');
+                    if (!slider)
+                        return;
+
+                    slider.innerHTML =
+                            '<div class="turnos-ads-slide active" data-tipo="texto" data-duracion="10">' +
+                            contenidoInstitucional() +
+                            '</div>';
+
+                    iniciarSliderPublicidad();
+                }
+
+                function contenidoInstitucional() {
+                    return '<div class="turnos-ad-fallback"><img src="<?= base_url('assets/images/logo_comfasucre.png') ?>" alt="Comfasucre">' +
+                        '<h2>Bienvenidos a Comfasucre</h2><p>Estamos para acompañarte. Espera el llamado de tu turno.</p></div>';
+                }
+
+                function iniciarSliderPublicidad() {
+                    const slider = document.getElementById('adsSlider');
+                    if (!slider)
+                        return;
+
+                    const slides = slider.querySelectorAll('.turnos-ads-slide');
+                    if (!slides.length)
+                        return;
+
+                    const dots = document.getElementById('adDots');
+                    if (dots) {
+                        dots.innerHTML = '';
+                        slides.forEach(function (_, idx) {
+                            const dot = document.createElement('span');
+                            dot.className = 'turnos-ad-dot' + (idx === 0 ? ' is-active' : '');
+                            dot.dataset.index = String(idx);
+                            dots.appendChild(dot);
+                        });
+                    }
+
+                    if (publicidadTimeoutId) {
+                        clearTimeout(publicidadTimeoutId);
+                        publicidadTimeoutId = null;
+                    }
+
+                    let index = 0;
+                    const total = slides.length;
+
+                    function obtenerDuracionMs(slide) {
+                        const seg = parseInt(slide.getAttribute('data-duracion') || '10', 10);
+                        return (!isNaN(seg) && seg > 0 ? seg : 10) * 1000;
+                    }
+
+                    function actualizarTextoPublicidad(slide) {
+                        const ds = slide.dataset || {};
+                        $('#adBadge').text(ds.modulo && ds.modulo.trim() !== '' ? ds.modulo : 'Publicidad Comfasucre');
+                        $('#adTitle').text(ds.titulo && ds.titulo.trim() !== '' ? ds.titulo : 'Beneficios Comfasucre para ti');
+                        $('#adText').text(ds.descripcion && ds.descripcion.trim() !== '' ? ds.descripcion : 'Disfruta nuestros programas, eventos y beneficios exclusivos para afiliados Comfasucre.');
+                    }
+
+                    function irAlSiguienteSlide() {
+                        if (index >= total - 1) {
+                            index = 0;
+                            mostrarSlide(index);
+                        } else {
+                            index++;
+                            mostrarSlide(index);
+                        }
+                    }
+
+                    function mostrarSlide(i) {
+                        if (publicidadTimeoutId) {
+                            clearTimeout(publicidadTimeoutId);
+                            publicidadTimeoutId = null;
+                        }
+
+                        slides.forEach(function (slide, idx) {
+                            const video = slide.querySelector('video');
+                            const iframe = slide.querySelector('iframe');
+                            if (video) {
+                                video.pause();
+                                video.currentTime = 0;
+                                video.onended = null;
+                                video.onloadedmetadata = null;
+                            }
+                            if (iframe) {
+                                iframe.src = '';
+                            }
+                            slide.classList.toggle('active', idx === i);
+                        });
+
+                        const slideActual = slides[i];
+                        if (!slideActual)
+                            return;
+
+                        const dots = document.querySelectorAll('#adDots .turnos-ad-dot');
+                        dots.forEach(function (dot, idx) { dot.classList.toggle('is-active', idx === i); });
+
+                        const tipo = slideActual.getAttribute('data-tipo') || '';
+                        actualizarTextoPublicidad(slideActual);
+                        aplicarFondoGradiente(slideActual);
+
+                        function programarSiguiente(duracionMs) {
+                            if (!slideActual.isConnected || !slideActual.classList.contains('active')) return;
+                            if (publicidadTimeoutId) clearTimeout(publicidadTimeoutId);
+                            publicidadTimeoutId = setTimeout(function () {
+                                publicidadTimeoutId = null;
+                                if (slideActual.isConnected && slideActual.classList.contains('active')) irAlSiguienteSlide();
+                            }, Number.isFinite(duracionMs) && duracionMs > 0 ? duracionMs : obtenerDuracionMs(slideActual));
+                        }
+
+                        function falloContenido() {
+                            if (!slideActual.isConnected || slideActual.dataset.tipo === 'texto') return;
+                            const videoFallido = slideActual.querySelector('video');
+                            if (videoFallido) videoFallido.pause();
+                            slideActual.dataset.tipo = 'texto';
+                            slideActual.innerHTML = contenidoInstitucional();
+                            slideActual.dataset.titulo = 'Bienvenidos a Comfasucre';
+                            slideActual.dataset.descripcion = 'Estamos para acompañarte. Espera el llamado de tu turno.';
+                            if (slideActual.classList.contains('active')) {
+                                actualizarTextoPublicidad(slideActual);
+                                programarSiguiente();
+                            }
+                        }
+                        const imagen = slideActual.querySelector('.turnos-ad-img');
+                        if (imagen) {
+                            imagen.onerror = falloContenido;
+                            if (imagen.complete && !imagen.naturalWidth) falloContenido();
+                        }
+
+                        if (tipo === 'VIDEO_MP4') {
+                            const video = slideActual.querySelector('video');
+                            if (!video) {
+                                programarSiguiente();
+                                return;
+                            }
+                            video.currentTime = 0;
+                            video.muted = true;
+                            video.onerror = falloContenido;
+                            video.querySelectorAll('source').forEach(function (source) { source.onerror = falloContenido; });
+                            // A stalled download/play promise must not freeze the carousel.
+                            // Once metadata arrives, allow the whole video plus a safety margin.
+                            function programarLimiteVideo() {
+                                programarSiguiente(Number.isFinite(video.duration) && video.duration > 0
+                                    ? video.duration * 1000 + 10000 : Math.max(obtenerDuracionMs(slideActual), 10000));
+                            }
+                            video.onloadedmetadata = programarLimiteVideo;
+                            programarLimiteVideo();
+                            video.onended = function () {
+                                if (slideActual.isConnected && slideActual.classList.contains('active')) irAlSiguienteSlide();
+                            };
+                            if (video.error) { falloContenido(); return; }
+                            const playPromise = video.play();
+                            if (playPromise && typeof playPromise.then === 'function') {
+                                playPromise.catch(function () {
+                                    programarSiguiente();
+                                });
+                            }
+                        } else if (tipo === 'YOUTUBE') {
+                            const iframe = slideActual.querySelector('iframe');
+                            if (iframe) {
+                                iframe.src = iframe.getAttribute('data-src') || '';
+                            }
+                            programarSiguiente();
+                        } else {
+                            programarSiguiente();
+                        }
+                    }
+
+                    mostrarSlide(index);
+                }
+
+                // ================== POLLING TURNOS ==================
+                function cargarEstado() {
+                    if (estadoCargando || pantallaRevocada) return;
+                    estadoCargando = true;
+                    $.ajax({url: '<?= base_url("turnos/api_estado_global") ?>', data: {cursor_llamados: cursorLlamados, alcance: alcanceActual || ''}, dataType: 'json', timeout: 10000, cache: false})
+                        .done(function (resp) {
+                            if (resp && resp.ok) {
+                                const nuevoAlcance=resp.alcance?.clave || 'GENERAL';
+                                if((alcanceActual!==null && alcanceActual!==nuevoAlcance) || resp.alcance?.activo===false){
+                                    anuncios.cola=[];anuncios.vistos.clear();anuncios.activos.clear();
+                                    if('speechSynthesis' in window)window.speechSynthesis.cancel();
+                                    $('#turnoAlertOverlay').stop(true,true).hide();
+                                    estadoPantalla.firma='';estadoPantalla.paginaAtencion=estadoPantalla.paginaPendientes=0;
+                                }
+                                alcanceActual=nuevoAlcance;
+                                const serverDate = Date.parse(String(resp.server_now).replace(' ', 'T') + '-05:00');
+                                if (Number.isFinite(serverDate)) desfaseServidor = serverDate - Date.now();
+                                actualizarUI(resp);
+                                anuncios.actualizar(resp.llamados || [], resp.en_atencion || []);
+                                cursorLlamados = Number(resp.cursor_llamados) || 0;
+                                const ahora = new Date();
+                                $('#estadoConexion').css('color', resp.alcance?.activo===false ? '#b91c1c' : '#15803d').text(resp.alcance?.activo===false ? 'Oficina no disponible · solicita configurar esta pantalla' : (resp.alcance?.nombre || 'Sala general')+' · actualizado '+TurnosFecha.hora(ahora, {segundos:true}));
+                            }
+                        })
+                        .fail(function (xhr) {
+                            if (xhr && xhr.status === 401) {
+                                bloquearDispositivoRevocado();
+                            } else {
+                                anuncios.desconectar();
+                                $('#estadoConexion').css('color', '#b45309').text('Sin conexión · reintentando automáticamente');
+                            }
+                        })
+                        .always(function () { estadoCargando = false; if (!pantallaRevocada) setTimeout(cargarEstado, 2000); });
+                }
+
+                $(function () {
+                    TurnosPantallaLayout.init(renderizarTurnos);
+                    inicializarConfiguracionVoz();
+                    actualizarRelojYFecha();
+                    setInterval(actualizarRelojYFecha, 1000);
+
+                    inicializarBotonAudio();          // botón "Activar sonido"
+                    cargarEstado();                   // polling de turnos
+                    setInterval(rotarPaginasTurnos, 9000);
+                    cargarPublicidadDesdeBD();        // slider banners desde BD
+                    setInterval(cargarPublicidadDesdeBD, 300000);
+                });
+
+            })(jQuery);
+        </script>
+
+    </body>
+</html>

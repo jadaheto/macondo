@@ -1,0 +1,93 @@
+{
+ "title": "Felinos de América",
+ "description": "Jaguar, puma, ocelote, margay, yaguarundí y tigrillo, los seis felinos silvestres de Colombia, junto al gato andino y el lince rojo de otras regiones de América.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Biodiversidad"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Un jaguar de pelaje amarillo con rosetas negras caminando hacia la cámara entre la hierba.",
+   "El jaguar es el felino más grande de América y, a diferencia de muchos gatos, le encanta el agua: es un gran nadador. Vive desde México hasta Argentina, también en Colombia. Foto tomada en el Pantanal, Brasil."
+  ],
+  [
+   "Un puma de pelaje café claro, sin manchas, parado en un pastizal seco.",
+   "El puma vive desde Canadá hasta el sur de Chile, en montañas, selvas y desiertos: ningún felino de América ocupa un territorio tan grande. Los adultos no tienen manchas. Esta hembra fue fotografiada en la Patagonia chilena."
+  ],
+  [
+   "Un ocelote de pelaje dorado con manchas negras en forma de cadena caminando sobre una rama.",
+   "El ocelote tiene manchas en forma de cadena y caza de noche ratones, aves y reptiles. Durante años fue cazado por su piel; hoy está protegido por la ley."
+  ],
+  [
+   "Primer plano de la cabeza de un margay, con grandes ojos y pelaje manchado.",
+   "El margay vive casi siempre en los árboles. Sus tobillos giran tanto que puede bajar por los troncos de cabeza, como una ardilla. Sus ojos grandes le ayudan a cazar de noche."
+  ],
+  [
+   "Un yaguarundí de color negro, cuerpo alargado y patas cortas, parado en la hierba.",
+   "El yaguarundí o gato moro tiene el cuerpo largo y las patas cortas, parecido a una nutria. A diferencia de otros felinos, caza sobre todo de día. Su pelaje puede ser casi negro, gris o rojizo."
+  ],
+  [
+   "Un tigrillo pequeño de pelaje manchado caminando sobre la hierba.",
+   "El tigrillo u oncilla es uno de los felinos más pequeños de América, del tamaño de un gato doméstico. En Colombia vive en los bosques de montaña. Los científicos han descubierto que en realidad son varias especies muy parecidas."
+  ],
+  [
+   "Un gato andino de pelaje gris con manchas y cola gruesa con anillos, sobre una roca.",
+   "El gato andino vive en las montañas altas de Perú, Bolivia, Chile y Argentina, a más de 3.000 metros de altura. Es uno de los felinos más raros del mundo. Su cola gruesa le ayuda a mantener el equilibrio en las rocas."
+  ],
+  [
+   "Un lince rojo de orejas puntiagudas y cara con rayas, asomado detrás de unas ramas sobre una roca.",
+   "El lince rojo vive en Norteamérica, desde Canadá hasta México. Tiene la cola corta, como cortada, y caza conejos y otros animales pequeños."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el felino más grande de América?",
+   [
+    "El puma",
+    "El jaguar",
+    "El ocelote",
+    "El lince rojo"
+   ],
+   1,
+   "El jaguar es el tercer felino más grande del mundo, después del tigre y el león."
+  ],
+  [
+   "¿Qué felino puede bajar de los árboles de cabeza?",
+   [
+    "El margay",
+    "El puma",
+    "El gato andino",
+    "El yaguarundí"
+   ],
+   0,
+   "Sus tobillos giran mucho, como los de una ardilla."
+  ],
+  [
+   "¿Qué felino caza sobre todo de día?",
+   [
+    "El ocelote",
+    "El margay",
+    "El yaguarundí",
+    "El tigrillo"
+   ],
+   2,
+   "La mayoría de los felinos cazan de noche; el yaguarundí es una excepción."
+  ],
+  [
+   "¿Cuántas especies de felinos silvestres viven en Colombia?",
+   [
+    "Dos",
+    "Diez",
+    "Ninguna",
+    "Seis"
+   ],
+   3,
+   "Jaguar, puma, ocelote, margay, yaguarundí y tigrillo viven en Colombia. El gato andino y el lince rojo no."
+  ]
+ ],
+ "reviewNotes": "06-tigrillo: Commons la identifica como Leopardus tigrinus (foto en un parque de felinos de Francia); por la reciente división del grupo podría ser L. guttulus, especie del sur de Brasil. 05-yaguarundí es un ejemplar de color oscuro."
+}

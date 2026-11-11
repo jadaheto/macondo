@@ -1,0 +1,35 @@
+{
+ "title": "Trajes y oficios en la Comisión Corográfica",
+ "description": "Acuarelas pintadas entre 1850 y 1859 por los artistas de la Comisión Corográfica, que recorrió la Nueva Granada para hacer mapas y describir sus regiones, gentes, trajes y oficios. Obras de Manuel María Paz y Carmelo Fernández.",
+ "gradeMin": 4, "gradeMax": 11,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Artes", "Siglo XIX"],
+ "cover": 2,
+ "credits": {"9": "Carmelo Fernández (acuarela, 1851)"},
+ "items": [
+  ["Acuarela de un hombre sentado trabajando en un gran telar de madera, con una silla y una tela azul a su lado.",
+   "Tejedor de ruanas en Cali, acuarela de Manuel María Paz (1853). Paz fue uno de los pintores de la Comisión Corográfica, dirigida por el geógrafo Agustín Codazzi."],
+  ["Acuarela de una pareja elegante: una mujer con falda blanca amplia y blusa azul junto a un hombre con sombrero, chaqueta y pantalón claro.",
+   "'Llapanga i mestizo', provincia del Cauca (1853). Las acuarelas muestran la ropa de distintos grupos sociales de mediados del siglo XIX."],
+  ["Acuarela de dos hombres conversando en una calle de pueblo, uno con sombrero y ruana a rayas y otro con ropa clara.",
+   "Habitantes de Cartago (provincia del Cauca), 1853. Los pintores registraron a personas de origen indígena, africano, mestizo y europeo, con sus trajes de diario."],
+  ["Acuarela de una mujer sentada en el suelo enrollando tabaco bajo un portal, mientras un hombre con ruana pasa por la calle.",
+   "La cigarrera, provincia del Cauca (1853). Hacer cigarros a mano era uno de los oficios de las mujeres en muchos pueblos de la Nueva Granada."],
+  ["Acuarela de una mujer y un hombre que transportan agua en grandes vasijas, uno con un caballo, frente a casas de techo de teja.",
+   "Cargadores de agua, provincia del Cauca. Antes de los acueductos, el agua se llevaba a las casas en vasijas de barro desde ríos y fuentes."],
+  ["Acuarela del interior de una casa de techo de paja con dos personas que tocan una marimba de madera.",
+   "La marimba, instrumento popular de la costa del Pacífico (1853). Este instrumento de teclas de madera sigue siendo el corazón de la música del Pacífico colombiano."],
+  ["Acuarela de un río con palmeras en la orilla, personas que lavan arena en bateas y una canoa en el agua.",
+   "Modo de lavar oro, provincia de Barbacoas (1853). En los ríos del Pacífico se buscaba oro con bateas de madera, un oficio que todavía se practica."],
+  ["Acuarela de un grupo de llaneros con sombrero que sujetan y marcan reses en un corral, con palmeras al fondo.",
+   "Llaneros herrando ganado en la provincia de Casanare (1856). Los llaneros eran expertos jinetes y vaqueros de las grandes sabanas de la Orinoquia."],
+  ["Acuarela de una pareja elegante bajo un árbol: un hombre con ruana, sombrero y zamarros, y una mujer con vestido largo y sombrero.",
+   "'Habitantes notables' de la provincia de Tundama (Boyacá), acuarela de Carmelo Fernández (1851). Muestra la ropa de las familias acomodadas de tierra fría."]
+ ],
+ "questions": [
+  ["¿Quién dirigió la Comisión Corográfica?", ["Agustín Codazzi", "Simón Bolívar", "José Celestino Mutis"], 0, "Codazzi era un geógrafo italiano al servicio de la Nueva Granada."],
+  ["¿Qué instrumento de teclas de madera pintó Manuel María Paz en el Pacífico?", ["La marimba", "El acordeón", "El piano"], 0, "Sigue siendo central en la música del Pacífico."],
+  ["¿Con qué se lavaba el oro en los ríos de Barbacoas?", ["Con bateas de madera", "Con máquinas de vapor", "Con redes de pesca"], 0, "Es un oficio tradicional del Pacífico."],
+  ["¿Qué hacía la Comisión Corográfica además de pintar?", ["Hacer mapas y describir las regiones", "Construir ferrocarriles", "Fundar ciudades"], 0, "Recorrió el país entre 1850 y 1859."]
+ ],
+ "reviewNotes": "Algunos títulos originales del siglo XIX usan términos raciales de la época (p. ej. 'Retrato de un negro de Cartago'); en los pies de foto se describen de forma respetuosa. Manuel María Paz (†1902) y Carmelo Fernández (†1887): dominio público."
+}

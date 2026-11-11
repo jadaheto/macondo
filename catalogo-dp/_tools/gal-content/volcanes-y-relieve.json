@@ -1,0 +1,112 @@
+{
+ "title": "Volcanes y relieve",
+ "description": "Volcanes nevados y activos de Colombia, el volcán de lodo del Totumo en el Caribe, erupciones famosas del mundo y formas del relieve como cañones, monolitos y glaciares.",
+ "gradeMin": 4,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias naturales",
+  "Geografía",
+  "Geología",
+  "Relieve"
+ ],
+ "cover": 6,
+ "items": [
+  [
+   "Vista desde el espacio de una montaña con la cumbre cubierta de hielo blanco, rodeada de laderas cafés y verdes.",
+   "El Nevado del Ruiz visto desde la Estación Espacial Internacional. En 1985 su erupción derritió parte del hielo y una avalancha de lodo arrasó la población de Armero. Desde entonces el volcán se vigila de forma permanente."
+  ],
+  [
+   "Cráter de un volcán de rocas oscuras del que salen columnas de gas blanco, bajo un cielo nublado.",
+   "El volcán Galeras, junto a la ciudad de Pasto (Nariño), es uno de los volcanes más activos de Colombia. Las columnas blancas son gases y vapor que salen por las fumarolas."
+  ],
+  [
+   "Gran cráter de paredes grises y suelo de ceniza en la cima de un volcán, bajo un cielo con nubes.",
+   "El cráter del volcán Puracé, en el Cauca. Es un volcán activo dentro del Parque Nacional Natural Puracé, donde nacen ríos tan importantes como el Magdalena y el Cauca."
+  ],
+  [
+   "Montaña cónica con la cumbre cubierta de nieve, vista sobre colinas verdes con bosque, bajo un cielo azul.",
+   "El Nevado del Tolima tiene la forma cónica típica de un volcán. Hace parte del Parque Nacional Natural Los Nevados, en la cordillera Central."
+  ],
+  [
+   "Pequeño cerro cónico de lodo seco y gris, con una escalera y una baranda en la cima, bajo un cielo con nubes.",
+   "El volcán del Totumo, en Bolívar, es un volcán de lodo: no expulsa lava sino barro y gases que vienen del subsuelo. En su cráter los visitantes se bañan en el lodo. En la costa Caribe hay varios volcanes de lodo."
+  ],
+  [
+   "Enorme columna de ceniza gris que sale de una montaña con nieve, vista desde el aire.",
+   "Erupción del monte Santa Helena (Estados Unidos) el 18 de mayo de 1980. La explosión lanzó una columna de ceniza de varios kilómetros de altura. Foto del Servicio Geológico de los Estados Unidos."
+  ],
+  [
+   "Chorro de lava roja incandescente que forma un arco sobre un campo de roca volcánica negra.",
+   "Una fuente de lava de unos 10 metros de alto en Hawái. La lava es roca fundida que sale del interior de la Tierra a más de 1.000 °C y, al enfriarse, forma nuevas rocas."
+  ],
+  [
+   "Volcán en erupción de noche, con lava y fragmentos incandescentes que caen por sus laderas.",
+   "El volcán Paricutín (México) nació en 1943 en medio de un cultivo de maíz y en un año ya medía más de 300 metros. Foto de 1943 del Servicio Geológico de los Estados Unidos."
+  ],
+  [
+   "Cañón profundo entre montañas áridas, con un río serpenteando en el fondo bajo un cielo azul.",
+   "El cañón del Chicamocha, en Santander, fue excavado por el río Chicamocha durante millones de años. Es un ejemplo de cómo la erosión del agua modela el relieve."
+  ],
+  [
+   "Gran roca redondeada y oscura que se eleva sobre el terreno, con una escalera en zigzag pegada a uno de sus lados.",
+   "La Piedra del Peñol, en Guatapé (Antioquia), es un enorme bloque de roca granítica de unos 200 metros de altura. Para llegar a la cima hay que subir cientos de escalones."
+  ],
+  [
+   "Laguna azul entre rocas, con montañas al fondo y un glaciar blanco en la cima, bajo un cielo azul intenso.",
+   "La Sierra Nevada del Cocuy (Boyacá) tiene la mayor extensión de glaciares de Colombia. Por el calentamiento global, sus glaciares se están derritiendo y reduciendo año tras año."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué expulsa un volcán de lodo como el del Totumo?",
+   [
+    "Barro y gases",
+    "Lava ardiente",
+    "Agua salada"
+   ],
+   0,
+   "Los volcanes de lodo expulsan barro y gases del subsuelo."
+  ],
+  [
+   "¿Junto a qué ciudad está el volcán Galeras?",
+   [
+    "Pasto",
+    "Sincelejo",
+    "Cartagena"
+   ],
+   0,
+   "El Galeras está junto a Pasto, en Nariño."
+  ],
+  [
+   "¿Dónde nació el volcán Paricutín en 1943?",
+   [
+    "En medio de un cultivo de maíz",
+    "En el fondo del mar",
+    "En una ciudad"
+   ],
+   0,
+   "Nació en un cultivo de maíz en México."
+  ],
+  [
+   "¿Qué formó el cañón del Chicamocha?",
+   [
+    "La erosión del río durante millones de años",
+    "Una explosión volcánica",
+    "Un terremoto en un solo día"
+   ],
+   0,
+   "Fue excavado por el río Chicamocha durante millones de años."
+  ],
+  [
+   "¿Qué les está pasando a los glaciares del Cocuy?",
+   [
+    "Se están derritiendo por el calentamiento global",
+    "Están creciendo cada año",
+    "Se están volviendo de lodo"
+   ],
+   0,
+   "Por el calentamiento global se están reduciendo."
+  ]
+ ],
+ "reviewNotes": "El pie de foto del Nevado del Ruiz menciona la tragedia de Armero (1985); revisar el tono para grados 4-5."
+}

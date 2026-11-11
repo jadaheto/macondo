@@ -1,0 +1,93 @@
+{
+ "title": "Orquídeas de Colombia",
+ "description": "Colombia es el país con más especies de orquídeas del mundo. Conoce la flor de mayo, flor nacional, y otras orquídeas sorprendentes, en fotos y en láminas botánicas del siglo XIX.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Plantas",
+  "Biodiversidad"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Dos flores grandes de color lila pálido con el labio morado intenso y el centro amarillo, sobre fondo azul.",
+   "La Cattleya trianae o flor de mayo es la flor nacional de Colombia desde 1936. Crece en los bosques de los Andes. Su nombre honra al botánico colombiano José Jerónimo Triana."
+  ],
+  [
+   "Ilustración antigua de una orquídea blanca con el labio rojo y amarillo, con sus hojas.",
+   "En el siglo XIX las orquídeas colombianas causaron furor en Europa, y muchos coleccionistas viajaron a buscarlas. Esta lámina de una Cattleya trianae se publicó en Londres en 1888, en el libro «Reichenbachia» de Frederick Sander."
+  ],
+  [
+   "Una flor de orquídea pequeña de tonos violeta y naranja, con colas largas y delgadas.",
+   "Las Masdevallia tienen pétalos que terminan en largas colas. Hay cientos de especies, muchas en los bosques de niebla de los Andes colombianos. Esta es Masdevallia caudata."
+  ],
+  [
+   "Una flor de orquídea oscura con rayas negras, tres puntas largas y el centro blanco.",
+   "Las orquídeas Dracula tienen flores que recuerdan la cara de un pequeño mono o de un murciélago. Crecen en bosques nublados y frescos; Colombia y Ecuador tienen la mayoría de sus especies."
+  ],
+  [
+   "Una flor amarilla cerrada en forma de copa, como un tulipán.",
+   "La Anguloa clowesii se llama cuna de Venus por su forma de copa: su labio se mece como una cuna cuando se posa un insecto. Crece en los Andes de Colombia y Venezuela."
+  ],
+  [
+   "Ilustración antigua de una orquídea con muchas flores blancas y manchadas en una vara arqueada.",
+   "El Odontoglossum crispum, de los bosques andinos de Colombia, fue una de las orquídeas más buscadas del siglo XIX: se arrancaron tantas plantas que se volvió rara en la naturaleza. Lámina de Walter Hood Fitch, publicada en Inglaterra entre 1864 y 1874."
+  ],
+  [
+   "Dos flores blancas de orquídea con manchas moradas que forman un dibujo en el centro.",
+   "Las Miltoniopsis se llaman orquídeas pensamiento porque se parecen a esas flores. Esta especie crece en Colombia. Su dibujo morado guía a los insectos polinizadores hacia el centro de la flor."
+  ],
+  [
+   "Flores de orquídea verdes y rojizas, con un labio en forma de bolsa o zapatito.",
+   "Las Phragmipedium tienen un labio en forma de zapato: los insectos entran y, al salir, se llevan el polen. Por eso las llaman zapatitos. Esta especie vive desde Costa Rica hasta Ecuador, incluida Colombia."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es la flor nacional de Colombia?",
+   [
+    "La rosa",
+    "La Cattleya trianae o flor de mayo",
+    "El girasol",
+    "La Dracula"
+   ],
+   1,
+   "Fue escogida como flor nacional en 1936."
+  ],
+  [
+   "¿Qué país tiene más especies de orquídeas en el mundo?",
+   [
+    "Colombia",
+    "Japón",
+    "Egipto",
+    "Islandia"
+   ],
+   0,
+   "Colombia tiene más de 4.000 especies de orquídeas, y muchas solo existen aquí."
+  ],
+  [
+   "¿Qué le pasó al Odontoglossum crispum en el siglo XIX?",
+   [
+    "Se descubrió en la Luna",
+    "Se convirtió en flor nacional",
+    "Se arrancaron tantas plantas que se volvió rara",
+    "Se usó para hacer papel"
+   ],
+   2,
+   "La recolección para coleccionistas europeos fue excesiva; hoy es importante cultivarlas sin sacarlas del bosque."
+  ],
+  [
+   "¿Cómo ayudan los insectos a las orquídeas zapatito?",
+   [
+    "Se comen sus hojas",
+    "Les dan sombra",
+    "Riegan las flores",
+    "Al salir del labio se llevan el polen a otra flor"
+   ],
+   3,
+   "Así las orquídeas se polinizan y pueden producir semillas."
+  ]
+ ],
+ "reviewNotes": "Dos láminas botánicas en dominio público: 02 (Reichenbachia, 1888; pintor Henry George Moon, †1905) y 06 (Bateman, Monograph of Odontoglossum; Walter Hood Fitch, †1892). 05: al fondo se ve borrosa la mano de una persona (no identificable)."
+}

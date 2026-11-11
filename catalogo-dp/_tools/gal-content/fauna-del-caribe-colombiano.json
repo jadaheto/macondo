@@ -1,0 +1,115 @@
+{
+ "title": "Fauna del Caribe colombiano",
+ "description": "Conoce animales que viven en las costas, ciénagas, manglares y bosques del Caribe colombiano, desde la iguana y la hicotea hasta el manatí y el tití cabeciblanco.",
+ "gradeMin": 1,
+ "gradeMax": 6,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Región Caribe",
+  "Biodiversidad"
+ ],
+ "cover": 7,
+ "items": [
+  [
+   "Iguana de color verde grisáceo con patas anaranjadas y una larga cola con anillos negros, tendida sobre la arena.",
+   "La iguana verde (Iguana iguana) es un reptil herbívoro muy común en el Caribe colombiano. Contando su larga cola puede medir más de un metro y medio. Esta foto se tomó en Santa Marta."
+  ],
+  [
+   "Perezoso de pelaje marrón grisáceo agarrado a unas ramas entre hojas verdes.",
+   "El perezoso de tres dedos (Bradypus variegatus), también llamado perico ligero, vive en los árboles y se mueve muy despacio para ahorrar energía. Se alimenta de hojas. Esta foto se tomó en el Parque Centenario de Cartagena."
+  ],
+  [
+   "Babilla de color café sobre barro seco, con la cola estirada y la cabeza apuntando hacia la derecha.",
+   "La babilla (Caiman crocodilus) es un caimán pequeño que vive en ciénagas, caños y lagunas. Entre los ojos tiene un pliegue óseo que parece el puente de unas gafas. Esta foto se tomó en el Parque Nacional Natural Tayrona."
+  ],
+  [
+   "Cocodrilo flotando en un río, con solo la cabeza y el lomo fuera del agua.",
+   "El caimán aguja o cocodrilo americano (Crocodylus acutus) habita costas, manglares y desembocaduras de ríos, también en el Caribe colombiano. Es una especie protegida. Esta foto se tomó en Costa Rica."
+  ],
+  [
+   "Manatí adulto de color gris nadando bajo el agua azul junto a su cría.",
+   "El manatí antillano (Trichechus manatus) es un mamífero acuático herbívoro que vive en ríos, ciénagas y costas del Caribe. La cría permanece mucho tiempo junto a su madre. En Colombia está amenazado por la caza y la pérdida de su hábitat."
+  ],
+  [
+   "Mono de pelaje rojizo sentado en la rama de un árbol, rodeado de hojas verdes.",
+   "El mono aullador rojo (Alouatta seniculus) se alimenta de hojas y frutos. Los machos lanzan aullidos muy potentes, que se oyen a gran distancia, para marcar su territorio."
+  ],
+  [
+   "Mono pequeño con un copete de pelo blanco en la cabeza, cara negra y cola larga, sentado sobre un tronco.",
+   "El tití cabeciblanco (Saguinus oedipus) solo vive en el noroeste de Colombia, incluidos bosques de Sucre, Córdoba y Bolívar. Está en peligro crítico de extinción por la pérdida de sus bosques y el tráfico ilegal de mascotas."
+  ],
+  [
+   "Tortuga de agua dulce de caparazón oscuro asomando la cabeza en agua turbia.",
+   "La hicotea (Trachemys callirostris) es una tortuga de agua dulce de las ciénagas y caños del Caribe colombiano. Su caza para el consumo, sobre todo en Semana Santa, ha reducido sus poblaciones."
+  ],
+  [
+   "Tortuga marina nadando sobre un fondo de arena clara con pasto marino.",
+   "La tortuga verde (Chelonia mydas) se alimenta de pastos marinos. Las hembras regresan a las playas para poner sus huevos en la arena. Esta foto se tomó en las Bahamas, en el mar Caribe."
+  ],
+  [
+   "Flamenco de plumaje rosado parado en agua poco profunda, con el cuello doblado hacia el lomo.",
+   "El flamenco americano (Phoenicopterus ruber) obtiene su color rosado de los pequeños crustáceos y algas que come. En Colombia vive en lagunas costeras de La Guajira; esta foto se tomó en Camarones, cerca del Santuario de Fauna y Flora Los Flamencos."
+  ],
+  [
+   "Pelícano de plumaje gris y cabeza blanca posado sobre un poste de madera en el mar.",
+   "El pelícano pardo (Pelecanus occidentalis) se lanza en picada al mar para atrapar peces con la bolsa de su pico. Esta foto se tomó en Tolú, Sucre, en el golfo de Morrosquillo."
+  ],
+  [
+   "Ocelote de pelaje amarillento con manchas negras, de pie sobre una rama gruesa en el bosque.",
+   "El ocelote o tigrillo (Leopardus pardalis) es un felino de pelaje amarillento con manchas y rayas oscuras. Caza de noche pequeños mamíferos, aves y reptiles. Esta foto se tomó en Brasil."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué el flamenco americano tiene color rosado?",
+   [
+    "Por los crustáceos y algas que come",
+    "Porque se baña en barro rojo",
+    "Porque toma mucho sol"
+   ],
+   0,
+   "Su color viene de los pequeños crustáceos y algas de su alimento."
+  ],
+  [
+   "¿En qué lugar de Sucre se tomó la foto del pelícano pardo?",
+   [
+    "Tolú, en el golfo de Morrosquillo",
+    "Sincelejo, en la plaza principal",
+    "Sampués, en un taller de artesanías"
+   ],
+   0,
+   "La foto se tomó en Tolú, en el golfo de Morrosquillo."
+  ],
+  [
+   "¿Qué tipo de alimentación tiene el manatí antillano?",
+   [
+    "Es herbívoro: come plantas",
+    "Come peces grandes",
+    "Come insectos"
+   ],
+   0,
+   "El manatí es un mamífero acuático herbívoro."
+  ],
+  [
+   "¿Para qué aúllan los machos del mono aullador rojo?",
+   [
+    "Para marcar su territorio",
+    "Para llamar a la lluvia",
+    "Porque tienen frío"
+   ],
+   0,
+   "Sus aullidos potentes marcan su territorio."
+  ],
+  [
+   "¿Dónde vive el tití cabeciblanco?",
+   [
+    "Solo en el noroeste de Colombia",
+    "En toda América del Sur",
+    "En las islas del Pacífico"
+   ],
+   0,
+   "Es una especie que solo vive en el noroeste de Colombia."
+  ]
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "title": "Los cinco sentidos",
+ "description": "Vista, oído, olfato, gusto y tacto: cómo conocemos el mundo con nuestro cuerpo, y algunos animales con sentidos asombrosos.",
+ "gradeMin": 1,
+ "gradeMax": 3,
+ "categories": [
+  "Ciencias naturales",
+  "Cuerpo humano",
+  "Animales"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Primer plano de un ojo humano con el iris de colores y la pupila negra en el centro.",
+   "Con los ojos vemos colores, formas y movimientos. La pupila, el círculo negro del centro, se hace grande cuando hay poca luz y pequeña cuando hay mucha. El iris, la parte de color, es diferente en cada persona."
+  ],
+  [
+   "Dibujo en español de las partes del oído: la oreja, el conducto, el tímpano y el caracol.",
+   "Con los oídos escuchamos. El sonido entra por la oreja, hace vibrar el tímpano y llega a una parte en forma de caracol que le avisa al cerebro. ¡El oído también nos ayuda a mantener el equilibrio!"
+  ],
+  [
+   "Primer plano de la nariz negra y húmeda de un perro.",
+   "Con la nariz olemos. El perro tiene un olfato muchísimo más fino que el nuestro: puede encontrar cosas escondidas solo por su olor."
+  ],
+  [
+   "Una lengua pintada de azul que deja ver muchos puntitos llamados papilas.",
+   "Con la lengua sentimos los sabores: dulce, salado, ácido, amargo y umami. Los puntitos de la lengua se llaman papilas y en ellas están los botones gustativos. Esta lengua se pintó de azul para que se vean mejor."
+  ],
+  [
+   "Un dedo tocando los puntos en relieve de una hoja escrita en braille.",
+   "Con la piel sentimos si algo es suave, áspero, frío o caliente. Las personas ciegas pueden leer con la punta de los dedos usando el braille, un sistema de puntos en relieve."
+  ],
+  [
+   "Un búho café de plumas rayadas y ojos amarillos posado en una rama.",
+   "Los búhos tienen ojos enormes para ver de noche. No pueden mover los ojos, así que giran la cabeza para mirar a los lados."
+  ],
+  [
+   "Un zorro pequeño de pelaje claro con orejas enormes y puntiagudas.",
+   "El zorro del desierto, o fénec, tiene orejas gigantes: con ellas escucha a los insectos que caminan bajo la arena y además se refresca del calor."
+  ],
+  [
+   "Primer plano de la cara de un gato atigrado con bigotes largos y ojos verdes.",
+   "Los bigotes del gato son muy sensibles: le sirven para medir si cabe por un hueco y para sentir lo que tiene cerca en la oscuridad."
+  ],
+  [
+   "Una serpiente verde y delgada sacando su lengua bífida, partida en dos.",
+   "Las serpientes huelen con la lengua: la sacan para atrapar olores del aire y los llevan a un órgano especial en la boca. Por eso la mueven tanto."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Con qué sentido conocemos los sabores?",
+   [
+    "Con la vista",
+    "Con el gusto",
+    "Con el oído",
+    "Con el tacto"
+   ],
+   1,
+   "Con la lengua sentimos los sabores dulce, salado, ácido, amargo y umami."
+  ],
+  [
+   "¿Cómo leen las personas ciegas usando el braille?",
+   [
+    "Con la punta de los dedos",
+    "Con la nariz",
+    "Con los oídos",
+    "Con los pies"
+   ],
+   0,
+   "El braille es un sistema de puntos en relieve que se lee con el tacto."
+  ],
+  [
+   "¿Para qué usan las serpientes su lengua?",
+   [
+    "Para cantar",
+    "Para nadar",
+    "Para oler",
+    "Para ver"
+   ],
+   2,
+   "Atrapan olores del aire con la lengua."
+  ],
+  [
+   "¿Qué parte del ojo se hace grande cuando hay poca luz?",
+   [
+    "Las pestañas",
+    "La ceja",
+    "El párpado",
+    "La pupila"
+   ],
+   3,
+   "La pupila se abre para dejar entrar más luz."
+  ]
+ ],
+ "reviewNotes": "Sin personas identificables: solo primeros planos de un ojo, una lengua y un dedo."
+}

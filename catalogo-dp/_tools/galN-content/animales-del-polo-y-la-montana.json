@@ -1,0 +1,97 @@
+{
+ "title": "Animales del polo y la montaña",
+ "description": "Osos polares, pingüinos, morsas, zorros árticos, renos, búhos nivales, leopardos de las nieves, vicuñas e íbices: animales que viven en los lugares más fríos del planeta y cómo se protegen del frío.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Ecosistemas"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Una osa polar blanca y su cría caminando sobre la nieve.",
+   "El oso polar vive en el Ártico, cerca del polo norte. Su piel es negra y su pelo es transparente y hueco, por eso se ve blanco y guarda muy bien el calor. Aquí una mamá camina con su cría en Svalbard, Noruega."
+  ],
+  [
+   "Un pingüino emperador saltando fuera del agua hacia el hielo.",
+   "El pingüino emperador vive en la Antártida, cerca del polo sur. No puede volar, pero es un gran nadador. Sale del agua de un salto para subirse al hielo."
+  ],
+  [
+   "Primer plano de una morsa café con dos colmillos largos y bigotes.",
+   "Las morsas tienen colmillos largos que usan para subirse al hielo y defenderse. Bajo la piel tienen una gruesa capa de grasa que las protege del agua helada."
+  ],
+  [
+   "Un zorro ártico de pelaje blanco y espeso sentado en la nieve.",
+   "El zorro ártico cambia de color: en invierno su pelaje es blanco para esconderse en la nieve, y en verano se vuelve café grisáceo. Tiene orejas pequeñas para no perder calor."
+  ],
+  [
+   "Un reno con grandes cuernos caminando por un terreno de montaña.",
+   "Los renos viven en las tierras frías del norte. Tanto los machos como las hembras tienen cuernos. Sus pezuñas anchas les ayudan a caminar sobre la nieve sin hundirse."
+  ],
+  [
+   "Un búho nival blanco con algunas manchas negras y ojos amarillos.",
+   "El búho nival tiene plumas blancas hasta en las patas, como si llevara botas. Vive en la tundra del Ártico y, a diferencia de muchos búhos, caza también de día."
+  ],
+  [
+   "Un leopardo de las nieves de pelaje gris claro con manchas oscuras y cola larga y gruesa.",
+   "El leopardo de las nieves vive en las montañas de Asia central, como el Himalaya. Usa su cola larga y gruesa como bufanda para taparse la nariz cuando duerme."
+  ],
+  [
+   "Tres vicuñas de pelaje café claro y vientre blanco pastando en un prado de montaña.",
+   "La vicuña vive en los Andes de Perú, Bolivia, Chile y Argentina, a más de 4.000 metros de altura. Su lana es una de las más finas del mundo. Es pariente de la llama y la alpaca."
+  ],
+  [
+   "Una cría de íbice de pelaje café en una ladera nevada.",
+   "El íbice es una cabra salvaje de los Alpes, en Europa. Trepa por paredes de roca casi verticales con sus pezuñas especiales. Las crías aprenden a trepar pocas horas después de nacer."
+  ]
+ ],
+ "questions": [
+  [
+   "¿De qué color es la piel del oso polar debajo de su pelo?",
+   [
+    "Blanca",
+    "Negra",
+    "Rosada",
+    "Amarilla"
+   ],
+   1,
+   "Su piel negra absorbe el calor y su pelo transparente se ve blanco."
+  ],
+  [
+   "¿Dónde vive el pingüino emperador?",
+   [
+    "En la Antártida, cerca del polo sur",
+    "En el Ártico, con los osos polares",
+    "En la selva amazónica",
+    "En el desierto de La Guajira"
+   ],
+   0,
+   "Los pingüinos viven en el hemisferio sur; no hay pingüinos en el polo norte."
+  ],
+  [
+   "¿Para qué usa el leopardo de las nieves su cola larga y gruesa?",
+   [
+    "Para nadar",
+    "Para cavar",
+    "Como bufanda para protegerse del frío",
+    "Para atrapar peces"
+   ],
+   2,
+   "Se tapa la nariz con la cola cuando duerme."
+  ],
+  [
+   "¿Por qué el zorro ártico es blanco en invierno?",
+   [
+    "Porque está enfermo",
+    "Porque se pinta",
+    "Porque come nieve",
+    "Para esconderse en la nieve"
+   ],
+   3,
+   "Su color le ayuda a camuflarse."
+  ]
+ ],
+ "reviewNotes": null
+}

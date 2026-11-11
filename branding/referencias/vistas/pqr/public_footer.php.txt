@@ -1,0 +1,11 @@
+<script src="<?=base_url('assets/js/funciones/jquery-3.6.4.min.js')?>"></script>
+<script src="<?=base_url('dist/jquery.validate.min.js')?>"></script>
+<script src="<?=base_url('assets/libs/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
+<script src="<?=base_url('assets/libs/sweetalert2/sweetalert2.min.js')?>"></script>
+<script src="<?=base_url('assets/select2/dist/js/select2.min.js')?>"></script>
+<script src="<?=base_url('assets/libs/cleave.js/cleave.min.js')?>"></script>
+<script src="<?=base_url('assets/libs/flatpickr/flatpickr.min.js')?>"></script>
+<script src="<?=base_url('assets/libs/flatpickr/l10n/es.js')?>"></script>
+<script src="<?=base_url('assets/js/pqr-validation.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-validation.js')?>"></script>
+<script src="<?=base_url('assets/js/pqr-components.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-components.js')?>"></script>
+</body></html>

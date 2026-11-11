@@ -1,0 +1,107 @@
+{
+ "title": "Mapas históricos de América y Colombia",
+ "description": "Cómo se dibujó el Nuevo Mundo: desde el primer mapa con América (1500) y el que le dio su nombre (1507), hasta los mapas de la Gran Colombia, del Estado de Bolívar —al que pertenecía Sucre— y de la Colombia de 1886.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Geografía",
+  "Cartografía"
+ ],
+ "cover": 3,
+ "items": [
+  [
+   "Mapa antiguo sobre pergamino de bordes irregulares, con costas dibujadas, rosas de los vientos, banderas y figuras; a la izquierda, tierras pintadas de verde.",
+   "El mapa de Juan de la Cosa (1500) es el mapa más antiguo que se conserva en el que aparece el Nuevo Mundo, pintado en verde a la izquierda. Su autor navegó con Colón y en 1501 recorrió la costa del Caribe colombiano con Rodrigo de Bastidas."
+  ],
+  [
+   "Fragmento de un mapa antiguo en pergamino amarillento, con costas, barcos, animales y rosas de los vientos dibujados.",
+   "Mapa del almirante otomano Piri Reis, dibujado en 1513. Solo se conserva un fragmento, que muestra las costas atlánticas de Europa, África y Sudamérica; se guarda en el palacio de Topkapi, en Estambul."
+  ],
+  [
+   "Gran mapamundi antiguo formado por doce hojas, con el mundo dibujado en forma de corazón ensanchado y retratos en la parte superior.",
+   "El mapa de Martín Waldseemüller (1507) fue el primero en usar el nombre \"America\", en honor del navegante Américo Vespucio. Representa el Nuevo Mundo como un continente separado de Asia."
+  ],
+  [
+   "Mapamundi antiguo en blanco y negro formado por varias hojas, con cuadros de texto, adornos y una cuadrícula de meridianos y paralelos.",
+   "Gerardus Mercator publicó en 1569 un mapamundi con una proyección que conserva los ángulos, muy útil para navegar con brújula. A cambio, agranda las tierras cercanas a los polos: por eso Groenlandia parece enorme."
+  ],
+  [
+   "Mapa antiguo coloreado de América, de forma ovalada, con barcos en el mar y un gran recuadro decorado con el título en latín.",
+   "\"Americae sive novi orbis nova descriptio\", de Abraham Ortelius (1570), apareció en el Theatrum Orbis Terrarum, considerado el primer atlas moderno. Compara cómo se imaginaba América hace más de 450 años con un mapa actual."
+  ],
+  [
+   "Plano antiguo en blanco y negro de una bahía con islas, costas detalladas, una rosa de los vientos y un escudo decorado en la parte superior.",
+   "Plano de la bahía de Cartagena de Indias levantado hacia 1735 por los marinos Jorge Juan y Antonio de Ulloa. Muestra la bahía, sus islas y los fuertes que defendían la entrada de Bocachica."
+  ],
+  [
+   "Mapa del siglo XIX del norte de Sudamérica con departamentos pintados de distintos colores: rosado, verde, amarillo y anaranjado.",
+   "Mapa de la República de Colombia —hoy llamada Gran Colombia— dividida en 12 departamentos en 1824, del atlas de Agustín Codazzi. Incluía los territorios actuales de Colombia, Venezuela, Ecuador y Panamá."
+  ],
+  [
+   "Mapa antiguo amarillento de un territorio alargado de norte a sur junto al mar Caribe, con el título Bolívar en la parte superior.",
+   "Carta del Estado Soberano de Bolívar (1865). En esa época el territorio del actual departamento de Sucre hacía parte del Estado de Bolívar; Sucre se creó como departamento en 1966."
+  ],
+  [
+   "Mapa de Colombia y Panamá con las divisiones políticas coloreadas y un cartel decorado con el título en la esquina inferior derecha.",
+   "Mapa de la división política de Colombia en 1886, del Atlas geográfico e histórico de 1890. Con la Constitución de 1886 los antiguos estados soberanos pasaron a llamarse departamentos."
+  ],
+  [
+   "Mapa de Colombia con grandes zonas pintadas de rosado, amarillo y verde que muestran las cuencas de los ríos, y las cordilleras dibujadas.",
+   "Carta de orografía e hidrografía de Colombia (1890): muestra las tres cordilleras de los Andes y las grandes cuencas de los ríos, como las del Magdalena, el Cauca, el Orinoco y el Amazonas."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué mapa fue el primero en usar el nombre \"America\"?",
+   [
+    "El de Martín Waldseemüller (1507)",
+    "El de Mercator (1569)",
+    "El de Piri Reis (1513)"
+   ],
+   0,
+   "Waldseemüller usó el nombre \"America\" en 1507, en honor de Américo Vespucio."
+  ],
+  [
+   "¿Por qué Groenlandia se ve tan grande en la proyección de Mercator?",
+   [
+    "Porque esa proyección agranda las tierras cercanas a los polos",
+    "Porque Groenlandia es más grande que África",
+    "Porque Mercator nunca vio Groenlandia"
+   ],
+   0,
+   "La proyección conserva los ángulos pero agranda las zonas cercanas a los polos."
+  ],
+  [
+   "¿A qué estado pertenecía el territorio de Sucre en 1865?",
+   [
+    "Al Estado Soberano de Bolívar",
+    "Al Estado de Antioquia",
+    "Al Estado del Cauca"
+   ],
+   0,
+   "El actual Sucre hacía parte del Estado de Bolívar."
+  ],
+  [
+   "¿Qué países actuales formaban la Gran Colombia en 1824?",
+   [
+    "Colombia, Venezuela, Ecuador y Panamá",
+    "Colombia, Perú y Bolivia",
+    "Colombia, Brasil y Venezuela"
+   ],
+   0,
+   "La Gran Colombia incluía los territorios de Colombia, Venezuela, Ecuador y Panamá."
+  ],
+  [
+   "¿Qué cambió con la Constitución de 1886?",
+   [
+    "Los estados soberanos pasaron a ser departamentos",
+    "Colombia pasó a llamarse Nueva Granada",
+    "Se creó el departamento de Sucre"
+   ],
+   0,
+   "Los estados soberanos se convirtieron en departamentos."
+  ]
+ ]
+}

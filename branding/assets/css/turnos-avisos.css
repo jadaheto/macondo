@@ -1,0 +1,35 @@
+.turnos-avisos {
+  position: fixed;
+  inset-inline-end: 12px;
+  width: min(360px, calc(100vw - 24px));
+  max-width: calc(100vw - 24px);
+  z-index: 1040;
+  pointer-events: none;
+}
+.turnos-avisos .turnos-aviso {
+  width: 100%;
+  max-width: 100%;
+  pointer-events: auto;
+  color: var(--vz-body-color, #212529);
+  background: var(--vz-secondary-bg, #fff);
+  border: 1px solid var(--vz-border-color, #dee2e6);
+  border-inline-start: 4px solid var(--vz-success, #0ab39c);
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(15, 40, 65, .14);
+  overflow-wrap: anywhere;
+}
+.turnos-avisos .turnos-aviso--info { border-inline-start-color: var(--vz-info, #299cdb); }
+.turnos-avisos .toast-header {
+  color: inherit;
+  background: transparent;
+  border-bottom-color: var(--vz-border-color, #dee2e6);
+  gap: 8px;
+  padding: 8px 12px;
+}
+.turnos-avisos .toast-header i { font-size: 20px; color: var(--vz-success, #0ab39c); }
+.turnos-avisos .turnos-aviso--info .toast-header i { color: var(--vz-info, #299cdb); }
+.turnos-avisos .toast-body { padding: 10px 12px; font-size: 14px; line-height: 1.45; }
+.turnos-avisos .btn-close { flex-shrink: 0; padding: 12px; margin: -4px; }
+@media (prefers-reduced-motion: reduce) {
+  .turnos-avisos .toast { transition: none; }
+}

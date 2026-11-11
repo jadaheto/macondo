@@ -1,0 +1,3321 @@
+[
+  {
+    "id": "b13-renacuajo-trivia",
+    "kind": "trivia",
+    "title": "Rinrín Renacuajo sale de paseo",
+    "source": "«El renacuajo paseador» y «La pobre viejecita», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "El renacuajo paseador y La pobre viejecita",
+      "creator": "Rafael Pombo"
+    },
+    "text": "El hijo de rana, Rinrín renacuajo / Salió esta mañana muy tieso y muy majo / Con pantalón corto, corbata a la moda / Sombrero encintado y chupa de boda. / —¡Muchacho, no salgas!— le grita mamá / pero él hace un gesto y orondo se va.",
+    "questions": [
+      {
+        "prompt": "¿De quién es hijo Rinrín Renacuajo?",
+        "options": [
+          "De una rana",
+          "De un ratón",
+          "De una gata"
+        ],
+        "answer": 0,
+        "explanation": "El primer verso dice «El hijo de rana, Rinrín renacuajo»."
+      },
+      {
+        "prompt": "¿Qué le grita su mamá?",
+        "options": [
+          "«¡Trae la guitarra!»",
+          "«¡Muchacho, no salgas!»",
+          "«¡Ponte el sombrero!»"
+        ],
+        "answer": 1,
+        "explanation": "La mamá le pide que no salga, pero él no le hace caso."
+      },
+      {
+        "prompt": "¿Cómo iba vestido Rinrín?",
+        "options": [
+          "Con pijama y pantuflas",
+          "Con ropa de baño",
+          "Con pantalón corto, corbata y sombrero"
+        ],
+        "answer": 2,
+        "explanation": "El poema describe su ropa elegante: pantalón corto, corbata a la moda y sombrero encintado."
+      }
+    ]
+  },
+  {
+    "id": "b13-renacuajo-secuencia",
+    "kind": "sequence",
+    "title": "Ordena el paseo de Rinrín",
+    "source": "«El renacuajo paseador» y «La pobre viejecita», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "El renacuajo paseador y La pobre viejecita",
+      "creator": "Rafael Pombo"
+    },
+    "text": "Pon en orden lo que pasa en «El renacuajo paseador».",
+    "steps": [
+      "Rinrín sale de paseo aunque su mamá le dice que no salga.",
+      "Invita al ratón vecino a visitar a doña Ratona.",
+      "Doña Ratona los recibe y le pide a Rinrín que cante.",
+      "Llegan la gata y sus gatitos, y se acaba la fiesta.",
+      "Rinrín escapa saltando y un pato tragón se lo come."
+    ]
+  },
+  {
+    "id": "b13-renacuajo-personajes",
+    "kind": "match",
+    "title": "Personajes del renacuajo",
+    "source": "«El renacuajo paseador» y «La pobre viejecita», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "El renacuajo paseador y La pobre viejecita",
+      "creator": "Rafael Pombo"
+    },
+    "text": "Relaciona cada personaje de «El renacuajo paseador» con lo que hace en el poema.",
+    "pairs": [
+      {
+        "left": "Rinrín Renacuajo",
+        "right": "Sale de paseo muy elegante sin hacer caso a su mamá"
+      },
+      {
+        "left": "El ratón vecino",
+        "right": "Acompaña a Rinrín a visitar a doña Ratona"
+      },
+      {
+        "left": "Doña Ratona",
+        "right": "Estaba hilando algodón y recibe a los visitantes"
+      },
+      {
+        "left": "Doña Gata",
+        "right": "Llega con sus gatitos y termina con la fiesta"
+      },
+      {
+        "left": "Mamá Ranita",
+        "right": "Al final se queda solita"
+      }
+    ]
+  },
+  {
+    "id": "b13-viejecita-trivia",
+    "kind": "trivia",
+    "title": "La pobre viejecita",
+    "source": "«El renacuajo paseador» y «La pobre viejecita», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "El renacuajo paseador y La pobre viejecita",
+      "creator": "Rafael Pombo"
+    },
+    "text": "Érase una viejecita / Sin nadita que comer / Sino carnes, frutas, dulces, / Tortas, huevos, pan y pez. / Bebía caldo, chocolate, / Leche, vino, té y café, / Y la pobre no encontraba / Qué comer ni qué beber. / Y esta vieja no tenía / Ni un ranchito en que vivir / Fuera de una casa grande / Con su huerta y su jardín.",
+    "questions": [
+      {
+        "prompt": "¿Qué comía la viejecita?",
+        "options": [
+          "Nada en absoluto",
+          "Solo pan duro",
+          "Carnes, frutas, dulces, tortas, huevos, pan y pez"
+        ],
+        "answer": 2,
+        "explanation": "El poema dice «sin nadita que comer», pero luego enumera muchísimos alimentos."
+      },
+      {
+        "prompt": "¿Dónde vivía?",
+        "options": [
+          "En una casa grande con huerta y jardín",
+          "En un ranchito pequeño",
+          "Debajo de un puente"
+        ],
+        "answer": 0,
+        "explanation": "Dice que no tenía «ni un ranchito», ¡fuera de una casa grande con huerta y jardín!"
+      },
+      {
+        "prompt": "¿Por qué el poema es chistoso?",
+        "options": [
+          "Porque la viejecita era un gato",
+          "Porque dice que era pobre, pero en realidad lo tenía todo",
+          "Porque vivía en el mar"
+        ],
+        "answer": 1,
+        "explanation": "Pombo juega con lo contrario: la llama «pobre» y muestra que era muy rica."
+      }
+    ]
+  },
+  {
+    "id": "b13-viejecita-tenia",
+    "kind": "match",
+    "title": "¿Qué tenía la viejecita?",
+    "source": "«El renacuajo paseador» y «La pobre viejecita», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "El renacuajo paseador y La pobre viejecita",
+      "creator": "Rafael Pombo"
+    },
+    "text": "En «La pobre viejecita», Pombo dice que a la viejecita le faltaba todo, pero luego cuenta lo que sí tenía. Relaciona lo que dice que NO tenía con lo que de verdad tenía.",
+    "pairs": [
+      {
+        "left": "Nadita que comer",
+        "right": "Carnes, frutas, dulces, tortas, huevos, pan y pez"
+      },
+      {
+        "left": "Ni un ranchito en que vivir",
+        "right": "Una casa grande con su huerta y su jardín"
+      },
+      {
+        "left": "Nadie la cuidaba",
+        "right": "Andrés, Juan, Gil, ocho criados y dos pajes"
+      },
+      {
+        "left": "Nunca tuvo en qué sentarse",
+        "right": "Sillas y sofás con banquitos y cojines"
+      },
+      {
+        "left": "No tenía que vestir",
+        "right": "Trajes de mil cortes y de telas mil y mil"
+      }
+    ]
+  },
+  {
+    "id": "b13-cigarra-hormiga-trivia",
+    "kind": "trivia",
+    "title": "La Cigarra y la Hormiga",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Cantando la Cigarra, / Pasó el verano entero / Sin hacer provisiones / Allá para el invierno. […] La dijo:—Doña Hormiga, […] / Prestad alguna cosa / Con que viva este invierno / Esta triste Cigarra […] —¡Yo prestar lo que gano / Con un trabajo inmenso! / Díme pues, holgazana, / ¿Qué has hecho en el buen tiempo?",
+    "questions": [
+      {
+        "prompt": "¿Qué hizo la Cigarra durante el verano?",
+        "options": [
+          "Cantar",
+          "Guardar trigo",
+          "Construir una casa"
+        ],
+        "answer": 0,
+        "explanation": "La fábula empieza: «Cantando la Cigarra, pasó el verano entero»."
+      },
+      {
+        "prompt": "¿Qué le pidió la Cigarra a la Hormiga?",
+        "options": [
+          "Que cantara con ella",
+          "Que le prestara algo para vivir el invierno",
+          "Que le enseñara a bailar"
+        ],
+        "answer": 1,
+        "explanation": "Le pide «alguna cosa con que viva este invierno»."
+      },
+      {
+        "prompt": "¿Qué respondió la Hormiga?",
+        "options": [
+          "Le dio todo su granero",
+          "Se fue a cantar con ella",
+          "No quiso prestarle y le preguntó qué hizo en el buen tiempo"
+        ],
+        "answer": 2,
+        "explanation": "La Hormiga se niega porque ella trabajó mucho para guardar su comida."
+      }
+    ]
+  },
+  {
+    "id": "b13-cuervo-zorro-trivia",
+    "kind": "trivia",
+    "title": "El Cuervo y el Zorro",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "En la rama de un árbol, / Bien ufano y contento, / Con un queso en el pico / Estaba el señor Cuervo. […] Al oír un discurso / Tan dulce y halagüeño, / De vanidad llevado / Quiso cantar el Cuervo. / Abrió su negro pico, / Dejó caer el queso. […] Quien oye aduladores, / Nunca espere otro premio.",
+    "questions": [
+      {
+        "prompt": "¿Qué tenía el Cuervo en el pico?",
+        "options": [
+          "Una uva",
+          "Un queso",
+          "Un gusano"
+        ],
+        "answer": 1,
+        "explanation": "El Cuervo estaba en la rama «con un queso en el pico»."
+      },
+      {
+        "prompt": "¿Por qué se le cayó el queso al Cuervo?",
+        "options": [
+          "Porque abrió el pico para cantar",
+          "Porque sopló el viento",
+          "Porque el Zorro sacudió el árbol"
+        ],
+        "answer": 0,
+        "explanation": "Las alabanzas del Zorro lo llenaron de vanidad y quiso cantar."
+      },
+      {
+        "prompt": "¿Qué nos enseña la fábula?",
+        "options": [
+          "Que hay que cantar siempre",
+          "Que los quesos son peligrosos",
+          "Que debemos desconfiar de quien nos alaba para sacar provecho"
+        ],
+        "answer": 2,
+        "explanation": "La moraleja dice: «Quien oye aduladores, nunca espere otro premio»."
+      }
+    ]
+  },
+  {
+    "id": "b13-zapaticos-trivia",
+    "kind": "trivia",
+    "title": "Los zapaticos de rosa",
+    "source": "Poema «Los zapaticos de rosa», de La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Los zapaticos de rosa",
+      "creator": "José Martí"
+    },
+    "text": "Hay sol bueno y mar de espuma, / Y arena fina, y Pilar / Quiere salir a estrenar / Su sombrerito de pluma. […] «¡No te manches en la arena / Los zapaticos de rosa!» […] «Mira: ¡la mano le abrasa, / Y tiene los pies tan fríos! / ¡Oh, toma, toma los míos: / Yo tengo más en mi casa!»",
+    "questions": [
+      {
+        "prompt": "¿Cómo se llama la niña del poema?",
+        "options": [
+          "Magdalena",
+          "Florinda",
+          "Pilar"
+        ],
+        "answer": 2,
+        "explanation": "El poema presenta a Pilar, que quiere estrenar su sombrerito de pluma."
+      },
+      {
+        "prompt": "¿Qué le pide la madre a Pilar?",
+        "options": [
+          "Que no se manche en la arena los zapaticos de rosa",
+          "Que no se quite el sombrero",
+          "Que vuelva antes del almuerzo"
+        ],
+        "answer": 0,
+        "explanation": "La madre le dice: «¡No te manches en la arena los zapaticos de rosa!»."
+      },
+      {
+        "prompt": "¿Por qué Pilar regala sus zapaticos?",
+        "options": [
+          "Porque le quedaban pequeños",
+          "Porque la otra niña tenía los pies fríos",
+          "Porque se le mojaron"
+        ],
+        "answer": 1,
+        "explanation": "Pilar ve que la niña tiene los pies fríos y le da los suyos: «Yo tengo más en mi casa»."
+      }
+    ]
+  },
+  {
+    "id": "b13-zapaticos-secuencia",
+    "kind": "sequence",
+    "title": "Ordena el día de Pilar",
+    "source": "La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Ordena lo que pasa en el poema «Los zapaticos de rosa».",
+    "steps": [
+      "Pilar sale a la playa con su madre y sus zapaticos nuevos.",
+      "Pilar pide ir sola a la barranca, donde se sientan los pobres y los viejos.",
+      "Al atardecer, Pilar vuelve con la cabecita baja y sin zapatos.",
+      "Una mujer que llora cuenta que Pilar le dio los zapaticos a su niña enferma.",
+      "La madre anima a Pilar a dar también su manta y su anillo."
+    ]
+  },
+  {
+    "id": "b13-zapaticos-personajes",
+    "kind": "match",
+    "title": "¿Quién es quién en la playa?",
+    "source": "La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Relaciona cada personaje de «Los zapaticos de rosa» con lo que hace en el poema.",
+    "pairs": [
+      {
+        "left": "Pilar",
+        "right": "Estrena su sombrerito de pluma y regala sus zapaticos"
+      },
+      {
+        "left": "La madre",
+        "right": "Le pide que no se manche los zapaticos y luego la anima a compartir"
+      },
+      {
+        "left": "El padre",
+        "right": "Manda el coche por si vuelven de noche"
+      },
+      {
+        "left": "La mujer que llora",
+        "right": "Trajo a su hija enferma a ver el sol y respirar aire puro"
+      },
+      {
+        "left": "La niña enferma",
+        "right": "Tenía la mano caliente y los pies fríos"
+      }
+    ]
+  },
+  {
+    "id": "b13-flamencos-trivia",
+    "kind": "trivia",
+    "title": "Las medias de los flamencos",
+    "source": "Resumen de Macondo Digital del cuento «Las medias de los flamencos», de Horacio Quiroga (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Audioresumen: Las medias de los flamencos",
+      "creator": "Macondo Digital (resumen original de demostración)"
+    },
+    "text": "En aquel tiempo los flamencos tenían las patas blancas. Estaban tristes porque no sabían cómo adornarse, y sentían envidia de las víboras de coral. Un tatú, para burlarse, les dijo que su cuñada, la lechuza, tenía esas medias. La lechuza les entregó unas medias que en realidad eran cueros de víboras de coral, y les advirtió que debían bailar toda la noche sin detenerse.",
+    "questions": [
+      {
+        "prompt": "¿De qué color tenían las patas los flamencos al principio?",
+        "options": [
+          "Rojas",
+          "Blancas",
+          "Negras"
+        ],
+        "answer": 1,
+        "explanation": "El resumen dice que «en aquel tiempo los flamencos tenían las patas blancas»."
+      },
+      {
+        "prompt": "¿Quién les dio las medias a los flamencos?",
+        "options": [
+          "La lechuza",
+          "El tatú",
+          "Las ranas"
+        ],
+        "answer": 0,
+        "explanation": "El tatú los mandó con su cuñada, la lechuza, que les entregó las medias."
+      },
+      {
+        "prompt": "¿De qué estaban hechas las medias?",
+        "options": [
+          "De lana de oveja",
+          "De hojas de palma",
+          "De cueros de víboras de coral"
+        ],
+        "answer": 2,
+        "explanation": "Las medias eran en realidad cueros de víboras de coral, y por eso las víboras se enojaron."
+      }
+    ]
+  },
+  {
+    "id": "b13-flamencos-secuencia",
+    "kind": "sequence",
+    "title": "Ordena el baile de las víboras",
+    "source": "Resumen de Macondo Digital del cuento «Las medias de los flamencos», de Horacio Quiroga (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Las medias de los flamencos",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "Escucha el cuento «Las medias de los flamencos» y ordena lo que pasa.",
+    "steps": [
+      "Las víboras organizan un gran baile a la orilla del río.",
+      "Los flamencos buscan medias de almacén en almacén y todos se burlan de ellos.",
+      "La lechuza les da unas medias que en realidad son cueros de víboras de coral.",
+      "Un flamenco cansado se cae y las víboras descubren el engaño.",
+      "Las víboras les muerden las patas y desde entonces las tienen coloradas."
+    ]
+  },
+  {
+    "id": "b13-flamencos-personajes",
+    "kind": "match",
+    "title": "Personajes de la selva",
+    "source": "Resumen de Macondo Digital del cuento «Las medias de los flamencos», de Horacio Quiroga (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Las medias de los flamencos",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "Relaciona cada personaje de «Las medias de los flamencos» con lo que hace en el cuento.",
+    "pairs": [
+      {
+        "left": "Las víboras de coral",
+        "right": "Eran las más elegantes del baile, con gasas rojas, blancas y negras"
+      },
+      {
+        "left": "Los flamencos",
+        "right": "Tenían las patas blancas y querían adornarse"
+      },
+      {
+        "left": "El tatú",
+        "right": "Se burló de los flamencos y los mandó donde la lechuza"
+      },
+      {
+        "left": "La lechuza",
+        "right": "Les dio las medias y les dijo que bailaran sin parar"
+      },
+      {
+        "left": "Las luciérnagas",
+        "right": "Alumbraron las patas de los flamencos"
+      }
+    ]
+  },
+  {
+    "id": "b13-raton-perez-trivia",
+    "kind": "trivia",
+    "title": "El rey Buby y Ratón Pérez",
+    "source": "Ratón Pérez, cuento del P. Luis Coloma (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Ratón Pérez: cuento infantil",
+      "creator": "Luis Coloma"
+    },
+    "text": "El rey Buby, un niño rey, perdió su primer diente. Puso debajo de la almohada una carta con el diente para Ratón Pérez. Ratón Pérez llegó con sombrero de paja, lentes de oro y una cartera roja. Le metió la punta del rabo por la nariz, Buby estornudó y quedó convertido en un ratoncito. Juntos fueron a dejarle una moneda de oro a Gilito, un niño muy pobre. (Resumen del cuento.)",
+    "questions": [
+      {
+        "prompt": "¿Qué puso Buby debajo de su almohada?",
+        "options": [
+          "Su corona",
+          "Una carta con su diente",
+          "Un pedazo de queso"
+        ],
+        "answer": 1,
+        "explanation": "Como hacen todos los niños, Buby dejó la carta con el diente para Ratón Pérez."
+      },
+      {
+        "prompt": "¿Cómo se convirtió Buby en ratón?",
+        "options": [
+          "Estornudó cuando Ratón Pérez le hizo cosquillas en la nariz con el rabo",
+          "Se comió un queso mágico",
+          "Dijo unas palabras secretas"
+        ],
+        "answer": 0,
+        "explanation": "El cuento dice que, por el esfuerzo del estornudo, Buby quedó convertido en ratón."
+      },
+      {
+        "prompt": "¿A quién fueron a visitar Buby y Ratón Pérez?",
+        "options": [
+          "Al gato don Gaiferos",
+          "A la reina",
+          "A Gilito, un niño muy pobre"
+        ],
+        "answer": 2,
+        "explanation": "Ratón Pérez debía llevarle un regalo a Gilito a cambio de su diente."
+      }
+    ]
+  },
+  {
+    "id": "b13-raton-perez-secuencia",
+    "kind": "sequence",
+    "title": "Ordena la noche del rey Buby",
+    "source": "Ratón Pérez, cuento del P. Luis Coloma (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Ratón Pérez: cuento infantil",
+      "creator": "Luis Coloma"
+    },
+    "text": "Ordena lo que le pasa al rey Buby en el cuento de Ratón Pérez.",
+    "steps": [
+      "Al rey Buby le sacan un diente que se le movía.",
+      "Buby escribe una carta y la pone con el diente debajo de la almohada.",
+      "Ratón Pérez llega y, con un estornudo, convierte a Buby en ratón.",
+      "Visitan la buhardilla fría donde duermen Gilito y su madre.",
+      "Buby despierta en su cama y encuentra un regalo en lugar de la carta."
+    ]
+  },
+  {
+    "id": "b13-nunca-acabar-trivia",
+    "kind": "trivia",
+    "title": "Cuentos de nunca acabar",
+    "source": "Cuentos chilenos de nunca acabar, recopilados por Ramón A. Laval (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Cuentos chilenos de nunca acabar",
+      "creator": "Ramón A. Laval"
+    },
+    "text": "El Gato con los piés de trapo: «Est’era un gato que tenia los piés de trapo i la camisa al revés ¿queris que te lo cuente otra vez?» El Gallo pelado: «—¿Querís que te cuente el cuento del Gallo pelao? —Bueno. —Pues, pásate p’al otro lao.» (Así los contaba la mama Antuca, la viejecita que cuidaba al autor cuando era niño.)",
+    "questions": [
+      {
+        "prompt": "¿Por qué se llaman cuentos «de nunca acabar»?",
+        "options": [
+          "Porque son larguísimos",
+          "Porque terminan con una pregunta que hace empezar otra vez",
+          "Porque no tienen título"
+        ],
+        "answer": 1,
+        "explanation": "Si respondes «bueno», el cuentero vuelve a empezar, y así sin fin."
+      },
+      {
+        "prompt": "En «El Gallo pelado», ¿qué te dicen si respondes «bueno»?",
+        "options": [
+          "«Pues, pásate p’al otro lao»",
+          "«Había una vez un gallo»",
+          "«Colorín colorado»"
+        ],
+        "answer": 0,
+        "explanation": "Es un cuento de pega: en vez de contar la historia, te hacen cambiar de lado."
+      },
+      {
+        "prompt": "¿Quién le contaba estos cuentos al autor cuando era niño?",
+        "options": [
+          "Su maestro",
+          "Un gato montés",
+          "La mama Antuca"
+        ],
+        "answer": 2,
+        "explanation": "El autor recuerda a la mama Antuca, que contaba cuentos junto al brasero."
+      }
+    ]
+  },
+  {
+    "id": "b13-gallina-huevos-trivia",
+    "kind": "trivia",
+    "title": "La Gallina de los huevos de oro",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Érase una Gallina que ponía / Un huevo de oro al dueño cada día. / Aun con tanta ganancia mal contento, / Quiso el rico avariento / Descubrir de una vez la mina de oro, / Y hallar en menos tiempo más tesoro. […] / ¿Qué sucedió? que muerta la Gallina, / Perdió su huevo de oro y no halló mina.",
+    "questions": [
+      {
+        "prompt": "¿Qué ponía la Gallina cada día?",
+        "options": [
+          "Un huevo de oro",
+          "Diez huevos blancos",
+          "Una piedra preciosa"
+        ],
+        "answer": 0,
+        "explanation": "La fábula dice que ponía «un huevo de oro al dueño cada día»."
+      },
+      {
+        "prompt": "¿Por qué el dueño no estaba contento?",
+        "options": [
+          "Porque la Gallina no ponía huevos",
+          "Porque quería más tesoro en menos tiempo",
+          "Porque la Gallina cantaba de noche"
+        ],
+        "answer": 1,
+        "explanation": "Era «avariento»: quería toda la riqueza de una vez."
+      },
+      {
+        "prompt": "¿Qué le pasó al dueño al final?",
+        "options": [
+          "Encontró una mina de oro",
+          "Se volvió marqués",
+          "Perdió su huevo de oro y no halló mina"
+        ],
+        "answer": 2,
+        "explanation": "Por querer más, perdió lo que ya tenía: esa es la enseñanza contra la avaricia."
+      }
+    ]
+  },
+  {
+    "id": "b13-leon-raton-trivia",
+    "kind": "trivia",
+    "title": "El León y el Ratón",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Estaba un Ratoncillo aprisionado / En las garras de un León […] / Pide perdón llorando su insolencia; […] / Responde el rey en majestuoso tono: […] —Te perdono. / Poco después, cazando el León, tropieza / En una red oculta en la maleza; […] / El libre Ratoncillo, que lo siente, / Corriendo llega, roe diligente / Los nudos de la red […]",
+    "questions": [
+      {
+        "prompt": "¿Qué hizo el León cuando el Ratoncillo le pidió perdón?",
+        "options": [
+          "Se lo comió",
+          "Lo perdonó",
+          "Lo encerró en una jaula"
+        ],
+        "answer": 1,
+        "explanation": "El León, como un rey generoso, le dijo: «Te perdono»."
+      },
+      {
+        "prompt": "¿Qué le pasó después al León?",
+        "options": [
+          "Cayó en una red oculta",
+          "Se perdió en el desierto",
+          "Se quedó dormido"
+        ],
+        "answer": 0,
+        "explanation": "Mientras cazaba, tropezó con una red escondida en la maleza."
+      },
+      {
+        "prompt": "¿Cómo ayudó el Ratoncillo al León?",
+        "options": [
+          "Llamó a otros leones",
+          "Le llevó comida",
+          "Royó los nudos de la red"
+        ],
+        "answer": 2,
+        "explanation": "Con sus dientes rompió los nudos: hasta el más pequeño puede ayudar al más fuerte."
+      }
+    ]
+  },
+  {
+    "id": "b13-zorra-ciguena-secuencia",
+    "kind": "sequence",
+    "title": "Ordena: la Zorra y la Cigüeña",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Ordena lo que pasa en la fábula «La Zorra y la Cigüeña».",
+    "steps": [
+      "La Zorra invita a comer a la Cigüeña.",
+      "La Cigüeña no puede comer porque la comida está en una fuente plana.",
+      "La Cigüeña invita después a la Zorra.",
+      "La Zorra no puede comer porque la comida está en una redoma de cuello estrecho.",
+      "La Zorra se va avergonzada, «rabo entre piernas»."
+    ]
+  },
+  {
+    "id": "b13-fabulas-animales",
+    "kind": "match",
+    "title": "Animales de las fábulas",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "1-3",
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Relaciona cada personaje de las fábulas de Samaniego con lo que hizo.",
+    "pairs": [
+      {
+        "left": "La Cigarra",
+        "right": "Cantó todo el verano sin guardar comida"
+      },
+      {
+        "left": "La Hormiga",
+        "right": "Tenía el granero lleno y no quiso prestar"
+      },
+      {
+        "left": "El Zorro",
+        "right": "Halagó al Cuervo para quitarle el queso"
+      },
+      {
+        "left": "El Ratoncillo",
+        "right": "Royó la red y liberó al León"
+      },
+      {
+        "left": "La Lechera",
+        "right": "Soñando con lo que compraría, dejó caer el cántaro"
+      }
+    ]
+  },
+  {
+    "id": "b45-congreso-ratones-trivia",
+    "kind": "trivia",
+    "title": "El congreso de los ratones",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "[El gato Miauragato perseguía a los ratones.] En Ratópolis tuvo su congreso. / Propuso el elocuente Roequeso / Echarle un cascabel, y de esa suerte / Al ruido escaparían de la muerte. / El proyecto aprobaron uno á uno. / ¿Quién lo ha de ejecutar? eso ninguno. / —Yo soy corto de vista, yo muy viejo, / Yo gotoso, decían. […] / Proponen un proyecto sin segundo: / Lo aprueban. Hacen otro: ¡qué portento! / ¿Pero la ejecución? ahí está el cuento.",
+    "questions": [
+      {
+        "prompt": "¿Qué propuso Roequeso?",
+        "options": [
+          "Mudarse a otra ciudad",
+          "Ponerle un cascabel al gato",
+          "Hacer las paces con el gato"
+        ],
+        "answer": 1,
+        "explanation": "La idea era oír al gato venir gracias al cascabel."
+      },
+      {
+        "prompt": "¿Por qué no se cumplió el plan?",
+        "options": [
+          "Porque nadie quiso hacerlo y cada uno puso una excusa",
+          "Porque no tenían cascabel",
+          "Porque el gato se fue"
+        ],
+        "answer": 0,
+        "explanation": "Todos aprobaron la idea, pero ninguno quiso llevarla a cabo."
+      },
+      {
+        "prompt": "¿Qué critica el final de la fábula?",
+        "options": [
+          "A los gatos que cazan ratones",
+          "A quienes hablan muy bonito",
+          "A quienes proponen y aprueban ideas pero no las realizan"
+        ],
+        "answer": 2,
+        "explanation": "«¿Pero la ejecución? ahí está el cuento»: lo difícil es hacer, no solo proponer."
+      }
+    ]
+  },
+  {
+    "id": "b45-raton-corte-campo-trivia",
+    "kind": "trivia",
+    "title": "El Ratón de la corte y el del campo",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Un Ratón cortesano / Convidó con un modo muy urbano / Á un Ratón campesino. / Dióle gordo tocino, / Queso fresco de Holanda […] / Llega la despensera: / Oyen el ruido, corren, se agazapan […] —¡Esto tenemos! dijo el campesino; / Reniego yo del queso, del tocino, / Y de quien busca gustos / Entre los sobresaltos y los sustos. / Volvióse á su campaña en el instante […]",
+    "questions": [
+      {
+        "prompt": "¿Qué le ofreció el Ratón cortesano a su invitado?",
+        "options": [
+          "Agua y semillas",
+          "Tocino, queso y una despensa llena",
+          "Un paseo por el campo"
+        ],
+        "answer": 1,
+        "explanation": "El cortesano lo alojó en una despensa llena de golosinas."
+      },
+      {
+        "prompt": "¿Qué interrumpió el banquete?",
+        "options": [
+          "La llegada de la despensera",
+          "Una tormenta",
+          "Un gato"
+        ],
+        "answer": 0,
+        "explanation": "Al oír a la despensera, los ratones tuvieron que huir por un pasadizo."
+      },
+      {
+        "prompt": "¿Qué decidió el Ratón campesino?",
+        "options": [
+          "Quedarse en la corte",
+          "Buscar una despensa más grande",
+          "Volver a su casita de tierra, sin sustos"
+        ],
+        "answer": 2,
+        "explanation": "Prefirió la vida sencilla y tranquila a los lujos llenos de sobresaltos."
+      }
+    ]
+  },
+  {
+    "id": "b45-dos-amigos-oso-trivia",
+    "kind": "trivia",
+    "title": "Los dos Amigos y el Oso",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Á dos Amigos se aparece un Oso: / El uno muy medroso, / En las ramas de un árbol se asegura: / El otro, abandonado á la ventura, / Se finge muerto repentinamente. […] Y al fin le dice:—Sepas que he notado / Que el Oso te decía algún recado. / ¿Qué pudo ser?—Direte lo que ha sido: / Estas dos palabritas al oído: / Aparta tu amistad de la persona / Que, si te ve en el riesgo, te abandona.",
+    "questions": [
+      {
+        "prompt": "¿Qué hizo el amigo miedoso cuando apareció el Oso?",
+        "options": [
+          "Se subió a un árbol y dejó solo a su compañero",
+          "Peleó con el Oso",
+          "Pidió ayuda al pueblo"
+        ],
+        "answer": 0,
+        "explanation": "Se puso a salvo en las ramas sin preocuparse por su amigo."
+      },
+      {
+        "prompt": "¿Qué hizo el otro amigo para salvarse?",
+        "options": [
+          "Corrió al río",
+          "Se fingió muerto",
+          "Le dio comida al Oso"
+        ],
+        "answer": 1,
+        "explanation": "Se quedó quieto y sin respirar hasta que el Oso se fue."
+      },
+      {
+        "prompt": "¿Qué «recado» dice que le dio el Oso?",
+        "options": [
+          "Que volvería mañana",
+          "Que buscara otro camino",
+          "Que se alejara de quien lo abandona en el peligro"
+        ],
+        "answer": 2,
+        "explanation": "Con ingenio, el amigo usa el «recado» para dar la moraleja sobre la falsa amistad."
+      }
+    ]
+  },
+  {
+    "id": "b45-zorra-uvas-trivia",
+    "kind": "trivia",
+    "title": "La Zorra y las Uvas",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Es voz común que á más del medio día / En ayunas la Zorra iba cazando: / Halla una parra, quédase mirando / De la alta vid el fruto que pendía. […] Miró, saltó, y anduvo en probaduras; / Pero vió el imposible ya de fijo. / Entonces fué cuando la Zorra dijo: / «No las quiero comer; no están maduras».",
+    "questions": [
+      {
+        "prompt": "¿Por qué la Zorra no se comió las uvas?",
+        "options": [
+          "Porque no tenía hambre",
+          "Porque estaban muy altas y no las alcanzaba",
+          "Porque eran de otra zorra"
+        ],
+        "answer": 1,
+        "explanation": "Saltó y lo intentó, pero vio que era imposible alcanzarlas."
+      },
+      {
+        "prompt": "¿Qué dijo la Zorra al final?",
+        "options": [
+          "«No las quiero comer; no están maduras»",
+          "«Volveré mañana»",
+          "«¡Qué ricas están!»"
+        ],
+        "answer": 0,
+        "explanation": "Dice que no las quiere, aunque en realidad no pudo alcanzarlas."
+      },
+      {
+        "prompt": "Hoy decimos «están verdes» cuando alguien…",
+        "options": [
+          "come fruta sin madurar",
+          "pinta un cuadro verde",
+          "finge que no le importa lo que no pudo conseguir"
+        ],
+        "answer": 2,
+        "explanation": "La Zorra disimula su fracaso despreciando lo que deseaba."
+      }
+    ]
+  },
+  {
+    "id": "b45-burro-flautista-trivia",
+    "kind": "trivia",
+    "title": "El Burro flautista",
+    "source": "Fábulas literarias, Tomás de Iriarte (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Fábulas literarias",
+      "creator": "Tomás de Iriarte"
+    },
+    "text": "Cerca de unos prados / Que hay en mi lugar, / Pasaba un Borrico / Por casualidad. / Una flauta en ellos / Halló, que un zagal / Se dejó olvidada / Por casualidad. […] Y sonó la flauta / Por casualidad. / ¡Oh! dijo el Borrico: / ¡Qué bien sé tocar! […] Sin reglas del arte, / Borriquitos hay / Que una vez aciertan / Por casualidad.",
+    "questions": [
+      {
+        "prompt": "¿Por qué sonó la flauta?",
+        "options": [
+          "Porque el Borrico estudió música",
+          "Porque el Borrico resopló al olerla",
+          "Porque un zagal la tocó"
+        ],
+        "answer": 1,
+        "explanation": "El Borrico dio un resoplido y el aire se coló en la flauta."
+      },
+      {
+        "prompt": "¿Qué creyó el Borrico?",
+        "options": [
+          "Que sabía tocar muy bien",
+          "Que la flauta estaba rota",
+          "Que alguien lo engañaba"
+        ],
+        "answer": 0,
+        "explanation": "Exclama: «¡Qué bien sé tocar!», aunque fue pura suerte."
+      },
+      {
+        "prompt": "¿Qué expresión se repite al final de casi todas las estrofas?",
+        "options": [
+          "«Salga bien o mal»",
+          "«La música asnal»",
+          "«Por casualidad»"
+        ],
+        "answer": 2,
+        "explanation": "La repetición refuerza la idea: el acierto sin saber es casualidad."
+      }
+    ]
+  },
+  {
+    "id": "b45-oso-mona-cerdo-trivia",
+    "kind": "trivia",
+    "title": "El Oso, la Mona y el Cerdo",
+    "source": "Fábulas literarias, Tomás de Iriarte (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Fábulas literarias",
+      "creator": "Tomás de Iriarte"
+    },
+    "text": "Un Oso […] / La no muy bien aprendida / Danza ensayaba en dos pies. / Queriendo hacer de persona, / Dijo a una Mona: \"¿Qué tal?\" / Era perita la Mona, / Y respondióle: \"Muy mal.\" […] Estaba el Cerdo presente, / Y dijo: \"Bravo, ¡bien va!\" […] \"Cuando me desaprobaba / La Mona, llegué a dudar; / Mas ya que el Cerdo me alaba, / Muy mal debo de bailar.\"",
+    "questions": [
+      {
+        "prompt": "¿Qué opinó la Mona del baile del Oso?",
+        "options": [
+          "Que bailaba muy mal",
+          "Que era el mejor bailarín",
+          "Que debía cantar"
+        ],
+        "answer": 0,
+        "explanation": "La Mona, que sabía del tema («era perita»), le dijo: «Muy mal»."
+      },
+      {
+        "prompt": "¿Quién aplaudió al Oso?",
+        "options": [
+          "La Mona",
+          "El Cerdo",
+          "El piamontés"
+        ],
+        "answer": 1,
+        "explanation": "El Cerdo gritó «¡Bravo, bien va!»."
+      },
+      {
+        "prompt": "¿Por qué el Oso concluyó que bailaba mal?",
+        "options": [
+          "Porque se cayó",
+          "Porque nadie lo miraba",
+          "Porque lo alababa el Cerdo, que no sabía nada de baile"
+        ],
+        "answer": 2,
+        "explanation": "Moraleja: «Si el sabio no aprueba, ¡malo! Si el necio aplaude, ¡peor!»."
+      }
+    ]
+  },
+  {
+    "id": "b45-cada-uno-oficio-trivia",
+    "kind": "trivia",
+    "title": "La montaña y la ardilla",
+    "source": "Fábula «Cada uno a su oficio», de Emerson, en versión de José Martí para La Edad de Oro (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "La montaña y la ardilla / Tuvieron su querella: […] —«Sí que es muy grande usted, muy grande y bella; […] / Si no soy yo tamaña / Como usted, mi señora la montaña, / Usted no es tan pequeña / Como yo, ni a gimnástica me enseña. […] / Difieren los talentos a las veces: / Ni yo llevo los bosques a la espalda, / Ni usted puede, señora, cascar nueces.»",
+    "questions": [
+      {
+        "prompt": "¿Quiénes discuten en la fábula?",
+        "options": [
+          "El sol y la luna",
+          "La montaña y la ardilla",
+          "El bosque y el río"
+        ],
+        "answer": 1,
+        "explanation": "La fábula empieza: «La montaña y la ardilla tuvieron su querella»."
+      },
+      {
+        "prompt": "¿Qué puede hacer la ardilla que la montaña no puede?",
+        "options": [
+          "Cascar nueces",
+          "Llevar bosques",
+          "Ser muy grande"
+        ],
+        "answer": 0,
+        "explanation": "La ardilla responde: «Ni usted puede, señora, cascar nueces»."
+      },
+      {
+        "prompt": "¿Cuál es la idea principal?",
+        "options": [
+          "Lo grande siempre es mejor",
+          "Las ardillas son groseras",
+          "Cada uno tiene talentos distintos y valiosos"
+        ],
+        "answer": 2,
+        "explanation": "«Difieren los talentos»: el título lo resume, «Cada uno a su oficio»."
+      }
+    ]
+  },
+  {
+    "id": "b45-bebe-pomposo-trivia",
+    "kind": "trivia",
+    "title": "Bebé y el señor don Pomposo",
+    "source": "La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "[Don Pomposo, el tío de mamá, saludó a Bebé con muchos besos, pero a Raúl, el primito pobre, ni lo saludó.] «Mira, mira, Bebé, lo que te tengo guardado: esto cuesta mucho dinero, Bebé: esto es para que quieras mucho a tu tío». […] y le trajo a Bebé un sable dorado. […] Bebé se escurre de la cama, va al tocador en la punta de los pies, levanta el sable despacio […] hasta que llega a la almohada de Raúl, y le pone el sable dorado en la almohada.",
+    "questions": [
+      {
+        "prompt": "¿Qué le regaló don Pomposo a Bebé?",
+        "options": [
+          "Un caballo",
+          "Un sable dorado",
+          "Un libro"
+        ],
+        "answer": 1,
+        "explanation": "Le regaló un sable dorado diciendo que costaba mucho dinero."
+      },
+      {
+        "prompt": "¿Cómo trató don Pomposo a Raúl?",
+        "options": [
+          "Ni lo saludó",
+          "Le dio un regalo igual",
+          "Lo invitó a París"
+        ],
+        "answer": 0,
+        "explanation": "Martí muestra que don Pomposo solo atendía a quien tenía dinero."
+      },
+      {
+        "prompt": "¿Qué hizo Bebé con el sable por la noche?",
+        "options": [
+          "Lo escondió en su maleta",
+          "Lo rompió",
+          "Lo puso en la almohada de Raúl"
+        ],
+        "answer": 2,
+        "explanation": "Bebé comparte con su primo, que no tenía quien le regalara nada: un gesto generoso."
+      }
+    ]
+  },
+  {
+    "id": "b45-escribiente-florentino-trivia",
+    "kind": "trivia",
+    "title": "El pequeño escribiente florentino",
+    "source": "Corazón, de Edmondo De Amicis, cuento mensual «El pequeño escribiente florentino» (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Corazón",
+      "creator": "Edmondo De Amicis"
+    },
+    "text": "El padre de Julio trabajaba de noche escribiendo en unas fajas de papel los nombres y direcciones de los suscriptores de una editorial, y se quejaba: «Estoy perdiendo la vista». Julio le ofreció ayudar, pero el padre no quiso: la escuela era más importante. Entonces Julio, cuando su padre se acostaba a las doce, se levantaba a escondidas y escribía fajas imitando su letra. De día se dormía sobre los libros, y el padre empezó a regañarlo. (Resumen del cuento.)",
+    "questions": [
+      {
+        "prompt": "¿Por qué trabajaba de noche el padre de Julio?",
+        "options": [
+          "Para ganar más dinero para la familia",
+          "Porque le gustaba la noche",
+          "Porque de día dormía"
+        ],
+        "answer": 0,
+        "explanation": "Tenía mucha familia y poco sueldo, y buscaba trabajos extra de copista."
+      },
+      {
+        "prompt": "¿Qué hacía Julio en secreto?",
+        "options": [
+          "Jugaba en la calle",
+          "Escribía las fajas imitando la letra de su padre",
+          "Estudiaba otra materia"
+        ],
+        "answer": 1,
+        "explanation": "Quería ayudar a su padre sin que él lo supiera."
+      },
+      {
+        "prompt": "¿Por qué el padre regañaba a Julio?",
+        "options": [
+          "Porque gastaba mucho petróleo",
+          "Porque rompió un libro",
+          "Porque se dormía y estudiaba menos"
+        ],
+        "answer": 2,
+        "explanation": "El cansancio por trabajar de noche hacía que Julio rindiera menos en la escuela."
+      }
+    ]
+  },
+  {
+    "id": "b45-isla-tesoro-trivia",
+    "kind": "trivia",
+    "title": "Llega el Capitán a la posada",
+    "source": "La isla del tesoro, Robert Louis Stevenson, capítulo I (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "La isla del tesoro",
+      "creator": "Robert Louis Stevenson"
+    },
+    "text": "Tomo la pluma […] y retrocedo hasta la época en que mi padre tenía aún la posada del “Almirante Benbow,” y hasta el día en que por primera vez llegó á alojarse en ella aquel viejo marino de tez bronceada […] con su grande y visible cicatriz. […] ¿Quieren Vds. saber cómo han de llamarme? llámenme Capitán. […] me había prometido darme una pieza de cuatro peniques el día primero de cada mes con la sola condición de que estuviese alerta, y le avisara […] la aparición de un “marino con una sola pierna.”",
+    "questions": [
+      {
+        "prompt": "¿Quién cuenta la historia?",
+        "options": [
+          "El Capitán",
+          "El hijo del dueño de la posada",
+          "Un pirata con una sola pierna"
+        ],
+        "answer": 1,
+        "explanation": "El narrador dice que su padre tenía la posada: cuenta en primera persona."
+      },
+      {
+        "prompt": "¿Cómo se llamaba la posada?",
+        "options": [
+          "Almirante Benbow",
+          "Royal George",
+          "Isla del Tesoro"
+        ],
+        "answer": 0,
+        "explanation": "Era la posada del «Almirante Benbow»."
+      },
+      {
+        "prompt": "¿Qué le pidió el Capitán al muchacho a cambio de una moneda?",
+        "options": [
+          "Que le sirviera rom",
+          "Que le cuidara el cofre",
+          "Que le avisara si veía a un marino con una sola pierna"
+        ],
+        "answer": 2,
+        "explanation": "Ese personaje misterioso preocupa al Capitán y crea suspenso desde el inicio."
+      }
+    ]
+  },
+  {
+    "id": "b45-lechera-secuencia",
+    "kind": "sequence",
+    "title": "Los sueños de la Lechera",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "4-5",
+      "1-3"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Ordena los pensamientos de la Lechera camino al mercado, hasta el final de la fábula.",
+    "steps": [
+      "La Lechera lleva el cántaro de leche al mercado.",
+      "Piensa vender la leche y comprar un canasto de huevos.",
+      "Imagina cien pollos que dicen «pío, pío».",
+      "Con lo que gane por los pollos compraría un cochino.",
+      "Vendería el cochino y compraría una vaca y un ternero.",
+      "Salta de alegría y el cántaro se cae."
+    ]
+  },
+  {
+    "id": "b45-menique-secuencia",
+    "kind": "sequence",
+    "title": "Ordena las hazañas de Meñique",
+    "source": "Meñique, cuento de magia adaptado por José Martí en La Edad de Oro (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Ordena lo que hace Meñique en el cuento.",
+    "steps": [
+      "El padre pide a sus tres hijos que salgan a buscar fortuna.",
+      "Meñique encuentra en el monte un hacha encantada que corta sola.",
+      "Encuentra un pico encantado que abre la roca.",
+      "Encuentra la cáscara de nuez de donde brota el agua.",
+      "Con el hacha corta el roble que tapaba el palacio.",
+      "Abre el pozo con el pico y lo llena de agua con la nuez."
+    ]
+  },
+  {
+    "id": "b45-escribiente-secuencia",
+    "kind": "sequence",
+    "title": "Ordena: el secreto de Julio",
+    "source": "Corazón, de Edmondo De Amicis, cuento mensual «El pequeño escribiente florentino» (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Corazón",
+      "creator": "Edmondo De Amicis"
+    },
+    "text": "Ordena lo que pasa en «El pequeño escribiente florentino».",
+    "steps": [
+      "El padre se queja de que el trabajo de noche le cansa la vista.",
+      "Julio ofrece ayudarle, pero su padre no lo permite.",
+      "Julio escribe fajas a escondidas cada noche.",
+      "Julio se duerme estudiando y su padre lo regaña.",
+      "Una noche se cae un libro y el padre descubre a Julio escribiendo.",
+      "El padre le pide perdón y lo lleva a descansar."
+    ]
+  },
+  {
+    "id": "b45-bolivar-secuencia",
+    "kind": "sequence",
+    "title": "La vida de Bolívar según Martí",
+    "source": "Crónica «Tres héroes», de La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Martí cuenta la vida de Simón Bolívar en «Tres héroes». Ordena los hechos.",
+    "steps": [
+      "Los españoles derrotan a Bolívar y lo echan del país.",
+      "Se va a una isla, a ver su tierra de cerca.",
+      "Vuelve a pelear con trescientos héroes.",
+      "Liberta a Venezuela, Nueva Granada, Ecuador y Perú.",
+      "Funda una nación nueva: Bolivia.",
+      "Muere pobre en Santa Marta."
+    ]
+  },
+  {
+    "id": "b45-dos-conejos-secuencia",
+    "kind": "sequence",
+    "title": "Los dos Conejos",
+    "source": "Fábulas literarias, Tomás de Iriarte (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Fábulas literarias",
+      "creator": "Tomás de Iriarte"
+    },
+    "text": "Ordena lo que pasa en la fábula «Los dos Conejos».",
+    "steps": [
+      "Un conejo huye de unos perros.",
+      "Otro conejo sale de su madriguera y le pregunta qué pasa.",
+      "Discuten si los perros son galgos o podencos.",
+      "Mientras discuten, llegan los perros y atrapan a los dos."
+    ]
+  },
+  {
+    "id": "b45-samaniego-moralejas",
+    "kind": "match",
+    "title": "Cada fábula con su moraleja",
+    "source": "Fábulas de Félix María Samaniego (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Fábulas",
+      "creator": "Félix María Samaniego"
+    },
+    "text": "Relaciona cada fábula de Samaniego con la moraleja que aparece en ella.",
+    "pairs": [
+      {
+        "left": "El Cuervo y el Zorro",
+        "right": "Quien oye aduladores, nunca espere otro premio."
+      },
+      {
+        "left": "El León y el Ratón",
+        "right": "Conviene al poderoso para los infelices ser piadoso."
+      },
+      {
+        "left": "Los dos Amigos y el Oso",
+        "right": "Aparta tu amistad de la persona que, si te ve en el riesgo, te abandona."
+      },
+      {
+        "left": "La Lechera",
+        "right": "No anheles impaciente el bien futuro: mira que ni el presente está seguro."
+      },
+      {
+        "left": "Congreso de los Ratones",
+        "right": "Proponen un proyecto… ¿Pero la ejecución? ahí está el cuento."
+      }
+    ]
+  },
+  {
+    "id": "b45-tres-heroes",
+    "kind": "match",
+    "title": "Tres héroes de América",
+    "source": "Crónica «Tres héroes», de La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Relaciona cada persona con lo que cuenta Martí de ella en «Tres héroes».",
+    "pairs": [
+      {
+        "left": "Simón Bolívar",
+        "right": "Era pequeño de cuerpo y no se cansó de pelear por la libertad de Venezuela"
+      },
+      {
+        "left": "José de San Martín",
+        "right": "Cruzó los Andes con su ejército en dieciocho días"
+      },
+      {
+        "left": "Miguel Hidalgo",
+        "right": "Cura del pueblo de Dolores que declaró libres a las personas esclavizadas"
+      },
+      {
+        "left": "Allende",
+        "right": "Compañero de Hidalgo, a quien este le cedió el mando"
+      },
+      {
+        "left": "Mercedes",
+        "right": "Hija de San Martín, en cuyos brazos murió él en Europa"
+      }
+    ]
+  },
+  {
+    "id": "b45-iriarte-fabulas",
+    "kind": "match",
+    "title": "Fábulas de Iriarte",
+    "source": "Fábulas literarias, Tomás de Iriarte (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Fábulas literarias",
+      "creator": "Tomás de Iriarte"
+    },
+    "text": "Relaciona cada fábula de Iriarte con su enseñanza.",
+    "pairs": [
+      {
+        "left": "El Burro flautista",
+        "right": "Quien acierta sin aprender las reglas, acierta por casualidad"
+      },
+      {
+        "left": "Los dos Conejos",
+        "right": "No hay que perder tiempo en discusiones sin importancia y olvidar lo principal"
+      },
+      {
+        "left": "El Oso, la Mona y el Cerdo",
+        "right": "Si el sabio no aprueba, ¡malo!; si el necio aplaude, ¡peor!"
+      },
+      {
+        "left": "La Ardilla y el Caballo",
+        "right": "Moverse mucho no es lo mismo que hacer un trabajo útil"
+      }
+    ]
+  },
+  {
+    "id": "b45-menique-objetos",
+    "kind": "match",
+    "title": "Meñique y sus hermanos",
+    "source": "Meñique, cuento de magia adaptado por José Martí en La Edad de Oro (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Relaciona cada personaje u objeto del cuento «Meñique» con su descripción.",
+    "pairs": [
+      {
+        "left": "Meñique",
+        "right": "El hermano más pequeño, que todo lo quería saber"
+      },
+      {
+        "left": "Pedro",
+        "right": "El hermano gordo y grande, de cara colorada"
+      },
+      {
+        "left": "Pablo",
+        "right": "El hermano paliducho, lleno de envidias y de celos"
+      },
+      {
+        "left": "El hacha encantada",
+        "right": "Cortó el roble que dejaba a oscuras el palacio"
+      },
+      {
+        "left": "La cáscara de nuez",
+        "right": "Llenó de agua el pozo del palacio"
+      }
+    ]
+  },
+  {
+    "id": "b45-bebe-personajes",
+    "kind": "match",
+    "title": "Personajes de «Bebé y el señor don Pomposo»",
+    "source": "La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Relaciona cada personaje con su descripción.",
+    "pairs": [
+      {
+        "left": "Bebé",
+        "right": "Niño de cinco años que, cuando ve un niño descalzo, le quiere dar todo"
+      },
+      {
+        "left": "Raúl",
+        "right": "Primito sin madre que viaja con Bebé a París"
+      },
+      {
+        "left": "Don Pomposo",
+        "right": "Tío de mamá, muy largo y estirado, que regala un sable"
+      },
+      {
+        "left": "Luisa",
+        "right": "La criada francesita que cuida a Bebé"
+      },
+      {
+        "left": "La mamá",
+        "right": "Viaja a París para que los médicos le quiten la tos"
+      }
+    ]
+  },
+  {
+    "id": "b68-rey-burgues-trivia",
+    "kind": "trivia",
+    "title": "El rey burgués",
+    "source": "«El rey burgués», en Azul..., Rubén Darío (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Azul...",
+      "creator": "Rubén Darío"
+    },
+    "text": "[Un poeta hambriento habla ante el rey.] «¡Señor, el arte no está en los fríos envoltorios de mármol, ni en los cuadros lamidos […]! ¡Señor! el arte no viste pantalones, ni habla en burgués, ni pone los puntos en todas las íes.» […] —Sí—dijo el rey; y dirigiéndose al poeta:—Daréis vueltas a un manubrio: Cerraréis la boca. Haréis sonar una caja de música que toca valses, cuadrillas y galopas, como no prefiráis moriros de hambre. Pieza de música por pedazo de pan. Nada de jerigonzas, ni de ideales. […] ¡Tiririrín, tiririrín…!",
+    "questions": [
+      {
+        "prompt": "¿Qué trabajo le da el rey al poeta?",
+        "options": [
+          "Escribir himnos para la corte",
+          "Dar vueltas al manubrio de una caja de música",
+          "Cuidar los cisnes del estanque",
+          "Enseñar retórica a los cortesanos"
+        ],
+        "answer": 1,
+        "explanation": "El rey lo pone junto al estanque a tocar una caja de música a cambio de pan."
+      },
+      {
+        "prompt": "¿Qué recurso es «tiririrín, tiririrín»?",
+        "options": [
+          "Metáfora",
+          "Hipérbole",
+          "Onomatopeya",
+          "Antítesis"
+        ],
+        "answer": 2,
+        "explanation": "La onomatopeya imita el sonido mecánico y repetitivo de la caja de música."
+      },
+      {
+        "prompt": "¿Qué critica Darío a través del rey?",
+        "options": [
+          "A quien trata el arte como un lujo o adorno, sin valorar al artista",
+          "A los poetas que no trabajan",
+          "A los músicos que tocan valses",
+          "A los reyes que cazan en el bosque"
+        ],
+        "answer": 0,
+        "explanation": "El rey acumula objetos de arte «por lujo y nada más», pero desprecia el ideal del poeta."
+      },
+      {
+        "prompt": "El cuento se subtitula «Canto alegre», pero termina con el poeta muerto de frío. ¿Qué recurso es ese contraste?",
+        "options": [
+          "Comparación",
+          "Personificación",
+          "Aliteración",
+          "Ironía"
+        ],
+        "answer": 3,
+        "explanation": "La ironía dice lo contrario de lo que se quiere expresar: el «canto alegre» es en realidad muy triste."
+      }
+    ]
+  },
+  {
+    "id": "b68-rey-burgues-secuencia",
+    "kind": "sequence",
+    "title": "Ordena «El rey burgués»",
+    "source": "«El rey burgués», en Azul..., Rubén Darío (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Azul...",
+      "creator": "Rubén Darío"
+    },
+    "text": "Ordena los sucesos del cuento de Rubén Darío.",
+    "steps": [
+      "Llevan un poeta hambriento ante el trono del rey.",
+      "El poeta pronuncia un discurso sobre el arte y el ideal.",
+      "Un filósofo propone ponerlo a tocar una caja de música en el jardín.",
+      "El poeta da vueltas al manubrio entre las burlas de los pájaros libres.",
+      "Llega el invierno y el rey y sus vasallos se olvidan de él.",
+      "En una noche de fiesta en el palacio, el poeta muere de frío junto al estanque."
+    ]
+  },
+  {
+    "id": "b68-iliada-marti-trivia",
+    "kind": "trivia",
+    "title": "La Ilíada contada por Martí",
+    "source": "Artículo «La Ilíada, de Homero», en La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Unos dicen que lo compuso Homero, el poeta ciego de la barba de rizos […]. Otros dicen que no hubo Homero, sino que el poema lo fueron componiendo diferentes cantores. Pero no parece que pueda haber trabajo de muchos en un poema donde no cambia el modo de hablar, ni el de pensar, ni el de hacer los versos, y donde desde el principio hasta el fin se ve tan claro el carácter de cada persona […]. En la Ilíada no se cuenta toda la guerra de treinta años de Grecia contra Ilión, que era como le decían entonces a Troya.",
+    "questions": [
+      {
+        "prompt": "Según Martí, ¿qué cuenta la Ilíada?",
+        "options": [
+          "Toda la guerra de Troya desde el principio",
+          "El regreso de Ulises a su casa",
+          "La cólera de Aquiles durante la guerra",
+          "La fundación de Roma"
+        ],
+        "answer": 2,
+        "explanation": "Martí aclara que no se cuenta toda la guerra, sino lo que pasó desde que Aquiles se enojó."
+      },
+      {
+        "prompt": "¿Qué argumento usa Martí para pensar que el poema es obra de un solo autor?",
+        "options": [
+          "Que tiene el mismo estilo y personajes claros de principio a fin",
+          "Que Homero firmó cada canto",
+          "Que es un poema muy corto",
+          "Que lo dicen todos los sabios"
+        ],
+        "answer": 0,
+        "explanation": "La unidad de estilo y la claridad de los caracteres le parecen prueba de un solo poeta."
+      },
+      {
+        "prompt": "¿Por qué se pelearon Agamenón y Aquiles, según el artículo?",
+        "options": [
+          "Por el reparto del oro de Troya",
+          "Porque Agamenón quiso quedarse con Briseis, la cautiva de Aquiles",
+          "Porque Aquiles quería ser rey",
+          "Por un caballo de madera"
+        ],
+        "answer": 1,
+        "explanation": "Agamenón aceptó devolver a Criseis solo si Aquiles le daba a Briseis."
+      },
+      {
+        "prompt": "¿Qué hace Martí con este artículo dentro de una revista para niños?",
+        "options": [
+          "Inventa una historia nueva",
+          "Critica a Homero",
+          "Traduce el poema completo",
+          "Explica una obra clásica con palabras sencillas"
+        ],
+        "answer": 3,
+        "explanation": "Martí divulga: acerca a los niños un libro famoso, como prometió en La Edad de Oro."
+      }
+    ]
+  },
+  {
+    "id": "b68-iliada-secuencia",
+    "kind": "sequence",
+    "title": "Ordena la Ilíada",
+    "source": "Artículo «La Ilíada, de Homero», en La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Martí resume en su artículo lo que pasa en la Ilíada. Ordena estos episodios.",
+    "steps": [
+      "La disputa entre Agamenón y Aquiles.",
+      "El combate de Paris con Menelao.",
+      "La visita de Héctor a su esposa Andrómaca.",
+      "La muerte de Patroclo.",
+      "La muerte de Héctor.",
+      "Príamo logra que Aquiles le devuelva el cuerpo de su hijo."
+    ]
+  },
+  {
+    "id": "b68-iliada-personajes",
+    "kind": "match",
+    "title": "Personajes de la Ilíada",
+    "source": "Artículo «La Ilíada, de Homero», en La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Relaciona cada personaje con lo que dice de él Martí en «La Ilíada, de Homero».",
+    "pairs": [
+      {
+        "left": "Agamenón",
+        "right": "Le llamaban el Rey de los Hombres"
+      },
+      {
+        "left": "Aquiles",
+        "right": "El más valiente de los griegos, que cantaba en la lira las historias de los héroes"
+      },
+      {
+        "left": "Héctor",
+        "right": "El héroe de Troya, esposo de Andrómaca"
+      },
+      {
+        "left": "Príamo",
+        "right": "El viejo rey troyano que pide el cuerpo de su hijo"
+      },
+      {
+        "left": "Calcas",
+        "right": "Sacerdote griego que dice que hay que devolver a Criseis"
+      },
+      {
+        "left": "Minerva",
+        "right": "Diosa invisible que sujeta la mano de Aquiles"
+      }
+    ]
+  },
+  {
+    "id": "b68-iliada-proemio-trivia",
+    "kind": "trivia",
+    "title": "El comienzo de la Ilíada",
+    "source": "La Ilíada, Homero, canto I, traducción de Luis Segalá y Estalella (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "La Ilíada",
+      "creator": "Homero"
+    },
+    "text": "Canta, oh diosa, la cólera del Pelida Aquiles; cólera funesta que causó infinitos males á los aqueos […]—cumplíase la voluntad de Júpiter—desde que se separaron disputando el Atrida, rey de hombres, y el divino Aquiles. ¿Cuál de los dioses promovió entre ellos la contienda para que pelearan? El hijo de Júpiter y de Latona. Airado con el rey, suscitó en el ejército maligna peste, y los hombres perecían por el ultraje que el Atrida infiriera al sacerdote Crises.",
+    "questions": [
+      {
+        "prompt": "¿A quién se dirige el poeta en la primera frase?",
+        "options": [
+          "A Aquiles",
+          "A una diosa, para que cante",
+          "A los aqueos",
+          "A Júpiter"
+        ],
+        "answer": 1,
+        "explanation": "Es la invocación a la musa, típica del comienzo de los poemas épicos."
+      },
+      {
+        "prompt": "¿Cuál es el tema que anuncia el poema?",
+        "options": [
+          "La cólera de Aquiles",
+          "El viaje de Ulises",
+          "El amor de Paris",
+          "La caída de Troya"
+        ],
+        "answer": 0,
+        "explanation": "El primer verso lo dice: «la cólera del Pelida Aquiles»."
+      },
+      {
+        "prompt": "¿Por qué hubo peste en el ejército?",
+        "options": [
+          "Por la falta de comida",
+          "Porque Aquiles se fue",
+          "Porque el dios se enojó por el ultraje del Atrida al sacerdote Crises",
+          "Por una tormenta en el mar"
+        ],
+        "answer": 2,
+        "explanation": "El hijo de Júpiter y de Latona (Apolo) castigó al ejército por la ofensa a su sacerdote."
+      },
+      {
+        "prompt": "¿Qué frase, puesta entre guiones, indica que todo ocurría por decisión de un dios?",
+        "options": [
+          "«Canta, oh diosa»",
+          "«rey de hombres»",
+          "«maligna peste»",
+          "«cumplíase la voluntad de Júpiter»"
+        ],
+        "answer": 3,
+        "explanation": "El inciso entre guiones muestra que, en la épica griega, los dioses intervienen en el destino de los héroes."
+      }
+    ]
+  },
+  {
+    "id": "b68-polifemo-trivia",
+    "kind": "trivia",
+    "title": "Ulises y el Cíclope",
+    "source": "La Odisea, Homero, canto IX, traducción de Luis Segalá y Estalella (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Odisea",
+      "creator": "Homero"
+    },
+    "text": "[Ulises cuenta su encuentro con el Cíclope Polifemo.] «¡Ciclope! Preguntas cuál es mi nombre ilustre, y voy á decírtelo […]. Mi nombre es Nadie; y Nadie me llaman mi madre, mi padre y mis compañeros todos.» […] Respondióles desde la cueva el robusto Polifemo: «¡Oh amigos! Nadie me mata con engaño, no con fuerza.» Y ellos le contestaron […]: «Pues si nadie te hace fuerza, ya que estás solo, no es posible evitar la enfermedad que envía el gran Júpiter». […] yo me reí en mi corazón de cómo mi nombre y mi excelente artificio les había engañado.",
+    "questions": [
+      {
+        "prompt": "¿Qué nombre le dice Ulises al Cíclope?",
+        "options": [
+          "Odiseo",
+          "Ninguno",
+          "Nadie",
+          "Neptuno"
+        ],
+        "answer": 2,
+        "explanation": "Ulises dice llamarse «Nadie», y ese nombre es la clave de su plan."
+      },
+      {
+        "prompt": "¿Por qué los otros Cíclopes no ayudaron a Polifemo?",
+        "options": [
+          "Porque él gritó que «Nadie» lo atacaba y creyeron que no había nadie",
+          "Porque estaban dormidos",
+          "Porque no lo querían",
+          "Porque Júpiter se lo prohibió"
+        ],
+        "answer": 0,
+        "explanation": "El juego de palabras con «Nadie» engaña a los Cíclopes."
+      },
+      {
+        "prompt": "¿Qué cualidad de Ulises destaca este episodio?",
+        "options": [
+          "La fuerza",
+          "La astucia",
+          "La paciencia",
+          "La belleza"
+        ],
+        "answer": 1,
+        "explanation": "El mismo Ulises celebra su «excelente artificio»: vence con ingenio, no con fuerza."
+      },
+      {
+        "prompt": "¿Quién narra este episodio?",
+        "options": [
+          "Un narrador que no participa",
+          "Polifemo",
+          "Los Cíclopes",
+          "El propio Ulises, en primera persona"
+        ],
+        "answer": 3,
+        "explanation": "Ulises cuenta sus aventuras usando «yo» y «nosotros»."
+      }
+    ]
+  },
+  {
+    "id": "b68-polifemo-secuencia",
+    "kind": "sequence",
+    "title": "Ordena la astucia de Ulises",
+    "source": "La Odisea, Homero, canto IX, traducción de Luis Segalá y Estalella (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Odisea",
+      "creator": "Homero"
+    },
+    "text": "Ordena lo que hacen Ulises y sus compañeros en la cueva del Cíclope Polifemo.",
+    "steps": [
+      "Ulises le ofrece vino al Cíclope.",
+      "Le dice que su nombre es Nadie.",
+      "El Cíclope se duerme y los griegos lo dejan ciego con una estaca de olivo encendida.",
+      "Los otros Cíclopes acuden, pero se van al oír que «Nadie» lo ataca.",
+      "Ulises y sus compañeros salen de la cueva agarrados bajo el vientre de los carneros."
+    ]
+  },
+  {
+    "id": "b68-lazarillo-toro-trivia",
+    "kind": "trivia",
+    "title": "Lázaro y el toro de piedra",
+    "source": "Vida de Lazarillo de Tormes, anónimo (1554, dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades",
+      "creator": "Anónimo"
+    },
+    "text": "Salimos de Salamanca, y llegando a la puente, está a la entrada della un animal de piedra, que casi tiene forma de toro, y el ciego mandóme que llegase cerca del animal, y allí puesto, me dijo: \"Lázaro, llega el oído a este toro, y oirás gran ruido dentro dél.\" Yo simplemente llegué, creyendo ser ansí; y como sintió que tenía la cabeza par de la piedra, afirmó recio la mano y diome una gran calabazada en el diablo del toro […] y díjome: \"Necio, aprende que el mozo del ciego un punto ha de saber más que el diablo\" […] Parecióme que en aquel instante desperté de la simpleza en que como niño dormido estaba.",
+    "questions": [
+      {
+        "prompt": "¿Qué le hizo el ciego a Lázaro en el puente?",
+        "options": [
+          "Le regaló un toro de piedra",
+          "Le golpeó la cabeza contra el toro de piedra",
+          "Lo dejó solo en Salamanca",
+          "Le enseñó a leer"
+        ],
+        "answer": 1,
+        "explanation": "Le pidió acercar el oído y luego le dio una «calabazada» contra la piedra."
+      },
+      {
+        "prompt": "¿Qué aprende Lázaro con esta burla?",
+        "options": [
+          "Que debe estar alerta y valerse por sí mismo",
+          "Que los toros hacen ruido",
+          "Que debe volver con su madre",
+          "Que el ciego es su enemigo para siempre"
+        ],
+        "answer": 0,
+        "explanation": "Dice que «despertó de la simpleza»: empieza su aprendizaje para sobrevivir."
+      },
+      {
+        "prompt": "¿Qué tipo de narrador tiene el texto?",
+        "options": [
+          "Un narrador omnisciente en tercera persona",
+          "Un narrador testigo que observa a Lázaro",
+          "El protagonista, que cuenta su propia vida en primera persona",
+          "Varios narradores que se alternan"
+        ],
+        "answer": 2,
+        "explanation": "La novela picaresca suele ser autobiográfica: Lázaro narra su vida con «yo»."
+      },
+      {
+        "prompt": "¿Qué significa «el mozo del ciego un punto ha de saber más que el diablo»?",
+        "options": [
+          "Que hay que temer al diablo",
+          "Que los ciegos saben más que nadie",
+          "Que hay que obedecer siempre",
+          "Que el ayudante de un ciego debe ser más astuto que cualquiera"
+        ],
+        "answer": 3,
+        "explanation": "El ciego le enseña, con dureza, que necesitará mucha astucia."
+      }
+    ]
+  },
+  {
+    "id": "b68-lazarillo-amos-secuencia",
+    "kind": "sequence",
+    "title": "Los amos de Lázaro",
+    "source": "Vida de Lazarillo de Tormes, anónimo (1554, dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades",
+      "creator": "Anónimo"
+    },
+    "text": "Según los títulos de los tratados, ordena los amos a los que sirvió Lázaro.",
+    "steps": [
+      "Un ciego (Tratado primero).",
+      "Un clérigo de Maqueda (Tratado segundo).",
+      "Un escudero en Toledo (Tratado tercero).",
+      "Un fraile de la Merced (Tratado cuarto).",
+      "Un buldero (Tratado quinto).",
+      "Un capellán (Tratado sexto).",
+      "Un alguacil (Tratado séptimo)."
+    ]
+  },
+  {
+    "id": "b68-lazarillo-voces",
+    "kind": "match",
+    "title": "¿Quién lo dice en el Lazarillo?",
+    "source": "Vida de Lazarillo de Tormes, anónimo (1554, dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades",
+      "creator": "Anónimo"
+    },
+    "text": "Relaciona cada personaje con la frase que dice en la novela.",
+    "pairs": [
+      {
+        "left": "El ciego",
+        "right": "«Necio, aprende que el mozo del ciego un punto ha de saber más que el diablo.»"
+      },
+      {
+        "left": "La madre de Lázaro",
+        "right": "«Hijo, ya sé que no te veré más. Procura ser bueno, y Dios te guíe.»"
+      },
+      {
+        "left": "El escudero",
+        "right": "«Pues esperado te he a comer, y de que vi que no veniste, comí.»"
+      },
+      {
+        "left": "Lázaro (pensando)",
+        "right": "«La muy buena que tú tienes te hace parecer la mía hermosa.»"
+      }
+    ]
+  },
+  {
+    "id": "b68-trafalgar-trivia",
+    "kind": "trivia",
+    "title": "La infancia del narrador de Trafalgar",
+    "source": "Trafalgar, Benito Pérez Galdós, capítulo I (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Trafalgar",
+      "creator": "Benito Pérez Galdós"
+    },
+    "text": "Al hablar de mi nacimiento, no imitaré a la mayor parte de los que cuentan hechos de su propia vida, quienes empiezan nombrando su parentela, las más veces noble […]. Doy principio, pues, a mi historia como Pablos, el buscón de Segovia […]. Yo nací en Cádiz, y en el famoso barrio de la Viña […]. La memoria no me da luz alguna sobre mi persona y mis acciones en la niñez, sino desde la edad de seis años; y si recuerdo esta fecha, es porque la asocio a un suceso naval de que oí hablar entonces: el combate del cabo de San Vicente, acaecido en 1797.",
+    "questions": [
+      {
+        "prompt": "¿Dónde nació el narrador?",
+        "options": [
+          "En Madrid",
+          "En Cádiz, en el barrio de la Viña",
+          "En Trafalgar",
+          "En Segovia"
+        ],
+        "answer": 1,
+        "explanation": "Lo dice directamente: «Yo nací en Cádiz, y en el famoso barrio de la Viña»."
+      },
+      {
+        "prompt": "¿Con qué suceso asocia su primer recuerdo?",
+        "options": [
+          "Con el combate del cabo de San Vicente (1797)",
+          "Con la batalla de Trafalgar",
+          "Con la muerte de su madre",
+          "Con un naufragio"
+        ],
+        "answer": 0,
+        "explanation": "Recuerda la edad de seis años porque oyó hablar de ese combate naval."
+      },
+      {
+        "prompt": "¿Por qué menciona a «Pablos, el buscón de Segovia»?",
+        "options": [
+          "Porque es su padre",
+          "Porque fue su maestro",
+          "Porque, como ese pícaro, no tiene parentela noble que contar",
+          "Porque viajaron juntos"
+        ],
+        "answer": 2,
+        "explanation": "Galdós alude a la novela picaresca de Quevedo: un narrador de origen humilde."
+      },
+      {
+        "prompt": "¿Qué tipo de relato anuncia este inicio?",
+        "options": [
+          "Un poema épico en verso",
+          "Un diario escrito día a día",
+          "Una noticia de periódico",
+          "Unas memorias contadas por un narrador ya mayor que recuerda su vida"
+        ],
+        "answer": 3,
+        "explanation": "El narrador mira hacia atrás («Dirigiendo una mirada hacia lo que fue») para contar un suceso histórico."
+      }
+    ]
+  },
+  {
+    "id": "b68-marianela-trivia",
+    "kind": "trivia",
+    "title": "Perdido en las minas",
+    "source": "Marianela, Benito Pérez Galdós, capítulo I (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Marianela",
+      "creator": "Benito Pérez Galdós"
+    },
+    "text": "—Me he perdido, no hay duda de que me he perdido.... Aquí tienes, Teodoro Golfín, el resultado de tu adelante, siempre adelante. […] O yo dejo de ser quien soy, o llegaré esta noche a las famosas minas de Socartes y abrazaré a mi querido hermano. […] [Un joven con un perro, Choto, aparece en la oscuridad y lo guía.] —Esta zona de la mina se llama la Terrible—repuso el ciego indiferente al estupor de su compañero de camino. […] Golfín vio que el ciego, tocando el suelo con su palo, se dirigía hacia una puertecilla estrecha […].",
+    "questions": [
+      {
+        "prompt": "¿Adónde quiere llegar Teodoro Golfín?",
+        "options": [
+          "A Villafangosa",
+          "A las minas de Socartes, para abrazar a su hermano",
+          "A Madrid",
+          "A un volcán apagado"
+        ],
+        "answer": 1,
+        "explanation": "Golfín va a pie a las minas de Socartes, donde vive su hermano."
+      },
+      {
+        "prompt": "¿Qué frase repite Golfín como un lema?",
+        "options": [
+          "«Adelante, siempre adelante»",
+          "«No hay mal que cien años dure»",
+          "«Paso a paso se llega lejos»",
+          "«Quien busca encuentra»"
+        ],
+        "answer": 0,
+        "explanation": "Dice que si tuviera escudo, pondría esa frase como divisa."
+      },
+      {
+        "prompt": "¿Qué tiene de sorprendente el joven que lo guía?",
+        "options": [
+          "Que es un minero muy viejo",
+          "Que habla otro idioma",
+          "Que es ciego y aun así conoce el camino en la oscuridad",
+          "Que va a caballo"
+        ],
+        "answer": 2,
+        "explanation": "Galdós crea una paradoja: el que no ve guía al que ve, y se mueve seguro en la noche."
+      },
+      {
+        "prompt": "¿Cómo se llama el perro del joven?",
+        "options": [
+          "Nela",
+          "Golfín",
+          "Socartes",
+          "Choto"
+        ],
+        "answer": 3,
+        "explanation": "El joven llama a su perro negro: «Choto, Choto, ven aquí»."
+      }
+    ]
+  },
+  {
+    "id": "b68-marianela-personajes",
+    "kind": "match",
+    "title": "Personajes y lugares de Marianela",
+    "source": "Marianela, Benito Pérez Galdós, capítulo I (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Marianela",
+      "creator": "Benito Pérez Galdós"
+    },
+    "text": "Relaciona cada nombre del capítulo I de Marianela con su descripción.",
+    "pairs": [
+      {
+        "left": "Teodoro Golfín",
+        "right": "Viajero de buen humor que se pierde camino de las minas"
+      },
+      {
+        "left": "El ciego",
+        "right": "Joven que guía a Golfín tocando el suelo con su palo"
+      },
+      {
+        "left": "Choto",
+        "right": "Perro negro y grande que acompaña al joven"
+      },
+      {
+        "left": "Nela",
+        "right": "Nombre que grita el ciego al oír una voz que canta"
+      },
+      {
+        "left": "La Terrible",
+        "right": "Zona de la mina agotada hace dos años"
+      }
+    ]
+  },
+  {
+    "id": "b68-zapaticos-poesia-trivia",
+    "kind": "trivia",
+    "title": "Leer poesía: Los zapaticos de rosa",
+    "source": "La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Hay sol bueno y mar de espuma, / Y arena fina, y Pilar / Quiere salir a estrenar / Su sombrerito de pluma. […] Conversan allá en las sillas, / Sentadas con los señores, / Las señoras, como flores, / Debajo de las sombrillas. […] ¡Se va allá, donde ¡muy lejos! / Las aguas son más salobres, / Donde se sientan los pobres, / Donde se sientan los viejos! […] Y cuando el sol se ponía / Detrás de un monte dorado, / Un sombrerito callado / Por las arenas venía.",
+    "questions": [
+      {
+        "prompt": "¿Cómo riman los versos de la primera estrofa (espuma, Pilar, estrenar, pluma)?",
+        "options": [
+          "Primero con cuarto y segundo con tercero (abba)",
+          "Todos con la misma rima (aaaa)",
+          "Primero con tercero y segundo con cuarto (abab)",
+          "No riman"
+        ],
+        "answer": 0,
+        "explanation": "Espuma-pluma y Pilar-estrenar: es una redondilla, estrofa de cuatro versos con rima abba."
+      },
+      {
+        "prompt": "¿Qué figura hay en «Las señoras, como flores»?",
+        "options": [
+          "Metáfora",
+          "Comparación o símil",
+          "Hipérbole",
+          "Onomatopeya"
+        ],
+        "answer": 1,
+        "explanation": "El nexo «como» une dos elementos: es una comparación."
+      },
+      {
+        "prompt": "En «Un sombrerito callado / Por las arenas venía», ¿qué hace el poeta?",
+        "options": [
+          "Describe un sombrero que vuela con el viento",
+          "Inventa un personaje nuevo",
+          "Nombra el sombrero para referirse a Pilar, que vuelve triste y en silencio",
+          "Habla de un sombrero perdido"
+        ],
+        "answer": 2,
+        "explanation": "Es una metonimia: la prenda representa a la niña que regresa callada."
+      },
+      {
+        "prompt": "¿Qué contraste muestra el poema entre las dos zonas de la playa?",
+        "options": [
+          "Entre el día y la noche",
+          "Entre el mar y la montaña",
+          "Entre niños y adultos",
+          "Entre las señoras bajo las sombrillas y los pobres y los viejos de la barranca"
+        ],
+        "answer": 3,
+        "explanation": "Martí opone el mundo acomodado y el de los pobres, y Pilar cruza de uno a otro."
+      }
+    ]
+  },
+  {
+    "id": "b68-tres-heroes-trivia",
+    "kind": "trivia",
+    "title": "Tres héroes: libertad y honradez",
+    "source": "Crónica «Tres héroes», de La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Libertad es el derecho que todo hombre tiene a ser honrado, y a pensar y a hablar sin hipocresía. […] Se les deben perdonar sus errores, porque el bien que hicieron fue más que sus faltas. Los hombres no pueden ser más perfectos que el sol. El sol quema con la misma luz con que calienta. El sol tiene manchas. Los desagradecidos no hablan más que de las manchas. Los agradecidos hablan de la luz. […] Los que pelean por la ambición, por hacer esclavos a otros pueblos, por tener más mando, por quitarle a otro pueblo sus tierras, no son héroes, sino criminales.",
+    "questions": [
+      {
+        "prompt": "¿Cómo define Martí la libertad?",
+        "options": [
+          "Hacer lo que uno quiera",
+          "El derecho a ser honrado y a pensar y hablar sin hipocresía",
+          "Tener un gobierno propio",
+          "No obedecer ninguna ley"
+        ],
+        "answer": 1,
+        "explanation": "Es la primera oración del fragmento: libertad, honradez y sinceridad van juntas."
+      },
+      {
+        "prompt": "¿Qué quiere decir con «El sol tiene manchas»?",
+        "options": [
+          "Que los héroes tuvieron errores, pero hicieron mucho más bien",
+          "Que el sol es peligroso",
+          "Que los héroes eran perfectos",
+          "Que no hay que mirar al sol"
+        ],
+        "answer": 0,
+        "explanation": "Es una analogía: como el sol, los héroes dan luz aunque tengan manchas."
+      },
+      {
+        "prompt": "¿Quiénes NO son héroes para Martí?",
+        "options": [
+          "Los que pelean para hacer libres a los pueblos",
+          "Los soldados desconocidos",
+          "Los que pelean por ambición o para quitarle tierras a otro pueblo",
+          "Los que sufren por defender una verdad"
+        ],
+        "answer": 2,
+        "explanation": "Martí los llama «criminales», no héroes."
+      },
+      {
+        "prompt": "¿Cuál es la intención principal del texto?",
+        "options": [
+          "Contar un cuento de magia",
+          "Describir paisajes de América",
+          "Explicar cómo se fabrica una estatua",
+          "Enseñar a los niños a valorar a quienes lucharon por la libertad"
+        ],
+        "answer": 3,
+        "explanation": "Martí escribe para formar a los niños de América en el amor a la libertad y la honradez."
+      }
+    ]
+  },
+  {
+    "id": "b68-ardilla-caballo-trivia",
+    "kind": "trivia",
+    "title": "La Ardilla y el Caballo",
+    "source": "Fábulas literarias, Tomás de Iriarte (dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "Fábulas literarias",
+      "creator": "Tomás de Iriarte"
+    },
+    "text": "\"Señor mío, / De ese brío, / Ligereza / Y destreza / No me espanto, / Que otro tanto / Suelo hacer, y acaso más. / Yo soy viva, / Soy activa, / Me meneo, / Me paseo […]\" […] \"Tantas idas / Y venidas, / Tantas vueltas / Y revueltas / (Quiero, amiga, / Que me diga), / ¿Son de alguna utilidad? / Yo me afano; / Mas no en vano.\" […] Conque algunos escritores / Ardillas también serán / Si en obras frívolas gastan / Todo el calor natural.",
+    "questions": [
+      {
+        "prompt": "¿De qué presume la Ardilla?",
+        "options": [
+          "De ser muy fuerte",
+          "De moverse mucho y no estarse quieta jamás",
+          "De saber galopar",
+          "De tener un dueño rico"
+        ],
+        "answer": 1,
+        "explanation": "La Ardilla enumera: «soy viva, soy activa, me meneo, me paseo»."
+      },
+      {
+        "prompt": "¿Qué le pregunta el Caballo a la Ardilla?",
+        "options": [
+          "Si tantas idas y venidas sirven para algo",
+          "Si quiere correr con él",
+          "Dónde vive",
+          "Quién es su dueño"
+        ],
+        "answer": 0,
+        "explanation": "El Caballo distingue entre mucho movimiento y trabajo útil."
+      },
+      {
+        "prompt": "¿Por qué Iriarte usa versos tan cortos en los parlamentos?",
+        "options": [
+          "Porque no sabía escribir versos largos",
+          "Para ahorrar papel",
+          "Para imitar el movimiento rápido y nervioso de la Ardilla",
+          "Porque es una canción infantil"
+        ],
+        "answer": 2,
+        "explanation": "La forma refuerza el contenido: el ritmo breve imita el ir y venir de la Ardilla."
+      },
+      {
+        "prompt": "¿A quiénes critica la moraleja?",
+        "options": [
+          "A los caballos perezosos",
+          "A los lectores",
+          "A las ardillas",
+          "A los escritores que gastan su energía en obras sin valor"
+        ],
+        "answer": 3,
+        "explanation": "Iriarte dedica sus fábulas a temas literarios: «algunos escritores ardillas también serán»."
+      }
+    ]
+  },
+  {
+    "id": "b68-quijote-molinos-secuencia",
+    "kind": "sequence",
+    "title": "Ordena: los molinos de viento",
+    "source": "Don Quijote de la Mancha, Miguel de Cervantes (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Don Quijote",
+      "creator": "Miguel de Cervantes Saavedra"
+    },
+    "text": "Ordena lo que pasa en la aventura de los molinos de viento (capítulo VIII).",
+    "steps": [
+      "Don Quijote y Sancho descubren treinta o cuarenta molinos de viento.",
+      "Don Quijote dice que son desaforados gigantes.",
+      "Sancho le advierte que son molinos y que lo que parecen brazos son aspas.",
+      "Don Quijote se encomienda a Dulcinea y arremete con la lanza.",
+      "El viento mueve el aspa, rompe la lanza y lo derriba.",
+      "Don Quijote culpa al sabio Frestón de convertir los gigantes en molinos."
+    ]
+  },
+  {
+    "id": "b68-quijote-personajes",
+    "kind": "match",
+    "title": "Personajes del Quijote",
+    "source": "Don Quijote de la Mancha, Miguel de Cervantes (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Don Quijote",
+      "creator": "Miguel de Cervantes Saavedra"
+    },
+    "text": "Relaciona cada nombre con su descripción en los primeros capítulos del Quijote.",
+    "pairs": [
+      {
+        "left": "Don Quijote",
+        "right": "Hidalgo que perdió el juicio de tanto leer libros de caballerías"
+      },
+      {
+        "left": "Sancho Panza",
+        "right": "Escudero que le advierte que no son gigantes sino molinos"
+      },
+      {
+        "left": "Rocinante",
+        "right": "Rocín flaco cuyo nuevo nombre le pareció alto, sonoro y significativo"
+      },
+      {
+        "left": "Dulcinea del Toboso",
+        "right": "Nombre que da a Aldonza Lorenzo, una labradora de un lugar cercano"
+      },
+      {
+        "left": "Frestón",
+        "right": "Sabio encantador a quien culpa de convertir los gigantes en molinos"
+      }
+    ]
+  },
+  {
+    "id": "b68-edad-de-oro-secciones",
+    "kind": "match",
+    "title": "¿Qué hay en La Edad de Oro?",
+    "source": "La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "6-8",
+      "4-5"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Relaciona cada texto de La Edad de Oro con su contenido.",
+    "pairs": [
+      {
+        "left": "Tres héroes",
+        "right": "Crónica sobre Bolívar, San Martín e Hidalgo"
+      },
+      {
+        "left": "Meñique",
+        "right": "Cuento de magia donde el saber vale más que la fuerza"
+      },
+      {
+        "left": "Cada uno a su oficio",
+        "right": "Fábula de la montaña y la ardilla"
+      },
+      {
+        "left": "Los zapaticos de rosa",
+        "right": "Poema sobre una niña que comparte en la playa"
+      },
+      {
+        "left": "Bebé y el señor don Pomposo",
+        "right": "Cuento de un niño que le regala a su primo un sable dorado"
+      },
+      {
+        "left": "La Ilíada, de Homero",
+        "right": "Artículo que explica la cólera de Aquiles"
+      }
+    ]
+  },
+  {
+    "id": "b911-manrique-coplas-trivia",
+    "kind": "trivia",
+    "title": "Coplas de Jorge Manrique: el paso del tiempo",
+    "source": "Coplas por la muerte de su padre, Jorge Manrique (s. XV), en Las cien mejores poesías líricas de la lengua castellana, selección de Menéndez y Pelayo (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Las cien mejores poesías (lí­ricas) de la lengua castellana",
+      "creator": "Selección de Marcelino Menéndez y Pelayo"
+    },
+    "text": "Recuerde el alma dormida, / Avive el seso y despierte / Contemplando / Cómo se pasa la vida, / Cómo se viene la muerte / Tan callando: / Cuán presto se va el placer, / Cómo después de acordado / Da dolor, / Cómo a nuestro parescer / Cualquiera tiempo pasado / Fue mejor. / Y pues vemos lo presente / Cómo en un punto es ido / Y acabado, / Si juzgamos sabiamente, / Daremos lo no venido / Por pasado. / No se engañe nadie, no, / Pensando que ha de durar / Lo que espera / Más que duró lo que vio, / Porque todo ha de pasar / Por tal manera.",
+    "questions": [
+      {
+        "prompt": "¿Qué significa «Recuerde el alma dormida» en este contexto?",
+        "options": [
+          "Que el alma recuerde su infancia",
+          "Que el alma despierte y tome conciencia",
+          "Que el alma se duerma",
+          "Que el alma olvide el pasado"
+        ],
+        "answer": 1,
+        "explanation": "En el español medieval «recordar» también significaba «despertar»; el poeta llama a tomar conciencia."
+      },
+      {
+        "prompt": "¿Qué tema central desarrollan estas coplas?",
+        "options": [
+          "La fugacidad de la vida: todo pasa",
+          "El amor cortés",
+          "La belleza de la naturaleza",
+          "Las hazañas de un héroe"
+        ],
+        "answer": 0,
+        "explanation": "Es el tópico del tempus fugit: «todo ha de pasar por tal manera»."
+      },
+      {
+        "prompt": "¿Qué idea expresa «Daremos lo no venido / Por pasado»?",
+        "options": [
+          "Que el futuro nunca llega",
+          "Que hay que olvidar el pasado",
+          "Que el futuro pasará tan rápido como el presente",
+          "Que el pasado se repetirá"
+        ],
+        "answer": 2,
+        "explanation": "Si el presente se va en un punto, lo que está por venir también será pasado pronto."
+      },
+      {
+        "prompt": "¿Qué tipo de estrofa usan las coplas, con versos de ocho sílabas y otros cortos de cuatro?",
+        "options": [
+          "Soneto",
+          "Romance",
+          "Décima",
+          "Copla de pie quebrado"
+        ],
+        "answer": 3,
+        "explanation": "Alterna octosílabos con versos de pie quebrado («Contemplando», «Tan callando»)."
+      }
+    ]
+  },
+  {
+    "id": "b911-coplas-alegoria",
+    "kind": "match",
+    "title": "La alegoría de los ríos",
+    "source": "Coplas por la muerte de su padre, Jorge Manrique (s. XV), en Las cien mejores poesías líricas de la lengua castellana, selección de Menéndez y Pelayo (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Las cien mejores poesías (lí­ricas) de la lengua castellana",
+      "creator": "Selección de Marcelino Menéndez y Pelayo"
+    },
+    "text": "«Nuestras vidas son los ríos / Que van a dar en la mar, / Que es el morir; / Allí van los señoríos / Derechos a se acabar / Y consumir; / Allí los ríos caudales, / Allí los otros medianos / Y más chicos; / Allegados, son iguales / Los que viven por sus manos / Y los ricos.» Relaciona cada imagen de la copla con su sentido.",
+    "pairs": [
+      {
+        "left": "Los ríos",
+        "right": "Nuestras vidas"
+      },
+      {
+        "left": "La mar",
+        "right": "La muerte"
+      },
+      {
+        "left": "Los ríos caudales",
+        "right": "Los señoríos y los poderosos"
+      },
+      {
+        "left": "Los ríos medianos y más chicos",
+        "right": "Las vidas de quienes tienen menos poder o riqueza"
+      },
+      {
+        "left": "«Allegados, son iguales»",
+        "right": "Al morir, ricos y trabajadores quedan igualados"
+      }
+    ]
+  },
+  {
+    "id": "b911-sor-juana-trivia",
+    "kind": "trivia",
+    "title": "Hombres necios",
+    "source": "Redondillas «A los hombres», Sor Juana Inés de la Cruz (s. XVII, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Obras selectas de la celebre monja de Mejico, sor Juana Ines de la Cruz",
+      "creator": "Sor Juana Inés de la Cruz"
+    },
+    "text": "Hombres necios, que acusais / A la mujer, sin razon, / Sin ver que sois la ocasion / De lo mismo que culpais; […] Parecer quiere el denuedo / De vuestro parecer loco / Al niño que pone el coco, / Y luego le tiene miedo. […] ¿Qué humor puede haber mas raro / Que el que falto de consejo, / El mismo empañe el espejo / Y sienta que no esté claro? / Con el favor y el desden / Teneis condicion igual, / Quejandoos si os tratan mal, / Burlandoos si os quieren bien.",
+    "questions": [
+      {
+        "prompt": "¿A quién se dirige la voz poética?",
+        "options": [
+          "A las mujeres de su convento",
+          "A los hombres que acusan a la mujer",
+          "A un amante en particular",
+          "A Dios"
+        ],
+        "answer": 1,
+        "explanation": "El vocativo inicial lo dice: «Hombres necios, que acusáis a la mujer»."
+      },
+      {
+        "prompt": "¿Cuál es la tesis del poema?",
+        "options": [
+          "Los hombres culpan a las mujeres de lo que ellos mismos provocan",
+          "Las mujeres deben obedecer",
+          "El amor siempre es feliz",
+          "Los niños temen al coco"
+        ],
+        "answer": 0,
+        "explanation": "«Sin ver que sois la ocasión de lo mismo que culpáis»: los acusa de contradicción."
+      },
+      {
+        "prompt": "¿Qué función cumplen las imágenes del niño que pone el coco y del que empaña el espejo?",
+        "options": [
+          "Describir un paisaje",
+          "Contar una anécdota de su infancia",
+          "Ilustrar con ejemplos cotidianos lo absurdo de la conducta criticada",
+          "Cambiar de tema"
+        ],
+        "answer": 2,
+        "explanation": "Son analogías: quien crea el problema y luego se queja de él."
+      },
+      {
+        "prompt": "¿Por qué es significativo este poema en su contexto histórico?",
+        "options": [
+          "Porque fue escrito por un rey",
+          "Porque es el primer poema en español",
+          "Porque habla de la conquista",
+          "Porque una mujer del siglo XVII cuestiona con argumentos la doble moral hacia las mujeres"
+        ],
+        "answer": 3,
+        "explanation": "Sor Juana, en la Nueva España, defendió con razonamientos la dignidad de las mujeres."
+      }
+    ]
+  },
+  {
+    "id": "b911-larra-trivia",
+    "kind": "trivia",
+    "title": "Vuelva usted mañana",
+    "source": "Artículo «Vuelva usted mañana», de Mariano José de Larra (1833), en Fígaro (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Fígaro (Artículos selectos)",
+      "creator": "Mariano José de Larra"
+    },
+    "text": "—Mirad—le dije,—monsieur Sans-délai—que así se llamaba;—vos venís decidido a pasar quince días, y a solventar en ellos vuestros asuntos. […] —Permitidme […] que os convide a comer para el día en que llevéis quince meses de estancia en Madrid. […] —¿Pues para esto he echado yo mi viaje tan largo? ¿Después de seis meses no habré conseguido sino que me digan en todas partes diariamente: Vuelva usted mañana, y cuando este dichoso mañana llega, en fin, nos dicen redondamente que no? […] —¿Intriga, M. Sans-délai? No hay hombre capaz de seguir dos horas una intriga. La pereza es la verdadera intriga.",
+    "questions": [
+      {
+        "prompt": "¿Cuánto tiempo pensaba quedarse el extranjero en Madrid?",
+        "options": [
+          "Quince meses",
+          "Quince días",
+          "Seis meses",
+          "Un año"
+        ],
+        "answer": 1,
+        "explanation": "Sans-délai llega convencido de resolver todo en quince días."
+      },
+      {
+        "prompt": "¿Por qué es irónico el nombre «Sans-délai»?",
+        "options": [
+          "Porque significa «sin demora» y todo se demora",
+          "Porque es un nombre español",
+          "Porque significa «mañana»",
+          "Porque es el nombre del narrador"
+        ],
+        "answer": 0,
+        "explanation": "En francés significa «sin demora»: el choque con la lentitud española produce la ironía."
+      },
+      {
+        "prompt": "Según el narrador, ¿cuál es la verdadera causa de los retrasos?",
+        "options": [
+          "Una intriga contra el extranjero",
+          "La falta de dinero",
+          "La pereza",
+          "Las leyes extranjeras"
+        ],
+        "answer": 2,
+        "explanation": "«La pereza es la verdadera intriga»: es el blanco de la sátira."
+      },
+      {
+        "prompt": "¿A qué género pertenece el texto?",
+        "options": [
+          "Novela de aventuras",
+          "Poema lírico",
+          "Obra de teatro",
+          "Artículo de costumbres satírico"
+        ],
+        "answer": 3,
+        "explanation": "Larra critica con humor las costumbres de la sociedad y la administración de su época."
+      }
+    ]
+  },
+  {
+    "id": "b911-larra-secuencia",
+    "kind": "sequence",
+    "title": "Ordena el viaje de Sans-délai",
+    "source": "Artículo «Vuelva usted mañana», de Mariano José de Larra (1833), en Fígaro (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Fígaro (Artículos selectos)",
+      "creator": "Mariano José de Larra"
+    },
+    "text": "Ordena los hechos del artículo de Larra.",
+    "steps": [
+      "Monsieur Sans-délai llega a Madrid con un plan para resolverlo todo en quince días.",
+      "El narrador le invita a comer el día en que cumpla quince meses en Madrid.",
+      "Su expediente sale de una oficina y nunca llega a la otra.",
+      "Hay que hacer otro expediente y volver a empezar.",
+      "Después de casi medio año, el plan es «negado».",
+      "El narrador concluye que la pereza es la verdadera intriga."
+    ]
+  },
+  {
+    "id": "b911-martin-fierro-trivia",
+    "kind": "trivia",
+    "title": "Los consejos de Martín Fierro",
+    "source": "La vuelta de Martín Fierro, José Hernández (1879, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "La Vuelta de Martín Fierro",
+      "creator": "José Hernández"
+    },
+    "text": "Muchas cosas pierde el hombre / que a veces las vuelve a hallar; / pero les debo enseñar, / y es gúeno que lo recuerden: / si la verguenza se pierde, / jamás se vuelve a encontrar. // Los hermanos sean unidos / porque ésa es la ley primera / tengan unión verdadera / en cualquier tiempo que sea, / porque, si entre ellos pelean, / los devoran los de ajuera. // Respeten a los ancianos: / el burlarlos no es hazaña; […]",
+    "questions": [
+      {
+        "prompt": "Según el texto, ¿qué es lo que, si se pierde, no se vuelve a encontrar?",
+        "options": [
+          "El dinero",
+          "La vergüenza",
+          "La tierra",
+          "El caballo"
+        ],
+        "answer": 1,
+        "explanation": "La primera sextina distingue lo que se recupera de lo que no: la vergüenza (el pudor, la honra)."
+      },
+      {
+        "prompt": "¿Qué argumento da para que los hermanos estén unidos?",
+        "options": [
+          "Que si pelean entre ellos, los de afuera los vencen",
+          "Que así lo manda la ley escrita",
+          "Que heredarán más",
+          "Que trabajarán menos"
+        ],
+        "answer": 0,
+        "explanation": "«Si entre ellos pelean, los devoran los de ajuera»: la unión protege."
+      },
+      {
+        "prompt": "¿Qué función tienen formas como «gúeno» y «ajuera»?",
+        "options": [
+          "Son errores de imprenta",
+          "Son palabras de otro idioma",
+          "Reproducen el habla rural del gaucho",
+          "Son arcaísmos medievales"
+        ],
+        "answer": 2,
+        "explanation": "La poesía gauchesca imita la oralidad del campo rioplatense."
+      },
+      {
+        "prompt": "¿Qué tipo de texto predomina en este fragmento?",
+        "options": [
+          "Narrativo",
+          "Descriptivo",
+          "Expositivo científico",
+          "Exhortativo: da consejos"
+        ],
+        "answer": 3,
+        "explanation": "Los verbos en subjuntivo e imperativo («sean unidos», «respeten») indican consejo."
+      }
+    ]
+  },
+  {
+    "id": "b911-si-ninas-trivia",
+    "kind": "trivia",
+    "title": "El sí de las niñas",
+    "source": "El sí de las niñas, Leandro Fernández de Moratín (1806, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "El sí de las niñas",
+      "creator": "Leandro Fernández de Moratín"
+    },
+    "text": "D. Diego: Ve aquí los frutos de la educacion. Esto es lo que se llama criar bien á una niña; enseñarla á que desmienta y oculte las pasiones mas inocentes con una pérfida disimulacion. […] Todo se las permite, menos la sinceridad. Con tal que no digan lo que sienten, con tal que finjan aborrecer lo que mas desean, con tal que se presten á pronunciar, cuando se lo manden, un sí perjuro […], ya están bien criadas; y se llama escelente educacion la que inspira en ellas el temor, la astucia y el silencio de un esclavo.",
+    "questions": [
+      {
+        "prompt": "¿Qué critica Don Diego en este parlamento?",
+        "options": [
+          "La falta de escuelas",
+          "Una educación que enseña a las jóvenes a callar y fingir lo que sienten",
+          "La desobediencia de los jóvenes",
+          "El exceso de lectura"
+        ],
+        "answer": 1,
+        "explanation": "Denuncia que «todo se las permite, menos la sinceridad»."
+      },
+      {
+        "prompt": "¿A qué «sí» alude el título de la obra?",
+        "options": [
+          "Al «sí» que se obliga a pronunciar a una joven en un matrimonio impuesto",
+          "A un acuerdo comercial",
+          "A una respuesta en un examen",
+          "A una canción popular"
+        ],
+        "answer": 0,
+        "explanation": "El «sí perjuro» es el consentimiento forzado, sin libertad real."
+      },
+      {
+        "prompt": "¿Qué tres rasgos, según Don Diego, produce esa «excelente educación»?",
+        "options": [
+          "Valor, prudencia y alegría",
+          "Fe, esperanza y caridad",
+          "El temor, la astucia y el silencio de un esclavo",
+          "Orden, limpieza y obediencia"
+        ],
+        "answer": 2,
+        "explanation": "La enumeración final resume con ironía los efectos de esa educación."
+      },
+      {
+        "prompt": "¿Con qué movimiento se relaciona esta defensa de la razón y la libertad para elegir?",
+        "options": [
+          "Romanticismo",
+          "Barroco",
+          "Vanguardias",
+          "Ilustración (Neoclasicismo)"
+        ],
+        "answer": 3,
+        "explanation": "Moratín, autor ilustrado, usa el teatro para educar y criticar costumbres como los matrimonios impuestos."
+      }
+    ]
+  },
+  {
+    "id": "b911-si-ninas-personajes",
+    "kind": "match",
+    "title": "Personajes de El sí de las niñas",
+    "source": "El sí de las niñas, Leandro Fernández de Moratín (1806, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "El sí de las niñas",
+      "creator": "Leandro Fernández de Moratín"
+    },
+    "text": "Relaciona cada personaje con su descripción.",
+    "pairs": [
+      {
+        "left": "Don Diego",
+        "right": "Hombre de cincuenta y nueve años que va a casarse con una joven"
+      },
+      {
+        "left": "Doña Francisca (Paquita)",
+        "right": "Joven de dieciséis años que sale del convento de Guadalajara"
+      },
+      {
+        "left": "Doña Irene",
+        "right": "Madre de Doña Francisca"
+      },
+      {
+        "left": "Don Carlos",
+        "right": "Sobrino de Don Diego que se hizo llamar Don Félix"
+      },
+      {
+        "left": "Simón",
+        "right": "Criado que ha servido a Don Diego muchos años"
+      }
+    ]
+  },
+  {
+    "id": "b911-ariel-trivia",
+    "kind": "trivia",
+    "title": "Ariel y Calibán",
+    "source": "Ariel, José Enrique Rodó (1900, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Ariel",
+      "creator": "José Enrique Rodó"
+    },
+    "text": "[En la sala de estudio había] un bronce primoroso que figuraba al Ariel de La Tempestad. Junto a este bronce se sentaba habitualmente el maestro, y por ello le llamaban con el nombre del mago a quien sirve y favorece en el drama el fantástico personaje que había interpretado el escultor. […] Ariel, genio del aire, representa, en el simbolismo de la obra de Shakespeare, la parte noble y alada del espíritu. Ariel es el imperio de la razón y el sentimiento sobre los bajos estímulos de la irracionalidad; […] rectificando en el hombre superior los tenaces vestigios de Calibán, símbolo de sensualidad y de torpeza.",
+    "questions": [
+      {
+        "prompt": "¿Qué representa Ariel en el texto?",
+        "options": [
+          "La fuerza militar",
+          "La parte noble y alada del espíritu",
+          "La riqueza material",
+          "La naturaleza salvaje"
+        ],
+        "answer": 1,
+        "explanation": "Rodó lo define como «la parte noble y alada del espíritu»."
+      },
+      {
+        "prompt": "¿Qué simboliza Calibán?",
+        "options": [
+          "La sensualidad y la torpeza",
+          "La sabiduría",
+          "El arte",
+          "La juventud"
+        ],
+        "answer": 0,
+        "explanation": "Calibán es el polo opuesto a Ariel en el sistema simbólico de Rodó."
+      },
+      {
+        "prompt": "¿Por qué llamaban al maestro con el nombre de un mago (Próspero)?",
+        "options": [
+          "Porque hacía trucos",
+          "Porque había escrito La Tempestad",
+          "Porque se sentaba junto a la estatua de Ariel, el personaje que sirve a ese mago",
+          "Porque era muy viejo"
+        ],
+        "answer": 2,
+        "explanation": "En La Tempestad, Ariel sirve al mago Próspero; el apodo nace de esa relación."
+      },
+      {
+        "prompt": "¿Qué recurso usa Rodó al tomar personajes de Shakespeare para hablar de valores?",
+        "options": [
+          "Onomatopeya",
+          "Hipérbaton",
+          "Rima asonante",
+          "Intertextualidad y simbolismo"
+        ],
+        "answer": 3,
+        "explanation": "Retoma una obra anterior y convierte a sus personajes en símbolos de ideas."
+      }
+    ]
+  },
+  {
+    "id": "b911-a-la-deriva-trivia",
+    "kind": "trivia",
+    "title": "A la deriva",
+    "source": "«A la deriva», en Cuentos de amor de locura y de muerte, Horacio Quiroga (1917, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Cuentos de Amor de Locura y de Muerte",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "El hombre pisó algo blanduzco, y en seguida sintió la mordedura en el pie. […] [Envenenado, baja a su canoa y rema por el Paraná.] El hombre pensó que no podría jamás llegar él solo a Tacurú-Pucú, y se decidió a pedir ayuda a su compadre Alves, aunque hacía mucho tiempo que estaban disgustados. […] Y de pronto, con asombro, enderezó pesadamente la cabeza: se sentía mejor. […] El cielo, al poniente, se abría ahora en pantalla de oro, y el río se había coloreado también. […] De pronto sintió que estaba helado hasta el pecho. […] —Un jueves… Y cesó de respirar.",
+    "questions": [
+      {
+        "prompt": "¿Qué le ocurre al protagonista al comienzo?",
+        "options": [
+          "Se cae de la canoa",
+          "Lo muerde una víbora",
+          "Se pierde en la selva",
+          "Pelea con su compadre"
+        ],
+        "answer": 1,
+        "explanation": "Pisa una yararacusú, una víbora venenosa, y siente la mordedura."
+      },
+      {
+        "prompt": "¿Por qué es significativo que pida ayuda a Alves?",
+        "options": [
+          "Porque estaban disgustados desde hacía tiempo, y la urgencia lo obliga",
+          "Porque Alves es médico",
+          "Porque Alves vive en Tacurú-Pucú",
+          "Porque es su hermano"
+        ],
+        "answer": 0,
+        "explanation": "El detalle muestra la desesperación: acude incluso a alguien con quien estaba peleado."
+      },
+      {
+        "prompt": "¿Qué función cumple la sensación de mejoría del final?",
+        "options": [
+          "Anuncia que se va a curar",
+          "Es un recurso cómico",
+          "Crea una ironía trágica: parece mejorar justo antes de morir",
+          "Muestra que el veneno no era fuerte"
+        ],
+        "answer": 2,
+        "explanation": "El lector intuye lo que el personaje no sabe: el bienestar precede a la muerte."
+      },
+      {
+        "prompt": "¿Qué contraste construye la descripción del río al atardecer?",
+        "options": [
+          "Entre el día y la noche",
+          "Entre la ciudad y el campo",
+          "Entre el pasado y el futuro",
+          "Entre la belleza serena del paisaje y la agonía del hombre"
+        ],
+        "answer": 3,
+        "explanation": "La naturaleza sigue indiferente y hermosa mientras el hombre muere a la deriva."
+      }
+    ]
+  },
+  {
+    "id": "b911-a-la-deriva-secuencia",
+    "kind": "sequence",
+    "title": "Ordena «A la deriva»",
+    "source": "«A la deriva», en Cuentos de amor de locura y de muerte, Horacio Quiroga (1917, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Cuentos de Amor de Locura y de Muerte",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "Ordena las acciones del protagonista del cuento de Quiroga.",
+    "steps": [
+      "Pisa una víbora y siente la mordedura en el pie.",
+      "Se liga el tobillo con un pañuelo y llega a su rancho.",
+      "Pide caña a su mujer, pero no siente ningún sabor.",
+      "Baja a la canoa y rema hasta el centro del Paraná.",
+      "Pide ayuda a gritos a su compadre Alves, que no responde.",
+      "La corriente lo lleva y él se siente mejor mientras recuerda.",
+      "Deja de respirar."
+    ]
+  },
+  {
+    "id": "b911-lorca-romance-trivia",
+    "kind": "trivia",
+    "title": "Romance sonámbulo",
+    "source": "«Romance sonámbulo», en Romancero gitano, Federico García Lorca (dominio público en Colombia).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Romancero gitano",
+      "creator": "Federico García Lorca"
+    },
+    "text": "Verde que te quiero verde. / Verde viento. Verdes ramas. / El barco sobre la mar / y el caballo en la montaña. / Con la sombra en la cintura, / ella sueña en su baranda / verde carne, pelo verde, / con ojos de fría plata. / Verde que te quiero verde. / Bajo la luna gitana, / las cosas la están mirando / y ella no puede mirarlas. […] La higuera frota su viento / con la lija de sus ramas, / y el monte, gato garduño, / eriza sus pitas agrias.",
+    "questions": [
+      {
+        "prompt": "¿Qué efecto produce la repetición de «Verde que te quiero verde»?",
+        "options": [
+          "Informa sobre el color de la casa",
+          "Funciona como estribillo que da ritmo y una atmósfera de sueño",
+          "Indica un cambio de narrador",
+          "Marca el final del poema"
+        ],
+        "answer": 1,
+        "explanation": "La reiteración, propia del romance popular, crea musicalidad y misterio."
+      },
+      {
+        "prompt": "«Las cosas la están mirando / y ella no puede mirarlas». ¿Qué figura hay en el primer verso?",
+        "options": [
+          "Personificación",
+          "Hipérbole",
+          "Onomatopeya",
+          "Aliteración"
+        ],
+        "answer": 0,
+        "explanation": "Se atribuye a objetos una acción humana: mirar."
+      },
+      {
+        "prompt": "«El monte, gato garduño, / eriza sus pitas agrias». ¿Qué recurso usa Lorca?",
+        "options": [
+          "Comparación con «como»",
+          "Pregunta retórica",
+          "Metáfora: el monte es un gato que eriza el lomo",
+          "Antítesis"
+        ],
+        "answer": 2,
+        "explanation": "Identifica el monte con un gato sin usar nexo comparativo."
+      },
+      {
+        "prompt": "¿Qué tipo de verso usa el romance tradicional que Lorca renueva aquí?",
+        "options": [
+          "Endecasílabos con rima consonante",
+          "Versos libres sin medida",
+          "Alejandrinos en pareados",
+          "Octosílabos con rima asonante en los pares"
+        ],
+        "answer": 3,
+        "explanation": "Ramas, montaña, baranda, plata: los versos pares riman en asonante (a-a)."
+      }
+    ]
+  },
+  {
+    "id": "b911-machado-caminante-trivia",
+    "kind": "trivia",
+    "title": "Caminante, no hay camino",
+    "source": "«Proverbios y cantares» XXVIII, en Poesías completas, Antonio Machado (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Poesías completas",
+      "creator": "Antonio Machado"
+    },
+    "text": "Caminante, son tus huellas / el camino, y nada más; / caminante, no hay camino, / se hace camino al andar. / Al andar se hace camino, / y al volver la vista atrás / se ve la senda que nunca / se ha de volver a pisar. / Caminante, no hay camino, / sino estelas en la mar.",
+    "questions": [
+      {
+        "prompt": "¿Qué representa el «camino» en el poema?",
+        "options": [
+          "Una carretera real",
+          "La vida que cada persona va construyendo",
+          "Un mapa",
+          "El mar"
+        ],
+        "answer": 1,
+        "explanation": "Es una metáfora: el camino es la existencia, que se hace con los propios pasos."
+      },
+      {
+        "prompt": "¿Qué significa «se ve la senda que nunca / se ha de volver a pisar»?",
+        "options": [
+          "Que el pasado no se puede repetir",
+          "Que hay que volver atrás",
+          "Que el camino está bloqueado",
+          "Que nadie camina"
+        ],
+        "answer": 0,
+        "explanation": "Lo vivido queda atrás y no se puede recorrer de nuevo."
+      },
+      {
+        "prompt": "¿Por qué compara el camino con «estelas en la mar»?",
+        "options": [
+          "Porque el poeta vivía en un barco",
+          "Porque el mar es peligroso",
+          "Porque las estelas se borran: la vida no deja un camino fijo",
+          "Porque el mar es verde"
+        ],
+        "answer": 2,
+        "explanation": "La estela de un barco desaparece pronto: imagen de lo efímero."
+      },
+      {
+        "prompt": "¿Qué recurso de repetición aparece en «se hace camino al andar. / Al andar se hace camino»?",
+        "options": [
+          "Anáfora",
+          "Onomatopeya",
+          "Hipérbole",
+          "Quiasmo (repetición en orden cruzado)"
+        ],
+        "answer": 3,
+        "explanation": "Las mismas palabras se repiten invirtiendo su orden: camino-andar / andar-camino."
+      }
+    ]
+  },
+  {
+    "id": "b911-machado-retrato",
+    "kind": "match",
+    "title": "Retrato de Machado",
+    "source": "«Retrato», en Poesías completas, Antonio Machado (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Poesías completas",
+      "creator": "Antonio Machado"
+    },
+    "text": "Relaciona cada verso de «Retrato» con lo que expresa el poeta sobre sí mismo.",
+    "pairs": [
+      {
+        "left": "«Mi infancia son recuerdos de un patio de Sevilla»",
+        "right": "Su niñez transcurrió en Sevilla"
+      },
+      {
+        "left": "«mi juventud, veinte años en tierra de Castilla»",
+        "right": "Pasó su juventud en Castilla"
+      },
+      {
+        "left": "«¿Soy clásico o romántico? No sé.»",
+        "right": "Duda sobre a qué corriente estética pertenece"
+      },
+      {
+        "left": "«A mi trabajo acudo, con mi dinero pago»",
+        "right": "Vive de su trabajo y no le debe nada a nadie"
+      },
+      {
+        "left": "«me encontraréis a bordo ligero de equipaje»",
+        "right": "Imagina la muerte como un viaje sin posesiones"
+      }
+    ]
+  },
+  {
+    "id": "b911-edad-de-oro-prologo-trivia",
+    "kind": "trivia",
+    "title": "La Edad de Oro: leer en contexto",
+    "source": "Presentación «A los niños que lean La Edad de Oro», José Martí (1889, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Para los niños es este periódico, y para las niñas, por supuesto. […] el niño nace para caballero, y la niña nace para madre. […] Para eso se publica La Edad de Oro: para que los niños americanos sepan cómo se vivía antes, y se vive hoy, en América, y en las demás tierras […]. No importa que la carta venga con faltas de ortografía. Lo que importa es que el niño quiera saber. […] Las niñas deben saber lo mismo que los niños, para poder hablar con ellos como amigos cuando vayan creciendo.",
+    "questions": [
+      {
+        "prompt": "¿Cuál es el propósito principal que declara Martí?",
+        "options": [
+          "Vender juguetes",
+          "Que los niños americanos conozcan cómo se vivía antes y se vive hoy, en América y en el mundo",
+          "Publicar solo cuentos de hadas",
+          "Enseñar ortografía"
+        ],
+        "answer": 1,
+        "explanation": "El texto lo dice con la expresión «Para eso se publica La Edad de Oro»."
+      },
+      {
+        "prompt": "¿Qué valora Martí en las cartas de los lectores?",
+        "options": [
+          "Que el niño quiera saber, aunque tenga faltas de ortografía",
+          "Que tengan buena letra",
+          "Que sean cortas",
+          "Que las firmen los padres"
+        ],
+        "answer": 0,
+        "explanation": "«Lo que importa es que el niño quiera saber»: prioriza la curiosidad."
+      },
+      {
+        "prompt": "¿Qué tensión se observa en lo que dice sobre las niñas?",
+        "options": [
+          "Las excluye por completo del periódico",
+          "Propone que estudien cosas distintas",
+          "Defiende que sepan lo mismo que los niños, pero les asigna roles tradicionales de su época",
+          "No las menciona"
+        ],
+        "answer": 2,
+        "explanation": "Junto a una idea avanzada (igual saber), aparecen roles de género propios de 1889."
+      },
+      {
+        "prompt": "¿Cómo conviene leer hoy frases como «la niña nace para madre»?",
+        "options": [
+          "Como una verdad científica",
+          "Como un error de imprenta",
+          "Como una opinión del editor actual",
+          "Como expresión de las ideas de su tiempo, que hoy se analizan críticamente"
+        ],
+        "answer": 3,
+        "explanation": "Leer en contexto histórico permite valorar la obra y a la vez discutir sus límites."
+      }
+    ]
+  },
+  {
+    "id": "b911-quijote-cap1-secuencia",
+    "kind": "sequence",
+    "title": "Así nace don Quijote",
+    "source": "Don Quijote de la Mancha, Miguel de Cervantes (dominio público).",
+    "bands": [
+      "9-11",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Don Quijote",
+      "creator": "Miguel de Cervantes Saavedra"
+    },
+    "text": "Ordena lo que hace el hidalgo en el capítulo I del Quijote.",
+    "steps": [
+      "Lee tantos libros de caballerías que «se le secó el celebro» y pierde el juicio.",
+      "Decide hacerse caballero andante.",
+      "Limpia las armas de sus bisabuelos y hace una celada con cartones.",
+      "Pasa cuatro días pensando un nombre para su caballo: Rocinante.",
+      "Se pone el nombre de don Quijote de la Mancha.",
+      "Elige a Aldonza Lorenzo como dama y la llama Dulcinea del Toboso."
+    ]
+  },
+  {
+    "id": "b911-lazarillo-escudero-secuencia",
+    "kind": "sequence",
+    "title": "Lázaro y el escudero",
+    "source": "Vida de Lazarillo de Tormes, anónimo (1554, dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Vida De Lazarillo De Tormes Y De Sus Fortunas Y Adversidades",
+      "creator": "Anónimo"
+    },
+    "text": "Ordena el episodio del Tratado tercero en que Lázaro alimenta a su amo, el escudero.",
+    "steps": [
+      "Lázaro espera a su amo hasta las dos, pero no trae comida.",
+      "Lázaro pide pan por las puertas de las casas.",
+      "Una mujer de la tripería le da un pedazo de uña de vaca.",
+      "El escudero le dice que ya comió y le pide que no cuente que vive con él, por su honra.",
+      "Mientras Lázaro come, el escudero elogia su «gracia» para comer.",
+      "Lázaro le ofrece la uña de vaca y el escudero se la come con muchas ganas."
+    ]
+  },
+  {
+    "id": "b911-hidalgo-secuencia",
+    "kind": "sequence",
+    "title": "Hidalgo según Martí",
+    "source": "Crónica «Tres héroes», de La Edad de Oro, José Martí (dominio público).",
+    "bands": [
+      "9-11",
+      "6-8"
+    ],
+    "resource": {
+      "title": "La Edad de Oro",
+      "creator": "José Martí"
+    },
+    "text": "Ordena los hechos de la vida del cura Miguel Hidalgo tal como los cuenta Martí.",
+    "steps": [
+      "Hidalgo, cura de Dolores, enseña a los indígenas la música, la cría del gusano de seda y la de la abeja.",
+      "Un traidor avisa a un comandante español de que los amigos de Querétaro quieren hacer libre a México.",
+      "Hidalgo monta a caballo con todo su pueblo.",
+      "Entra triunfante en Celaya y lo nombran general.",
+      "Declara libres a las personas esclavizadas y devuelve sus tierras a los indígenas.",
+      "Cede el mando a su compañero Allende."
+    ]
+  },
+  {
+    "id": "b911-cajal-voluntad",
+    "kind": "match",
+    "title": "Enfermedades de la voluntad",
+    "source": "Reglas y consejos sobre investigación científica, capítulo V, Santiago Ramón y Cajal (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Reglas y consejos sobre investigación científica (Los tónicos de la voluntad)",
+      "creator": "Santiago Ramón y Cajal"
+    },
+    "text": "Ramón y Cajal describe con humor a investigadores talentosos que no producen obra propia. Relaciona cada tipo con su descripción.",
+    "pairs": [
+      {
+        "left": "Contempladores",
+        "right": "Admiran la belleza de la naturaleza, pero no aportan conocimiento nuevo"
+      },
+      {
+        "left": "Bibliófilos",
+        "right": "Leen todo lo novísimo y conversan de ello, pero no escriben ni investigan"
+      },
+      {
+        "left": "Organófilos",
+        "right": "Veneran los instrumentos y los guardan bajo llave para que nadie los use"
+      },
+      {
+        "left": "Megalófilos",
+        "right": "Quieren empezar con un gran descubrimiento en lugar de abordar problemas pequeños"
+      },
+      {
+        "left": "Descentrados",
+        "right": "Ocupan un oficio contrario a su vocación y no tienen energía para cambiar"
+      },
+      {
+        "left": "Teorizantes",
+        "right": "Tienen talento para exponer, pero rehúyen el laboratorio y los hechos menudos"
+      }
+    ]
+  },
+  {
+    "id": "b911-becquer-figuras",
+    "kind": "match",
+    "title": "Figuras literarias en las Rimas",
+    "source": "Rimas XXI, LII y LIII, en Obras escogidas, Gustavo Adolfo Bécquer (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Obras escogidas",
+      "creator": "Gustavo Adolfo Bécquer"
+    },
+    "text": "Relaciona cada fragmento de las Rimas de Bécquer con la figura literaria que lo caracteriza.",
+    "pairs": [
+      {
+        "left": "«¿Qué es poesía? ¿Y tú me lo preguntas? / Poesía… eres tú.»",
+        "right": "Metáfora: identifica la poesía con la amada"
+      },
+      {
+        "left": "«Volverán las oscuras golondrinas… / Volverán las tupidas madreselvas… / Volverán del amor en tus oídos…»",
+        "right": "Anáfora: repetición al inicio de los versos"
+      },
+      {
+        "left": "«Cuyas gotas mirábamos temblar / Y caer, como lágrimas del día»",
+        "right": "Comparación o símil, con el nexo «como»"
+      },
+      {
+        "left": "«Olas gigantes, que os rompéis bramando… / ¡Llevadme con vosotras!»",
+        "right": "Apóstrofe: el poeta se dirige a seres de la naturaleza"
+      },
+      {
+        "left": "«¿Y tú me lo preguntas?»",
+        "right": "Pregunta retórica: no espera respuesta"
+      }
+    ]
+  }
+]

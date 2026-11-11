@@ -1,0 +1,33 @@
+{
+ "title": "Ilustraciones del Quijote",
+ "description": "Don Quijote de la Mancha, la novela de Miguel de Cervantes (1605 y 1615), en los famosos grabados de Gustave Doré y otras ilustraciones del siglo XIX: los libros de caballerías, los molinos de viento, las bodas de Camacho y el vuelo en Clavileño.",
+ "gradeMin": 4, "gradeMax": 11,
+ "categories": ["Literatura", "Literatura española", "Artes", "Ilustración"],
+ "cover": 2,
+ "credits": {"1": "Gustave Doré (dibujo) y Héliodore Pisan (grabado), 1863", "8": "Luis Tasso (ilustración, c. 1894); Fondo Antiguo de la Biblioteca de la Universidad de Sevilla"},
+ "items": [
+  ["Grabado de un hombre delgado sentado en un sillón, con un libro y una espada en alto, rodeado de caballeros, damas, dragones y monstruos que salen de sus libros.",
+   "Don Quijote leyendo libros de caballerías. Cervantes cuenta que de tanto leer y poco dormir 'se le secó el celebro' y decidió hacerse caballero andante. Grabado de Gustave Doré (1863)."],
+  ["Grabado de un caballero con lanza levantado en el aire por el aspa de un molino de viento, mientras su caballo cae y otros molinos se ven al fondo.",
+   "La aventura de los molinos de viento: don Quijote cree que son gigantes y los ataca, pero el aspa lo lanza por los aires. Es la escena más famosa de la novela."],
+  ["Grabado de una habitación en desorden donde una cama se rompe y varias figuras caen enredadas entre sábanas y ropa colgada.",
+   "En la venta, el lecho de don Quijote 'que era un poco endeble' se viene al suelo en medio de una confusión nocturna. Doré dibujó con humor las aventuras de la venta."],
+  ["Pintura de una escena en una casa: un caballero delgado sentado conversa con una pareja y otras personas que le ofrecen comida.",
+   "Don Quijote y Sancho Panza agasajados por Basilio y Quiteria, en una pintura al óleo de Doré. Recuerda el episodio de las bodas de Camacho, en la segunda parte."],
+  ["Grabado de un caballero montado en un caballo con alas que vuela sobre un montón de libros y personajes caídos.",
+   "Grabado del prólogo de la novela. Cervantes escribió el Quijote para burlarse de los libros de caballerías, muy populares en su época."],
+  ["Grabado de un escudero que ayuda a un caballero caído junto a su caballo derribado, con un molino de viento detrás.",
+   "Sancho Panza acude a ayudar a su amo después de la aventura de los molinos. Sancho, campesino práctico y gracioso, es el contrapunto del idealista don Quijote."],
+  ["Grabado oscuro de un hombre muy flaco sentado en lo alto de unas rocas en la montaña, y otra figura más abajo.",
+   "En Sierra Morena, don Quijote hace penitencia por amor a Dulcinea. Sancho cuenta que lo encontró 'flaco, amarillo y muerto de hambre, suspirando por su señora Dulcinea'."],
+  ["Ilustración en color de un caballero y su escudero montados en un caballo de madera que vuela en el cielo nocturno, con la luna al fondo.",
+   "Don Quijote y Sancho, con los ojos vendados, 'vuelan' en Clavileño, un caballo de madera, en una broma que les hacen unos duques. Ilustración de Luis Tasso (hacia 1894)."]
+ ],
+ "questions": [
+  ["¿Qué creía don Quijote que eran los molinos de viento?", ["Gigantes", "Castillos", "Barcos"], 0, "Los atacó con su lanza y el aspa lo lanzó por el aire."],
+  ["¿Quién escribió Don Quijote de la Mancha?", ["Miguel de Cervantes", "Gabriel García Márquez", "William Shakespeare"], 0, "Cervantes publicó la primera parte en 1605."],
+  ["¿Cómo se llama el escudero de don Quijote?", ["Sancho Panza", "Rocinante", "Dulcinea"], 0, "Rocinante es su caballo y Dulcinea su dama."],
+  ["¿Qué tipo de libros volvieron loco a don Quijote?", ["Libros de caballerías", "Libros de cocina", "Libros de matemáticas"], 0, "Cervantes quería burlarse de ellos."]
+ ],
+ "reviewNotes": null
+}

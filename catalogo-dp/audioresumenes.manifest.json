@@ -1,0 +1,1892 @@
+[
+  {
+    "file": "audioresumenes/macondo-la-lechera.mp3",
+    "cover": "portadas/macondo-la-lechera.png",
+    "title": "Audioresumen: La lechera",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la fábula de Samaniego sobre la lechera que soñaba con hacerse rica antes de vender su leche.",
+    "gradeMin": 1,
+    "gradeMax": 4,
+    "categories": [
+      "Resúmenes",
+      "Fábulas",
+      "Poesía",
+      "Valores"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 114,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "la-lechera",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/55206",
+      "catalogFile": "demo-content/files/samaniego-fabulas.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1801,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1801). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "eb4c537fc034ccb1b0d50c90705a5c3807502b0ae1f3189de5b99553180ece33",
+    "sizeBytes": 916345,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 308 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de La lechera, de Félix María Samaniego. Biblioteca Macondo.\n\nLa lechera es una de las fábulas más famosas de Félix María Samaniego, un escritor español del siglo dieciocho. Las fábulas son historias cortas, muchas veces en verso, que terminan con una enseñanza llamada moraleja.\n\nUna joven lechera camina sola hacia el mercado con un cántaro de leche sobre la cabeza. Va muy contenta y, mientras camina, empieza a imaginar todo lo que hará con el dinero.\n\nPiensa: con lo que me den por la leche compraré un canasto de huevos. De los huevos saldrán cien pollitos. Cuando crezcan, los venderé y compraré un cerdito. Lo engordaré con bellotas y castañas hasta que esté enorme. Luego lo venderé y compraré una vaca y un ternero que saltará por el campo.\n\nLa lechera se emociona tanto con sus sueños que da un brinco de alegría. Y entonces... ¡el cántaro cae al suelo y se rompe! Adiós leche, adiós dinero, adiós huevos, pollos, cerdito, vaca y ternero.\n\nLa fábula termina con un consejo: no hay que construir castillos en el aire ni ser demasiado ambiciosos, porque mientras soñamos con el futuro podemos descuidar lo que tenemos en el presente.\n\nEsta historia es muy antigua y se ha contado de muchas maneras en distintos países. Samaniego la escribió en verso, con rimas, para que fuera fácil de recordar. Puedes buscarla en el libro de Fábulas de la biblioteca y leerla en voz alta con tu familia.\n\nIdeas principales. Soñar está bien, pero hay que poner atención a lo que hacemos ahora. No conviene contar con algo antes de tenerlo. Las fábulas enseñan con historias breves y una moraleja.\n\nPreguntas para pensar. ¿Qué llevaba la lechera en la cabeza? ¿Qué pensaba comprar primero con el dinero? ¿Por qué se rompió el cántaro? ¿Cuál es la moraleja?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "La lechera",
+    "relatedCreator": "Félix María Samaniego",
+    "questions": [
+      {
+        "prompt": "¿Qué llevaba la lechera en la cabeza?",
+        "options": [
+          "Un cántaro de leche",
+          "Una canasta de frutas",
+          "Un sombrero"
+        ],
+        "answer": 0,
+        "explanation": "Llevaba un cántaro de leche al mercado."
+      },
+      {
+        "prompt": "¿Qué pensaba comprar primero con el dinero?",
+        "options": [
+          "Una vaca",
+          "Un canasto de huevos",
+          "Un vestido"
+        ],
+        "answer": 1,
+        "explanation": "Primero quería comprar huevos para sacar pollitos."
+      },
+      {
+        "prompt": "¿Por qué se rompió el cántaro?",
+        "options": [
+          "Porque la lechera dio un salto de alegría",
+          "Porque la empujó un perro",
+          "Porque llovió"
+        ],
+        "answer": 0,
+        "explanation": "Se emocionó tanto que brincó y el cántaro cayó."
+      },
+      {
+        "prompt": "¿Cuál es la moraleja?",
+        "options": [
+          "No hacer castillos en el aire y cuidar el presente",
+          "Hay que correr al mercado",
+          "La leche es mala"
+        ],
+        "answer": 0,
+        "explanation": "No hay que contar con lo que aún no tenemos."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-la-tortuga-gigante.mp3",
+    "cover": "portadas/macondo-la-tortuga-gigante.png",
+    "title": "Audioresumen: La tortuga gigante",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del cuento de Cuentos de la selva en que una tortuga salva al cazador que antes la había curado.",
+    "gradeMin": 1,
+    "gradeMax": 4,
+    "categories": [
+      "Resúmenes",
+      "Cuentos",
+      "Naturaleza",
+      "Literatura latinoamericana"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 133,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "la-tortuga-gigante",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://es.wikisource.org/wiki/La_tortuga_gigante",
+      "catalogFile": null
+    },
+    "rights": {
+      "authorDeathYear": 1937,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1937). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "ae53914455ec98abdeb658be4958b26100f4cdee6ef484762f1050f08e6ac925",
+    "sizeBytes": 1068072,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 366 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de La tortuga gigante, de Horacio Quiroga. Biblioteca Macondo.\n\nLa tortuga gigante es uno de los Cuentos de la selva, que el escritor uruguayo Horacio Quiroga publicó en 1918.\n\nHabía una vez un hombre que vivía en Buenos Aires y trabajaba mucho para dar de comer a sus hermanitos. Un día se enfermó, y los médicos le dijeron que solo se curaría si se iba a vivir al campo. Un amigo suyo, director del zoológico, le propuso irse al monte, lejos, más allá de Misiones, a respirar aire puro.\n\nEn el monte, el hombre se puso fuerte otra vez. Un día vio cómo un tigre atacaba a una tortuga enorme, tan alta como una silla. El cazador disparó contra el tigre y salvó a la tortuga, pero ella quedó muy herida. Aunque el hombre tenía hambre, sintió lástima por ella. La llevó a su refugio, le vendó la cabeza con tiras de su única camisa y la cuidó durante muchos días hasta que sanó.\n\nDespués fue el hombre quien se enfermó de fiebre. Estaba solo y no podía levantarse. Entonces la tortuga, que lo había escuchado, decidió ayudarlo. Le dio agua en una cáscara de tortuga pequeña y le buscó raíces tiernas para comer. Y cuando comprendió que solo en Buenos Aires había remedios para él, lo amarró con enredaderas sobre su caparazón y emprendió un larguísimo viaje.\n\nCaminó de día y de noche, cruzó ríos y pantanos, y casi no comía para llegar más rápido. Cuando ya no tenía fuerzas, un ratoncito le contó que la luz que veía a lo lejos era la ciudad. La tortuga sacó fuerzas y llegó al zoológico. El director curó a su amigo, y la tortuga se quedó a vivir allí, querida por todos. El cazador la visita cada tarde.\n\nIdeas principales. La bondad se devuelve: quien ayuda puede ser ayudado. La gratitud y la perseverancia pueden lograr cosas muy difíciles. Los animales merecen respeto y cuidado.\n\nPreguntas para pensar. ¿Por qué el hombre se fue a vivir al monte? ¿Qué hizo el hombre con la tortuga herida? ¿Cómo ayudó la tortuga al hombre? ¿Qué valor muestra la tortuga en el cuento?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "La tortuga gigante",
+    "relatedCreator": "Horacio Quiroga",
+    "questions": [
+      {
+        "prompt": "¿Por qué el hombre se fue a vivir al monte?",
+        "options": [
+          "Para cazar tigres",
+          "Porque estaba enfermo y necesitaba aire puro",
+          "Porque se perdió"
+        ],
+        "answer": 1,
+        "explanation": "Los médicos le dijeron que en el campo se curaría."
+      },
+      {
+        "prompt": "¿Qué hizo el hombre con la tortuga herida?",
+        "options": [
+          "Se la comió",
+          "La curó con tiras de su camisa",
+          "La dejó sola"
+        ],
+        "answer": 1,
+        "explanation": "Le vendó la cabeza y la cuidó hasta que sanó."
+      },
+      {
+        "prompt": "¿Cómo ayudó la tortuga al hombre?",
+        "options": [
+          "Lo llevó sobre su caparazón hasta Buenos Aires",
+          "Llamó a un médico por teléfono",
+          "Le cantó una canción"
+        ],
+        "answer": 0,
+        "explanation": "Lo cargó en un viaje larguísimo hasta la ciudad."
+      },
+      {
+        "prompt": "¿Qué valor muestra la tortuga en el cuento?",
+        "options": [
+          "La gratitud",
+          "La pereza",
+          "El egoísmo"
+        ],
+        "answer": 0,
+        "explanation": "Devolvió el bien que le habían hecho."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-raton-perez.mp3",
+    "cover": "portadas/macondo-raton-perez.png",
+    "title": "Audioresumen: Ratón Pérez",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del cuento en que el pequeño rey Buby acompaña al Ratón Pérez a casa de Gilito, un niño pobre, y descubre que todos los niños son hermanos.",
+    "gradeMin": 1,
+    "gradeMax": 4,
+    "categories": [
+      "Resúmenes",
+      "Cuentos",
+      "Literatura española",
+      "Valores"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 130,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "raton-perez",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/36558",
+      "catalogFile": "libros/gutenberg-36558.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1915,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1915). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "b664f1aa8cf7fee80e06d3f7430de79b34deeed54d6ff84afc3a182c54719974",
+    "sizeBytes": 1036746,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 371 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Ratón Pérez, de Luis Coloma. Biblioteca Macondo.\n\nEste cuento fue escrito hacia 1891 por el padre Luis Coloma para un niño de verdad: el pequeño rey Alfonso XIII de España. Según se cuenta, lo escribió cuando al niño rey se le cayó un diente.\n\nEn el cuento, el protagonista es el rey Buby, un niño pequeño que reina con la ayuda de su madre. Un día se le mueve un diente y los médicos de la corte se lo sacan. Su mamá, la reina, le dice que escriba una carta al Ratón Pérez y que ponga el diente debajo de la almohada.\n\nEsa noche aparece un ratoncito muy elegante, con sombrero de paja, lentes de oro y una cartera roja. Es el Ratón Pérez. Buby y él se hacen amigos enseguida. El ratón le cuenta que debe ir a recoger el diente de otro niño, Gilito, que es muy pobre.\n\nBuby quiere acompañarlo. Con un cosquilleo en la nariz, el Ratón Pérez lo convierte en un ratoncito dorado. Juntos recorren túneles oscuros, visitan la casa de la familia Pérez, que vive en una caja de galletas, y pasan con mucho cuidado junto a un gato enorme llamado don Gaiferos.\n\nPor fin llegan a la buhardilla donde vive Gilito con su madre. Hace frío, no hay comida y el niño duerme sobre trapos. Buby nunca había visto tanta pobreza y se pone a llorar. Luego oye que Gilito reza el Padrenuestro, igual que él.\n\nAl día siguiente, Buby despierta en su cama con un regalo valioso, pero casi no lo mira. Le pregunta a su madre por qué los niños pobres rezan lo mismo que él. La reina le explica que todos son hermanos, y que un rey es como el hermano mayor que debe cuidar a los demás. Buby lo recuerda toda su vida.\n\nIdeas principales. Todos los niños y niñas, ricos o pobres, son iguales en dignidad. Conocer la realidad de otras personas despierta la compasión. Quien tiene más tiene también la responsabilidad de ayudar.\n\nPreguntas para pensar. ¿Qué debía hacer Buby con su diente? ¿En qué se convirtió Buby para acompañar al ratón? ¿Cómo vivía Gilito? ¿Qué aprendió Buby al final?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Ratón Pérez",
+    "relatedCreator": "Luis Coloma",
+    "questions": [
+      {
+        "prompt": "¿Qué debía hacer Buby con su diente?",
+        "options": [
+          "Tirarlo al río",
+          "Ponerlo debajo de la almohada con una carta",
+          "Guardarlo en una caja de oro"
+        ],
+        "answer": 1,
+        "explanation": "La reina le pidió escribir al Ratón Pérez y poner el diente bajo la almohada."
+      },
+      {
+        "prompt": "¿En qué se convirtió Buby para acompañar al ratón?",
+        "options": [
+          "En un pájaro",
+          "En un ratoncito dorado",
+          "En un gato"
+        ],
+        "answer": 1,
+        "explanation": "Con un estornudo se convirtió en un ratoncito dorado."
+      },
+      {
+        "prompt": "¿Cómo vivía Gilito?",
+        "options": [
+          "En un palacio",
+          "En una buhardilla fría y pobre",
+          "En una granja"
+        ],
+        "answer": 1,
+        "explanation": "Vivía con su madre en una buhardilla muy pobre."
+      },
+      {
+        "prompt": "¿Qué aprendió Buby al final?",
+        "options": [
+          "Que los niños pobres son sus hermanos",
+          "Que los ratones son peligrosos",
+          "Que los dientes valen mucho dinero"
+        ],
+        "answer": 0,
+        "explanation": "Su madre le explicó que todos son hermanos."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-bebe-y-el-senor-don-pomposo.mp3",
+    "cover": "portadas/macondo-bebe-y-el-senor-don-pomposo.png",
+    "title": "Audioresumen: Bebé y el señor don Pomposo",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del cuento de La Edad de Oro en que un niño rico decide regalar su sable dorado a su primo huérfano.",
+    "gradeMin": 2,
+    "gradeMax": 5,
+    "categories": [
+      "Resúmenes",
+      "Cuentos",
+      "Literatura latinoamericana",
+      "Valores"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 116,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "bebe-y-el-senor-don-pomposo",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/19898",
+      "catalogFile": "demo-content/files/marti-la-edad-de-oro.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1895,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1895). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "cdcc786f51f703a1ced35132c12f21522c3781ff6e8da1a2ad41bbccde8c486a",
+    "sizeBytes": 926855,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 336 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Bebé y el señor don Pomposo, de José Martí. Biblioteca Macondo.\n\nEste cuento forma parte de La Edad de Oro, la revista para niños que José Martí escribió en 1889.\n\nBebé es un niño de cinco años, de cabello rubio y rizado, que viste ropa muy elegante. No es perfecto: a veces hace travesuras. Pero tiene buen corazón. Quiere mucho a su mamá, le lleva azúcar a su caballo y, cuando ve a un niño descalzo, quiere darle todo lo que tiene.\n\nBebé va a viajar a París con su mamá, que está enferma de tos, y esta vez lo acompaña su primo Raúl, un niño que no tiene mamá y que no viste ropas lujosas.\n\nAntes del viaje visitan al tío de la mamá, el señor don Pomposo, un hombre muy alto, muy estirado y muy interesado en el dinero. Don Pomposo trata a Bebé como a un pequeño rey, lo llena de besos y le regala un sable dorado muy caro. En cambio, a Raúl ni siquiera lo saluda. Raúl mira el sable con los ojos muy tristes.\n\nEsa noche, en la cama, Bebé no puede dormir. Piensa en el tío, en el sable y en la cara triste de su primo. Entonces se levanta en puntillas, toma el sable y, riéndose bajito, lo pone sobre la almohada de Raúl.\n\nMartí no nos dice qué pasó a la mañana siguiente. Deja que cada lector imagine la sorpresa de Raúl al despertar. Lo importante es lo que Bebé descubrió por sí mismo: que un regalo vale más cuando sirve para hacer feliz a otra persona.\n\nIdeas principales. La verdadera generosidad consiste en compartir lo que uno valora. Tratar mejor a unas personas que a otras por su dinero es injusto. Los niños pueden dar ejemplo de empatía a los adultos.\n\nPreguntas para pensar. ¿Quién es Raúl? ¿Qué le regaló don Pomposo a Bebé? ¿Por qué Bebé se sintió mal con el regalo? ¿Qué hizo Bebé al final?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Bebé y el señor don Pomposo",
+    "relatedCreator": "José Martí",
+    "questions": [
+      {
+        "prompt": "¿Quién es Raúl?",
+        "options": [
+          "El hermano mayor de Bebé",
+          "El primo huérfano de Bebé",
+          "El criado de don Pomposo"
+        ],
+        "answer": 1,
+        "explanation": "Raúl es el primo de Bebé y no tiene mamá."
+      },
+      {
+        "prompt": "¿Qué le regaló don Pomposo a Bebé?",
+        "options": [
+          "Un caballo",
+          "Un sable dorado",
+          "Un libro"
+        ],
+        "answer": 1,
+        "explanation": "Le regaló un sable dorado muy caro."
+      },
+      {
+        "prompt": "¿Por qué Bebé se sintió mal con el regalo?",
+        "options": [
+          "Porque el sable era feo",
+          "Porque su tío no saludó a Raúl y Raúl estaba triste",
+          "Porque quería otro juguete"
+        ],
+        "answer": 1,
+        "explanation": "Le dolió la injusticia con su primo."
+      },
+      {
+        "prompt": "¿Qué hizo Bebé al final?",
+        "options": [
+          "Escondió el sable",
+          "Le regaló el sable a Raúl",
+          "Devolvió el sable a su tío"
+        ],
+        "answer": 1,
+        "explanation": "Puso el sable en la almohada de Raúl."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-la-abeja-haragana.mp3",
+    "cover": "portadas/macondo-la-abeja-haragana.png",
+    "title": "Audioresumen: La abeja haragana",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del cuento de Quiroga sobre una abeja que no quería trabajar y aprende en una sola noche el valor del esfuerzo compartido.",
+    "gradeMin": 2,
+    "gradeMax": 5,
+    "categories": [
+      "Resúmenes",
+      "Cuentos",
+      "Naturaleza",
+      "Valores"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 125,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "la-abeja-haragana",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://es.wikisource.org/wiki/La_abeja_haragana",
+      "catalogFile": null
+    },
+    "rights": {
+      "authorDeathYear": 1937,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1937). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "f671f0b4c0de1e0b2d234c5cb1f4d24cfcb7cc3a2fcd72966922c5a90bd0bd93",
+    "sizeBytes": 1002034,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 334 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de La abeja haragana, de Horacio Quiroga. Biblioteca Macondo.\n\nLa abeja haragana también pertenece a los Cuentos de la selva, de Horacio Quiroga.\n\nEn una colmena vivía una abeja que no quería trabajar. Volaba de flor en flor, pero en lugar de guardar el néctar para hacer miel, se lo tomaba todo. Mientras tanto, sus compañeras trabajaban sin descanso para alimentar a las abejas recién nacidas.\n\nLas abejas guardianas, que cuidan la puerta de la colmena, le advirtieron varias veces que debía trabajar. Ella siempre prometía hacerlo mañana. Hasta que un día, al caer una tarde fría y lluviosa, no la dejaron entrar. Le dijeron que no había lugar para las haraganas.\n\nMuerta de frío, la abejita cayó en el hueco de un árbol donde vivía una culebra. La culebra quiso comérsela, pero la abeja le propuso un desafío: ganaría quien hiciera la prueba más rara. La culebra hizo bailar un trompito hecho con una cápsula de eucalipto. La abeja, en cambio, dijo que podía desaparecer. Se acercó a una plantita llamada sensitiva, cuyas hojas se cierran al tocarlas, y quedó escondida dentro de una hoja. La culebra no la encontró y tuvo que darse por vencida.\n\nLa abeja pasó una noche larguísima, con frío y miedo. Al amanecer volvió a la colmena, y esta vez las guardianas la dejaron entrar sin decir nada. Desde entonces fue la abeja más trabajadora de todas. Antes de morir, les explicó a las jóvenes que lo que hace fuertes a las abejas no es la inteligencia, sino el trabajo de todas por el bien común.\n\nIdeas principales. Cada miembro de una comunidad tiene responsabilidades con los demás. Dejar todo para mañana trae consecuencias. La observación de la naturaleza, como la de la sensitiva, puede salvarnos.\n\nPreguntas para pensar. ¿Por qué la llamaban abeja haragana? ¿Qué pasó cuando la abeja no cumplió su promesa? ¿Cómo desapareció la abeja frente a la culebra? ¿Qué enseñó la abeja a las jóvenes al final?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "La abeja haragana",
+    "relatedCreator": "Horacio Quiroga",
+    "questions": [
+      {
+        "prompt": "¿Por qué la llamaban abeja haragana?",
+        "options": [
+          "Porque no quería trabajar",
+          "Porque volaba muy despacio",
+          "Porque dormía en las flores"
+        ],
+        "answer": 0,
+        "explanation": "Se tomaba el néctar en vez de llevarlo para hacer miel."
+      },
+      {
+        "prompt": "¿Qué pasó cuando la abeja no cumplió su promesa?",
+        "options": [
+          "Le dieron un premio",
+          "No la dejaron entrar a la colmena",
+          "La nombraron reina"
+        ],
+        "answer": 1,
+        "explanation": "Las guardianas le cerraron la entrada."
+      },
+      {
+        "prompt": "¿Cómo desapareció la abeja frente a la culebra?",
+        "options": [
+          "Se escondió en una hoja de sensitiva que se cerró",
+          "Voló muy alto",
+          "Se enterró en la arena"
+        ],
+        "answer": 0,
+        "explanation": "Las hojas de la sensitiva se cierran al menor contacto."
+      },
+      {
+        "prompt": "¿Qué enseñó la abeja a las jóvenes al final?",
+        "options": [
+          "Que el trabajo de todas por el bien común las hace fuertes",
+          "Que hay que ser más listas que las culebras",
+          "Que no hay que salir de noche"
+        ],
+        "answer": 0,
+        "explanation": "Esa fue su última lección."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-la-muneca-negra.mp3",
+    "cover": "portadas/macondo-la-muneca-negra.png",
+    "title": "Audioresumen: La muñeca negra",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del cuento de La Edad de Oro en que Piedad prefiere su vieja muñeca negra, Leonor, a la muñeca lujosa que recibe en su cumpleaños.",
+    "gradeMin": 2,
+    "gradeMax": 5,
+    "categories": [
+      "Resúmenes",
+      "Cuentos",
+      "Literatura latinoamericana",
+      "Valores"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 118,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "la-muneca-negra",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/19898",
+      "catalogFile": "demo-content/files/marti-la-edad-de-oro.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1895,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1895). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "50a0c373dbcefbd92ae29a1a1738e40f61ebf61921533b131b3020d831610ec6",
+    "sizeBytes": 943131,
+    "reviewNotes": "Conviene acompañar la conversación sobre prejuicios raciales con mediación docente. Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 329 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de La muñeca negra, de José Martí. Biblioteca Macondo.\n\nLa muñeca negra es otro de los cuentos de La Edad de Oro, de José Martí.\n\nPiedad es una niña que está a punto de cumplir ocho años. Sus padres la quieren muchísimo. La noche antes de su cumpleaños entran de puntillas a su cuarto para verla dormir, rodeada de sus juguetes. En sus brazos duerme su muñeca preferida: Leonor, una muñeca negra, vieja, con poco pelo y la boca desteñida de tantos besos.\n\nEl día del cumpleaños, toda la casa celebra. Hay chocolate, flores y una bandera que dice que Piedad cumple ocho años. Su papá le regala una muñeca nueva, muy lujosa, de seda y porcelana, con ojos azules y cabello rubio. Piedad le da las gracias y juega un rato con ella, pero siente que esa muñeca tiene unos ojos que no hablan.\n\nDurante el día, Piedad prepara en secreto un ramo de flores nomeolvides. Por la noche, cuando la criada apaga la luz y sale del cuarto, Piedad se levanta, busca a Leonor, que había quedado olvidada a los pies de la cama, y le da el ramo. La abraza, la besa y le dice que la quiere precisamente porque los demás no la quieren. Y se duermen juntas.\n\nEl nombre de la flor que Piedad le regala a su muñeca es muy especial: nomeolvides quiere decir no me olvides. Con ese regalo, Piedad le promete a Leonor que nunca la dejará de lado, aunque llegue una muñeca más lujosa.\n\nIdeas principales. El cariño verdadero no depende de la apariencia ni del precio. Piedad defiende a quien es rechazado: su muñeca negra. El cuento invita a reflexionar sobre los prejuicios por el color de la piel.\n\nPreguntas para pensar. ¿Cómo se llama la muñeca negra de Piedad? ¿Qué le regaló su papá en el cumpleaños? ¿Por qué Piedad prefiere a Leonor? ¿Qué tema importante nos hace pensar este cuento?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "La muñeca negra",
+    "relatedCreator": "José Martí",
+    "questions": [
+      {
+        "prompt": "¿Cómo se llama la muñeca negra de Piedad?",
+        "options": [
+          "Leonor",
+          "Rosa",
+          "Carmen"
+        ],
+        "answer": 0,
+        "explanation": "Su muñeca preferida se llama Leonor."
+      },
+      {
+        "prompt": "¿Qué le regaló su papá en el cumpleaños?",
+        "options": [
+          "Una muñeca de seda y porcelana",
+          "Un vestido",
+          "Un caballo"
+        ],
+        "answer": 0,
+        "explanation": "Le regaló una muñeca lujosa de ojos azules."
+      },
+      {
+        "prompt": "¿Por qué Piedad prefiere a Leonor?",
+        "options": [
+          "Porque es más nueva",
+          "Porque la quiere y nadie más la quiere",
+          "Porque es más grande"
+        ],
+        "answer": 1,
+        "explanation": "Le dice: te quiero porque no te quieren."
+      },
+      {
+        "prompt": "¿Qué tema importante nos hace pensar este cuento?",
+        "options": [
+          "El valor de no juzgar por la apariencia o el color",
+          "La importancia de tener muchos juguetes",
+          "Cómo hacer un pastel"
+        ],
+        "answer": 0,
+        "explanation": "El cuento cuestiona los prejuicios."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-el-camaron-encantado.mp3",
+    "cover": "portadas/macondo-el-camaron-encantado.png",
+    "title": "Audioresumen: El camarón encantado",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del cuento de magia de La Edad de Oro sobre Loppi, su ambiciosa esposa Masicas y un camarón que concede deseos.",
+    "gradeMin": 4,
+    "gradeMax": 7,
+    "categories": [
+      "Resúmenes",
+      "Cuentos",
+      "Literatura latinoamericana",
+      "Valores"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 123,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "el-camaron-encantado",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/19898",
+      "catalogFile": "demo-content/files/marti-la-edad-de-oro.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1895,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1895). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "72e370ee67e58e4a131141b0bc12d9680610824024b9fb9ea679be2da2edaacc",
+    "sizeBytes": 986609,
+    "reviewNotes": "El cuento original termina con la muerte de Loppi y Masicas; el resumen lo menciona sin detalles. Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 342 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de El camarón encantado, de José Martí (versión de un cuento de Laboulaye). Biblioteca Macondo.\n\nEl camarón encantado es un cuento de magia que José Martí adaptó para La Edad de Oro a partir de un relato del escritor francés Édouard Laboulaye.\n\nEn un pueblo cerca del mar Báltico vivía Loppi, un leñador muy pobre, con su esposa Masicas, una mujer de mal genio que lo regañaba todo el tiempo. Un día, Loppi encuentra en un charco un camarón enorme y lo mete en su saco para la cena. Pero el camarón le habla: es en realidad una maga poderosa, y le pide que lo deje libre. A cambio, le llena el morral de peces y le enseña un conjuro para llamarla cuando necesite algo.\n\nMasicas se alegra con los peces, pero pronto se cansa. Pide sopa y tocino; luego, comidas finas; después, vestidos de señora; más tarde, un castillo. Cada vez Loppi va al charco, temblando, y el camarón le concede el deseo, aunque le advierte que su mujer nunca dejará de pedir.\n\nMasicas llega a ser princesa y luego reina, con palacio, criados y corona. Pero tampoco está contenta. Finalmente exige reinar en el cielo y ser dueña del mundo. Loppi, por miedo a su mujer, lleva el pedido a la maga. Entonces el camarón se enfurece, le reprocha su cobardía y le quita todo lo que les había dado.\n\nLoppi vuelve a su choza con el morral vacío. Masicas, loca de rabia, se lanza contra él, y el cuento termina de manera trágica: ambos mueren. Es un final duro, como el de muchos cuentos tradicionales, que busca dejar una lección clara.\n\nIdeas principales. La ambición sin límites lleva a perderlo todo. Quien no sabe decir que no a una injusticia también es responsable. La gratitud y la moderación son valores para una vida feliz.\n\nPreguntas para pensar. ¿Qué era en realidad el camarón? ¿Cuál fue el último deseo de Masicas? ¿Qué le reprochó el camarón a Loppi? ¿Qué enseñanza deja el cuento?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "El camarón encantado",
+    "relatedCreator": "José Martí (versión de un cuento de Laboulaye)",
+    "questions": [
+      {
+        "prompt": "¿Qué era en realidad el camarón?",
+        "options": [
+          "Un pez común",
+          "Una maga poderosa",
+          "Un príncipe"
+        ],
+        "answer": 1,
+        "explanation": "El camarón era una maga de mucho poder."
+      },
+      {
+        "prompt": "¿Cuál fue el último deseo de Masicas?",
+        "options": [
+          "Un vestido nuevo",
+          "Reinar en el cielo y ser dueña del mundo",
+          "Una sopa"
+        ],
+        "answer": 1,
+        "explanation": "Su ambición no tenía límites."
+      },
+      {
+        "prompt": "¿Qué le reprochó el camarón a Loppi?",
+        "options": [
+          "Ser cobarde y no poner límites",
+          "Ser mentiroso",
+          "Ser perezoso"
+        ],
+        "answer": 0,
+        "explanation": "La maga le dijo que los maridos cobardes hacen a las mujeres locas."
+      },
+      {
+        "prompt": "¿Qué enseñanza deja el cuento?",
+        "options": [
+          "Que la ambición sin medida lo destruye todo",
+          "Que hay que pedir siempre más",
+          "Que los camarones son peligrosos"
+        ],
+        "answer": 0,
+        "explanation": "Es una fábula sobre la codicia."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-la-navidad-en-las-montanas.mp3",
+    "cover": "portadas/macondo-la-navidad-en-las-montanas.png",
+    "title": "Audioresumen: La Navidad en las montañas",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la novela corta del mexicano Altamirano (1871): un capitán pasa la Nochebuena en un pueblo de montaña transformado por un cura ejemplar.",
+    "gradeMin": 7,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura latinoamericana",
+      "Navidad"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 148,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "la-navidad-en-las-montanas",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/10825",
+      "catalogFile": "libros/gutenberg-10825.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1893,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1893). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "f716b21258749440b44d9b4268d53db4b1a1d6c1c811f3df1b976b601eb57e5d",
+    "sizeBytes": 1184316,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 390 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de La Navidad en las montañas, de Ignacio Manuel Altamirano. Biblioteca Macondo.\n\nLa Navidad en las montañas es una novela corta del escritor mexicano Ignacio Manuel Altamirano, publicada en 1871.\n\nEl narrador es un capitán del ejército liberal que viaja con sus soldados por las montañas de México en plena guerra civil. Es la víspera de Navidad, y, cansado y triste, recuerda las Nochebuenas felices de su infancia. Uno de sus soldados le avisa que más adelante va el cura del pueblo vecino, que le ofrece alojamiento.\n\nEl capitán desconfía al saber que el cura es español, porque teme encontrar a un sacerdote fanático y enemigo de sus ideas. Pero pronto descubre a un hombre sencillo, culto y generoso. El cura le cuenta que llegó a esas montañas como misionero y que se ha convertido también en maestro de escuela, médico y consejero del pueblo. Ha enseñado a los campesinos nuevas técnicas de cultivo, ha impulsado la escuela y ha renunciado a cobrar dinero por bautizos, bodas o entierros. Gracias a su trabajo, el pueblo vive en paz y con prosperidad.\n\nEsa noche, en la cena de Nochebuena en casa del alcalde, el capitán conoce la historia de Carmen y Pablo. Años antes, Pablo era un joven ocioso, y cuando el gobierno pidió reclutas, el alcalde lo entregó al ejército. Carmen, que lo rechazaba, en el fondo lo amaba. Pablo sirvió con valentía, llegó a oficial y volvió transformado, pero vive solo en la montaña, trabajando la tierra y sin querer ver a nadie, porque cree que Carmen lo desprecia.\n\nEl cura ha intentado que Pablo baje al pueblo esa noche. Cuando finalmente aparece, pálido y aún débil por sus heridas, Carmen le pide perdón y Pablo descubre que ella siempre lo quiso. Con la ayuda del capitán, los dos jóvenes se reconcilian y se anuncia su boda, mientras el pueblo celebra la llegada de la Navidad.\n\nIdeas principales. La educación, el trabajo y la generosidad pueden transformar una comunidad. El autor propone la reconciliación entre ideas distintas en un país dividido. Las personas pueden cambiar y merecen una segunda oportunidad.\n\nPreguntas para pensar. ¿Quién narra la historia? ¿Por qué el capitán desconfiaba al principio del cura? ¿Qué cambios hizo el cura en el pueblo? ¿Qué ocurre entre Carmen y Pablo al final?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "La Navidad en las montañas",
+    "relatedCreator": "Ignacio Manuel Altamirano",
+    "questions": [
+      {
+        "prompt": "¿Quién narra la historia?",
+        "options": [
+          "Un capitán del ejército",
+          "El cura",
+          "Carmen"
+        ],
+        "answer": 0,
+        "explanation": "Un capitán liberal cuenta su Nochebuena en las montañas."
+      },
+      {
+        "prompt": "¿Por qué el capitán desconfiaba al principio del cura?",
+        "options": [
+          "Porque era español y temía que fuera fanático",
+          "Porque era muy joven",
+          "Porque no hablaba"
+        ],
+        "answer": 0,
+        "explanation": "Pero descubre a un hombre generoso."
+      },
+      {
+        "prompt": "¿Qué cambios hizo el cura en el pueblo?",
+        "options": [
+          "Enseñó agricultura, impulsó la escuela y no cobraba por los sacramentos",
+          "Construyó una fábrica",
+          "Organizó un ejército"
+        ],
+        "answer": 0,
+        "explanation": "Fue cura, maestro, médico y consejero."
+      },
+      {
+        "prompt": "¿Qué ocurre entre Carmen y Pablo al final?",
+        "options": [
+          "Se reconcilian y se anuncia su boda",
+          "Pablo se va para siempre",
+          "Carmen se casa con otro"
+        ],
+        "answer": 0,
+        "explanation": "La Nochebuena trae la reconciliación."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-coplas-por-la-muerte-de-su-padre.mp3",
+    "cover": "portadas/macondo-coplas-por-la-muerte-de-su-padre.png",
+    "title": "Audioresumen: Coplas por la muerte de su padre",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de las Coplas de Jorge Manrique: la brevedad de la vida, la fama y la muerte, en homenaje a su padre don Rodrigo.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Poesía",
+      "Literatura española",
+      "Edad Media"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 143,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "coplas-por-la-muerte-de-su-padre",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/49333",
+      "catalogFile": "libros/gutenberg-49333.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1479,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1479). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "78f802c1d04b914af679a79db51490c12e7507205c048c2324dd1352fd80eebd",
+    "sizeBytes": 1145827,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 393 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Coplas por la muerte de su padre, de Jorge Manrique. Biblioteca Macondo.\n\nLas Coplas por la muerte de su padre son uno de los poemas más importantes de la literatura española. Las escribió Jorge Manrique, poeta y soldado del siglo quince, tras la muerte de su padre, don Rodrigo Manrique, maestre de la Orden de Santiago, en 1476.\n\nEl poema tiene cuarenta coplas, o estrofas, escritas con un ritmo muy musical. Se puede dividir en tres partes.\n\nEn la primera parte, el poeta reflexiona de forma general sobre la vida y la muerte. Invita al lector a despertar y a pensar en lo rápido que pasa la vida. Aquí están sus versos más famosos, que comparan nuestras vidas con los ríos que van a dar en el mar, que es el morir. Grandes, medianos y pequeños ríos llegan al mismo mar: ricos y pobres son iguales ante la muerte. También advierte que los bienes de este mundo, como la belleza, la riqueza o el poder, son pasajeros.\n\nEn la segunda parte, Manrique da ejemplos de su propia época. Pregunta qué se hizo de reyes, príncipes, damas, fiestas y vestidos lujosos que brillaron poco antes y ya desaparecieron. Esta pregunta repetida, ¿qué se hizo?, expresa la idea de que todo lo terrenal se acaba.\n\nEn la tercera parte, el poema se centra en don Rodrigo. Lo presenta como un caballero valiente, justo y leal, amigo de sus amigos. Entonces aparece la Muerte personificada, que llama a su puerta y le habla con respeto. Le explica que existen tres vidas: la vida terrenal, que se acaba; la vida de la fama, que permanece en la memoria de los demás gracias a las buenas obras; y la vida eterna. Don Rodrigo acepta morir con serenidad, rodeado de su familia, y el poema termina diciendo que, aunque perdió la vida, dejó un gran consuelo con su memoria.\n\nIdeas principales. La vida es breve y la muerte iguala a todas las personas. Los bienes materiales son pasajeros; las buenas acciones dejan memoria. El poema distingue tres vidas: la terrenal, la de la fama y la eterna.\n\nPreguntas para pensar. ¿A quién está dedicado el poema? ¿Con qué compara Manrique nuestras vidas? ¿Qué significa la pregunta repetida ¿qué se hizo? ¿Cuáles son las tres vidas de las que habla la Muerte?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Coplas por la muerte de su padre",
+    "relatedCreator": "Jorge Manrique",
+    "questions": [
+      {
+        "prompt": "¿A quién está dedicado el poema?",
+        "options": [
+          "Al rey de Castilla",
+          "A don Rodrigo Manrique, padre del poeta",
+          "A una dama"
+        ],
+        "answer": 1,
+        "explanation": "Es un homenaje a su padre."
+      },
+      {
+        "prompt": "¿Con qué compara Manrique nuestras vidas?",
+        "options": [
+          "Con los ríos que van a dar en el mar",
+          "Con las montañas",
+          "Con las estrellas"
+        ],
+        "answer": 0,
+        "explanation": "El mar representa la muerte."
+      },
+      {
+        "prompt": "¿Qué significa la pregunta repetida ¿qué se hizo?",
+        "options": [
+          "Que todo lo terrenal desaparece",
+          "Que hay que trabajar más",
+          "Que el poeta olvidó algo"
+        ],
+        "answer": 0,
+        "explanation": "Expresa la fugacidad de lo mundano."
+      },
+      {
+        "prompt": "¿Cuáles son las tres vidas de las que habla la Muerte?",
+        "options": [
+          "Terrenal, de la fama y eterna",
+          "Infancia, juventud y vejez",
+          "Mañana, tarde y noche"
+        ],
+        "answer": 0,
+        "explanation": "La fama permanece gracias a las buenas obras."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-don-quijote.mp3",
+    "cover": "portadas/macondo-don-quijote.png",
+    "title": "Audioresumen: Don Quijote de la Mancha",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de las dos partes del Quijote (1605 y 1615): las aventuras del hidalgo que quiso ser caballero andante y de su escudero Sancho Panza.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura española",
+      "Clásicos"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 174,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "don-quijote",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/2000",
+      "catalogFile": "libros/gutenberg-2000.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1616,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1616). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "18b86b2aea0243878e89037a614edf2c5c8eb3b9d20871b0875793e920a3b778",
+    "sizeBytes": 1391579,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 464 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Don Quijote de la Mancha, de Miguel de Cervantes Saavedra. Biblioteca Macondo.\n\nEl ingenioso hidalgo don Quijote de la Mancha, de Miguel de Cervantes, es considerado la primera novela moderna y la obra más importante de la lengua española. La primera parte se publicó en 1605 y la segunda en 1615.\n\nEn un lugar de la Mancha vive un hidalgo de unos cincuenta años, Alonso Quijano. Lee tantos libros de caballerías que pierde el juicio y decide hacerse caballero andante para deshacer injusticias. Limpia unas armas viejas, llama a su flaco caballo Rocinante, se hace llamar don Quijote y escoge como dama de sus pensamientos a una labradora del Toboso, a quien llama Dulcinea.\n\nEn su primera salida, un ventero lo arma caballero en una ceremonia burlesca. De regreso a casa, el cura y el barbero de su pueblo queman muchos de sus libros, creyendo que así se curará. Pero don Quijote sale de nuevo, esta vez acompañado por un vecino, Sancho Panza, un labrador sencillo a quien promete el gobierno de una ínsula.\n\nAsí comienzan sus famosas aventuras. Don Quijote ataca unos molinos de viento creyendo que son gigantes; confunde rebaños de ovejas con ejércitos; toma una bacía de barbero por el yelmo de Mambrino; libera a unos presos condenados a galeras, que terminan apedreándolo. Sancho, práctico y realista, le advierte una y otra vez, pero lo sigue con lealtad. Al final de la primera parte, el cura y el barbero logran llevarlo de vuelta a casa en una jaula.\n\nEn la segunda parte, don Quijote y Sancho ya son famosos, porque la gente ha leído la primera parte. Unos duques los reciben en su palacio para divertirse a su costa con bromas; incluso hacen a Sancho gobernador de una supuesta ínsula, donde sorprende a todos con su sentido común y sus sentencias justas. Finalmente, el bachiller Sansón Carrasco, disfrazado de Caballero de la Blanca Luna, vence a don Quijote en Barcelona y le obliga a volver a casa.\n\nYa en su aldea, don Quijote enferma. Antes de morir recupera la razón, vuelve a llamarse Alonso Quijano el Bueno y reniega de los libros de caballerías. Sancho, llorando, le propone salir otra vez de aventuras.\n\nIdeas principales. La novela contrapone el idealismo de don Quijote y el realismo de Sancho, que se influyen mutuamente. Cervantes parodia los libros de caballerías y reflexiona sobre la ficción y la realidad. Don Quijote, aunque loco, defiende valores como la justicia, la libertad y la generosidad.\n\nPreguntas para pensar. ¿Por qué Alonso Quijano decide hacerse caballero andante? ¿Qué creía don Quijote que eran los molinos de viento? ¿Qué le promete don Quijote a Sancho? ¿Quién vence a don Quijote al final? ¿En qué se diferencian don Quijote y Sancho?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Don Quijote de la Mancha",
+    "relatedCreator": "Miguel de Cervantes Saavedra",
+    "questions": [
+      {
+        "prompt": "¿Por qué Alonso Quijano decide hacerse caballero andante?",
+        "options": [
+          "Porque leyó demasiados libros de caballerías",
+          "Porque se lo ordenó el rey",
+          "Porque quería ser rico"
+        ],
+        "answer": 0,
+        "explanation": "Las lecturas le hicieron perder el juicio."
+      },
+      {
+        "prompt": "¿Qué creía don Quijote que eran los molinos de viento?",
+        "options": [
+          "Castillos",
+          "Gigantes",
+          "Dragones"
+        ],
+        "answer": 1,
+        "explanation": "Es su aventura más famosa."
+      },
+      {
+        "prompt": "¿Qué le promete don Quijote a Sancho?",
+        "options": [
+          "El gobierno de una ínsula",
+          "Un caballo nuevo",
+          "Un libro"
+        ],
+        "answer": 0,
+        "explanation": "Le promete una ínsula para gobernar."
+      },
+      {
+        "prompt": "¿Quién vence a don Quijote al final?",
+        "options": [
+          "El Caballero de la Blanca Luna",
+          "Un gigante",
+          "El ventero"
+        ],
+        "answer": 0,
+        "explanation": "Es Sansón Carrasco disfrazado."
+      },
+      {
+        "prompt": "¿En qué se diferencian don Quijote y Sancho?",
+        "options": [
+          "Uno es idealista y el otro práctico y realista",
+          "Los dos son iguales",
+          "Sancho es el caballero y don Quijote el escudero"
+        ],
+        "answer": 0,
+        "explanation": "Su contraste es el centro de la novela."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-el-capitan-veneno.mp3",
+    "cover": "portadas/macondo-el-capitan-veneno.png",
+    "title": "Audioresumen: El Capitán Veneno",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la novela corta de Alarcón (1881) sobre un capitán gruñón que, herido, es cuidado por una viuda y su hija Angustias.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura española",
+      "Humor"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 131,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "el-capitan-veneno",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/29731",
+      "catalogFile": "libros/gutenberg-29731.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1891,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1891). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "8264bfadaef686b217e2c1db6828a0887ceea59a29cfc117fbfc8bea2bbf9a10",
+    "sizeBytes": 1044700,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 337 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de El Capitán Veneno, de Pedro Antonio de Alarcón. Biblioteca Macondo.\n\nEl Capitán Veneno es una novela corta de Pedro Antonio de Alarcón, publicada en 1881. Es una historia de humor y ternura que transcurre en Madrid a mediados del siglo diecinueve.\n\nEn marzo de 1848, durante unos disturbios en las calles de Madrid, un capitán del ejército cae herido frente a la casa de una viuda, la generala Barbastro, que vive con su hija Angustias, una joven bella e inteligente. Las dos mujeres lo recogen y lo cuidan en su casa.\n\nEl herido es don Jorge de Córdoba, a quien todos conocen como el Capitán Veneno por su mal carácter. Es gruñón, malhablado y presume de odiar a las mujeres, a los niños y al matrimonio. Durante su convalecencia protesta por todo y trata de manera brusca a quienes lo atienden. Pero Angustias no se deja intimidar: le responde con ingenio y firmeza, y poco a poco el capitán empieza a cambiar.\n\nMientras tanto, la madre de Angustias enferma y muere. La joven queda sola y casi sin recursos. El capitán, que ya se ha enamorado de ella aunque no quiera admitirlo, intenta ayudarla de mil maneras torpes, y al final, a su manera brusca, le propone matrimonio. Angustias, orgullosa, no acepta hasta estar segura de que él la ama de verdad.\n\nLa escena final ocurre cuatro años después. Un amigo visita al capitán, que ahora es marqués, y lo encuentra a cuatro patas sobre la alfombra, haciendo de caballito para sus dos hijos pequeños, que le gritan: ¡Arre, mula! El terrible Capitán Veneno se ha convertido en un padre cariñoso.\n\nIdeas principales. El amor y la paciencia pueden transformar a las personas. Detrás de una apariencia ruda puede haber un buen corazón. Angustias representa la inteligencia y la dignidad frente al orgullo.\n\nPreguntas para pensar. ¿Por qué llamaban a don Jorge el Capitán Veneno? ¿Quiénes cuidaron al capitán herido? ¿Cómo termina la historia? ¿Qué mensaje deja la novela?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "El Capitán Veneno",
+    "relatedCreator": "Pedro Antonio de Alarcón",
+    "questions": [
+      {
+        "prompt": "¿Por qué llamaban a don Jorge el Capitán Veneno?",
+        "options": [
+          "Por su mal carácter",
+          "Porque era químico",
+          "Porque lo mordió una serpiente"
+        ],
+        "answer": 0,
+        "explanation": "Era gruñón y malhumorado."
+      },
+      {
+        "prompt": "¿Quiénes cuidaron al capitán herido?",
+        "options": [
+          "Unos soldados",
+          "Una viuda y su hija Angustias",
+          "Un médico del ejército"
+        ],
+        "answer": 1,
+        "explanation": "La generala Barbastro y Angustias lo atendieron."
+      },
+      {
+        "prompt": "¿Cómo termina la historia?",
+        "options": [
+          "El capitán se va a la guerra",
+          "El capitán aparece jugando con sus hijos",
+          "Angustias se casa con otro"
+        ],
+        "answer": 1,
+        "explanation": "Hace de caballito para sus dos hijos."
+      },
+      {
+        "prompt": "¿Qué mensaje deja la novela?",
+        "options": [
+          "El amor puede transformar a las personas",
+          "No hay que ayudar a los desconocidos",
+          "La guerra es divertida"
+        ],
+        "answer": 0,
+        "explanation": "El capitán cambia gracias al amor."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-el-rayo-de-luna.mp3",
+    "cover": "portadas/macondo-el-rayo-de-luna.png",
+    "title": "Audioresumen: El rayo de luna",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la leyenda de Bécquer sobre Manrique, el joven soñador que persigue por Soria a una mujer misteriosa que resulta ser un rayo de luna.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Leyendas",
+      "Literatura española",
+      "Romanticismo"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 141,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "el-rayo-de-luna",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/53552",
+      "catalogFile": "libros/gutenberg-53552.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1870,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1870). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "b73e8bc60f181b73bf379710c25376de2c3763e51b8ac1b8955bce09b4af35a2",
+    "sizeBytes": 1132435,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 388 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de El rayo de luna, de Gustavo Adolfo Bécquer. Biblioteca Macondo.\n\nEl rayo de luna es una de las Leyendas de Gustavo Adolfo Bécquer, el gran poeta del romanticismo español. Se publicó en 1862 y transcurre en la ciudad de Soria, junto al río Duero, en tiempos medievales.\n\nManrique es un joven noble que no se interesa por las armas ni por las fiestas del castillo. Ama la soledad. Pasa horas mirando el fuego, el agua del río o las estrellas, y cree que en todas partes viven seres fantásticos. Es poeta, y sueña con un amor perfecto que no encuentra en el mundo real.\n\nUna noche de verano, mientras pasea por las ruinas del antiguo convento de los Templarios, ve algo blanco que se mueve entre los árboles: le parece el borde del vestido de una mujer. Convencido de que es la mujer de sus sueños, corre tras ella por los jardines, sube a las rocas de San Saturio y cree verla cruzar el río en una barca. La sigue hasta la ciudad y pasa la noche frente a una ventana iluminada. Pero al amanecer descubre que allí solo vive un caballero viejo y enfermo.\n\nDurante meses busca a la desconocida por toda Soria. Imagina cómo serán sus ojos, su voz, su cabello. Finalmente, otra noche de luna, vuelve a las ruinas y ve de nuevo la forma blanca. Se lanza hacia ella... y descubre que es solo un rayo de luna que se cuela entre las ramas cuando el viento las mueve.\n\nAños después, Manrique vive encerrado en su castillo, triste y ausente. Cuando su madre le habla de amor, o un escudero de gloria, él responde que todo es un rayo de luna. La gente cree que se ha vuelto loco. El narrador, en cambio, sugiere que quizá ha recuperado el juicio.\n\nIdeas principales. Bécquer contrapone la imaginación idealista con la realidad. El texto reflexiona sobre la desilusión: los ideales absolutos pueden ser inalcanzables. Es un ejemplo de los rasgos románticos: soledad, ambiente nocturno, ruinas, misterio y amor ideal.\n\nPreguntas para pensar. ¿En qué ciudad transcurre la leyenda? ¿Qué persigue Manrique? ¿Qué era realmente la forma blanca? ¿Qué rasgos del romanticismo aparecen en la leyenda? ¿Por qué crees que el narrador dice que Manrique quizá recuperó el juicio?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "El rayo de luna",
+    "relatedCreator": "Gustavo Adolfo Bécquer",
+    "questions": [
+      {
+        "prompt": "¿En qué ciudad transcurre la leyenda?",
+        "options": [
+          "Toledo",
+          "Soria",
+          "Sevilla"
+        ],
+        "answer": 1,
+        "explanation": "Transcurre en Soria, junto al río Duero."
+      },
+      {
+        "prompt": "¿Qué persigue Manrique?",
+        "options": [
+          "A un ladrón",
+          "A una mujer misteriosa vestida de blanco",
+          "A un caballo"
+        ],
+        "answer": 1,
+        "explanation": "Cree ver el vestido blanco de una mujer."
+      },
+      {
+        "prompt": "¿Qué era realmente la forma blanca?",
+        "options": [
+          "Un fantasma",
+          "Un rayo de luna entre las ramas",
+          "Una monja"
+        ],
+        "answer": 1,
+        "explanation": "Era un rayo de luna que se filtraba entre los árboles."
+      },
+      {
+        "prompt": "¿Qué rasgos del romanticismo aparecen en la leyenda?",
+        "options": [
+          "Soledad, noche, ruinas y amor ideal",
+          "Humor y ciudades modernas",
+          "Ciencia y tecnología"
+        ],
+        "answer": 0,
+        "explanation": "Son rasgos típicos del romanticismo."
+      },
+      {
+        "prompt": "¿Por qué crees que el narrador dice que Manrique quizá recuperó el juicio?",
+        "options": [
+          "Porque entendió que perseguía ilusiones",
+          "Porque se casó",
+          "Porque se hizo rico"
+        ],
+        "answer": 0,
+        "explanation": "Manrique comprende que sus ideales eran fantasías."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-el-si-de-las-ninas.mp3",
+    "cover": "portadas/macondo-el-si-de-las-ninas.png",
+    "title": "Audioresumen: El sí de las niñas",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la comedia de Moratín (1806) sobre un matrimonio concertado entre una joven de dieciséis años y un hombre de cincuenta y nueve.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Teatro",
+      "Literatura española",
+      "Ilustración"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 136,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "el-si-de-las-ninas",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/50027",
+      "catalogFile": "libros/gutenberg-50027.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1828,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1828). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "1f9536c405a385cc18336e85331779adda0c65e466464c4941252268d02cd6d6",
+    "sizeBytes": 1085035,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 368 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de El sí de las niñas, de Leandro Fernández de Moratín. Biblioteca Macondo.\n\nEl sí de las niñas es una comedia en tres actos de Leandro Fernández de Moratín, estrenada en Madrid en 1806. Toda la acción ocurre en una sola noche, en una posada de Alcalá de Henares.\n\nDoña Irene, una viuda que necesita dinero, ha sacado a su hija, doña Francisca, a quien llaman Paquita, del convento de Guadalajara donde se educaba. Quiere casarla con don Diego, un señor rico, sensato y bondadoso, que tiene cincuenta y nueve años. Paquita tiene apenas dieciséis. Nadie le ha preguntado lo que ella quiere, y su madre da por hecho que dirá que sí.\n\nPero Paquita está enamorada de un joven militar al que conoce como don Félix. Con la ayuda de su criada Rita, le ha escrito pidiéndole ayuda. El joven llega a la posada esa misma noche, acompañado de su criado Calamocha.\n\nLa sorpresa es que don Félix es en realidad don Carlos, el sobrino de don Diego, a quien su tío quiere como a un hijo. Cuando don Diego descubre la verdad, ordena a su sobrino que se vaya, y don Carlos obedece por respeto, aunque está desesperado. Durante la noche, don Carlos intenta comunicarse con Paquita, y una carta suya cae en manos de don Diego.\n\nDon Diego comprende que Paquita nunca lo amará y que su sí habría sido fruto de la obediencia y del miedo. Generosamente, renuncia al matrimonio, hace volver a su sobrino y bendice la unión de los jóvenes. Además, critica la educación que enseña a las muchachas a ocultar sus sentimientos y a decir que sí sin libertad.\n\nLa obra, típica de la Ilustración, busca entretener y a la vez enseñar: defiende el derecho de las jóvenes a elegir con quién casarse y critica los matrimonios por interés.\n\nIdeas principales. La comedia defiende la libertad para elegir pareja. Critica la educación autoritaria que obliga a fingir y obedecer. Don Diego representa la razón y la generosidad, ideales de la Ilustración.\n\nPreguntas para pensar. ¿Dónde transcurre la obra? ¿Quién es en realidad don Félix? ¿Qué decide don Diego al final? ¿Qué critica la obra?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "El sí de las niñas",
+    "relatedCreator": "Leandro Fernández de Moratín",
+    "questions": [
+      {
+        "prompt": "¿Dónde transcurre la obra?",
+        "options": [
+          "En un palacio de Madrid",
+          "En una posada de Alcalá de Henares",
+          "En un barco"
+        ],
+        "answer": 1,
+        "explanation": "Toda la acción ocurre en una posada."
+      },
+      {
+        "prompt": "¿Quién es en realidad don Félix?",
+        "options": [
+          "Don Carlos, sobrino de don Diego",
+          "El hermano de Paquita",
+          "Un criado"
+        ],
+        "answer": 0,
+        "explanation": "Es el sobrino de don Diego."
+      },
+      {
+        "prompt": "¿Qué decide don Diego al final?",
+        "options": [
+          "Casarse de todos modos",
+          "Renunciar y permitir la boda de los jóvenes",
+          "Volver al convento"
+        ],
+        "answer": 1,
+        "explanation": "Renuncia con generosidad."
+      },
+      {
+        "prompt": "¿Qué critica la obra?",
+        "options": [
+          "Los matrimonios concertados sin libertad",
+          "Los viajes en diligencia",
+          "La vida militar"
+        ],
+        "answer": 0,
+        "explanation": "Defiende el derecho a elegir."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-lazarillo-de-tormes.mp3",
+    "cover": "portadas/macondo-lazarillo-de-tormes.png",
+    "title": "Audioresumen: Lazarillo de Tormes",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la novela anónima de 1554 que inaugura la picaresca: la vida de Lázaro y sus amos, contada por él mismo.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura española",
+      "Novela picaresca"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 159,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "lazarillo-de-tormes",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/320",
+      "catalogFile": "libros/gutenberg-320.epub"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (obra anónima del siglo XVI). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "d4f9a14339a643ba5cc9ed21e966326bf8a5082c51591d81e350d84a13401916",
+    "sizeBytes": 1270992,
+    "reviewNotes": "La obra critica a clérigos de su época; el resumen lo presenta como contexto histórico-literario. Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 443 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Lazarillo de Tormes, de Anónimo. Biblioteca Macondo.\n\nLa vida de Lazarillo de Tormes y de sus fortunas y adversidades es una novela breve publicada en 1554, de autor desconocido. Está escrita como una carta en la que Lázaro, ya adulto, cuenta su vida a un señor importante. Es la primera novela picaresca: la historia de un pícaro, un muchacho pobre que sobrevive gracias a su astucia.\n\nLázaro nace junto al río Tormes, cerca de Salamanca, en una familia muy pobre. Su padre muere, y su madre lo entrega a un ciego para que le sirva de guía. El ciego es astuto y cruel. Su primera lección es golpearle la cabeza contra un toro de piedra para que aprenda a estar alerta. Lázaro pasa hambre y aprende a engañar a su amo: por ejemplo, le bebe el vino a escondidas con una pajita, aunque el ciego casi siempre descubre sus trampas. Al final se venga de él y lo abandona.\n\nSu segundo amo es un clérigo de Maqueda, aún más tacaño que el ciego. Guarda el pan en un arca bajo llave, y Lázaro se las ingenia para sacar migas haciendo creer que son ratones o una culebra, hasta que el clérigo lo descubre y lo despide.\n\nEn Toledo encuentra a un escudero, un hidalgo muy elegante que presume de honra, pero que en realidad no tiene nada que comer. Lázaro, conmovido, termina compartiendo con él el pan que consigue mendigando. Este capítulo critica la apariencia vacía de la nobleza pobre.\n\nDespués sirve brevemente a un fraile de la Merced, a un buldero que vende bulas con trucos y engaños, a un pintor de panderos y a un capellán, para quien trabaja como aguador y logra ahorrar algo de dinero. Finalmente obtiene un oficio real: pregonero en Toledo. Se casa con la criada de un arcipreste y, aunque la gente murmura, él decide no hacer caso. Dice que está en la cumbre de toda buena fortuna.\n\nLa novela, con humor e ironía, critica la hipocresía de la sociedad de su tiempo, incluida la de algunos religiosos. Por eso fue prohibida durante un tiempo.\n\nIdeas principales. El Lazarillo inaugura la novela picaresca, contada en primera persona. A través de los amos se critica la avaricia, la hipocresía y la obsesión por la honra. El hambre y la necesidad empujan a Lázaro a aprender a sobrevivir.\n\nPreguntas para pensar. ¿Quién fue el primer amo de Lázaro? ¿Qué critica el episodio del escudero? ¿Qué oficio tiene Lázaro al final? ¿Por qué se considera la primera novela picaresca? ¿Por qué crees que la obra se publicó sin nombre de autor?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Lazarillo de Tormes",
+    "relatedCreator": "Anónimo",
+    "questions": [
+      {
+        "prompt": "¿Quién fue el primer amo de Lázaro?",
+        "options": [
+          "Un clérigo",
+          "Un ciego",
+          "Un escudero"
+        ],
+        "answer": 1,
+        "explanation": "Su madre lo entregó a un ciego."
+      },
+      {
+        "prompt": "¿Qué critica el episodio del escudero?",
+        "options": [
+          "La apariencia de honra sin recursos reales",
+          "La vida en el campo",
+          "La guerra"
+        ],
+        "answer": 0,
+        "explanation": "El escudero aparenta riqueza pero pasa hambre."
+      },
+      {
+        "prompt": "¿Qué oficio tiene Lázaro al final?",
+        "options": [
+          "Pregonero en Toledo",
+          "Soldado",
+          "Médico"
+        ],
+        "answer": 0,
+        "explanation": "Consigue el oficio de pregonero."
+      },
+      {
+        "prompt": "¿Por qué se considera la primera novela picaresca?",
+        "options": [
+          "Porque narra en primera persona la vida de un pícaro que sobrevive con astucia",
+          "Porque tiene caballeros y dragones",
+          "Porque es una obra de teatro"
+        ],
+        "answer": 0,
+        "explanation": "Cuenta la vida de un joven pobre y astuto."
+      },
+      {
+        "prompt": "¿Por qué crees que la obra se publicó sin nombre de autor?",
+        "options": [
+          "Porque criticaba a personas poderosas e instituciones",
+          "Porque el autor era un niño",
+          "Porque se perdió la portada"
+        ],
+        "answer": 0,
+        "explanation": "Sus críticas podían traerle problemas al autor."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-marianela.mp3",
+    "cover": "portadas/macondo-marianela.png",
+    "title": "Audioresumen: Marianela",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la novela de Galdós (1878) sobre Nela, la muchacha pobre que guía a Pablo, un joven ciego que recupera la vista.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura española",
+      "Realismo"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 139,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "marianela",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/17340",
+      "catalogFile": "libros/gutenberg-17340.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1920,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1920). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "7e9d110a82a2a445cbdb59508ebd8ad6208d8d51bd10a7d42cd3f2cda1a9a7f2",
+    "sizeBytes": 1114875,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 372 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Marianela, de Benito Pérez Galdós. Biblioteca Macondo.\n\nMarianela es una novela de Benito Pérez Galdós publicada en 1878. Transcurre en Socartes, una zona de minas en el norte de España.\n\nMarianela, a quien todos llaman Nela, es una muchacha huérfana, pequeña y delgada, que vive casi de caridad en casa de una familia de mineros que no le da cariño. Ella misma se siente fea e inútil. Sin embargo, tiene un corazón enorme y una gran sensibilidad.\n\nNela sirve de lazarillo a Pablo, el hijo de un hombre rico de Aldeacorba, que es ciego de nacimiento. Pablo es inteligente y culto, y Nela lo guía por los campos y le describe el mundo con su imaginación. Entre los dos nace una amistad muy profunda. Pablo, que no puede verla, imagina que Nela es hermosa, porque su bondad le parece belleza. Ella, en cambio, teme el día en que él pueda verla.\n\nUn día llega a la región el médico Teodoro Golfín, un oculista famoso, que decide operar a Pablo. Al mismo tiempo llega Florentina, prima de Pablo, una joven bella y generosa con quien el padre de Pablo desea casarlo. Florentina quiere ayudar a Nela, vestirla y educarla.\n\nLa operación tiene éxito y Pablo recupera la vista. Nela, convencida de que él la rechazará al verla, huye y piensa en desaparecer. Golfín la encuentra y la lleva a la casa, pero ella está muy débil y enferma de tristeza. Cuando Pablo la ve por fin, no la reconoce de inmediato, y queda impresionado por la belleza de Florentina. Al comprender quién es Nela, le toma la mano con cariño, pero ella muere poco después.\n\nLa novela critica una sociedad que ignora a los pobres y valora a las personas por su apariencia. Galdós también reflexiona sobre la diferencia entre la imaginación y la realidad, y sobre la caridad que llega demasiado tarde.\n\nIdeas principales. La belleza interior frente a la apariencia física. La crítica a la indiferencia social hacia los pobres y los huérfanos. El contraste entre lo que imaginamos y la realidad que vemos.\n\nPreguntas para pensar. ¿Qué hacía Nela por Pablo? ¿Quién opera a Pablo? ¿Qué temía Nela? ¿Qué critica la novela?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Marianela",
+    "relatedCreator": "Benito Pérez Galdós",
+    "questions": [
+      {
+        "prompt": "¿Qué hacía Nela por Pablo?",
+        "options": [
+          "Era su lazarillo y le describía el mundo",
+          "Le cocinaba",
+          "Le enseñaba matemáticas"
+        ],
+        "answer": 0,
+        "explanation": "Nela guiaba a Pablo, que era ciego."
+      },
+      {
+        "prompt": "¿Quién opera a Pablo?",
+        "options": [
+          "El médico Teodoro Golfín",
+          "Florentina",
+          "El padre de Pablo"
+        ],
+        "answer": 0,
+        "explanation": "Golfín era un oculista famoso."
+      },
+      {
+        "prompt": "¿Qué temía Nela?",
+        "options": [
+          "Que Pablo la rechazara al verla",
+          "Que Pablo se fuera de viaje",
+          "Perder su trabajo"
+        ],
+        "answer": 0,
+        "explanation": "Se creía fea y temía el día en que Pablo viera."
+      },
+      {
+        "prompt": "¿Qué critica la novela?",
+        "options": [
+          "Que la sociedad juzgue por la apariencia e ignore a los pobres",
+          "La vida en la ciudad",
+          "Las minas modernas"
+        ],
+        "answer": 0,
+        "explanation": "Es una crítica social del realismo."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-mi-ultimo-adios.mp3",
+    "cover": "portadas/macondo-mi-ultimo-adios.png",
+    "title": "Audioresumen: Mi último adiós",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen y contexto del poema que el filipino José Rizal escribió en español antes de ser fusilado en Manila en 1896.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Poesía",
+      "Literatura en español",
+      "Historia"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 140,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "mi-ultimo-adios",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/18600",
+      "catalogFile": "libros/gutenberg-18600.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1896,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1896). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "b45408d17a8359a3a6326de2d79fbe8b2d143ee7693e9608fff4bcd13e0b1f03",
+    "sizeBytes": 1121391,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 394 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Mi último adiós, de José Rizal. Biblioteca Macondo.\n\nJosé Rizal fue un médico, escritor y patriota filipino. En el siglo diecinueve, Filipinas era una colonia de España, y Rizal escribió en español novelas como Noli me tángere y El filibusterismo, en las que denunciaba los abusos del gobierno colonial. Por sus ideas fue acusado de rebelión y condenado a muerte. Fue fusilado en Manila el 30 de diciembre de 1896.\n\nLa noche antes de su ejecución escribió un poema de catorce estrofas, sin título, que hoy se conoce como Mi último adiós. Según la tradición, lo escondió dentro de una pequeña lámpara que entregó a su familia.\n\nEl poema comienza con una despedida a su patria, a la que llama perla del mar de Oriente y edén perdido. Rizal dice que entrega su vida con alegría, porque morir por su tierra le parece hermoso, sea en el campo de batalla o en el cadalso.\n\nLuego recuerda que, desde niño y joven, soñó con ver a Filipinas libre y digna. Pide a su patria que, si alguna vez ve brotar una flor humilde sobre su tumba, la bese en su nombre. Imagina su sepulcro olvidado, sin cruz ni piedra, y dice que no importa: sus cenizas se convertirán en polvo de la tierra amada, y él seguirá presente en el aire, en la luz, en los colores y en los cantos.\n\nAl final se despide de sus padres, hermanos, amigos de la infancia y de una dulce extranjera, su compañera. Afirma que va a un lugar donde no hay esclavos, verdugos ni opresores, y termina con la idea de que morir es descansar.\n\nEl poema se convirtió en un símbolo de la lucha por la independencia de Filipinas, que llegó en el siglo veinte. Hoy Rizal es el héroe nacional de ese país, y su poema se ha traducido a muchísimas lenguas.\n\nIdeas principales. El poema expresa un amor profundo por la patria y la disposición al sacrificio. Rizal transforma la muerte en una forma de seguir presente en su tierra. Es un testimonio de la literatura en español fuera de España y América.\n\nPreguntas para pensar. ¿De qué país era José Rizal? ¿Cuándo escribió el poema? ¿Cómo llama Rizal a su patria en el poema? ¿Por qué crees que este poema se volvió un símbolo nacional?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Mi último adiós",
+    "relatedCreator": "José Rizal",
+    "questions": [
+      {
+        "prompt": "¿De qué país era José Rizal?",
+        "options": [
+          "Cuba",
+          "Filipinas",
+          "México"
+        ],
+        "answer": 1,
+        "explanation": "Rizal es el héroe nacional de Filipinas."
+      },
+      {
+        "prompt": "¿Cuándo escribió el poema?",
+        "options": [
+          "Poco antes de ser fusilado",
+          "Cuando era niño",
+          "Después de la independencia"
+        ],
+        "answer": 0,
+        "explanation": "Lo escribió antes de su ejecución en 1896."
+      },
+      {
+        "prompt": "¿Cómo llama Rizal a su patria en el poema?",
+        "options": [
+          "Perla del mar de Oriente",
+          "Tierra del fuego",
+          "Isla del tesoro"
+        ],
+        "answer": 0,
+        "explanation": "La llama perla del mar de Oriente."
+      },
+      {
+        "prompt": "¿Por qué crees que este poema se volvió un símbolo nacional?",
+        "options": [
+          "Porque expresa el sacrificio por la libertad de su pueblo",
+          "Porque es muy corto",
+          "Porque habla de animales"
+        ],
+        "answer": 0,
+        "explanation": "Representa el anhelo de libertad de Filipinas."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-trafalgar.mp3",
+    "cover": "portadas/macondo-trafalgar.png",
+    "title": "Audioresumen: Trafalgar",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del primer Episodio Nacional de Galdós: la batalla de Trafalgar (1805) vista por Gabriel Araceli, un muchacho de catorce años.",
+    "gradeMin": 8,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura española",
+      "Historia"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 155,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "trafalgar",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/16961",
+      "catalogFile": "libros/gutenberg-16961.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1920,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1920). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "0ae605006f4b45e73c2f9811d3b8dc67c8615dd65e18e420d28a8788047ce053",
+    "sizeBytes": 1236919,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 408 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Trafalgar, de Benito Pérez Galdós. Biblioteca Macondo.\n\nTrafalgar, publicada en 1873, es la primera de las novelas que Benito Pérez Galdós llamó Episodios Nacionales, en las que mezcló personajes inventados con hechos reales de la historia de España.\n\nEl narrador es Gabriel Araceli, que, ya anciano, recuerda su juventud. Gabriel es un huérfano de Cádiz que creció en la pobreza. A los catorce años entra a servir en la casa de don Alonso Gutiérrez de Cisniega, un viejo marino retirado, y de su esposa, doña Francisca, que detesta la guerra. En esa casa conoce a Rosita, la hija de los señores, de quien se enamora en silencio, y a Marcial, un viejo marinero al que llaman Medio-hombre porque ha perdido en combate un brazo, una pierna y un ojo.\n\nEn 1805, España es aliada de Francia, gobernada por Napoleón, en guerra contra Inglaterra. Una gran flota hispano francesa se reúne en Cádiz. Don Alonso y Marcial, contra la voluntad de doña Francisca, se escapan para unirse a la escuadra, y llevan con ellos a Gabriel. Embarcan en el Santísima Trinidad, el barco más grande de su tiempo.\n\nEl 21 de octubre se libra la batalla de Trafalgar contra la flota inglesa del almirante Nelson. Gabriel vive el combate con horror y admiración: el estruendo de los cañones, los mástiles derribados, los heridos y los muertos. Ve el valor de marinos como Churruca y Gravina, pero también los errores del mando. La flota hispano francesa es derrotada, y el Santísima Trinidad, destrozado, termina hundiéndose.\n\nTras la batalla, una tormenta terrible empeora el desastre. Marcial muere. Gabriel sobrevive y regresa a Cádiz con don Alonso. Ya no es el mismo niño: ha conocido el dolor de la guerra y ha descubierto un sentimiento nuevo, el amor por la patria entendida como la comunidad de personas a la que pertenece.\n\nLa novela combina la emoción de la aventura con una mirada crítica sobre la guerra y sus consecuencias.\n\nIdeas principales. Galdós mezcla historia real y ficción para acercar el pasado a los lectores. La batalla se ve desde los ojos de un muchacho, lo que la hace más humana. La obra muestra el heroísmo y, a la vez, el horror y el sinsentido de la guerra.\n\nPreguntas para pensar. ¿Quién narra la novela? ¿Por qué llamaban Medio-hombre a Marcial? ¿En qué barco viaja Gabriel? ¿Qué aprende Gabriel con la experiencia de la batalla?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Trafalgar",
+    "relatedCreator": "Benito Pérez Galdós",
+    "questions": [
+      {
+        "prompt": "¿Quién narra la novela?",
+        "options": [
+          "Marcial",
+          "Gabriel Araceli",
+          "El almirante Nelson"
+        ],
+        "answer": 1,
+        "explanation": "Gabriel cuenta sus recuerdos de juventud."
+      },
+      {
+        "prompt": "¿Por qué llamaban Medio-hombre a Marcial?",
+        "options": [
+          "Porque era muy bajo",
+          "Porque había perdido un brazo, una pierna y un ojo en combate",
+          "Porque era muy joven"
+        ],
+        "answer": 1,
+        "explanation": "Había sufrido muchas heridas de guerra."
+      },
+      {
+        "prompt": "¿En qué barco viaja Gabriel?",
+        "options": [
+          "El Santísima Trinidad",
+          "La Santa María",
+          "El Victory"
+        ],
+        "answer": 0,
+        "explanation": "Era el barco más grande de su época."
+      },
+      {
+        "prompt": "¿Qué aprende Gabriel con la experiencia de la batalla?",
+        "options": [
+          "El dolor de la guerra y un nuevo sentido de patria",
+          "Que la guerra es un juego",
+          "A ser capitán"
+        ],
+        "answer": 0,
+        "explanation": "La experiencia lo hace madurar."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-el-sombrero-de-tres-picos.mp3",
+    "cover": "portadas/macondo-el-sombrero-de-tres-picos.png",
+    "title": "Audioresumen: El sombrero de tres picos",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen de la novela corta de Alarcón (1874): el molinero tío Lucas, la navarra Frasquita y un corregidor enamoradizo que termina burlado.",
+    "gradeMin": 9,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Novela",
+      "Literatura española",
+      "Humor"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 144,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "el-sombrero-de-tres-picos",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/29506",
+      "catalogFile": "libros/gutenberg-29506.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1891,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1891). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "2bedf1d68b809d261d1dd6bf0fdfb3de75e39648a9943ee114e533b89f89d8b1",
+    "sizeBytes": 1149372,
+    "reviewNotes": "La trama gira en torno al acoso de un corregidor a una mujer casada, tratado en clave de humor. Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 383 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de El sombrero de tres picos, de Pedro Antonio de Alarcón. Biblioteca Macondo.\n\nEl sombrero de tres picos es una novela corta de Pedro Antonio de Alarcón, publicada en 1874. Está inspirada en un romance popular y transcurre en una ciudad de Andalucía a comienzos del siglo diecinueve, cuando los corregidores todavía llevaban el sombrero de tres picos que da título al libro.\n\nEl tío Lucas es un molinero bajo, feo y muy simpático, y su esposa, Frasquita, una navarra alta, hermosa y alegre. Se quieren mucho y confían el uno en el otro. Su molino, rodeado de una parra, es lugar de reunión de las autoridades del pueblo, que van a merendar y conversar.\n\nEntre ellos está el Corregidor, don Eugenio de Zúñiga, un hombre viejo, jorobado y presumido, que se ha encaprichado con Frasquita. Con la ayuda de su alguacil Garduña, prepara un plan: una noche hace que el alcalde del lugar, Juan López, arreste al tío Lucas con un pretexto, para quedarse a solas con la molinera.\n\nPero todo sale mal para el Corregidor. Al llegar al molino cae en el caz, el canal de agua, y aparece empapado. Frasquita lo rechaza con energía, lo amenaza con el trabuco de la casa y sale a buscar a su marido. Mientras tanto, el tío Lucas logra escapar, regresa al molino y ve la ropa del Corregidor secándose junto al fuego. Creyendo que su mujer lo ha engañado, decide vengarse: se pone la ropa y el sombrero del Corregidor y se va a la ciudad, a la casa de la Corregidora.\n\nAl final, todos se encuentran en casa del Corregidor. La Corregidora, doña Mercedes, una señora digna e inteligente, deja en ridículo a su marido y aclara la situación. El tío Lucas y Frasquita comprueban que ninguno ha traicionado al otro y se reconcilian, mientras el Corregidor queda castigado y avergonzado.\n\nIdeas principales. La novela se burla del abuso de poder de las autoridades. La confianza y el amor del matrimonio vencen las trampas. Alarcón usa el humor y los enredos propios de la tradición popular.\n\nPreguntas para pensar. ¿Quién es el tío Lucas? ¿Qué pretende el Corregidor? ¿Qué hace el tío Lucas al ver la ropa del Corregidor? ¿Qué critica la novela con humor?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "El sombrero de tres picos",
+    "relatedCreator": "Pedro Antonio de Alarcón",
+    "questions": [
+      {
+        "prompt": "¿Quién es el tío Lucas?",
+        "options": [
+          "Un corregidor",
+          "Un molinero",
+          "Un alguacil"
+        ],
+        "answer": 1,
+        "explanation": "Es el molinero, esposo de Frasquita."
+      },
+      {
+        "prompt": "¿Qué pretende el Corregidor?",
+        "options": [
+          "Comprar el molino",
+          "Conquistar a Frasquita aprovechando su poder",
+          "Ayudar al tío Lucas"
+        ],
+        "answer": 1,
+        "explanation": "Abusa de su cargo para acercarse a la molinera."
+      },
+      {
+        "prompt": "¿Qué hace el tío Lucas al ver la ropa del Corregidor?",
+        "options": [
+          "La quema",
+          "Se la pone y va a casa de la Corregidora",
+          "La devuelve"
+        ],
+        "answer": 1,
+        "explanation": "Decide vengarse disfrazándose."
+      },
+      {
+        "prompt": "¿Qué critica la novela con humor?",
+        "options": [
+          "El abuso de poder de las autoridades",
+          "La vida de los molineros",
+          "La comida andaluza"
+        ],
+        "answer": 0,
+        "explanation": "El Corregidor queda en ridículo."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-fuente-ovejuna.mp3",
+    "cover": "portadas/macondo-fuente-ovejuna.png",
+    "title": "Audioresumen: Fuente Ovejuna",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del drama de Lope de Vega sobre un pueblo que se levanta unido contra los abusos de su comendador.",
+    "gradeMin": 9,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Teatro",
+      "Literatura española",
+      "Siglo de Oro"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 144,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "fuente-ovejuna",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/60198",
+      "catalogFile": "libros/gutenberg-60198.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1635,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1635). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "aa747c4f70586fe590d05ba48279fd8d6b639ec7278955f5569d92e1a802e0fd",
+    "sizeBytes": 1153541,
+    "reviewNotes": "Tema sensible: acoso y violencia del Comendador contra mujeres del pueblo, tortura en el interrogatorio (solo 9.º–11.º). Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 371 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Fuente Ovejuna, de Lope de Vega. Biblioteca Macondo.\n\nFuente Ovejuna es un drama de Lope de Vega, publicado en 1619, basado en un hecho histórico ocurrido en 1476 en el pueblo de Fuente Obejuna, en Córdoba, España.\n\nEl Comendador Fernán Gómez de Guzmán es el señor de la villa. Es un hombre arrogante que abusa de su poder: trata con desprecio a los campesinos y acosa a las mujeres del pueblo. Al mismo tiempo, participa en una rebelión contra los Reyes Católicos, Isabel y Fernando, y ataca la ciudad de Ciudad Real.\n\nEn el pueblo viven Laurencia, una joven valiente e hija del alcalde Esteban, y Frondoso, un campesino que la ama. Un día el Comendador intenta forzar a Laurencia, y Frondoso la defiende amenazándolo con su propia ballesta. Desde entonces, el Comendador busca vengarse.\n\nLaurencia y Frondoso se casan, pero en plena boda el Comendador irrumpe, arresta a Frondoso, golpea al alcalde Esteban y se lleva a Laurencia. Más tarde ella escapa y llega a la reunión de los hombres del pueblo. Con un discurso apasionado los acusa de cobardía por no defender su dignidad. Sus palabras despiertan a todos.\n\nEl pueblo entero, hombres y mujeres, se levanta, entra en la casa del Comendador, libera a Frondoso y da muerte al tirano. Luego los vecinos acuerdan una respuesta común.\n\nCuando llega un juez enviado por los reyes para averiguar quién mató al Comendador, interroga a muchos vecinos, incluso con tortura. Todos, hasta un niño y un anciano, responden lo mismo: Fuente Ovejuna lo hizo. Como no puede culpar a nadie en particular, el juez informa a los reyes. Los Reyes Católicos, conociendo los abusos del Comendador, perdonan al pueblo y lo ponen bajo su protección.\n\nIdeas principales. La unidad y la solidaridad de un pueblo frente a la injusticia. La defensa de la dignidad y del honor de las personas humildes. Lope presenta a los reyes como garantes de la justicia frente a los nobles abusivos.\n\nPreguntas para pensar. ¿Quién es el Comendador en la obra? ¿Qué responden los vecinos al juez? ¿Qué papel tiene Laurencia en la rebelión? ¿Qué deciden los Reyes Católicos al final? ¿Qué valor central defiende la obra?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Fuente Ovejuna",
+    "relatedCreator": "Lope de Vega",
+    "questions": [
+      {
+        "prompt": "¿Quién es el Comendador en la obra?",
+        "options": [
+          "Un campesino",
+          "El señor de la villa que abusa de su poder",
+          "El rey"
+        ],
+        "answer": 1,
+        "explanation": "Fernán Gómez abusa de los habitantes."
+      },
+      {
+        "prompt": "¿Qué responden los vecinos al juez?",
+        "options": [
+          "Que no saben nada",
+          "Fuente Ovejuna lo hizo",
+          "Que fue Frondoso"
+        ],
+        "answer": 1,
+        "explanation": "Todos responden lo mismo, como un solo pueblo."
+      },
+      {
+        "prompt": "¿Qué papel tiene Laurencia en la rebelión?",
+        "options": [
+          "Con su discurso despierta al pueblo",
+          "Se esconde",
+          "Avisa al Comendador"
+        ],
+        "answer": 0,
+        "explanation": "Su valentía impulsa la reacción colectiva."
+      },
+      {
+        "prompt": "¿Qué deciden los Reyes Católicos al final?",
+        "options": [
+          "Castigar al pueblo",
+          "Perdonar al pueblo",
+          "Nombrar un nuevo comendador cruel"
+        ],
+        "answer": 1,
+        "explanation": "Perdonan a los vecinos."
+      },
+      {
+        "prompt": "¿Qué valor central defiende la obra?",
+        "options": [
+          "La solidaridad frente a la injusticia",
+          "La obediencia ciega",
+          "La venganza individual"
+        ],
+        "answer": 0,
+        "explanation": "El pueblo actúa unido."
+      }
+    ]
+  },
+  {
+    "file": "audioresumenes/macondo-ariel.mp3",
+    "cover": "portadas/macondo-ariel.png",
+    "title": "Audioresumen: Ariel",
+    "creator": "Biblioteca Macondo – Comfasucre (resumen original)",
+    "type": "AUDIOSUMMARY",
+    "description": "Resumen del ensayo del uruguayo Rodó (1900), dirigido a la juventud de América: idealismo, cultura y crítica del utilitarismo.",
+    "gradeMin": 10,
+    "gradeMax": 11,
+    "categories": [
+      "Resúmenes",
+      "Ensayo",
+      "Literatura latinoamericana",
+      "Pensamiento"
+    ],
+    "language": "es",
+    "narrator": "Voz sintética Piper es_ES-davefx-medium (datos CC0)",
+    "durationSeconds": 171,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo (contenido propio)",
+      "licenseName": "Contenido propio; voz sintética Piper es_ES-davefx-medium (datos CC0) (modelo MIT, dataset de dominio público)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Macondo Digital (contenido propio)",
+      "id": "ariel",
+      "url": null,
+      "retrievedAt": "2026-10-31",
+      "workTextSource": "https://www.gutenberg.org/ebooks/22899",
+      "catalogFile": "libros/gutenberg-22899.epub"
+    },
+    "rights": {
+      "authorDeathYear": 1917,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Resumen original del proyecto (obra derivada breve) de una obra en dominio público en Colombia (autor fallecido en 1917). Voz: Piper es_ES-carlfm-x_low."
+    },
+    "sha256": "66d32c83bcdbe9fb0506d016f620e98247ad1f70c46155206af59024275812d7",
+    "sizeBytes": 1366482,
+    "reviewNotes": "Narración con voz sintética abierta (Piper, voz es_ES-davefx-medium, calidad medium, 22,05 kHz; modelo con licencia MIT y dataset CC0; regrabada el 2026-11-05, antes es_ES-carlfm-x_low). Inteligible y clara, acento de España: se recomienda escucha completa y, si se desea, regrabar con narrador humano antes de producción. Resumen de 440 palabras narradas, redactado tras leer el texto fuente; revisión pedagógica pendiente.",
+    "text": "Audioresumen de Ariel, de José Enrique Rodó. Biblioteca Macondo.\n\nAriel es un ensayo del escritor uruguayo José Enrique Rodó, publicado en 1900 y dedicado a la juventud de América. Fue uno de los libros más leídos e influyentes de América Latina a comienzos del siglo veinte.\n\nEl texto está presentado como la última lección de un viejo maestro, a quien sus alumnos llaman Próspero, como el sabio de la obra La tempestad de Shakespeare. En su aula hay una estatua de bronce de Ariel, el espíritu del aire de esa obra. Rodó usa los personajes de Shakespeare como símbolos: Ariel representa la parte noble del ser humano, la inteligencia, el sentimiento, el ideal y el gusto por la belleza; Calibán, en cambio, representa la sensualidad y la torpeza, lo material y lo puramente utilitario.\n\nPróspero se dirige a los jóvenes y les dice que la juventud es una fuerza de renovación y esperanza. Les pide que no renuncien a sus ideales y que cultiven todas las dimensiones de su espíritu, sin encerrarse en una sola actividad o especialidad. Defiende el valor del ocio dedicado a pensar, a crear y a contemplar, frente a una vida dedicada solo al trabajo y al provecho.\n\nLuego reflexiona sobre la democracia. Rodó la acepta, pero advierte que puede caer en la mediocridad si no se preocupa por la educación y por la formación de los mejores talentos, sin importar su origen social.\n\nUna parte importante del ensayo está dedicada a los Estados Unidos. Rodó admira su energía, su trabajo y su amor por la libertad, pero critica su utilitarismo, es decir, la tendencia a medirlo todo por la utilidad y el éxito material. Advierte a los latinoamericanos contra la tentación de imitar ese modelo sin pensar, y les pide conservar su propia identidad cultural, heredera de la tradición grecolatina.\n\nEl ensayo termina cuando los jóvenes salen del aula y, al mirar el cielo estrellado, uno de ellos imagina que la multitud de la ciudad es como un surco donde el sembrador espera que germine la semilla del ideal.\n\nIdeas principales. Ariel simboliza el ideal y la espiritualidad; Calibán, el materialismo. Rodó invita a la juventud a cultivar una formación integral y a no renunciar a sus ideales. El ensayo defiende una identidad latinoamericana propia frente a la imitación de modelos ajenos.\n\nPreguntas para pensar. ¿A quién está dirigido el ensayo Ariel? ¿Qué representa Calibán en el ensayo? ¿De qué obra de Shakespeare toma Rodó sus símbolos? ¿Qué critica Rodó del modelo de los Estados Unidos? ¿Sigue vigente hoy la pregunta de Rodó sobre la identidad cultural? ¿Por qué?\n\nFin del audioresumen. Biblioteca Macondo, Comfasucre.",
+    "relatedTitle": "Ariel",
+    "relatedCreator": "José Enrique Rodó",
+    "questions": [
+      {
+        "prompt": "¿A quién está dirigido el ensayo Ariel?",
+        "options": [
+          "A los gobernantes",
+          "A la juventud de América",
+          "A los niños pequeños"
+        ],
+        "answer": 1,
+        "explanation": "Rodó lo dedicó a la juventud de América."
+      },
+      {
+        "prompt": "¿Qué representa Calibán en el ensayo?",
+        "options": [
+          "El ideal y la belleza",
+          "Lo material y utilitario",
+          "La naturaleza salvaje"
+        ],
+        "answer": 1,
+        "explanation": "Calibán simboliza la sensualidad y el utilitarismo."
+      },
+      {
+        "prompt": "¿De qué obra de Shakespeare toma Rodó sus símbolos?",
+        "options": [
+          "Hamlet",
+          "La tempestad",
+          "Romeo y Julieta"
+        ],
+        "answer": 1,
+        "explanation": "Próspero, Ariel y Calibán son personajes de La tempestad."
+      },
+      {
+        "prompt": "¿Qué critica Rodó del modelo de los Estados Unidos?",
+        "options": [
+          "Su utilitarismo",
+          "Su amor por la libertad",
+          "Su energía"
+        ],
+        "answer": 0,
+        "explanation": "Admira su energía pero critica su utilitarismo."
+      },
+      {
+        "prompt": "¿Sigue vigente hoy la pregunta de Rodó sobre la identidad cultural? ¿Por qué?",
+        "options": [
+          "Sí, porque seguimos discutiendo qué imitar y qué conservar",
+          "No, porque ya no existen culturas",
+          "No tiene relación con nosotros"
+        ],
+        "answer": 0,
+        "explanation": "Es una pregunta abierta para la discusión."
+      }
+    ]
+  }
+]

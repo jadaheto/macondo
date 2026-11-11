@@ -1,0 +1,33 @@
+{
+ "title": "Mitología griega ilustrada",
+ "description": "Héroes, monstruos y dioses de los mitos griegos en vasijas pintadas, monedas antiguas y en las ilustraciones de libros clásicos para niños de Walter Crane y Virginia Frances Sterrett.",
+ "gradeMin": 3, "gradeMax": 9,
+ "categories": ["Literatura", "Mitología", "Artes", "Historia antigua"],
+ "cover": 6,
+ "credits": {"2": "Pintor de las Sirenas (c. 480-470 a. C.), Museo Británico", "4": "Cleveland Museum of Art (Open Access, CC0)"},
+ "items": [
+  ["Ánfora de cerámica negra y anaranjada con dos guerreros con casco inclinados sobre un tablero, uno frente al otro.",
+   "En esta ánfora, el pintor Exequias representó a los héroes Aquiles y Áyax jugando a los dados durante una pausa de la guerra de Troya, hace unos 2.500 años."],
+  ["Vasija pintada con un barco de vela; un hombre atado al mástil y aves con cabeza de mujer volando alrededor.",
+   "Odiseo atado al mástil para escuchar el canto de las sirenas sin lanzarse al mar. Sus marineros se taparon los oídos con cera. Es un episodio de la Odisea de Homero."],
+  ["Gran tinaja de barro antigua con relieves en el cuello y en el cuerpo, exhibida en un museo.",
+   "El vaso de Míkonos (hacia 670 a. C.) tiene en el cuello una de las representaciones más antiguas del caballo de Troya, con guerreros asomados por ventanitas."],
+  ["Moneda antigua de plata con un caballo alado en relieve que parece galopar en el aire.",
+   "Moneda de la ciudad de Corinto con Pegaso, el caballo alado que, según el mito, nació de la sangre de la Medusa y fue domado por el héroe Belerofonte."],
+  ["Ilustración de un rey con corona y túnica que se inclina sorprendido sobre su hija convertida en estatua dorada.",
+   "Walter Crane ilustró en 1892 el mito del rey Midas, que pidió convertir en oro todo lo que tocara. Al abrazar a su hija, ella también se volvió de oro."],
+  ["Página de libro antiguo con una ilustración de colores de un hombre mayor con túnica roja junto a una joven, en un salón decorado.",
+   "Portada interior de Cuentos de Tanglewood, de Nathaniel Hawthorne, con ilustraciones de Virginia Frances Sterrett (1921). El libro vuelve a contar mitos griegos para niños."],
+  ["Ilustración de una mujer con corona y largo vestido rojo de pie en un palacio con columnas y piso de baldosas en blanco y negro.",
+   "Lámina de Virginia Frances Sterrett para Cuentos de Tanglewood. Sterrett tenía apenas 21 años cuando ilustró este libro con su estilo delicado y lleno de detalles."],
+  ["Ilustración de un enorme dragón morado con alas que vuela echando fuego sobre un paisaje con un templo.",
+   "Los dragones aparecen en varios mitos griegos de Cuentos de Tanglewood, como el que cuidaba el vellocino de oro en la historia de Jasón y los argonautas."]
+ ],
+ "questions": [
+  ["¿Por qué Odiseo se hizo atar al mástil?", ["Para escuchar a las sirenas sin lanzarse al mar", "Porque estaba castigado", "Para no caerse con el viento"], 0, "Sus marineros se taparon los oídos con cera."],
+  ["¿Qué le pasó a todo lo que tocaba el rey Midas?", ["Se convertía en oro", "Se volvía de hielo", "Desaparecía"], 0, "Hasta su hija se volvió de oro."],
+  ["¿Qué animal es Pegaso?", ["Un caballo alado", "Un toro con alas", "Un perro de tres cabezas"], 0, "Fue domado por el héroe Belerofonte."],
+  ["¿Con qué truco entraron los griegos a Troya?", ["Un caballo de madera", "Un túnel", "Un globo"], 0, "Los guerreros se escondieron dentro del caballo."]
+ ],
+ "reviewNotes": "Se evitaron vasijas y obras con desnudos (frecuentes en el arte griego); se descartó una vasija de Perseo y Andrómeda con figura en silueta desnuda. Las láminas de Sterrett (†1931) se describen sin asegurar la escena exacta que ilustran."
+}

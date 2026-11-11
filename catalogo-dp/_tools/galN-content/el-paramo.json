@@ -1,0 +1,94 @@
+{
+ "title": "El páramo",
+ "description": "Frailejones, lagunas, niebla y plantas resistentes al frío: el páramo es una fábrica de agua en lo alto de los Andes, y Colombia tiene la mayor parte de los páramos del mundo.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Ecosistemas",
+  "Agua",
+  "Región Andina"
+ ],
+ "cover": 2,
+ "items": [
+  [
+   "Vista amplia del páramo de Sumapaz, con pastos y arbustos, montañas y un cielo nublado.",
+   "El páramo de Sumapaz, cerca de Bogotá, es considerado el páramo más grande del mundo. Los páramos están por encima de los 3.000 metros, donde hace frío y el clima cambia muy rápido. Colombia tiene cerca de la mitad de los páramos del planeta."
+  ],
+  [
+   "Muchos frailejones de tallo grueso y hojas plateadas en una ladera de páramo.",
+   "Los frailejones crecen muy despacio, apenas un centímetro al año, así que uno alto puede tener más de cien años. Sus hojas peludas atrapan el agua de la niebla y la sueltan poco a poco al suelo."
+  ],
+  [
+   "Un frailejón de hojas plateadas en roseta con varas de flores amarillas, en el páramo.",
+   "Las hojas del frailejón están cubiertas de pelitos que funcionan como un abrigo: lo protegen del frío de la noche y del sol fuerte del día. Por eso se ven plateadas. Sus flores amarillas atraen insectos."
+  ],
+  [
+   "Una laguna oscura rodeada de montañas y vegetación de páramo.",
+   "El suelo del páramo funciona como una esponja: guarda el agua de la lluvia y la niebla y la va soltando a quebradas y ríos. De los páramos sale gran parte del agua que llega a las ciudades de Colombia. Laguna Negra, en el páramo de Ocetá (Boyacá)."
+  ],
+  [
+   "Paisaje de páramo cubierto de niebla, con frailejones y arbustos.",
+   "En el páramo la niebla es frecuente. Las plantas atrapan las gotitas de agua de la niebla, y así el páramo recoge agua incluso cuando no llueve."
+  ],
+  [
+   "Una puya con una inflorescencia alta y espinosa entre los pastos del páramo.",
+   "Las puyas son parientes de la piña que viven en el páramo. Su tallo con flores puede ser muy alto y es visitado por colibríes que beben su néctar."
+  ],
+  [
+   "Un pequeño pato de páramo nadando en una laguna, visto entre tallos de plantas acuáticas.",
+   "El pato paramuno vive en las lagunas frías de los páramos de los Andes. Esta cría fue fotografiada en el Parque Nacional Natural Chingaza."
+  ],
+  [
+   "Montañas oscuras de bosque altoandino bajo un cielo cubierto de nubes grises.",
+   "Por debajo del páramo está el bosque altoandino, siempre húmedo y lleno de musgos y orquídeas. Juntos, el bosque y el páramo cuidan el agua de las montañas. Parque Nacional Natural Chingaza."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué se dice que el páramo es una fábrica de agua?",
+   [
+    "Porque tiene muchas fábricas",
+    "Porque su suelo y sus plantas guardan el agua y la sueltan a los ríos",
+    "Porque llueve todos los días",
+    "Porque tiene mar"
+   ],
+   1,
+   "El suelo del páramo funciona como una esponja que alimenta quebradas y ríos."
+  ],
+  [
+   "¿Cuánto crece un frailejón cada año?",
+   [
+    "Alrededor de un centímetro",
+    "Un metro",
+    "Diez metros",
+    "No crece nunca"
+   ],
+   0,
+   "Por eso un frailejón alto puede tener más de cien años."
+  ],
+  [
+   "¿Para qué le sirven al frailejón los pelitos de sus hojas?",
+   [
+    "Para pinchar a los animales",
+    "Para nadar",
+    "Para protegerse del frío y atrapar el agua de la niebla",
+    "Para hacer ruido"
+   ],
+   2,
+   "Los pelitos son como un abrigo y además capturan gotas de niebla."
+  ],
+  [
+   "¿Cuál es considerado el páramo más grande del mundo?",
+   [
+    "El páramo de Ocetá",
+    "El páramo de Chingaza",
+    "El páramo de Guerrero",
+    "El páramo de Sumapaz"
+   ],
+   3,
+   "Sumapaz está al sur de Bogotá y es un parque nacional natural."
+  ]
+ ],
+ "reviewNotes": null
+}

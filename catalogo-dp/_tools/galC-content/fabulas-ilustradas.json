@@ -1,0 +1,33 @@
+{
+ "title": "Fábulas ilustradas",
+ "description": "La cigarra y la hormiga, el cuervo y el zorro, la liebre y la tortuga y otras fábulas de Esopo y La Fontaine, en los grabados de Grandville y Gustave Doré y los dibujos de Arthur Rackham. Cada fábula deja una enseñanza.",
+ "gradeMin": 1, "gradeMax": 6,
+ "categories": ["Literatura", "Fábulas", "Literatura infantil", "Ilustración"],
+ "cover": 2,
+ "credits": {"7": "J. J. Grandville (ilustración); foto: Martien19 (CC BY-SA 4.0)"},
+ "items": [
+  ["Grabado de una cigarra vestida como una dama pobre que pide ayuda a una hormiga en la puerta de su casa, en un paisaje de invierno.",
+   "La cigarra y la hormiga: la cigarra cantó todo el verano y en invierno no tenía comida, mientras la hormiga trabajó y guardó provisiones. Grandville dibujó a los animales vestidos como personas."],
+  ["Grabado de un zorro sentado al pie de un árbol que mira hacia arriba a un cuervo posado en una rama.",
+   "El cuervo y el zorro: el zorro alaba la voz del cuervo para que cante y suelte el queso que tiene en el pico. Enseña a desconfiar de quien nos adula."],
+  ["Grabado de una tortuga que avanza decidida por un camino mientras una liebre corre al fondo y otro animal observa.",
+   "La liebre y la tortuga: la liebre, segura de ganar, se echó a dormir, y la tortuga llegó primero a la meta. 'Nada sirve correr; hay que partir a tiempo', escribió La Fontaine."],
+  ["Grabado de un ciervo con grandes cuernos escondido entre las ramas de una viña espesa en el bosque.",
+   "El ciervo y la viña, ilustrado por Gustave Doré (1867). El ciervo se esconde de los cazadores en una viña, pero luego se come sus hojas y queda al descubierto."],
+  ["Dibujo de una criatura mitad hombre mitad cabra sentada a la mesa con un hombre que sopla su plato de sopa caliente.",
+   "El hombre y el sátiro, de Esopo, dibujado por Arthur Rackham (1912). El sátiro se asusta porque el hombre sopla para calentarse las manos y también para enfriar la sopa: 'echa frío y calor por la misma boca'."],
+  ["Grabado de dos ratones vestidos que comen juntos en una mesa servida dentro de una casa elegante.",
+   "El ratón de ciudad y el ratón de campo: el de ciudad tiene banquetes, pero vive con miedo; el de campo prefiere comer poco y en paz."],
+  ["Dibujo de un mono sentado sobre el lomo de un delfín que nada en el mar.",
+   "El mono y el delfín, de Esopo, dibujado por Rackham. El mono presume de cosas que no sabe y el delfín descubre su mentira."],
+  ["Grabado de una rana que se infla para parecer tan grande como un buey que pasta tranquilo a su lado.",
+   "La rana que quería ser tan grande como el buey, de La Fontaine, ilustrada por Grandville. La rana se infló tanto que reventó: enseña a no querer aparentar lo que no somos."]
+ ],
+ "questions": [
+  ["¿Qué hizo la cigarra durante el verano?", ["Cantar", "Guardar comida", "Construir una casa"], 0, "Por eso en invierno no tenía qué comer."],
+  ["¿Cómo consiguió el zorro el queso del cuervo?", ["Lo alabó para que cantara", "Se lo robó de noche", "Se lo compró"], 0, "Al abrir el pico para cantar, el cuervo soltó el queso."],
+  ["¿Quién ganó la carrera entre la liebre y la tortuga?", ["La tortuga", "La liebre", "Nadie"], 0, "La liebre se quedó dormida por confiada."],
+  ["¿Qué enseña la fábula de la rana y el buey?", ["A no querer aparentar lo que no somos", "A comer más", "A correr rápido"], 0, "La rana se infló hasta reventar."]
+ ],
+ "reviewNotes": "Las figuras del sátiro (Rackham) son criaturas peludas de fábula, sin desnudez explícita. Se descartaron dos láminas repetidas o de fábula no identificable."
+}

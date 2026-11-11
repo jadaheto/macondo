@@ -1,0 +1,108 @@
+{
+ "title": "Instrumentos musicales de Colombia",
+ "description": "Instrumentos de la música colombiana: el trío vallenato del Caribe, las maracas, el tiple andino, la bandola llanera, el capador y antiguos instrumentos de cuerda conservados en la colección de la Biblioteca Luis Ángel Arango.",
+ "gradeMin": 1,
+ "gradeMax": 11,
+ "categories": [
+  "Educación artística",
+  "Música",
+  "Patrimonio cultural",
+  "Región Caribe"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Dibujo de los instrumentos del vallenato: un tambor pequeño, una guacharaca con su trinche y un acordeón rojo.",
+   "El vallenato se toca con tres instrumentos: el acordeón, la caja y la guacharaca. Esta música del Caribe colombiano fue declarada por la UNESCO patrimonio cultural inmaterial de la humanidad."
+  ],
+  [
+   "Acordeón de botones con el fuelle abierto y tapas negras decoradas con adornos dorados.",
+   "El acordeón diatónico llegó de Europa en el siglo XIX por los puertos del Caribe. En este tipo de acordeón cada botón da una nota al abrir el fuelle y otra al cerrarlo."
+  ],
+  [
+   "Tambor pequeño de color rojo con parche de cuero, tocado con las manos por un músico sentado.",
+   "La caja vallenata es un tambor pequeño que se toca con las manos. Marca el ritmo del vallenato y tiene raíces en los tambores de origen africano."
+  ],
+  [
+   "Par de maracas de madera clara con mango largo, sobre un fondo gris.",
+   "Las maracas son instrumentos de origen indígena que suenan al agitarlas. En los Montes de María, entre Sucre y Bolívar, acompañan a las gaitas y los tambores; en Ovejas (Sucre) se celebra el Festival Nacional de Gaitas."
+  ],
+  [
+   "Guitarra pequeña de madera clara con un mástil largo y doce clavijas, apoyada contra una pared blanca.",
+   "El tiple es un instrumento de cuerda colombiano parecido a una guitarra pequeña, con doce cuerdas agrupadas de a tres. Es símbolo de la música andina de Colombia."
+  ],
+  [
+   "Instrumento de cuerda de cuerpo redondeado en forma de pera y mástil corto, colgado sobre una tela roja.",
+   "La bandola llanera tiene pocas cuerdas y cuerpo en forma de pera. En los llanos acompaña al arpa, el cuatro y las maracas en la música de joropo."
+  ],
+  [
+   "Flauta de pan formada por una fila de tubos de caña de distintos largos, unidos entre sí.",
+   "El capador es una flauta de pan de los Andes del sur de Colombia y de Ecuador, hecha con tubos de caña de diferentes largos. Según la tradición, su nombre viene de los capadores de cerdos, que lo tocaban para anunciar su llegada."
+  ],
+  [
+   "Instrumento de cuerda frotada de madera café oscura, parecido a un violín pequeño, con su arco y una cinta colgando.",
+   "Rabel colombiano de finales del siglo XIX. Es un instrumento de cuerda frotada con arco, de tradición española. Pertenece a la colección de instrumentos de la Biblioteca Luis Ángel Arango, en Bogotá."
+  ],
+  [
+   "Violín rústico de madera oscura con el mástil claro, apoyado de lado sobre un fondo color arena.",
+   "Violín del valle del Patía (Cauca), del siglo XIX. Las comunidades afrocolombianas del Patía tienen una tradición propia de violín. Colección de la Biblioteca Luis Ángel Arango."
+  ],
+  [
+   "Instrumento de cuerda alto y delgado, con la caja hecha de un calabazo redondo, de pie sobre una base.",
+   "Violonchelo de calabazo fabricado por Carlos Mercado Acevedo en Fusagasugá en 1911. Su caja de resonancia es un calabazo, un fruto seco y hueco. Colección de la Biblioteca Luis Ángel Arango."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuáles son los tres instrumentos del vallenato?",
+   [
+    "Acordeón, caja y guacharaca",
+    "Tiple, arpa y cuatro",
+    "Violín, chelo y rabel"
+   ],
+   0,
+   "El vallenato se toca con acordeón, caja y guacharaca."
+  ],
+  [
+   "¿Cuántas cuerdas tiene el tiple?",
+   [
+    "Doce",
+    "Cuatro",
+    "Seis"
+   ],
+   0,
+   "El tiple tiene doce cuerdas agrupadas de a tres."
+  ],
+  [
+   "¿En qué municipio de Sucre se celebra el Festival Nacional de Gaitas?",
+   [
+    "Ovejas",
+    "Tolú",
+    "Corozal"
+   ],
+   0,
+   "El Festival Nacional de Gaitas se celebra en Ovejas, Sucre."
+  ],
+  [
+   "¿De dónde llegó el acordeón a Colombia?",
+   [
+    "De Europa, por los puertos del Caribe",
+    "De Japón, por el Pacífico",
+    "Se inventó en Bogotá"
+   ],
+   0,
+   "Llegó de Europa en el siglo XIX por los puertos del Caribe."
+  ],
+  [
+   "¿De qué está hecha la caja del violonchelo de Fusagasugá?",
+   [
+    "De un calabazo",
+    "De metal",
+    "De plástico"
+   ],
+   0,
+   "Su caja de resonancia es un calabazo."
+  ]
+ ],
+ "reviewNotes": "No se encontraron fotos libres de gaitas de los Montes de María sin personas identificables; se mencionan en el texto de las maracas."
+}

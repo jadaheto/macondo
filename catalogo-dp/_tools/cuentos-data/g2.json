@@ -1,0 +1,3263 @@
+[
+ {
+  "slug": "la-gaita-de-juancho",
+  "title": "La gaita de Juancho",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 2,
+  "theme": "tradiciones",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "tradiciones",
+   "música"
+  ],
+  "synopsis": "Juancho quiere tocar la gaita como su abuelo Ramiro, pero al principio solo le salen soplidos. Con paciencia y práctica, descubre que la música también es una herencia de su pueblo.",
+  "coverScene": {
+   "bg": "pueblo",
+   "time": "atardecer",
+   "items": [
+    [
+     "casa",
+     150,
+     430,
+     0.9,
+     {
+      "color": "#f6c36b",
+      "techo": "palma"
+     }
+    ],
+    [
+     "palmera",
+     700,
+     440,
+     0.9
+    ],
+    [
+     "persona",
+     360,
+     540,
+     1.3,
+     {
+      "adulto": true,
+      "piel": "morena",
+      "pelo": "calvo",
+      "ropa": "cream",
+      "pantalon": "navy",
+      "sombrero": true,
+      "sosten": "gaita"
+     }
+    ],
+    [
+     "persona",
+     500,
+     550,
+     1.05,
+     {
+      "piel": "morena",
+      "pelo": "corto",
+      "ropa": "turq",
+      "pantalon": "navy",
+      "sosten": "gaita"
+     }
+    ],
+    [
+     "pajaro",
+     620,
+     200,
+     0.9,
+     {
+      "color": "orange"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En Ovejas, un pueblo de Sucre, vivía Juancho con su abuelo Ramiro. Cada tarde, el abuelo se sentaba en el patio y tocaba su gaita. La música salía suavecita, como el viento entre las hojas.",
+     "—Abuelo, yo quiero tocar como tú —dijo Juancho un día.",
+     "—Entonces vamos a hacer una gaita para ti —respondió el abuelo con una sonrisa.",
+     "Juntos buscaron un tallo de cardón, lo limpiaron y le abrieron huequitos. En la punta pusieron cera de abejas y una pluma delgada para soplar.",
+     "—La gaita hembra canta la melodía y la gaita macho le responde —explicó el abuelo—. Así conversan, como dos amigos en la terraza."
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       0.8
+      ],
+      [
+       "casa",
+       170,
+       430,
+       0.9,
+       {
+        "color": "#f6c36b",
+        "techo": "palma"
+       }
+      ],
+      [
+       "persona",
+       420,
+       540,
+       1.3,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "calvo",
+        "ropa": "cream",
+        "pantalon": "navy",
+        "sosten": "gaita"
+       }
+      ],
+      [
+       "persona",
+       560,
+       550,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "arbusto",
+       700,
+       470,
+       0.8
+      ]
+     ]
+    },
+    "alt": "El abuelo Ramiro le muestra una gaita a Juancho en el patio de su casa."
+   },
+   {
+    "text": [
+     "Juancho sopló con fuerza. ¡Fffff! No salió ninguna nota. Sopló otra vez. ¡Piiii! Salió un chillido tan agudo que el gato se escondió debajo de la hamaca.",
+     "—Mi gaita está dañada —dijo Juancho, triste.",
+     "—Tu gaita está bien —dijo el abuelo—. Lo que pasa es que la música se aprende despacio. Primero se escucha, luego se respira, y después se sopla con cariño.",
+     "Desde ese día, Juancho practicó un ratico cada tarde. A veces le salía una nota bonita y a veces un soplido chistoso. Pero no se rindió.",
+     "Un día le salieron tres notas seguidas. Su prima Rosmery, que tocaba el tambor alegre, le hizo el ritmo con las manos: pum, pa, pum. Juancho se rió tanto que se le olvidó la cuarta nota. —No importa —dijo Rosmery—. Mañana te sale la canción completa."
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "time": "atardecer",
+     "items": [
+      [
+       "casa",
+       640,
+       430,
+       0.9,
+       {
+        "color": "#f6c36b",
+        "techo": "palma"
+       }
+      ],
+      [
+       "persona",
+       300,
+       550,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "sosten": "gaita"
+       }
+      ],
+      [
+       "texto",
+       420,
+       300,
+       1,
+       {
+        "t": "♪",
+        "size": 70,
+        "color": "coral"
+       }
+      ],
+      [
+       "texto",
+       500,
+       240,
+       1,
+       {
+        "t": "♫",
+        "size": 60,
+        "color": "turq"
+       }
+      ],
+      [
+       "pajaro",
+       160,
+       230,
+       0.9,
+       {
+        "color": "blue",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Juancho practica con su gaita y salen notas musicales."
+   },
+   {
+    "text": [
+     "Llegó el festival de gaitas. La plaza se llenó de gente, de sombreros y de música de tambores. El abuelo Ramiro subió a la tarima y llamó a Juancho.",
+     "Rosmery se sentó a su lado con el tambor y le guiñó un ojo.",
+     "Juancho tenía mariposas en la barriga. Respiró hondo, como le había enseñado su abuelo, y tocó. Las notas salieron claras y alegres. ¡La gente aplaudió y bailó!",
+     "—Abuelo, ¿cómo lo logré? —preguntó Juancho.",
+     "—Con paciencia —dijo el abuelo—. Y porque ahora la música de nuestro pueblo también vive en ti."
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "time": "noche",
+     "items": [
+      [
+       "luna",
+       680,
+       100,
+       0.8,
+       {
+        "fase": "llena"
+       }
+      ],
+      [
+       "estrellas",
+       400,
+       120,
+       1
+      ],
+      [
+       "persona",
+       300,
+       540,
+       1.3,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "calvo",
+        "ropa": "cream",
+        "pantalon": "navy",
+        "sombrero": true,
+        "sosten": "gaita"
+       }
+      ],
+      [
+       "persona",
+       430,
+       550,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "sosten": "gaita"
+       }
+      ],
+      [
+       "persona",
+       570,
+       550,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow",
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       120,
+       560,
+       1,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "yellow",
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "Juancho y su abuelo tocan gaita en el festival mientras una niña toca el tambor."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Quién le enseñó a Juancho a tocar la gaita?",
+    "options": [
+     "Su maestra",
+     "Su abuelo Ramiro",
+     "Un vecino"
+    ],
+    "answer": 1,
+    "explanation": "El abuelo Ramiro tocaba la gaita cada tarde y le ayudó a Juancho a hacer la suya."
+   },
+   {
+    "prompt": "¿Qué hizo Juancho cuando la gaita no sonaba bien?",
+    "options": [
+     "Practicó un ratico cada tarde",
+     "La botó a la basura",
+     "Dejó de intentarlo"
+    ],
+    "answer": 0,
+    "explanation": "Juancho no se rindió: practicó con paciencia cada día."
+   },
+   {
+    "prompt": "¿Qué aprendió Juancho al final?",
+    "options": [
+     "Que la gaita era mágica",
+     "Que solo los adultos tocan gaita",
+     "Que con paciencia se aprende y la música es herencia de su pueblo"
+    ],
+    "answer": 2,
+    "explanation": "El abuelo le dice que lo logró con paciencia y que la música del pueblo ahora vive en él."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "gaita",
+    "meaning": "Flauta tradicional del Caribe colombiano, hecha de cardón, con cabeza de cera y pluma."
+   },
+   {
+    "word": "cardón",
+    "meaning": "Planta parecida a un cactus, de tallo largo y hueco."
+   },
+   {
+    "word": "tarima",
+    "meaning": "Plataforma alta donde se presentan los músicos."
+   },
+   {
+    "word": "festival",
+    "meaning": "Gran fiesta donde se presentan música, bailes y tradiciones."
+   },
+   {
+    "word": "herencia",
+    "meaning": "Lo que recibimos de nuestros mayores, como costumbres y saberes."
+   }
+  ]
+ },
+ {
+  "slug": "los-colores-de-ines",
+  "title": "Los colores de Inés",
+  "grade": 2,
+  "gradeMin": 1,
+  "gradeMax": 2,
+  "theme": "emociones",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "emociones"
+  ],
+  "synopsis": "Inés es una iguana que siente muchas cosas en un solo día: alegría, rabia, tristeza y un poquito de miedo. Con ayuda de su amiga la garza, aprende a nombrar sus emociones y a respirar para encontrar la calma.",
+  "coverScene": {
+   "bg": "sabana",
+   "items": [
+    [
+     "sol",
+     680,
+     90,
+     0.8
+    ],
+    [
+     "ceiba",
+     600,
+     430,
+     0.9,
+     {
+      "flores": "yellow"
+     }
+    ],
+    [
+     "iguana",
+     330,
+     500,
+     1.3
+    ],
+    [
+     "corazon",
+     250,
+     260,
+     0.7,
+     {
+      "color": "coral"
+     }
+    ],
+    [
+     "mariposa",
+     470,
+     250,
+     0.7,
+     {
+      "color": "yellow"
+     }
+    ],
+    [
+     "flor",
+     120,
+     540,
+     0.8,
+     {
+      "color": "purple"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Inés era una iguana verde que vivía en una ceiba, cerca de una escuela de Sincelejo. Por la mañana, el sol le calentó la espalda.",
+     "—¡Qué rico! —dijo Inés—. Me siento contenta, contenta como un mango maduro.",
+     "Pero de pronto, un mono travieso le quitó su rama favorita para tomar el sol. Inés sintió calor en la cara y ganas de gritar.",
+     "—¡Esa rama es mía! —dijo, y golpeó la corteza con la cola."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       0.8
+      ],
+      [
+       "ceiba",
+       420,
+       440,
+       1.1
+      ],
+      [
+       "iguana",
+       300,
+       470,
+       1
+      ],
+      [
+       "mono",
+       560,
+       470,
+       0.7
+      ],
+      [
+       "flor",
+       700,
+       560,
+       0.7,
+       {
+        "color": "coral"
+       }
+      ]
+     ]
+    },
+    "alt": "Inés la iguana toma el sol junto a una ceiba mientras un mono juega cerca."
+   },
+   {
+    "text": [
+     "Su amiga Gertrudis, una garza blanca, llegó volando.",
+     "—Inés, ¿qué estás sintiendo? —le preguntó.",
+     "—No sé. Siento algo caliente aquí adentro.",
+     "—Eso se llama rabia —dijo Gertrudis—. Sentir rabia está bien. Lo importante es no lastimar a nadie. Vamos a respirar: huele una flor… y sopla una vela.",
+     "Inés olió una flor imaginaria y sopló una vela imaginaria. Una vez, dos veces, tres veces. El calor se fue haciendo pequeñito.",
+     "Más tarde, Inés vio que sus amigos jugaban sin ella y se sintió triste. Luego tronó una nube gris y sintió un poquito de miedo. Cada vez, Gertrudis le ayudó a ponerle nombre a lo que sentía.",
+     "—Y cuando sientas tristeza, puedes buscar a un amigo —dijo la garza—. Y si sientes miedo, puedes decirlo en voz alta. Las emociones son como nubes: llegan, se quedan un rato y después pasan.",
+     "Inés se acercó a sus amigos y les preguntó: —¿Puedo jugar? Y claro que pudo."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "items": [
+      [
+       "nube",
+       600,
+       110,
+       0.9,
+       {
+        "color": "#cfe2ee"
+       }
+      ],
+      [
+       "iguana",
+       280,
+       420,
+       1,
+       {
+        "flip": true
+       }
+      ],
+      [
+       "garza",
+       500,
+       430,
+       1
+      ],
+      [
+       "flor",
+       380,
+       420,
+       0.6,
+       {
+        "color": "pink"
+       }
+      ],
+      [
+       "juncos",
+       700,
+       400,
+       1
+      ]
+     ]
+    },
+    "alt": "La garza Gertrudis enseña a Inés a respirar junto a una flor."
+   },
+   {
+    "text": [
+     "Al atardecer, el mono volvió con una sorpresa.",
+     "—Perdón por quitarte la rama, Inés. ¿La compartimos?",
+     "Inés respiró hondo y sonrió. —Sí. Hay sol para los dos.",
+     "Esa noche, antes de dormir, Inés repasó su día: alegría, rabia, tristeza, miedo y, al final, calma.",
+     "—Hoy sentí de todos los colores —le dijo a la luna—. Y todos me enseñaron algo.",
+     "Luego cerró los ojos, olió una flor imaginaria, sopló una vela imaginaria y se quedó dormida, tranquila como el agua de la ciénaga."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "time": "atardecer",
+     "items": [
+      [
+       "ceiba",
+       400,
+       440,
+       1.1
+      ],
+      [
+       "iguana",
+       260,
+       480,
+       0.9
+      ],
+      [
+       "mono",
+       520,
+       480,
+       0.7
+      ],
+      [
+       "corazon",
+       400,
+       300,
+       0.6,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "luna",
+       680,
+       110,
+       0.6,
+       {
+        "fase": "creciente"
+       }
+      ]
+     ]
+    },
+    "alt": "Inés y el mono comparten la rama de la ceiba al atardecer."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué sintió Inés cuando el mono le quitó su rama?",
+    "options": [
+     "Alegría",
+     "Rabia",
+     "Sueño"
+    ],
+    "answer": 1,
+    "explanation": "Inés sintió calor en la cara y ganas de gritar: Gertrudis le explicó que eso se llama rabia."
+   },
+   {
+    "prompt": "¿Qué hacía Inés para calmarse?",
+    "options": [
+     "Gritaba más fuerte",
+     "Se escondía",
+     "Respiraba: olía una flor y soplaba una vela imaginaria"
+    ],
+    "answer": 2,
+    "explanation": "Gertrudis le enseñó a respirar despacio, oliendo una flor y soplando una vela imaginaria."
+   },
+   {
+    "prompt": "¿Qué aprendió Inés al final del día?",
+    "options": [
+     "Que todas las emociones le enseñan algo",
+     "Que nunca hay que sentir rabia",
+     "Que no debe tener amigos"
+    ],
+    "answer": 0,
+    "explanation": "Inés dice que sintió de todos los colores y que todos le enseñaron algo."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "emoción",
+    "meaning": "Lo que sentimos por dentro, como alegría, tristeza, rabia o miedo."
+   },
+   {
+    "word": "rabia",
+    "meaning": "Emoción que sentimos cuando algo nos parece injusto o nos molesta mucho."
+   },
+   {
+    "word": "calma",
+    "meaning": "Sentirse tranquilo y en paz."
+   },
+   {
+    "word": "corteza",
+    "meaning": "La piel dura que cubre el tronco de los árboles."
+   }
+  ]
+ },
+ {
+  "slug": "la-sombra-del-chiguiro",
+  "title": "La sombra grande del chigüiro",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 2,
+  "theme": "compartir",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "compartir",
+   "convivencia"
+  ],
+  "synopsis": "Al mediodía, en la sabana, hace mucho calor y Chepe el chigüiro tiene la mejor sombra bajo un gran árbol. Cuando otros animales llegan acalorados, Chepe descubre que compartir hace la sombra más alegre.",
+  "coverScene": {
+   "bg": "sabana",
+   "items": [
+    [
+     "sol",
+     120,
+     90,
+     0.9
+    ],
+    [
+     "ceiba",
+     460,
+     440,
+     1.2
+    ],
+    [
+     "chiguiro",
+     460,
+     520,
+     1.1
+    ],
+    [
+     "iguana",
+     640,
+     540,
+     0.7
+    ],
+    [
+     "pajaro",
+     300,
+     250,
+     0.8,
+     {
+      "color": "yellow"
+     }
+    ],
+    [
+     "mariposa",
+     680,
+     330,
+     0.6,
+     {
+      "color": "orange"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En la sabana de Sucre, el sol del mediodía calentaba como un fogón. El pasto estaba amarillo y el aire temblaba de calor.",
+     "Chepe, un chigüiro gordito y tranquilo, había encontrado la mejor sombra de todas: la de una ceiba enorme. Se acostó, cerró los ojos y suspiró.",
+     "—Esta sombra es mía, toda mía —dijo bajito.",
+     "Desde allí veía la ciénaga brillar a lo lejos y escuchaba a las chicharras cantar: ¡chiiii, chiiii! Era el mejor lugar de toda la sabana, y Chepe no pensaba moverse de ahí hasta que bajara el sol."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       1
+      ],
+      [
+       "ceiba",
+       480,
+       440,
+       1.2
+      ],
+      [
+       "chiguiro",
+       500,
+       520,
+       1
+      ],
+      [
+       "arbusto",
+       120,
+       480,
+       0.8,
+       {
+        "color": "#b8c94a"
+       }
+      ],
+      [
+       "flor",
+       720,
+       560,
+       0.7,
+       {
+        "color": "yellow"
+       }
+      ]
+     ]
+    },
+    "alt": "El chigüiro Chepe descansa a la sombra de una gran ceiba al mediodía."
+   },
+   {
+    "text": [
+     "Al rato llegó una iguana con la lengua afuera.",
+     "—Chepe, ¿me dejas un rinconcito? Las piedras están que queman.",
+     "Chepe abrió un ojo. —Mmm… es que la sombra es pequeña.",
+     "Después llegó un pajarito con las alas caídas, y luego una mariposa que casi no podía volar. Todos miraban la sombra con ojitos cansados.",
+     "Chepe se sintió incómodo. Recordó una tarde en que él tuvo mucho calor y una vaca le hizo campo bajo un totumo. ¡Qué bien se había sentido!",
+     "Chepe miró a la iguana, que respiraba rápido. Miró al pajarito, que tenía el pico abierto por el calor. Miró a la mariposa, que se posó, cansada, en una piedra caliente. Y sintió un pellizquito en el corazón."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       1
+      ],
+      [
+       "ceiba",
+       300,
+       440,
+       1.1
+      ],
+      [
+       "chiguiro",
+       330,
+       520,
+       0.9
+      ],
+      [
+       "iguana",
+       590,
+       540,
+       0.8
+      ],
+      [
+       "pajaro",
+       680,
+       470,
+       0.8,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "mariposa",
+       560,
+       330,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ]
+     ]
+    },
+    "alt": "Una iguana, un pájaro y una mariposa acalorados se acercan a la sombra del chigüiro."
+   },
+   {
+    "text": [
+     "Chepe se levantó y se corrió un poquito.",
+     "—Vengan todos. Si nos acomodamos, cabemos.",
+     "La iguana se acostó junto a la raíz. El pajarito se posó en la espalda de Chepe. La mariposa descansó en una hoja. Y pasó algo curioso: la sombra parecía más grande.",
+     "Mientras esperaban que bajara el sol, se contaron chistes y adivinanzas. La iguana sabía una de un mango y todos se rieron.",
+     "—¿Saben? —dijo Chepe—. Sola, la sombra era fresca. Compartida, además es divertida.",
+     "Y desde ese día, en la sabana, la ceiba de Chepe fue la sombra de todos."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "time": "atardecer",
+     "items": [
+      [
+       "ceiba",
+       400,
+       440,
+       1.2
+      ],
+      [
+       "chiguiro",
+       420,
+       525,
+       1
+      ],
+      [
+       "pajaro",
+       400,
+       450,
+       0.7,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "iguana",
+       600,
+       540,
+       0.8
+      ],
+      [
+       "mariposa",
+       260,
+       400,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "flor",
+       120,
+       560,
+       0.7,
+       {
+        "color": "pink"
+       }
+      ]
+     ]
+    },
+    "alt": "Chepe comparte la sombra con la iguana, el pájaro y la mariposa al atardecer."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué los animales buscaban la sombra?",
+    "options": [
+     "Porque llovía",
+     "Porque hacía mucho calor al mediodía",
+     "Porque era de noche"
+    ],
+    "answer": 1,
+    "explanation": "El sol del mediodía calentaba como un fogón en la sabana."
+   },
+   {
+    "prompt": "¿Qué recordó Chepe antes de compartir?",
+    "options": [
+     "Una vez que una vaca le hizo campo bajo un árbol",
+     "Un paseo al mar",
+     "Una canción de cuna"
+    ],
+    "answer": 0,
+    "explanation": "Chepe recordó lo bien que se sintió cuando una vaca compartió su sombra con él."
+   },
+   {
+    "prompt": "¿Qué descubrió Chepe al compartir?",
+    "options": [
+     "Que la sombra desaparecía",
+     "Que ya no tenía amigos",
+     "Que compartida, la sombra era más divertida"
+    ],
+    "answer": 2,
+    "explanation": "Chepe dice que, compartida, la sombra además es divertida."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "sabana",
+    "meaning": "Terreno plano y amplio, con pasto y pocos árboles."
+   },
+   {
+    "word": "chigüiro",
+    "meaning": "El roedor más grande del mundo; vive cerca del agua y come hierba."
+   },
+   {
+    "word": "fogón",
+    "meaning": "Lugar donde se hace fuego para cocinar."
+   },
+   {
+    "word": "totumo",
+    "meaning": "Árbol del Caribe cuyo fruto redondo, seco, sirve para hacer totumas."
+   }
+  ]
+ },
+ {
+  "slug": "los-guardianes-del-reciclaje",
+  "title": "Los guardianes del reciclaje",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "theme": "reciclaje",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "reciclaje",
+   "medio ambiente"
+  ],
+  "synopsis": "En un barrio de Sincelejo, Mariana, Samuel y Kevin ven que el arroyo está lleno de botellas. Deciden formar el club de los guardianes del reciclaje y enseñan a sus vecinos a separar los residuos.",
+  "coverScene": {
+   "bg": "pueblo",
+   "items": [
+    [
+     "sol",
+     690,
+     90,
+     0.8
+    ],
+    [
+     "caneca",
+     560,
+     560,
+     1,
+     {
+      "color": "blue",
+      "label": "Plástico"
+     }
+    ],
+    [
+     "caneca",
+     680,
+     560,
+     1,
+     {
+      "color": "green",
+      "label": "Orgánico"
+     }
+    ],
+    [
+     "persona",
+     200,
+     560,
+     1.05,
+     {
+      "piel": "trigueña",
+      "pelo": "coletas",
+      "ropa": "green",
+      "falda": true,
+      "pantalon": "navy",
+      "sosten": "botella"
+     }
+    ],
+    [
+     "persona",
+     330,
+     560,
+     1.05,
+     {
+      "piel": "oscura",
+      "pelo": "corto",
+      "ropa": "yellow",
+      "pantalon": "navy",
+      "gafas": true,
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "persona",
+     440,
+     560,
+     1.0,
+     {
+      "piel": "clara",
+      "pelo": "corto",
+      "pelocolor": "castaño",
+      "ropa": "coral",
+      "silla": true
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En el barrio de Mariana, en Sincelejo, pasaba un arroyito. Cuando llovía, el agua corría alegre. Pero un sábado, Mariana vio algo triste: el arroyo estaba lleno de botellas, bolsas y tapas.",
+     "—¡Pobre arroyo! Parece una caneca —dijo.",
+     "Sus amigos Samuel y Kevin se acercaron. Samuel se acomodó las gafas y Kevin movió las ruedas de su silla para ver mejor.",
+     "—Si la basura llega al río, después llega al mar —dijo Kevin—. Y allá viven las tortugas.",
+     "Mariana recogió una botella con un palo. —No podemos limpiar todo el arroyo nosotros solos —dijo—, pero sí podemos hacer que llegue menos basura."
+    ],
+    "scene": {
+     "bg": "rio",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       0.8
+      ],
+      [
+       "botella",
+       300,
+       450,
+       0.7
+      ],
+      [
+       "botella",
+       520,
+       470,
+       0.7
+      ],
+      [
+       "botella",
+       650,
+       430,
+       0.6
+      ],
+      [
+       "persona",
+       230,
+       360,
+       0.9,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       380,
+       360,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "gafas": true
+       }
+      ],
+      [
+       "persona",
+       520,
+       360,
+       0.9,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "coral",
+        "silla": true
+       }
+      ]
+     ]
+    },
+    "alt": "Mariana, Samuel y Kevin miran botellas plásticas flotando en el arroyo."
+   },
+   {
+    "text": [
+     "Los tres se reunieron en la terraza de Mariana.",
+     "—Seremos los guardianes del reciclaje —propuso Samuel.",
+     "La profesora Luz, que vivía al lado, les prestó unos libros. Así aprendieron que la basura no es toda igual. El plástico, el papel y el vidrio se pueden reciclar. Las cáscaras de frutas sirven para hacer abono. Y hay cosas que no se pueden aprovechar.",
+     "Con cajas viejas y pintura hicieron tres canecas: una azul para el plástico, una verde para lo orgánico y una gris para lo demás. Kevin dibujó carteles con flechas y colores.",
+     "—También podemos reducir —dijo la profesora Luz—. Eso quiere decir usar menos cosas desechables. Por ejemplo, llevar una botella para el agua que se lava y se vuelve a llenar.",
+     "Kevin anotó la palabra reducir en su cartel más grande."
+    ],
+    "scene": {
+     "bg": "casa",
+     "items": [
+      [
+       "caneca",
+       220,
+       560,
+       1,
+       {
+        "color": "blue",
+        "label": "Plástico"
+       }
+      ],
+      [
+       "caneca",
+       340,
+       560,
+       1,
+       {
+        "color": "green",
+        "label": "Orgánico"
+       }
+      ],
+      [
+       "caneca",
+       460,
+       560,
+       1,
+       {
+        "color": "gray",
+        "label": "Otros"
+       }
+      ],
+      [
+       "persona",
+       620,
+       580,
+       1.2,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "sosten": "libro"
+       }
+      ],
+      [
+       "persona",
+       100,
+       580,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "Los niños preparan tres canecas de colores con ayuda de la profesora Luz."
+   },
+   {
+    "text": [
+     "El domingo salieron por la cuadra. Tocaban las puertas y explicaban:",
+     "—Buenos días, vecina. ¿Nos ayuda a separar? Las botellas van en la azul.",
+     "Algunos vecinos dijeron que no tenían tiempo. Pero don Aurelio, el de la tienda de la esquina, puso las canecas frente a su puerta. Luego se unieron la señora Edith y los primos de Kevin.",
+     "Un mes después, el arroyo corría limpio otra vez. Una garza se paró en la orilla, como diciendo gracias.",
+     "—Ser guardián no es difícil —dijo Mariana—. Solo hay que empezar."
+    ],
+    "scene": {
+     "bg": "rio",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       0.8
+      ],
+      [
+       "garza",
+       600,
+       390,
+       0.8
+      ],
+      [
+       "arbusto",
+       120,
+       330,
+       0.8
+      ],
+      [
+       "persona",
+       260,
+       360,
+       0.9,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       380,
+       360,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       480,
+       360,
+       0.9,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "coral",
+        "silla": true
+       }
+      ],
+      [
+       "pez",
+       400,
+       470,
+       0.7,
+       {
+        "color": "orange"
+       }
+      ]
+     ]
+    },
+    "alt": "Los tres amigos celebran junto al arroyo limpio mientras una garza descansa en la orilla."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué problema encontró Mariana en el arroyo?",
+    "options": [
+     "Estaba seco",
+     "Estaba lleno de botellas, bolsas y tapas",
+     "Tenía muchos peces"
+    ],
+    "answer": 1,
+    "explanation": "Mariana vio el arroyo lleno de basura y dijo que parecía una caneca."
+   },
+   {
+    "prompt": "¿Qué va en la caneca verde?",
+    "options": [
+     "Lo orgánico, como cáscaras de frutas",
+     "Las botellas de plástico",
+     "El vidrio"
+    ],
+    "answer": 0,
+    "explanation": "Los guardianes usaron la caneca verde para los residuos orgánicos, que sirven para hacer abono."
+   },
+   {
+    "prompt": "¿Qué pasó un mes después?",
+    "options": [
+     "Nadie ayudó",
+     "El arroyo se secó",
+     "El arroyo corría limpio otra vez"
+    ],
+    "answer": 2,
+    "explanation": "Gracias a los vecinos que separaron sus residuos, el arroyo volvió a estar limpio."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "reciclar",
+    "meaning": "Volver a usar materiales como plástico, papel o vidrio para hacer cosas nuevas."
+   },
+   {
+    "word": "orgánico",
+    "meaning": "Residuo que viene de plantas o alimentos, como cáscaras y hojas."
+   },
+   {
+    "word": "abono",
+    "meaning": "Tierra rica que ayuda a crecer a las plantas."
+   },
+   {
+    "word": "arroyo",
+    "meaning": "Corriente pequeña de agua."
+   },
+   {
+    "word": "guardián",
+    "meaning": "Persona que cuida y protege algo."
+   }
+  ]
+ },
+ {
+  "slug": "valentina-habla-con-las-manos",
+  "title": "Valentina habla con las manos",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "theme": "inclusión",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "inclusión",
+   "diversidad"
+  ],
+  "synopsis": "Valentina es sorda y se comunica en Lengua de Señas Colombiana. Cuando llega a un nuevo salón, sus compañeros descubren que pueden aprender a hablar con las manos y que la amistad no necesita palabras en voz alta.",
+  "coverScene": {
+   "bg": "patio",
+   "items": [
+    [
+     "sol",
+     680,
+     90,
+     0.8
+    ],
+    [
+     "escuela",
+     400,
+     400,
+     0.9
+    ],
+    [
+     "persona",
+     300,
+     560,
+     1.1,
+     {
+      "piel": "morena",
+      "pelo": "trenzas",
+      "ropa": "purple",
+      "falda": true,
+      "pantalon": "navy",
+      "audifono": true,
+      "brazos": "saluda"
+     }
+    ],
+    [
+     "persona",
+     480,
+     560,
+     1.1,
+     {
+      "piel": "trigueña",
+      "pelo": "corto",
+      "ropa": "orange",
+      "pantalon": "navy",
+      "brazos": "saluda",
+      "flip": true
+     }
+    ],
+    [
+     "corazon",
+     390,
+     260,
+     0.6,
+     {
+      "color": "coral"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Era lunes en una escuela de San Marcos, a orillas del San Jorge. La profe Adriana entró al salón con una niña de trenzas largas.",
+     "—Ella es Valentina. Valentina es sorda: no escucha con los oídos, pero entiende con los ojos y habla con las manos, en Lengua de Señas Colombiana.",
+     "Valentina sonrió y movió las manos con rapidez. Parecían mariposas.",
+     "—¿Qué dijo? —preguntó Andrés.",
+     "—Dijo: hola, mucho gusto —explicó la profe, y les mostró cómo hacer el saludo.",
+     "Todos intentaron hacer la seña. A Mateo se le enredaron los dedos y Valentina se rió con él, no de él. Luego la profe les explicó que, para hablar con Valentina, había que mirarla a la cara, no taparse la boca y tener paciencia."
+    ],
+    "scene": {
+     "bg": "aula",
+     "items": [
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "¡Hola!",
+        "size": 80,
+        "color": "white"
+       }
+      ],
+      [
+       "persona",
+       560,
+       580,
+       1.25,
+       {
+        "adulto": true,
+        "piel": "clara",
+        "pelo": "largo",
+        "pelocolor": "castaño",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       400,
+       580,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "audifono": true,
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       160,
+       580,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy"
+       }
+      ]
+     ]
+    },
+    "alt": "La profesora presenta a Valentina, que saluda con las manos frente al tablero."
+   },
+   {
+    "text": [
+     "A la hora del recreo, Andrés quería jugar con Valentina, pero no sabía cómo invitarla. Se puso nervioso y solo la saludó con la mano.",
+     "Valentina sacó una libreta y escribió: ¿Jugamos a la pelota?",
+     "Andrés dio un brinco de alegría. Jugaron toda la tarde. Valentina le enseñó la seña de pelota, la de correr y la de amigo: dos dedos que se abrazan.",
+     "Al día siguiente, Andrés le enseñó las señas a Luisa, Luisa a Mateo, y Mateo a todo el salón.",
+     "Cada mañana, Valentina enseñaba una seña nueva: agua, comer, feliz, río, gracias. Los niños las practicaban en la fila, en el comedor y hasta en la casa con sus familias. La mamá de Andrés aprendió a decir buenos días con las manos."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       0.8
+      ],
+      [
+       "arbusto",
+       700,
+       400,
+       0.8
+      ],
+      [
+       "persona",
+       300,
+       560,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "audifono": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "pelota",
+       420,
+       470,
+       1,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       540,
+       560,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "arriba",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Valentina y Andrés juegan con una pelota en el patio de la escuela."
+   },
+   {
+    "text": [
+     "Un mes después, el curso preparó una sorpresa para la izada de bandera. Cuando llegó su turno, todos subieron al escenario y cantaron una canción del río con la voz y con las manos al mismo tiempo.",
+     "Valentina se puso las manos en el pecho. Era la primera vez que todo un salón le hablaba en su idioma.",
+     "Después, con señas, les dijo algo que ya todos entendían:",
+     "—Gracias, amigos.",
+     "Y cien manos se levantaron para responder, moviéndose en el aire como mariposas felices."
+    ],
+    "scene": {
+     "bg": "patio",
+     "time": "atardecer",
+     "items": [
+      [
+       "persona",
+       160,
+       560,
+       1.0,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "green",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       290,
+       560,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       420,
+       560,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "trenzas",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "audifono": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       550,
+       560,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "rubio",
+        "ropa": "green",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       670,
+       560,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "mariposa",
+       400,
+       200,
+       0.7,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "mariposa",
+       600,
+       160,
+       0.5,
+       {
+        "color": "turq"
+       }
+      ]
+     ]
+    },
+    "alt": "Todo el curso levanta las manos para hablar en Lengua de Señas con Valentina."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Cómo se comunica Valentina?",
+    "options": [
+     "Solo con dibujos",
+     "No se comunica",
+     "Con las manos, en Lengua de Señas Colombiana"
+    ],
+    "answer": 2,
+    "explanation": "Valentina es sorda y habla con las manos en Lengua de Señas Colombiana."
+   },
+   {
+    "prompt": "¿Cómo invitó Valentina a Andrés a jugar?",
+    "options": [
+     "Le escribió en una libreta",
+     "Lo llamó gritando",
+     "Le mandó una carta por correo"
+    ],
+    "answer": 0,
+    "explanation": "Valentina escribió en su libreta: ¿Jugamos a la pelota?"
+   },
+   {
+    "prompt": "¿Qué sorpresa le dio el curso a Valentina?",
+    "options": [
+     "Una torta",
+     "Una canción con la voz y con señas",
+     "Un viaje al mar"
+    ],
+    "answer": 1,
+    "explanation": "En la izada de bandera, todos cantaron con la voz y con las manos al mismo tiempo."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "sorda",
+    "meaning": "Persona que no oye o que oye muy poco."
+   },
+   {
+    "word": "Lengua de Señas Colombiana",
+    "meaning": "Idioma de las personas sordas de Colombia; se habla con las manos, la cara y el cuerpo."
+   },
+   {
+    "word": "seña",
+    "meaning": "Movimiento de las manos que significa una palabra o idea."
+   },
+   {
+    "word": "izada de bandera",
+    "meaning": "Acto en la escuela para celebrar fechas especiales y reconocer a los estudiantes."
+   }
+  ]
+ },
+ {
+  "slug": "lucero-y-el-jardin",
+  "title": "Lucero y el jardín de la escuela",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "theme": "polinización",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "polinización",
+   "ciencias naturales"
+  ],
+  "synopsis": "En la huerta de una escuela de Sampués, los niños se preguntan por qué sus matas de ahuyama no dan fruto. Lucero, un colibrí curioso, les ayuda a descubrir el secreto del polen.",
+  "coverScene": {
+   "bg": "huerta",
+   "items": [
+    [
+     "sol",
+     680,
+     90,
+     0.8
+    ],
+    [
+     "colibri",
+     380,
+     240,
+     1.6,
+     {
+      "color": "turq"
+     }
+    ],
+    [
+     "flor",
+     300,
+     470,
+     1.1,
+     {
+      "color": "coral"
+     }
+    ],
+    [
+     "flor",
+     460,
+     480,
+     1.1,
+     {
+      "color": "yellow"
+     }
+    ],
+    [
+     "flor",
+     600,
+     470,
+     1,
+     {
+      "color": "purple"
+     }
+    ],
+    [
+     "planta",
+     160,
+     560,
+     1,
+     {
+      "etapa": 3,
+      "color": "yellow"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "La escuela de Sampués tenía una huerta detrás del salón de segundo. Allí, Daniela, Yeison y Camilo sembraron ahuyama, ají y flores.",
+     "Las matas crecieron grandes, con flores amarillas. Pero pasaban los días y no aparecía ni una ahuyama.",
+     "—¿Qué le pasa a nuestra huerta? —preguntó Daniela, preocupada.",
+     "Nadie lo sabía. Entonces escucharon un zumbido: ¡zzzum, zzzum! Era un colibrí verde y brillante.",
+     "El colibrí se quedó quieto en el aire, aleteando rapidísimo, como si los estuviera mirando con curiosidad. Luego voló hacia una flor de ají."
+    ],
+    "scene": {
+     "bg": "huerta",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       0.8
+      ],
+      [
+       "planta",
+       300,
+       480,
+       0.9,
+       {
+        "etapa": 3,
+        "color": "yellow"
+       }
+      ],
+      [
+       "planta",
+       470,
+       480,
+       0.9,
+       {
+        "etapa": 3,
+        "color": "yellow"
+       }
+      ],
+      [
+       "colibri",
+       620,
+       240,
+       1.2,
+       {
+        "color": "turq"
+       }
+      ],
+      [
+       "persona",
+       160,
+       560,
+       1.0,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "green"
+       }
+      ],
+      [
+       "persona",
+       620,
+       560,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "sombrero": true
+       }
+      ]
+     ]
+    },
+    "alt": "Daniela y Yeison miran las matas de la huerta mientras llega un colibrí."
+   },
+   {
+    "text": [
+     "El colibrí se llamaba Lucero. Volaba tan rápido que sus alas parecían una nube.",
+     "Lucero metió el pico en una flor de ají para tomar néctar. Cuando salió, tenía la cabeza llena de un polvito amarillo.",
+     "—¿Qué es eso? —preguntó Camilo, acercándose con su lupa.",
+     "La profesora Nelly explicó: —Es polen. Cuando el colibrí, las abejas o las mariposas visitan las flores, llevan el polen de una flor a otra. Así las flores se convierten en frutos. A eso se le llama polinización.",
+     "—¡Entonces nuestra huerta necesita más visitantes! —dijo Yeison.",
+     "Camilo anotó en su cuaderno de ciencias: Sin polinizadores, no hay frutos. Debajo dibujó a Lucero con una flecha que iba de una flor a otra."
+    ],
+    "scene": {
+     "bg": "huerta",
+     "items": [
+      [
+       "flor",
+       300,
+       470,
+       1.2,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "colibri",
+       360,
+       330,
+       1.4,
+       {
+        "color": "turq"
+       }
+      ],
+      [
+       "persona",
+       560,
+       560,
+       1.25,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       150,
+       560,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "coral",
+        "pantalon": "navy",
+        "gafas": true
+       }
+      ],
+      [
+       "mariposa",
+       680,
+       230,
+       0.6,
+       {
+        "color": "yellow"
+       }
+      ]
+     ]
+    },
+    "alt": "El colibrí Lucero toma néctar de una flor mientras la profesora explica la polinización."
+   },
+   {
+    "text": [
+     "Los niños sembraron más flores de colores alrededor de la huerta: rojas, moradas y amarillas. Pusieron un platito con agua para los visitantes y prometieron no usar venenos.",
+     "Pronto llegaron más colibríes, abejas y mariposas. Lucero iba de flor en flor, como un cartero con su bolsa de polen.",
+     "Dos semanas después, Daniela gritó: —¡Miren! ¡Una ahuyamita!",
+     "Debajo de una hoja crecía una ahuyama redonda y verde. Todos aplaudieron y Lucero dio una vuelta en el aire.",
+     "—Gracias, Lucero —dijo Daniela—. Tú cuidas la huerta y nosotros te cuidamos a ti."
+    ],
+    "scene": {
+     "bg": "huerta",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       0.8
+      ],
+      [
+       "flor",
+       120,
+       470,
+       1,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "flor",
+       230,
+       480,
+       1,
+       {
+        "color": "purple"
+       }
+      ],
+      [
+       "flor",
+       600,
+       480,
+       1,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "colibri",
+       420,
+       220,
+       1.1,
+       {
+        "color": "turq"
+       }
+      ],
+      [
+       "mariposa",
+       560,
+       260,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "persona",
+       400,
+       570,
+       1.0,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "green",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "planta",
+       700,
+       570,
+       0.8,
+       {
+        "etapa": 3,
+        "color": "yellow"
+       }
+      ]
+     ]
+    },
+    "alt": "La huerta llena de flores, colibríes y mariposas, y Daniela celebra la primera ahuyama."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Cuál era el problema de la huerta?",
+    "options": [
+     "Las matas tenían flores pero no daban fruto",
+     "No había agua",
+     "Las matas no crecían"
+    ],
+    "answer": 0,
+    "explanation": "Las matas crecieron con flores amarillas, pero no aparecía ninguna ahuyama."
+   },
+   {
+    "prompt": "¿Qué es la polinización?",
+    "options": [
+     "Regar las matas",
+     "Llevar el polen de una flor a otra para que se formen frutos",
+     "Cortar las flores"
+    ],
+    "answer": 1,
+    "explanation": "La profesora explicó que los colibríes, abejas y mariposas llevan polen de flor en flor."
+   },
+   {
+    "prompt": "¿Qué hicieron los niños para ayudar a los polinizadores?",
+    "options": [
+     "Pusieron venenos",
+     "Cortaron los árboles",
+     "Sembraron más flores y pusieron agua"
+    ],
+    "answer": 2,
+    "explanation": "Sembraron flores de colores, pusieron un platito con agua y prometieron no usar venenos."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "polen",
+    "meaning": "Polvito amarillo que producen las flores."
+   },
+   {
+    "word": "néctar",
+    "meaning": "Líquido dulce que hay dentro de las flores."
+   },
+   {
+    "word": "polinización",
+    "meaning": "Cuando el polen pasa de una flor a otra y así se pueden formar frutos y semillas."
+   },
+   {
+    "word": "ahuyama",
+    "meaning": "Fruto grande y anaranjado por dentro, también llamado calabaza."
+   },
+   {
+    "word": "lupa",
+    "meaning": "Lente que hace ver las cosas más grandes."
+   }
+  ]
+ },
+ {
+  "slug": "babi-la-babilla",
+  "title": "Babi, la babilla",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 2,
+  "theme": "respeto a la diversidad",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "respeto a la diversidad",
+   "fauna"
+  ],
+  "synopsis": "En la ciénaga, todos se alejan de Babi la babilla sin conocerla, solo por sus dientes y sus escamas. Cuando Babi ayuda a encontrar a un pececito perdido, los animales aprenden a no juzgar por las apariencias.",
+  "coverScene": {
+   "bg": "cienaga",
+   "items": [
+    [
+     "sol",
+     680,
+     90,
+     0.8
+    ],
+    [
+     "babilla",
+     420,
+     470,
+     1.2
+    ],
+    [
+     "garza",
+     150,
+     400,
+     0.8,
+     {
+      "flip": true
+     }
+    ],
+    [
+     "pez",
+     600,
+     540,
+     0.8,
+     {
+      "color": "orange"
+     }
+    ],
+    [
+     "tortuga",
+     640,
+     440,
+     0.5
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En una ciénaga de La Mojana vivía Babi, una babilla de escamas verdes y sonrisa larga. A Babi le gustaba flotar quietecita, mirando las nubes.",
+     "Pero cuando ella se acercaba, la garza levantaba el vuelo, la tortuga se escondía en su caparazón y los pececitos huían.",
+     "—Tiene muchos dientes —susurraba la garza.",
+     "—Seguro es gruñona —decía la tortuga.",
+     "Nadie le había preguntado su nombre. Babi se sentía sola.",
+     "A veces, Babi intentaba saludar. —Buenos días, garza. ¡Qué bonitas plumas! Pero la garza ya se había ido volando, y el saludo se quedaba flotando en el agua, solito, como una hoja."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "items": [
+      [
+       "nube",
+       200,
+       100,
+       0.8
+      ],
+      [
+       "nube",
+       600,
+       140,
+       0.6
+      ],
+      [
+       "babilla",
+       420,
+       480,
+       1.1
+      ],
+      [
+       "garza",
+       130,
+       400,
+       0.7,
+       {
+        "flip": true
+       }
+      ],
+      [
+       "tortuga",
+       680,
+       440,
+       0.5
+      ],
+      [
+       "pez",
+       600,
+       560,
+       0.6,
+       {
+        "color": "orange",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Babi la babilla flota en la ciénaga mientras los demás animales la miran desde lejos."
+   },
+   {
+    "text": [
+     "Una tarde, la mamá pez llegó llorando.",
+     "—¡Mi pececito Pipo se perdió entre las raíces del mangle!",
+     "La garza buscó desde arriba, pero las hojas tapaban todo. La tortuga buscó, pero era muy lenta.",
+     "Entonces Babi dijo con voz suave: —Yo conozco cada rincón de la ciénaga. Puedo ver bajo el agua y nado sin hacer olas. ¿Me dejan ayudar?",
+     "Los animales se miraron. No tenían otra idea, así que dijeron que sí.",
+     "La mamá pez nadó junto a Babi, muy nerviosa. La garza voló por encima, mirando con atención. Por primera vez, todos iban juntos."
+    ],
+    "scene": {
+     "bg": "manglar",
+     "items": [
+      [
+       "mangle",
+       600,
+       400,
+       1
+      ],
+      [
+       "babilla",
+       330,
+       480,
+       1
+      ],
+      [
+       "pez",
+       680,
+       520,
+       0.5,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "pez",
+       150,
+       540,
+       0.8,
+       {
+        "color": "orange",
+        "flip": true
+       }
+      ],
+      [
+       "garza",
+       160,
+       380,
+       0.7,
+       {
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Babi nada hacia las raíces del mangle para buscar al pececito perdido."
+   },
+   {
+    "text": [
+     "Babi nadó despacito entre las raíces. Allí, enredado en una hoja, estaba Pipo, temblando. Babi apartó la hoja con su nariz y lo acompañó, nadando a su lado, hasta donde estaba su mamá.",
+     "—¡Gracias, Babi! —dijo la mamá pez.",
+     "La garza bajó la cabeza. —Perdón, Babi. Te juzgamos sin conocerte.",
+     "—Todos somos distintos —dijo Babi—. Mis dientes son para comer, mis escamas me protegen, y mi corazón es para tener amigos.",
+     "Desde entonces, Babi tuvo muchos amigos en la ciénaga. Cada uno a su manera, y cada uno en su espacio: así se respetan los animales que viven juntos."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "time": "atardecer",
+     "items": [
+      [
+       "babilla",
+       380,
+       480,
+       1
+      ],
+      [
+       "pez",
+       560,
+       540,
+       0.8,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "pez",
+       640,
+       550,
+       0.5,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "garza",
+       150,
+       400,
+       0.8,
+       {
+        "flip": true
+       }
+      ],
+      [
+       "tortuga",
+       680,
+       430,
+       0.5
+      ],
+      [
+       "corazon",
+       400,
+       280,
+       0.6,
+       {
+        "color": "coral"
+       }
+      ]
+     ]
+    },
+    "alt": "Babi devuelve a Pipo con su mamá y los animales de la ciénaga celebran juntos."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué los animales se alejaban de Babi?",
+    "options": [
+     "Porque ella era grosera",
+     "Por su apariencia, sin conocerla",
+     "Porque cantaba muy fuerte"
+    ],
+    "answer": 1,
+    "explanation": "La juzgaban por sus dientes y escamas, pero nadie le había preguntado su nombre."
+   },
+   {
+    "prompt": "¿Cómo ayudó Babi a la mamá pez?",
+    "options": [
+     "Encontró a Pipo entre las raíces del mangle",
+     "Le dio comida",
+     "Llamó a la garza"
+    ],
+    "answer": 0,
+    "explanation": "Babi conocía la ciénaga, encontró a Pipo enredado en una hoja y lo acompañó hasta su mamá."
+   },
+   {
+    "prompt": "¿Qué enseñanza deja el cuento?",
+    "options": [
+     "Que hay que tocar a todos los animales",
+     "Que las babillas son iguales a los peces",
+     "Que no debemos juzgar a otros por su apariencia"
+    ],
+    "answer": 2,
+    "explanation": "La garza pide perdón por juzgar a Babi sin conocerla."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "babilla",
+    "meaning": "Reptil parecido a un caimán pequeño que vive en ciénagas y ríos del Caribe."
+   },
+   {
+    "word": "ciénaga",
+    "meaning": "Lugar con agua quieta y poco profunda, lleno de plantas y animales."
+   },
+   {
+    "word": "escamas",
+    "meaning": "Placas pequeñas y duras que cubren la piel de reptiles y peces."
+   },
+   {
+    "word": "juzgar",
+    "meaning": "Pensar algo de alguien, muchas veces antes de conocerlo."
+   },
+   {
+    "word": "caparazón",
+    "meaning": "Concha dura que protege el cuerpo de la tortuga."
+   }
+  ]
+ },
+ {
+  "slug": "el-viaje-de-gotita",
+  "title": "El viaje de Gotita por La Mojana",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "theme": "ciclo del agua",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "ciclo del agua",
+   "ciencias naturales"
+  ],
+  "synopsis": "Gotita vive en una ciénaga de La Mojana. Un día el sol la calienta, sube al cielo, se vuelve nube, cae como lluvia y viaja por el río San Jorge. Así descubre el ciclo del agua.",
+  "coverScene": {
+   "bg": "cienaga",
+   "items": [
+    [
+     "sol",
+     660,
+     100,
+     0.9
+    ],
+    [
+     "nube",
+     220,
+     120,
+     0.9
+    ],
+    [
+     "gota",
+     400,
+     330,
+     1.6
+    ],
+    [
+     "garza",
+     120,
+     420,
+     0.7,
+     {
+      "flip": true
+     }
+    ],
+    [
+     "pez",
+     600,
+     540,
+     0.7,
+     {
+      "color": "orange"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Gotita era una gota de agua que vivía en una ciénaga de La Mojana, entre peces, garzas y flores de agua. Le encantaba jugar con sus amigas a hacer ondas.",
+     "Una mañana, el sol salió muy brillante. Gotita empezó a sentir calorcito, luego más calor… y de pronto se sintió liviana, liviana como una pluma.",
+     "—¡Estoy flotando! —gritó.",
+     "Gotita se había convertido en vapor, un vapor invisible que subía y subía. A esto se le llama evaporación.",
+     "Desde arriba vio la ciénaga hacerse pequeñita. Las garzas parecían puntos blancos y las canoas parecían semillas flotando."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "items": [
+      [
+       "sol",
+       640,
+       100,
+       1
+      ],
+      [
+       "gota",
+       400,
+       300,
+       1.1
+      ],
+      [
+       "texto",
+       300,
+       400,
+       1,
+       {
+        "t": "↑",
+        "size": 60,
+        "color": "white"
+       }
+      ],
+      [
+       "texto",
+       500,
+       400,
+       1,
+       {
+        "t": "↑",
+        "size": 60,
+        "color": "white"
+       }
+      ],
+      [
+       "pez",
+       200,
+       550,
+       0.7,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "garza",
+       690,
+       440,
+       0.7
+      ]
+     ]
+    },
+    "alt": "El sol calienta la ciénaga y Gotita sube como vapor."
+   },
+   {
+    "text": [
+     "Allá arriba hacía fresco. Gotita encontró a miles de gotitas como ella. Se juntaron tanto, tanto, que formaron una nube blanca y esponjosa. Eso es la condensación.",
+     "La nube viajó con el viento sobre las sabanas de Sucre. Gotita veía desde arriba las vacas chiquiticas, los techos de palma y el río brillando como una cinta.",
+     "Pero la nube se fue llenando de gotas y se puso gris y pesada.",
+     "—¡Agárrense, que vamos a bajar! —dijo una gota grande.",
+     "Gotita sintió un poco de nervios, pero también mucha curiosidad. ¿Dónde caería?"
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "nube",
+       300,
+       130,
+       1.3
+      ],
+      [
+       "lluvia",
+       560,
+       150,
+       1
+      ],
+      [
+       "gota",
+       300,
+       240,
+       0.7
+      ],
+      [
+       "casa",
+       160,
+       440,
+       0.6,
+       {
+        "techo": "palma"
+       }
+      ],
+      [
+       "arbusto",
+       660,
+       470,
+       0.7
+      ]
+     ]
+    },
+    "alt": "Gotita forma una nube que viaja sobre la sabana y empieza a llover."
+   },
+   {
+    "text": [
+     "¡Plic, plic, plic! Gotita cayó como lluvia sobre un campo de arroz. Esa es la precipitación. Los sapos cantaron, las plantas tomaron agua y los niños salieron a jugar descalzos.",
+     "Un niño puso un balde bajo el alero de su casa y guardó agua de lluvia para regar las matas.",
+     "Gotita resbaló por la tierra, se metió en un caño y llegó al río San Jorge. Navegó junto a canoas de pescadores y bajo un puente.",
+     "Después de muchos días, el río la llevó otra vez a su ciénaga.",
+     "—¡Volví! —dijo Gotita a sus amigas—. Fui vapor, fui nube, fui lluvia y fui río.",
+     "—Y lo volverás a hacer —dijo una garza—, porque el agua nunca deja de viajar. Por eso hay que cuidarla en cada parte del camino."
+    ],
+    "scene": {
+     "bg": "rio",
+     "items": [
+      [
+       "sol",
+       680,
+       90,
+       0.7
+      ],
+      [
+       "arcoiris",
+       400,
+       280,
+       0.8
+      ],
+      [
+       "canoa",
+       320,
+       470,
+       0.8,
+       {
+        "color": "trunk"
+       }
+      ],
+      [
+       "gota",
+       560,
+       460,
+       0.9
+      ],
+      [
+       "persona",
+       150,
+       380,
+       0.9,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "coral",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "garza",
+       700,
+       380,
+       0.7
+      ]
+     ]
+    },
+    "alt": "Gotita navega por el río San Jorge junto a una canoa, bajo un arcoíris."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué le pasó a Gotita cuando el sol la calentó?",
+    "options": [
+     "Se congeló",
+     "Se evaporó y subió al cielo",
+     "Se hundió en el barro"
+    ],
+    "answer": 1,
+    "explanation": "Con el calor, Gotita se volvió vapor y subió: eso es la evaporación."
+   },
+   {
+    "prompt": "¿Cómo se forma una nube?",
+    "options": [
+     "Cuando muchas gotitas se juntan en el aire fresco",
+     "Cuando sopla el viento",
+     "Cuando sale la luna"
+    ],
+    "answer": 0,
+    "explanation": "Allá arriba, las gotitas se juntan y forman la nube: eso es la condensación."
+   },
+   {
+    "prompt": "¿Por dónde viajó Gotita para volver a su ciénaga?",
+    "options": [
+     "Por una tubería",
+     "Por el mar",
+     "Por un caño y el río San Jorge"
+    ],
+    "answer": 2,
+    "explanation": "Después de caer como lluvia, Gotita llegó a un caño, luego al río San Jorge y volvió a la ciénaga."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "evaporación",
+    "meaning": "Cuando el agua se calienta y se convierte en vapor que sube."
+   },
+   {
+    "word": "condensación",
+    "meaning": "Cuando el vapor se enfría y se junta en gotitas que forman nubes."
+   },
+   {
+    "word": "precipitación",
+    "meaning": "Cuando el agua cae de las nubes como lluvia."
+   },
+   {
+    "word": "caño",
+    "meaning": "Corriente de agua que une ríos y ciénagas."
+   },
+   {
+    "word": "La Mojana",
+    "meaning": "Región del sur de Sucre y otros departamentos, llena de ríos, caños y ciénagas."
+   }
+  ]
+ },
+ {
+  "slug": "el-aullido-de-aurelio",
+  "title": "El aullido de Aurelio",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 2,
+  "theme": "diversidad de talentos",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "diversidad de talentos",
+   "fauna"
+  ],
+  "synopsis": "En el bosque de los Montes de María, todos los monos aulladores tienen una voz grave y poderosa, menos Aurelio, que aúlla finito. Cuando una niebla espesa cubre el bosque, la voz diferente de Aurelio es justo la que todos necesitan.",
+  "coverScene": {
+   "bg": "bosque",
+   "time": "atardecer",
+   "items": [
+    [
+     "ceiba",
+     400,
+     450,
+     1.1
+    ],
+    [
+     "mono",
+     400,
+     300,
+     1,
+     {
+      "aullando": true
+     }
+    ],
+    [
+     "texto",
+     520,
+     180,
+     1,
+     {
+      "t": "♪",
+      "size": 60,
+      "color": "coral"
+     }
+    ],
+    [
+     "pajaro",
+     160,
+     220,
+     0.8,
+     {
+      "color": "yellow"
+     }
+    ],
+    [
+     "flor",
+     680,
+     560,
+     0.8,
+     {
+      "color": "pink"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En los Montes de María, cada amanecer, los monos aulladores despertaban al bosque con su canto: ¡JUUUUU, JUUUUU! Era un sonido grave y fuerte, como un trueno suave.",
+     "Aurelio también quería aullar así. Llenaba el pecho de aire, abría la boca y… ¡jiii, jiii! Le salía una voz finita, como un silbido.",
+     "Algunos monos jóvenes se rieron.",
+     "—Pareces un pajarito —le dijeron.",
+     "Aurelio se fue a la rama más alta y se quedó callado todo el día.",
+     "Desde allí miró a los otros monos comer hojas tiernas y jugar colgados de la cola. Él también quería jugar, pero tenía miedo de que se volvieran a reír."
+    ],
+    "scene": {
+     "bg": "bosque",
+     "items": [
+      [
+       "sol",
+       120,
+       100,
+       0.7
+      ],
+      [
+       "ceiba",
+       480,
+       450,
+       1.1
+      ],
+      [
+       "mono",
+       380,
+       290,
+       0.8,
+       {
+        "aullando": true
+       }
+      ],
+      [
+       "mono",
+       600,
+       300,
+       0.8,
+       {
+        "aullando": true
+       }
+      ],
+      [
+       "mono",
+       200,
+       470,
+       0.7
+      ]
+     ]
+    },
+    "alt": "Los monos aulladores cantan en la ceiba mientras Aurelio los mira desde abajo."
+   },
+   {
+    "text": [
+     "Su abuela Clotilde subió despacito a sentarse a su lado.",
+     "—¿Por qué estás tan callado, Aurelio?",
+     "—Mi voz no sirve. No suena como la de los demás.",
+     "—Tu voz es distinta, no inservible —dijo la abuela—. En el bosque cada uno tiene su sonido: el carpintero toca el tronco, la chicharra zumba y el arroyo canta bajito. Juntos hacen la música del monte.",
+     "Aurelio no estaba seguro. Pero esa noche se durmió pensando en las palabras de su abuela.",
+     "Antes de dormir, Aurelio aulló bajito, solo para él: jiii. Esta vez no le pareció tan feo. Le pareció su sonido."
+    ],
+    "scene": {
+     "bg": "bosque",
+     "time": "atardecer",
+     "items": [
+      [
+       "ceiba",
+       400,
+       450,
+       1.1
+      ],
+      [
+       "mono",
+       340,
+       300,
+       0.75
+      ],
+      [
+       "mono",
+       460,
+       300,
+       0.85,
+       {
+        "flip": true
+       }
+      ],
+      [
+       "pajaro",
+       640,
+       220,
+       0.8,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "luna",
+       680,
+       90,
+       0.6,
+       {
+        "fase": "creciente"
+       }
+      ]
+     ]
+    },
+    "alt": "La abuela Clotilde conversa con Aurelio en una rama de la ceiba al atardecer."
+   },
+   {
+    "text": [
+     "Al día siguiente, una niebla blanca y espesa cubrió el bosque. No se veía nada. Los monitos pequeños se habían alejado jugando y no encontraban el camino de regreso.",
+     "Los adultos aullaron: ¡JUUUU! Pero el sonido grave se mezclaba con la niebla y parecía venir de todas partes.",
+     "Entonces Aurelio respiró hondo y aulló con su voz finita: ¡JIIII, JIIII!",
+     "Su sonido atravesó la niebla como una flecha. Los monitos lo siguieron rama por rama hasta llegar a casa.",
+     "—¡Gracias, Aurelio! —gritaron todos.",
+     "Desde entonces, cada amanecer, el coro del bosque tiene una voz nueva: grave, grave, grave… y una finita que brilla en medio de todas."
+    ],
+    "scene": {
+     "bg": "bosque",
+     "items": [
+      [
+       "nube",
+       200,
+       300,
+       1.2,
+       {
+        "color": "#eef5fa"
+       }
+      ],
+      [
+       "nube",
+       600,
+       340,
+       1.1,
+       {
+        "color": "#eef5fa"
+       }
+      ],
+      [
+       "ceiba",
+       420,
+       450,
+       1
+      ],
+      [
+       "mono",
+       420,
+       290,
+       0.85,
+       {
+        "aullando": true
+       }
+      ],
+      [
+       "mono",
+       220,
+       480,
+       0.5
+      ],
+      [
+       "mono",
+       300,
+       490,
+       0.5
+      ],
+      [
+       "texto",
+       540,
+       190,
+       1,
+       {
+        "t": "♪",
+        "size": 60,
+        "color": "coral"
+       }
+      ]
+     ]
+    },
+    "alt": "En medio de la niebla, Aurelio aúlla y los monitos lo siguen de regreso."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿En qué era diferente Aurelio de los otros monos?",
+    "options": [
+     "Tenía la cola corta",
+     "Su aullido era finito",
+     "No le gustaban las ramas"
+    ],
+    "answer": 1,
+    "explanation": "Los monos aullaban grave, pero a Aurelio le salía una voz finita, como un silbido."
+   },
+   {
+    "prompt": "¿Qué le explicó la abuela Clotilde?",
+    "options": [
+     "Que su voz era distinta, no inservible",
+     "Que debía quedarse callado",
+     "Que se fuera del bosque"
+    ],
+    "answer": 0,
+    "explanation": "La abuela le dijo que en el bosque cada uno tiene su sonido y juntos hacen la música del monte."
+   },
+   {
+    "prompt": "¿Por qué la voz de Aurelio fue útil en la niebla?",
+    "options": [
+     "Porque era la más fuerte",
+     "Porque espantó la niebla",
+     "Porque su sonido finito atravesó la niebla y guió a los monitos"
+    ],
+    "answer": 2,
+    "explanation": "El aullido grave se perdía en la niebla, pero el de Aurelio la atravesó como una flecha."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "mono aullador",
+    "meaning": "Mono de pelo rojizo que vive en los bosques y lanza fuertes aullidos al amanecer."
+   },
+   {
+    "word": "grave",
+    "meaning": "Sonido bajo y profundo, como el de un tambor grande."
+   },
+   {
+    "word": "niebla",
+    "meaning": "Nube muy baja, pegada a la tierra, que no deja ver bien."
+   },
+   {
+    "word": "Montes de María",
+    "meaning": "Serranía con bosques entre Sucre y Bolívar."
+   },
+   {
+    "word": "coro",
+    "meaning": "Grupo que canta junto."
+   }
+  ]
+ },
+ {
+  "slug": "bienvenida-yuleidis",
+  "title": "Bienvenida, Yuleidis",
+  "grade": 2,
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "theme": "convivencia escolar",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "convivencia escolar",
+   "diversidad"
+  ],
+  "synopsis": "Yuleidis llega desde Guapi, en el Pacífico, a una escuela de Corozal. Habla con otro acento y usa palabras que sus compañeros no conocen. Juntos descubren que las diferencias pueden ser un tesoro para compartir.",
+  "coverScene": {
+   "bg": "patio",
+   "items": [
+    [
+     "sol",
+     680,
+     90,
+     0.8
+    ],
+    [
+     "escuela",
+     400,
+     400,
+     0.9
+    ],
+    [
+     "persona",
+     300,
+     560,
+     1.1,
+     {
+      "piel": "oscura",
+      "pelo": "trenzas",
+      "ropa": "yellow",
+      "falda": true,
+      "pantalon": "turq",
+      "brazos": "saluda"
+     }
+    ],
+    [
+     "persona",
+     470,
+     560,
+     1.1,
+     {
+      "piel": "trigueña",
+      "pelo": "coletas",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "navy",
+      "brazos": "saluda",
+      "flip": true
+     }
+    ],
+    [
+     "corazon",
+     385,
+     270,
+     0.6,
+     {
+      "color": "coral"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "El primer día en su nueva escuela de Corozal, Yuleidis tenía el estómago apretado. Venía de Guapi, un pueblo del Pacífico donde el río es ancho y la selva llega hasta las casas.",
+     "—Buenos días. Yo soy Yuleidis —dijo con su acento cantadito.",
+     "Algunos niños se miraron. En Corozal hablaban distinto.",
+     "A la hora del recreo, Yuleidis dijo: —Tengo ganas de comer una fruta, ¿alguien tiene un chontaduro?",
+     "—¿Una qué? —preguntó Sebastián—. ¿Eso se come?",
+     "Algunos se rieron, y Yuleidis sintió que las mejillas se le ponían calientes."
+    ],
+    "scene": {
+     "bg": "aula",
+     "items": [
+      [
+       "texto",
+       400,
+       210,
+       1,
+       {
+        "t": "Bienvenida",
+        "size": 56,
+        "color": "white"
+       }
+      ],
+      [
+       "persona",
+       400,
+       580,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       180,
+       580,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       620,
+       580,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy"
+       }
+      ]
+     ]
+    },
+    "alt": "Yuleidis se presenta frente a sus nuevos compañeros en el salón."
+   },
+   {
+    "text": [
+     "Yuleidis bajó la cabeza. Pensó que se estaban burlando. Pero Mayerlin, una niña de coletas, se sentó a su lado.",
+     "—No conocemos el chontaduro, pero queremos conocerlo. ¿Nos cuentas?",
+     "Yuleidis sonrió. Les contó que el chontaduro es una fruta de palma, anaranjada, que se come cocinada con sal. Les habló de las marimbas que suenan en Guapi y de las canoas que van por el río.",
+     "Sebastián se acercó, un poco apenado. —Perdón por reírme. No sabía qué era. ¿Me enseñas cómo se dice en Guapi cuando algo está muy bueno?",
+     "Después, Sebastián también compartió: —Aquí comemos bollo limpio y suero. ¡Y cuando hay fiesta, se baila porro!",
+     "Al final del recreo, ya sabían cinco palabras nuevas cada uno."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       0.8
+      ],
+      [
+       "palmera",
+       680,
+       440,
+       0.9
+      ],
+      [
+       "persona",
+       280,
+       560,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       410,
+       560,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       530,
+       560,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Yuleidis, Mayerlin y Sebastián conversan en el patio durante el recreo."
+   },
+   {
+    "text": [
+     "La profesora Rosa tuvo una idea: hacer un mural llamado Nuestras palabras. Cada niño escribió una palabra de su familia o de su región.",
+     "Yuleidis escribió chontaduro y marimba. Sebastián escribió porro. Kelly, cuya abuela era zenú, escribió caña flecha. Y Mateo, que había llegado de Bogotá el año anterior, escribió chévere.",
+     "El mural quedó lleno de colores.",
+     "—Mire, profe —dijo Mayerlin—. Venimos de lugares distintos, pero todos estamos en el mismo mural.",
+     "Ese día, Yuleidis ya no tenía el estómago apretado. Tenía el corazón contento, porque en Corozal también había encontrado su lugar."
+    ],
+    "scene": {
+     "bg": "aula",
+     "items": [
+      [
+       "texto",
+       400,
+       180,
+       1,
+       {
+        "t": "porro · marimba",
+        "size": 40,
+        "color": "white"
+       }
+      ],
+      [
+       "texto",
+       400,
+       250,
+       1,
+       {
+        "t": "caña flecha",
+        "size": 40,
+        "color": "yellow"
+       }
+      ],
+      [
+       "persona",
+       140,
+       580,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       320,
+       580,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       480,
+       580,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       660,
+       580,
+       1.25,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "rizos",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    },
+    "alt": "Los niños y la profesora Rosa frente al tablero con palabras de distintas regiones."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿De dónde venía Yuleidis?",
+    "options": [
+     "De Guapi, en el Pacífico",
+     "De Bogotá",
+     "De Cartagena"
+    ],
+    "answer": 0,
+    "explanation": "Yuleidis venía de Guapi, un pueblo del Pacífico colombiano."
+   },
+   {
+    "prompt": "¿Qué hizo Mayerlin cuando vio triste a Yuleidis?",
+    "options": [
+     "Se fue a jugar sola",
+     "Se sentó a su lado y le pidió que les contara",
+     "Se rió de ella"
+    ],
+    "answer": 1,
+    "explanation": "Mayerlin le dijo que querían conocer el chontaduro y le pidió que les contara."
+   },
+   {
+    "prompt": "¿Qué mostraba el mural Nuestras palabras?",
+    "options": [
+     "Solo palabras difíciles",
+     "Las reglas del salón",
+     "Palabras de las familias y regiones de todos los niños"
+    ],
+    "answer": 2,
+    "explanation": "Cada niño escribió una palabra de su familia o región, y todos quedaron en el mismo mural."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "acento",
+    "meaning": "Forma especial de pronunciar que tiene la gente de cada región."
+   },
+   {
+    "word": "chontaduro",
+    "meaning": "Fruto anaranjado de una palma del Pacífico, que se come cocinado."
+   },
+   {
+    "word": "marimba",
+    "meaning": "Instrumento musical de teclas de madera, tradicional del Pacífico colombiano."
+   },
+   {
+    "word": "mural",
+    "meaning": "Dibujo o cartel grande hecho en una pared."
+   },
+   {
+    "word": "caña flecha",
+    "meaning": "Planta con la que el pueblo zenú teje artesanías como el sombrero vueltiao."
+   }
+  ]
+ }
+]

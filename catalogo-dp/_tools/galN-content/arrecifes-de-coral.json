@@ -1,0 +1,98 @@
+{
+ "title": "Arrecifes de coral del Caribe",
+ "description": "Corales cerebro y cuerno de alce, abanicos de mar, esponjas, estrellas y erizos: un viaje bajo el agua por los arrecifes del Caribe, como los de San Andrés y las Islas del Rosario, y las amenazas que enfrentan.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Ecosistemas",
+  "Mar",
+  "Región Caribe"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Paisaje submarino con corales de varias formas, abanicos de mar y algas en el agua azul.",
+   "Un arrecife de coral es como una ciudad bajo el mar donde viven miles de especies. En Colombia hay arrecifes en San Andrés y Providencia y en las Islas del Rosario y San Bernardo. Esta foto es de Klein Bonaire, en el mismo mar Caribe."
+  ],
+  [
+   "Un coral redondo y claro con surcos ondulados que parece un cerebro, rodeado de otros corales.",
+   "El coral cerebro crece muy despacio, apenas unos milímetros al año, así que una colonia grande puede tener cientos de años. Sus surcos le dan el nombre."
+  ],
+  [
+   "Un coral dorado de ramas anchas y planas que crece sobre el fondo marino.",
+   "El coral cuerno de alce forma ramas anchas que dan refugio a muchos peces. Antes cubría grandes áreas del Caribe, pero hoy está en peligro crítico por el calentamiento del mar y las enfermedades."
+  ],
+  [
+   "Primer plano de muchos pólipos amarillos y peludos de un coral.",
+   "Cada coral está formado por miles de animalitos llamados pólipos, con tentáculos para atrapar alimento. Juntos fabrican un esqueleto de piedra caliza. Dentro de ellos viven algas diminutas que les dan energía y color."
+  ],
+  [
+   "Un abanico de mar morado, con una red fina de ramas, visto de cerca bajo el agua.",
+   "Los abanicos de mar son corales blandos con forma de red. Se orientan contra la corriente para atrapar las partículas de comida que trae el agua."
+  ],
+  [
+   "Esponjas en forma de tubos largos de color lila sobre un arrecife lleno de corales.",
+   "Las esponjas son animales muy simples, sin boca ni órganos. Filtran el agua a través de sus poros para alimentarse y así ayudan a mantenerla limpia. Foto tomada en Bonaire."
+  ],
+  [
+   "Una estrella de mar roja de cinco brazos sobre la arena del fondo.",
+   "La estrella cojín vive en praderas marinas y fondos arenosos del Caribe. Si pierde un brazo, le puede volver a crecer. Nunca se deben sacar del agua: fuera de ella se asfixian."
+  ],
+  [
+   "Un erizo negro de espinas muy largas y delgadas entre corales de colores.",
+   "El erizo de espinas largas come algas y así evita que cubran a los corales. Sus espinas son frágiles y punzantes: al nadar en un arrecife hay que mirar, pero no tocar."
+  ],
+  [
+   "Arrecife con corales de distintas formas, algunos muy blancos, iluminado por rayos de sol que entran por la superficie.",
+   "Cuando el agua se calienta demasiado, los corales expulsan las algas que viven en ellos y se ponen blancos: es el blanqueamiento. Si el calor dura mucho, pueden morir. En esta foto de la NOAA algunos corales muestran señales de blanqueamiento."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué son los pólipos?",
+   [
+    "Peces pequeños",
+    "Los animalitos que forman los corales",
+    "Un tipo de alga",
+    "Piedras del fondo del mar"
+   ],
+   1,
+   "Miles de pólipos juntos construyen el esqueleto de piedra caliza de un coral."
+  ],
+  [
+   "¿Qué causa el blanqueamiento de los corales?",
+   [
+    "El agua demasiado caliente",
+    "La luz de la luna",
+    "Los peces loro",
+    "La lluvia"
+   ],
+   0,
+   "Con el calor, los corales expulsan las algas que les dan color y alimento."
+  ],
+  [
+   "¿En qué lugares de Colombia hay arrecifes de coral?",
+   [
+    "En el desierto de La Guajira",
+    "En el río Magdalena",
+    "En San Andrés y Providencia y en las Islas del Rosario y San Bernardo",
+    "En el páramo de Sumapaz"
+   ],
+   2,
+   "El Caribe colombiano tiene arrecifes protegidos, como la Reserva Seaflower y el Parque Corales del Rosario y San Bernardo."
+  ],
+  [
+   "¿Cómo debemos comportarnos al nadar en un arrecife?",
+   [
+    "Llevarnos un coral de recuerdo",
+    "Pararnos sobre los corales",
+    "Sacar las estrellas de mar para una foto",
+    "Mirar sin tocar ni sacar animales"
+   ],
+   3,
+   "Los corales y los animales del arrecife son frágiles; tocarlos o sacarlos los daña."
+  ]
+ ],
+ "reviewNotes": "Ninguna foto es de arrecifes colombianos (no se hallaron fotos libres de calidad de San Andrés o Rosario); son del mismo mar Caribe (Bonaire, Bahamas, Florida) y se indica en los pies de foto."
+}

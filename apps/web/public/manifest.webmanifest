@@ -1,0 +1,44 @@
+{
+  "name": "Macondo Digital · Biblioteca Macondo · Comfasucre",
+  "short_name": "Macondo Digital",
+  "description": "Biblioteca escolar digital de la Biblioteca Macondo de Comfasucre para estudiantes de 1.º a 11.º.",
+  "lang": "es-CO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f7fa",
+  "theme_color": "#17365d",
+  "icons": [
+    {
+      "src": "/icons/comfasucre-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/comfasucre-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/comfasucre-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/comfasucre-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

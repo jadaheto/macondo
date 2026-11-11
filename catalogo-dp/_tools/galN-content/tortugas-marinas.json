@@ -1,0 +1,90 @@
+{
+ "title": "Tortugas marinas",
+ "description": "La caguama, la carey, la verde, la canal y la golfina: cómo viven las tortugas marinas, cómo ponen sus huevos en la playa y por qué necesitan nuestra ayuda.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Mar",
+  "Medio ambiente"
+ ],
+ "cover": 7,
+ "items": [
+  [
+   "Una tortuga marina de caparazón café rojizo nadando bajo el agua.",
+   "La caguama tiene una cabeza grande y mandíbulas fuertes para romper caracoles y cangrejos. Las tortugas marinas no pueden esconder la cabeza dentro del caparazón, como hacen las de tierra."
+  ],
+  [
+   "Una tortuga carey nada sobre un arrecife de coral; al fondo se ve un buzo.",
+   "La tortuga carey vive en los arrecifes del Caribe, como los de San Andrés. Con su pico estrecho come esponjas entre los corales. Está en peligro crítico de extinción."
+  ],
+  [
+   "Una tortuga verde grande descansando sobre la arena de la playa, con el mar detrás.",
+   "La tortuga verde come pastos marinos y algas. A veces sale a la playa a descansar y tomar el sol. Su nombre viene del color verdoso de su grasa, no de su caparazón."
+  ],
+  [
+   "Una tortuga canal enorme, de piel oscura con puntos blancos, sobre la arena de noche.",
+   "La tortuga canal o laúd es la tortuga más grande del mundo: puede medir casi 2 metros. En vez de caparazón duro tiene una piel gruesa como cuero, y come medusas. Foto tomada en Tortuguero, Costa Rica."
+  ],
+  [
+   "Una playa al amanecer llena de tortugas marinas que salen del mar, con un cerro al fondo.",
+   "Las tortugas golfinas llegan a veces por miles a la misma playa en una sola noche para poner sus huevos. A esto se le llama «arribada». Foto tomada en Oaxaca, México."
+  ],
+  [
+   "Una tortuga marina gris sobre la arena de una duna, haciendo su nido.",
+   "Las hembras salen del mar, cavan un hueco en la arena con sus aletas y ponen unos cien huevos. Luego los tapan y vuelven al mar. El calor de la arena incuba los huevos."
+  ],
+  [
+   "Muchas tortuguitas recién nacidas caminan por la arena hacia el mar al amanecer.",
+   "Unos dos meses después, las crías rompen el cascarón y corren hacia el mar, guiadas por la luz del horizonte. Por eso las luces fuertes cerca de las playas las confunden. Muy pocas llegan a ser adultas."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es la tortuga más grande del mundo?",
+   [
+    "La carey",
+    "La tortuga canal o laúd",
+    "La morrocoy",
+    "La golfina"
+   ],
+   1,
+   "La tortuga canal puede medir casi 2 metros y tiene la piel como cuero."
+  ],
+  [
+   "¿Qué es una «arribada»?",
+   [
+    "Cuando miles de tortugas llegan a la misma playa a poner huevos",
+    "Un barco de pesca",
+    "Una ola muy grande",
+    "La llegada del invierno"
+   ],
+   0,
+   "Las golfinas llegan por miles a la misma playa en una sola noche."
+  ],
+  [
+   "¿Por qué las luces fuertes en las playas son peligrosas para las crías?",
+   [
+    "Las queman",
+    "Las hacen dormir",
+    "Las confunden y no encuentran el mar",
+    "Les dan frío"
+   ],
+   2,
+   "Las crías se guían por la luz del horizonte sobre el mar; las luces artificiales las desorientan."
+  ],
+  [
+   "¿Qué come la tortuga verde?",
+   [
+    "Medusas",
+    "Cangrejos",
+    "Esponjas",
+    "Pastos marinos y algas"
+   ],
+   3,
+   "La tortuga verde es herbívora cuando es adulta."
+  ]
+ ],
+ "reviewNotes": "02-carey muestra a un buzo de espaldas con máscara (no identificable)."
+}

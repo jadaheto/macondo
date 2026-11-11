@@ -1,0 +1,2333 @@
+[
+ {
+  "slug": "las-semillas-viajeras",
+  "title": "Las semillas viajeras",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "ciencia",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "ciencia",
+   "semillas"
+  ],
+  "synopsis": "En la huerta de una escuela rural cerca de Sincelejo aparecen plantas que nadie sembró. Daniela y Samuel investigan y descubren que las semillas viajan con el viento, con el agua y con los animales.",
+  "coverScene": {
+   "bg": "huerta",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     680,
+     90,
+     0.8
+    ],
+    [
+     "nube",
+     200,
+     100,
+     0.7
+    ],
+    [
+     "ceiba",
+     120,
+     360,
+     0.7
+    ],
+    [
+     "planta",
+     420,
+     470,
+     0.9,
+     {
+      "etapa": 3,
+      "color": "coral"
+     }
+    ],
+    [
+     "planta",
+     560,
+     500,
+     0.8,
+     {
+      "etapa": 2
+     }
+    ],
+    [
+     "persona",
+     300,
+     560,
+     1.1,
+     {
+      "piel": "trigueña",
+      "pelo": "coletas",
+      "ropa": "yellow",
+      "pantalon": "navy",
+      "sosten": "semilla"
+     }
+    ],
+    [
+     "persona",
+     660,
+     570,
+     1.1,
+     {
+      "piel": "oscura",
+      "pelo": "corto",
+      "ropa": "green",
+      "pantalon": "blue",
+      "brazos": "saluda",
+      "flip": true
+     }
+    ],
+    [
+     "pajaro",
+     520,
+     230,
+     1.1,
+     {
+      "color": "blue"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En una vereda cerca de Sincelejo hay una escuela pequeña con techo azul y una huerta grande detrás del salón. Allí los estudiantes de tercero siembran ají, cilantro, ahuyama y fríjol. Cada mañana, antes de entrar a clase, Daniela y Samuel riegan los surcos con una regadera verde.",
+     "Un lunes, Daniela se agachó junto a la cerca y abrió los ojos muy grandes.",
+     "—¡Samuel, mira esto! Aquí nació una mata de papaya. ¡Y allá hay un árbol chiquito de mango!",
+     "—Qué raro —dijo Samuel, rascándose la cabeza—. Nosotros nunca sembramos papaya ni mango.",
+     "La profesora Rocío se acercó con su cuaderno de campo bajo el brazo. Miró las plantas, sonrió y les hizo una pregunta que les dio vueltas en la cabeza todo el día:",
+     "—Si nadie las sembró, ¿cómo llegaron las semillas hasta aquí? ¿Tendrán patas, alas o barquitos?"
+    ],
+    "scene": {
+     "bg": "huerta",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       700,
+       80,
+       0.7
+      ],
+      [
+       "escuela",
+       180,
+       340,
+       0.7
+      ],
+      [
+       "planta",
+       470,
+       480,
+       0.8,
+       {
+        "etapa": 2
+       }
+      ],
+      [
+       "planta",
+       620,
+       470,
+       0.6,
+       {
+        "etapa": 1
+       }
+      ],
+      [
+       "persona",
+       340,
+       560,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       720,
+       570,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "blue",
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       560,
+       590,
+       0.95,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "navy",
+        "sosten": "libro"
+       }
+      ]
+     ]
+    },
+    "alt": "Daniela levanta los brazos sorprendida junto a unas plantas nuevas en la huerta de la escuela; Samuel y la profesora Rocío se acercan."
+   },
+   {
+    "text": [
+     "Esa semana, el grupo se convirtió en un equipo de detectives de semillas. Con lupas y bolsitas de papel recorrieron el patio, el potrero y la orilla del arroyo.",
+     "Primero encontraron unas motas blancas y livianas que flotaban en el aire. Venían de una ceiba enorme que crece junto al camino.",
+     "—Son semillas con pelusa —explicó la profesora—. La pelusa funciona como un paracaídas. El viento las empuja y las lleva lejos del árbol que las produjo.",
+     "Samuel sopló una y la vio volar por encima de la cerca. —¡Viajan sin pagar pasaje! —dijo riendo.",
+     "Después, en la orilla del arroyo, Daniela halló un coco viejo atascado entre las raíces. Tenía una corteza dura y fibrosa.",
+     "—El coco flota —dijo la profesora—. Hay semillas que viajan por el agua, por los ríos, las ciénagas y hasta por el mar. Así llegan a playas muy lejanas, como las del golfo de Morrosquillo."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "time": "dia",
+     "items": [
+      [
+       "ceiba",
+       170,
+       430,
+       0.95,
+       {
+        "flores": "cream"
+       }
+      ],
+      [
+       "nube",
+       600,
+       110,
+       0.8
+      ],
+      [
+       "semilla",
+       330,
+       200,
+       0.8
+      ],
+      [
+       "semilla",
+       410,
+       160,
+       0.6
+      ],
+      [
+       "semilla",
+       480,
+       220,
+       0.7
+      ],
+      [
+       "persona",
+       430,
+       540,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "blue",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       600,
+       550,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Semillas livianas vuelan desde una gran ceiba mientras Samuel y Daniela las miran en la sabana."
+   },
+   {
+    "text": [
+     "El tercer descubrimiento fue el más divertido. Desde un guayabo, un pájaro azulejo picoteaba guayabas maduras. Más arriba, en el bosque, un grupo de monos aulladores comía frutas y dejaba caer las cáscaras.",
+     "—Los animales también son jardineros —explicó la profesora Rocío—. Se comen las frutas, se van volando o caminando y, más tarde, dejan las semillas en otro lugar con su popó. Esa popó es abono, ¡como un regalito para la semilla!",
+     "Todos se rieron, pero entendieron. Las semillas de papaya y mango de la huerta seguramente llegaron con algún pájaro que se posó en la cerca. Otras semillas se pegan al pelo de los perros, de los chigüiros o a los pantalones de las personas, y viajan como polizones.",
+     "—Entonces las semillas tienen tres transportes —resumió Daniela, contando con los dedos—: el viento, el agua y los animales."
+    ],
+    "scene": {
+     "bg": "bosque",
+     "time": "dia",
+     "items": [
+      [
+       "ceiba",
+       600,
+       430,
+       0.9
+      ],
+      [
+       "mono",
+       640,
+       260,
+       0.6
+      ],
+      [
+       "pajaro",
+       250,
+       200,
+       1.2,
+       {
+        "color": "blue"
+       }
+      ],
+      [
+       "arbusto",
+       140,
+       470,
+       1,
+       {
+        "color": "leaf"
+       }
+      ],
+      [
+       "persona",
+       320,
+       560,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       450,
+       570,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "blue",
+        "sosten": "libro"
+       }
+      ],
+      [
+       "chiguiro",
+       150,
+       580,
+       0.6
+      ]
+     ]
+    },
+    "alt": "Un pájaro azul vuela y un mono aullador descansa en un árbol del bosque; los niños observan y toman notas."
+   },
+   {
+    "text": [
+     "Al final del mes, el grupo pintó un mural en la pared de la huerta. En él dibujaron una ceiba soltando paracaídas blancos, un coco navegando por el arroyo y un pájaro azul con una guayaba en el pico.",
+     "La profesora propuso un último experimento: sembrar en vasitos reciclados las semillas que recogieron y observar cuáles germinaban primero. Cada día anotaban en el cuaderno cuánto crecían los brotes.",
+     "Samuel cuidó la mata de papaya que había llegado sola. Le puso un palito para que creciera derecha y le hizo un letrero que decía: «Papaya viajera, bienvenida a nuestra huerta».",
+     "—Ahora entiendo por qué los bosques no necesitan jardineros con regadera —dijo Daniela—. Tienen al viento, al agua y a los animales trabajando todo el tiempo.",
+     "Y desde ese día, cada vez que veían una planta creciendo en un lugar inesperado, los detectives de semillas se preguntaban: ¿en qué viajaste tú?"
+    ],
+    "scene": {
+     "bg": "huerta",
+     "time": "atardecer",
+     "items": [
+      [
+       "sol",
+       660,
+       120,
+       0.7,
+       {
+        "cara": false
+       }
+      ],
+      [
+       "planta",
+       300,
+       480,
+       0.9,
+       {
+        "etapa": 3,
+        "color": "yellow"
+       }
+      ],
+      [
+       "planta",
+       400,
+       490,
+       0.7,
+       {
+        "etapa": 1
+       }
+      ],
+      [
+       "planta",
+       480,
+       485,
+       0.8,
+       {
+        "etapa": 2
+       }
+      ],
+      [
+       "texto",
+       400,
+       230,
+       1,
+       {
+        "t": "¿En qué viajaste?",
+        "size": 44,
+        "color": "navy"
+       }
+      ],
+      [
+       "persona",
+       170,
+       570,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "green",
+        "pantalon": "blue",
+        "sosten": "planta"
+       }
+      ],
+      [
+       "persona",
+       640,
+       570,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "coletas",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "brazos": "arriba",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Al atardecer, Samuel sostiene un brote y Daniela celebra junto a las plantas que crecieron en la huerta."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué aparecieron matas de papaya y mango en la huerta si nadie las sembró?",
+    "options": [
+     "Porque las trajo la lluvia del mar",
+     "Porque un pájaro dejó caer sus semillas",
+     "Porque la profesora las sembró en secreto"
+    ],
+    "answer": 1,
+    "explanation": "Los pájaros comen frutas y luego dejan las semillas en otros lugares, como la cerca de la huerta."
+   },
+   {
+    "prompt": "¿Cómo viajan las semillas con pelusa de la ceiba?",
+    "options": [
+     "Con el viento, como paracaídas",
+     "Flotando en el arroyo",
+     "Pegadas a los zapatos"
+    ],
+    "answer": 0,
+    "explanation": "La pelusa funciona como un paracaídas y el viento las lleva lejos."
+   },
+   {
+    "prompt": "¿Cuáles son los tres transportes de las semillas que descubrieron los niños?",
+    "options": [
+     "El tractor, la bicicleta y el bus",
+     "La lluvia, la luna y el sol",
+     "El viento, el agua y los animales"
+    ],
+    "answer": 2,
+    "explanation": "Daniela lo resumió contando con los dedos: el viento, el agua y los animales."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "vereda",
+    "meaning": "Zona del campo que pertenece a un municipio, con fincas y casas dispersas."
+   },
+   {
+    "word": "surco",
+    "meaning": "Línea abierta en la tierra donde se siembran las semillas."
+   },
+   {
+    "word": "germinar",
+    "meaning": "Cuando una semilla empieza a brotar y a convertirse en planta."
+   },
+   {
+    "word": "abono",
+    "meaning": "Material que alimenta la tierra y ayuda a crecer a las plantas."
+   },
+   {
+    "word": "polizón",
+    "meaning": "Quien viaja escondido, sin que nadie lo note."
+   }
+  ]
+ },
+ {
+  "slug": "el-circulo-de-la-palabra",
+  "title": "El círculo de la palabra",
+  "grade": 3,
+  "gradeMin": 2,
+  "gradeMax": 3,
+  "theme": "convivencia escolar",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "convivencia escolar",
+   "emociones"
+  ],
+  "synopsis": "Andrés y Mateo son grandes amigos, pero un balón los hace pelear en el recreo. La profesora Yolanda los invita a un círculo de la palabra, donde aprenden a escuchar, a nombrar lo que sienten y a reparar el daño.",
+  "coverScene": {
+   "bg": "patio",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     690,
+     90,
+     0.8
+    ],
+    [
+     "palmera",
+     90,
+     430,
+     0.9
+    ],
+    [
+     "escuela",
+     420,
+     395,
+     0.6
+    ],
+    [
+     "pelota",
+     400,
+     560,
+     1.2,
+     {
+      "color": "coral"
+     }
+    ],
+    [
+     "persona",
+     260,
+     570,
+     1.1,
+     {
+      "piel": "morena",
+      "pelo": "corto",
+      "ropa": "orange",
+      "pantalon": "navy",
+      "brazos": "saluda"
+     }
+    ],
+    [
+     "persona",
+     540,
+     570,
+     1.1,
+     {
+      "piel": "clara",
+      "pelo": "corto",
+      "pelocolor": "castaño",
+      "ropa": "blue",
+      "pantalon": "navy",
+      "gafas": true,
+      "brazos": "saluda",
+      "flip": true
+     }
+    ],
+    [
+     "corazon",
+     400,
+     250,
+     0.9,
+     {
+      "color": "coral"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Andrés y Mateo eran amigos desde primero. Se sentaban juntos, compartían los colores y, en el recreo, jugaban fútbol en el patio de la escuela, bajo la sombra de las palmeras.",
+     "Un martes, Andrés llegó con un balón nuevo, rojo y brillante, que le había regalado su tía de Corozal. Todos querían jugar con él.",
+     "En medio del partido, Mateo pateó tan fuerte que el balón salió volando, pasó por encima de la reja y cayó en un charco lleno de barro.",
+     "—¡Lo dañaste! —gritó Andrés, con la cara roja—. ¡Siempre haces lo mismo! ¡Ya no eres mi amigo!",
+     "—¡Fue sin querer! —respondió Mateo, también gritando—. ¡Y tú no me pasas nunca el balón!",
+     "Los dos se dieron la espalda. Ninguno quiso volver a jugar, y el resto del recreo pasó en silencio. En el salón, Andrés cambió su pupitre de lugar."
+    ],
+    "scene": {
+     "bg": "patio",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       700,
+       80,
+       0.7
+      ],
+      [
+       "palmera",
+       110,
+       430,
+       0.9
+      ],
+      [
+       "nube",
+       420,
+       110,
+       0.7
+      ],
+      [
+       "pelota",
+       620,
+       470,
+       0.9,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       300,
+       570,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       480,
+       570,
+       1.1,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "abajo",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "En el patio, Andrés levanta los brazos molesto y Mateo lo mira; el balón rojo quedó lejos."
+   },
+   {
+    "text": [
+     "La profesora Yolanda notó que algo pasaba. Después del recreo, en lugar de empezar la clase de matemáticas, pidió que corrieran los pupitres hacia las paredes y que todos se sentaran en el piso formando un círculo.",
+     "En el centro puso una piedrita pintada de azul y verde.",
+     "—Este es el círculo de la palabra —explicó—. Tiene tres acuerdos: habla solo quien tiene la piedra, los demás escuchamos sin interrumpir, y hablamos de lo que sentimos, sin insultar. Aquí nadie es juzgado.",
+     "Primero la piedra pasó por varias manos. Valentina contó que se sentía nerviosa por la izada de bandera. Luis dijo que estaba contento porque su abuela venía de visita desde Tolú. Poco a poco, el salón se fue calmando.",
+     "Entonces la piedra llegó a Andrés. La apretó con fuerza y respiró hondo, como les había enseñado la profesora: inhalar contando hasta cuatro y soltar el aire despacito."
+    ],
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "Escucho · Siento · Reparo",
+        "size": 25,
+        "color": "white"
+       }
+      ],
+      [
+       "roca",
+       400,
+       520,
+       0.4
+      ],
+      [
+       "persona",
+       200,
+       580,
+       0.95,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "sosten": "libro"
+       }
+      ],
+      [
+       "persona",
+       600,
+       580,
+       0.95,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "gafas": true,
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       700,
+       560,
+       1,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       300,
+       590,
+       0.85,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "coral",
+        "silla": true
+       }
+      ],
+      [
+       "persona",
+       500,
+       590,
+       0.85,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Los estudiantes, entre ellos una niña en silla de ruedas, se sientan en círculo con la profesora Yolanda; en el tablero dice Escucho, Siento, Reparo."
+   },
+   {
+    "text": [
+     "—Yo me sentí… triste —dijo Andrés, y la voz le tembló un poquito—. El balón era nuevo y me lo regaló mi tía. Cuando cayó al barro, pensé que se había dañado para siempre. Por eso grité.",
+     "La profesora asintió. —Gracias por decirlo. Detrás de la rabia, muchas veces hay tristeza o miedo.",
+     "Después, la piedra llegó a Mateo. Miró al piso un buen rato.",
+     "—Yo me sentí avergonzado —confesó—. No quería botar el balón. Y también me sentí rabioso, porque Andrés me dijo que ya no era su amigo. Eso me dolió más que el grito.",
+     "Andrés levantó la cabeza. No sabía que sus palabras habían pesado tanto. Mateo tampoco sabía que el balón era un regalo especial.",
+     "—¿Qué podemos hacer para reparar lo que pasó? —preguntó la profesora a todo el grupo.",
+     "Varias manos se levantaron. Sara propuso lavar el balón. Luis sugirió hacer turnos para que todos lo patearan. Valentina dijo que pedir perdón también es reparar."
+    ],
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "corazon",
+       400,
+       220,
+       1.1,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       290,
+       580,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "abajo"
+       }
+      ],
+      [
+       "persona",
+       510,
+       580,
+       1.1,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "abajo",
+        "flip": true
+       }
+      ],
+      [
+       "roca",
+       400,
+       560,
+       0.35
+      ],
+      [
+       "pupitre",
+       110,
+       590,
+       0.9
+      ],
+      [
+       "pupitre",
+       690,
+       590,
+       0.9
+      ]
+     ]
+    },
+    "alt": "Andrés y Mateo se miran frente a frente en el salón mientras hablan de lo que sintieron; encima de ellos hay un corazón."
+   },
+   {
+    "text": [
+     "Al día siguiente, Andrés y Mateo llegaron temprano. Entre los dos lavaron el balón con agua y jabón en el lavadero de la escuela. El barro se fue y el rojo volvió a brillar.",
+     "—Perdóname por botarlo —dijo Mateo—. La próxima vez patearé con más cuidado.",
+     "—Y tú perdóname por decir que ya no eras mi amigo —respondió Andrés—. No era verdad. Estaba bravo y lo dije sin pensar.",
+     "En el recreo, armaron dos equipos y acordaron reglas nuevas: el balón se pasa a todos, y si alguien lo bota, todos ayudan a buscarlo. Hasta la profesora Yolanda jugó de arquera.",
+     "Desde entonces, cada viernes el grupo hace su círculo de la palabra. Ya no lo usan solo cuando hay peleas: también para contar alegrías, nervios y sueños. Andrés y Mateo aprendieron que los amigos pueden enojarse, pero que hablando con calma, escuchando de verdad y reparando el daño, la amistad se vuelve más fuerte, como un balón recién inflado."
+    ],
+    "scene": {
+     "bg": "patio",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       690,
+       90,
+       0.8
+      ],
+      [
+       "palmera",
+       720,
+       430,
+       0.85
+      ],
+      [
+       "arcoiris",
+       300,
+       300,
+       0.9
+      ],
+      [
+       "pelota",
+       400,
+       580,
+       1.0,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       300,
+       570,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       500,
+       570,
+       1.1,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "gafas": true,
+        "brazos": "arriba",
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       140,
+       580,
+       0.95,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    },
+    "alt": "Andrés y Mateo celebran juntos con el balón limpio en el patio; la profesora saluda y en el cielo hay un arcoíris."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué emoción había detrás de la rabia de Andrés?",
+    "options": [
+     "Aburrimiento",
+     "Sorpresa",
+     "Tristeza"
+    ],
+    "answer": 2,
+    "explanation": "Andrés contó que se sintió triste porque el balón era un regalo de su tía."
+   },
+   {
+    "prompt": "¿Cuál es uno de los acuerdos del círculo de la palabra?",
+    "options": [
+     "Habla solo quien tiene la piedra",
+     "Gana quien grite más fuerte",
+     "Solo habla la profesora"
+    ],
+    "answer": 0,
+    "explanation": "En el círculo, habla quien tiene la piedra y los demás escuchan sin interrumpir."
+   },
+   {
+    "prompt": "¿Cómo repararon Andrés y Mateo lo que pasó?",
+    "options": [
+     "Compraron un balón nuevo",
+     "Lavaron el balón juntos y se pidieron perdón",
+     "Dejaron de jugar fútbol"
+    ],
+    "answer": 1,
+    "explanation": "Entre los dos limpiaron el balón, se pidieron perdón y acordaron reglas nuevas."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "acuerdo",
+    "meaning": "Algo que un grupo decide y promete cumplir."
+   },
+   {
+    "word": "avergonzado",
+    "meaning": "Que siente pena por algo que hizo o que le pasó."
+   },
+   {
+    "word": "reparar",
+    "meaning": "Arreglar un daño, también cuando se trata de los sentimientos de otra persona."
+   },
+   {
+    "word": "inhalar",
+    "meaning": "Tomar aire por la nariz y llevarlo a los pulmones."
+   },
+   {
+    "word": "juzgar",
+    "meaning": "Opinar sobre alguien, muchas veces sin conocer lo que siente."
+   }
+  ]
+ },
+ {
+  "slug": "el-mapa-de-los-sonidos",
+  "title": "El mapa de los sonidos",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "inclusión",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "inclusión",
+   "los sentidos"
+  ],
+  "synopsis": "Jhon Jairo es ciego y conoce el mundo con sus oídos, sus manos y su bastón blanco. En una salida a la ciénaga, guía a su grupo para descubrir los sonidos de la naturaleza y juntos crean un mapa de sonidos.",
+  "coverScene": {
+   "bg": "cienaga",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     690,
+     90,
+     0.8
+    ],
+    [
+     "garza",
+     600,
+     470,
+     0.8
+    ],
+    [
+     "mangle",
+     130,
+     380,
+     0.8
+    ],
+    [
+     "persona",
+     350,
+     560,
+     1.2,
+     {
+      "piel": "oscura",
+      "pelo": "corto",
+      "ropa": "turq",
+      "pantalon": "navy",
+      "baston": true
+     }
+    ],
+    [
+     "persona",
+     470,
+     560,
+     1.1,
+     {
+      "piel": "trigueña",
+      "pelo": "trenzas",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "yellow",
+      "brazos": "saluda",
+      "flip": true
+     }
+    ],
+    [
+     "pajaro",
+     300,
+     200,
+     1.1,
+     {
+      "color": "yellow"
+     }
+    ],
+    [
+     "texto",
+     560,
+     230,
+     1,
+     {
+      "t": "pi, pi",
+      "size": 50,
+      "color": "turq"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Jhon Jairo tiene nueve años, vive en Sincelejo y es ciego desde que nació. Para caminar usa un bastón blanco que le avisa dónde hay un escalón, un hueco o una pared. Para leer usa el braille, unos puntitos en relieve que toca con la yema de los dedos. Y para conocer el mundo usa, sobre todo, sus oídos.",
+     "Un jueves, la profesora Marlene anunció una salida pedagógica a la ciénaga.",
+     "—Vamos a observar la naturaleza —dijo, y luego se corrigió con una sonrisa—: mejor dicho, vamos a percibirla con todos los sentidos.",
+     "Algunos compañeros se miraron. Camila, que se sentaba al lado de Jhon Jairo, le preguntó en voz baja:",
+     "—¿Y tú cómo vas a ver la ciénaga?",
+     "—Con las orejas —respondió él, tocándose una—. Ya verás. Bueno… ya oirás."
+    ],
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "Salida a la ciénaga",
+        "size": 40,
+        "color": "white"
+       }
+      ],
+      [
+       "persona",
+       300,
+       580,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "baston": true
+       }
+      ],
+      [
+       "persona",
+       430,
+       580,
+       1.0,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow",
+        "flip": true
+       }
+      ],
+      [
+       "persona",
+       640,
+       560,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ],
+      [
+       "pupitre",
+       130,
+       590,
+       0.9
+      ]
+     ]
+    },
+    "alt": "En el salón, Jhon Jairo con su bastón blanco conversa con Camila; la profesora anuncia la salida a la ciénaga."
+   },
+   {
+    "text": [
+     "Llegaron a la orilla de la ciénaga muy temprano, cuando el sol todavía estaba tibio. Los niños corrieron de un lado a otro, hablando todos al tiempo.",
+     "Jhon Jairo levantó la mano. —Profe, ¿podemos hacer un juego? Todos cerramos los ojos un minuto y escuchamos sin hablar.",
+     "La profesora aceptó. Poco a poco el grupo hizo silencio. Primero no oyeron nada. Luego, como si alguien subiera el volumen, empezaron a aparecer los sonidos.",
+     "—A la derecha, arriba, hay pájaros chiquitos —susurró Jhon Jairo—. Hacen pi, pi, pi muy rápido.",
+     "—Al frente se oye el agua que golpea despacito contra la orilla —siguió—. Chap… chap… chap.",
+     "—Y ese ruido largo, como un zumbido que no se acaba, son las chicharras escondidas en los árboles. Cantan más cuando hace calor.",
+     "Cuando abrieron los ojos, Camila estaba asombrada. —¡Yo nunca había oído todo eso! Estaba ahí y no me daba cuenta."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       120,
+       90,
+       0.7
+      ],
+      [
+       "mangle",
+       680,
+       380,
+       0.85
+      ],
+      [
+       "pajaro",
+       610,
+       150,
+       0.9,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "pajaro",
+       680,
+       120,
+       0.8,
+       {
+        "color": "coral",
+        "flip": true
+       }
+      ],
+      [
+       "olas",
+       400,
+       470,
+       1
+      ],
+      [
+       "persona",
+       260,
+       560,
+       1.15,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "baston": true
+       }
+      ],
+      [
+       "persona",
+       400,
+       570,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow"
+       }
+      ],
+      [
+       "persona",
+       520,
+       575,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "rizos",
+        "pelocolor": "castaño",
+        "ropa": "purple",
+        "pantalon": "navy",
+        "audifono": true
+       }
+      ]
+     ]
+    },
+    "alt": "A la orilla de la ciénaga, Jhon Jairo y sus compañeros escuchan en silencio; unos pájaros cantan en el mangle."
+   },
+   {
+    "text": [
+     "De repente, Jhon Jairo giró la cabeza hacia la izquierda.",
+     "—Algo grande va a volar —dijo—. Escuchen ese aleteo pesado, como sábanas sacudidas.",
+     "Un segundo después, una garza blanca levantó el vuelo desde los juncos y cruzó la ciénaga despacio, con las patas estiradas. Los niños aplaudieron.",
+     "—¿Cómo supiste? —preguntó Brayan.",
+     "—Porque las garzas hacen un graznido ronco antes de volar, y sus alas suenan distinto a las de los pájaros pequeños —explicó Jhon Jairo—. Mi abuelo es pescador y me enseñó a reconocerlas desde la canoa.",
+     "Después, Jhon Jairo invitó a los demás a usar también las manos. Tocaron la corteza áspera de un árbol, el barro fresco y blando de la orilla y las hojas suaves de los juncos. Olieron el agua, que tenía un olor a tierra mojada y a plantas. Descubrieron que la ciénaga no solo se ve: también se oye, se toca y se huele.",
+     "La profesora Marlene tomaba notas, feliz. Ese día el maestro no era ella."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "time": "dia",
+     "items": [
+      [
+       "garza",
+       560,
+       260,
+       0.9
+      ],
+      [
+       "juncos",
+       650,
+       380,
+       1
+      ],
+      [
+       "juncos",
+       90,
+       380,
+       1
+      ],
+      [
+       "nube",
+       230,
+       100,
+       0.7
+      ],
+      [
+       "persona",
+       300,
+       560,
+       1.15,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "baston": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       430,
+       570,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       170,
+       575,
+       1.0,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "blue",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    },
+    "alt": "Una garza blanca vuela sobre la ciénaga y los niños, con Jhon Jairo, levantan los brazos emocionados."
+   },
+   {
+    "text": [
+     "De vuelta en la escuela, el grupo decidió hacer un mapa de sonidos. No sería un mapa común con dibujos planos: Jhon Jairo propuso que se pudiera tocar.",
+     "Sobre un cartón grande pegaron hilos gruesos para marcar la orilla, arena para el camino, bolitas de plastilina para los árboles y plumas para el lugar donde voló la garza. Al lado de cada objeto escribieron el sonido con letras grandes y también en braille, con la ayuda de la profesora de apoyo: «pi, pi, pi», «chap, chap», «zzzzz».",
+     "Cuando terminaron, cada niño recorrió el mapa con los ojos cerrados, tocando los relieves y repitiendo los sonidos. Camila dijo que era el mapa más bonito que había visto… y tocado.",
+     "—Todos percibimos el mundo de una manera distinta —dijo la profesora Marlene—. Cuando juntamos nuestras formas de conocer, aprendemos mucho más.",
+     "Jhon Jairo sonrió. Esa tarde, mientras caminaba a casa con su bastón, escuchó a un colibrí zumbar cerca de una flor y pensó que el mapa de sonidos nunca estaría terminado, porque el mundo siempre tiene algo nuevo que decir."
+    ],
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "texto",
+       400,
+       150,
+       1,
+       {
+        "t": "pi pi · chap · zzz",
+        "size": 40,
+        "color": "white"
+       }
+      ],
+      [
+       "pupitre",
+       400,
+       520,
+       1.6
+      ],
+      [
+       "garza",
+       330,
+       450,
+       0.3
+      ],
+      [
+       "juncos",
+       440,
+       440,
+       0.6
+      ],
+      [
+       "pez",
+       500,
+       440,
+       0.6,
+       {
+        "color": "turq"
+       }
+      ],
+      [
+       "persona",
+       220,
+       580,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "baston": true
+       }
+      ],
+      [
+       "persona",
+       600,
+       580,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Jhon Jairo y Camila presentan el mapa de sonidos sobre una mesa, con relieves de la ciénaga; en el tablero están escritos los sonidos."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué juego propuso Jhon Jairo al llegar a la ciénaga?",
+    "options": [
+     "Una carrera hasta la orilla",
+     "Cerrar los ojos y escuchar en silencio",
+     "Contar cuántos peces había"
+    ],
+    "answer": 1,
+    "explanation": "Jhon Jairo invitó al grupo a cerrar los ojos un minuto y escuchar sin hablar."
+   },
+   {
+    "prompt": "¿Cómo supo Jhon Jairo que una garza iba a volar?",
+    "options": [
+     "Por el graznido ronco y el aleteo pesado",
+     "Porque Camila se lo dijo",
+     "Porque sintió el agua fría"
+    ],
+    "answer": 0,
+    "explanation": "Él reconoce el sonido de las garzas, como le enseñó su abuelo pescador."
+   },
+   {
+    "prompt": "¿Qué tenía de especial el mapa de sonidos?",
+    "options": [
+     "Era una foto de la ciénaga",
+     "Estaba hecho solo con colores",
+     "Se podía tocar y tenía letras en braille"
+    ],
+    "answer": 2,
+    "explanation": "El mapa tenía hilos, arena, plastilina y plumas en relieve, y los sonidos escritos también en braille."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "braille",
+    "meaning": "Sistema de lectura y escritura con puntos en relieve que se leen con los dedos."
+   },
+   {
+    "word": "percibir",
+    "meaning": "Darse cuenta de algo usando los sentidos."
+   },
+   {
+    "word": "chicharra",
+    "meaning": "Insecto que hace un zumbido largo y fuerte, sobre todo cuando hace calor."
+   },
+   {
+    "word": "relieve",
+    "meaning": "Parte que sobresale de una superficie y se puede sentir al tocarla."
+   },
+   {
+    "word": "salida pedagógica",
+    "meaning": "Paseo de la escuela para aprender fuera del salón."
+   }
+  ]
+ },
+ {
+  "slug": "las-pintas-del-sombrero",
+  "title": "Las pintas del sombrero",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "patrimonio cultural",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "patrimonio cultural",
+   "matemáticas"
+  ],
+  "synopsis": "En Sampués, Luz Dary, una niña zenú, aprende con su abuela Ana a trenzar la caña flecha. Descubre que las pintas del sombrero vueltiao son patrones que se repiten y que guardan historias de su pueblo.",
+  "coverScene": {
+   "bg": "pueblo",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     690,
+     90,
+     0.8
+    ],
+    [
+     "casa",
+     150,
+     420,
+     0.8,
+     {
+      "color": "#f6c36b",
+      "techo": "palma"
+     }
+    ],
+    [
+     "persona",
+     330,
+     570,
+     1.1,
+     {
+      "piel": "trigueña",
+      "pelo": "largo",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "navy",
+      "brazos": "saluda",
+      "sombrero": true
+     }
+    ],
+    [
+     "persona",
+     560,
+     570,
+     1.0,
+     {
+      "adulto": true,
+      "piel": "trigueña",
+      "pelo": "moño",
+      "pelocolor": "canoso",
+      "ropa": "turq",
+      "falda": true,
+      "pantalon": "purple",
+      "sosten": "sombrero",
+      "flip": true
+     }
+    ],
+    [
+     "flor",
+     720,
+     570,
+     1,
+     {
+      "color": "coral"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En Sampués, en el departamento de Sucre, casi todas las tardes se oye un sonido suave: fsss, fsss. Es el sonido de la caña flecha cuando las manos la trenzan. Luz Dary lo conoce desde bebé, porque su abuela Ana teje en el corredor de la casa, sentada en un taburete, mientras pasa la brisa.",
+     "Luz Dary es zenú, como su abuela, como su mamá y como muchas familias de la región. Un sábado, por fin, se sentó al lado de la abuela con una pregunta que llevaba mucho tiempo guardando:",
+     "—Abuela, ¿me enseñas a tejer?",
+     "La abuela Ana sonrió y le puso en las manos unas tiras largas, unas de color crema y otras negras.",
+     "—Primero tienes que conocer la caña flecha —dijo—. Es una planta que se corta, se raspa y se deja secar al sol hasta que queda blanquita. Las tiras negras se tiñen con barro y con hojas de la región. Nada se hace de afán."
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       700,
+       90,
+       0.7
+      ],
+      [
+       "casa",
+       620,
+       420,
+       0.9,
+       {
+        "color": "#f6c36b",
+        "techo": "palma"
+       }
+      ],
+      [
+       "palmera",
+       90,
+       430,
+       0.8
+      ],
+      [
+       "persona",
+       300,
+       570,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "frente"
+       }
+      ],
+      [
+       "persona",
+       440,
+       570,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "purple",
+        "sosten": "sombrero",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Luz Dary y su abuela Ana en el corredor de su casa con techo de palma en Sampués; la abuela sostiene un sombrero."
+   },
+   {
+    "text": [
+     "La abuela le enseñó a hacer la trenza más sencilla. Había que cruzar las tiras una encima de otra, siempre en el mismo orden, sin apretar demasiado ni dejar flojo.",
+     "Luz Dary lo intentó. Al principio la trenza le salió torcida y se le soltaron dos tiras. Frunció el ceño.",
+     "—No me sale —dijo—. Tus trenzas quedan perfectas.",
+     "—Las mías tienen sesenta años de práctica —rió la abuela—. Las tuyas tienen diez minutos. Vuelve a empezar, que la caña flecha tiene paciencia.",
+     "Luz Dary empezó otra vez. Cruzar, bajar, cruzar, bajar. Después de varios intentos, la trenza salió derechita. Entonces la abuela le mostró algo más: cuando se combinan tiras crema y negras, aparecen figuras. Esas figuras se llaman pintas.",
+     "—Mira —dijo la abuela, señalando un sombrero terminado—. Esta pinta parece un ocho. Esta otra es como un rombo. Y esta de aquí recuerda las escamas de un pescado."
+    ],
+    "scene": {
+     "bg": "casa",
+     "time": "dia",
+     "items": [
+      [
+       "sombrero",
+       645,
+       200,
+       0.6
+      ],
+      [
+       "texto",
+       250,
+       230,
+       1,
+       {
+        "t": "8 8 8 8",
+        "size": 60,
+        "color": "ink"
+       }
+      ],
+      [
+       "persona",
+       330,
+       580,
+       1.15,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "frente"
+       }
+      ],
+      [
+       "persona",
+       500,
+       580,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "purple",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Dentro de la casa, la abuela enseña a Luz Dary a trenzar; aparecen figuras de rombos que se repiten."
+   },
+   {
+    "text": [
+     "El lunes, en la escuela, la profesora Ingrid estaba enseñando patrones en matemáticas. Escribió en el tablero: A, B, A, B…",
+     "—¿Qué letra sigue? —preguntó.",
+     "Luz Dary levantó la mano tan rápido que casi se cae de la silla. —¡Profe, eso es como las pintas del sombrero de mi abuela!",
+     "Al día siguiente llevó una trenza de muestra. En ella se veía un rombo negro, un espacio crema, un rombo negro, un espacio crema. Sus compañeros contaron cuántas veces se repetía la figura en cada vuelta y descubrieron que siempre era la misma cantidad.",
+     "—Las tejedoras zenúes hacen matemáticas con las manos —dijo la profesora Ingrid—. Cuentan las tiras, repiten patrones y calculan para que la pinta cierre perfecta al dar la vuelta completa.",
+     "Esteban, que nunca había visto un sombrero de cerca, preguntó por qué se llamaba vueltiao. Luz Dary explicó, orgullosa: —Porque la trenza se cose en vueltas, en espiral, desde el centro de la copa hasta el borde del ala."
+    ],
+    "scene": {
+     "bg": "aula",
+     "time": "dia",
+     "items": [
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "A B A B ?",
+        "size": 60,
+        "color": "white"
+       }
+      ],
+      [
+       "persona",
+       260,
+       580,
+       1.1,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       420,
+       585,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "rubio",
+        "ropa": "green",
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       640,
+       570,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "blue",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "saluda",
+        "flip": true
+       }
+      ],
+      [
+       "sombrero",
+       120,
+       540,
+       0.6
+      ]
+     ]
+    },
+    "alt": "En el salón, Luz Dary levanta la mano frente a un patrón de figuras en el tablero; su compañero Esteban y la profesora Ingrid la escuchan."
+   },
+   {
+    "text": [
+     "Esa tarde, la abuela Ana le contó a Luz Dary que cada pinta tiene un nombre y que muchas recuerdan cosas de la naturaleza y de la vida del pueblo: animales, flores, el río, los caminos. Algunas familias tienen pintas que pasan de abuelas a nietas, como un apellido tejido.",
+     "—El sombrero vueltiao es patrimonio cultural de Colombia —dijo la abuela—. Eso quiere decir que es un tesoro de todos, y que hay que cuidarlo. Lo cuidamos tejiéndolo, contando sus historias y enseñándolo a los niños.",
+     "Luz Dary decidió inventar su propia pinta. Pensó mucho y eligió un patrón con forma de ola, porque le encantaba el mar de Tolú, que había visitado en vacaciones. Contó las tiras con cuidado: dos negras, tres crema, dos negras, tres crema.",
+     "Le tomó toda la semana terminar una trenza larga. Cuando la abuela la vio, se quedó callada un rato y luego le dio un abrazo.",
+     "—Ahora tú también guardas la memoria de nuestro pueblo —le dijo.",
+     "Luz Dary colgó su trenza en la pared del salón, junto al dibujo de los patrones. Debajo escribió con letras grandes: «Pinta de la ola, de Luz Dary, aprendida de la abuela Ana»."
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "time": "atardecer",
+     "items": [
+      [
+       "sol",
+       680,
+       140,
+       0.7,
+       {
+        "cara": false
+       }
+      ],
+      [
+       "casa",
+       150,
+       420,
+       0.8,
+       {
+        "color": "#f6c36b",
+        "techo": "palma"
+       }
+      ],
+      [
+       "texto",
+       470,
+       230,
+       1,
+       {
+        "t": "~ ~ ~ ~",
+        "size": 80,
+        "color": "turq"
+       }
+      ],
+      [
+       "persona",
+       400,
+       570,
+       1.1,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "navy",
+        "sosten": "sombrero"
+       }
+      ],
+      [
+       "persona",
+       540,
+       570,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "purple",
+        "brazos": "arriba",
+        "flip": true
+       }
+      ],
+      [
+       "corazon",
+       470,
+       330,
+       0.5,
+       {
+        "color": "coral"
+       }
+      ]
+     ]
+    },
+    "alt": "Al atardecer, Luz Dary muestra su trabajo y la abuela Ana celebra; arriba se ve un patrón en forma de olas."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué son las pintas del sombrero?",
+    "options": [
+     "Manchas de pintura",
+     "Figuras que se forman al combinar tiras crema y negras",
+     "Los nombres de quienes lo compran"
+    ],
+    "answer": 1,
+    "explanation": "La abuela explicó que al combinar tiras de colores aparecen figuras llamadas pintas."
+   },
+   {
+    "prompt": "¿Qué relación descubrió Luz Dary entre el tejido y las matemáticas?",
+    "options": [
+     "Que las pintas son patrones que se repiten",
+     "Que el sombrero sirve para sumar",
+     "Que las tiras son de diferentes tamaños"
+    ],
+    "answer": 0,
+    "explanation": "Las tejedoras cuentan tiras y repiten patrones, igual que en la clase de matemáticas."
+   },
+   {
+    "prompt": "¿Por qué Luz Dary eligió una pinta con forma de ola?",
+    "options": [
+     "Porque era la más fácil",
+     "Porque se la pidió la profesora",
+     "Porque le encantaba el mar de Tolú"
+    ],
+    "answer": 2,
+    "explanation": "Luz Dary pensó en el mar de Tolú que visitó en vacaciones."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "caña flecha",
+    "meaning": "Planta cuyas fibras se secan y se trenzan para tejer sombreros y otras artesanías."
+   },
+   {
+    "word": "trenzar",
+    "meaning": "Cruzar tiras o hilos de manera ordenada para formar una trenza."
+   },
+   {
+    "word": "patrón",
+    "meaning": "Secuencia de figuras o colores que se repite siempre en el mismo orden."
+   },
+   {
+    "word": "patrimonio cultural",
+    "meaning": "Tesoro de tradiciones y saberes que un pueblo cuida y comparte."
+   },
+   {
+    "word": "espiral",
+    "meaning": "Línea que da vueltas alrededor de un centro y se va abriendo."
+   },
+   {
+    "word": "zenú",
+    "meaning": "Pueblo indígena del Caribe colombiano, en especial de Córdoba y Sucre."
+   }
+  ]
+ },
+ {
+  "slug": "el-barrilete-de-diciembre",
+  "title": "El barrilete de diciembre",
+  "grade": 3,
+  "gradeMin": 3,
+  "gradeMax": 3,
+  "theme": "ciencia",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "ciencia",
+   "familia"
+  ],
+  "synopsis": "Con los vientos de diciembre en Coveñas, Kevin y su abuelo Eliécer construyen un barrilete con materiales reciclados. Prueban, fallan y ajustan hasta descubrir cómo el viento lo sostiene en el cielo.",
+  "coverScene": {
+   "bg": "playa",
+   "time": "dia",
+   "items": [
+    [
+     "sol",
+     700,
+     90,
+     0.8
+    ],
+    [
+     "nube",
+     200,
+     110,
+     0.7
+    ],
+    [
+     "barrilete",
+     470,
+     150,
+     1.1,
+     {
+      "color": "coral"
+     }
+    ],
+    [
+     "palmera",
+     90,
+     470,
+     0.9
+    ],
+    [
+     "persona",
+     380,
+     560,
+     1.1,
+     {
+      "piel": "morena",
+      "pelo": "corto",
+      "ropa": "yellow",
+      "pantalon": "blue",
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "persona",
+     560,
+     560,
+     1.0,
+     {
+      "adulto": true,
+      "piel": "oscura",
+      "pelo": "calvo",
+      "ropa": "turq",
+      "pantalon": "navy",
+      "sombrero": true,
+      "brazos": "saluda",
+      "flip": true
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En Coveñas, cuando llega diciembre, el viento cambia. Sopla fuerte desde el mar, mueve las hojas de las palmeras y hace que las olas lleguen con espuma blanca a la playa. Los pescadores dicen que son las brisas de fin de año.",
+     "Para Kevin, esas brisas significaban una sola cosa: ¡temporada de barriletes!",
+     "—Abuelo, este año quiero hacer mi propio barrilete —dijo una mañana—. No uno comprado. Uno hecho por mí.",
+     "El abuelo Eliécer, que había sido pescador toda la vida, se acomodó el sombrero y sonrió.",
+     "—Entonces vamos a buscar materiales. Pero no vamos a comprar nada nuevo. Vamos a usar lo que otros botaron.",
+     "Recorrieron la casa y el patio. Encontraron una bolsa plástica grande y resistente, dos varillas delgadas de caña brava, un rollo de hilo de pescar que ya nadie usaba, cinta, y tiras de tela de una camisa vieja. Kevin lo puso todo sobre la mesa, como un tesoro."
+    ],
+    "scene": {
+     "bg": "casa",
+     "time": "dia",
+     "items": [
+      [
+       "pupitre",
+       400,
+       540,
+       1.8
+      ],
+      [
+       "botella",
+       330,
+       410,
+       0.7
+      ],
+      [
+       "barrilete",
+       450,
+       360,
+       0.45,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       200,
+       580,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "blue",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       620,
+       580,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "sombrero": true,
+        "brazos": "saluda",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Kevin y su abuelo Eliécer en la casa con materiales reciclados sobre una mesa para hacer un barrilete."
+   },
+   {
+    "text": [
+     "Con las dos varillas armaron una cruz y la amarraron fuerte en el centro. Luego pasaron hilo por las cuatro puntas, formando un rombo. Encima pegaron la bolsa plástica, recortada con cuidado. Por último, amarraron el hilo largo para volarlo.",
+     "—¡Listo! —gritó Kevin, y salió corriendo hacia la playa.",
+     "Pero el barrilete no subió. Daba vueltas como un trompo loco y se estrellaba contra la arena una y otra vez. Kevin lo intentó tres veces. A la cuarta, se sentó en la arena con los brazos cruzados.",
+     "—No sirve. Mejor compramos uno.",
+     "El abuelo se sentó a su lado. —Cuando yo aprendí a pescar, las primeras veces no saqué ni una mojarra. ¿Sabes qué hice? Miré qué estaba fallando. Vamos a mirar como científicos."
+    ],
+    "scene": {
+     "bg": "playa",
+     "time": "dia",
+     "items": [
+      [
+       "sol",
+       690,
+       90,
+       0.7
+      ],
+      [
+       "olas",
+       640,
+       345,
+       1
+      ],
+      [
+       "barrilete",
+       560,
+       420,
+       0.6,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       300,
+       560,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "blue",
+        "brazos": "abajo"
+       }
+      ],
+      [
+       "persona",
+       430,
+       560,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "sombrero": true,
+        "brazos": "saluda",
+        "flip": true
+       }
+      ],
+      [
+       "cangrejo",
+       680,
+       560,
+       0.5
+      ]
+     ]
+    },
+    "alt": "En la playa de Coveñas, el barrilete cae en la arena; Kevin está desanimado y su abuelo lo acompaña."
+   },
+   {
+    "text": [
+     "El abuelo le explicó que el barrilete vuela gracias al viento. Cuando el aire choca contra la superficie inclinada del barrilete, lo empuja hacia arriba. Al mismo tiempo, el hilo lo sostiene para que no se lo lleve. Pero si el barrilete no está equilibrado, el viento lo hace girar.",
+     "—¿Y cómo se equilibra? —preguntó Kevin.",
+     "—Con la cola —dijo el abuelo—. La cola le da peso abajo y lo mantiene derecho, como la quilla de una canoa.",
+     "Kevin amarró una cola corta, con tres tiras de tela. Lo volvió a intentar. Esta vez subió un poquito, pero seguía cabeceando de un lado a otro.",
+     "—Más larga —dijo Kevin, pensando en voz alta—. Le falta peso.",
+     "Agregó más tiras, de todos los colores: amarillo, azul, verde, morado. Ahora la cola era casi tres veces más larga que el barrilete. También corrieron un poquito el punto donde se amarraba el hilo, para que el barrilete quedara inclinado frente al viento.",
+     "Se pusieron de espaldas al viento. El abuelo sostuvo el barrilete en alto. Kevin tensó el hilo y gritó: —¡Ahora!"
+    ],
+    "scene": {
+     "bg": "playa",
+     "time": "dia",
+     "items": [
+      [
+       "nube",
+       650,
+       110,
+       0.7
+      ],
+      [
+       "texto",
+       220,
+       170,
+       1,
+       {
+        "t": "¡Viento!",
+        "size": 44,
+        "color": "blue"
+       }
+      ],
+      [
+       "barrilete",
+       540,
+       200,
+       0.8,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       300,
+       560,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "blue",
+        "brazos": "frente"
+       }
+      ],
+      [
+       "persona",
+       520,
+       560,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "sombrero": true,
+        "brazos": "arriba",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Kevin tensa el hilo mientras el abuelo levanta el barrilete con una cola larga de colores; una flecha muestra la dirección del viento."
+   },
+   {
+    "text": [
+     "El barrilete dio un tirón, tembló un segundo y empezó a subir. Subió por encima de las palmeras, por encima de las gaviotas, hasta quedarse quieto allá arriba, como un pedazo de atardecer pegado al cielo. La cola de colores se movía suavecito, de lado a lado.",
+     "—¡Vuela, abuelo! ¡Vuela! —gritaba Kevin, sintiendo cómo el viento jalaba el hilo entre sus manos.",
+     "Otros niños de la playa se acercaron. Mariana, que usaba silla de ruedas, le pidió permiso para sostener el hilo. Kevin se lo pasó con cuidado y le explicó el truco: soltar hilo cuando el viento sopla fuerte y recogerlo cuando se calma. Mariana lo manejó tan bien que todos aplaudieron.",
+     "Esa tarde, Kevin y el abuelo enseñaron a otros niños a construir barriletes con bolsas, cañas y telas viejas. Al final, cinco barriletes volaban sobre la playa de Coveñas.",
+     "—¿Ves? —dijo el abuelo—. El barrilete no voló a la primera, pero cada error nos dio una pista.",
+     "Kevin miró hacia arriba y pensó que, en realidad, lo más importante no era el barrilete, sino haber aprendido a no rendirse. Y a escuchar al viento."
+    ],
+    "scene": {
+     "bg": "playa",
+     "time": "atardecer",
+     "items": [
+      [
+       "sol",
+       690,
+       160,
+       0.7,
+       {
+        "cara": false
+       }
+      ],
+      [
+       "barrilete",
+       300,
+       130,
+       0.9,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "barrilete",
+       560,
+       90,
+       0.6,
+       {
+        "color": "turq"
+       }
+      ],
+      [
+       "barrilete",
+       440,
+       200,
+       0.5,
+       {
+        "color": "yellow"
+       }
+      ],
+      [
+       "palmera",
+       760,
+       470,
+       0.85
+      ],
+      [
+       "persona",
+       250,
+       570,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "blue",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       420,
+       570,
+       1.0,
+       {
+        "piel": "clara",
+        "pelo": "coletas",
+        "ropa": "purple",
+        "pantalon": "navy",
+        "silla": true
+       }
+      ],
+      [
+       "persona",
+       600,
+       570,
+       1.0,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "sombrero": true,
+        "brazos": "saluda",
+        "flip": true
+       }
+      ]
+     ]
+    },
+    "alt": "Al atardecer, varios barriletes vuelan sobre la playa; Kevin, Mariana en su silla de ruedas y el abuelo los miran felices."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Por qué al principio el barrilete daba vueltas y se caía?",
+    "options": [
+     "Porque no tenía cola para equilibrarse",
+     "Porque no había viento",
+     "Porque la bolsa era muy pequeña"
+    ],
+    "answer": 0,
+    "explanation": "Sin cola, el barrilete no estaba equilibrado y el viento lo hacía girar."
+   },
+   {
+    "prompt": "¿Qué materiales usaron Kevin y su abuelo?",
+    "options": [
+     "Papel nuevo y palos comprados",
+     "Materiales reciclados: una bolsa, cañas, hilo viejo y tela",
+     "Plumas de gaviota"
+    ],
+    "answer": 1,
+    "explanation": "Usaron cosas que otros habían botado, sin comprar nada nuevo."
+   },
+   {
+    "prompt": "¿Qué aprendió Kevin al final?",
+    "options": [
+     "Que es mejor comprar los barriletes",
+     "Que solo los adultos pueden volarlos",
+     "Que cada error da una pista y no hay que rendirse"
+    ],
+    "answer": 2,
+    "explanation": "El abuelo le mostró que, mirando qué fallaba, podían mejorar hasta lograrlo."
+   }
+  ],
+  "glossary": [
+   {
+    "word": "barrilete",
+    "meaning": "Nombre que se le da en el Caribe colombiano a la cometa."
+   },
+   {
+    "word": "equilibrio",
+    "meaning": "Estado en que algo se mantiene estable, sin caerse ni girar."
+   },
+   {
+    "word": "quilla",
+    "meaning": "Pieza de abajo de una embarcación que la mantiene derecha en el agua."
+   },
+   {
+    "word": "reciclado",
+    "meaning": "Material usado que se aprovecha otra vez para hacer algo nuevo."
+   },
+   {
+    "word": "tensar",
+    "meaning": "Estirar algo, como un hilo, hasta que quede firme."
+   }
+  ]
+ }
+]

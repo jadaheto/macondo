@@ -1,0 +1,589 @@
+<div class="main-content reportes-turnos">
+  <div class="page-content">
+    <div class="container-fluid">
+
+      <div class="row mb-3 align-items-center g-3 dash-heading">
+        <div class="col-12 col-lg">
+          <span class="dash-eyebrow">GESTIÓN DE TURNOS · ANALÍTICA</span>
+          <h4 class="mb-1">Cada atención cuenta</h4>
+          <p class="text-muted mb-0">Demanda, tiempos y resultados de tu operación en un solo lugar.</p>
+        </div>
+        <div class="col-12 col-lg-auto d-flex flex-wrap gap-2">
+          <button type="button" class="btn btn-soft-primary" id="btnToggleFiltros" aria-haspopup="dialog" aria-controls="modalFiltros"><i class="ri-filter-3-line me-1" aria-hidden="true"></i> Mostrar filtros <span id="dashFilterCount" class="badge ms-1" hidden></span></button>
+          <button class="btn btn-soft-secondary" id="btnGuardarFiltro"><i class="ri-bookmark-line me-1"></i> Guardar filtro</button>
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"><i class="ri-download-cloud-2-line me-1"></i> Exportar</button>
+            <div class="dropdown-menu dropdown-menu-end">
+              <button class="dropdown-item" data-export="XLSX"><i class="ri-file-excel-2-line me-2 text-success"></i> Excel completo</button>
+              <button class="dropdown-item" data-export="PDF"><i class="ri-file-pdf-2-line me-2 text-danger"></i> PDF ejecutivo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="dash-context" aria-label="Consulta actual">
+        <div class="dash-summary">
+          <div class="dash-summary-period"><i class="ri-calendar-check-line" aria-hidden="true"></i><div><span>Periodo analizado</span><strong id="dashPeriodSummary">Hoy</strong></div></div>
+          <div id="chipsFiltros" class="filter-chip-row"></div>
+          <div id="dashStatus" role="status" aria-live="polite">Preparando indicadores…</div>
+        </div>
+        <div class="dash-feedback">
+        <div id="dashError" role="alert" hidden></div>
+        </div>
+      </section>
+
+      <div class="row g-3 mb-3" id="resumenKpis">
+        <div class="col-6 col-xl-2"><div class="metric-box"><span>Total</span><strong data-kpi="total">0</strong></div></div>
+        <div class="col-6 col-xl-2"><div class="metric-box"><span>Pendientes</span><strong data-kpi="pendientes">0</strong></div></div>
+        <div class="col-6 col-xl-2"><div class="metric-box"><span>En atención</span><strong data-kpi="en_atencion">0</strong></div></div>
+        <div class="col-6 col-xl-2"><div class="metric-box"><span>Atendidos</span><strong data-kpi="atendidos">0</strong></div></div>
+        <div class="col-6 col-xl-2"><div class="metric-box"><span>Prioritarios</span><strong data-kpi="prioritarios">0</strong></div></div>
+        <div class="col-6 col-xl-2"><div class="metric-box"><span>Espera prom.</span><strong data-kpi="espera_promedio">—</strong></div></div>
+      </div>
+
+      <section id="dashCharts" class="dash-charts" aria-label="Gráficas de Turnos" aria-busy="true">
+        <div class="dash-primary-charts">
+          <article class="dash-chart dash-services-primary">
+            <div class="dash-chart-heading"><h5>Demanda y atención por dependencia</h5><div id="dashServicesPager" class="dash-service-pager" hidden><button type="button" id="dashServicesPrev" class="btn btn-sm btn-light" aria-label="Dependencias anteriores"><i class="ri-arrow-left-s-line" aria-hidden="true"></i></button><span id="dashServicesPage" aria-live="polite"></span><button type="button" id="dashServicesNext" class="btn btn-sm btn-light" aria-label="Dependencias siguientes"><i class="ri-arrow-right-s-line" aria-hidden="true"></i></button></div></div>
+            <p>Compara el total y los ya atendidos; los atendidos forman parte del total.</p>
+            <div id="chartServicios" class="dash-plot"></div>
+            <div id="dashServiceDetail" class="dash-service-detail" role="status" aria-live="polite">Selecciona o enfoca una barra para explorar sus tiempos.</div>
+          </article>
+          <article class="dash-chart dash-states-primary"><h5>Resultado de los turnos</h5><p>Toca un estado para filtrar todo el dashboard.</p><div id="chartEstados" class="dash-plot"></div></article>
+        </div>
+      <div class="dash-kpis-secondary">
+        <div class="metric-box"><span>Atenciones completadas</span><strong data-kpi="tasa_atencion">—</strong><small>Sobre los turnos del periodo</small></div>
+        <div class="metric-box"><span>Espera P95</span><strong data-kpi="espera_p95">—</strong><small>95 % esperó este tiempo o menos</small></div>
+        <div class="metric-box"><span>Atención promedio</span><strong data-kpi="atencion_promedio">—</strong><small>Suma de tramos, incluidas transferencias</small></div>
+        <div class="metric-box"><span>Transferidos</span><strong data-kpi="transferidos">—</strong><small>Con transferencia registrada</small></div>
+      </div>
+        <article class="dash-chart dash-wide"><h5>Flujo de atención</h5><p>Turnos creados en cada intervalo y cuántos de ellos ya fueron atendidos.</p><div id="chartFlujo" class="dash-plot"></div></article>
+        <article class="dash-chart"><h5>Espera hasta el primer llamado</h5><p id="dashWaitSample">Solo turnos con llamado registrado; no incluye pendientes sin llamar.</p><div id="chartEspera" class="dash-plot"></div></article>
+        <article class="dash-chart dash-wide"><h5>¿Cuándo llegan más personas?</h5><p>Demanda por día de semana y hora de Bogotá. Cada celda muestra su total.</p><div id="chartDemanda" class="dash-plot"></div></article>
+        <article class="dash-chart"><h5>Tipos de persona</h5><p>Trabajadores, beneficiarios, empresas y particulares.</p><div id="chartPersonas" class="dash-plot"></div></article>
+        <article class="dash-chart"><h5>Atención por destino</h5><p>Turnos completados, atribuidos a su último destino registrado.</p><div id="chartDestinos" class="dash-plot"></div></article>
+        <article class="dash-chart dash-wide"><h5>Gestión y tiempos por servicio</h5><div class="table-responsive"><table class="table table-sm" id="dashServicesTable"><thead><tr><th>Servicio</th><th>Turnos</th><th>Atendidos</th><th>Espera prom.</th><th>Atención prom.</th></tr></thead><tbody></tbody></table></div></article>
+        <article class="dash-chart"><h5>Atención por puesto / gestor</h5><label for="dashTeamView" class="visually-hidden">Agrupar atención</label><select id="dashTeamView" class="form-select mb-2"><option value="puestos">Puestos</option><option value="gestores">Gestores (hasta 50)</option></select><p>Último puesto o gestor registrado. Hasta 12 destacados en la gráfica.</p><div id="chartEquipo" class="dash-plot"></div></article>
+      </section>
+
+      <div class="row g-3">
+        <div class="col-12 col-xl-9">
+          <div class="card report-card">
+            <div class="card-header d-flex flex-column flex-md-row gap-2 align-items-md-center justify-content-between">
+              <div>
+                <h5 class="card-title mb-1">Turnos</h5>
+                <p class="text-muted mb-0">Vista esencial. El detalle completo se abre en popup.</p>
+              </div>
+              <button class="btn btn-sm btn-soft-secondary" id="btnRefrescar"><i class="ri-refresh-line me-1"></i> Actualizar</button>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table id="tablaReportesTurnos" class="table table-hover align-middle w-100">
+                  <thead>
+                    <tr>
+                      <th>Turno</th>
+                      <th>Estado</th>
+                      <th>Persona/empresa</th>
+                      <th>Dependencia</th>
+                      <th>Oficina / puesto</th>
+                      <th>Prioridad</th>
+                      <th>Creado</th>
+                      <th>Llamado</th>
+                      <th>Espera</th>
+                      <th>Atencion</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-3">
+          <div class="card report-card h-100">
+            <div class="card-header">
+              <h5 class="card-title mb-1">Centro de descargas</h5>
+              <p class="text-muted mb-0">Archivos generados con los filtros actuales.</p>
+            </div>
+            <div class="card-body">
+              <div id="listaExportaciones" class="download-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade reportes-turnos" id="modalFiltros" tabindex="-1" aria-labelledby="modalFiltrosTitle" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <h5 class="modal-title" id="modalFiltrosTitle">Filtros de reportes</h5>
+          <p class="text-muted mb-0">Los cambios se consultarán únicamente al pulsar Aplicar.</p>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar sin aplicar"></button>
+      </div>
+      <div class="modal-body">
+        <div id="dashFilterError" class="alert alert-danger" role="alert" hidden></div>
+        <div class="dash-presets mb-3" role="group" aria-label="Periodo pendiente">
+          <button type="button" data-period="today" class="btn btn-light" aria-pressed="false">Hoy</button>
+          <button type="button" data-period="yesterday" class="btn btn-light" aria-pressed="false">Ayer</button>
+          <button type="button" data-period="7" class="btn btn-light" aria-pressed="false">7 días</button>
+          <button type="button" data-period="30" class="btn btn-light" aria-pressed="false">30 días</button>
+        </div>
+        <form id="formFiltros" class="row g-3">
+          <div class="col-6 col-md-3"><label class="form-label" for="reportesDesde">Desde</label><input id="reportesDesde" type="date" class="form-control" name="fecha_desde" required></div>
+          <div class="col-6 col-md-3"><label class="form-label" for="reportesHasta">Hasta</label><input id="reportesHasta" type="date" class="form-control" name="fecha_hasta" required></div>
+          <div class="col-12 col-md-3">
+            <label class="form-label">Dependencia</label>
+            <select class="form-select" name="dependencia_id">
+              <option value="">Todas</option>
+              <?php foreach (($catalogos['dependencias'] ?? []) as $dep): ?>
+                <option value="<?= (int)$dep['id'] ?>"><?= htmlspecialchars($dep['nombre']) ?></option>
+              <?php endforeach; ?>
+            </select>
+          </div>
+          <div class="col-12 col-md-3">
+            <label class="form-label">Destino</label>
+            <select class="form-select" name="modulo_id">
+              <option value="">Todos</option>
+              <?php foreach (($catalogos['modulos'] ?? []) as $mod): ?>
+                <option value="<?= (int)$mod['id'] ?>"><?= htmlspecialchars($mod['nombre']) ?></option>
+              <?php endforeach; ?>
+            </select>
+          </div>
+          <div class="col-6">
+            <label class="form-label">Estado</label>
+            <select class="form-select" name="estado">
+              <option value="">Todos</option>
+              <option value="PENDIENTE">Pendiente</option><option value="EN_ATENCION">En atención</option><option value="ATENDIDO">Atendido</option><option value="AUSENTE">Ausente</option><option value="CANCELADO">Cancelado</option>
+            </select>
+          </div>
+          <div class="col-6">
+            <label class="form-label">Prioridad</label>
+            <select class="form-select" name="prioridad"><option value="">Todas</option><option value="1">Prioritario</option><option value="0">Normal</option></select>
+          </div>
+          <div class="col-12"><details class="dash-advanced-filters"><summary>Filtros avanzados</summary><div class="row g-3 mt-0">
+          <div class="col-12 col-md-4">
+            <label class="form-label">Campo de fecha</label>
+            <select class="form-select" name="fecha_campo"><option value="creado_en">Creación</option><option value="llamado_en">Llamado</option><option value="iniciado_en">Inicio atención</option><option value="finalizado_en">Finalización</option><option value="transferido_en">Transferencia</option></select>
+          </div>
+          <div class="col-12 col-md-4">
+            <label class="form-label">Gestor</label>
+            <select class="form-select" name="gestor_id"><option value="">Todos</option><?php foreach (($catalogos['usuarios'] ?? []) as $usr): ?><option value="<?= (int)$usr['id'] ?>"><?= htmlspecialchars($usr['nombre'] ?: ('Usuario ' . $usr['id'])) ?></option><?php endforeach; ?></select>
+          </div>
+          <div class="col-12 col-md-4"><label class="form-label">Puesto físico</label><select class="form-select" name="puesto_id"><option value="">Todos</option><?php foreach(($catalogos['puestos']??[]) as $p): ?><option value="<?= (int)$p['id'] ?>"><?= htmlspecialchars($p['nombre'],ENT_QUOTES,'UTF-8') ?></option><?php endforeach; ?></select></div>
+          <div class="col-12 col-md-4"><label class="form-label">Tipo persona</label><select class="form-select" name="tipo_persona"><option value="">Todos</option><option>TRABAJADOR</option><option>BENEFICIARIO</option><option>EMPRESA</option><option>PARTICULAR</option></select></div>
+          <div class="col-12 col-md-4"><label class="form-label">Motivo prioridad</label><select class="form-select" name="prioridad_tipo"><option value="">Todos</option><option>ADULTO MAYOR</option><option>DISCAPACIDAD</option><option>EMBARAZO</option><option>PRIORITARIO</option></select></div>
+          <div class="col-12 col-md-4"><label class="form-label">Transferido</label><select class="form-select" name="transferido"><option value="">Todos</option><option value="1">Sí</option><option value="0">No</option></select></div>
+          <div class="col-6 col-md-2"><label class="form-label">Categoría</label><input class="form-control" name="categoria" maxlength="20"></div>
+          <div class="col-6 col-md-2"><label class="form-label">Género</label><input class="form-control" name="genero" maxlength="30"></div>
+          <div class="col-12 col-md-3"><label class="form-label">Documento</label><input class="form-control" name="documento"></div>
+          <div class="col-12 col-md-3"><label class="form-label">Nombre</label><input class="form-control" name="nombre"></div>
+          <div class="col-12 col-md-2"><label class="form-label">Empresa</label><input class="form-control" name="empresa"></div>
+          </div></details></div>
+        </form>
+        <div class="saved-filter-box mt-3">
+          <div class="row g-2 align-items-end">
+            <div class="col-12 col-md">
+              <label class="form-label" for="selectFiltrosGuardados">Filtros guardados</label>
+              <select class="form-select" id="selectFiltrosGuardados">
+                <option value="">Selecciona un filtro guardado</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-auto">
+              <button class="btn btn-soft-primary w-100" id="btnCargarFiltroGuardado"><i class="ri-bookmark-3-line me-1"></i> Cargar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-light me-auto" id="btnLimpiarFiltros"><i class="ri-eraser-line me-1"></i> Restablecer</button>
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancelar</button>
+        <button class="btn btn-primary" id="btnAplicarFiltros"><i class="ri-check-line me-1"></i> Aplicar y ver resultados</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalDetalle" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalle del turno</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" id="detalleContenido"></div>
+    </div>
+  </div>
+</div>
+
+<script src="<?= base_url() ?>assets/js/datatables/jquery.dataTables.min.js"></script>
+<script src="<?= base_url() ?>assets/js/datatables/dataTables.bootstrap5.min.js"></script>
+<script src="<?= base_url() ?>assets/js/datatables/dataTables.responsive.min.js"></script>
+<link rel="stylesheet" href="<?= base_url('assets/css/turnos-avisos.css') ?>?v=<?= (int)filemtime(FCPATH.'assets/css/turnos-avisos.css') ?>">
+<script src="<?= base_url('assets/js/turnos-avisos.js') ?>?v=<?= (int)filemtime(FCPATH.'assets/js/turnos-avisos.js') ?>"></script>
+<script src="<?= base_url('assets/js/turnos-fechas.js') ?>?v=<?= (int)filemtime(FCPATH . 'assets/js/turnos-fechas.js') ?>"></script>
+<link rel="stylesheet" href="<?= base_url('assets/css/turnos-dashboard.css') ?>?v=<?= (int)filemtime(FCPATH . 'assets/css/turnos-dashboard.css') ?>">
+<script src="<?= base_url('assets/libs/apexcharts/apexcharts.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/turnos-dashboard.js') ?>?v=<?= (int)filemtime(FCPATH . 'assets/js/turnos-dashboard.js') ?>"></script>
+
+<style>
+.reportes-turnos { --cf-blue:#00558c; --cf-cyan:#00a9ce; --cf-green:#74b843; --cf-ink:#14213d; }
+.filter-chip-row { display:flex; flex-wrap:wrap; gap:.5rem; min-height:34px; }
+.filter-chip { background:#eef7fb; color:#00558c; border:1px solid #cfeaf4; border-radius:999px; padding:.35rem .7rem; font-size:.82rem; font-weight:600; }
+.metric-box { background:#fff; border:1px solid #e7edf3; border-radius:8px; padding:.9rem 1rem; box-shadow:0 6px 20px rgba(20,33,61,.05); min-height:84px; }
+.metric-box span { display:block; color:#6c7485; font-size:.82rem; margin-bottom:.25rem; }
+.metric-box strong { color:#00558c; font-size:1.55rem; line-height:1; }
+.report-card { border:1px solid #e7edf3; border-radius:8px; box-shadow:0 8px 24px rgba(20,33,61,.06); }
+.report-card .card-header { background:#fff; border-bottom:1px solid #edf1f5; }
+#tablaReportesTurnos td { vertical-align:middle; }
+.turno-code { color:#00558c; font-size:1.05rem; font-weight:800; letter-spacing:.02em; }
+.estado-pill { border-radius:999px; padding:.22rem .55rem; font-size:.72rem; font-weight:700; background:#eef2f7; color:#334155; white-space:nowrap; }
+.estado-pill.PENDIENTE { background:#eaf6ff; color:#00558c; }
+.estado-pill.EN_ATENCION { background:#e8fff8; color:#08715d; }
+.estado-pill.ATENDIDO { background:#eef9e8; color:#3f7d20; }
+.estado-pill.AUSENTE,.estado-pill.CANCELADO { background:#fff1f1; color:#b42318; }
+.download-item { border:1px solid #e7edf3; border-radius:8px; padding:.75rem; margin-bottom:.7rem; background:#fff; }
+.download-item strong { color:#14213d; }
+.download-status { font-size:.75rem; font-weight:700; border-radius:999px; padding:.2rem .45rem; background:#eef2f7; color:#475569; }
+.download-status.LISTO { background:#e8fff8; color:#08715d; }
+.download-status.ERROR { background:#fff1f1; color:#b42318; }
+.saved-filter-box { background:#f8fbfd; border:1px solid #e7edf3; border-radius:8px; padding:.85rem; }
+.detail-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.75rem; }
+.detail-box { border:1px solid #e7edf3; border-radius:8px; padding:.75rem; }
+.detail-box span { display:block; font-size:.75rem; color:#6c7485; margin-bottom:.15rem; }
+.timeline-event { border-left:3px solid #00a9ce; padding:.1rem 0 .9rem .75rem; margin-left:.35rem; }
+@media (max-width: 767px) {
+  .reportes-turnos .page-content { padding-left:.25rem; padding-right:.25rem; }
+  .detail-grid { grid-template-columns:1fr; }
+  table.dataTable>tbody>tr.child ul.dtr-details { width:100%; }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const endpoints = {
+    datatable: '<?= site_url('reportes/api_turnos_datatable') ?>',
+    resumen: '<?= site_url('reportes/api_resumen') ?>',
+    dashboard: '<?= site_url('reportes/api_dashboard') ?>',
+    detalle: '<?= site_url('reportes/api_detalle_turno') ?>',
+    crearExportacion: '<?= site_url('reportes/api_crear_exportacion') ?>',
+    procesarExportacion: '<?= site_url('reportes/api_procesar_exportacion') ?>',
+    exportaciones: '<?= site_url('reportes/api_exportaciones') ?>',
+    descargar: '<?= site_url('reportes/descargar') ?>',
+    guardarFiltro: '<?= site_url('reportes/api_guardar_filtro') ?>',
+    filtrosGuardados: '<?= site_url('reportes/api_filtros_guardados') ?>'
+  };
+
+  const modalFiltros = new bootstrap.Modal(document.getElementById('modalFiltros'));
+  const modalDetalle = new bootstrap.Modal(document.getElementById('modalDetalle'));
+  const filterForm = document.getElementById('formFiltros');
+  let filtros = {};
+  let filtrosGuardados = [];
+
+  function formDataObject() {
+    const data = {};
+    $('#formFiltros').serializeArray().forEach(item => { data[item.name] = item.value; });
+    return data;
+  }
+
+  function syncDraft(data) {
+    filterForm.reset();
+    Array.from(filterForm.elements).forEach(control => {
+      if (control.name && Object.prototype.hasOwnProperty.call(data, control.name)) control.value = data[control.name] ?? '';
+    });
+    updatePresets();
+    document.getElementById('dashFilterError').hidden = true;
+  }
+
+  function updatePresets() {
+    const draft = formDataObject();
+    document.querySelectorAll('[data-period]').forEach(button => {
+      const range = TurnosDashboard.periodo(button.dataset.period);
+      button.setAttribute('aria-pressed', String(draft.fecha_desde === range.fecha_desde && draft.fecha_hasta === range.fecha_hasta));
+    });
+  }
+
+  function setDraftPeriod(value) {
+    const range = TurnosDashboard.periodo(value);
+    filterForm.elements.fecha_desde.value = range.fecha_desde;
+    filterForm.elements.fecha_hasta.value = range.fecha_hasta;
+    updatePresets();
+  }
+
+  // Bound the very first table request; saved filters never override startup.
+  setDraftPeriod('7');
+  filtros = formDataObject();
+  Array.from(filterForm.elements).forEach(control => {
+    if (control.name && !control.id) control.id = 'reportesFiltro_' + control.name;
+    const label = control.parentElement.querySelector('label');
+    if (label && control.id) label.htmlFor = control.id;
+  });
+
+  function renderChips() {
+    const labels = [];
+    const data = filtros;
+    Object.keys(data).forEach(function (key) {
+      if (!data[key]) return;
+      if (key === 'fecha_desde' || key === 'fecha_hasta') return;
+      if (key === 'fecha_campo' && data[key] === 'creado_en') return;
+      const control = document.querySelector('#formFiltros [name="' + key + '"]');
+      const label = control?.parentElement.querySelector('label')?.textContent || key.replace(/_/g, ' ');
+      const value = control?.tagName === 'SELECT' ? Array.from(control.options).find(option => option.value === String(data[key]))?.textContent ?? data[key] : data[key];
+      labels.push(`<button type="button" class="filter-chip" data-remove="${escapeHtml(key)}" aria-label="Quitar filtro ${escapeHtml(label)}">${escapeHtml(label)}: ${escapeHtml(value)} ×</button>`);
+    });
+    $('#chipsFiltros').html(labels.length ? labels.join('') : '<span class="dash-summary-default">Todos los servicios · Todos los destinos</span>');
+    $('#dashFilterCount').text(labels.length).attr('aria-label',labels.length+' filtros adicionales al periodo').prop('hidden',labels.length===0);
+    const dateLabel=value=>new Intl.DateTimeFormat('es-CO',{timeZone:'America/Bogota',day:'numeric',month:'short',year:'numeric'}).format(new Date(value+'T12:00:00-05:00'));
+    $('#dashPeriodSummary').text(data.fecha_desde===data.fecha_hasta ? (data.fecha_desde===TurnosDashboard.today()?'Hoy · ':'')+dateLabel(data.fecha_desde) : dateLabel(data.fecha_desde)+' — '+dateLabel(data.fecha_hasta));
+  }
+
+  function escapeHtml(value) {
+    return String(value || '').replace(/[&<>"']/g, function (m) {
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'})[m];
+    });
+  }
+
+  function estadoPill(value) {
+    const safe = escapeHtml(value || '--');
+    return `<span class="estado-pill ${safe}">${safe.replace('_', ' ')}</span>`;
+  }
+
+  function renderFecha(data, type) {
+    return type === 'display' || type === 'filter'
+      ? escapeHtml(TurnosFecha.fechaHora(data, {segundos: false}))
+      : data;
+  }
+
+  const table = $('#tablaReportesTurnos').DataTable({
+    processing: true,
+    serverSide: true,
+    responsive: true,
+    pageLength: 10,
+    lengthChange: false,
+    searching: true,
+    searchDelay: 400,
+    order: [[6, 'desc']],
+    language: {
+      processing: 'Procesando...',
+      search: 'Buscar:',
+      zeroRecords: 'No se encontraron registros.',
+      emptyTable: 'No hay datos disponibles.',
+      info: 'Mostrando _START_ a _END_ de _TOTAL_ registros',
+      infoEmpty: 'Mostrando 0 registros',
+      infoFiltered: '(filtrado de _MAX_ registros)',
+      paginate: { first:'Primero', previous:'Anterior', next:'Siguiente', last:'Ultimo' }
+    },
+    ajax: {
+      url: endpoints.datatable,
+      type: 'POST',
+      data: function (d) { return Object.assign(d, filtros); }
+    },
+    columns: [
+      { data:'turno', render: data => `<span class="turno-code">${escapeHtml(data)}</span>` },
+      { data:'estado', render: estadoPill },
+      { data:'persona', render: (data,row,type,meta) => escapeHtml(data || '--') },
+      { data:'dependencia', render: data => escapeHtml(data) },
+      { data:'modulo', render: data => escapeHtml(data) },
+      { data:'prioridad', render: data => data === 'Normal' ? '<span class="text-muted">Normal</span>' : `<span class="badge bg-success-subtle text-success">${escapeHtml(data)}</span>` },
+      { data:'creado_en', render:renderFecha },
+      { data:'llamado_en', render:renderFecha },
+      { data:'espera_minutos' },
+      { data:'atencion_minutos' },
+      { data:'id', orderable:false, searchable:false, render: id => `<button class="btn btn-sm btn-soft-primary btnDetalle" data-id="${id}" title="Ver detalle"><i class="ri-eye-line"></i></button>` }
+    ]
+  });
+
+  const dashboard = TurnosDashboard.create({endpoint: endpoints.dashboard, catalogos: <?= json_encode($catalogos, JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT) ?>,
+    filter: function(key, value) { filtros = {...filtros, [key]: String(value)}; refrescarTodo(); }});
+  function cargarResumen(force) { dashboard.load(filtros,force); }
+
+  function cargarExportaciones() {
+    $.getJSON(endpoints.exportaciones, function (resp) {
+      const items = resp && resp.ok ? resp.data : [];
+      if (!items.length) {
+        $('#listaExportaciones').html('<div class="text-muted">Aun no hay descargas.</div>');
+        return;
+      }
+      $('#listaExportaciones').html(items.map(function (item) {
+        const ready = item.estado === 'LISTO';
+        const url = `${endpoints.descargar}/${item.id}`;
+        return `<div class="download-item">
+          <div class="d-flex justify-content-between gap-2 mb-1">
+            <strong>${escapeHtml(item.formato)}</strong>
+            <span class="download-status ${escapeHtml(item.estado)}">${escapeHtml(item.estado)}</span>
+          </div>
+          <div class="text-muted small">${escapeHtml(TurnosFecha.fechaHora(item.creado_en, {segundos: true}))}</div>
+          <div class="small">${parseInt(item.total_registros || 0, 10)} registro(s)</div>
+          ${ready ? `<a class="btn btn-sm btn-primary mt-2 w-100" href="${url}"><i class="ri-download-2-line me-1"></i> Descargar</a>` : ''}
+          ${item.estado === 'ERROR' ? `<div class="text-danger small mt-2">${escapeHtml(item.mensaje || 'Error')}</div>` : ''}
+        </div>`;
+      }).join(''));
+    });
+  }
+
+  function cargarFiltrosGuardados() {
+    $.getJSON(endpoints.filtrosGuardados, function (resp) {
+      filtrosGuardados = resp && resp.ok ? resp.data : [];
+      const options = ['<option value="">Selecciona un filtro guardado</option>'].concat(filtrosGuardados.map(function (item) {
+        return `<option value="${item.id}">${escapeHtml(item.nombre)}</option>`;
+      }));
+      $('#selectFiltrosGuardados').html(options.join(''));
+    });
+  }
+
+  function refrescarTodo(force) {
+    renderChips();
+    cargarResumen(force === true);
+    table.ajax.reload();
+  }
+
+  $('#btnToggleFiltros').on('click', () => modalFiltros.show());
+  document.getElementById('modalFiltros').addEventListener('show.bs.modal', function () {
+    syncDraft(filtros);
+    document.getElementById('btnAplicarFiltros').disabled = false;
+    $('#selectFiltrosGuardados').val('');
+  });
+  document.getElementById('modalFiltros').addEventListener('shown.bs.modal', function () {
+    filterForm.elements.fecha_desde.focus();
+  });
+  document.getElementById('modalFiltros').addEventListener('hidden.bs.modal', function () {
+    syncDraft(filtros);
+    document.getElementById('btnToggleFiltros').focus();
+  });
+
+  function applyFilters() {
+    const applyButton = document.getElementById('btnAplicarFiltros');
+    if (applyButton.disabled) return;
+    const draft = formDataObject(), error = document.getElementById('dashFilterError');
+    const validDate = value => /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+      !Number.isNaN(Date.parse(value + 'T12:00:00Z')) &&
+      new Date(value + 'T12:00:00Z').toISOString().slice(0,10) === value;
+    if (!validDate(draft.fecha_desde) || !validDate(draft.fecha_hasta) || draft.fecha_desde > draft.fecha_hasta) {
+      error.hidden = false;
+      error.textContent = 'Indica fechas válidas. Desde debe ser anterior o igual a Hasta.';
+      filterForm.elements.fecha_desde.focus();
+      return;
+    }
+    if (!filterForm.reportValidity()) return;
+    applyButton.disabled = true;
+    filtros = draft;
+    modalFiltros.hide();
+    refrescarTodo();
+  }
+  $('#btnAplicarFiltros').on('click', applyFilters);
+  $('#btnLimpiarFiltros').on('click', function () {
+    syncDraft({fecha_campo:'creado_en', ...TurnosDashboard.periodo('7')});
+    $('#selectFiltrosGuardados').val('');
+  });
+  $('#btnRefrescar').on('click',function(){refrescarTodo(true);});
+  $('#formFiltros').on('change input', function () {
+    updatePresets();
+    document.getElementById('dashFilterError').hidden = true;
+  }).on('submit', function(e){e.preventDefault(); applyFilters();});
+  $('#chipsFiltros').on('click','[data-remove]',function(){
+    filtros = {...filtros, [this.dataset.remove]: ''};
+    refrescarTodo();
+  });
+  $('[data-period]').on('click',function(){setDraftPeriod(this.dataset.period);});
+
+  $('#btnGuardarFiltro').on('click', async function () {
+    const applied = {...filtros};
+    const result = await Swal.fire({ title:'Guardar filtro', input:'text', inputLabel:'Nombre del filtro', showCancelButton:true, confirmButtonText:'Guardar' });
+    if (!result.isConfirmed || !result.value) return;
+    $.post(endpoints.guardarFiltro, Object.assign({}, applied, {nombre_filtro: result.value}), function (resp) {
+      if (resp && resp.ok) TurnosAvisos.mostrar('Listo', 'Filtro guardado.', 'success');
+      else Swal.fire('Aviso', (resp && resp.msg) || 'No fue posible guardar.', 'warning');
+      if (resp && resp.ok) cargarFiltrosGuardados();
+    }, 'json');
+  });
+
+  $('#btnCargarFiltroGuardado').on('click', function (event) {
+    event.preventDefault();
+    const id = parseInt($('#selectFiltrosGuardados').val(), 10);
+    const item = filtrosGuardados.find(row => parseInt(row.id, 10) === id);
+    if (!item) return;
+    try {
+      const data = typeof item.filtros === 'string' ? JSON.parse(item.filtros) : item.filtros;
+      if (!data || typeof data !== 'object' || Array.isArray(data)) throw new Error('invalid');
+      syncDraft({fecha_campo:'creado_en', ...TurnosDashboard.periodo('7'), ...data});
+    } catch (_error) {
+      $('#dashFilterError').prop('hidden',false).text('No se pudo cargar este filtro guardado.');
+    }
+  });
+
+  $('[data-export]').on('click', function () {
+    const formato = $(this).data('export');
+    $.post(endpoints.crearExportacion, Object.assign({}, filtros, {formato}), function (resp) {
+      if (!resp || !resp.ok) {
+        Swal.fire('Aviso', resp && resp.msg ? resp.msg : 'No fue posible crear la exportacion.', 'warning');
+        return;
+      }
+      TurnosAvisos.mostrar('Preparando archivo', 'Lo agregamos al centro de descargas.', 'info');
+      procesarExportacion(resp.id);
+    }, 'json');
+  });
+
+  function procesarExportacion(id) {
+    $.post(endpoints.procesarExportacion, {id}, function () {
+      cargarExportaciones();
+    }, 'json').fail(function () {
+      cargarExportaciones();
+    });
+  }
+
+  $(document).on('click', '.btnDetalle', function () {
+    const id = $(this).data('id');
+    $('#detalleContenido').html('<div class="text-center text-muted py-4">Cargando detalle...</div>');
+    modalDetalle.show();
+    $.getJSON(endpoints.detalle, {id}, function (resp) {
+      if (!resp || !resp.ok) {
+        $('#detalleContenido').html('<div class="text-danger">No fue posible cargar el detalle.</div>');
+        return;
+      }
+      const t = resp.data.turno || {};
+      const eventos = resp.data.eventos || [];
+      $('#detalleContenido').html(`
+        <div class="d-flex flex-column flex-md-row justify-content-between gap-3 mb-3">
+          <div><div class="turno-code fs-2">${escapeHtml(t.turno_codigo)}</div><h5 class="mb-0">${escapeHtml(t.nombre_afiliado || '--')}</h5></div>
+          <div>${estadoPill(t.estado)} ${t.prioridad == 1 ? '<span class="badge bg-success-subtle text-success ms-1">Prioritario</span>' : ''}</div>
+        </div>
+        <div class="detail-grid mb-4">
+          ${detailBox('Dependencia', t.nombre_dependencia)}
+          ${detailBox('Modulo', t.nombre_modulo || 'Sin modulo')}
+          ${detailBox('Tipo persona', t.tipo_persona)}
+          ${detailBox('Documento', `${t.tipo_id || ''} ${t.num_id || ''}`)}
+          ${detailBox('Celular', t.celular)}
+          ${detailBox('Correo', t.email)}
+          ${detailBox('Empresa', t.empresa_nombre)}
+          ${detailBox('Gestor', t.gestor_nombre)}
+          ${detailBox('Creado', TurnosFecha.fechaHora(t.creado_en, {segundos: true}))}
+          ${detailBox('Llamado', TurnosFecha.fechaHora(t.llamado_en, {segundos: true}))}
+          ${detailBox('Inicio atencion', TurnosFecha.fechaHora(t.iniciado_en, {segundos: true}))}
+          ${detailBox('Finalizado', TurnosFecha.fechaHora(t.finalizado_en, {segundos: true}))}
+          ${detailBox('Espera', TurnosDashboard.duracion(t.espera_minutos))}
+          ${detailBox('Atencion', TurnosDashboard.duracion(t.atencion_minutos))}
+          ${detailBox('Prioridad', t.prioridad_tipo || 'Normal')}
+          ${detailBox('Observaciones', t.observaciones)}
+        </div>
+        <h6 class="mb-3">Trazabilidad</h6>
+        ${eventos.length ? eventos.map(e => `<div class="timeline-event"><strong>${escapeHtml(e.evento)}</strong><div class="text-muted small">${escapeHtml(TurnosFecha.fechaHora(e.creado_en, {segundos: true}))} · ${escapeHtml(e.usuario_nombre || 'Sistema')}</div><div>${escapeHtml(e.observacion || '')}</div></div>`).join('') : '<div class="text-muted">Sin eventos registrados.</div>'}
+      `);
+    });
+  });
+
+  function detailBox(label, value) {
+    return `<div class="detail-box"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value || '--')}</strong></div>`;
+  }
+
+  renderChips();
+  cargarResumen();
+  cargarExportaciones();
+  cargarFiltrosGuardados();
+});
+</script>

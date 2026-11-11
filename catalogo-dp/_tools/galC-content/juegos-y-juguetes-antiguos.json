@@ -1,0 +1,32 @@
+{
+ "title": "Juegos y juguetes de antes",
+ "description": "¿Con qué jugaban los niños hace cientos y miles de años? Tableros antiguos de Mesopotamia y Egipto, un caballito griego con ruedas, pompas de jabón, la peonza, el caballo balancín, casas de muñecas y juguetes de hojalata.",
+ "gradeMin": 1, "gradeMax": 6,
+ "categories": ["Ciencias sociales", "Historia", "Juego", "Vida cotidiana"],
+ "cover": 3,
+ "items": [
+  ["Tablero de juego antiguo decorado con cuadros de concha y piedras de colores, con fichas redondas y dados alrededor, sobre fondo oscuro.",
+   "El Juego Real de Ur tiene unos 4.500 años y se encontró en Mesopotamia (actual Irak). Se jugaba con fichas y dados en forma de pirámide; hoy se sabe cómo eran sus reglas gracias a una tablilla antigua."],
+  ["Caja de madera alargada con un tablero de cuadros claros y oscuros en la tapa.",
+   "Caja para jugar senet, el juego de mesa favorito de los antiguos egipcios. Por el otro lado tenía otro tablero de veinte casillas."],
+  ["Caballito de barro oscuro montado sobre cuatro ruedas, exhibido en un museo.",
+   "Caballito con ruedas de la antigua Grecia. Hace más de 2.500 años los niños ya jugaban a arrastrar animalitos de juguete con una cuerda."],
+  ["Pintura de un joven que se asoma por una ventana de piedra y sopla una gran pompa de jabón con una pajita, mientras un niño lo mira.",
+   "Pompas de jabón, del pintor francés Jean Siméon Chardin (hacia 1733). Hacer burbujas con agua jabonosa es un juego muy antiguo que todavía divierte."],
+  ["Pintura de un niño con peluca y casaca que mira atento una pequeña peonza girando sobre una mesa con libros y una pluma.",
+   "El niño de la peonza, también de Chardin. La peonza o trompo, que se hace girar con una cuerda o con los dedos, se juega en todo el mundo, incluida Colombia."],
+  ["Caballo de madera gris montado sobre arcos curvos para balancearse, en una sala antigua.",
+   "Caballo balancín del siglo XIX. Estos caballos de madera eran el juguete preferido de muchos niños de familias acomodadas."],
+  ["Casita de juguete de madera de dos pisos con techo verde, ventanas y una escalera en la entrada.",
+   "Casa de muñecas del siglo XIX. Algunas reproducían en miniatura las habitaciones, los muebles y hasta la vajilla de una casa real."],
+  ["Juguete de metal pintado con forma de carro de bomberos rojo con figuritas de bomberos y una escalera.",
+   "Juguete de hojalata de comienzos del siglo XX. Antes del plástico, muchos juguetes se fabricaban con láminas de metal pintadas y funcionaban con cuerda."]
+ ],
+ "questions": [
+  ["¿En qué país actual se encontró el Juego Real de Ur?", ["Irak", "México", "Japón"], 0, "Ur era una ciudad de Mesopotamia."],
+  ["¿Cuál era el juego de mesa favorito de los antiguos egipcios?", ["El senet", "El ajedrez", "El parqués"], 0, "La reina Nefertari aparece jugándolo en su tumba."],
+  ["¿Con qué material se hacían muchos juguetes antes del plástico?", ["Hojalata y madera", "Vidrio", "Papel"], 0, "Se pintaban y algunos funcionaban con cuerda."],
+  ["¿Qué otro nombre tiene la peonza?", ["Trompo", "Yoyo", "Cometa"], 0, "Se hace girar con una cuerda."]
+ ],
+ "reviewNotes": null
+}

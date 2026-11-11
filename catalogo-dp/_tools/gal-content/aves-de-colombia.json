@@ -1,0 +1,40 @@
+{
+"title": "Aves de Colombia",
+"description": "Colombia es uno de los países con más especies de aves del mundo. Esta galería presenta aves de los Andes, la selva, los llanos y el Caribe, como el cóndor andino, la guacamaya, el chavarrí y la guacharaca caribeña.",
+"gradeMin": 1, "gradeMax": 8,
+"categories": ["Ciencias naturales", "Aves", "Biodiversidad", "Colombia"],
+"cover": 4,
+"items": [
+ ["Cóndor de plumaje negro con un collar blanco y cabeza sin plumas, posado en la punta de un techo contra un cielo azul.",
+  "El cóndor andino (Vultur gryphus) es una de las aves voladoras más grandes del mundo: con las alas abiertas puede medir más de tres metros. Aparece en el escudo de Colombia. Esta foto se tomó en Chile."],
+ ["Ave de plumaje anaranjado intenso, con una cresta en forma de media luna y alas negras, posada en una rama.",
+  "El gallito de roca andino (Rupicola peruvianus) vive en los bosques de niebla de los Andes. El macho tiene una cresta anaranjada que le cubre el pico. Esta foto se tomó en Antioquia."],
+ ["Tucán negro con pecho amarillo y un gran pico de varios colores, posado en una rama en el bosque.",
+  "El tucán pico iris (Ramphastos sulfuratus) tiene un pico enorme pero liviano, que usa para alcanzar frutas. Vive desde México hasta el norte de Colombia. Esta foto se tomó en Costa Rica."],
+ ["Primer plano de una guacamaya de plumas rojas, amarillas y azules, con la cara blanca.",
+  "La guacamaya bandera (Ara macao) tiene plumas rojas, amarillas y azules, y un pico tan fuerte que rompe semillas duras. El tráfico de mascotas y la tala de bosques la amenazan."],
+ ["Árboles verdes junto al agua, salpicados de muchos puntos rojos que son aves posadas.",
+  "Las corocoras rojas (Eudocimus ruber) duermen en grupo en los árboles, que parecen llenarse de flores rojas. Su color viene de los crustáceos que comen. En Colombia viven en los llanos y la costa Caribe; esta foto se tomó en Trinidad."],
+ ["Ave de plumaje café y anaranjado con una cresta despeinada, posada en una rama seca.",
+  "La pava hedionda o hoacín (Opisthocomus hoazin) come hojas que fermentan en su buche, lo que le da un olor fuerte. Sus pichones tienen garras en las alas para trepar. Esta foto se tomó en el río Napo (Ecuador)."],
+ ["Quetzal macho de plumaje verde brillante y vientre rojo, posado entre ramas cubiertas de musgo.",
+  "El quetzal crestado (Pharomachrus antisianus) vive en los bosques húmedos de los Andes, incluidos los de Colombia. El macho luce un verde brillante y un vientre rojo. Esta foto se tomó en Ecuador."],
+ ["Colibrí negro con una mancha blanca en el pecho, volando con las alas abiertas cerca de una flor.",
+  "El inca negro (Coeligena prunellei) es un colibrí que solo vive en Colombia, en la cordillera Oriental. Los colibríes pueden quedarse suspendidos en el aire e incluso volar hacia atrás."],
+ ["Cinco aves grandes de plumaje gris oscuro caminando sobre un potrero verde.",
+  "El chavarrí (Chauna chavaria) vive en ciénagas y humedales del norte de Colombia y Venezuela. Tiene espolones en las alas y un grito muy fuerte. Esta foto se tomó en Puerto Berrío, Antioquia."],
+ ["Ave de plumaje café grisáceo y cola larga posada entre ramas de un árbol.",
+  "La guacharaca caribeña (Ortalis garrula) solo vive en el norte de Colombia. Es famosa por su canto ruidoso al amanecer. Esta foto se tomó en una reserva del norte del golfo de Morrosquillo."],
+ ["Pájaro pequeño de cabeza y pecho rojos y alas oscuras, posado en una rama contra el cielo azul.",
+  "El titiribí o atrapamoscas pechirrojo (Pyrocephalus rubinus) caza insectos en pleno vuelo. El macho es rojo intenso. Esta foto se tomó en Barrancabermeja, Santander."],
+ ["Águila de plumaje gris y blanco con plumas levantadas en la cabeza, posada entre hojas de palma.",
+  "El águila harpía (Harpia harpyja) es una de las águilas más poderosas del mundo. Vive en selvas húmedas y caza monos y perezosos en las copas de los árboles."]
+],
+"questions": [
+ ["¿Qué ave aparece en el escudo de Colombia?", ["El cóndor andino", "El tucán pico iris", "La guacharaca caribeña"], 0, "El cóndor andino aparece en el escudo de Colombia."],
+ ["¿De dónde viene el color rojo de la corocora?", ["De los crustáceos que come", "De las flores donde duerme", "Del sol del llano"], 0, "Su color viene de los crustáceos de su alimento."],
+ ["¿Qué ave de la galería solo vive en el norte de Colombia y canta ruidosamente al amanecer?", ["La guacharaca caribeña", "El cóndor andino", "El águila harpía"], 0, "La guacharaca caribeña es del norte de Colombia y canta al amanecer."],
+ ["¿Qué tienen los pichones de la pava hedionda en las alas?", ["Garras para trepar", "Plumas azules", "Espinas venenosas"], 0, "Sus pichones tienen garras en las alas para trepar."],
+ ["¿Qué pueden hacer los colibríes que casi ninguna otra ave hace?", ["Volar hacia atrás", "Nadar bajo el agua", "Correr más rápido que un caballo"], 0, "Los colibríes pueden quedarse suspendidos y volar hacia atrás."]
+]
+}

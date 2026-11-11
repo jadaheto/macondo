@@ -1,0 +1,111 @@
+{
+ "title": "Grandes pintores y sus obras",
+ "description": "Obras maestras de la pintura en dominio público, de Leonardo da Vinci a Van Gogh, junto con dos artistas de la Nueva Granada: Gregorio Vásquez de Arce y Ceballos y Ramón Torres Méndez.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Educación artística",
+  "Arte",
+  "Historia del arte",
+  "Pintura"
+ ],
+ "cover": 9,
+ "items": [
+  [
+   "Retrato de una mujer de cabello oscuro y sonrisa leve, con las manos cruzadas, frente a un paisaje con caminos y agua.",
+   "La Gioconda o Mona Lisa, de Leonardo da Vinci (pintada a comienzos del siglo XVI), está en el Museo del Louvre, en París. Leonardo usó el sfumato: contornos suaves, como envueltos en humo."
+  ],
+  [
+   "Gran salón donde una niña vestida de blanco está rodeada de damas, una enana, un perro y el pintor frente a un gran lienzo.",
+   "Las Meninas (1656), de Diego Velázquez, muestra a la infanta Margarita con sus damas de compañía. El propio Velázquez se pintó trabajando, y al fondo un espejo refleja a los reyes. Está en el Museo del Prado, en Madrid."
+  ],
+  [
+   "Escena oscura con un grupo de hombres armados con lanzas y mosquetes; en el centro, un capitán de negro y un teniente de amarillo iluminados.",
+   "La ronda de noche (1642), de Rembrandt, retrata a una compañía de milicianos de Ámsterdam. Es famosa por el contraste entre luces y sombras, llamado claroscuro. Está en el Rijksmuseum de Ámsterdam."
+  ],
+  [
+   "Joven sobre fondo oscuro que mira por encima del hombro, con un turbante azul y amarillo y un pendiente de perla.",
+   "La joven de la perla (hacia 1665), de Johannes Vermeer, se conserva en el museo Mauritshuis, en La Haya (Países Bajos). Vermeer era un maestro en pintar la luz."
+  ],
+  [
+   "Pequeña pintura religiosa en un marco dorado y de carey: arriba a la izquierda, la Virgen entre nubes; a la derecha, san Francisco con el Niño en brazos junto a un árbol.",
+   "Gregorio Vásquez de Arce y Ceballos (1638-1711), nacido en Santafé de Bogotá, es el pintor más importante de la época colonial en la Nueva Granada. Esta obra está en el Museo de Arte Colonial de Bogotá."
+  ],
+  [
+   "Joven sentada en el campo con un perrito en el regazo, mientras un muchacho la protege del sol con una sombrilla verde.",
+   "El quitasol (1777), de Francisco de Goya, fue un cartón, es decir, un modelo pintado para tejer un tapiz destinado a un palacio real. Está en el Museo del Prado."
+  ],
+  [
+   "Grabado japonés de una ola gigante con espuma en forma de garras que amenaza a unas barcas; al fondo, el monte Fuji.",
+   "La gran ola de Kanagawa, de Katsushika Hokusai, es un grabado en madera japonés de hacia 1831. Al fondo, pequeño, se ve el monte Fuji. Inspiró a muchos artistas europeos."
+  ],
+  [
+   "Puerto en tonos azules y grises con barcas oscuras y un sol anaranjado que se refleja en el agua.",
+   "Impresión, sol naciente (1872), de Claude Monet, muestra el puerto de Le Havre (Francia). Su título dio nombre al impresionismo, movimiento que buscaba captar la luz y el instante."
+  ],
+  [
+   "Cielo nocturno lleno de remolinos, estrellas brillantes y una luna, sobre un pueblo dormido; a la izquierda, un ciprés oscuro.",
+   "La noche estrellada (1889), de Vincent van Gogh, fue pintada en Saint-Rémy (Francia). Las pinceladas en remolino transmiten movimiento y emoción. Está en el Museo de Arte Moderno de Nueva York."
+  ],
+  [
+   "Jarrón con un ramo de girasoles amarillos y anaranjados sobre un fondo amarillo.",
+   "Van Gogh pintó varias versiones de girasoles en un jarrón; esta, de 1889, está en el Museo Van Gogh de Ámsterdam. Usó casi solo tonos de amarillo."
+  ],
+  [
+   "Ilustración de tres mujeres con faldas rosadas y pañolón, una con sombrilla, alrededor de costales llenos de papas.",
+   "Vendedoras de papas, del bogotano Ramón Torres Méndez (1809-1885). Sus cuadros de costumbres muestran cómo vestían, trabajaban y comerciaban las personas en la Colombia del siglo XIX."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué técnica de contornos suaves usó Leonardo en la Mona Lisa?",
+   [
+    "El sfumato",
+    "El puntillismo",
+    "El collage"
+   ],
+   0,
+   "Leonardo usó el sfumato: contornos suaves, como envueltos en humo."
+  ],
+  [
+   "¿Quién aparece pintándose a sí mismo en Las Meninas?",
+   [
+    "Diego Velázquez",
+    "Francisco de Goya",
+    "Rembrandt"
+   ],
+   0,
+   "Velázquez se pintó trabajando frente a un gran lienzo."
+  ],
+  [
+   "¿Qué movimiento artístico tomó su nombre del cuadro de Monet?",
+   [
+    "El impresionismo",
+    "El cubismo",
+    "El barroco"
+   ],
+   0,
+   "\"Impresión, sol naciente\" dio nombre al impresionismo."
+  ],
+  [
+   "¿Quién es considerado el pintor más importante de la época colonial en la Nueva Granada?",
+   [
+    "Gregorio Vásquez de Arce y Ceballos",
+    "Vincent van Gogh",
+    "Katsushika Hokusai"
+   ],
+   0,
+   "Gregorio Vásquez de Arce y Ceballos nació en Santafé de Bogotá en 1638."
+  ],
+  [
+   "¿Qué montaña aparece al fondo de La gran ola de Kanagawa?",
+   [
+    "El monte Fuji",
+    "El Nevado del Ruiz",
+    "El Everest"
+   ],
+   0,
+   "Al fondo, pequeño, se ve el monte Fuji."
+  ]
+ ]
+}

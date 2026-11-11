@@ -1,0 +1,33 @@
+{
+ "title": "La imprenta y la historia del libro",
+ "description": "Antes de la imprenta, cada libro se copiaba a mano. Descubre el libro impreso más antiguo con fecha, la prensa de Gutenberg, los tipos móviles y las máquinas que hicieron posible que los libros llegaran a todos.",
+ "gradeMin": 5, "gradeMax": 11,
+ "categories": ["Ciencias sociales", "Historia", "Lectura y libros", "Tecnología"],
+ "cover": 6,
+ "credits": {"1": "British Library (dominio público, CC0)", "7": "Michael Wolgemut y Wilhelm Pleydenwurff (1493)", "8": "Fotógrafo anónimo (c. 1903), Archives New Zealand"},
+ "items": [
+  ["Rollo de papel antiguo con caracteres chinos a la izquierda y un grabado detallado de figuras sentadas a la derecha.",
+   "El Sutra del Diamante, impreso en China en el año 868 con bloques de madera tallados, es el libro impreso más antiguo que tiene fecha. Se encontró en una cueva de Dunhuang."],
+  ["Libro antiguo muy grande abierto, con columnas de texto en griego, dentro de una vitrina iluminada.",
+   "El Códice Sinaítico, del siglo IV, fue copiado a mano en griego sobre pergamino. Antes de la imprenta, copiar un libro podía tardar meses o años."],
+  ["Grabado de un hombre con barba y gorro de piel dentro de un óvalo, en una hoja blanca.",
+   "Johannes Gutenberg, orfebre alemán, inventó hacia 1450 una imprenta de tipos móviles de metal. Con ella se podían hacer muchas copias de un libro en poco tiempo."],
+  ["Prensa antigua de madera oscura con un gran tornillo central y una bandeja, en un taller de paredes de ladrillo.",
+   "Réplica de una prensa de Gutenberg. El tornillo apretaba el papel contra los tipos entintados; Gutenberg tomó la idea de las prensas que se usaban para exprimir uvas."],
+  ["Caja de madera con muchas filas de pequeñas letras de metal ordenadas.",
+   "Los tipos móviles son pequeñas piezas de metal con una letra en relieve. El tipógrafo las ordenaba una por una para formar palabras y líneas, y luego las reutilizaba."],
+  ["Libro antiguo abierto sobre un atril, con dos columnas de letras góticas negras, en una vitrina con luz cálida.",
+   "La Biblia de Gutenberg, impresa hacia 1455, fue el primer gran libro impreso con tipos móviles en Europa. Se conservan menos de 50 ejemplares."],
+  ["Grabado coloreado de una ciudad amurallada con muchas torres y techos rojos sobre una colina.",
+   "Vista de la ciudad de Núremberg en la Crónica de Núremberg (1493), uno de los primeros libros impresos con muchas ilustraciones, hechas con grabados en madera."],
+  ["Fotografía antigua de un hombre trabajando en una gran máquina de metal con teclado, en un taller de imprenta.",
+   "La linotipia, inventada en 1884, tenía un teclado y fundía líneas completas de letras en metal. Hizo mucho más rápida la impresión de periódicos."]
+ ],
+ "questions": [
+  ["¿Cuál es el libro impreso más antiguo que tiene fecha?", ["El Sutra del Diamante", "La Biblia de Gutenberg", "El Quijote"], 0, "Fue impreso en China en el año 868."],
+  ["¿Qué inventó Gutenberg hacia 1450?", ["La imprenta de tipos móviles de metal", "El papel", "La máquina de escribir"], 0, "Los tipos móviles podían ordenarse y reutilizarse."],
+  ["¿Cómo se hacían los libros antes de la imprenta en Europa?", ["Se copiaban a mano", "Se fotocopiaban", "Se grababan en discos"], 0, "Copiar un libro podía tardar meses."],
+  ["¿Para qué sirvió la linotipia?", ["Para imprimir periódicos más rápido", "Para encuadernar libros", "Para fabricar papel"], 0, "Fundía líneas completas de letras."]
+ ],
+ "reviewNotes": null
+}

@@ -1,0 +1,93 @@
+{
+ "title": "Primates de Colombia",
+ "description": "Capuchinos, monos nocturnos, titíes, monos ardilla, churucos, monos araña y aulladores: Colombia es uno de los países con más especies de primates de América.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Biodiversidad"
+ ],
+ "cover": 6,
+ "items": [
+  [
+   "Primer plano de un mono capuchino de cara rosada y pelo blanco alrededor, sacando la lengua.",
+   "El mono capuchino cariblanco es muy inteligente: usa piedras y palos como herramientas para abrir frutos. Vive en grupos en los bosques del norte y el occidente de Colombia. Foto tomada en Costa Rica."
+  ],
+  [
+   "Un mono nocturno de enormes ojos anaranjados asomado en el hueco de un árbol.",
+   "Los monos nocturnos o martejas son los únicos monos activos de noche. Sus ojos grandes les ayudan a ver en la oscuridad, y de día duermen en huecos de árboles. Foto tomada en Panamá."
+  ],
+  [
+   "Un tití de pelaje gris plateado y cara oscura sentado sobre un cable, entre la vegetación.",
+   "El tití gris solo vive en Colombia, en zonas de Antioquia, Caldas, Bolívar y Tolima: es una especie endémica. Muchos de sus bosques han sido talados y a veces tiene que cruzar por cables. Está en peligro de extinción."
+  ],
+  [
+   "Dos monos ardilla pequeños, de cara blanca y brazos amarillos, subiendo por un tronco; uno va sobre la espalda del otro.",
+   "Los monos ardilla son pequeños y muy inquietos. Viven en grupos grandes en las selvas de la Amazonía y comen insectos y frutas. Las mamás cargan a sus crías en la espalda."
+  ],
+  [
+   "Un mono churuco de pelo gris espeso sentado sobre un tronco, con su larga cola enrollada en una cuerda.",
+   "El mono churuco o mono lanudo tiene un pelaje espeso y una cola prensil, es decir, que se agarra como una mano. Vive en la Amazonía colombiana y ayuda a sembrar el bosque al dispersar semillas."
+  ],
+  [
+   "Un tití pigmeo diminuto, de pelaje dorado y gris y ojos grandes, sobre una rama.",
+   "El tití pigmeo es el mono más pequeño del mundo: un adulto pesa unos 100 gramos, como una barra de jabón. Vive en la Amazonía y se alimenta de la savia de los árboles."
+  ],
+  [
+   "Un mono araña de pelo negro y vientre claro sentado en el suelo, con brazos y cola muy largos.",
+   "Los monos araña tienen brazos y cola tan largos que parecen arañas cuando cuelgan de las ramas. Este es un mono araña de vientre blanco, de la Amazonía y el piedemonte llanero. Está amenazado por la caza y la tala."
+  ],
+  [
+   "Un mono aullador de pelo negro colgado de una rama por la cola, entre las hojas.",
+   "El aullador de manto vive en los bosques del Pacífico colombiano. Sus aullidos se oyen a más de un kilómetro y le sirven para avisar a otros grupos dónde está su territorio. Foto tomada en Ecuador."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el mono más pequeño del mundo?",
+   [
+    "El mono ardilla",
+    "El tití pigmeo",
+    "El capuchino",
+    "El mono nocturno"
+   ],
+   1,
+   "El tití pigmeo pesa unos 100 gramos y vive en la Amazonía."
+  ],
+  [
+   "¿Qué quiere decir que una cola es prensil?",
+   [
+    "Que puede agarrarse como una mano",
+    "Que es muy corta",
+    "Que no tiene pelo",
+    "Que cambia de color"
+   ],
+   0,
+   "Churucos, monos araña y aulladores usan su cola prensil como una quinta mano."
+  ],
+  [
+   "¿Qué monos están activos de noche?",
+   [
+    "Los aulladores",
+    "Los capuchinos",
+    "Los monos nocturnos o martejas",
+    "Los monos araña"
+   ],
+   2,
+   "Son los únicos monos nocturnos; tienen ojos muy grandes."
+  ],
+  [
+   "¿Qué significa que el tití gris sea endémico de Colombia?",
+   [
+    "Que vive en todo el mundo",
+    "Que vive en el mar",
+    "Que es muy grande",
+    "Que solo vive en Colombia"
+   ],
+   3,
+   "Una especie endémica solo existe en un lugar; si desaparece de allí, desaparece del planeta."
+  ]
+ ],
+ "reviewNotes": null
+}

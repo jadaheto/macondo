@@ -1,0 +1,40 @@
+{
+"title": "Autores de la biblioteca",
+"description": "Retratos en dominio público de escritores cuyas obras puedes leer en la Biblioteca Macondo: de Cervantes y Sor Juana a Pombo, Isaacs, Martí, Darío, Silva, Quiroga, Carrasquilla y el poeta momposino Candelario Obeso.",
+"gradeMin": 5, "gradeMax": 11,
+"categories": ["Lenguaje", "Literatura", "Autores", "Biografías"],
+"cover": 5,
+"items": [
+ ["Retrato pintado de un hombre de barba y bigote, con un gran cuello blanco de lechuguilla, sobre fondo negro.",
+  "Miguel de Cervantes (1547-1616) escribió Don Quijote de la Mancha, una de las novelas más importantes de la literatura universal. Este retrato se atribuye a Juan de Jáuregui, aunque no se sabe con certeza si representa a Cervantes."],
+ ["Retrato pintado de una monja con hábito blanco y escudo en el pecho, sentada ante un escritorio en una biblioteca llena de libros.",
+  "Sor Juana Inés de la Cruz (¿1648?-1695), poeta mexicana llamada \"la Décima Musa\", defendió el derecho de las mujeres a estudiar. Retrato pintado por Miguel Cabrera hacia 1750."],
+ ["Fotografía antigua de perfil de un hombre mayor de cabello ondulado, con levita y corbatín.",
+  "Hans Christian Andersen (1805-1875), escritor danés, es autor de cuentos como La sirenita, El patito feo y El traje nuevo del emperador. Foto de Thora Hallager (1869)."],
+ ["Fotografía antigua en blanco y negro de un hombre de cabello y barba blancos, con traje oscuro y corbatín.",
+  "Julio Verne (1828-1905) imaginó viajes extraordinarios en novelas como Veinte mil leguas de viaje submarino y La vuelta al mundo en ochenta días. Foto del estudio de Nadar."],
+ ["Retrato pintado ovalado de un hombre con anteojos, bigote y corbatín negro.",
+  "Rafael Pombo (1833-1912), poeta bogotano, escribió fábulas y cuentos en verso que todavía cantan los niños, como El renacuajo paseador, La pobre viejecita y Simón el bobito."],
+ ["Fotografía antigua ovalada de un hombre de cabello canoso y gran bigote, con traje oscuro.",
+  "Jorge Isaacs (1837-1895) escribió María (1867), una novela romántica ambientada en las haciendas del Valle del Cauca. Es una de las obras más leídas de la literatura colombiana."],
+ ["Fotografía antigua en blanco y negro de un hombre de bigote espeso y frente amplia, con traje oscuro.",
+  "José Martí (1853-1895), escritor y héroe de la independencia de Cuba, creó para los niños la revista La Edad de Oro y escribió los Versos sencillos. Foto tomada en Nueva York en 1891."],
+ ["Dibujo antiguo en tonos sepia del rostro de un hombre de cabello oscuro y barba, con dedicatorias manuscritas.",
+  "Rubén Darío (1867-1916), poeta nicaragüense, fue la gran figura del modernismo con libros como Azul... Retrato firmado por Eduardo Schiaffino hacia 1896."],
+ ["Retrato pintado de un hombre joven de cabello oscuro y bigote, con chaqueta azul oscura.",
+  "José Asunción Silva (1865-1896), poeta bogotano del modernismo, es autor del famoso Nocturno y del poema infantil Los maderos de San Juan."],
+ ["Fotografía antigua de un joven delgado de pie frente a una puerta, con traje oscuro y las manos en los bolsillos.",
+  "Horacio Quiroga (1878-1937), escritor uruguayo, escribió los Cuentos de la selva, protagonizados por animales de la selva de Misiones (Argentina). Aquí aparece en 1897, cuando era muy joven."],
+ ["Fotografía antigua en blanco y negro de un hombre calvo de bigote, con traje y corbata.",
+  "Tomás Carrasquilla (1858-1940), escritor antioqueño, retrató la vida y el habla de su región en obras como En la diestra de Dios Padre y La marquesa de Yolombó. Foto de Benjamín de la Calle."],
+ ["Placa en la pared con el retrato dibujado de un hombre y un fragmento de poema que empieza con Oh majestuoso río.",
+  "Candelario Obeso (1849-1884), nacido en Mompox, publicó Cantos populares de mi tierra (1877), escritos con el habla de los bogas del río Magdalena. Esta placa con un fragmento de su poema \"La lucha de la vida\" está en el malecón de Mompox."]
+],
+"questions": [
+ ["¿Qué obra escribió Miguel de Cervantes?", ["Don Quijote de la Mancha", "María", "Cuentos de la selva"], 0, "Cervantes es el autor de Don Quijote de la Mancha."],
+ ["¿Qué poeta colombiano escribió El renacuajo paseador?", ["Rafael Pombo", "Jorge Isaacs", "Tomás Carrasquilla"], 0, "Rafael Pombo escribió El renacuajo paseador."],
+ ["¿En qué ciudad del Caribe nació Candelario Obeso?", ["Mompox", "Cartagena", "Santa Marta"], 0, "Candelario Obeso nació en Mompox."],
+ ["¿Qué revista para niños creó José Martí?", ["La Edad de Oro", "Azul...", "El Quijote"], 0, "José Martí creó la revista La Edad de Oro."],
+ ["¿Dónde se desarrolla la novela María, de Jorge Isaacs?", ["En el Valle del Cauca", "En La Guajira", "En Bogotá"], 0, "María está ambientada en las haciendas del Valle del Cauca."]
+]
+}

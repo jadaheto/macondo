@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<link rel="stylesheet" href="<?=base_url('assets/css/pqr-permissions.css')?>?v=<?=(int)@filemtime(FCPATH.'assets/css/pqr-permissions.css')?>">
+<div class="main-content"><div class="page-content"><div class="container-fluid pqr-shell pqr-permissions">
+<section class="pqr-hero mb-3"><span class="pqr-kicker">Equipo de atención</span><h3>Permisos PQR</h3><p>Define qué puede hacer cada funcionario. Los permisos de otros módulos y del portal de afiliados no se modifican.</p></section>
+<section class="card pqr-card mb-3"><div class="card-body">
+<label for="pqr-permission-subject" class="form-label">Funcionario y perfil</label>
+<select id="pqr-permission-subject" class="form-select" aria-describedby="pqr-permission-subject-help"><option value=""></option></select>
+<div class="form-text" id="pqr-permission-subject-help">Escribe al menos dos caracteres del nombre o documento. Se muestran perfiles internos y empleados activos de la Caja. Las cuentas administrativas y de otros delegados requieren un administrador general.</div>
+<p id="pqr-permission-loading" role="status" aria-live="polite" class="mt-2 mb-0"></p>
+</div></section>
+<form id="pqr-permission-form" hidden>
+<section class="card pqr-card mb-3"><div class="card-body">
+<h4 class="h5" id="pqr-permission-name"></h4><p id="pqr-permission-profile" class="text-muted"></p>
+<div class="alert alert-info">Los permisos se guardan en el perfil seleccionado. La persona puede tener otros perfiles con accesos diferentes. Las dependencias se vinculan a la persona y aplican a todos sus perfiles.</div>
+<div id="pqr-permission-new" class="alert alert-warning" hidden>Al guardar se habilitará el perfil Funcionario PQR, con acceso al escritorio y solo las capacidades seleccionadas. La persona deberá volver a iniciar sesión para disponer del nuevo perfil.</div>
+<?php if($can_update): ?><p class="fw-semibold mb-2">Opciones recomendadas — revisa la selección antes de guardar</p><div class="d-flex flex-wrap gap-2 mb-3"><?php foreach($presets as $key=>$preset): ?><button type="button" data-preset="<?=html_escape($key)?>" class="btn <?=$key==='retirar'?'btn-outline-danger':'btn-outline-primary'?>"><?=html_escape($preset['label'])?></button><?php endforeach; ?></div><?php endif; ?>
+<label for="pqr-permission-areas" class="form-label">Dependencias asignadas</label><select id="pqr-permission-areas" name="areas[]" class="form-select" multiple aria-describedby="pqr-permission-area-help"></select><div class="form-text" id="pqr-permission-area-help">Para gestionar solicitudes asignadas, selecciona al menos una dependencia. Retirar una dependencia no elimina sus PQR ni sus respuestas.</div>
+</div></section>
+<div class="row g-3 mb-3"><?php foreach($definitions as $key=>$definition): ?>
+<div class="col-12 col-xl-6"><section class="card pqr-card h-100"><div class="card-body">
+<h4 class="h5"><?=html_escape($definition['name'])?></h4><p class="text-muted"><?=html_escape($definition['description'])?></p>
+<?php if($definition['sensitive']): ?><p class="small text-warning"><i class="ri-shield-keyhole-line" aria-hidden="true"></i> Concede únicamente si hace parte de las funciones de la persona.</p><?php endif; ?>
+<?php foreach($definition['actions'] as $action=>$label): $id='pqr-permission-'.str_replace('.','-',$key).'-'.$action; ?>
+<div class="form-check py-2"><input type="checkbox" class="form-check-input" id="<?=html_escape($id)?>" data-permission="<?=html_escape($key)?>" data-capability="<?=html_escape($action)?>" <?=$can_update?'':'disabled'?>><label class="form-check-label" for="<?=html_escape($id)?>"><?=html_escape($label)?></label></div>
+<?php endforeach; ?></div></section></div><?php endforeach; ?></div>
+<?php if($can_update): ?><div class="d-flex flex-wrap justify-content-end gap-2 mb-3"><button type="button" id="pqr-permission-reset" class="btn btn-light">Descartar cambios</button><button type="submit" id="pqr-permission-save" class="btn btn-pqr"><i class="ri-save-line me-1" aria-hidden="true"></i>Guardar permisos</button></div><?php endif; ?>
+</form></div></div></div>
+<script>document.addEventListener('DOMContentLoaded',function(){PqrPermissionPage.init(<?=json_encode(['base'=>base_url(),'canUpdate'=>(bool)$can_update,'presets'=>$presets,'security'=>$security],JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT)?>);});</script>
+<script src="<?=base_url('assets/js/pqr-security.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-security.js')?>"></script>
+<script src="<?=base_url('assets/js/pqr-permissions.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-permissions.js')?>"></script>

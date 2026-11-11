@@ -1,0 +1,115 @@
+{
+ "title": "Animales en peligro de Colombia",
+ "description": "Doce animales que viven en Colombia y están amenazados de extinción según la Unión Internacional para la Conservación de la Naturaleza (UICN), con las causas de su amenaza y lo que podemos hacer para protegerlos.",
+ "gradeMin": 1,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Conservación",
+  "Medio ambiente"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Oso de pelaje negro con manchas claras alrededor de los ojos y el pecho, sentado sobre un tronco.",
+   "El oso andino u oso de anteojos es el único oso de Sudamérica. Come sobre todo plantas, como bromelias y frutos. Está clasificado como vulnerable por la pérdida de los bosques de montaña y los páramos."
+  ],
+  [
+   "Primer plano de la cabeza de un jaguar de pelaje amarillo con manchas negras en forma de rosetas.",
+   "El jaguar es el felino más grande de América. La tala de las selvas y la caza lo han hecho desaparecer de muchas zonas; está casi amenazado."
+  ],
+  [
+   "Danta de pelaje negro y lanoso con una trompa corta, caminando entre helechos y hierba.",
+   "La danta de montaña vive en los bosques andinos y páramos. Al comer frutos y dispersar sus semillas ayuda a sembrar el bosque. Está en peligro de extinción."
+  ],
+  [
+   "Delfín de color rosado asomando la cabeza y el hocico largo sobre el agua color café de un río.",
+   "El delfín rosado vive en los ríos de la Amazonía y la Orinoquía. Su color rosado se acentúa con la edad. Está en peligro por la contaminación de los ríos y la pesca."
+  ],
+  [
+   "Tortuga marina de caparazón café con dibujos nadando sobre un arrecife de coral en agua azul.",
+   "La tortuga carey vive en los arrecifes de coral del Caribe. Durante siglos fue cazada para hacer adornos con su caparazón. Está en peligro crítico de extinción."
+  ],
+  [
+   "Rana pequeña de color amarillo dorado intenso posada sobre un tronco oscuro.",
+   "La rana dorada (Phyllobates terribilis) solo vive en las selvas del Pacífico colombiano y es uno de los animales más venenosos del mundo. Los indígenas emberá usaban su veneno en las puntas de sus dardos. Está en peligro."
+  ],
+  [
+   "Ave grande de plumaje negro brillante, con la base del pico azul y la punta de la cola blanca, caminando sobre la hierba.",
+   "El paujil de pico azul solo vive en Colombia, en bosques del norte del país. Está en peligro crítico por la tala de los bosques y la caza."
+  ],
+  [
+   "Primer plano de la cabeza de un cocodrilo de hocico largo y piel rugosa, con el ojo entrecerrado.",
+   "El caimán llanero o cocodrilo del Orinoco vive en los ríos de los llanos. En el siglo XX fue cazado en exceso por su piel y hoy está en peligro crítico."
+  ],
+  [
+   "Tiburón de cabeza ancha en forma de martillo nadando en aguas azules.",
+   "El tiburón martillo forma grandes grupos alrededor de la isla de Malpelo, en el Pacífico colombiano. La pesca excesiva lo tiene en peligro crítico. Foto tomada en Costa Rica."
+  ],
+  [
+   "Mono de pelaje café con el pecho más claro, sentado sobre la hierba verde.",
+   "El mono araña café vive solo en Colombia y Venezuela, en bosques como los del valle del Magdalena. Está en peligro crítico por la destrucción de su hábitat."
+  ],
+  [
+   "Dos guacamayas de plumaje verde con alas azules y amarillas volando en un cielo nublado.",
+   "La guacamaya verde limón vive en las selvas del Chocó y el Darién. La tala de los árboles donde anida y el tráfico de mascotas la han puesto en peligro crítico. Foto tomada en Costa Rica."
+  ],
+  [
+   "Oso hormiguero de pelaje gris y negro con una franja oscura en el lomo y un hocico largo y delgado, caminando entre la hierba alta.",
+   "El oso palmero u oso hormiguero gigante no tiene dientes: atrapa hormigas y termitas con su lengua larga y pegajosa. Vive en los llanos y está clasificado como vulnerable. Foto tomada en Brasil."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el único oso de Sudamérica?",
+   [
+    "El oso andino",
+    "El oso palmero",
+    "El oso polar"
+   ],
+   0,
+   "El oso andino u oso de anteojos es el único oso de Sudamérica."
+  ],
+  [
+   "¿Para qué usaban los indígenas emberá el veneno de la rana dorada?",
+   [
+    "En las puntas de sus dardos",
+    "Para curar heridas",
+    "Para pintar sus casas"
+   ],
+   0,
+   "Lo usaban en las puntas de sus dardos."
+  ],
+  [
+   "¿Cómo atrapa su alimento el oso palmero?",
+   [
+    "Con su lengua larga y pegajosa",
+    "Con sus colmillos",
+    "Con sus garras en el agua"
+   ],
+   0,
+   "No tiene dientes: atrapa hormigas y termitas con la lengua."
+  ],
+  [
+   "¿Por qué fue cazada la tortuga carey durante siglos?",
+   [
+    "Para hacer adornos con su caparazón",
+    "Porque se comía los peces",
+    "Porque era peligrosa"
+   ],
+   0,
+   "Su caparazón se usaba para hacer adornos."
+  ],
+  [
+   "¿Qué hace la danta de montaña que ayuda al bosque?",
+   [
+    "Dispersa semillas al comer frutos",
+    "Construye represas",
+    "Poliniza flores con su trompa"
+   ],
+   0,
+   "Al comer frutos y dispersar semillas ayuda a sembrar el bosque."
+  ]
+ ]
+}

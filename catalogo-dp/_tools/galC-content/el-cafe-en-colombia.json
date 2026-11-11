@@ -1,0 +1,33 @@
+{
+ "title": "El café en Colombia",
+ "description": "De la flor al grano: conoce cómo se cultiva, se seca y se trilla el café, uno de los productos más importantes de la historia económica de Colombia, y el Paisaje Cultural Cafetero, patrimonio de la humanidad.",
+ "gradeMin": 3, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Economía", "Agricultura"],
+ "cover": 2,
+ "credits": {"3": "Neil Palmer (CIAT)", "5": "Neil Palmer (CIAT)", "6": "Neil Palmer (CIAT)", "7": "Neil Palmer (CIAT)"},
+ "items": [
+  ["Flores blancas en forma de estrella que crecen junto a hojas verdes y brillantes.",
+   "Las flores del cafeto son blancas y huelen a jazmín. Duran pocos días y de cada flor polinizada nace una cereza de café."],
+  ["Rama de cafeto con dos frutos redondos, uno rojo y otro morado oscuro, entre hojas verdes y amarillas.",
+   "La cereza de café madura se pone roja. En Colombia se recoge a mano, grano por grano, para escoger solo los frutos maduros."],
+  ["Montón de granos de café de color crema y café oscuro secándose al sol.",
+   "Después de quitarles la pulpa, los granos se lavan y se ponen a secar al sol. Así se obtiene el café pergamino."],
+  ["Calle de un pueblo con casas de colores donde un hombre extiende granos de café sobre el pavimento para secarlos.",
+   "En muchos pueblos cafeteros se ve el café secándose al sol en patios y calles. El café llegó a Colombia en el siglo XVIII y desde finales del XIX fue el principal producto de exportación."],
+  ["Primer plano de muchos granos de café claros y algunos oscuros extendidos en una superficie.",
+   "Durante el secado se revisan los granos y se retiran los dañados o negros, para que el café tenga buena calidad."],
+  ["Gran cantidad de granos de café pergamino, de color beige con algunos oscuros.",
+   "El café pergamino seco se vende a cooperativas y trilladoras. El precio del café ha influido mucho en la historia y la economía del país."],
+  ["Dos manos sostienen un puñado de granos de café verde sobre un costal lleno de granos.",
+   "En la trilladora se le quita la cascarilla al grano y queda el café verde, que se exporta. El tueste, que le da el color oscuro y el aroma, se hace después."],
+  ["Mapa de color gris y rosado que muestra los municipios de Caldas, Risaralda, Quindío y Valle del Cauca que forman el Paisaje Cultural Cafetero.",
+   "El Paisaje Cultural Cafetero, en Caldas, Quindío, Risaralda y el norte del Valle, fue declarado Patrimonio de la Humanidad por la UNESCO en 2011."]
+ ],
+ "questions": [
+  ["¿De qué color es la cereza de café madura?", ["Roja", "Azul", "Blanca"], 0, "Se recoge a mano cuando está roja."],
+  ["¿Cómo se llama el café seco que todavía tiene cascarilla?", ["Café pergamino", "Café molido", "Café soluble"], 0, "Luego se trilla para obtener café verde."],
+  ["¿En qué año se declaró el Paisaje Cultural Cafetero Patrimonio de la Humanidad?", ["2011", "1810", "1950"], 0, "Incluye municipios de Caldas, Quindío, Risaralda y Valle."],
+  ["¿Qué se le hace al café verde para que tome color oscuro y aroma?", ["Se tuesta", "Se congela", "Se hierve"], 0, "El tueste se hace después de la exportación o en el país."]
+ ],
+ "reviewNotes": "Tema solicitado con fotos históricas PD: no se hallaron en Commons fotos históricas libres del café colombiano distintas de la ya usada en oficios-y-vida-cotidiana-siglo-xix (Melitón Rodríguez); se usaron fotos actuales con licencia libre. Las personas aparecen de lejos o solo sus manos."
+}

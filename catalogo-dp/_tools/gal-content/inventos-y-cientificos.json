@@ -1,0 +1,38 @@
+{
+"title": "Inventos y científicos",
+"description": "Retratos en dominio público de científicas y científicos que cambiaron nuestra forma de ver el mundo —de Galileo y Newton a Marie Curie y Einstein—, junto con los naturalistas de la Expedición Botánica y dos inventos que marcaron época.",
+"gradeMin": 5, "gradeMax": 11,
+"categories": ["Ciencias naturales", "Tecnología", "Historia de la ciencia", "Biografías"],
+"cover": 9,
+"items": [
+ ["Retrato pintado de un hombre mayor de barba blanca, con ropa oscura y cuello blanco, que sostiene un pequeño telescopio.",
+  "Galileo Galilei (1564-1642) mejoró el telescopio y descubrió, en 1610, cuatro lunas que giran alrededor de Júpiter. Sus observaciones apoyaron la idea de que la Tierra gira alrededor del Sol. Retrato de Justus Sustermans (1636)."],
+ ["Retrato pintado de un hombre de cabello largo, gris y ondulado, con ropa oscura.",
+  "Isaac Newton (1642-1727) formuló las leyes del movimiento y la ley de la gravitación universal, y demostró con un prisma que la luz blanca está formada por colores. Retrato de Godfrey Kneller (1689)."],
+ ["Retrato pintado de un sacerdote de cabello blanco sentado ante una mesa con papeles y dibujos de plantas, que observa una flor.",
+  "José Celestino Mutis (1732-1808) dirigió la Real Expedición Botánica del Nuevo Reino de Granada, que estudió y dibujó miles de plantas del territorio que hoy es Colombia."],
+ ["Retrato pintado de un hombre mayor de cabello blanco, sentado en un sillón rojo junto a un globo terráqueo, con papeles en la mano.",
+  "Alexander von Humboldt (1769-1859), naturalista alemán, viajó por América entre 1799 y 1804. Pasó por Colombia, recorrió el río Magdalena y visitó a Mutis en Bogotá. Retrato de Joseph Karl Stieler (1843)."],
+ ["Acuarela de una mujer joven con vestido de gala lila, peinado con flores y un abanico cerrado en la mano.",
+  "Ada Lovelace (1815-1852), matemática inglesa, escribió el que se considera el primer programa de computador, pensado para la máquina analítica de Charles Babbage. Acuarela de Alfred Edward Chalon."],
+ ["Fotografía antigua en blanco y negro de un hombre mayor de barba blanca y larga, con ropa oscura, de perfil.",
+  "Charles Darwin (1809-1882) propuso la teoría de la evolución por selección natural en su libro El origen de las especies (1859). Foto de Julia Margaret Cameron."],
+ ["Fotografía antigua de un hombre joven sentado junto a una mesa sobre la que hay una máquina con un cilindro y una manivela.",
+  "Thomas Alva Edison (1847-1931) con su fonógrafo, inventado en 1877: la primera máquina capaz de grabar sonidos y volver a reproducirlos. Edison registró más de mil inventos."],
+ ["Fotografía antigua en blanco y negro de un hombre de cabello oscuro peinado hacia atrás y bigote fino, con traje oscuro.",
+  "Nikola Tesla (1856-1943) desarrolló sistemas de corriente alterna y motores eléctricos que hoy permiten llevar la electricidad a las casas. Foto de Napoleon Sarony, hacia 1890."],
+ ["Fotografía antigua de un avión de madera y tela despegando sobre la arena, mientras un hombre corre a su lado.",
+  "El 17 de diciembre de 1903, en Kitty Hawk (Estados Unidos), Orville Wright voló durante 12 segundos en el avión que construyó con su hermano Wilbur, que corre a su lado. Fue el primer vuelo controlado de un avión con motor."],
+ ["Fotografía antigua en blanco y negro de una mujer de cabello recogido y canoso, con vestido oscuro.",
+  "Marie Curie (1867-1934) investigó la radiactividad y descubrió el polonio y el radio. Fue la primera mujer en ganar un Premio Nobel y la única persona premiada en dos ciencias distintas: física y química."],
+ ["Fotografía antigua de un hombre de cabello alborotado y bigote, con traje, de pie frente a un tablero con dibujos de tiza.",
+  "Albert Einstein (1879-1955), autor de la teoría de la relatividad, recibió el Premio Nobel de Física de 1921. Foto tomada durante una conferencia en Viena en 1921 por Ferdinand Schmutzer."]
+],
+"questions": [
+ ["¿Qué descubrió Galileo con su telescopio en 1610?", ["Cuatro lunas de Júpiter", "El planeta Neptuno", "Los anillos de Urano"], 0, "Galileo descubrió cuatro lunas que giran alrededor de Júpiter."],
+ ["¿Qué expedición dirigió José Celestino Mutis?", ["La Real Expedición Botánica del Nuevo Reino de Granada", "La Comisión Corográfica", "El primer viaje a la Luna"], 0, "Mutis dirigió la Real Expedición Botánica."],
+ ["¿Qué podía hacer el fonógrafo de Edison?", ["Grabar y reproducir sonidos", "Volar", "Calcular operaciones"], 0, "Fue la primera máquina capaz de grabar y reproducir sonidos."],
+ ["¿Quién escribió el que se considera el primer programa de computador?", ["Ada Lovelace", "Marie Curie", "Nikola Tesla"], 0, "Ada Lovelace lo escribió para la máquina analítica de Babbage."],
+ ["¿Cuánto duró el primer vuelo de los hermanos Wright?", ["12 segundos", "Una hora", "Un día entero"], 0, "Orville Wright voló durante 12 segundos en 1903."]
+]
+}

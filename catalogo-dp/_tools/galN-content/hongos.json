@@ -1,0 +1,97 @@
+{
+ "title": "El reino de los hongos",
+ "description": "Ni plantas ni animales: los hongos forman su propio reino. Setas venenosas y comestibles, hongos que brillan en la oscuridad, mohos que dieron origen a los antibióticos y levaduras que hacen crecer el pan.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Biodiversidad",
+  "Microorganismos"
+ ],
+ "cover": 6,
+ "items": [
+  [
+   "Un hongo de sombrero rojo con puntos blancos creciendo entre el musgo.",
+   "El matamoscas es uno de los hongos más famosos por su sombrero rojo con puntos blancos, pero es venenoso. Nunca se debe comer un hongo silvestre: solo los expertos pueden distinguir los comestibles de los peligrosos."
+  ],
+  [
+   "Muchas orellanas pequeñas de color gris azulado brotando de un bloque de cultivo blanco.",
+   "Las orellanas son hongos comestibles que se cultivan sobre aserrín o residuos de cosecha. En la naturaleza crecen sobre troncos muertos. Su forma recuerda a una oreja o una ostra."
+  ],
+  [
+   "Un champiñón blanco con el sombrero redondo, visto de cerca sobre un fondo oscuro.",
+   "El champiñón es el hongo comestible más cultivado del mundo. Lo que vemos es solo el cuerpo fructífero: la mayor parte del hongo vive escondida en el suelo."
+  ],
+  [
+   "Hongos repisa en forma de abanico con bandas de colores café, gris y blanco, creciendo sobre un tronco.",
+   "Los hongos repisa crecen sobre troncos muertos y los descomponen poco a poco. Así devuelven al suelo los nutrientes de la madera: son los recicladores del bosque."
+  ],
+  [
+   "Hongos pequeños en forma de copa de color rojo anaranjado sobre una rama en el bosque.",
+   "Este hongo de copa vive en los bosques tropicales húmedos, también en Colombia. Su forma de copa le ayuda a lanzar sus esporas cuando caen gotas de lluvia."
+  ],
+  [
+   "Puntos de luz verde de hongos luminosos sobre musgo, en la oscuridad del bosque.",
+   "Algunos hongos producen su propia luz verde en la oscuridad: esto se llama bioluminiscencia. Su brillo podría atraer insectos que ayudan a esparcir sus esporas. Foto tomada en Costa Rica."
+  ],
+  [
+   "Hilos blancos y finos de micelio extendidos entre hojas secas y en descomposición.",
+   "Estos hilos blancos son el micelio, la parte principal de un hongo. Forman redes enormes bajo el suelo y muchas se conectan con las raíces de los árboles para intercambiar agua y nutrientes."
+  ],
+  [
+   "Una colonia redonda de moho azul verdoso con borde blanco y gotitas rojizas, en una caja de Petri.",
+   "El moho Penicillium cambió la historia de la medicina: en 1928 Alexander Fleming descubrió que producía una sustancia que mataba bacterias, la penicilina, el primer antibiótico."
+  ],
+  [
+   "Muchas células redondas y ovaladas de levadura vistas al microscopio.",
+   "Las levaduras son hongos de una sola célula. Al comer azúcar producen gas, y ese gas hace que la masa del pan se infle. Esta imagen se tomó con un microscopio."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué descubrió Alexander Fleming gracias al moho Penicillium?",
+   [
+    "La electricidad",
+    "La penicilina, el primer antibiótico",
+    "Las vacunas",
+    "El microscopio"
+   ],
+   1,
+   "En 1928 notó que el moho impedía crecer a las bacterias."
+  ],
+  [
+   "¿Por qué nunca debemos comer hongos silvestres?",
+   [
+    "Porque algunos son venenosos y es difícil distinguirlos",
+    "Porque son muy duros",
+    "Porque no tienen sabor",
+    "Porque están prohibidos en todos los países"
+   ],
+   0,
+   "Muchos hongos venenosos se parecen a los comestibles; solo un experto puede reconocerlos."
+  ],
+  [
+   "¿Qué es el micelio?",
+   [
+    "La flor del hongo",
+    "Una semilla",
+    "La red de hilos que forma la parte principal del hongo",
+    "Un insecto que come hongos"
+   ],
+   2,
+   "El micelio crece bajo el suelo o dentro de la madera; las setas son solo su parte reproductora."
+  ],
+  [
+   "¿Qué hacen las levaduras en la masa del pan?",
+   [
+    "La endulzan",
+    "La colorean",
+    "La enfrían",
+    "Producen gas que la hace inflarse"
+   ],
+   3,
+   "Las levaduras comen azúcar y liberan gas que forma burbujas en la masa."
+  ]
+ ],
+ "reviewNotes": "01 muestra un hongo venenoso; el pie de foto advierte no consumir hongos silvestres."
+}

@@ -1,0 +1,98 @@
+{
+ "title": "Compositores de música clásica",
+ "description": "Retratos de grandes compositores, desde el barroco de Vivaldi, Bach y Händel hasta Haydn, Mozart, Beethoven, Chopin, Clara Schumann y Verdi. Conoce quiénes fueron y cuáles son sus obras más famosas.",
+ "gradeMin": 4,
+ "gradeMax": 11,
+ "categories": [
+  "Artes",
+  "Música",
+  "Historia",
+  "Biografías"
+ ],
+ "cover": 6,
+ "credits": {
+  "1": "Pintor anónimo (1723), Museo Internacional y Biblioteca de la Música de Bolonia",
+  "8": "Franz Hanfstaengl (fotografía, 1857)"
+ },
+ "items": [
+  [
+   "Retrato antiguo de un hombre de peluca blanca y rizada, con casaca roja, que sostiene un violín junto a una partitura.",
+   "Antonio Vivaldi (1678–1741), violinista y sacerdote veneciano, apodado 'el cura rojo' por su cabello. Su obra más famosa es Las cuatro estaciones, cuatro conciertos para violín."
+  ],
+  [
+   "Retrato de un hombre mayor con peluca blanca y casaca oscura que sostiene una hoja de música.",
+   "Johann Sebastian Bach (1685–1750), en el único retrato pintado del natural que se conserva (1748). Escribió más de mil obras, como los Conciertos de Brandeburgo."
+  ],
+  [
+   "Retrato de un hombre con gran peluca blanca y ropa clara, dentro de un marco ovalado oscuro.",
+   "Georg Friedrich Händel (1685–1759) nació en Alemania y triunfó en Inglaterra. Su oratorio El Mesías, con el famoso 'Aleluya', se sigue cantando en todo el mundo."
+  ],
+  [
+   "Retrato de un hombre con peluca gris y casaca oscura que sostiene algo en la mano, frente a una cortina roja.",
+   "Joseph Haydn (1732–1809) es llamado 'el padre de la sinfonía': compuso 104. Fue maestro y amigo de Mozart y profesor de Beethoven."
+  ],
+  [
+   "Retrato de un hombre joven con peluca clara, casaca roja y encaje blanco al cuello.",
+   "Wolfgang Amadeus Mozart (1756–1791) fue un niño prodigio que componía a los cinco años. Escribió más de 600 obras, entre ellas la ópera La flauta mágica."
+  ],
+  [
+   "Retrato de un hombre de cabello gris revuelto, bufanda roja y abrigo oscuro, que escribe en una partitura con un lápiz.",
+   "Ludwig van Beethoven (1770–1827), pintado por Joseph Karl Stieler en 1820 con la partitura de su Missa solemnis. Compuso grandes obras, como la Novena sinfonía, aunque se fue quedando sordo."
+  ],
+  [
+   "Fotografía antigua de un hombre de cabello largo y ondulado, con traje oscuro y corbata de lazo.",
+   "Frédéric Chopin (1810–1849) en una de las únicas fotografías que existen de él (1849). El pianista polaco escribió casi toda su música para piano."
+  ],
+  [
+   "Fotografía antigua de una mujer de cabello oscuro recogido, con vestido oscuro, de pie apoyada en un mueble.",
+   "Clara Schumann (1819–1896) fue una de las grandes pianistas del siglo XIX y también compositora, en una época en que pocas mujeres podían dedicarse a la música."
+  ],
+  [
+   "Retrato de un hombre mayor con barba blanca, sombrero de copa y bufanda blanca.",
+   "Giuseppe Verdi (1813–1901), pintado por Giovanni Boldini. Fue el gran compositor de ópera italiano, autor de Aida, La traviata y Rigoletto."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Quién compuso Las cuatro estaciones?",
+   [
+    "Antonio Vivaldi",
+    "Frédéric Chopin",
+    "Giuseppe Verdi"
+   ],
+   0,
+   "Son cuatro conciertos para violín."
+  ],
+  [
+   "¿Qué compositor siguió componiendo aunque se fue quedando sordo?",
+   [
+    "Beethoven",
+    "Mozart",
+    "Bach"
+   ],
+   0,
+   "Compuso la Novena sinfonía casi sin oír."
+  ],
+  [
+   "¿Para qué instrumento escribió Chopin casi toda su música?",
+   [
+    "El piano",
+    "La guitarra",
+    "El tambor"
+   ],
+   0,
+   "Fue un gran pianista polaco."
+  ],
+  [
+   "¿A quién llaman 'el padre de la sinfonía'?",
+   [
+    "Joseph Haydn",
+    "Clara Schumann",
+    "Händel"
+   ],
+   0,
+   "Compuso 104 sinfonías."
+  ]
+ ],
+ "reviewNotes": null
+}

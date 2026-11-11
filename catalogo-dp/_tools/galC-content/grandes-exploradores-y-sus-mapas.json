@@ -1,0 +1,97 @@
+{
+ "title": "Grandes exploradores y sus viajes",
+ "description": "Caravanas por la Ruta de la Seda, navegantes que cruzaron océanos desconocidos, científicos en la selva y expediciones al Polo Sur: retratos, mapas y escenas de los grandes viajes de exploración.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Geografía",
+  "Exploración"
+ ],
+ "cover": 5,
+ "credits": {
+  "1": "Abraham Cresques (Atlas catalán, 1375), Biblioteca Nacional de Francia",
+  "3": "Pintor portugués anónimo (siglo XVI), Museu Nacional de Arte Antiga, Lisboa",
+  "4": "Pintor anónimo (1848)",
+  "6": "James Cook y William Bligh (mapa publicado en 1785)",
+  "8": "Henry Bowers (1912)"
+ },
+ "items": [
+  [
+   "Detalle de un mapa medieval decorado con una caravana de camellos y jinetes, sobre fondo claro con dibujos y textos.",
+   "Caravana de la Ruta de la Seda en el Atlas catalán, hecho en Mallorca en 1375. Por rutas como esta viajó el veneciano Marco Polo hasta China en el siglo XIII."
+  ],
+  [
+   "Retrato de un hombre de cabello gris con ropa oscura, con la mano sobre el pecho.",
+   "Retrato que se cree representa a Cristóbal Colón, pintado por Sebastiano del Piombo. En 1492 Colón cruzó el Atlántico y llegó a América buscando una ruta hacia Asia."
+  ],
+  [
+   "Retrato antiguo de un hombre con barba larga y blanca, gorro negro y ropa oscura con una cruz, que sostiene un papel.",
+   "Retrato atribuido a Vasco da Gama, navegante portugués que en 1498 llegó a la India navegando alrededor de África."
+  ],
+  [
+   "Retrato de un hombre con barba oscura y gorro negro, con una condecoración roja en el pecho, que sostiene un papel enrollado.",
+   "Fernando de Magallanes dirigió la expedición que entre 1519 y 1522 dio la primera vuelta al mundo. Él murió en el viaje y Juan Sebastián Elcano terminó la travesía."
+  ],
+  [
+   "Detalle de un mapa antiguo con un barco de vela de varios mástiles navegando entre olas, con banderas y un texto en latín.",
+   "La nao Victoria, dibujada en un mapa de Abraham Ortelius de 1590. Fue el único de los cinco barcos de la expedición de Magallanes que regresó a España."
+  ],
+  [
+   "Mapa antiguo de un grupo de islas con costas detalladas, nombres de lugares y líneas de navegación.",
+   "Mapa de las islas Hawái trazado durante el tercer viaje del capitán James Cook (1776–1779). Cook exploró el océano Pacífico y dibujó mapas muy precisos."
+  ],
+  [
+   "Pintura de dos hombres en una cabaña con una mesa llena de plantas, libros e instrumentos científicos, y la selva vista por una abertura.",
+   "Alexander von Humboldt y Aimé Bonpland en su campamento, pintados por Eduard Ender. Entre 1799 y 1804 recorrieron América, incluida la Nueva Granada, estudiando plantas, animales y montañas."
+  ],
+  [
+   "Fotografía antigua de cuatro hombres con ropa de abrigo junto a una pequeña tienda de campaña en un paisaje nevado.",
+   "Expedición de Robert Scott junto a la tienda que dejó Roald Amundsen en el Polo Sur, en enero de 1912. Amundsen había llegado primero, el 14 de diciembre de 1911."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Quién terminó la primera vuelta al mundo después de la muerte de Magallanes?",
+   [
+    "Juan Sebastián Elcano",
+    "Marco Polo",
+    "James Cook"
+   ],
+   0,
+   "Elcano regresó a España en la nao Victoria en 1522."
+  ],
+  [
+   "¿Qué ruta conectaba Europa con China?",
+   [
+    "La Ruta de la Seda",
+    "El Camino de Santiago",
+    "La Vía Apia"
+   ],
+   0,
+   "Por ella viajaban caravanas de comerciantes."
+  ],
+  [
+   "¿Quién llegó primero al Polo Sur?",
+   [
+    "Roald Amundsen",
+    "Robert Scott",
+    "Cristóbal Colón"
+   ],
+   0,
+   "Amundsen llegó el 14 de diciembre de 1911."
+  ],
+  [
+   "¿Qué científico recorrió América entre 1799 y 1804 con Bonpland?",
+   [
+    "Alexander von Humboldt",
+    "Isaac Newton",
+    "Charles Darwin"
+   ],
+   0,
+   "Estudió la naturaleza de América, incluida la Nueva Granada."
+  ]
+ ],
+ "reviewNotes": "La expedición de Scott murió en el regreso; el pie de foto no lo menciona para grados bajos, pero puede surgir en clase. Los mapas famosos (Juan de la Cosa, Waldseemüller, Mercator) ya están en mapas-historicos."
+}

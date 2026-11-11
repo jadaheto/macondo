@@ -1,0 +1,132 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pantalla de sala · Kit Comfasucre</title><link rel="stylesheet" href="assets/css/icons.min.css"><link rel="stylesheet" href="assets/css/inter-local.css"><link rel="stylesheet" href="assets/css/turnos-pantalla-publica.css"></head><body>
+        <div class="turnos-layout turnos-public-v2">
+            <!-- BARRA SUPERIOR -->
+            <header class="turnos-topbar">
+                <div class="turnos-topbar-brand">
+                    <div class="turnos-topbar-logo">
+                        <img src="assets/images/logo_comfasucre.png" alt="Comfasucre">
+                    </div>
+                    <span class="turnos-topbar-divider" aria-hidden="true"></span>
+                    <div class="turnos-topbar-copy">
+                        <div class="turnos-topbar-title">Turnos de atención</div>
+                        <div class="turnos-topbar-subtitle">Más bienestar para nuestra gente</div>
+                    </div>
+                </div>
+                <div class="turnos-topbar-right">
+                    <div class="turnos-topbar-date"><span id="fechaTexto">-- de -- de ----</span></div>
+                    <div class="turnos-topbar-clock" id="clock">--:--</div>
+                    <div id="estadoConexion" class="turnos-connection-state">Demostración local · sin conexión a servicios</div>
+                    <div class="turnos-topbar-actions">
+                        <button id="btnAudioTurnos" class="turnos-audio-btn turnos-activate-btn" type="button">
+                            <i class="ri-volume-up-line"></i><span>Activar sonido</span>
+                        </button>
+                        <button id="btnConfigVoz" class="turnos-config-btn" type="button" title="Configurar voz" aria-label="Configurar voz">
+                            <i class="ri-settings-3-line"></i>
+                        </button>
+                    </div>
+                    <div id="estadoVoz" class="turnos-voz-estado turnos-voz-estado-compact">Cargando voces...</div>
+                </div>
+            </header>
+
+            <!-- CONTENIDO -->
+            <div class="turnos-main">
+
+                <!-- IZQUIERDA: TURNOS -->
+                <div class="turnos-col-left">
+
+                    <!-- LLAMANDO / EN ATENCIÓN -->
+                    <section class="turnos-card turnos-call-section">
+                        <div class="turnos-card-header">
+                            <div>
+                                <div class="turnos-card-title" id="tituloAtencion">Llamando ahora</div>
+                                <div class="turnos-card-subtitle" id="subtituloAtencion">Acércate al módulo indicado</div>
+                            </div>
+                            <div class="turnos-badge turnos-badge-success" id="badgeAtencion">
+                                <i class="ri-notification-3-line"></i> Llamando
+                            </div>
+                            <div id="indicadorAtencion" class="turnos-page-indicator"></div>
+                        </div>
+                        <div class="turnos-card-body turnos-card-body-atencion">
+                            <div id="gridAtencion" class="turnos-grid-modulos"></div>
+                            <div id="msgNoAtencion" class="turnos-no-atencion" style="display:none;">
+                                No hay turnos llamados en este momento.
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- EN COLA -->
+                    <section class="turnos-card turnos-queue-section">
+                        <div class="turnos-card-header">
+                            <div>
+                                <div class="turnos-card-title">Próximos turnos</div>
+                                <div class="turnos-card-subtitle">Afiliados en espera de ser llamados</div>
+                            </div>
+                            <div class="turnos-badge turnos-badge-pend">
+                                <i class="ri-time-line"></i> En espera
+                            </div>
+                            <div id="indicadorPendientes" class="turnos-page-indicator"></div>
+                        </div>
+                        <div class="turnos-card-body turnos-card-body-cola">
+                            <div id="listaPendientes" class="turnos-list">
+                                <div class="turnos-empty">Cargando turnos...</div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <!-- DERECHA: PUBLICIDAD -->
+                <div class="turnos-col-right">
+                    <div class="turnos-ads-panel">
+
+                        <!-- SLIDER IMAGEN + VIDEO -->
+                        <div class="turnos-ads-slider-wrapper">
+                            <!-- Fondo dinámico (gradiente según la imagen/video) -->
+                            <div class="turnos-ads-backdrop" id="adsBackdrop"></div>
+
+                            <!-- Slider real -->
+                            <div class="turnos-ads-slider" id="adsSlider">
+                                <!-- Slides cargados dinámicamente desde el módulo de publicidad -->
+                            </div>
+                        </div>
+
+                        <!-- Texto inferior -->
+                        <div class="turnos-ads-content">
+                            <div class="turnos-ads-badge">
+                                <i class="ri-megaphone-line"></i>
+                                <span id="adBadge">Campaña institucional</span>
+                            </div>
+                            <div class="turnos-ads-title" id="adTitle">
+                                Vive experiencias inolvidables
+                            </div>
+                            <div class="turnos-ads-text">
+                                <span id="adText">
+                                    Disfruta nuestros programas, eventos y beneficios exclusivos para afiliados Comfasucre.
+                                </span>
+                            </div>
+                            <div id="adDots" class="turnos-ad-dots" aria-hidden="true"></div>
+                        </div>
+
+                    </div>
+
+                    <footer class="turnos-dashboard turnos-dashboard-bar" aria-label="Resumen de turnos">
+                        <div class="turnos-stat turnos-stat-atencion">
+                            <span class="turnos-stat-icon"><i class="ri-user-voice-line"></i></span>
+                            <div><div id="statAtencion" class="turnos-stat-value">0</div><div class="turnos-stat-label">En atención</div></div>
+                        </div>
+                        <div class="turnos-stat turnos-stat-espera">
+                            <span class="turnos-stat-icon"><i class="ri-time-line"></i></span>
+                            <div><div id="statPendientes" class="turnos-stat-value">0</div><div class="turnos-stat-label">En espera</div></div>
+                        </div>
+                        <div class="turnos-stat turnos-stat-prioridad">
+                            <span class="turnos-stat-icon"><i class="ri-star-fill"></i></span>
+                            <div><div id="statPrioritarios" class="turnos-stat-value">0</div><div class="turnos-stat-label">Prioritarios</div></div>
+                        </div>
+                        <div class="turnos-dashboard-message">Juntos construimos <strong>más oportunidades</strong><span class="turnos-wave" aria-hidden="true">⌁</span></div>
+                        <span id="statProximo" hidden>--</span>
+                    </footer>
+                </div>
+
+            </div> <!-- /turnos-main -->
+
+        </div> <!-- /turnos-layout --><script src="assets/js/turnos-pantalla-layout.js"></script><script src="kit/sala-demo.js"></script></body></html>

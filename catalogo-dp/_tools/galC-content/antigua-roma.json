@@ -1,0 +1,90 @@
+{
+ "title": "La antigua Roma",
+ "description": "Del Coliseo a los acueductos y las calzadas: conoce las obras de los romanos, un pueblo que gobernó gran parte de Europa y del Mediterráneo y cuya lengua, el latín, dio origen al español.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Historia antigua",
+  "Europa"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Gran anfiteatro de piedra con varios pisos de arcos, con una parte de su muro exterior derrumbada.",
+   "El Coliseo de Roma se inauguró en el año 80 y podía recibir a unas 50.000 personas. Allí se hacían espectáculos públicos, como las luchas de gladiadores."
+  ],
+  [
+   "Ruinas de columnas, muros y templos antiguos vistos a través de un gran arco de piedra, con pinos al fondo.",
+   "El Foro Romano era la plaza principal de la ciudad: allí estaban los templos, los tribunales y el lugar donde se discutían los asuntos públicos."
+  ],
+  [
+   "Fachada de un templo con un frontón triangular y grandes columnas, con una inscripción en latín.",
+   "El Panteón de Roma tiene casi 1.900 años y conserva su enorme cúpula de concreto con un agujero en el centro, el óculo, por donde entra la luz."
+  ],
+  [
+   "Puente de piedra de tres niveles de arcos sobre un río, rodeado de vegetación.",
+   "El Pont du Gard, en Francia, es parte de un acueducto romano. Los acueductos llevaban agua a las ciudades usando solo una pendiente muy suave."
+  ],
+  [
+   "Camino recto empedrado con grandes piedras irregulares, entre hierba y árboles.",
+   "La Vía Apia, construida desde el año 312 a. C., unía Roma con el sur de Italia. Los romanos hicieron más de 80.000 km de calzadas, y de ahí el dicho 'todos los caminos llevan a Roma'."
+  ],
+  [
+   "Busto de mármol de un hombre joven de cabello corto y rostro sereno.",
+   "Augusto fue el primer emperador de Roma y gobernó desde el año 27 antes de Cristo hasta el 14 de nuestra era. Con él comenzó un largo período de paz conocido como la Pax Romana."
+  ],
+  [
+   "Plaza amplia rodeada de ruinas de columnas, con un volcán al fondo bajo el cielo azul.",
+   "Pompeya quedó sepultada por la erupción del volcán Vesubio en el año 79. La ceniza conservó calles, casas y objetos, que hoy nos muestran cómo era la vida diaria romana."
+  ],
+  [
+   "Mosaico en forma de medio círculo con peces y animales marinos, exhibido en la pared de un museo.",
+   "Los romanos decoraban pisos y paredes con mosaicos hechos de miles de piedrecitas de colores. Este, con criaturas del mar, está en el Museo del Bardo, en Túnez."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué espectáculos se hacían en el Coliseo?",
+   [
+    "Partidos de fútbol",
+    "Luchas de gladiadores",
+    "Carreras de automóviles"
+   ],
+   1,
+   "El Coliseo era un anfiteatro para espectáculos públicos como las luchas de gladiadores."
+  ],
+  [
+   "¿Para qué servían los acueductos?",
+   [
+    "Para llevar agua a las ciudades",
+    "Para defenderse de enemigos",
+    "Para guardar trigo"
+   ],
+   0,
+   "Conducían agua desde manantiales lejanos aprovechando una pendiente suave."
+  ],
+  [
+   "¿Qué volcán sepultó a Pompeya?",
+   [
+    "El Etna",
+    "El Vesubio",
+    "El Galeras"
+   ],
+   1,
+   "La erupción del Vesubio en el año 79 cubrió la ciudad de ceniza."
+  ],
+  [
+   "¿Qué lengua hablaban los romanos?",
+   [
+    "El griego",
+    "El latín",
+    "El árabe"
+   ],
+   1,
+   "Del latín provienen el español, el italiano, el francés y otras lenguas."
+  ]
+ ],
+ "reviewNotes": null
+}

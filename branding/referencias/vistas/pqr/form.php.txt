@@ -1,0 +1,262 @@
+﻿<?php defined('BASEPATH') OR exit('No direct script access allowed'); function pqr_form_h($v){return html_escape((string)($v??''));}$internal=($mode??'internal')==='internal'; ?>
+<div class="main-content"><div class="page-content <?= $internal?'pqr-create-page-content':'' ?>"><div class="container-fluid pqr-shell <?= $internal?'pqr-create-internal':'' ?>"><?php $this->load->view('pqr/_qa_notice'); ?>
+<?php if($internal):?>
+<div class="pqr-hero pqr-create-hero mb-2"><div class="pqr-create-hero-content"><div><span class="pqr-kicker">Registro interno</span><h3>Radicar una PQR</h3><p>La clasificación y dependencia serán definidas posteriormente por Atención al Cliente.</p></div><a class="pqr-create-back" href="<?=base_url('pqr')?>"><i class="ri-arrow-left-line" aria-hidden="true"></i> Volver a bandeja</a></div></div>
+<nav class="pqr-create-nav" aria-label="Ir a una sección de la radicación"><a class="pqr-create-jump is-active" href="#pqrCreateApplicant" aria-current="location"><span class="pqr-create-step-number">01</span><span class="pqr-create-step-copy"><strong>Solicitante</strong><small>Datos del solicitante</small></span></a><a class="pqr-create-jump" href="#pqrCreateReception"><span class="pqr-create-step-number">02</span><span class="pqr-create-step-copy"><strong>Recepción</strong><small>Canal y sede</small></span></a><a class="pqr-create-jump" href="#pqrCreateRequest"><span class="pqr-create-step-number">03</span><span class="pqr-create-step-copy"><strong>Solicitud</strong><small>Detalles de la PQR</small></span></a><a class="pqr-create-jump" href="#pqrCreateGuidance"><span class="pqr-create-step-number">04</span><span class="pqr-create-step-copy"><strong>Orientación</strong><small>Revisión y recomendaciones</small></span></a></nav>
+<?php else:?>
+<div class="pqr-hero mb-3"><span class="pqr-kicker">Portal del afiliado</span><h3>Radicar una PQR</h3><p>Cuéntanos tu solicitud. Podrás consultar su estado y respuesta desde Mis PQR.</p></div>
+<?php endif;?>
+<form id="pqrCreate" action="<?=pqr_form_h($save_url)?>" method="post" enctype="multipart/form-data" novalidate>
+<input type="hidden" name="_pqr_csrf" value="<?=pqr_form_h($security['csrf']??'')?>"><input type="hidden" name="_pqr_request" value="<?=pqr_form_h($security['tokens'][$internal?'pqr.create':'pqr.app.create']??'')?>">
+<?php if(!$internal):?>
+<section class="pqr-form-section"><h5><i class="ri-group-line me-1"></i>Persona afectada</h5><div class="row g-3"><div class="col-md-4"><label for="appAffectedRelation">La solicitud corresponde a</label><select id="appAffectedRelation" name="relacion_afectado" class="form-select"><option value="propio">A mí mismo</option><?php if(!empty($beneficiaries)):?><option value="beneficiario">Un beneficiario</option><?php endif;?><option value="representante">Una persona que represento</option><option value="tercero">Otra persona</option></select></div><?php if(!empty($beneficiaries)):?><div id="appBeneficiaryWrap" class="col-md-8" hidden><label for="appBeneficiary">Beneficiario vinculado</label><select id="appBeneficiary" name="beneficiario_ref" class="form-select pqr-source-uppercase"><option value="">Seleccione</option><?php foreach($beneficiaries as $b):?><option value="<?=pqr_form_h($b['ref'])?>"><?=pqr_form_h($b['name'].(!empty($b['relationship'])?' · '.$b['relationship']:''))?></option><?php endforeach;?></select></div><?php endif;?></div></section>
+<?php endif;?>
+<section id="pqrCreateApplicant" class="pqr-form-section pqr-create-applicant" <?= $internal ? 'data-pqr-layout-revision="v6-flex-20261023"' : '' ?>><h5 class="pqr-create-section-heading"><i class="ri-user-line me-1" aria-hidden="true"></i><span><strong>Datos del solicitante</strong><?php if($internal):?><small>Información de la persona que radica la PQR.</small><?php endif;?></span></h5>
+<?php if(!$internal&&!empty($applicant['found'])):?>
+<div class="alert alert-light border mb-3"><strong class="pqr-source-uppercase"><?=pqr_form_h($applicant['name'])?></strong><br><span class="pqr-source-uppercase"><?=pqr_form_h($applicant['type'])?> <?=pqr_form_h($applicant['document'])?> · <?=pqr_form_h($applicant['population'])?></span><small class="d-block text-muted mt-1">Estos datos provienen de tu afiliación y no se pueden modificar desde esta solicitud.</small></div><input type="hidden" name="tipo_documento" value="<?=pqr_form_h($applicant['type'])?>"><input type="hidden" name="numero_documento" value="<?=pqr_form_h($applicant['document'])?>"><input type="hidden" name="nombres" value="<?=pqr_form_h($applicant['name'])?>">
+<?php if(count($applicant['links']??[])>1):?><div class="mb-2"><label for="pqrEmployer">¿Con cuál vinculación se relaciona la solicitud?</label><select id="pqrEmployer" name="vinculacion_ref" class="form-select pqr-source-uppercase"><option value="">No está relacionada con un empleador</option><?php foreach($applicant['links'] as $link):?><option value="<?=pqr_form_h($link['ref'])?>"><?=pqr_form_h(trim(($link['razon_social']?:'Sin razón social').' · '.($link['categoria']?:'Sin categoría')))?></option><?php endforeach;?></select></div><?php endif;?>
+<?php else:?>
+<div class="row g-3 <?=$internal?'pqr-applicant-fields':''?>">
+<?php if($internal):?><div class="col-12 col-md-6"><label class="required" for="pqrPersonType">Tipo de persona</label><select id="pqrPersonType" name="tipo_persona" class="form-select" required><option value="">Seleccione</option><option value="AFILIADO">Afiliado titular</option><option value="BENEFICIARIO">Beneficiario</option><option value="EMPRESA">Empresa</option><option value="TERCERO">Tercero o particular</option><option value="ANONIMO">Anónimo</option></select><small class="text-muted">Define la fuente interna que se consultará.</small></div><?php endif;?>
+<div id="pqrDocTypeWrap" class="<?= $internal ? 'col-12 col-md-6' : 'col-12 col-md-6 col-lg-3' ?>"><label class="required" for="pqrDocType">Tipo de documento</label><select id="pqrDocType" name="tipo_documento" class="form-select" required><option value="">Seleccione</option><option>CC</option><option>TI</option><option>CE</option><option>NIT</option><option>PA</option><option>OTRO</option></select></div>
+<div id="pqrDocWrap" class="<?= $internal ? 'col-12 col-md-6' : 'col-12 col-md-6 col-lg-3' ?>"><label class="required" for="pqrDoc">Número</label><div class="input-group"><input id="pqrDoc" name="numero_documento" maxlength="40" class="form-control" autocomplete="off" required><?php if($internal):?><button id="pqrIdentityButton" class="btn btn-outline-primary" type="button" aria-label="Consultar identificación" title="Consultar identificación"><i class="ri-search-line" aria-hidden="true"></i><span class="ms-1">Consultar</span></button><?php endif;?></div></div>
+<div id="pqrNamesWrap" class="<?= $internal ? 'col-12 col-md-6' : 'col-12 col-md-6 col-lg-3' ?>"><label class="required" for="pqrNames">Nombres o razón social</label><input id="pqrNames" name="nombres" maxlength="180" class="form-control" required></div>
+<?php if($internal):?><div class="col-12"><div id="pqrIdentityStatus" class="alert alert-light border mb-0" role="status" aria-live="polite"><i class="ri-information-line me-1"></i>Selecciona el tipo de persona y escribe su identificación. La consulta se realizará automáticamente.</div><div id="pqrEmployerWrap" class="mt-3" hidden><label for="pqrEmployer">Vinculación relacionada con la PQR</label><select id="pqrEmployer" name="vinculacion_ref" class="form-select pqr-source-uppercase"><option value="">No está relacionada con un empleador</option></select></div></div><?php endif;?>
+<div id="pqrEmailWrap" class="col-md-4"><label for="pqrEmail">Correo</label><input id="pqrEmail" type="email" name="correo" maxlength="180" class="form-control"></div><div id="pqrPhoneWrap" class="col-md-4"><label for="pqrPhone">Celular</label><input id="pqrPhone" type="tel" name="telefono" maxlength="16" inputmode="tel" autocomplete="tel" placeholder="+57 300 123 4567" class="form-control"></div><div id="pqrAddressWrap" class="col-md-4"><label for="pqrAddress">Dirección</label><input id="pqrAddress" name="direccion" maxlength="220" class="form-control"></div>
+</div>
+<?php endif;?></section>
+<?php if($internal):?><section id="pqrCreateReception" class="pqr-form-section pqr-create-reception"><h5 class="pqr-create-section-heading"><i class="ri-customer-service-2-line me-1" aria-hidden="true"></i><span><strong>Recepción</strong><small>Información del canal y sede de recepción.</small></span></h5><div class="row g-3"><div class="col-md-4"><label class="required" for="pqrChannel">Canal de llegada</label><select id="pqrChannel" name="canal_id" class="form-select" required><option value="">Seleccione</option><?php foreach($catalogs['canales'] as $c):?><option value="<?=pqr_form_h($c['ref'])?>" data-code="<?=pqr_form_h($c['codigo'])?>" data-site="<?=$c['requiere_sede']?'1':'0'?>" data-external="<?=$c['requiere_radicado_externo']?'1':'0'?>"><?=pqr_form_h($c['nombre'])?></option><?php endforeach;?></select></div><div class="col-md-4" id="pqrSiteWrap"><label for="pqrSite">Sede</label><select id="pqrSite" name="sede_id" class="form-select"><option value="">Seleccione</option><?php foreach($catalogs['sedes'] as $s):?><option value="<?=pqr_form_h($s['ref'])?>"><?=pqr_form_h($s['nombre'])?></option><?php endforeach;?></select></div><div class="col-md-4" id="pqrMailboxWrap"><label for="pqrMailbox">Buzón</label><select id="pqrMailbox" name="buzon_id" class="form-select"><option value="">Seleccione</option><?php foreach($catalogs['buzones'] as $b):?><option value="<?=pqr_form_h($b['ref'])?>" data-site="<?=pqr_form_h($b['sede_ref'])?>"><?=pqr_form_h($b['nombre'])?></option><?php endforeach;?></select></div><div class="col-md-6"><label for="pqrReceived">Fecha real de recepción</label><input id="pqrReceived" type="datetime-local" name="fecha_recepcion" max="<?=date('Y-m-d\TH:i')?>" class="form-control"></div><div class="col-md-6" id="pqrExternalWrap"><label for="pqrExternal">Radicado de Archivo Central</label><input id="pqrExternal" name="radicado_archivo" maxlength="80" class="form-control"></div></div></section><?php endif;?>
+<section id="pqrCreateRequest" class="pqr-form-section pqr-create-request">
+<h5 class="pqr-create-section-heading"><i class="ri-file-text-line me-1" aria-hidden="true"></i><span><strong>Solicitud</strong><?php if($internal):?><small>Detalle de la solicitud, asunto y archivos de soporte.</small><?php endif;?></span></h5>
+<div class="row g-3">
+<div class="col-12"><label class="required" for="pqrSubject">Asunto</label><input id="pqrSubject" name="asunto" maxlength="220" class="form-control" required></div>
+<div class="col-12"><label class="required" for="pqrDescription">Descripción</label><textarea id="pqrDescription" name="descripcion" rows="<?=$internal?5:7?>" maxlength="12000" class="form-control" required></textarea><?php if($internal):?><small id="pqrDescriptionCount" class="pqr-description-count">0 / 12000</small><?php endif;?></div>
+<div class="col-12 pqr-attachments-column"><label for="pqrFiles">Adjuntos</label>
+<?php if($internal):?>
+<div class="pqr-attachments" data-pqr-attachments>
+<input id="pqrFiles" type="file" name="adjuntos[]" multiple class="form-control" accept=".pdf,.png,.jpg,.jpeg,.doc,.docx,.xls,.xlsx,.txt" aria-describedby="pqrFilesHelp pqrFilesCount">
+<div class="pqr-attachments-layout">
+<div class="pqr-files-drop" data-files-drop hidden><i class="ri-upload-cloud-2-line pqr-files-cloud" aria-hidden="true"></i><span><strong>Arrastra y suelta archivos aquí</strong><small>O selecciona desde tu equipo</small></span><button type="button" class="btn btn-outline-primary" data-files-select>Seleccionar archivos</button></div>
+<ul class="pqr-files-list" data-files-list aria-label="Archivos seleccionados"></ul>
+</div>
+<small id="pqrFilesHelp" class="text-muted">Máximo 10 archivos de 10 MB cada uno. Formatos: PDF, PNG, JPG, JPEG, DOC, DOCX, XLS, XLSX y TXT.</small>
+<p class="pqr-files-fallback" data-files-fallback hidden>Este navegador reemplaza la selección al elegir archivos de nuevo. Puedes usar «Quitar todos» para vaciarla.</p>
+<div class="pqr-files-footer"><small id="pqrFilesCount" data-files-count aria-live="polite">0 de 10 archivos seleccionados</small><button type="button" class="pqr-files-clear" data-files-clear hidden>Quitar todos</button></div>
+<div class="pqr-files-messages" data-files-messages role="alert" hidden></div>
+</div>
+<?php else:?>
+<input id="pqrFiles" type="file" name="adjuntos[]" multiple class="form-control" accept=".pdf,.png,.jpg,.jpeg,.doc,.docx,.xls,.xlsx,.txt"><small class="text-muted">Máximo 10 archivos de 10 MB cada uno.</small>
+<?php endif;?></div>
+<div class="col-12 pqr-consent-column"><?php if($internal):?><div class="pqr-consent-panel"><?php endif;?><div class="form-check"><input id="pqrConsent" name="autoriza_datos" value="1" class="form-check-input" type="checkbox" required><label class="form-check-label required" for="pqrConsent">Autorizo el tratamiento de mis datos personales para gestionar esta solicitud.</label></div>
+<?php if($internal):?><p class="pqr-consent-note"><i class="ri-information-fill" aria-hidden="true"></i><span>La información será utilizada para atender tu solicitud de acuerdo con la política de tratamiento de datos personales de Comfasucre.</span></p></div><?php endif;?></div>
+</div></section>
+<?php if($internal)$this->load->view('pqr/_precheck_fields'); ?>
+<div class="<?=$internal?'pqr-create-actions d-flex flex-column flex-sm-row justify-content-end align-items-center gap-2':'d-flex flex-column flex-sm-row justify-content-end gap-2'?>"><?php if($internal):?><small class="pqr-create-review-hint"><i class="ri-shield-check-line" aria-hidden="true"></i> Revisa la información antes de confirmar.</small><?php endif;?><a href="<?=$internal?base_url('pqr'):base_url('mis-pqr')?>" class="btn btn-light">Cancelar</a><button class="btn btn-pqr" type="submit"><i class="ri-send-plane-line me-1"></i><?php echo $internal?'Revisar y radicar':'Radicar solicitud'; ?></button></div>
+</form></div></div></div>
+<?php if($internal)$this->load->view('pqr/_precheck_modal'); ?>
+<script src="<?=base_url('assets/js/pqr-security.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-security.js')?>"></script>
+<?php if($internal):?><script src="<?=base_url('assets/js/pqr-attachments.js')?>?v=<?=(int)@filemtime(FCPATH.'assets/js/pqr-attachments.js')?>"></script><?php endif;?>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+ const form=document.getElementById('pqrCreate'),channel=document.getElementById('pqrChannel'),createClient=createPqrSecurityClient({security:<?=json_encode($security,JSON_UNESCAPED_SLASHES)?>,refreshUrl:<?=json_encode(base_url('pqr/seguridad/renovar'))?>,loginUrl:<?=json_encode(base_url('login'))?>});
+ const validationOptions={rules:{numero_documento:{pqrDocument:true,pqrNit:{depends:()=>form.elements.tipo_persona&&form.elements.tipo_persona.value==='EMPRESA'}},asunto:{minlength:5},descripcion:{minlength:10},fecha_recepcion:{pqrPastOrToday:true},autoriza_datos:{required:true}}};PqrValidation.init(form,validationOptions);
+ if(channel){const sync=()=>{const o=channel.options[channel.selectedIndex],code=o?o.dataset.code:'',site=o&&o.dataset.site==='1',mailbox=code==='BUZON',external=o&&o.dataset.external==='1',siteEl=document.getElementById('pqrSite'),mailboxEl=document.getElementById('pqrMailbox'),externalEl=document.getElementById('pqrExternal');document.getElementById('pqrSiteWrap').style.display=site?'block':'none';document.getElementById('pqrMailboxWrap').style.display=mailbox?'block':'none';document.getElementById('pqrExternalWrap').style.display=external?'block':'none';siteEl.required=site;mailboxEl.required=mailbox;externalEl.required=external;if(!site)siteEl.value='';if(!mailbox)mailboxEl.value='';if(!external)externalEl.value=''};channel.addEventListener('change',sync);sync()}
+ <?php if($internal):?>let submitting=false;<?php endif;?>
+ form.addEventListener('submit',async function(e){
+   e.preventDefault();<?php if($internal):?>if(submitting)return;<?php endif;?>
+   if(!PqrValidation.validForm(form,validationOptions))return;
+   const btn=form.querySelector('[type=submit]');
+   <?php if($internal):?>submitting=true;const originalButton=Array.from(btn.childNodes);<?php else:?>btn.disabled=true;<?php endif;?>
+   try{
+     <?php if($internal):?>
+     if(!(await PqrPrecheck.confirm(form)))return;
+     btn.disabled=true;btn.setAttribute('aria-busy','true');
+     const spinner=document.createElement('i');spinner.className='ri-loader-4-line pqr-create-spin me-1';spinner.setAttribute('aria-hidden','true');btn.replaceChildren(spinner,document.createTextNode('Radicando…'));
+     <?php endif;?>
+     form.elements._pqr_request.value=await createClient.renew(<?=json_encode($internal?'pqr.create':'pqr.app.create')?>,true);
+     const r=await fetch(form.action,{method:'POST',headers:{'X-PQR-CSRF':form.elements._pqr_csrf.value,'X-PQR-Request':form.elements._pqr_request.value,'X-Requested-With':'XMLHttpRequest','Accept':'application/json'},body:new FormData(form),credentials:'same-origin',cache:'no-store'}),d=await r.json();
+     if(!r.ok||!d.ok)throw new Error(d.msg||'No fue posible radicar la solicitud.');
+     await Swal.fire({icon:'success',title:'PQR radicada',html:'Radicado: <strong>'+d.radicado+'</strong>',confirmButtonColor:'#17365d'});location.assign(d.redirect);
+   }catch(x){PqrValidation.serverAlert(x,'No fue posible radicar');}
+   finally{btn.disabled=false;<?php if($internal):?>btn.removeAttribute('aria-busy');btn.replaceChildren(...originalButton);submitting=false;<?php endif;?>}
+ });
+});
+</script>
+<?php if($internal):?>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const form=document.getElementById('pqrCreate'),person=document.getElementById('pqrPersonType'),type=document.getElementById('pqrDocType'),doc=document.getElementById('pqrDoc'),button=document.getElementById('pqrIdentityButton'),status=document.getElementById('pqrIdentityStatus'),names=document.getElementById('pqrNames'),email=document.getElementById('pqrEmail'),phone=document.getElementById('pqrPhone'),address=document.getElementById('pqrAddress'),employerWrap=document.getElementById('pqrEmployerWrap'),employer=document.getElementById('pqrEmployer'),client=createPqrSecurityClient({security:<?=json_encode($security,JSON_UNESCAPED_SLASHES)?>,refreshUrl:<?=json_encode(base_url('pqr/seguridad/renovar'))?>,loginUrl:<?=json_encode(base_url('Login'))?>});let timer,lastKey='',inFlight=null,version=0;
+ const fields=[names,email,phone,address],wraps=['pqrDocTypeWrap','pqrDocWrap','pqrNamesWrap','pqrEmailWrap','pqrPhoneWrap','pqrAddressWrap'];
+ const buttonLabel=button.querySelector('span'),loader=document.createElement('i');loader.className='ri-loader-4-line pqr-create-spin';loader.hidden=true;loader.setAttribute('aria-hidden','true');loader.dataset.identityLoading='';button.append(loader);
+ const setBusy=busy=>{button.disabled=busy;buttonLabel.textContent=busy?'Consultando…':'Consultar';loader.hidden=!busy;if(busy)button.setAttribute('aria-busy','true');else button.removeAttribute('aria-busy');};
+ const keyForIdentity=()=>[person.value,type.value,doc.value.replace(/[^0-9A-Za-z]/g,'').toUpperCase()].join('|');
+ const setStatus=(kind,title,text)=>{
+   status.dataset.state=kind;status.className='alert mb-0 pqr-identity-status '+(kind==='found'?'alert-success':['missing','error'].includes(kind)?'alert-warning':'alert-light');
+   status.setAttribute('aria-busy',String(kind==='loading'));
+   const mark=document.createElement('span'),icon=document.createElement('i'),copy=document.createElement('span'),heading=document.createElement('strong'),description=document.createElement('span');
+   mark.className='pqr-identity-mark';mark.setAttribute('aria-hidden','true');icon.className=kind==='found'?'ri-checkbox-circle-fill':kind==='loading'?'ri-loader-4-line pqr-create-spin':['missing','error'].includes(kind)?'ri-error-warning-line':'ri-information-line';mark.append(icon);
+   copy.className='pqr-identity-copy';heading.textContent=title;description.textContent=text;copy.append(heading,description);status.replaceChildren(mark,copy);
+ };
+ const idle=()=>setStatus('idle','Consulta de identidad','Escribe la identificación para consultar la fuente correspondiente.');
+ const cancel=()=>{clearTimeout(timer);version++;if(inFlight)inFlight.controller.abort();inFlight=null;setBusy(false);};
+ const clear=(editable=true)=>{
+   const validator=jQuery.data(form,'validator');
+   fields.forEach(x=>{x.value='';x.readOnly=!editable;x.classList.remove('is-valid','is-invalid');x.removeAttribute('aria-invalid');if(validator){validator.errorsFor(x).empty().hide();delete validator.invalid[x.name];}});
+   employer.replaceChildren(new Option('No está relacionada con un empleador',''));employerWrap.hidden=true;lastKey='';
+ };
+ const syncType=()=>{
+   cancel();const p=person.value,anonymous=p==='ANONIMO',company=p==='EMPRESA';wraps.forEach(id=>document.getElementById(id).hidden=anonymous);[type,doc,names].forEach(x=>{x.required=!anonymous;x.disabled=anonymous});
+   if(company){type.disabled=false;type.value='NIT';type.setAttribute('aria-readonly','true')}else type.removeAttribute('aria-readonly');
+   clear(!anonymous&&p==='TERCERO');if(anonymous)setStatus('anonymous','Solicitud anónima','La solicitud se radicará sin datos identificativos del peticionario.');else idle();
+ };
+ function lookup(force=false){
+   const p=person.value,key=keyForIdentity();if(p==='ANONIMO'||!p||!type.value||doc.value.trim().length<4)return Promise.resolve();
+   if(inFlight?.key===key)return inFlight.promise;if(!force&&key===lastKey)return Promise.resolve();
+   cancel();const mine=version,flight={key,controller:new AbortController(),promise:null};inFlight=flight;setBusy(true);setStatus('loading','Consultando antecedentes','Consultando antecedentes y estado de las vinculaciones…');
+   flight.promise=(async()=>{
+     try{
+       const body=new URLSearchParams({tipo_persona:p,tipo_documento:type.value,numero_documento:doc.value});
+       const d=await client.json(<?=json_encode($identity_url??'')?>,'pqr.identity.lookup',{headers:{'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8'},body:body.toString(),signal:flight.controller.signal});
+       if(mine!==version||key!==keyForIdentity()||flight.controller.signal.aborted)return;
+       lastKey=key;
+       if(d.found){
+         const x=d.profile||{};names.value=x.name||'';email.value=x.email||'';phone.value=x.phone||'';address.value=x.address||'';PqrComponents.init(form);fields.forEach(f=>f.readOnly=true);
+         const count=x.affiliation_summary||null,details=[x.population,x.age!==null&&x.age!==undefined?x.age+' años':null,x.sex].filter(Boolean).join(' · ');
+         let stateText=count?('Vínculos relacionados: '+count.active+' activos, '+count.inactive+' inactivos'+(count.conflicting?' con estados contradictorios':'')+(count.unknown?' y '+count.unknown+' por confirmar':'')+'. '):'';
+         if(x.affiliation_status==='INACTIVE')stateText+='No se encontró un vínculo activo entre los antecedentes consultados. ';
+         if(x.affiliation_status==='CONFLICT')stateText+='Hay estados recientes contradictorios en un vínculo. ';
+         if((count?.inactive||0)>0)stateText+='La fuente no informa la causa del retiro; revisa la fecha y la novedad con Afiliaciones. ';
+         if(count?.truncated)stateText+='La lista está incompleta por el límite de consulta; no permite descartar otros vínculos. ';
+         setStatus('found','Persona identificada en los antecedentes',(details?details+'. ':'')+stateText+'Los datos maestros se validarán nuevamente al radicar.');
+         employer.replaceChildren(new Option('No está relacionada con un empleador',''));
+         const stateLabel={ACTIVE:'ACTIVA',INACTIVE:'INACTIVA',CONFLICT:'ESTADOS CONTRADICTORIOS',UNKNOWN:'SIN ESTADO CONFIRMADO'};
+         (x.links||[]).forEach(link=>{const o=document.createElement('option');o.value=link.ref;const dates=[link.fecha_afiliacion?'Afiliación '+link.fecha_afiliacion:'',link.fecha_retiro?'Retiro '+link.fecha_retiro:''].filter(Boolean).join(' · ');o.textContent=(link.razon_social||'Sin razón social')+' · '+(link.categoria||'Sin categoría')+' · '+(link.tipo_afiliacion||'')+' · '+(stateLabel[link.estado]||'REVISAR')+(dates?' · '+dates:'');employer.appendChild(o)});
+         employerWrap.hidden=!(x.links||[]).length;
+         const validator=jQuery.data(form,'validator');if(validator)fields.filter(f=>f.value.trim()).forEach(f=>validator.element(f));
+       }else{clear(p==='TERCERO');lastKey=key;setStatus('missing','Sin coincidencia en la consulta',p==='TERCERO'?'No hay coincidencia interna. Puedes completar manualmente los datos del tercero.':'No se encontró una persona con esa identificación y el tipo seleccionado. Revisa los datos.');}
+     }catch(e){if(mine===version&&key===keyForIdentity()&&e.name!=='AbortError'&&!flight.controller.signal.aborted)setStatus('error','No fue posible completar la consulta',e.message);}
+     finally{if(inFlight===flight){inFlight=null;setBusy(false);}}
+   })();return flight.promise;
+ }
+ const changed=delay=>{cancel();clear(person.value==='TERCERO');idle();timer=setTimeout(()=>lookup(),delay);};
+ person.addEventListener('change',syncType);type.addEventListener('change',()=>changed(250));doc.addEventListener('input',()=>changed(450));doc.addEventListener('blur',()=>{clearTimeout(timer);lookup();});button.addEventListener('click',()=>lookup(true));syncType();
+});
+</script>
+<?php else:?>
+<script>document.addEventListener('DOMContentLoaded',()=>{const relation=document.getElementById('appAffectedRelation'),wrap=document.getElementById('appBeneficiaryWrap'),select=document.getElementById('appBeneficiary');if(relation&&wrap&&select)relation.addEventListener('change',()=>{const show=relation.value==='beneficiario';wrap.hidden=!show;select.required=show})});</script>
+<?php endif;?>
+
+
+
+
+<?php if($internal):?>
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const description=document.getElementById('pqrDescription'),descriptionCount=document.getElementById('pqrDescriptionCount');
+  if(description&&descriptionCount){
+    description.setAttribute('aria-describedby',descriptionCount.id);
+    const updateDescriptionCount=()=>{descriptionCount.textContent=description.value.length+' / '+description.maxLength;};
+    description.addEventListener('input',updateDescriptionCount);
+    updateDescriptionCount();
+  }
+  const root=document.querySelector('.pqr-create-internal'),nav=root?.querySelector('.pqr-create-nav');
+  if(!nav)return;
+  const links=Array.from(nav.querySelectorAll('a[href^="#"]'));
+  const sections=links.map(link=>document.getElementById(link.hash.slice(1)));
+  const activate=id=>links.forEach(link=>{
+    const active=link.hash.slice(1)===id;
+    link.classList.toggle('is-active',active);
+    if(active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');
+  });
+  const prefersReducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+  // Recalcular según la posición real de la barra sticky; no usar 315px fijo.
+  const threshold=()=>Math.max(110,nav.getBoundingClientRect().bottom+30);
+  let scheduled=false, navigationTarget=null, preferredTopSection=null, navigationGeneration=0, validationFocus=null;
+  const sameTopRow=()=>sections[0]&&sections[1]&&Math.abs(sections[0].getBoundingClientRect().top-sections[1].getBoundingClientRect().top)<24;
+  const update=()=>{
+    scheduled=false;
+    if(navigationTarget){activate(navigationTarget);return;}
+    if(validationFocus&&document.activeElement===validationFocus.control){activate(validationFocus.section.id);return;}
+    let current=sections[0];
+    const limit=threshold();
+    sections.forEach((section,index)=>{
+      if(section&&section.getBoundingClientRect().top<=limit&&!(index===1&&sameTopRow()))current=section;
+    });
+    if(current&&current.id!=='pqrCreateApplicant'&&current.id!=='pqrCreateReception')preferredTopSection=null;
+    else if(sameTopRow()&&preferredTopSection)current=preferredTopSection==='pqrCreateReception'?sections[1]:sections[0];
+    // La orientación es el último bloque: al llegar al final puede quedar por
+    // debajo del ancla sticky, aunque esté totalmente visible en pantalla.
+    const last=sections[sections.length-1];
+    const remaining=document.documentElement.scrollHeight-window.innerHeight-window.scrollY;
+    const actionBar=root.querySelector('.pqr-create-actions');
+    const visibleBottom=actionBar?.getBoundingClientRect().top??window.innerHeight;
+    if(last&&remaining<=20&&last.getBoundingClientRect().top<visibleBottom-20)current=last;
+    if(current)activate(current.id);
+  };
+  const navigate=(section,anchor=section,focusTarget=null)=>{
+    if(section.tagName==='DETAILS')section.open=true;
+    if(section.id==='pqrCreateApplicant'||section.id==='pqrCreateReception')preferredTopSection=section.id;
+    else preferredTopSection=null;
+    // Mantener la sección solicitada activa hasta que el desplazamiento realmente se estabilice.
+    navigationTarget=section.id;
+    const generation=++navigationGeneration;
+    activate(section.id);
+    const activeLink=links.find(link=>link.hash.slice(1)===section.id);
+    if(activeLink&&nav.scrollWidth>nav.clientWidth)nav.scrollTo({left:activeLink.offsetLeft-nav.clientWidth/2+activeLink.offsetWidth/2,behavior:'auto'});
+    requestAnimationFrame(()=>{
+      const header=document.getElementById('page-topbar');
+      const headerBottom=header?Math.max(0,header.getBoundingClientRect().bottom):0;
+      const offset=Math.max(headerBottom,parseFloat(getComputedStyle(nav).top)||0)+nav.getBoundingClientRect().height+12;
+      window.scrollTo({top:Math.max(0,window.scrollY+anchor.getBoundingClientRect().top-offset),behavior:prefersReducedMotion.matches?'auto':'smooth'});
+      let previousY=window.scrollY,stableFrames=0;
+      const waitUntilStable=()=>{
+        if(generation!==navigationGeneration)return;
+        const currentY=window.scrollY;
+        stableFrames=Math.abs(currentY-previousY)<0.5?stableFrames+1:0;
+        previousY=currentY;
+        if(stableFrames>=4){
+          navigationTarget=null;
+          if(focusTarget){focusTarget.focus({preventScroll:true});activate(section.id);}else update();
+          return;
+        }
+        requestAnimationFrame(waitUntilStable);
+      };
+      requestAnimationFrame(waitUntilStable);
+    });
+  };
+  links.forEach((link,index)=>link.addEventListener('click',event=>{
+    const section=sections[index];if(!section)return;
+    event.preventDefault();
+    validationFocus=null;
+    navigate(section);
+  }));
+  const form=root.querySelector('#pqrCreate');
+  form.addEventListener('pqr:validation-focus',event=>{
+    const {element,control}=event.detail;
+    const section=element.closest('.pqr-form-section');
+    if(!sections.includes(section)||!control)return;
+    event.preventDefault();
+    validationFocus={section,control};
+    const label=element.id?root.querySelector('label[for="'+CSS.escape(element.id)+'"]'):null;
+    navigate(section,label||control,control);
+  });
+  form.addEventListener('focusin',event=>{
+    if(!validationFocus)return;
+    const section=event.target.closest('.pqr-form-section');
+    validationFocus=sections.includes(section)?{section,control:event.target}:null;
+    if(validationFocus)activate(section.id);
+  });
+  window.addEventListener('scroll',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(update)}},{passive:true});
+  // El ajuste de altura al limpiar un error no debe cambiar la sección del campo que se está corrigiendo.
+  window.addEventListener('wheel',()=>{validationFocus=null;},{passive:true});
+  window.addEventListener('touchmove',()=>{validationFocus=null;},{passive:true});
+  window.addEventListener('keydown',event=>{
+    if(['PageUp','PageDown'].includes(event.key)||(['Home','End','ArrowUp','ArrowDown',' '].includes(event.key)&&!event.target.closest('input,select,textarea,[contenteditable="true"]')))validationFocus=null;
+  });
+  window.addEventListener('resize',()=>{if(!scheduled){scheduled=true;requestAnimationFrame(update)}},{passive:true});
+  document.getElementById('pqrCreateGuidance')?.addEventListener('toggle',update);
+  activate('pqrCreateApplicant');
+  update();
+});
+</script>
+<?php endif;?>

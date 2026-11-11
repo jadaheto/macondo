@@ -1,0 +1,93 @@
+{
+ "title": "El ciclo del agua",
+ "description": "Evaporación, nubes, lluvia, rocío, glaciares, ríos, mar y manantiales: el viaje sin fin del agua por el planeta, con un diagrama en español del Servicio Geológico de EE. UU.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Agua",
+  "Ciencias de la Tierra"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Diagrama en español del ciclo del agua con montañas, nubes, ríos, mar, ciudades y flechas que muestran cómo se mueve el agua.",
+   "El agua de la Tierra siempre está viajando: se evapora del mar, forma nubes, cae como lluvia, corre por ríos o se guarda bajo tierra, y vuelve al mar. Este diagrama del Servicio Geológico de Estados Unidos también muestra cómo usamos el agua las personas."
+  ],
+  [
+   "Neblina de vapor dorada que sube sobre la superficie oscura de un lago al amanecer.",
+   "Con el calor del Sol, el agua de lagos, ríos y mares se convierte en vapor y sube al cielo: es la evaporación. Aquí se ve el vapor saliendo del lago Inle, en Asia, en una mañana fresca."
+  ],
+  [
+   "Un charco de agua de lluvia sobre la arena, con pequeños círculos en la superficie.",
+   "El vapor se enfría en lo alto, forma nubes y, cuando las gotitas se juntan y pesan mucho, caen como lluvia. A esto se le llama precipitación."
+  ],
+  [
+   "Gotitas de agua sobre una hoja verde con nervios marcados.",
+   "El rocío aparece en las mañanas frescas: el vapor del aire se convierte otra vez en gotitas al tocar las hojas frías. Es la condensación, igual que cuando se moja por fuera un vaso con agua fría."
+  ],
+  [
+   "Un glaciar blanco sobre una montaña rocosa bajo el cielo azul.",
+   "En las montañas muy altas el agua se guarda congelada en los glaciares. Este es el glaciar del Ritacuba Blanco, en la Sierra Nevada del Cocuy. Los glaciares de Colombia se están derritiendo por el calentamiento global."
+  ],
+  [
+   "Pintura antigua de una cascada que cae entre rocas, con un pequeño arcoíris y vegetación.",
+   "El agua de la lluvia y de los glaciares baja por quebradas, cascadas y ríos hacia el mar. Esta pintura de una cascada en Colombia la hizo el artista estadounidense Frederic Edwin Church en el siglo XIX."
+  ],
+  [
+   "Olas del mar rompiendo contra rocas volcánicas oscuras.",
+   "Los océanos guardan casi toda el agua de la Tierra, pero es salada. Del mar se evapora el agua y el ciclo vuelve a empezar."
+  ],
+  [
+   "Una laguna de aguas tranquilas en el altiplano que refleja el cielo azul y las nubes.",
+   "Parte del agua de la lluvia se filtra en el suelo y forma depósitos subterráneos. Cuando esa agua sale a la superficie forma un manantial o nacimiento de agua, como el de Huarmipuquio, en los Andes de Perú."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cómo se llama el paso del agua líquida a vapor por el calor del Sol?",
+   [
+    "Condensación",
+    "Evaporación",
+    "Congelación",
+    "Precipitación"
+   ],
+   1,
+   "En la evaporación el agua se convierte en vapor y sube al cielo."
+  ],
+  [
+   "¿Qué es la precipitación?",
+   [
+    "Cuando el agua cae de las nubes como lluvia, granizo o nieve",
+    "Cuando el agua se congela",
+    "Cuando el agua se ensucia",
+    "Cuando el agua hierve"
+   ],
+   0,
+   "Las gotitas de las nubes se juntan, pesan y caen."
+  ],
+  [
+   "¿Dónde está guardada la mayor parte del agua de la Tierra?",
+   [
+    "En los ríos",
+    "En las nubes",
+    "En los océanos",
+    "En los vasos"
+   ],
+   2,
+   "Casi toda el agua del planeta está en los océanos y es salada."
+  ],
+  [
+   "¿Cómo se forma el rocío?",
+   [
+    "Lo riegan los jardineros",
+    "Cae de las estrellas",
+    "Sale de las raíces",
+    "El vapor del aire se condensa en gotitas sobre superficies frías"
+   ],
+   3,
+   "Es el mismo proceso por el que se moja por fuera un vaso frío."
+  ]
+ ],
+ "reviewNotes": "06 es una pintura de Frederic Edwin Church (†1900), dominio público. 01 es un diagrama del USGS (dominio público) con texto pequeño a 1600 px."
+}

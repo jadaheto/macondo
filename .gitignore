@@ -1,0 +1,43 @@
+node_modules/
+dist/
+.next/
+coverage/
+.env
+.env.*
+!.env.example
+storage/*
+!storage/.gitkeep
+playwright-report/
+test-results/
+*.log
+.DS_Store
+
+# Catálogo de dominio público (binarios grandes; se importan vía API con scripts/import-catalog.mjs)
+catalogo-dp/libros/
+catalogo-dp/audiolibros/
+catalogo-dp/portadas/
+catalogo-dp/_tmp/
+catalogo-dp/galerias/
+catalogo-dp/audiobiografias/
+catalogo-dp/audioresumenes/
+catalogo-dp/cuentos/
+
+# Certificados locales: las claves privadas nunca se versionan (ca.crt / server.crt son públicos)
+infra/certs/*.key
+infra/certs/*.srl
+infra/certs/*.csr
+
+# Android: firma del APK (keystore y contraseñas fuera del repo) y salidas de compilación
+apps/android/keystore.properties
+apps/android/*.jks
+apps/android/**/build/
+apps/android/.gradle/
+apps/android/local.properties
+
+# Entregables (APK firmado, keystore, ZIP de código) — se entregan fuera del repositorio
+entregables/
+
+# Temporales de agentes y caches de Python
+_tmp/
+__pycache__/
+*.pyc

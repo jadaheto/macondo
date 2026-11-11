@@ -1,0 +1,8 @@
+/* Solo navegación y demostración del kit. No sustituye los estilos originales. */
+.navbar-brand-box .logo img {max-width:185px;object-fit:contain}
+.kit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.kit-demo-note{margin:10px 0;padding:8px 12px;border:1px solid #d9e4ed;border-radius:8px;background:#eef5fa;color:#24364b;font-size:12px}
+#scrollbar{max-height:calc(100dvh - 80px);overflow:auto}
+.kit-color{display:inline-flex;gap:8px;align-items:center;margin:4px 14px 4px 0}.kit-color b{width:22px;height:22px;border-radius:6px;background:var(--swatch)}
+.kit-stage-tools{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+@media(max-width:767px){.navbar-header{padding:0 8px}.pqr-shell .kit-grid{grid-template-columns:1fr}}

@@ -1,0 +1,31 @@
+{
+ "title": "Las siete maravillas del mundo antiguo",
+ "description": "Las pirámides de Egipto, los jardines de Babilonia, el templo de Artemisa, el mausoleo de Halicarnaso y el faro de Alejandría, tal como las imaginaron los grabadores europeos de los siglos XVI y XVII.",
+ "gradeMin": 3, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia antigua", "Arquitectura", "Ilustración"],
+ "cover": 1,
+ "credits": {"1": "Maarten de Vos (dibujo) y Magdalena van de Passe (grabado), 1614", "3": "Maarten de Vos (dibujo) y Crispijn van de Passe (grabado), 1614", "5": "Maarten de Vos (dibujo) y Crispijn van de Passe (grabado), 1614", "6": "Maarten de Vos (dibujo) y Magdalena van de Passe (grabado), 1614", "2": "Rijksmuseum, Ámsterdam (CC0)", "4": "Wellcome Collection (CC BY 4.0)"},
+ "items": [
+  ["Grabado de una gran pirámide escalonada junto a un obelisco, con un rey sentado en primer plano y trabajadores moviendo bloques de piedra.",
+   "Las pirámides de Egipto, en un grabado de 1614. Es la más antigua de las siete maravillas y la única que todavía existe."],
+  ["Grabado de una ciudad enorme de forma cuadrada con murallas, jardines y una torre alta en el centro, vista desde lo alto.",
+   "Babilonia imaginada por un grabador europeo. Allí habrían estado los Jardines Colgantes, que según la tradición mandó hacer el rey Nabucodonosor II; nunca se han encontrado sus restos."],
+  ["Grabado de un gran templo circular con cúpulas y columnas, con personas y obreros que trabajan en primer plano.",
+   "El templo de Artemisa en Éfeso (actual Turquía), imaginado en 1614 con cúpulas al estilo europeo. En realidad era un templo griego con más de cien columnas."],
+  ["Grabado coloreado de una ciudad antigua con murallas, torres y templos junto a un río.",
+   "Otra vista imaginada de Babilonia, una de las ciudades más grandes de la Antigüedad, a orillas del río Éufrates, en el actual Irak."],
+  ["Grabado de un gran edificio con techo en forma de pirámide escalonada y una estatua en la cima, con escultores trabajando la piedra delante.",
+   "El mausoleo de Halicarnaso fue la tumba del rey Mausolo. Era tan famoso que hoy llamamos 'mausoleo' a cualquier tumba monumental."],
+  ["Grabado de un puerto con barcos y una torre alta con fuego en la cima sobre una isla, con personajes y un caballo en primer plano.",
+   "El faro de Alejandría (Egipto), construido hacia el año 280 a. C. en la isla de Faros, guiaba a los barcos con una hoguera en su cima. De ahí viene la palabra 'faro'."],
+  ["Maqueta blanca de un templo griego con columnas en la fachada y una estatua en el interior, exhibida en un museo.",
+   "Maqueta del templo de Artemisa en el Museo de Éfeso. Muestra cómo era realmente: un gran templo griego de mármol, que fue destruido e incendiado varias veces."]
+ ],
+ "questions": [
+  ["¿Cuál de las siete maravillas todavía existe?", ["Las pirámides de Egipto", "El faro de Alejandría", "El mausoleo de Halicarnaso"], 0, "Las demás desaparecieron."],
+  ["¿De dónde viene la palabra 'faro'?", ["De la isla de Faros, en Alejandría", "De un rey llamado Faro", "Del griego 'fuego'"], 0, "El faro de Alejandría estaba en la isla de Faros."],
+  ["¿De qué rey viene la palabra 'mausoleo'?", ["Mausolo", "Nabucodonosor", "Ramsés"], 0, "Su tumba en Halicarnaso era una de las siete maravillas."],
+  ["¿Por qué los grabados de 1614 no muestran las maravillas tal como eran?", ["Porque los artistas las imaginaron sin haberlas visto", "Porque usaron fotografías", "Porque eran mapas"], 0, "Casi todas habían desaparecido siglos antes."]
+ ],
+ "reviewNotes": "Se descartaron los grabados del Coloso de Rodas y de la estatua de Zeus de la misma serie por mostrar figuras desnudas; por eso la galería tiene 7 imágenes (Babilonia aparece dos veces en vistas distintas)."
+}

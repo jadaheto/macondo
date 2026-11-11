@@ -1,0 +1,38 @@
+{
+"title": "El universo y la exploración espacial",
+"description": "Nebulosas, galaxias y el primer retrato de un agujero negro, junto con los telescopios, estaciones y misiones que nos permitieron verlos, desde el Apolo 11 hasta el telescopio James Webb.",
+"gradeMin": 6, "gradeMax": 11,
+"categories": ["Ciencias naturales", "Astronomía", "Física", "Tecnología"],
+"cover": 1,
+"items": [
+ ["Tres enormes columnas de gas y polvo de tonos café y dorado que se elevan sobre un fondo azul verdoso con estrellas.",
+  "Los \"Pilares de la creación\" están en la nebulosa del Águila. Son columnas de gas y polvo de varios años luz de altura donde nacen nuevas estrellas. Foto del telescopio Hubble (2014)."],
+ ["Nube de gas brillante en tonos rosados, rojos y blancos, con muchas estrellas, sobre el fondo oscuro.",
+  "La nebulosa de Orión se puede ver a simple vista en la constelación de Orión, como una mancha borrosa. Es una \"guardería\" de estrellas a unos 1.300 años luz. Mosaico del Hubble."],
+ ["Nube de forma ovalada con filamentos verdes, amarillos y anaranjados y un centro azulado.",
+  "La nebulosa del Cangrejo es lo que quedó de una estrella que explotó (una supernova). Astrónomos chinos registraron esa explosión en el año 1054. Foto del Hubble."],
+ ["Paisaje cósmico que parece una cordillera de nubes anaranjadas bajo un cielo azul oscuro lleno de estrellas brillantes.",
+  "Los \"acantilados cósmicos\" de la nebulosa de Carina fueron una de las primeras imágenes del telescopio espacial James Webb, publicadas en 2022. El Webb observa en luz infrarroja."],
+ ["Galaxia espiral alargada y brillante en el centro, vista inclinada, con dos galaxias pequeñas cerca.",
+  "La galaxia de Andrómeda es la galaxia grande más cercana a la nuestra, a unos 2,5 millones de años luz. Desde un lugar muy oscuro se puede ver a simple vista."],
+ ["Fondo negro cubierto de cientos de puntos y manchas de colores: cada uno es una galaxia.",
+  "El Campo Ultra Profundo del Hubble muestra unas 10.000 galaxias en un trocito de cielo diminuto. La luz de algunas de ellas viajó más de 13.000 millones de años para llegar hasta nosotros."],
+ ["Anillo de luz anaranjada, más brillante en la parte inferior, alrededor de un centro oscuro.",
+  "En 2019 se publicó la primera imagen de un agujero negro, en la galaxia M87. Para lograrla se unieron radiotelescopios de todo el planeta, como si fueran uno del tamaño de la Tierra (Event Horizon Telescope)."],
+ ["Telescopio espacial plateado y cilíndrico con dos paneles solares, flotando en el espacio negro.",
+  "El telescopio espacial Hubble fue lanzado en 1990 y gira alrededor de la Tierra por encima de la atmósfera, por eso sus imágenes son tan nítidas. Foto tomada desde el transbordador Atlantis en 2009."],
+ ["Estación espacial con grandes paneles solares dorados a los lados, vista sobre el planeta Tierra azul.",
+  "La Estación Espacial Internacional es un laboratorio en órbita donde viven astronautas de varios países. Da una vuelta a la Tierra en unos 90 minutos."],
+ ["Astronauta con traje espacial blanco y visera dorada, de pie sobre el suelo gris de la Luna, con huellas a su alrededor.",
+  "El 20 de julio de 1969, con la misión Apolo 11, los seres humanos caminaron por primera vez en la Luna. En la foto, tomada por Neil Armstrong, aparece Buzz Aldrin."],
+ ["La Tierra, azul y blanca, asomándose sobre el horizonte gris de la Luna en un cielo negro.",
+  "\"Salida de la Tierra\": foto tomada por el astronauta William Anders desde el Apolo 8, en diciembre de 1968, mientras la nave orbitaba la Luna."]
+],
+"questions": [
+ ["¿Qué ocurre en los \"Pilares de la creación\"?", ["Nacen nuevas estrellas", "Chocan dos planetas", "Se apaga el Sol"], 0, "Son columnas de gas y polvo donde nacen estrellas."],
+ ["¿De qué es resto la nebulosa del Cangrejo?", ["De una estrella que explotó (supernova)", "De un cometa", "De un planeta helado"], 0, "Es lo que quedó de una supernova registrada en 1054."],
+ ["¿Cuándo caminaron por primera vez seres humanos en la Luna?", ["El 20 de julio de 1969", "En diciembre de 1968", "En 1990"], 0, "Fue con la misión Apolo 11, el 20 de julio de 1969."],
+ ["¿En qué tipo de luz observa el telescopio James Webb?", ["Infrarroja", "Rayos X", "Solo luz visible"], 0, "El Webb observa en luz infrarroja."],
+ ["¿Cuánto tarda la Estación Espacial Internacional en dar una vuelta a la Tierra?", ["Unos 90 minutos", "Un día", "Un mes"], 0, "Da una vuelta en unos 90 minutos."]
+]
+}

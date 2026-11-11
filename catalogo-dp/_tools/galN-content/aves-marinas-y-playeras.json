@@ -1,0 +1,94 @@
+{
+ "title": "Aves marinas y playeras",
+ "description": "Fragatas, piqueros, gaviotas, rayadores, cormoranes, ostreros y playeros: aves que viven del mar y de las playas, y sus ingeniosas formas de pescar.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Aves",
+  "Mar",
+  "Región Caribe"
+ ],
+ "cover": 4,
+ "items": [
+  [
+   "Una fragata hembra de plumas negras y pecho blanco con las alas abiertas sobre una rama.",
+   "La fragata vuela durante horas casi sin mover las alas, aprovechando el viento. Sus plumas no aguantan mojarse mucho, así que a veces les roba la comida a otras aves en pleno vuelo. Los machos inflan una bolsa roja en el cuello; esta es una hembra."
+  ],
+  [
+   "Un piquero de patas azules echado en su nido sobre el suelo rocoso.",
+   "El piquero de patas azules se lanza en picada al mar para pescar. Los machos levantan sus patas azules en un baile para conquistar a la hembra. Visita la costa del Pacífico colombiano; esta foto es de las islas Galápagos."
+  ],
+  [
+   "Una gaviota de cabeza negra, pico rojo oscuro y cuerpo blanco y gris, parada sobre un poste.",
+   "La gaviota reidora se llama así porque su grito suena como una risa. Es común en las playas del Caribe colombiano, como las del golfo de Morrosquillo. En la temporada de cría su cabeza se vuelve negra."
+  ],
+  [
+   "Un rayador negro y blanco de pico rojo vuela rozando el agua con la punta del pico.",
+   "El rayador pesca de una manera única: vuela pegado al agua con la parte de abajo del pico sumergida y, cuando toca un pez, cierra el pico de golpe. Por eso su mandíbula de abajo es más larga que la de arriba."
+  ],
+  [
+   "Un pato cuervo negro con las alas abiertas, parado en la orilla junto a plantas acuáticas.",
+   "El pato cuervo o cormorán bucea para atrapar peces. Sus plumas se empapan para que pueda hundirse mejor; por eso después abre las alas para secarlas al sol. Vive en ciénagas, ríos y costas."
+  ],
+  [
+   "Un ave café y blanca de pico largo rojo anaranjado caminando en agua poco profunda.",
+   "El ostrero usa su pico largo y fuerte como una herramienta para abrir almejas y mejillones. Camina por las playas cuando baja la marea."
+  ],
+  [
+   "Un gaviotín blanco de pico anaranjado volando con las alas extendidas en el cielo azul.",
+   "El gaviotín real tiene alas largas y delgadas y una cresta negra. Vuela sobre el mar y se lanza de cabeza para atrapar peces pequeños. Foto tomada en Costa Rica."
+  ],
+  [
+   "Un pequeño playero blanco y gris de pico negro, parado en la orilla mojada de la playa.",
+   "El playero blanco corre detrás de las olas buscando animalitos en la arena. Muchos playeros son aves migratorias: cada año llegan a las costas de Colombia desde el Ártico, a miles de kilómetros."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué el pato cuervo abre las alas al sol?",
+   [
+    "Para asustar a otros animales",
+    "Para secar sus plumas",
+    "Para bailar",
+    "Para enfriarse"
+   ],
+   1,
+   "Sus plumas se empapan al bucear y luego necesita secarlas."
+  ],
+  [
+   "¿Cómo pesca el rayador?",
+   [
+    "Volando pegado al agua con la parte de abajo del pico sumergida",
+    "Lanzándose desde muy alto",
+    "Buceando profundo",
+    "Esperando en una rama"
+   ],
+   0,
+   "Cuando su mandíbula inferior toca un pez, cierra el pico de golpe."
+  ],
+  [
+   "¿De dónde vienen muchos playeros que llegan a Colombia cada año?",
+   [
+    "De la Luna",
+    "Del desierto del Sahara",
+    "Del Ártico",
+    "De la Antártida"
+   ],
+   2,
+   "Crían en el Ártico durante el verano del norte y viajan al sur para pasar el resto del año."
+  ],
+  [
+   "¿Por qué la gaviota reidora se llama así?",
+   [
+    "Porque es muy alegre",
+    "Porque se ríe de las personas",
+    "Porque come risas",
+    "Porque su grito suena como una risa"
+   ],
+   3,
+   "Su llamado es una serie de notas que recuerdan una carcajada."
+  ]
+ ],
+ "reviewNotes": null
+}

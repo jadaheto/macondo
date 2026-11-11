@@ -1,0 +1,97 @@
+{
+ "title": "El clima y las nubes",
+ "description": "Cúmulos, cirros, estratos, cumulonimbos y nubes de formas curiosas: aprende a reconocer las nubes y a saber qué tiempo anuncian, y conoce cómo se mide el clima.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Clima",
+  "Ciencias de la Tierra"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Nubes blancas y esponjosas en un cielo azul, con nubes finas más arriba.",
+   "Los cúmulos son las nubes blancas y esponjosas que parecen algodón. Cuando son pequeños anuncian buen tiempo. Más arriba se ven nubes delgadas llamadas cirros."
+  ],
+  [
+   "Una nube muy fina y blanca con forma de pluma en el cielo azul.",
+   "Los cirros son nubes altas y delgadas, como plumas o pelos. Están tan arriba que están hechas de cristalitos de hielo."
+  ],
+  [
+   "Una franja de nubes grises y blancas sobre los edificios de una ciudad.",
+   "Los estratos son nubes bajas y grises que cubren todo el cielo como una sábana. Traen días nublados y a veces llovizna."
+  ],
+  [
+   "Una nube de tormenta enorme con la parte de arriba aplanada como un yunque, sobre una ciudad.",
+   "El cumulonimbo es la nube de las tormentas: puede ser más alta que una montaña. Trae lluvias fuertes, rayos y truenos. Cuando veas una, lo mejor es buscar refugio bajo techo."
+  ],
+  [
+   "Grupos de nubes blancas y esponjosas a media altura en el cielo azul.",
+   "Los altocúmulos forman grupos de nubecitas redondas, como un rebaño de ovejas. Están a media altura en el cielo."
+  ],
+  [
+   "Nubes alargadas en forma de ondas y franjas en el cielo azul.",
+   "Las nubes lenticulares tienen forma de lenteja o de platillo volador. Se forman cuando el viento pasa sobre las montañas y hace ondas en el aire."
+  ],
+  [
+   "La parte de abajo de una nube llena de bultos redondos colgantes, de color anaranjado por el atardecer.",
+   "Estas nubes con bolsas colgantes se llaman mammatus. Aparecen debajo de algunas nubes de tormenta, a veces cuando la tormenta ya se está alejando."
+  ],
+  [
+   "Niebla blanca que llena los valles entre montañas, vista desde un avión al amanecer.",
+   "La niebla es una nube que se forma pegada al suelo. Aparece sobre todo en las mañanas frías, cuando el aire húmedo de los valles se enfría. Foto tomada desde un avión."
+  ],
+  [
+   "Una caseta blanca con rejillas sobre un soporte, para medir la temperatura, entre árboles.",
+   "Dentro de esta caseta blanca con rejillas se colocan termómetros: la sombra y el aire que circula permiten medir bien la temperatura. En Colombia, el IDEAM usa estaciones meteorológicas para informar el estado del tiempo y prevenir emergencias."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es la nube de las tormentas?",
+   [
+    "El cirro",
+    "El cumulonimbo",
+    "El estrato",
+    "La niebla"
+   ],
+   1,
+   "El cumulonimbo es muy alto y trae lluvia fuerte, rayos y truenos."
+  ],
+  [
+   "¿De qué están hechos los cirros?",
+   [
+    "De cristalitos de hielo",
+    "De humo",
+    "De algodón",
+    "De arena"
+   ],
+   0,
+   "Están tan altos que allí hace mucho frío."
+  ],
+  [
+   "¿Qué es la niebla?",
+   [
+    "Humo de los carros",
+    "Una lluvia muy fuerte",
+    "Una nube pegada al suelo",
+    "Polvo del desierto"
+   ],
+   2,
+   "Se forma cuando el aire húmedo cerca del suelo se enfría."
+  ],
+  [
+   "¿Qué mide una estación meteorológica?",
+   [
+    "El tamaño de los árboles",
+    "La velocidad de los carros",
+    "La altura de las personas",
+    "La temperatura, la lluvia y el viento"
+   ],
+   3,
+   "Con esos datos se pronostica el tiempo."
+  ]
+ ],
+ "reviewNotes": null
+}

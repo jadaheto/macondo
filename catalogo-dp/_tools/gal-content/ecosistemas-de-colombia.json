@@ -1,0 +1,38 @@
+{
+"title": "Ecosistemas de Colombia",
+"description": "Del páramo al arrecife de coral: un viaje por los grandes ecosistemas de Colombia —páramos, bosques andinos, selva amazónica, llanos, desiertos, manglares y tepuyes— con ejemplos reales de cada uno.",
+"gradeMin": 4, "gradeMax": 11,
+"categories": ["Ciencias naturales", "Geografía", "Ecosistemas", "Biodiversidad"],
+"cover": 6,
+"items": [
+ ["Valle de montaña cubierto de frailejones de hojas plateadas, bajo un cielo con nubes.",
+  "El páramo es un ecosistema de alta montaña, por encima de unos 3.000 metros, donde crecen los frailejones. Los páramos guardan y regulan el agua que llega a muchas ciudades; Colombia tiene la mayor extensión de páramos del mundo. Foto: páramo de Guerrero."],
+ ["Siluetas de palmas muy altas y delgadas contra el cielo azul del atardecer, sobre colinas oscuras.",
+  "La palma de cera del Quindío (Ceroxylon quindiuense), árbol nacional de Colombia, es una de las palmas más altas del mundo. Crece en los bosques andinos, como en el valle del Cocora (Quindío)."],
+ ["Río tranquilo bordeado de árboles y palmas, con montañas al fondo bajo un cielo nublado.",
+  "El río San Salvador, en La Guajira, baja de la Sierra Nevada de Santa Marta, la montaña costera más alta del mundo. En poca distancia pasa de las nieves a las playas del Caribe, con muchos climas y ecosistemas."],
+ ["Pasarela de madera que entra a una selva espesa e inundada, con árboles altos y plantas verdes.",
+  "La selva amazónica es el bosque tropical más grande del planeta y cubre buena parte del sur de Colombia. En época de lluvias los ríos crecen e inundan el bosque. Esta pasarela está cerca del río Amazonas, en Leticia."],
+ ["Vista aérea de una sabana verde atravesada por un río ancho y curvo, con franjas de bosque.",
+  "Los llanos orientales tienen sabanas que se inundan en la temporada de lluvias y bosques de galería a lo largo de los ríos. Esta foto aérea se tomó en Casanare, a orillas del río Meta."],
+ ["Río de aguas cristalinas con el fondo cubierto de plantas acuáticas rojas, rodeado de árboles.",
+  "Caño Cristales, en la serranía de La Macarena (Meta), es llamado \"el río de los cinco colores\". Su rojo intenso se debe a una planta acuática, la Macarenia clavigera, que crece sobre las rocas del fondo."],
+ ["Paisaje de suelos rojizos erosionados que forman cárcavas y pequeños cañones, bajo un cielo azul con nubes.",
+  "El desierto de La Tatacoa (Huila) es en realidad un bosque seco tropical muy erosionado. Tiene una zona de tierra roja y otra gris, y en él se han encontrado muchos fósiles."],
+ ["Llanura de arena amarilla, plana y sin vegetación, que se extiende hasta el horizonte bajo un cielo despejado.",
+  "La península de La Guajira tiene zonas desérticas con muy poca lluvia, como el camino al Cabo de la Vela. Es territorio ancestral del pueblo wayuu."],
+ ["Orilla de un manglar con raíces y ramas sobre el agua durante la marea baja.",
+  "En la costa del Pacífico también hay grandes manglares, como los del Parque Nacional Natural Utría, en el Chocó. Con la marea baja quedan al descubierto el fango y las raíces."],
+ ["Colonia de coral con ramas anchas y planas de color amarillo dorado, bajo el agua azul verdosa.",
+  "Los corales son animales diminutos que construyen arrecifes, hogar de miles de especies marinas. Este es coral cuerno de alce (Acropora palmata), propio del Caribe; la foto se tomó en Florida. Colombia tiene arrecifes en San Andrés y en las islas del Rosario y San Bernardo."],
+ ["Vista aérea de una selva enorme atravesada por un río sinuoso, con mesetas de paredes rocosas al fondo.",
+  "La serranía de Chiribiquete, entre Caquetá y Guaviare, tiene tepuyes: mesetas de roca muy antiguas que se elevan sobre la selva. Es el parque nacional más grande de Colombia y Patrimonio de la Humanidad."]
+],
+"questions": [
+ ["¿Qué planta típica crece en el páramo?", ["El frailejón", "El mangle rojo", "El cactus cardón"], 0, "Los frailejones son las plantas típicas del páramo."],
+ ["¿A qué se debe el color rojo de Caño Cristales?", ["A una planta acuática que crece en el fondo", "A la arcilla roja", "A peces de color rojo"], 0, "El rojo se debe a la planta acuática Macarenia clavigera."],
+ ["¿Cuál es el árbol nacional de Colombia?", ["La palma de cera del Quindío", "La ceiba", "El mangle blanco"], 0, "La palma de cera del Quindío es el árbol nacional."],
+ ["¿Qué son los corales?", ["Animales diminutos que construyen arrecifes", "Piedras de colores", "Plantas que viven en la arena"], 0, "Los corales son animales que construyen arrecifes."],
+ ["¿Qué son los tepuyes de Chiribiquete?", ["Mesetas de roca muy antiguas sobre la selva", "Volcanes activos", "Lagunas saladas"], 0, "Son mesetas rocosas muy antiguas que se elevan sobre la selva."]
+]
+}

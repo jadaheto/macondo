@@ -1,0 +1,93 @@
+{
+ "title": "Maravillas del mundo moderno",
+ "description": "La Gran Muralla, Petra y el Taj Mahal, junto a grandes obras de ingeniería de los siglos XIX y XX como la torre Eiffel, la Estatua de la Libertad, el canal de Panamá y el puente Golden Gate.",
+ "gradeMin": 4,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Geografía",
+  "Arquitectura",
+  "Patrimonio mundial"
+ ],
+ "cover": 1,
+ "credits": {
+  "7": "Isthmian Historical Society (c. 1913)"
+ },
+ "items": [
+  [
+   "Muralla de piedra con torres de vigilancia que serpentea por montañas cubiertas de bosque.",
+   "La Gran Muralla China se construyó y reconstruyó durante más de dos mil años para proteger el imperio de invasiones del norte. Sumando todos sus tramos, mide más de 20.000 km."
+  ],
+  [
+   "Fachada monumental de color rosado con columnas y esculturas, tallada directamente en una pared de roca.",
+   "El Tesoro de Petra (Jordania) fue tallado en la roca por los nabateos hace unos 2.000 años. Petra era una ciudad de caravanas en medio del desierto."
+  ],
+  [
+   "Gran edificio de mármol blanco con una cúpula central y cuatro torres delgadas, reflejado en un largo estanque.",
+   "El Taj Mahal, en Agra (India), fue construido entre 1632 y 1653 por el emperador Shah Jahan como mausoleo para su esposa Mumtaz Mahal. Su mármol cambia de color con la luz del día."
+  ],
+  [
+   "Fotografía antigua en tono sepia de una torre de hierro casi terminada, con andamios en la parte alta.",
+   "La torre Eiffel en construcción, fotografiada por Louis-Émile Durandelle en 1888-1889. Se armó con unas 18.000 piezas de hierro unidas por millones de remaches."
+  ],
+  [
+   "Torre de hierro muy alta y delgada vista desde un parque, bajo un cielo azul.",
+   "La torre Eiffel se terminó en 1889 para la Exposición Universal de París. Con 300 metros, fue la construcción más alta del mundo durante 41 años."
+  ],
+  [
+   "Isla con una gran estatua verde de una mujer que levanta una antorcha, sobre un pedestal en forma de estrella, rodeada de agua.",
+   "La Estatua de la Libertad fue un regalo de Francia a Estados Unidos en 1886. La diseñó Frédéric Auguste Bartholdi, y Gustave Eiffel diseñó su estructura interior de hierro."
+  ],
+  [
+   "Fotografía panorámica antigua de un gran corte en la tierra con vías de tren y máquinas de excavación.",
+   "Construcción del canal de Panamá hacia 1913. El canal, inaugurado en 1914, une el océano Atlántico con el Pacífico. Panamá era parte de Colombia hasta 1903."
+  ],
+  [
+   "Puente colgante de color rojo anaranjado con dos torres altas sobre la entrada de una bahía, visto desde una playa con rocas.",
+   "El puente Golden Gate, en San Francisco (Estados Unidos), se inauguró en 1937. Fue durante años el puente colgante más largo del mundo."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué océanos une el canal de Panamá?",
+   [
+    "Atlántico y Pacífico",
+    "Índico y Pacífico",
+    "Atlántico e Índico"
+   ],
+   0,
+   "Se inauguró en 1914."
+  ],
+  [
+   "¿Para qué se construyó el Taj Mahal?",
+   [
+    "Como mausoleo para la esposa del emperador",
+    "Como mercado",
+    "Como fortaleza militar"
+   ],
+   0,
+   "Shah Jahan lo construyó en memoria de Mumtaz Mahal."
+  ],
+  [
+   "¿Qué país regaló la Estatua de la Libertad a Estados Unidos?",
+   [
+    "Francia",
+    "España",
+    "Inglaterra"
+   ],
+   0,
+   "Fue un regalo de Francia en 1886."
+  ],
+  [
+   "¿Hasta qué año fue Panamá parte de Colombia?",
+   [
+    "1903",
+    "1810",
+    "1991"
+   ],
+   0,
+   "Panamá se separó de Colombia en 1903."
+  ]
+ ],
+ "reviewNotes": "Machu Picchu, Chichén Itzá y el Coliseo (también 'nuevas maravillas') están en las galerías de incas, mayas y Roma."
+}

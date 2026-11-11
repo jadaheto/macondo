@@ -1,0 +1,36 @@
+{
+ "title": "Sucre: pueblos, playas y tradiciones",
+ "description": "Un paseo por el departamento de Sucre: las playas del golfo de Morrosquillo, las ciénagas de La Mojana, iglesias y parques de sus pueblos y el sombrero vueltiao, símbolo cultural de Colombia.",
+ "gradeMin": 1, "gradeMax": 6,
+ "categories": ["Ciencias sociales", "Región Caribe", "Sucre", "Patrimonio cultural"],
+ "cover": 6,
+ "items": [
+  ["Muelle largo de madera que se adentra en un mar tranquilo y transparente, con rocas en la orilla.",
+   "Coveñas, en el golfo de Morrosquillo, es uno de los destinos de playa más visitados de Sucre. Sus aguas tranquilas son ideales para bañarse y pescar."],
+  ["Iglesia de fachada blanca y roja con una torre puntiaguda, frente a una plaza amplia.",
+   "La iglesia de San Onofre, en el norte de Sucre. San Onofre es uno de los municipios con mayor herencia afrocolombiana del departamento."],
+  ["Ciénaga de aguas tranquilas al atardecer, con una franja de vegetación en el horizonte y nubes en el cielo.",
+   "La ciénaga de Caimito hace parte de La Mojana, una región de ríos, caños y ciénagas en el sur de Sucre. Allí se pesca bocachico y se cultiva arroz."],
+  ["Malecón con bancas y árboles frondosos a la orilla del mar, con un poste de luz.",
+   "El malecón de Santiago de Tolú, fundado en 1535, uno de los pueblos más antiguos de Colombia. Desde allí salen lanchas hacia las islas de San Bernardo."],
+  ["Calle de un pueblo costero con casas bajas de colores, palmeras y un edificio al fondo.",
+   "Una calle de Tolú. Las casas bajas y ventiladas son típicas de los pueblos del Caribe, donde hace calor casi todo el año."],
+  ["Escultura gigante de un sombrero vueltiao con franjas negras y amarillas, sobre una base redonda en un parque.",
+   "Monumento al sombrero vueltiao en Sampués. Este sombrero se teje con fibra de caña flecha, una tradición del pueblo zenú. En 2004 fue elegido símbolo cultural de Colombia."],
+  ["Casona antigua de dos pisos con balcón de madera, iluminada por el sol de la tarde bajo un cielo con nubes.",
+   "Atardecer en Berrugas, un corregimiento costero de San Onofre. Las casonas con balcones de madera recuerdan la arquitectura antigua de la costa."],
+  ["Playa de arena blanca con agua turquesa, palmeras y un espolón de piedra que entra al mar.",
+   "Las playas del golfo de Morrosquillo tienen arena clara y aguas poco profundas. Cerca de ellas crecen manglares que protegen la costa."],
+  ["Plaza moderna con piso de adoquines en zigzag, jardines y árboles al fondo.",
+   "El parque principal de Sampués. En la plaza de cada pueblo se reúnen las familias y se celebran las fiestas patronales."],
+  ["Iglesia de color amarillo claro con dos torres altas, frente a una plaza en construcción.",
+   "La iglesia del municipio de Betulia, en la subregión Sabanas de Sucre, una zona de ganadería y cultivos como el ñame y la yuca."]
+ ],
+ "questions": [
+  ["¿Con qué fibra se teje el sombrero vueltiao?", ["Caña flecha", "Algodón", "Lana de oveja"], 0, "La caña flecha es una tradición del pueblo zenú."],
+  ["¿En qué golfo están Coveñas y Tolú?", ["Golfo de Urabá", "Golfo de Morrosquillo", "Golfo de México"], 1, "El golfo de Morrosquillo baña las costas de Sucre."],
+  ["¿Cómo se llama la región de ciénagas del sur de Sucre?", ["La Mojana", "La Guajira", "El Llano"], 0, "La Mojana es una zona de ríos, caños y ciénagas."],
+  ["¿En qué año se fundó Santiago de Tolú?", ["1535", "1810", "1950"], 0, "Tolú es uno de los pueblos más antiguos de Colombia."]
+ ],
+ "reviewNotes": "Tema solicitado: 'Sincelejo y Sucre en fotos históricas (dominio público)'. En Commons no hay fotos históricas libres de Sincelejo o Sucre; se hizo una galería de fotos actuales con licencia libre. Se descartaron fotos de Sincelejo con multitudes (fiestas, desfiles) y un grupo de caminantes posando, por mostrar personas identificables. La foto de la iglesia de San Onofre muestra a lo lejos a una persona en moto, no identificable."
+}

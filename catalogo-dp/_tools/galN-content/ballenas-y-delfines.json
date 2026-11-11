@@ -1,0 +1,93 @@
+{
+ "title": "Ballenas y delfines",
+ "description": "Yubartas que llegan al Pacífico colombiano a tener sus crías, delfines, orcas, cachalotes y la ballena azul: los cetáceos, mamíferos que viven en el mar.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Mar"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Una ballena jorobada saltando fuera del agua, mostrando su vientre blanco con surcos.",
+   "Cada año, entre julio y octubre, las ballenas jorobadas o yubartas viajan miles de kilómetros desde las aguas frías del sur hasta el Pacífico colombiano para tener a sus crías en aguas cálidas. Sus saltos se pueden ver desde Bahía Solano o Nuquí. Foto tomada en Costa Rica."
+  ],
+  [
+   "Una ballena jorobada saltando junto a su cría en el mar azul.",
+   "Las ballenas son mamíferos, no peces: respiran aire y alimentan a sus crías con leche. Una cría de yubarta nace midiendo unos 4 metros."
+  ],
+  [
+   "La cola de una ballena jorobada saliendo del mar, con la parte de abajo clara.",
+   "Cuando la yubarta se sumerge, levanta la cola. Las manchas blancas y negras de la parte de abajo de la cola son distintas en cada ballena, como una huella digital, y así los científicos las reconocen."
+  ],
+  [
+   "Dos delfines grises nadando en la superficie del mar.",
+   "El delfín nariz de botella es muy inteligente y sociable. Se comunica con silbidos y chasquidos, y usa el eco de los sonidos para encontrar peces, como un sonar. Foto tomada en Portugal."
+  ],
+  [
+   "Un delfín gris con manchas claras saltando entre la espuma de las olas.",
+   "El delfín moteado del Atlántico nace sin manchas: le van apareciendo a medida que crece. Vive en aguas cálidas, también en el Caribe."
+  ],
+  [
+   "Vista desde el aire de una orca negra con manchas blancas nadando en agua verde azulada junto a otro cetáceo más pequeño.",
+   "Aunque le dicen ballena asesina, la orca es en realidad el delfín más grande. Vive en grupos familiares guiados por las hembras mayores. Esta foto de la NOAA se tomó desde el aire para estudiarlas sin molestarlas."
+  ],
+  [
+   "Una madre cachalote y su cría nadando juntas bajo el agua azul.",
+   "El cachalote tiene la cabeza más grande del reino animal y puede bucear a más de 1.000 metros de profundidad para cazar calamares. Esta madre y su cría fueron fotografiadas cerca de la isla Mauricio."
+  ],
+  [
+   "El chorro de vapor de una ballena azul elevándose sobre el mar.",
+   "La ballena azul es el animal más grande que ha existido, más que cualquier dinosaurio: puede medir unos 30 metros. Cuando sale a respirar lanza un chorro de vapor de hasta 9 metros de alto."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Para qué llegan las yubartas al Pacífico colombiano?",
+   [
+    "Para comer bananos",
+    "Para tener a sus crías en aguas cálidas",
+    "Para huir de los tiburones",
+    "Para dormir en la playa"
+   ],
+   1,
+   "Viajan desde aguas frías y llegan entre julio y octubre."
+  ],
+  [
+   "¿Cuál es el animal más grande que ha existido?",
+   [
+    "La ballena azul",
+    "El tiranosaurio",
+    "El cachalote",
+    "El elefante"
+   ],
+   0,
+   "La ballena azul puede medir unos 30 metros, más que cualquier dinosaurio conocido."
+  ],
+  [
+   "¿Cómo reconocen los científicos a cada yubarta?",
+   [
+    "Por su canto favorito",
+    "Por su color de ojos",
+    "Por las manchas de la parte de abajo de la cola",
+    "Por su tamaño"
+   ],
+   2,
+   "Cada cola tiene un dibujo único, como una huella digital."
+  ],
+  [
+   "En realidad, la orca es...",
+   [
+    "un tiburón",
+    "un pez gigante",
+    "una foca",
+    "el delfín más grande"
+   ],
+   3,
+   "La orca pertenece a la familia de los delfines."
+  ]
+ ],
+ "reviewNotes": null
+}

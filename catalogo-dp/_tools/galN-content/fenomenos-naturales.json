@@ -1,0 +1,97 @@
+{
+ "title": "Fenómenos naturales del cielo",
+ "description": "Rayos, el relámpago del Catatumbo, arcoíris, halos, parhelios, auroras, huracanes, granizo y arcoíris de Luna: los espectáculos de la atmósfera explicados con calma.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Clima",
+  "Ciencias de la Tierra"
+ ],
+ "cover": 3,
+ "items": [
+  [
+   "Nubes de tormenta iluminadas de violeta por un rayo sobre una ciudad, de noche.",
+   "Un rayo es una enorme chispa de electricidad entre las nubes y el suelo. Calienta el aire tanto que este se expande de golpe y produce el trueno. Si oyes truenos, lo más seguro es estar dentro de una casa o edificio."
+  ],
+  [
+   "Rayos que caen de nubes de tormenta sobre un lago, al anochecer.",
+   "El relámpago del Catatumbo se produce casi todas las noches del año sobre el lago de Maracaibo, en Venezuela, cerca de la frontera con Colombia. Es el lugar del mundo con más rayos."
+  ],
+  [
+   "Los acantilados rojos del Gran Cañón bajo un cielo nublado con un arcoíris tenue.",
+   "El arcoíris aparece cuando la luz del Sol atraviesa gotas de lluvia: cada gota separa la luz blanca en todos sus colores. Para verlo, el Sol debe estar a tu espalda y la lluvia delante."
+  ],
+  [
+   "Un anillo de luz alrededor del Sol en un cielo con nubes finas, con siluetas de casas abajo.",
+   "Este anillo alrededor del Sol se llama halo. Lo producen millones de cristalitos de hielo en nubes muy altas, que desvían la luz como pequeños prismas."
+  ],
+  [
+   "Atardecer sobre un lago con un velero; a un lado del Sol se ve una mancha de colores.",
+   "Este punto de colores al lado del Sol es un parhelio o «perro del Sol». También se forma por cristales de hielo en las nubes altas."
+  ],
+  [
+   "Cortinas de luz verde de una aurora boreal en el cielo sobre un paisaje con árboles y montañas.",
+   "Las auroras se ven cerca de los polos. Se producen cuando partículas que vienen del Sol chocan con el aire de la Tierra y lo hacen brillar en verde, rosado o morado."
+  ],
+  [
+   "Un gran huracán con forma de espiral de nubes blancas visto desde la Estación Espacial.",
+   "Desde el espacio, un huracán es una gran espiral de nubes. Gracias a satélites y astronautas, los científicos pueden avisar con días de anticipación para que las personas se preparen. Huracán Florence, en 2018."
+  ],
+  [
+   "Bolitas de hielo de granizo sobre el suelo junto a una regla para medir su tamaño.",
+   "El granizo se forma dentro de nubes de tormenta muy altas, donde las gotas de agua suben y bajan con el viento y se congelan en capas, como una cebolla."
+  ],
+  [
+   "Cielo nocturno con nubes sobre una playa de arena, con un arcoíris pálido apenas visible.",
+   "También existen arcoíris de noche: los arcoíris lunares. Se forman con la luz de la Luna llena, que es mucho más débil, por eso se ven pálidos y casi blancos."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué produce el sonido del trueno?",
+   [
+    "Las nubes al chocar",
+    "El aire que se calienta y se expande de golpe por el rayo",
+    "La lluvia al caer",
+    "Los aviones"
+   ],
+   1,
+   "El rayo calienta el aire muchísimo en un instante."
+  ],
+  [
+   "¿Qué necesitas para ver un arcoíris?",
+   [
+    "El Sol a tu espalda y gotas de lluvia delante",
+    "Que sea de noche sin Luna",
+    "Estar en un desierto",
+    "Mirar directo al Sol"
+   ],
+   0,
+   "Cada gota de lluvia separa la luz del Sol en colores."
+  ],
+  [
+   "¿Dónde ocurre el relámpago del Catatumbo?",
+   [
+    "En el polo norte",
+    "En el mar de San Andrés",
+    "Sobre el lago de Maracaibo, cerca de Colombia",
+    "En el desierto del Sahara"
+   ],
+   2,
+   "Es el lugar con más rayos del mundo."
+  ],
+  [
+   "¿Qué hacen los científicos con las imágenes de huracanes tomadas desde el espacio?",
+   [
+    "Las venden",
+    "Las pintan",
+    "Las borran",
+    "Vigilan su avance para avisar a tiempo a las personas"
+   ],
+   3,
+   "Los pronósticos permiten prepararse y protegerse."
+  ]
+ ],
+ "reviewNotes": "Tono tranquilo y orientado a la seguridad (refugiarse bajo techo durante tormentas)."
+}

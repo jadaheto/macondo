@@ -1,0 +1,38 @@
+{
+"title": "El río Magdalena",
+"description": "El Magdalena es el río más importante de Colombia: nace en el sur del país y desemboca en el mar Caribe. Esta galería sigue su recorrido, su historia de navegación y la vida de los pueblos que viven a sus orillas.",
+"gradeMin": 4, "gradeMax": 11,
+"categories": ["Ciencias sociales", "Geografía", "Historia", "Región Caribe"],
+"cover": 2,
+"items": [
+ ["Río estrecho que corre entre grandes rocas lisas y grises, rodeado de vegetación.",
+  "El Magdalena nace en el macizo colombiano, en el Huila. Cerca de San Agustín pasa por el Estrecho del Magdalena, donde el río se encajona entre rocas y su cauce mide apenas unos dos metros de ancho."],
+ ["Amplia vista de un río que forma una gran curva entre colinas verdes, bajo un cielo azul.",
+  "El río visto desde el mirador de la represa de Betania, en el Huila. En su recorrido de más de 1.500 kilómetros, el Magdalena atraviesa el país de sur a norte entre las cordilleras Central y Oriental."],
+ ["Grabado antiguo en blanco y negro de un río ancho con una casa de techo de paja y árboles en la orilla.",
+  "Grabado del siglo XIX del río Magdalena en Girardot (Cundinamarca), obra de Clímaco Calderón. Girardot fue un importante puerto del alto Magdalena."],
+ ["Puente metálico de color gris sobre el río, visto desde un malecón con baranda blanca.",
+  "Puente sobre el río Magdalena entre Girardot (Cundinamarca) y Flandes (Tolima). Los puentes unieron pueblos que antes solo se comunicaban en barca."],
+ ["Puente largo y moderno sobre un río ancho de aguas azules, bajo un cielo con nubes blancas.",
+  "Puente sobre el Magdalena en Barrancabermeja, que une a Santander con Antioquia. Barrancabermeja es un puerto petrolero a orillas del río."],
+ ["Postal antigua de un champán, una barca larga con techo curvo, empujada con varas por varios hombres.",
+  "Tarjeta postal circulada en 1904. El champán era una gran canoa techada que los bogas impulsaban con largas varas. Durante siglos fue el principal transporte por el río, antes de los barcos de vapor."],
+ ["Cartel antiguo con el título Navegación del río Magdalena por vapor, un mapa del río en el centro y tablas de precios a los lados.",
+  "Mapa del siglo XIX con los puertos y las tarifas de los barcos de vapor que recorrían el Magdalena. Los vapores conectaron por más de cien años la costa Caribe con el interior del país."],
+ ["Atardecer anaranjado sobre el río, con árboles oscuros en la orilla y el reflejo del sol en el agua.",
+  "Atardecer en el río frente a Mompox (Bolívar), ciudad colonial que creció gracias al comercio fluvial y es Patrimonio de la Humanidad."],
+ ["Pez plateado de escamas grandes y aletas rojizas, sobre tierra húmeda.",
+  "El bocachico (Prochilodus magdalenae) es uno de los peces más importantes para los pescadores del Magdalena. Cada año remonta el río en grandes cardúmenes durante la \"subienda\"."],
+ ["Casas de madera construidas sobre pilotes en el agua, unidas por un puente de madera.",
+  "Nueva Venecia es un pueblo de palafitos, casas construidas sobre el agua, en la Ciénaga Grande de Santa Marta (Magdalena). Esta ciénaga recibe aguas del río Magdalena y es muy rica en peces."],
+ ["Mar al atardecer visto desde un muelle de rocas, con el sol cerca del horizonte.",
+  "En Bocas de Ceniza, en Barranquilla, el Magdalena desemboca en el mar Caribe. Allí se construyeron largos muros de piedra, llamados tajamares, para que los barcos pudieran entrar al río."]
+],
+"questions": [
+ ["¿Dónde desemboca el río Magdalena?", ["En el mar Caribe, en Bocas de Ceniza", "En el océano Pacífico", "En el río Amazonas"], 0, "Desemboca en el mar Caribe, en Bocas de Ceniza (Barranquilla)."],
+ ["¿Cómo se impulsaba el champán?", ["Con largas varas que manejaban los bogas", "Con un motor de vapor", "Con velas"], 0, "Los bogas lo empujaban con varas."],
+ ["¿Qué pez remonta el río en la \"subienda\"?", ["El bocachico", "El tiburón", "El salmón"], 0, "El bocachico remonta el río en grandes cardúmenes."],
+ ["¿Qué son los palafitos de Nueva Venecia?", ["Casas construidas sobre el agua", "Barcos de vapor", "Puentes de piedra"], 0, "Son casas construidas sobre pilotes en la ciénaga."],
+ ["¿Qué ancho tiene el río en el Estrecho del Magdalena?", ["Apenas unos dos metros", "Un kilómetro", "Cien metros"], 0, "Allí el cauce mide apenas unos dos metros."]
+]
+}

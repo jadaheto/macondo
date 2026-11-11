@@ -1,0 +1,97 @@
+{
+ "title": "Árboles nativos de Colombia",
+ "description": "Ceibas, guayacanes, robles morados, caracolíes, campanos, totumos, orejeros y la palma de cera: árboles de nuestros bosques, sabanas y montañas, y lo que nos dan.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Plantas",
+  "Medio ambiente"
+ ],
+ "cover": 3,
+ "items": [
+  [
+   "Troncos enormes de ceiba con grandes raíces en forma de tabla, dentro de un bosque.",
+   "La ceiba es uno de los árboles más grandes de América: puede superar los 50 metros. Sus raíces forman grandes tablas que la sostienen. Muchos pueblos del Caribe tienen una ceiba en su plaza, y para varias culturas indígenas era un árbol sagrado."
+  ],
+  [
+   "Un fruto abierto de ceiba colgando de una rama, del que sale una fibra blanca y esponjosa como algodón.",
+   "Los frutos de la ceiba guardan las semillas entre una fibra suave llamada lana de ceiba o kapok. El viento se lleva las semillas con su «algodón». Antes se usaba para rellenar almohadas y chalecos salvavidas."
+  ],
+  [
+   "Un guayacán amarillo cubierto completamente de flores amarillas, sin hojas.",
+   "El guayacán amarillo pierde sus hojas en la época seca y se cubre de flores amarillas durante pocos días. Su madera es muy dura y resistente. Foto tomada en Ecuador."
+  ],
+  [
+   "Ramas de roble morado con flores claras, rosadas y blancas, en forma de trompeta entre hojas verdes.",
+   "El roble morado o guayacán rosado llena de flores rosadas los parques y caminos del Caribe colombiano. Aunque le dicen roble, no es pariente de los robles europeos. Da sombra y su madera se usa en muebles."
+  ],
+  [
+   "Racimo de flores pequeñas y botones del caracolí entre hojas verdes grandes.",
+   "El caracolí es un árbol gigante que crece cerca de los ríos y puede superar los 40 metros. Su nombre viene de la forma de su fruto, parecido a un caracol, y es pariente del marañón. En la foto se ven sus pequeñas flores."
+  ],
+  [
+   "Un campano de copa muy ancha con el tronco parcialmente bajo el agua de un río.",
+   "El campano o samán tiene una copa tan ancha que da sombra a todo un potrero. Por las tardes y cuando llueve cierra sus hojas. Es nativo de América tropical; esta foto es del río Mekong, en Asia, adonde fue llevado."
+  ],
+  [
+   "Frutos redondos y verdes de totumo creciendo directamente del tronco, entre hojas pequeñas.",
+   "Del fruto del totumo se hacen las totumas, recipientes tradicionales del Caribe colombiano para servir agua, chicha o sopa. Los frutos crecen pegados al tronco y a las ramas gruesas."
+  ],
+  [
+   "Ramas gruesas y retorcidas de un orejero vistas desde abajo, con hojas finas.",
+   "El orejero o caro tiene frutos en forma de oreja. Es un árbol de las sabanas y los bosques secos, y su copa ancha da mucha sombra al ganado. Foto tomada en México."
+  ],
+  [
+   "Palmas de cera altísimas y delgadas en un valle verde con montañas cubiertas de niebla.",
+   "La palma de cera del Quindío es el árbol nacional de Colombia y la palma más alta del mundo: puede medir más de 50 metros. Crece en los bosques de los Andes y está protegida por la ley."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el árbol nacional de Colombia?",
+   [
+    "La ceiba",
+    "La palma de cera del Quindío",
+    "El guayacán",
+    "El totumo"
+   ],
+   1,
+   "La palma de cera es el árbol nacional y la palma más alta del mundo."
+  ],
+  [
+   "¿Qué se hace con el fruto del totumo?",
+   [
+    "Totumas para servir bebidas y comida",
+    "Papel",
+    "Jugo de naranja",
+    "Juguetes de plástico"
+   ],
+   0,
+   "La totuma es un recipiente tradicional de la Costa hecho con el fruto seco del totumo."
+  ],
+  [
+   "¿Para qué sirve la fibra esponjosa del fruto de la ceiba?",
+   [
+    "Para alimentar al ganado",
+    "Para hacer vidrio",
+    "Para que el viento se lleve las semillas",
+    "Para atrapar insectos"
+   ],
+   2,
+   "Las semillas viajan con el viento gracias a esa fibra, llamada kapok."
+  ],
+  [
+   "¿Cuándo florece el guayacán amarillo?",
+   [
+    "En la noche",
+    "Solo cada cien años",
+    "Cuando llueve todo el año",
+    "En la época seca, después de perder sus hojas"
+   ],
+   3,
+   "Florece pocos días después de perder las hojas, en la época seca."
+  ]
+ ],
+ "reviewNotes": "Algunas fotos son de otros países (Guayana Francesa, Ecuador, México, Laos) porque no se hallaron fotos libres de calidad tomadas en Colombia; se indica en los pies de foto."
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es" data-layout="vertical" data-layout-style="default" data-sidebar="dark" data-topbar="light" data-sidebar-size="lg" data-bs-theme="light">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Formulario PQR · Kit Comfasucre</title><link rel="icon" href="assets/images/favicon.ico">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/icons.min.css">
+<link rel="stylesheet" href="assets/css/app.min.css">
+<link rel="stylesheet" href="assets/css/custom.min.css">
+<link rel="stylesheet" href="assets/css/custom.css">
+<link rel="stylesheet" href="assets/select2/dist/css/select2.min.css">
+<link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css">
+<link rel="stylesheet" href="assets/libs/sweetalert2/sweetalert2.min.css">
+<link rel="stylesheet" href="assets/css/pqr.css">
+<link rel="stylesheet" href="assets/css/turnos-avisos.css">
+<link rel="stylesheet" href="kit/ejemplos.css"></head>
+<body data-kit-page="pqr-formulario.html">
+<!-- Estructura de plantilla: conservar #layout-wrapper, topbar, menú y los tres contenedores de contenido. -->
+<div id="layout-wrapper">
+<header id="page-topbar"><div class="layout-width"><div class="navbar-header"><div class="d-flex align-items-center"><button id="kitMenu" type="button" class="btn header-item" aria-label="Abrir o contraer menú"><i class="ri-menu-2-line fs-22" aria-hidden="true"></i></button><span class="fw-semibold">App Comfasucre</span></div><div class="d-flex align-items-center gap-2"><span class="text-muted small d-none d-sm-inline">Demostración local · datos ficticios</span><button id="kitTheme" type="button" class="btn btn-light" aria-label="Cambiar tema"><i class="ri-moon-line" aria-hidden="true"></i></button></div></div></div></header>
+<aside class="app-menu navbar-menu"><div class="navbar-brand-box"><a href="index.html" class="logo logo-light"><span class="logo-sm"><img src="assets/images/logo_comfasucre_light.png" alt="Comfasucre" height="28"></span><span class="logo-lg"><img src="assets/images/logo_comfasucre_light.png" alt="Comfasucre" height="48"></span></a></div><div id="scrollbar"><div class="container-fluid"><ul class="navbar-nav" id="navbar-nav"><li class="nav-item"><a class="nav-link menu-link " href="index.html"><i class="ri-palette-line" aria-hidden="true"></i><span>Guía del kit</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pqr-bandeja.html"><i class="ri-inbox-line" aria-hidden="true"></i><span>Bandeja PQR</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link active" href="pqr-formulario.html"><i class="ri-edit-box-line" aria-hidden="true"></i><span>Formulario PQR</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pqr-360.html"><i class="ri-user-search-line" aria-hidden="true"></i><span>Vista 360</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="digiturno-recepcion.html"><i class="ri-customer-service-2-line" aria-hidden="true"></i><span>Recepción</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="digiturno-gestor.html"><i class="ri-user-voice-line" aria-hidden="true"></i><span>Gestor</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="digiturno-reportes.html"><i class="ri-bar-chart-box-line" aria-hidden="true"></i><span>Reportes</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="kiosco.html"><i class="ri-hand-heart-line" aria-hidden="true"></i><span>Kiosco</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pantalla-sala.html"><i class="ri-tv-line" aria-hidden="true"></i><span>Pantalla de sala</span></a></li></ul></div></div></aside>
+<div class="vertical-overlay" id="kitOverlay"></div>
+<main class="main-content "><div class="page-content pqr-create-page-content"><div class="container-fluid pqr-shell pqr-create-internal">
+<div class="pqr-hero pqr-create-hero mb-2"><div class="pqr-create-hero-content"><div><span class="pqr-kicker">Registro interno</span><h3>Radicar una PQR</h3><p>Plantilla de formulario seccionado · datos de demostración.</p></div><a class="pqr-create-back" href="pqr-bandeja.html"><i class="ri-arrow-left-line" aria-hidden="true"></i> Volver a bandeja</a></div></div>
+<nav class="pqr-create-nav" aria-label="Secciones del formulario"><a class="pqr-create-jump is-active" href="#pqrCreateApplicant" aria-current="location"><span class="pqr-create-step-number">01</span><span class="pqr-create-step-copy"><strong>Solicitante</strong><small>Datos del solicitante</small></span></a><a class="pqr-create-jump " href="#pqrCreateReception" ><span class="pqr-create-step-number">02</span><span class="pqr-create-step-copy"><strong>Recepción</strong><small>Canal y sede</small></span></a><a class="pqr-create-jump " href="#pqrCreateRequest" ><span class="pqr-create-step-number">03</span><span class="pqr-create-step-copy"><strong>Solicitud</strong><small>Detalles</small></span></a><a class="pqr-create-jump " href="#pqrCreateGuidance" ><span class="pqr-create-step-number">04</span><span class="pqr-create-step-copy"><strong>Orientación</strong><small>Revisión</small></span></a></nav>
+<form id="pqrCreate" novalidate data-kit-form>
+<section id="pqrCreateApplicant" class="pqr-form-section pqr-create-applicant"><h5 class="pqr-create-section-heading"><i class="ri-user-line" aria-hidden="true"></i><span><strong>Datos del solicitante</strong><small>Campos alineados en pares y contacto en tercios.</small></span></h5><div class="row g-3"><div class="col-md-6"><label for="tipoDocumento" class="required">Tipo de documento</label><select id="tipoDocumento" name="tipo_documento" class="form-select" data-kit-select required><option value="">Selecciona</option><option value="CC">Cédula de ciudadanía</option><option value="CE">Cédula de extranjería</option></select></div><div class="col-md-6"><label for="documento" class="required">Documento</label><input id="documento" name="numero_documento" class="form-control" type="text" required></div><div class="col-md-6"><label for="nombre" class="required">Nombres</label><input id="nombre" name="nombres" class="form-control" type="text" required></div><div class="col-md-6"><label for="apellido" class="required">Apellidos</label><input id="apellido" name="apellidos" class="form-control" type="text" required></div><div class="col-md-4"><label for="correo">Correo</label><input id="correo" name="correo" class="form-control" type="email"></div><div class="col-md-4"><label for="telefono">Celular</label><input id="telefono" name="telefono" class="form-control" type="tel"></div><div class="col-md-4"><label for="direccion">Dirección</label><input id="direccion" name="direccion" class="form-control" type="text"></div></div><div class="pqr-identity-result mt-2"><small class="text-muted">La consulta de identidad se conecta al backend del nuevo proyecto.</small></div></section>
+<section id="pqrCreateReception" class="pqr-form-section pqr-create-reception"><h5 class="pqr-create-section-heading"><i class="ri-inbox-line" aria-hidden="true"></i><span><strong>Recepción</strong><small>Canal y fecha del registro.</small></span></h5><div class="row g-3"><div class="col-12"><label for="canal">Canal</label><select id="canal" name="canal" class="form-select" data-kit-select><option>Presencial</option><option>Correo electrónico</option><option>Telefónico</option></select></div><div class="col-12"><label for="fecha">Fecha de recepción</label><input id="fecha" name="fecha_recepcion" class="form-control" type="text"></div></div></section>
+<section id="pqrCreateRequest" class="pqr-form-section pqr-create-request"><h5 class="pqr-create-section-heading"><i class="ri-file-text-line" aria-hidden="true"></i><span><strong>Solicitud</strong><small>Describe la necesidad y adjunta el soporte.</small></span></h5><div class="row g-3"><div class="col-12"><label for="pqrSubject" class="required">Asunto</label><input id="pqrSubject" name="asunto" class="form-control" type="text" required></div><div class="col-12"><label for="pqrDescription" class="required">Descripción</label><textarea id="pqrDescription" name="descripcion" class="form-control" rows="5" maxlength="12000" required></textarea><small id="pqrDescriptionCount" class="pqr-description-count" aria-live="polite">0 / 12000</small></div><div class="col-12 pqr-attachments-column"><label for="pqrFiles">Adjuntos</label><div class="pqr-attachments" data-pqr-attachments>
+<input id="pqrFiles" type="file" name="adjuntos[]" multiple class="form-control" accept=".pdf,.png,.jpg,.jpeg,.doc,.docx,.xls,.xlsx,.txt" aria-describedby="pqrFilesHelp pqrFilesCount">
+<div class="pqr-attachments-layout">
+<div class="pqr-files-drop" data-files-drop hidden><i class="ri-upload-cloud-2-line pqr-files-cloud" aria-hidden="true"></i><span><strong>Arrastra y suelta archivos aquí</strong><small>O selecciona desde tu equipo</small></span><button type="button" class="btn btn-outline-primary" data-files-select>Seleccionar archivos</button></div>
+<ul class="pqr-files-list" data-files-list aria-label="Archivos seleccionados"></ul>
+</div>
+<small id="pqrFilesHelp" class="text-muted">Máximo 10 archivos de 10 MB cada uno. Formatos: PDF, PNG, JPG, JPEG, DOC, DOCX, XLS, XLSX y TXT.</small>
+<p class="pqr-files-fallback" data-files-fallback hidden>Este navegador reemplaza la selección al elegir archivos de nuevo. Puedes usar «Quitar todos» para vaciarla.</p>
+<div class="pqr-files-footer"><small id="pqrFilesCount" data-files-count aria-live="polite">0 de 10 archivos seleccionados</small><button type="button" class="pqr-files-clear" data-files-clear hidden>Quitar todos</button></div>
+<div class="pqr-files-messages" data-files-messages role="alert" hidden></div>
+</div>
+</div><div class="col-12 pqr-consent-column"><div class="pqr-consent-panel"><div class="form-check"><input id="pqrConsent" name="autoriza_datos" class="form-check-input" type="checkbox" required><label for="pqrConsent" class="form-check-label required">Autorizo el tratamiento de mis datos personales para gestionar esta solicitud.</label></div><p class="pqr-consent-note"><i class="ri-information-fill" aria-hidden="true"></i><span>Texto de ejemplo. Sustituye la política por la aprobada para tu proyecto.</span></p></div></div></div></section>
+<details id="pqrCreateGuidance" class="pqr-form-section pqr-create-guidance"><summary><span class="pqr-create-guidance-heading"><i class="ri-shield-check-line" aria-hidden="true"></i><span><strong>Orientación y revisión</strong><small>Información complementaria desplegable</small></span></span><span class="pqr-create-guidance-action">Ver orientación <i class="ri-arrow-down-s-line" aria-hidden="true"></i></span></summary><div class="pqr-create-guidance-body"><p>Este espacio conserva la composición; la consulta real necesita los servicios del proyecto.</p><a href="pqr-360.html" class="btn btn-outline-primary">Ver estructura de Vista 360</a></div></details>
+<div class="pqr-create-actions d-flex flex-column flex-sm-row justify-content-end align-items-center gap-2"><small class="pqr-create-review-hint">Demostración: no se envía información.</small><a href="pqr-bandeja.html" class="btn btn-light">Cancelar</a><button class="btn btn-pqr" type="submit"><i class="ri-send-plane-line me-1" aria-hidden="true"></i> Revisar formulario</button></div></form>
+</div></div></main></div>
+<script src="assets/js/funciones/jquery-3.6.4.min.js"></script>
+<script src="dist/jquery.validate.min.js"></script>
+<script src="assets/select2/dist/js/select2.min.js"></script>
+<script src="assets/select2/dist/js/i18n/es.js"></script>
+<script src="assets/libs/flatpickr/flatpickr.min.js"></script>
+<script src="assets/libs/flatpickr/l10n/es.js"></script>
+<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libs/sweetalert2/sweetalert2.min.js"></script>
+<script src="assets/libs/cleave.js/cleave.min.js"></script>
+<script src="assets/js/pqr-validation.js"></script>
+<script src="assets/js/pqr-components.js"></script>
+<script src="assets/js/turnos-avisos.js"></script>
+<script src="assets/js/pqr-attachments.js"></script>
+<script src="kit/ejemplos.js"></script>
+</body></html>

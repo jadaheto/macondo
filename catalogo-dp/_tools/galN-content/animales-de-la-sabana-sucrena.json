@@ -1,0 +1,94 @@
+{
+ "title": "Animales de la sabana sucreña",
+ "description": "El alcaraván vigilante, la garcita del ganado, el turpial, el sinsonte, los pisingos y otros vecinos de los potreros, ciénagas y montes de las sabanas de Sucre.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Sucre",
+  "Región Caribe"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Un alcaraván gris con el pecho negro, cresta fina y patas rosadas, parado junto a un charco.",
+   "El alcaraván es el vigilante de las sabanas y potreros de Sucre: cuando algo se acerca, grita fuerte y avisa a todos. Tiene una espuela roja en cada ala para defenderse. Foto tomada en Tobago."
+  ],
+  [
+   "Una garcita blanca de pico amarillo caminando por un camino de piedras.",
+   "La garcita del ganado acompaña a las vacas y los caballos en los potreros. Cuando el ganado camina, espanta insectos y saltamontes, y la garza los atrapa. Es muy común en todo el Caribe colombiano."
+  ],
+  [
+   "Un turpial de plumas negras y anaranjadas posado sobre un cactus.",
+   "El turpial tiene un canto muy bonito y colores anaranjados y negros. Vive en las zonas secas del Caribe colombiano y le gustan las frutas y el néctar de las flores de los cactus."
+  ],
+  [
+   "Un sinsonte gris y blanco de cola larga posado entre plantas.",
+   "El sinsonte es famoso por su canto: puede imitar el canto de otras aves. Es muy común en patios, cercas y potreros de la costa Caribe."
+  ],
+  [
+   "Una fila de patos pisingos de pico rojo nadando juntos en el agua.",
+   "Los pisingos son patos que silban en vez de graznar. Viven en las ciénagas y lagunas de la sabana y a menudo se posan en los árboles. Andan en grupos grandes."
+  ],
+  [
+   "Un garrapatero de plumas negras y pico grueso posado en una rama.",
+   "El garrapatero es un ave negra de pico grueso y cola larga que anda en grupos. Recibe su nombre porque come garrapatas e insectos que encuentra cerca del ganado."
+  ],
+  [
+   "Un conejo silvestre de pelo café grisáceo sentado sobre la hierba.",
+   "El conejo sabanero vive en potreros y matorrales. Sale a comer hierba al amanecer y al atardecer, y si se asusta corre en zigzag para escapar. Esta foto es de Canadá; la misma especie vive en el Caribe colombiano."
+  ],
+  [
+   "Una lagartija de cabeza oscura y cuerpo verde y café con puntos claros, sobre hojas secas.",
+   "Las lagartijas como esta, a las que en la Costa llaman lobitos, corren muy rápido por el suelo caliente buscando insectos y arañas. Necesitan el sol para calentar su cuerpo. Esta fue fotografiada en Tobago."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué se dice que el alcaraván es un vigilante?",
+   [
+    "Porque no duerme nunca",
+    "Porque grita y avisa cuando algo se acerca",
+    "Porque cuida a las vacas",
+    "Porque vive en las casas"
+   ],
+   1,
+   "Su grito fuerte alerta a otros animales y a las personas de la finca."
+  ],
+  [
+   "¿Por qué la garcita del ganado acompaña a las vacas?",
+   [
+    "Para atrapar los insectos que el ganado espanta al caminar",
+    "Para tomar leche",
+    "Para dormir sobre ellas",
+    "Para protegerlas del sol"
+   ],
+   0,
+   "Al caminar, el ganado levanta insectos y saltamontes que la garcita come."
+  ],
+  [
+   "¿Qué ave puede imitar el canto de otras aves?",
+   [
+    "El pisingo",
+    "La garcita",
+    "El sinsonte",
+    "El garrapatero"
+   ],
+   2,
+   "El sinsonte es un gran imitador y canta mucho en patios y potreros."
+  ],
+  [
+   "¿Qué patos silban en vez de graznar?",
+   [
+    "Los patos criollos",
+    "Los patos de juguete",
+    "Los cormoranes",
+    "Los pisingos"
+   ],
+   3,
+   "Los pisingos silban y viven en ciénagas y lagunas."
+  ]
+ ],
+ "reviewNotes": "Fotos de las mismas especies tomadas fuera de Sucre (Tobago, Belice, Canadá, Francia); no se hallaron fotos libres de calidad tomadas en Sucre. «Lobito» es nombre local aproximado para lagartijas del género Ameiva."
+}

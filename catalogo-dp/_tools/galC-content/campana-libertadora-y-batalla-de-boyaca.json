@@ -1,0 +1,35 @@
+{
+ "title": "La Campaña Libertadora y la Batalla de Boyacá",
+ "description": "En 1819 el ejército patriota cruzó los Andes desde los Llanos y venció a las tropas realistas en el Puente de Boyacá. Pinturas, grabados y lugares históricos para entender cómo comenzó la independencia definitiva de la Nueva Granada.",
+ "gradeMin": 4, "gradeMax": 11,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Independencia"],
+ "cover": 3,
+ "credits": {"2": "Francisco Antonio Cano (pintura de 1922); fotografía publicada con licencia CC BY-SA 4.0", "5": "Papel Periódico Ilustrado (grabado, 1883)", "7": "Fotógrafo anónimo (1919)"},
+ "items": [
+  ["Pintura de trazos sueltos con soldados a caballo y a pie, de sombrero y ropa sencilla, avanzando por un terreno montañoso.",
+   "El paso de los Andes, pintado por Andrés de Santa María en 1897. Muestra a los soldados del ejército libertador, muchos de ellos llaneros, durante la difícil travesía de 1819."],
+  ["Pintura de un grupo de soldados con caballos y lanzas en un páramo nublado; algunos ayudan a un compañero caído.",
+   "Francisco Antonio Cano pintó en 1922 el paso del ejército por el páramo de Pisba. Los soldados subieron desde los Llanos casi sin abrigo, y muchos murieron de frío en el camino."],
+  ["Detalle de una pintura de batalla con muchos soldados y caballos en combate entre humo y polvo.",
+   "Detalle de la Batalla de Boyacá pintada por el venezolano Martín Tovar y Tovar. El 7 de agosto de 1819 el ejército patriota venció a las tropas del rey en unas dos horas."],
+  ["Grabado de un militar de pie con uniforme de casaca oscura, pantalón claro, botas altas y una espada.",
+   "Simón Bolívar dirigió la Campaña Libertadora. Este grabado de 1827 se basa en un retrato pintado por José Gil de Castro."],
+  ["Grabado en blanco y negro del busto de un militar con uniforme de cuello alto y charreteras.",
+   "José Antonio Anzoátegui comandó la retaguardia patriota en Boyacá y fue clave en la victoria. Murió pocos meses después, en noviembre de 1819."],
+  ["Pequeño puente blanco de un arco sobre una quebrada, rodeado de pasto verde y caminos.",
+   "El Puente de Boyacá, cerca de Tunja, cruza el río Teatinos. Allí se libró la batalla: los patriotas impidieron que el ejército realista llegara a Santafé de Bogotá."],
+  ["Fotografía antigua en blanco y negro de una multitud de hombres con sombrero reunidos al aire libre.",
+   "Celebración del primer centenario de la Batalla de Boyacá en el Puente de Boyacá, en 1919. Desde entonces, el 7 de agosto es fiesta nacional en Colombia."],
+  ["Arco de piedra clara con columnas, medallones redondos y un águila de bronce encima, entre árboles.",
+   "El Arco del Triunfo es uno de los monumentos del campo de batalla, hoy declarado monumento nacional. Recuerda a los héroes de la independencia."],
+  ["Estatua de bronce de un hombre de pie con capa larga sobre un pedestal, rodeada de árboles.",
+   "Estatua de Francisco de Paula Santander en el Puente de Boyacá. Santander dirigió la vanguardia patriota en la batalla y luego fue vicepresidente."]
+ ],
+ "questions": [
+  ["¿En qué fecha fue la Batalla de Boyacá?", ["20 de julio de 1810", "7 de agosto de 1819", "12 de octubre de 1492"], 1, "El 7 de agosto de 1819; por eso esa fecha es fiesta nacional."],
+  ["¿Qué cordillera cruzó el ejército libertador desde los Llanos?", ["La cordillera Oriental de los Andes", "La Sierra Nevada de Santa Marta", "Los Montes de María"], 0, "Subieron por el páramo de Pisba, en la cordillera Oriental."],
+  ["¿Quién dirigió la vanguardia patriota en la batalla?", ["Francisco de Paula Santander", "Antonio Nariño", "Rafael Núñez"], 0, "Santander estaba al frente de la vanguardia; Anzoátegui, de la retaguardia."],
+  ["¿Por qué era importante ganar en el Puente de Boyacá?", ["Para impedir que los realistas llegaran a Santafé", "Para conquistar el mar Caribe", "Para fundar Tunja"], 0, "Tras la derrota realista, Bolívar entró a Santafé de Bogotá el 10 de agosto."]
+ ],
+ "reviewNotes": "Complementa la galería independencia-de-colombia (sin repetir archivos). La obra de Andrés de Santa María (†1945) cumple la regla de 80 años post mortem; la de F. A. Cano (†1935) también."
+}

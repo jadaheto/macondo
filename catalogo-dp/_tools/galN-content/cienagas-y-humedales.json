@@ -1,0 +1,98 @@
+{
+ "title": "Ciénagas y humedales",
+ "description": "La Mojana, la ciénaga de Zapatosa, la Ciénaga Grande de Santa Marta y los humedales de las ciudades: ecosistemas de agua que regulan las inundaciones, dan pesca y refugio a miles de aves.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Ecosistemas",
+  "Agua",
+  "Región Caribe"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Atardecer sobre la ciénaga de Zapatosa, con nubes iluminadas reflejadas en el agua.",
+   "La ciénaga de Zapatosa, en el Cesar, es una de las ciénagas de agua dulce más grandes de Colombia. Las ciénagas se llenan con el agua de los ríos en época de lluvias y la devuelven poco a poco."
+  ],
+  [
+   "Panorámica muy alargada de la Ciénaga Grande de Santa Marta: agua, una franja de vegetación y cielo nublado.",
+   "La Ciénaga Grande de Santa Marta es la laguna costera más grande de Colombia: allí se mezcla el agua dulce del río Magdalena con el agua salada del mar Caribe. Es un sitio Ramsar y una reserva de biosfera."
+  ],
+  [
+   "Construcciones de madera sobre pilotes en medio del agua de la Ciénaga Grande de Santa Marta.",
+   "En la Ciénaga Grande hay pueblos palafíticos, con casas construidas sobre pilotes encima del agua, como Nueva Venecia. Sus habitantes se mueven en canoa y viven de la pesca."
+  ],
+  [
+   "Un ave rapaz de plumas cafés posada en una rama sobre la ciénaga, en La Mojana.",
+   "La Mojana es una gran región de ciénagas y caños entre Sucre, Bolívar, Córdoba y Antioquia. Aquí un ave rapaz espera su oportunidad para atrapar un pez."
+  ],
+  [
+   "Plantas de buchón de agua con hojas redondas brillantes y flores lilas flotando en el agua.",
+   "El buchón de agua flota gracias a sus tallos inflados. Sus flores lilas son muy bonitas, pero si hay mucha contaminación crece tanto que cubre toda la ciénaga y deja sin oxígeno a los peces."
+  ],
+  [
+   "Una flor de nenúfar blanca con centro amarillo flotando entre hojas redondas.",
+   "Los nenúfares tienen raíces en el fondo de la ciénaga y hojas que flotan en la superficie. Sus flores se abren de día y se cierran de noche."
+  ],
+  [
+   "Un gallito de ciénaga en vuelo, con las alas amarillo verdosas abiertas y patas muy largas.",
+   "El gallito de ciénaga tiene dedos larguísimos que reparten su peso: así puede caminar sobre las hojas flotantes sin hundirse. Al volar muestra el amarillo de sus alas."
+  ],
+  [
+   "Una chilacoa de cuello gris, cuerpo café y pico amarillo caminando en el barro.",
+   "La chilacoa vive en manglares, ciénagas y orillas de ríos. Es tímida y se esconde entre la vegetación, pero se hace notar por su canto fuerte al amanecer. Foto tomada en Puerto Nare, Antioquia."
+  ],
+  [
+   "Humedal urbano con agua cubierta de plantas flotantes verdes, juncos y árboles alrededor.",
+   "Las ciudades también tienen humedales. Este es el humedal Santa María del Lago, en Bogotá, hogar de tinguas y otras aves. Cuidarlos ayuda a evitar inundaciones y a limpiar el agua."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué hacen las ciénagas en la época de lluvias?",
+   [
+    "Se secan",
+    "Se llenan con el agua de los ríos y luego la devuelven poco a poco",
+    "Se congelan",
+    "Producen petróleo"
+   ],
+   1,
+   "Las ciénagas funcionan como esponjas que regulan las inundaciones."
+  ],
+  [
+   "¿Qué es un pueblo palafítico?",
+   [
+    "Un pueblo con casas sobre pilotes encima del agua",
+    "Un pueblo en la montaña",
+    "Un pueblo bajo tierra",
+    "Un pueblo de casas de hielo"
+   ],
+   0,
+   "En la Ciénaga Grande de Santa Marta hay pueblos palafíticos como Nueva Venecia."
+  ],
+  [
+   "¿Qué región de ciénagas compartida con Sucre aparece en la galería?",
+   [
+    "Los Llanos",
+    "La Guajira",
+    "La Mojana",
+    "El Chocó"
+   ],
+   2,
+   "La Mojana se extiende por Sucre, Bolívar, Córdoba y Antioquia."
+  ],
+  [
+   "¿Por qué el gallito de ciénaga puede caminar sobre las hojas flotantes?",
+   [
+    "Porque vuela muy bajo",
+    "Porque es muy pesado",
+    "Porque nada debajo",
+    "Porque sus dedos larguísimos reparten su peso"
+   ],
+   3,
+   "Sus dedos largos funcionan como raquetas de nieve."
+  ]
+ ],
+ "reviewNotes": "02 es una panorámica muy alargada (1600×295 px)."
+}

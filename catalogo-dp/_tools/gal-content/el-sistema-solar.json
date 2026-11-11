@@ -1,0 +1,40 @@
+{
+"title": "El sistema solar",
+"description": "Fotografías reales del Sol, los planetas, la Luna, el planeta enano Plutón y un cometa, tomadas por sondas espaciales, telescopios y astronautas, con datos curiosos de cada uno.",
+"gradeMin": 1, "gradeMax": 8,
+"categories": ["Ciencias naturales", "Astronomía", "Espacio"],
+"cover": 8,
+"items": [
+ ["El Sol visto como una esfera anaranjada brillante con una superficie granulada y zonas más claras.",
+  "El Sol es una estrella y concentra casi toda la masa del sistema solar. Esta imagen del observatorio solar SDO de la NASA fue tomada con luz ultravioleta, que nuestros ojos no ven; por eso tiene esos colores."],
+ ["Planeta gris lleno de cráteres, iluminado de un lado sobre el fondo negro del espacio.",
+  "Mercurio es el planeta más pequeño y el más cercano al Sol. Su superficie está llena de cráteres, como la de la Luna. Imagen de la sonda MESSENGER."],
+ ["Esfera de color crema pálido, lisa y sin detalles, sobre fondo negro.",
+  "Venus está cubierto de nubes espesas que atrapan el calor: es el planeta más caliente, con más de 400 °C en su superficie. Imagen procesada a partir de fotos de la sonda Mariner 10."],
+ ["La Tierra vista desde el espacio: océanos azules, nubes blancas en remolino, el continente africano y el hielo de la Antártida.",
+  "\"La canica azul\": la Tierra fotografiada en 1972 por los astronautas del Apolo 17. Se ven África, el océano y la Antártida. Es el único planeta conocido con vida."],
+ ["La Luna llena de color gris, con manchas oscuras y cráteres claros.",
+  "La Luna es el único satélite natural de la Tierra. Las manchas oscuras son llanuras de roca volcánica llamadas \"mares\", aunque no tienen agua. Foto tomada con un telescopio desde la Tierra."],
+ ["Planeta de color ocre rojizo con una larga grieta oscura que lo cruza por el centro.",
+  "Marte es el planeta rojo: su color se debe al óxido de hierro del suelo. La gran grieta es el valle Marineris, un cañón de unos 4.000 km de largo. Mosaico de la sonda Viking 1."],
+ ["Planeta gigante con franjas horizontales de colores crema, café y naranja, y una mancha rojiza ovalada.",
+  "Júpiter es el planeta más grande. Su Gran Mancha Roja es una tormenta más grande que la Tierra que dura desde hace siglos. Foto del telescopio espacial Hubble (2014)."],
+ ["Planeta de color crema rodeado por anillos delgados vistos casi de canto.",
+  "Saturno tiene los anillos más grandes del sistema solar, formados por trozos de hielo y roca. Imagen de la sonda Cassini."],
+ ["Esfera de color azul verdoso claro, lisa, sobre fondo negro.",
+  "Urano gira \"acostado\", con su eje casi tumbado. Su color se debe al gas metano de su atmósfera. Foto de la sonda Voyager 2 (1986)."],
+ ["Planeta de color azul intenso con algunas nubes blancas y una mancha oscura.",
+  "Neptuno es el planeta más lejano del Sol y tiene los vientos más fuertes del sistema solar. Foto de la sonda Voyager 2 (1989)."],
+ ["Cuerpo redondo de tonos beige y café con una gran zona clara en forma de corazón.",
+  "Plutón es un planeta enano desde 2006. La sonda New Horizons lo fotografió en 2015 y descubrió una gran llanura de hielo con forma de corazón."],
+ ["Cometa brillante con una cola blanca ancha y otra cola azul más delgada sobre un cielo estrellado.",
+  "El cometa Hale-Bopp se vio a simple vista en 1997. Los cometas son bolas de hielo y polvo; al acercarse al Sol forman colas que apuntan en dirección contraria al Sol."]
+],
+"questions": [
+ ["¿Por qué Marte se ve rojo?", ["Por el óxido de hierro de su suelo", "Porque está muy caliente", "Porque tiene volcanes de lava"], 0, "Su color se debe al óxido de hierro del suelo."],
+ ["¿Cuál es el planeta más caliente del sistema solar?", ["Venus", "Mercurio", "Júpiter"], 0, "Venus, por sus nubes espesas que atrapan el calor."],
+ ["¿Qué es la Gran Mancha Roja de Júpiter?", ["Una tormenta más grande que la Tierra", "Un volcán", "Un océano"], 0, "Es una tormenta gigantesca que dura desde hace siglos."],
+ ["¿De qué están hechos los anillos de Saturno?", ["De trozos de hielo y roca", "De gas caliente", "De arena del desierto"], 0, "Los anillos son trozos de hielo y roca."],
+ ["¿Qué forma tiene la gran llanura de hielo que se descubrió en Plutón?", ["De corazón", "De estrella", "De triángulo"], 0, "New Horizons descubrió una llanura de hielo con forma de corazón."]
+]
+}

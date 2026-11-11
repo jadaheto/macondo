@@ -1,0 +1,90 @@
+{
+ "title": "Arte colombiano de la Colonia y el siglo XIX",
+ "description": "Pinturas de Gregorio Vásquez de Arceo y Ceballos, el gran pintor de la Santafé colonial, y de artistas del siglo XIX y comienzos del XX como Pedro José Figueroa, José María Espinosa, Ricardo Acevedo Bernal y Francisco Antonio Cano.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Artes",
+  "Historia del arte",
+  "Arte colombiano",
+  "Historia de Colombia"
+ ],
+ "cover": 3,
+ "items": [
+  [
+   "Pintura religiosa de un ángel con alas que se presenta ante una joven arrodillada, con una paloma blanca entre nubes doradas.",
+   "La Anunciación, de Gregorio Vásquez de Arceo y Ceballos (siglo XVII). Vásquez, nacido en Santafé en 1638, pintó más de cien obras para iglesias y conventos de la Nueva Granada."
+  ],
+  [
+   "Pintura de una religiosa con hábito blanco y negro y corona de flores, que sostiene en brazos a un niño.",
+   "Santa Rosa de Lima, de Vásquez de Arceo. Santa Rosa, nacida en Lima en 1586, fue la primera santa de América y era muy venerada en la Nueva Granada."
+  ],
+  [
+   "Escena interior en penumbra con una mujer que cose junto a un ángel, y dos niños que juegan, uno de ellos con alas.",
+   "La Sagrada Familia en el hogar, de Vásquez de Arceo. El pintor usaba colores suaves y escenas cotidianas, con ángeles que acompañan las tareas de la casa. Se conserva en el Museo Colonial de Bogotá."
+  ],
+  [
+   "Retrato de un caballero del siglo XVIII con peluca blanca y casaca verde bordada en oro, frente a una cortina roja, con un escudo de armas, libros y un texto al pie.",
+   "Retrato atribuido a Joaquín Gutiérrez, pintor santafereño del siglo XVIII conocido por sus retratos de virreyes y personajes importantes, con escudos y textos que explican quién es el retratado."
+  ],
+  [
+   "Retrato de un militar con patillas y bigote, uniforme rojo con adornos negros y dorados, charreteras y una banda azul.",
+   "Retrato del general José Antonio Anzoátegui, pintado en 1822 por Pedro José Figueroa. Figueroa fue el principal retratista de los héroes de la independencia."
+  ],
+  [
+   "Pintura de un militar con sombrero de plumas blancas montado en un caballo blanco, sobre un fondo claro.",
+   "El general José María Melo a caballo (hacia 1854), por José María Espinosa, pintor y soldado que combatió en la independencia y luego pintó a sus protagonistas."
+  ],
+  [
+   "Retrato de Simón Bolívar de pie con chaleco rojo bordado, capa azul y pantalón blanco.",
+   "Retrato de Simón Bolívar pintado en 1922 por Ricardo Acevedo Bernal, pintor bogotano que dirigió la Escuela de Bellas Artes y retrató a muchos personajes de la historia."
+  ],
+  [
+   "Pintura de un campesino con sombrero que señala a lo lejos, sentado junto a una mujer con pañuelo en la cabeza, frente a un paisaje de montañas.",
+   "Horizontes (1913), de Francisco Antonio Cano, muestra a una pareja de colonos antioqueños que mira hacia nuevas tierras. Está en el Museo de Antioquia, en Medellín."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál fue el gran pintor de la Santafé colonial?",
+   [
+    "Gregorio Vásquez de Arceo y Ceballos",
+    "Fernando Botero",
+    "Claude Monet"
+   ],
+   0,
+   "Nació en Santafé en 1638."
+  ],
+  [
+   "¿Qué representa la pintura Horizontes?",
+   [
+    "Una familia de colonos mirando nuevas tierras",
+    "Una batalla naval",
+    "Un bodegón de frutas"
+   ],
+   0,
+   "Es una obra de Francisco Antonio Cano de 1913."
+  ],
+  [
+   "¿Quién fue el principal retratista de los héroes de la independencia?",
+   [
+    "Pedro José Figueroa",
+    "Rembrandt",
+    "Leonardo da Vinci"
+   ],
+   0,
+   "Pintó a Anzoátegui en 1822."
+  ],
+  [
+   "¿Quién fue la primera santa de América?",
+   [
+    "Santa Rosa de Lima",
+    "Santa Bárbara",
+    "Santa Marta"
+   ],
+   0,
+   "Vásquez de Arceo la pintó en el siglo XVII."
+  ]
+ ],
+ "reviewNotes": "Todos los autores murieron en 1945 o antes (Vásquez †1711, Gutiérrez s. XVIII, Figueroa †1838, Espinosa †1883, Acevedo Bernal †1930, Cano †1935). No se hallaron en Commons obras de Epifanio Garay o Andrés de Santa María con resolución suficiente (Las segadoras fue rechazada en el lote anterior); la obra de Santa María aparece en la galería de la Campaña Libertadora."
+}

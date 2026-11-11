@@ -1,0 +1,102 @@
+{
+ "title": "Microorganismos al microscopio",
+ "description": "Paramecios, amebas, diatomeas, tardígrados, rotíferos, algas y bacterias: el mundo invisible que descubrió Anton van Leeuwenhoek con sus pequeños microscopios en el siglo XVII.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias naturales",
+  "Microorganismos",
+  "Biología",
+  "Historia de la ciencia"
+ ],
+ "cover": 5,
+ "items": [
+  [
+   "Réplica de un pequeño microscopio de metal en forma de placa, con un tornillo y una lente diminuta.",
+   "Anton van Leeuwenhoek, un comerciante holandés, construyó microscopios como este, con una sola lente diminuta. Hacia 1676 fue el primero en ver bacterias y protozoos, a los que llamó «animálculos». Esta es una réplica."
+  ],
+  [
+   "Un paramecio alargado en forma de suela de zapato, visto al microscopio óptico.",
+   "El paramecio es un ser vivo de una sola célula que vive en charcos y estanques. Está cubierto de pelitos llamados cilios, que mueve como remos para nadar y para llevar comida a su boca."
+  ],
+  [
+   "Una ameba de forma irregular con prolongaciones como brazos, vista al microscopio.",
+   "La ameba cambia de forma todo el tiempo: estira partes de su cuerpo, llamadas seudópodos, para moverse y para envolver su comida."
+  ],
+  [
+   "Diatomeas de formas geométricas variadas, como discos, barras y estrellas, vistas al microscopio.",
+   "Las diatomeas son algas de una sola célula con una cubierta de vidrio (sílice) de formas geométricas. Producen una gran parte del oxígeno que respiramos."
+  ],
+  [
+   "Un tardígrado regordete con ocho patas cortas y garras, en imagen de microscopio electrónico.",
+   "Los tardígrados u «osos de agua» miden menos de un milímetro. Pueden sobrevivir a congelación, sequía extrema y hasta al vacío del espacio, entrando en una especie de pausa de vida."
+  ],
+  [
+   "Esferas verdes con puntos dentro, colonias de volvox, vistas al microscopio.",
+   "El volvox es un alga verde que vive en colonias en forma de esfera, formadas por miles de células. Dentro de cada esfera se ven las colonias hijas que nacerán."
+  ],
+  [
+   "Un rotífero transparente con forma de jarra visto al microscopio.",
+   "Los rotíferos son animales diminutos, de los más pequeños del mundo. Tienen una corona de cilios que, al moverse, parece una rueda girando."
+  ],
+  [
+   "Filamentos verdes de alga con cintas en espiral en su interior, vistos al microscopio.",
+   "La espirogira es un alga de agua dulce que forma hilos verdes. Sus cloroplastos, donde se hace la fotosíntesis, tienen forma de cinta en espiral."
+  ],
+  [
+   "Bacterias con forma de bastón agrupadas, en imagen coloreada de microscopio electrónico.",
+   "Estas son bacterias Escherichia coli, vistas con un microscopio electrónico de barrido. Viven en nuestro intestino y la mayoría son inofensivas; algunas causan enfermedades. Por eso es importante lavarse las manos."
+  ],
+  [
+   "Dibujo antiguo de euglenas verdes, organismos alargados con un punto rojo, en distintas formas.",
+   "Dibujo de euglenas hecho por el naturalista alemán Christian Gottfried Ehrenberg en 1838. La euglena hace fotosíntesis como una planta pero se mueve como un animal, con un flagelo."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Quién fue el primero en ver bacterias con un microscopio?",
+   [
+    "Albert Einstein",
+    "Anton van Leeuwenhoek",
+    "Isaac Newton",
+    "Galileo Galilei"
+   ],
+   1,
+   "Leeuwenhoek las describió hacia 1676 como «animálculos»."
+  ],
+  [
+   "¿Qué usa el paramecio para nadar?",
+   [
+    "Cilios, unos pelitos que mueve como remos",
+    "Aletas",
+    "Patas",
+    "Alas"
+   ],
+   0,
+   "Los cilios también le ayudan a llevar comida a su boca."
+  ],
+  [
+   "¿Qué animal microscópico puede sobrevivir incluso al vacío del espacio?",
+   [
+    "La ameba",
+    "El rotífero",
+    "El tardígrado",
+    "La euglena"
+   ],
+   2,
+   "Los tardígrados entran en un estado de pausa que los protege."
+  ],
+  [
+   "¿Por qué son importantes las diatomeas?",
+   [
+    "Porque son venenosas",
+    "Porque comen bacterias",
+    "Porque viven en el desierto",
+    "Porque producen gran parte del oxígeno que respiramos"
+   ],
+   3,
+   "Junto con otras algas del mar, hacen fotosíntesis en enormes cantidades."
+  ]
+ ],
+ "reviewNotes": "10: lámina de Ehrenberg (1838), dominio público."
+}

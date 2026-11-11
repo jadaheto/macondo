@@ -1,0 +1,113 @@
+{
+ "title": "Arquitectura colonial de Colombia",
+ "description": "Fortalezas, murallas, iglesias, plazas y calles de la época colonial en Cartagena, Mompox, Villa de Leyva, Barichara y Popayán, varias de ellas declaradas Patrimonio de la Humanidad.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Arquitectura",
+  "Patrimonio cultural",
+  "Región Caribe"
+ ],
+ "cover": 2,
+ "items": [
+  [
+   "Rampas y muros de piedra de una gran fortaleza vistos desde lo alto, con garitas y la ciudad moderna al fondo.",
+   "El Castillo de San Felipe de Barajas, en Cartagena, es la fortaleza más grande que construyeron los españoles en América. Se levantó sobre el cerro de San Lázaro para defender la ciudad de los ataques por tierra."
+  ],
+  [
+   "Torre amarilla con un reloj sobre una puerta de la muralla, frente a una plaza con árboles y edificios coloniales.",
+   "La Puerta del Reloj era la entrada principal a la ciudad amurallada de Cartagena. La torre del reloj se añadió en el siglo XIX y hoy es uno de los símbolos de la ciudad."
+  ],
+  [
+   "Muralla de piedra con garitas vista desde lo alto, junto a una avenida y el mar Caribe al fondo.",
+   "Las murallas de Cartagena se construyeron durante unos dos siglos para proteger el puerto de piratas y ejércitos enemigos. El puerto, las fortalezas y el centro histórico son Patrimonio de la Humanidad desde 1984."
+  ],
+  [
+   "Fachada de una iglesia de piedra con un frontón blanco que tiene un reloj, una cruz y torres con cúpulas a los lados.",
+   "La iglesia de San Pedro Claver, en Cartagena, lleva el nombre del sacerdote jesuita que dedicó su vida a atender a los africanos esclavizados que llegaban al puerto en el siglo XVII."
+  ],
+  [
+   "Fachada colonial blanca con una gran portada de piedra tallada, balcones de madera y una reja, frente a una calle con árboles.",
+   "El Palacio de la Inquisición, en Cartagena, es un edificio del siglo XVIII con una gran portada de piedra y balcones de madera. Hoy funciona allí el Museo Histórico de Cartagena."
+  ],
+  [
+   "Fuerte de piedra a la orilla del mar, con una garita en la esquina y una puerta de entrada.",
+   "El Fuerte de San Fernando, en Bocachica, vigilaba la entrada a la bahía de Cartagena. Los barcos enemigos que quisieran entrar debían pasar bajo sus cañones."
+  ],
+  [
+   "Iglesia de fachada amarilla con detalles blancos y una torre octogonal con balcón, frente a una plaza.",
+   "La iglesia de Santa Bárbara, en Mompox (Bolívar), es famosa por su torre octogonal con balcón. El centro histórico de Mompox es Patrimonio de la Humanidad."
+  ],
+  [
+   "Vista desde el río de una orilla arbolada con algunas construcciones y torres de iglesia a lo lejos, bajo un cielo azul.",
+   "Mompox vista desde el río Magdalena. A lo largo de la orilla se construyeron las albarradas, muros que protegían la ciudad de las crecientes del río."
+  ],
+  [
+   "Plaza enorme empedrada, rodeada de casas blancas de un piso con techos de teja, bajo un cielo con nubes.",
+   "La Plaza Mayor de Villa de Leyva (Boyacá), fundada en 1572, es una de las plazas más grandes de Colombia. Está rodeada de casas coloniales blancas de techos de teja."
+  ],
+  [
+   "Calle empedrada en pendiente con casas blancas de puertas verdes y techos de teja, y una torre de iglesia al fondo.",
+   "Barichara (Santander) conserva calles de piedra y casas de tapia pisada, una técnica de construcción con tierra apisonada. Por su belleza es monumento nacional."
+  ],
+  [
+   "Calle tranquila con casas coloniales blancas de un piso a ambos lados y montañas verdes al fondo, bajo un cielo azul.",
+   "Popayán es llamada \"la Ciudad Blanca\" por el color de sus casas coloniales. Sus procesiones de Semana Santa son Patrimonio Cultural Inmaterial de la Humanidad."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es la fortaleza más grande que construyeron los españoles en América?",
+   [
+    "El Castillo de San Felipe de Barajas",
+    "El Fuerte de San Fernando",
+    "La Puerta del Reloj"
+   ],
+   0,
+   "El Castillo de San Felipe de Barajas, en Cartagena."
+  ],
+  [
+   "¿Para qué servían las albarradas de Mompox?",
+   [
+    "Para proteger la ciudad de las crecientes del río",
+    "Para encerrar ganado",
+    "Para defenderse de los piratas en el mar"
+   ],
+   0,
+   "Protegían la ciudad de las crecientes del Magdalena."
+  ],
+  [
+   "¿Por qué llaman a Popayán \"la Ciudad Blanca\"?",
+   [
+    "Por el color de sus casas coloniales",
+    "Porque nieva todo el año",
+    "Porque tiene playas de arena blanca"
+   ],
+   0,
+   "Por el color blanco de sus casas coloniales."
+  ],
+  [
+   "¿Qué funciona hoy en el Palacio de la Inquisición de Cartagena?",
+   [
+    "El Museo Histórico de Cartagena",
+    "Un aeropuerto",
+    "Un colegio"
+   ],
+   0,
+   "Hoy es el Museo Histórico de Cartagena."
+  ],
+  [
+   "¿Qué técnica de construcción se usó en las casas de Barichara?",
+   [
+    "La tapia pisada, con tierra apisonada",
+    "El acero y el vidrio",
+    "El bambú amarrado"
+   ],
+   0,
+   "Las casas son de tapia pisada."
+  ]
+ ],
+ "reviewNotes": "En la foto del Palacio de la Inquisición aparecen transeúntes pequeños en segundo plano."
+}

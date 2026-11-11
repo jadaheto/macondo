@@ -1,0 +1,97 @@
+{
+ "title": "Semillas y germinación",
+ "description": "¿Cómo una semilla se convierte en planta? Frijoles que germinan, plántulas con cotiledones, mazorcas, semillas que vuelan con el viento y semillas que viajan por el mar.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Plantas",
+  "Experimentos"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Una secuencia de fotos de un frijol: primero la semilla, luego le sale una raíz, después un tallo y al final hojas verdes.",
+   "Así germina un frijol: la semilla se hincha con el agua, sale una raíz que crece hacia abajo y luego un tallo que busca la luz. Al final aparecen las primeras hojas verdes."
+  ],
+  [
+   "Una plántula de frijol verde saliendo de la tierra con el tallo doblado como un gancho.",
+   "Después de la raíz sale el tallo. Primero sale doblado como un gancho para abrirse paso entre la tierra sin dañar las hojitas; luego se endereza buscando la luz."
+  ],
+  [
+   "Varias semillas alargadas de flamboyán germinando sobre un papel húmedo, con raíces blancas.",
+   "Estas son semillas de flamboyán, el árbol de flores rojas de muchos parques del Caribe. Dentro de cada semilla hay una plantita dormida y comida guardada para sus primeros días."
+  ],
+  [
+   "Una plántula pequeña con sus primeras hojas creciendo entre piedras.",
+   "Las primeras hojitas que salen de la semilla se llaman cotiledones. Le dan alimento a la plántula hasta que crecen sus hojas verdaderas y puede fabricar su propia comida con la luz del sol."
+  ],
+  [
+   "Primer plano de una mazorca de maíz con sus granos amarillos en filas ordenadas.",
+   "Cada grano de una mazorca es una semilla. Si se siembra, puede nacer una nueva planta de maíz. El maíz se cultiva en América desde hace miles de años y con él se hacen arepas, bollos y mazamorra."
+  ],
+  [
+   "Una esfera blanca de diente de león formada por muchas semillas con pelitos.",
+   "Cada semilla del diente de león tiene un paracaídas de pelitos. Cuando sopla el viento, o cuando alguien sopla, las semillas vuelan lejos para sembrarse en otro lugar."
+  ],
+  [
+   "Racimos de semillas aladas verdes colgando de una rama de arce.",
+   "Estas semillas de arce tienen alas: cuando caen, giran como hélices de helicóptero y el viento las aleja del árbol madre."
+  ],
+  [
+   "Un coco con una palmita verde que le está brotando, sobre la arena blanca de una playa.",
+   "El coco es una semilla gigante que flota. Puede viajar por el mar durante semanas y germinar en otra playa. Por eso hay palmas de coco en tantas costas del mundo."
+  ],
+  [
+   "Cinco semillas grandes, redondeadas y de color café rojizo brillante sobre un plato.",
+   "Estas semillas, llamadas ojos de buey o corazones de mar, vienen de una enredadera de la selva con vainas de más de un metro. Caen a los ríos, llegan al mar y pueden aparecer en playas muy lejanas."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué sale primero cuando germina una semilla?",
+   [
+    "Las flores",
+    "La raíz",
+    "Los frutos",
+    "Las hojas grandes"
+   ],
+   1,
+   "La raíz sale primero para sujetar la planta y buscar agua."
+  ],
+  [
+   "¿Cómo viajan las semillas del diente de león?",
+   [
+    "Con el viento, gracias a sus pelitos",
+    "Rodando por el suelo",
+    "Nadando en el río",
+    "En el pico de los loros"
+   ],
+   0,
+   "Sus pelitos funcionan como paracaídas."
+  ],
+  [
+   "¿Cómo se llaman las primeras hojitas que salen de la semilla?",
+   [
+    "Pétalos",
+    "Espinas",
+    "Cotiledones",
+    "Raíces"
+   ],
+   2,
+   "Los cotiledones alimentan a la plántula en sus primeros días."
+  ],
+  [
+   "¿Por qué hay palmas de coco en tantas playas del mundo?",
+   [
+    "Porque las siembran los pájaros",
+    "Porque crecen en la nieve",
+    "Porque el viento las lleva",
+    "Porque el coco flota y viaja por el mar"
+   ],
+   3,
+   "El coco puede flotar semanas en el mar y germinar en otra costa."
+  ]
+ ],
+ "reviewNotes": null
+}

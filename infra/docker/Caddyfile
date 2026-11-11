@@ -1,0 +1,20 @@
+# HTTPS local para la red de la biblioteca (perfil opcional `https` de docker-compose.yml).
+# Termina TLS con el certificado de infra/certs (CA propia, ver scripts/make-local-certs.sh)
+# y reenvía todo a la web (macondo-web:3100). Sin redirección http→https: el puerto 3100 sigue
+# funcionando igual que antes.
+{
+  auto_https off
+  admin off
+}
+
+:3443 {
+  tls /certs/server.crt /certs/server.key
+  encode zstd gzip
+  reverse_proxy macondo-web:3100 {
+    # Cabeceras estándar para que Next conozca el origen público (QR de TV, enlaces absolutos).
+    header_up X-Forwarded-Proto https
+    header_up X-Forwarded-Host {host}
+    # Streaming de audio/EPUB grandes sin buffering.
+    flush_interval -1
+  }
+}

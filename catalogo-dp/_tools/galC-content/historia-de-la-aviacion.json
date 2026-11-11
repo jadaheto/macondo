@@ -1,0 +1,33 @@
+{
+ "title": "La historia de la aviación",
+ "description": "De los dibujos de Leonardo da Vinci a los aviones supersónicos: globos, planeadores y aviones que hicieron realidad el sueño de volar.",
+ "gradeMin": 2, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia", "Tecnología", "Transporte"],
+ "cover": 6,
+ "credits": {"2": "Grabado francés anónimo (1783), Biblioteca del Congreso de EE. UU."},
+ "items": [
+  ["Dibujo antiguo a tinta sobre papel amarillento de una máquina con alas de armazón y cuerdas.",
+   "Hacia 1485, Leonardo da Vinci dibujó máquinas voladoras inspiradas en las alas de las aves y los murciélagos. Nunca se construyeron, pero muestran que el sueño de volar es muy antiguo."],
+  ["Grabado coloreado de un gran globo que sube sobre una plaza llena de gente frente a un palacio.",
+   "El 19 de septiembre de 1783, en Versalles (Francia), los hermanos Montgolfier elevaron un globo de aire caliente con un pato, un gallo y una oveja como pasajeros."],
+  ["Planeador de alas curvas hechas de tela y varillas, con un maniquí colgado en el centro, en un museo.",
+   "El alemán Otto Lilienthal hizo más de 2.000 vuelos en planeadores como este, entre 1891 y 1896. Sus estudios ayudaron a los hermanos Wright."],
+  ["Avión antiguo de madera y tela con un ala sobre el cuerpo, colgado del techo de un museo.",
+   "En este avión, el Blériot XI, el francés Louis Blériot cruzó volando el canal de la Mancha, de Francia a Inglaterra, en 1909. El viaje duró unos 37 minutos."],
+  ["Avión plateado de un solo motor con hélice, colgado en la sala de un museo.",
+   "El Spirit of St. Louis, en el que Charles Lindbergh cruzó el océano Atlántico sin escalas y en solitario en 1927, de Nueva York a París, en unas 33 horas."],
+  ["Avión rojo brillante con hélice metálica, fotografiado de frente sobre fondo oscuro.",
+   "En este Lockheed Vega rojo, Amelia Earhart fue en 1932 la primera mujer en cruzar sola el océano Atlántico en avión."],
+  ["Dos aviones de pasajeros de nariz puntiaguda y alas en triángulo, exhibidos en lo alto contra el cielo del atardecer.",
+   "El Concorde y el Tupolev Tu-144 fueron los únicos aviones de pasajeros supersónicos: volaban a más del doble de la velocidad del sonido. Hoy están en un museo de Alemania."],
+  ["Parte trasera de un gran avión de pasajeros blanco y rojo con muchas ventanillas, estacionado en un aeropuerto.",
+   "El prototipo del Boeing 747, que voló por primera vez en 1969. Fue el primer avión de pasajeros de dos pisos y permitió que millones de personas viajaran en avión."]
+ ],
+ "questions": [
+  ["¿Qué inventaron los hermanos Montgolfier?", ["El globo de aire caliente", "El helicóptero", "El paracaídas"], 0, "Su globo voló en Versalles en 1783."],
+  ["¿Quién fue la primera mujer en cruzar sola el Atlántico en avión?", ["Amelia Earhart", "Marie Curie", "Policarpa Salavarrieta"], 0, "Lo logró en 1932."],
+  ["¿Qué tenían de especial el Concorde y el Tu-144?", ["Volaban más rápido que el sonido", "Eran de madera", "No tenían alas"], 0, "Eran aviones de pasajeros supersónicos."],
+  ["¿Quién dibujó máquinas voladoras hacia 1485?", ["Leonardo da Vinci", "Charles Lindbergh", "Louis Blériot"], 0, "Se inspiró en las aves y los murciélagos."]
+ ],
+ "reviewNotes": "El vuelo de los hermanos Wright ya está en la galería inventos-y-cientificos, por eso no se repitió."
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Macondo Digital</string>
+    <string name="splash_hint">Mantén pulsado el logotipo (o la esquina superior izquierda 3 s) para abrir la configuración</string>
+
+    <string name="settings_title">Configuración</string>
+    <string name="settings_server_url">Dirección del servidor</string>
+    <string name="settings_server_url_hint">https://macondo.comfasucre.co</string>
+    <string name="settings_server_help">Debe empezar por http:// o https://. Con https:// y el certificado de la biblioteca la app puede guardar recursos sin conexión.</string>
+    <string name="settings_mode">Modo de uso</string>
+    <string name="settings_mode_tablet">Tablet (estudiantes)</string>
+    <string name="settings_mode_kiosk">Kiosco</string>
+    <string name="settings_mode_tv">TV</string>
+    <string name="settings_kiosk_title">Modo kiosco</string>
+    <string name="settings_kiosk_help">Oculta las barras del sistema y mantiene la pantalla encendida. Si la app es propietaria del dispositivo (device owner), además fija la pantalla: no se puede salir sin el PIN.</string>
+    <string name="settings_kiosk_switch">Activar modo kiosco</string>
+    <string name="settings_device_owner_yes">Esta app es propietaria del dispositivo: el bloqueo de pantalla será total.</string>
+    <string name="settings_device_owner_no">La app NO es propietaria del dispositivo: el modo kiosco solo oculta las barras. Ver README (adb dpm set-device-owner).</string>
+    <string name="settings_screen_title">Pantalla</string>
+    <string name="settings_orientation">Orientación</string>
+    <string name="settings_orientation_auto">Automática</string>
+    <string name="settings_orientation_landscape">Horizontal</string>
+    <string name="settings_orientation_portrait">Vertical</string>
+    <string name="settings_scale">Escala de pantalla</string>
+    <string name="settings_scale_help" formatted="false">Agranda letra y controles. Recomendado 125–150 % en el kiosco de 32 pulgadas.</string>
+    <string name="settings_keep_on">Mantener la pantalla encendida</string>
+    <string name="settings_startup_title">Arranque</string>
+    <string name="settings_autostart">Iniciar al encender</string>
+    <string name="settings_autostart_help">Abre la app al encender el equipo y tras una actualización. En Android 10 o superior solo es fiable si la app es propietaria del dispositivo o pantalla de inicio.</string>
+    <string name="settings_use_as_home">Usar como pantalla de inicio</string>
+    <string name="settings_use_as_home_help">La app sustituye al launcher: el botón Inicio vuelve a Macondo Digital y arranca con el equipo. Si es propietaria del dispositivo se fija automáticamente; si no, Android preguntará qué launcher usar (elegir Macondo Digital → Siempre).</string>
+    <string name="settings_corner_hint">Para abrir esta pantalla desde el kiosco: mantén pulsada la esquina superior izquierda 3 segundos e introduce el PIN.</string>
+    <string name="settings_pin_title">PIN de la biblioteca</string>
+    <string name="settings_pin_help">Entre 4 y 6 dígitos. Se pide para abrir esta pantalla y salir del modo kiosco.</string>
+    <string name="settings_pin_new">Nuevo PIN (opcional)</string>
+    <string name="settings_pin_confirm">Confirmar nuevo PIN</string>
+    <string name="settings_save">Guardar y abrir</string>
+    <string name="settings_exit_kiosk">Salir del modo kiosco</string>
+    <string name="settings_clear_owner">Dejar de ser propietaria del dispositivo</string>
+    <string name="settings_clear_owner_confirm">La app dejará de ser device owner: el modo kiosco ya no podrá fijar la pantalla. Para volver a serlo hace falta ADB en una tablet sin cuentas. ¿Continuar?</string>
+    <string name="settings_clear_owner_done">La app ya no es propietaria del dispositivo</string>
+    <string name="settings_preset_main">Servidor principal: macondo.comfasucre.co</string>
+    <string name="settings_preset_lan">Red local de la biblioteca: 192.168.31.240:3443</string>
+    <string name="settings_preset_help">El servidor principal necesita internet. La dirección de red local solo sirve dentro del Wi-Fi de la biblioteca (la app ya confía en su certificado).</string>
+    <string name="settings_saved">Configuración guardada</string>
+    <string name="settings_version">Versión %1$s · %2$s</string>
+
+    <string name="error_url_invalid">La dirección no es válida. Ejemplo: https://macondo.comfasucre.co</string>
+    <string name="error_pin_invalid">El PIN debe tener entre 4 y 6 dígitos</string>
+    <string name="error_pin_mismatch">Los PIN no coinciden</string>
+    <string name="error_pin_wrong">PIN incorrecto</string>
+
+    <string name="pin_dialog_title">PIN de la biblioteca</string>
+    <string name="pin_dialog_message">Introduce el PIN para continuar</string>
+    <string name="pin_dialog_ok">Aceptar</string>
+    <string name="pin_dialog_cancel">Cancelar</string>
+
+    <string name="kiosk_exited">Modo kiosco desactivado</string>
+    <string name="external_link_blocked">No hay una aplicación para abrir este enlace</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+ "title": "Alicia en el país de las maravillas",
+ "description": "Las ilustraciones originales de John Tenniel para Alicia en el país de las maravillas (1865) y A través del espejo (1871), de Lewis Carroll: el Conejo Blanco, la Oruga, la Duquesa, la merienda de locos y las reinas del ajedrez.",
+ "gradeMin": 1, "gradeMax": 7,
+ "categories": ["Literatura", "Literatura infantil", "Ilustración", "Fantasía"],
+ "cover": 5,
+ "items": [
+  ["Dibujo en blanco y negro de una niña de cabello largo que sostiene un flamenco bajo el brazo, con un erizo a sus pies.",
+   "En el juego de cróquet de la Reina de Corazones, Alicia debe usar un flamenco como mazo y un erizo como pelota. Los dibujos de John Tenniel acompañan el libro desde 1865."],
+  ["Dibujo de una niña muy grande arrodillada en un pasillo, que mira asombrada a un pequeño conejo vestido que huye.",
+   "Alicia crece tanto después de comer un pastelito que casi no cabe en la sala, mientras el Conejo Blanco, siempre apurado, se aleja corriendo."],
+  ["Dibujo de una oruga sentada sobre un hongo grande fumando una pipa de agua, y una niña que la mira desde abajo.",
+   "La Oruga, sentada en su hongo, le pregunta a Alicia: '¿Quién eres tú?'. Un lado del hongo la hace crecer y el otro, encoger."],
+  ["Ilustración en color de una niña rubia con delantal junto a una duquesa enorme de rostro exagerado y gran tocado, con un flamenco.",
+   "Alicia con la Duquesa, que siempre busca una moraleja en todo. Esta versión coloreada es de una edición posterior basada en los dibujos de Tenniel."],
+  ["Ilustración en color de una mesa larga con tazas donde toman el té una niña, una liebre, un lirón y un hombre con un sombrero de copa enorme.",
+   "La merienda de locos: el Sombrerero, la Liebre de Marzo y el Lirón toman el té todo el tiempo porque para ellos siempre son las seis de la tarde."],
+  ["Ilustración en color de una niña con vestido azul que conversa en un bosque con una reina roja con forma de pieza de ajedrez.",
+   "En A través del espejo, Alicia entra en un mundo que es un gran tablero de ajedrez. La Reina Roja le explica que allí hay que correr mucho solo para quedarse en el mismo lugar."],
+  ["Ilustración en color de una niña que arregla el cabello despeinado de una reina blanca con corona y cetro.",
+   "Alicia ayuda a la Reina Blanca, muy despistada, a peinarse. Al final del libro, Alicia llega a la última fila del tablero y se convierte en reina."]
+ ],
+ "questions": [
+  ["¿Qué animal usa Alicia como mazo de cróquet?", ["Un flamenco", "Un conejo", "Un gato"], 0, "Y un erizo como pelota."],
+  ["¿Quién escribió Alicia en el país de las maravillas?", ["Lewis Carroll", "John Tenniel", "Hans Christian Andersen"], 0, "Tenniel fue el ilustrador."],
+  ["¿Qué pregunta le hace la Oruga a Alicia?", ["¿Quién eres tú?", "¿Qué hora es?", "¿Quieres té?"], 0, "Alicia ya no sabe quién es después de tantos cambios de tamaño."],
+  ["¿Qué juego es el mundo de A través del espejo?", ["El ajedrez", "El dominó", "Las cartas"], 0, "Alicia avanza como un peón hasta coronarse reina."]
+ ],
+ "reviewNotes": "La Oruga fuma una pipa de agua (narguile), tal como en el libro original. Las ilustraciones en color son versiones coloreadas de los dibujos de Tenniel (†1914)."
+}

@@ -1,0 +1,97 @@
+{
+ "title": "Mamíferos de Colombia",
+ "description": "Chigüiros, armadillos, osos hormigueros, zarigüeyas, venados y murciélagos: algunos de los más de 500 mamíferos que viven en Colombia, con datos curiosos de cada uno.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Biodiversidad"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Un chigüiro de pelaje café rojizo sentado en la orilla arenosa de un río.",
+   "El chigüiro o capibara es el roedor más grande del mundo: puede pesar más de 50 kilos. Vive cerca de ríos y ciénagas y es un gran nadador. Foto tomada en Brasil."
+  ],
+  [
+   "Un armadillo con su caparazón de bandas camina entre hojas secas y plantas.",
+   "El armadillo de nueve bandas tiene el cuerpo cubierto de placas duras, como una armadura. Con sus garras cava madrigueras y busca hormigas, gusanos y otros bichos."
+  ],
+  [
+   "Un oso hormiguero de color crema con una mancha negra como un chaleco, caminando sobre la tierra.",
+   "El oso hormiguero tamandúa no tiene dientes: atrapa hormigas y termitas con su lengua larga y pegajosa. Su cola le sirve para agarrarse de las ramas."
+  ],
+  [
+   "Un ñeque de pelo café y patas delgadas parado sobre la hierba.",
+   "El ñeque o guatín es un roedor del bosque que come frutas y semillas. Entierra algunas semillas para después y, cuando las olvida, ¡ayuda a sembrar árboles!"
+  ],
+  [
+   "Una zarigüeya de pelaje gris trepa por una rama entre las hojas de un árbol.",
+   "La zarigüeya o chucha es un marsupial: sus crías terminan de crecer en una bolsa en la barriga de la mamá, como los canguros. Foto tomada en Barrancabermeja, Santander."
+  ],
+  [
+   "Un venado de cola blanca macho, con cuernos pequeños, parado en un prado verde junto a unos arbustos.",
+   "El venado de cola blanca vive en sabanas, bosques y páramos. Este macho fue fotografiado en el Parque Nacional Natural Chingaza, cerca de Bogotá. Sus cuernos se caen y le vuelven a crecer cada año."
+  ],
+  [
+   "Un perro de monte de pelaje dorado agarrado a una rama, de noche.",
+   "El perro de monte o kinkajú sale de noche a comer frutas y néctar de flores. Usa su larga cola para colgarse de las ramas. Foto tomada en Panamá."
+  ],
+  [
+   "Un zorro de pelaje gris y orejas puntiagudas, de pie en el suelo del bosque.",
+   "El zorro perruno o zorro cangrejero vive en muchas regiones de Colombia, también en las sabanas del Caribe. Come frutas, insectos, cangrejos y animales pequeños. Foto tomada en San Vicente de Chucurí, Santander."
+  ],
+  [
+   "Varios murciélagos pequeños de color café colgados juntos, boca abajo, del techo de un edificio viejo.",
+   "Los murciélagos son los únicos mamíferos que vuelan. Estos murciélagos fruteros descansan de día colgados boca abajo y de noche comen frutas y esparcen semillas por el bosque. Colombia tiene más de 200 especies de murciélagos."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el roedor más grande del mundo?",
+   [
+    "El ñeque",
+    "El chigüiro",
+    "El ratón",
+    "La ardilla"
+   ],
+   1,
+   "El chigüiro o capibara puede pesar más de 50 kilos y vive cerca de ríos y ciénagas."
+  ],
+  [
+   "¿Dónde terminan de crecer las crías de la zarigüeya?",
+   [
+    "En un nido de ramas",
+    "Dentro de un huevo",
+    "En una bolsa en la barriga de la mamá",
+    "En el agua"
+   ],
+   2,
+   "La zarigüeya es un marsupial, como el canguro: sus crías crecen en una bolsa."
+  ],
+  [
+   "¿Qué usa el oso hormiguero para atrapar hormigas?",
+   [
+    "Su lengua larga y pegajosa",
+    "Sus dientes afilados",
+    "Sus alas",
+    "Una red de telaraña"
+   ],
+   0,
+   "El oso hormiguero no tiene dientes; su lengua pegajosa atrapa hormigas y termitas."
+  ],
+  [
+   "¿Cuál es el único mamífero que puede volar?",
+   [
+    "El perro de monte",
+    "El venado",
+    "El armadillo",
+    "El murciélago"
+   ],
+   3,
+   "Los murciélagos tienen alas formadas por una piel delgada entre sus dedos largos."
+  ]
+ ],
+ "reviewNotes": null
+}

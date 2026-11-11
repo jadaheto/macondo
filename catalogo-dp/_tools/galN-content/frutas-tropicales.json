@@ -1,0 +1,101 @@
+{
+ "title": "Frutas tropicales",
+ "description": "Mango, papaya, guanábana, maracuyá, piña, guayaba, mamoncillo, lulo, coco y banano: las frutas de nuestros patios y mercados, con datos sencillos y curiosos.",
+ "gradeMin": 1,
+ "gradeMax": 3,
+ "categories": [
+  "Ciencias naturales",
+  "Plantas",
+  "Alimentación"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Un mango entero de cáscara roja y verde y otro partido por la mitad, de pulpa amarilla.",
+   "El mango es dulce y jugoso. Llegó a América desde Asia hace cientos de años y hoy hay árboles de mango en muchos patios de la Costa. Se come maduro, o verde con sal y limón."
+  ],
+  [
+   "Dos mitades de papaya de pulpa anaranjada con muchas semillas negras en el centro, sobre un plato.",
+   "La papaya tiene una pulpa anaranjada y suave, y en el centro muchas semillas negras. Es una fruta de América tropical. Con ella se preparan jugos y dulces."
+  ],
+  [
+   "Una guanábana verde con espinitas, colgando de una rama del árbol.",
+   "La guanábana es verde por fuera, con espinitas blandas, y blanca por dentro. Con su pulpa se hacen jugos y helados muy refrescantes. Sus semillas no se comen."
+  ],
+  [
+   "Un maracuyá morado partido por la mitad, con semillas negras rodeadas de pulpa amarilla.",
+   "El maracuyá es el fruto de una planta trepadora de flores muy bonitas. Por dentro tiene semillas cubiertas de pulpa ácida y perfumada, perfecta para jugos. Este, de cáscara morada, se llama gulupa."
+  ],
+  [
+   "Una piña creciendo en el centro de su planta, rodeada de hojas largas.",
+   "¿Sabías que la piña no crece en un árbol? Crece en el centro de una planta baja de hojas largas y espinosas. Es originaria de Suramérica."
+  ],
+  [
+   "Una guayaba verde clara y redonda sobre un fondo gris.",
+   "La guayaba tiene mucha vitamina C, más que la naranja. Por dentro puede ser rosada o blanca. Con ella se hace el bocadillo."
+  ],
+  [
+   "Un racimo de mamoncillos verdes y redondos con sus hojas, sobre un fondo blanco.",
+   "El mamoncillo es una fruta pequeña de cáscara verde y dura. Se abre con los dientes y se chupa la pulpa jugosa que rodea su semilla grande. ¡Cuidado con no tragarse la semilla!"
+  ],
+  [
+   "Un lulo anaranjado y redondo creciendo en el tallo de su planta.",
+   "El lulo crece en los climas templados de los Andes. Por fuera es anaranjado y tiene pelitos; por dentro es verde y ácido. Con él se hace un jugo muy colombiano."
+  ],
+  [
+   "Un coco entero de cáscara café y peluda y otro partido que muestra la pulpa blanca.",
+   "El coco es el fruto de la palma de coco, común en las playas del Caribe. Por dentro tiene agua de coco y una pulpa blanca con la que se hacen el arroz con coco y las cocadas."
+  ],
+  [
+   "Un gran montón de bananos amarillos en un puesto de mercado.",
+   "El banano es una de las frutas más comidas del mundo, y en Colombia se cultiva mucho en Urabá y el Magdalena. Su pariente, el plátano, se come cocinado: ¡como en los patacones!"
+  ]
+ ],
+ "questions": [
+  [
+   "¿Dónde crece la piña?",
+   [
+    "En un árbol muy alto",
+    "En el centro de una planta baja",
+    "Debajo de la tierra",
+    "En el mar"
+   ],
+   1,
+   "La piña crece en el centro de una planta de hojas largas y espinosas."
+  ],
+  [
+   "¿Qué fruta tiene más vitamina C que la naranja?",
+   [
+    "La guayaba",
+    "El banano",
+    "El coco",
+    "El mango"
+   ],
+   0,
+   "La guayaba es una de las frutas con más vitamina C."
+  ],
+  [
+   "¿Qué fruta se abre con los dientes y tiene una semilla grande?",
+   [
+    "La papaya",
+    "La piña",
+    "El mamoncillo",
+    "El lulo"
+   ],
+   2,
+   "Al mamoncillo se le chupa la pulpa que rodea la semilla."
+  ],
+  [
+   "¿Qué comida se prepara con plátano?",
+   [
+    "La cocada",
+    "El bocadillo",
+    "El helado de guanábana",
+    "Los patacones"
+   ],
+   3,
+   "Los patacones son tajadas de plátano verde fritas y aplastadas."
+  ]
+ ],
+ "reviewNotes": null
+}

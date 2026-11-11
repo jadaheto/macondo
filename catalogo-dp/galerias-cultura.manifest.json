@@ -1,0 +1,1942 @@
+[
+  {
+    "file": "galerias/antiguo-egipto",
+    "cover": "galerias/antiguo-egipto/01-piramides-de-guiza.jpg",
+    "title": "El antiguo Egipto",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Pirámides, faraones, jeroglíficos y templos a orillas del río Nilo. Recorre los monumentos y objetos que nos dejó una de las civilizaciones más antiguas del mundo.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Historia antigua",
+      "África"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "antiguo-egipto",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 2.0": 1,
+        "CC BY-SA 3.0": 1,
+        "Dominio público": 3,
+        "CC BY-SA 4.0": 2,
+        "CC0": 1,
+        "CC BY 3.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5236737,
+    "reviewNotes": "El escriba sentado aparece con el torso descubierto, como es habitual en el arte egipcio (no es un desnudo). La escena del pesaje del corazón alude a creencias sobre la muerte."
+  },
+  {
+    "file": "galerias/antigua-grecia",
+    "cover": "galerias/antigua-grecia/01-partenon.jpg",
+    "title": "La antigua Grecia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Templos de mármol, teatros al aire libre, vasijas pintadas y grandes pensadores. Descubre cómo vivían los antiguos griegos y por qué su cultura sigue presente en nuestras ciudades, palabras e ideas.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Historia antigua",
+      "Europa"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "antigua-grecia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 4,
+        "CC0": 1,
+        "CC BY-SA 4.0": 2,
+        "CC BY-SA 3.0": 2
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4586431,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/antigua-roma",
+    "cover": "galerias/antigua-roma/01-coliseo.jpg",
+    "title": "La antigua Roma",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Del Coliseo a los acueductos y las calzadas: conoce las obras de los romanos, un pueblo que gobernó gran parte de Europa y del Mediterráneo y cuya lengua, el latín, dio origen al español.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Historia antigua",
+      "Europa"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "antigua-roma",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 4,
+        "CC0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY 2.5": 1,
+        "Dominio público": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4986697,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/mayas",
+    "cover": "galerias/mayas/01-chichen-itza.jpg",
+    "title": "Los mayas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Pirámides en la selva, escritura con glifos, un calendario muy preciso y murales de colores. Conoce a los mayas, que habitaron el sur de México y Centroamérica y cuyos descendientes aún hablan lenguas mayas.",
+    "gradeMin": 4,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Pueblos indígenas",
+      "América precolombina"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "mayas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 1,
+        "CC BY 2.0": 2,
+        "CC BY-SA 2.0": 2,
+        "CC0": 2,
+        "Dominio público": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5374363,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/aztecas",
+    "cover": "galerias/aztecas/01-piedra-del-sol.jpg",
+    "title": "Los aztecas o mexicas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Tenochtitlan, la gran ciudad construida sobre un lago, la Piedra del Sol, códices pintados y esculturas de sus dioses. Conoce a los mexicas, que dominaban el centro de México cuando llegaron los españoles en 1519.",
+    "gradeMin": 4,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Pueblos indígenas",
+      "América precolombina"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "aztecas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 3,
+        "CC BY 4.0": 1,
+        "Dominio público": 2,
+        "CC BY-SA 2.0": 1,
+        "CC BY-SA 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4875013,
+    "reviewNotes": "Se evitaron imágenes de sacrificios; la Coatlicue lleva un collar de manos y corazones tallados (se describe de forma neutral)."
+  },
+  {
+    "file": "galerias/incas",
+    "cover": "galerias/incas/01-machu-picchu.jpg",
+    "title": "Los incas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Ciudades en lo alto de los Andes, muros de piedra perfectamente encajados, caminos de miles de kilómetros y cuerdas con nudos para contar. Conoce el Tahuantinsuyo, el imperio de los incas, que llegó hasta el sur de Colombia.",
+    "gradeMin": 4,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Pueblos indígenas",
+      "América precolombina"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "incas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 3,
+        "CC BY 2.0": 1,
+        "Dominio público": 3
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4307552,
+    "reviewNotes": "El dibujo de Guamán Poma representa el traslado de un antepasado momificado en una fiesta; se describe como procesión en honor de los antepasados."
+  },
+  {
+    "file": "galerias/culturas-indigenas-de-colombia",
+    "cover": "galerias/culturas-indigenas-de-colombia/02-san-agustin-estatua.jpg",
+    "title": "Culturas indígenas de Colombia antes de 1500",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Terrazas en la Sierra Nevada, estatuas de piedra en el Huila, tumbas pintadas bajo tierra y cerámicas del Caribe. Un recorrido por los lugares y objetos de los pueblos tairona, agustiniano, de Tierradentro y zenú.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Pueblos indígenas",
+      "Arqueología"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "culturas-indigenas-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 1,
+        "CC BY 2.0": 3,
+        "CC BY-SA 2.0": 1,
+        "Dominio público": 2,
+        "CC0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4095610,
+    "reviewNotes": "Se priorizaron sitios y objetos (sin personas identificables). Ciudad Perdida es sitio sagrado para los pueblos de la Sierra Nevada; se menciona en el pie de foto."
+  },
+  {
+    "file": "galerias/campana-libertadora-y-batalla-de-boyaca",
+    "cover": "galerias/campana-libertadora-y-batalla-de-boyaca/03-batalla-de-boyaca-detalle.jpg",
+    "title": "La Campaña Libertadora y la Batalla de Boyacá",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "En 1819 el ejército patriota cruzó los Andes desde los Llanos y venció a las tropas realistas en el Puente de Boyacá. Pinturas, grabados y lugares históricos para entender cómo comenzó la independencia definitiva de la Nueva Granada.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Independencia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "campana-libertadora-y-batalla-de-boyaca",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 5,
+        "CC BY-SA 4.0": 1,
+        "CC BY-SA 3.0": 3
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4383174,
+    "reviewNotes": "Complementa la galería independencia-de-colombia (sin repetir archivos). La obra de Andrés de Santa María (†1945) cumple la regla de 80 años post mortem; la de F. A. Cano (†1935) también."
+  },
+  {
+    "file": "galerias/simbolos-patrios-de-colombia",
+    "cover": "galerias/simbolos-patrios-de-colombia/02-bandera-ondeando.jpg",
+    "title": "Los símbolos patrios de Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "La bandera, el escudo y el himno nacional, junto con el ave, la flor y el árbol que representan a Colombia. Conoce su historia y su significado.",
+    "gradeMin": 1,
+    "gradeMax": 6,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Cívica",
+      "Símbolos patrios"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "simbolos-patrios-de-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 3,
+        "CC BY 2.0": 1,
+        "CC BY-SA 4.0": 2,
+        "CC BY-SA 3.0": 2,
+        "CC0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 3586301,
+    "reviewNotes": "La bandera y el escudo tienen en Commons la advertencia 'insignia' (restricción de uso de emblemas oficiales, no de derechos de autor); su uso educativo es legítimo. Se aceptaron por excepción documentada."
+  },
+  {
+    "file": "galerias/sincelejo-y-sucre",
+    "cover": "galerias/sincelejo-y-sucre/06-sombrero-vueltiao.jpg",
+    "title": "Sucre: pueblos, playas y tradiciones",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Un paseo por el departamento de Sucre: las playas del golfo de Morrosquillo, las ciénagas de La Mojana, iglesias y parques de sus pueblos y el sombrero vueltiao, símbolo cultural de Colombia.",
+    "gradeMin": 1,
+    "gradeMax": 6,
+    "categories": [
+      "Ciencias sociales",
+      "Región Caribe",
+      "Sucre",
+      "Patrimonio cultural"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "sincelejo-y-sucre",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 6,
+        "CC BY-SA 3.0": 1,
+        "CC BY 3.0": 2,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 10
+    },
+    "sha256": null,
+    "sizeBytes": 4502930,
+    "reviewNotes": "Tema solicitado: 'Sincelejo y Sucre en fotos históricas (dominio público)'. En Commons no hay fotos históricas libres de Sincelejo o Sucre; se hizo una galería de fotos actuales con licencia libre. Se descartaron fotos de Sincelejo con multitudes (fiestas, desfiles) y un grupo de caminantes posando, por mostrar personas identificables. La foto de la iglesia de San Onofre muestra a lo lejos a una persona en moto, no identificable."
+  },
+  {
+    "file": "galerias/la-nueva-granada-colonial",
+    "cover": "galerias/la-nueva-granada-colonial/01-mapa-sanson-1657.jpg",
+    "title": "La Nueva Granada colonial",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Durante casi tres siglos, el territorio de la actual Colombia fue parte del imperio español con el nombre de Nuevo Reino de Granada. Mapas, planos, retratos, libros y obras de arte de esa época.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Época colonial"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "la-nueva-granada-colonial",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 5,
+        "CC0": 3,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5526617,
+    "reviewNotes": "El retrato de Juan de Castellanos es obra de Ricardo Moros Urbina (†1942): dominio público en Colombia."
+  },
+  {
+    "file": "galerias/cartagena-de-indias",
+    "cover": "galerias/cartagena-de-indias/02-ataque-de-drake-1586.jpg",
+    "title": "Cartagena de Indias en la historia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Fundada en 1533, Cartagena fue uno de los puertos más importantes del imperio español. Grabados, mapas antiguos y fotografías cuentan sus ataques de piratas, su defensa y su vida a lo largo de los siglos.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Región Caribe",
+      "Época colonial"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "cartagena-de-indias",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 6,
+        "CC BY 2.0": 1,
+        "CC BY 3.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5515810,
+    "reviewNotes": "Complementa la galería arquitectura-colonial sin repetir archivos. El mapa de Boazio muestra un ataque militar (sin violencia explícita)."
+  },
+  {
+    "file": "galerias/mompox-y-el-rio",
+    "cover": "galerias/mompox-y-el-rio/02-antiguo-mercado.jpg",
+    "title": "Santa Cruz de Mompox y el río",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Mompox, a orillas del brazo de Mompox del río Magdalena, fue un rico puerto colonial y hoy es Patrimonio de la Humanidad. Recorre sus albarradas, calles, mercado y cementerio.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Región Caribe",
+      "Patrimonio cultural"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "mompox-y-el-rio",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 2,
+        "CC BY-SA 4.0": 6,
+        "CC BY 3.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4503306,
+    "reviewNotes": "Se tomó 'Mompox' y 'Santa Cruz de Mompox y el río' como un solo tema para no duplicar. Complementa arquitectura-colonial y rio-magdalena sin repetir archivos."
+  },
+  {
+    "file": "galerias/ciudades-de-colombia-hacia-1900",
+    "cover": "galerias/ciudades-de-colombia-hacia-1900/02-plaza-de-bolivar-1918.jpg",
+    "title": "Ciudades de Colombia a comienzos del siglo XX",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Fotografías de hace más de cien años de Bogotá, Medellín y Barranquilla: plazas, avenidas, teatros, comercios y la vida junto al río. Compara cómo eran las ciudades entonces y cómo son hoy.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Fotografía histórica",
+      "Ciudades"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "ciudades-de-colombia-hacia-1900",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 8
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3212225,
+    "reviewNotes": "Fotos del Libro Azul de Colombia (1918), obra anónima publicada hace más de 80 años, y de Melitón Rodríguez (†1942). Las personas que aparecen son de hace más de un siglo."
+  },
+  {
+    "file": "galerias/el-ferrocarril",
+    "cover": "galerias/el-ferrocarril/05-locomotora-antioquia.jpg",
+    "title": "La historia del ferrocarril",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Desde la locomotora Rocket de 1829 hasta los trenes que subían por las montañas de Antioquia: conoce cómo el ferrocarril de vapor cambió los viajes, el comercio y las ciudades.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Tecnología",
+      "Transporte"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-ferrocarril",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 1,
+        "Dominio público": 2,
+        "CC BY-SA 3.0": 3,
+        "CC BY-SA 2.0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5435232,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/historia-de-la-aviacion",
+    "cover": "galerias/historia-de-la-aviacion/06-avion-amelia-earhart.jpg",
+    "title": "La historia de la aviación",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "De los dibujos de Leonardo da Vinci a los aviones supersónicos: globos, planeadores y aviones que hicieron realidad el sueño de volar.",
+    "gradeMin": 2,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Tecnología",
+      "Transporte"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "historia-de-la-aviacion",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 2,
+        "CC BY 2.0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 2,
+        "CC0": 1,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3089033,
+    "reviewNotes": "El vuelo de los hermanos Wright ya está en la galería inventos-y-cientificos, por eso no se repitió."
+  },
+  {
+    "file": "galerias/historia-del-transporte",
+    "cover": "galerias/historia-del-transporte/08-chiva.jpg",
+    "title": "Historia del transporte: barcos, carruajes y automóviles",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "¿Cómo viajaba la gente antes de los carros? Barcos vikingos, diligencias, barcos de vapor, veleros, bicicletas antiguas, los primeros automóviles y la colorida chiva colombiana.",
+    "gradeMin": 1,
+    "gradeMax": 7,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Tecnología",
+      "Transporte"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "historia-del-transporte",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 1,
+        "Dominio público": 1,
+        "CC BY 2.0": 2,
+        "CC BY-SA 4.0": 3,
+        "CC0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4223612,
+    "reviewNotes": "En la foto de la chiva se ven pasajeros de espaldas, sin rostros identificables. Se descartaron fotos de un biciclo y de un Ford T con conductores identificables."
+  },
+  {
+    "file": "galerias/la-imprenta-y-el-libro",
+    "cover": "galerias/la-imprenta-y-el-libro/06-biblia-de-gutenberg.jpg",
+    "title": "La imprenta y la historia del libro",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Antes de la imprenta, cada libro se copiaba a mano. Descubre el libro impreso más antiguo con fecha, la prensa de Gutenberg, los tipos móviles y las máquinas que hicieron posible que los libros llegaran a todos.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Lectura y libros",
+      "Tecnología"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "la-imprenta-y-el-libro",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 3,
+        "Dominio público": 3,
+        "CC BY-SA 3.0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4913006,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/historia-de-la-escritura",
+    "cover": "galerias/historia-de-la-escritura/02-tablilla-cuneiforme.jpg",
+    "title": "Historia de la escritura",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "De las pinturas en las cavernas a los alfabetos: tablillas de barro, jeroglíficos, huesos chinos, rollos y manuscritos que muestran cómo la humanidad aprendió a guardar sus palabras.",
+    "gradeMin": 4,
+    "gradeMax": 10,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Lenguaje",
+      "Lectura y libros"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "historia-de-la-escritura",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 4,
+        "CC BY 4.0": 1,
+        "CC0": 1,
+        "CC BY-SA 4.0": 2
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5131052,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/bibliotecas-del-mundo",
+    "cover": "galerias/bibliotecas-del-mundo/02-long-room-dublin.jpg",
+    "title": "Bibliotecas del mundo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Un viaje por bibliotecas antiguas y modernas: desde la biblioteca romana de Éfeso hasta los parques biblioteca de Medellín. Lugares donde se guarda y se comparte el conocimiento.",
+    "gradeMin": 3,
+    "gradeMax": 11,
+    "categories": [
+      "Lectura y libros",
+      "Bibliotecas",
+      "Arquitectura",
+      "Cultura"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "bibliotecas-del-mundo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 4.0": 3,
+        "Dominio público": 1,
+        "CC BY 4.0": 1,
+        "CC0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5661504,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/pintura-del-renacimiento",
+    "cover": "galerias/pintura-del-renacimiento/01-escuela-de-atenas.jpg",
+    "title": "Pintura del Renacimiento",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Entre los siglos XV y XVI, artistas de Italia y del norte de Europa redescubrieron el arte clásico y aprendieron a pintar con perspectiva, luz y gran realismo. Obras maestras de Rafael, Leonardo, Van Eyck, Durero, Holbein y Bruegel.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Historia del arte",
+      "Pintura",
+      "Europa"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "pintura-del-renacimiento",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 8,
+        "CC BY-SA 4.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 6178534,
+    "reviewNotes": "Se omitieron obras con desnudos (p. ej. La creación de Adán, El nacimiento de Venus, La primavera)."
+  },
+  {
+    "file": "galerias/pintura-barroca",
+    "cover": "galerias/pintura-barroca/01-la-lechera.jpg",
+    "title": "Pintura barroca",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "En el siglo XVII los pintores usaron fuertes contrastes de luz y sombra, escenas llenas de vida y gran realismo. Obras de Vermeer, Rembrandt, Velázquez, Frans Hals, Artemisia Gentileschi, Murillo, Zurbarán y Rubens.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Historia del arte",
+      "Pintura",
+      "Europa"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "pintura-barroca",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 9
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5958319,
+    "reviewNotes": "Las meninas, La ronda de noche y La joven de la perla ya están en grandes-pintores; no se repitieron."
+  },
+  {
+    "file": "galerias/impresionismo",
+    "cover": "galerias/impresionismo/01-puente-nenufares.jpg",
+    "title": "El impresionismo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "A finales del siglo XIX, un grupo de pintores franceses salió a pintar al aire libre para captar la luz y el color de cada momento. Obras de Monet, Renoir, Degas, Pissarro, Caillebotte y Berthe Morisot.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Historia del arte",
+      "Pintura",
+      "Europa"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "impresionismo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 2,
+        "Dominio público": 7
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 7471586,
+    "reviewNotes": "Impresión, sol naciente (Monet) y las obras de Van Gogh ya están en grandes-pintores."
+  },
+  {
+    "file": "galerias/arte-colombiano-antiguo",
+    "cover": "galerias/arte-colombiano-antiguo/03-sagrada-familia-vasquez.jpg",
+    "title": "Arte colombiano de la Colonia y el siglo XIX",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Pinturas de Gregorio Vásquez de Arceo y Ceballos, el gran pintor de la Santafé colonial, y de artistas del siglo XIX y comienzos del XX como Pedro José Figueroa, José María Espinosa, Ricardo Acevedo Bernal y Francisco Antonio Cano.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Historia del arte",
+      "Arte colombiano",
+      "Historia de Colombia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "arte-colombiano-antiguo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 5,
+        "CC0": 2,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3991511,
+    "reviewNotes": "Todos los autores murieron en 1945 o antes (Vásquez †1711, Gutiérrez s. XVIII, Figueroa †1838, Espinosa †1883, Acevedo Bernal †1930, Cano †1935). No se hallaron en Commons obras de Epifanio Garay o Andrés de Santa María con resolución suficiente (Las segadoras fue rechazada en el lote anterior); la obra de Santa María aparece en la galería de la Campaña Libertadora."
+  },
+  {
+    "file": "galerias/escultura-clasica",
+    "cover": "galerias/escultura-clasica/01-victoria-de-samotracia.jpg",
+    "title": "Escultura clásica de Grecia y Roma",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Estatuas de bronce y mármol, bustos de poetas y emperadores y relieves con procesiones: obras de la Grecia y la Roma antiguas que todavía sirven de modelo a escultores de todo el mundo.",
+    "gradeMin": 6,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Historia del arte",
+      "Escultura",
+      "Historia antigua"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "escultura-clasica",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 3,
+        "Dominio público": 1,
+        "CC BY 2.0": 1,
+        "CC BY-SA 4.0": 3,
+        "CC BY-SA 3.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 5079265,
+    "reviewNotes": "Se eligieron solo figuras vestidas, bustos y relieves; se excluyeron desnudos (p. ej. Laocoonte, Discóbolo)."
+  },
+  {
+    "file": "galerias/mitologia-griega-ilustrada",
+    "cover": "galerias/mitologia-griega-ilustrada/07-cuentos-de-tanglewood-portada.jpg",
+    "title": "Mitología griega ilustrada",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Héroes, monstruos y dioses de los mitos griegos en vasijas pintadas, monedas antiguas y en las ilustraciones de libros clásicos para niños de Walter Crane y Virginia Frances Sterrett.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Literatura",
+      "Mitología",
+      "Artes",
+      "Historia antigua"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "mitologia-griega-ilustrada",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 1,
+        "Dominio público": 5,
+        "CC BY-SA 4.0": 1,
+        "CC0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4654990,
+    "reviewNotes": "Se evitaron vasijas y obras con desnudos (frecuentes en el arte griego); se descartó una vasija de Perseo y Andrómeda con figura en silueta desnuda. Las láminas de Sterrett (†1931) se describen sin asegurar la escena exacta que ilustran."
+  },
+  {
+    "file": "galerias/ilustraciones-del-quijote",
+    "cover": "galerias/ilustraciones-del-quijote/02-molinos-de-viento.jpg",
+    "title": "Ilustraciones del Quijote",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Don Quijote de la Mancha, la novela de Miguel de Cervantes (1605 y 1615), en los famosos grabados de Gustave Doré y otras ilustraciones del siglo XIX: los libros de caballerías, los molinos de viento, las bodas de Camacho y el vuelo en Clavileño.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Literatura",
+      "Literatura española",
+      "Artes",
+      "Ilustración"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "ilustraciones-del-quijote",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 6,
+        "CC0": 1,
+        "CC BY 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 7078207,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/fabulas-ilustradas",
+    "cover": "galerias/fabulas-ilustradas/02-cuervo-y-zorro.jpg",
+    "title": "Fábulas ilustradas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "La cigarra y la hormiga, el cuervo y el zorro, la liebre y la tortuga y otras fábulas de Esopo y La Fontaine, en los grabados de Grandville y Gustave Doré y los dibujos de Arthur Rackham. Cada fábula deja una enseñanza.",
+    "gradeMin": 1,
+    "gradeMax": 6,
+    "categories": [
+      "Literatura",
+      "Fábulas",
+      "Literatura infantil",
+      "Ilustración"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "fabulas-ilustradas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 6,
+        "CC BY 4.0": 1,
+        "CC BY-SA 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 5740858,
+    "reviewNotes": "Las figuras del sátiro (Rackham) son criaturas peludas de fábula, sin desnudez explícita. Se descartaron dos láminas repetidas o de fábula no identificable."
+  },
+  {
+    "file": "galerias/gulliver-y-robinson-crusoe",
+    "cover": "galerias/gulliver-y-robinson-crusoe/03-gulliver-rackham-3.jpg",
+    "title": "Los viajes de Gulliver y Robinson Crusoe",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Dos grandes novelas de aventuras del siglo XVIII: Gulliver en el país de los diminutos liliputienses y de los gigantes, y Robinson Crusoe, náufrago en una isla del Caribe. Ilustraciones de Arthur Rackham, Grandville, N. C. Wyeth y otros artistas.",
+    "gradeMin": 3,
+    "gradeMax": 8,
+    "categories": [
+      "Literatura",
+      "Novela de aventuras",
+      "Literatura infantil",
+      "Ilustración"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "gulliver-y-robinson-crusoe",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 8
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 6843083,
+    "reviewNotes": "Se evitaron escenas violentas de Robinson (caníbales). Rackham (†1939), Wyeth (†1945) y Redgrave (†1888) cumplen la regla de 80 años."
+  },
+  {
+    "file": "galerias/grandes-exploradores-y-sus-mapas",
+    "cover": "galerias/grandes-exploradores-y-sus-mapas/05-nave-victoria.jpg",
+    "title": "Grandes exploradores y sus viajes",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Caravanas por la Ruta de la Seda, navegantes que cruzaron océanos desconocidos, científicos en la selva y expediciones al Polo Sur: retratos, mapas y escenas de los grandes viajes de exploración.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Geografía",
+      "Exploración"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "grandes-exploradores-y-sus-mapas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 8
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4946203,
+    "reviewNotes": "La expedición de Scott murió en el regreso; el pie de foto no lo menciona para grados bajos, pero puede surgir en clase. Los mapas famosos (Juan de la Cosa, Waldseemüller, Mercator) ya están en mapas-historicos."
+  },
+  {
+    "file": "galerias/maravillas-del-mundo-antiguo",
+    "cover": "galerias/maravillas-del-mundo-antiguo/01-piramides.jpg",
+    "title": "Las siete maravillas del mundo antiguo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Las pirámides de Egipto, los jardines de Babilonia, el templo de Artemisa, el mausoleo de Halicarnaso y el faro de Alejandría, tal como las imaginaron los grabadores europeos de los siglos XVI y XVII.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia antigua",
+      "Arquitectura",
+      "Ilustración"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "maravillas-del-mundo-antiguo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 4,
+        "CC0": 1,
+        "CC BY 4.0": 1,
+        "CC BY-SA 3.0": 1
+      },
+      "imageCount": 7
+    },
+    "sha256": null,
+    "sizeBytes": 7804149,
+    "reviewNotes": "Se descartaron los grabados del Coloso de Rodas y de la estatua de Zeus de la misma serie por mostrar figuras desnudas; por eso la galería tiene 7 imágenes (Babilonia aparece dos veces en vistas distintas)."
+  },
+  {
+    "file": "galerias/maravillas-del-mundo-moderno",
+    "cover": "galerias/maravillas-del-mundo-moderno/01-gran-muralla.jpg",
+    "title": "Maravillas del mundo moderno",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "La Gran Muralla, Petra y el Taj Mahal, junto a grandes obras de ingeniería de los siglos XIX y XX como la torre Eiffel, la Estatua de la Libertad, el canal de Panamá y el puente Golden Gate.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Geografía",
+      "Arquitectura",
+      "Patrimonio mundial"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "maravillas-del-mundo-moderno",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC0": 1,
+        "CC BY-SA 3.0": 1,
+        "CC BY-SA 4.0": 2,
+        "Dominio público": 3,
+        "CC BY 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3604544,
+    "reviewNotes": "Machu Picchu, Chichén Itzá y el Coliseo (también 'nuevas maravillas') están en las galerías de incas, mayas y Roma."
+  },
+  {
+    "file": "galerias/arquitectura-del-mundo",
+    "cover": "galerias/arquitectura-del-mundo/03-angkor-wat.jpg",
+    "title": "Arquitectura del mundo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Catedrales, templos, palacios y castillos de distintos continentes y épocas: de Santa Sofía y Notre-Dame a Angkor Wat, la Ciudad Prohibida, el castillo de Himeji y la Sagrada Familia.",
+    "gradeMin": 5,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Arquitectura",
+      "Historia",
+      "Patrimonio mundial"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "arquitectura-del-mundo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC BY-SA 4.0": 3,
+        "Dominio público": 1,
+        "CC BY 4.0": 1,
+        "CC0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4391219,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/instrumentos-musicales-del-mundo",
+    "cover": "galerias/instrumentos-musicales-del-mundo/04-violin-stradivarius.jpg",
+    "title": "Instrumentos musicales del mundo",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Instrumentos de cuerda, viento y percusión de distintos continentes: el sitar de la India, el djembé de África occidental, la gaita escocesa, un violín Stradivarius, el arpa, el erhu chino, la balalaika rusa y el piano de cola.",
+    "gradeMin": 1,
+    "gradeMax": 8,
+    "categories": [
+      "Artes",
+      "Música",
+      "Culturas del mundo"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "instrumentos-musicales-del-mundo",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 4.0": 5,
+        "Dominio público": 1,
+        "CC BY-SA 3.0": 2
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4352664,
+    "reviewNotes": "Se descartó una foto de músicos de steelpan con rostros identificables. Los instrumentos colombianos están en la galería instrumentos-musicales-de-colombia."
+  },
+  {
+    "file": "galerias/compositores-clasicos",
+    "cover": "galerias/compositores-clasicos/06-beethoven.jpg",
+    "title": "Compositores de música clásica",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Retratos de grandes compositores, desde el barroco de Vivaldi, Bach y Händel hasta Haydn, Mozart, Beethoven, Chopin, Clara Schumann y Verdi. Conoce quiénes fueron y cuáles son sus obras más famosas.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Artes",
+      "Música",
+      "Historia",
+      "Biografías"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "compositores-clasicos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 9
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 4255560,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/juegos-y-juguetes-antiguos",
+    "cover": "galerias/juegos-y-juguetes-antiguos/03-caballito-con-ruedas.jpg",
+    "title": "Juegos y juguetes de antes",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "¿Con qué jugaban los niños hace cientos y miles de años? Tableros antiguos de Mesopotamia y Egipto, un caballito griego con ruedas, pompas de jabón, la peonza, el caballo balancín, casas de muñecas y juguetes de hojalata.",
+    "gradeMin": 1,
+    "gradeMax": 6,
+    "categories": [
+      "Ciencias sociales",
+      "Historia",
+      "Juego",
+      "Vida cotidiana"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "juegos-y-juguetes-antiguos",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY 3.0": 1,
+        "CC0": 3,
+        "CC BY 2.0": 2,
+        "Dominio público": 1,
+        "CC BY-SA 2.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 4437274,
+    "reviewNotes": null
+  },
+  {
+    "file": "galerias/carnavales-y-fiestas",
+    "cover": "galerias/carnavales-y-fiestas/01-casa-del-carnaval.jpg",
+    "title": "Carnavales y fiestas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "El Carnaval de Barranquilla, Patrimonio de la Humanidad, con su Casa del Carnaval, sus disfraces y su historia desde 1908, y un vistazo a otro carnaval famoso, el de Venecia.",
+    "gradeMin": 2,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Cultura",
+      "Región Caribe",
+      "Fiestas y tradiciones"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "carnavales-y-fiestas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 3,
+        "CC BY 3.0": 1,
+        "CC0": 3
+      },
+      "imageCount": 7
+    },
+    "sha256": null,
+    "sizeBytes": 3397406,
+    "reviewNotes": "Se descartaron fotos de desfiles, carrozas y bailarines con rostros identificables (posibles menores). Se usaron fachadas, figuras, comparsas enmascaradas y fotos históricas. Puede haber personas pequeñas al fondo de alguna foto."
+  },
+  {
+    "file": "galerias/trajes-de-la-comision-corografica",
+    "cover": "galerias/trajes-de-la-comision-corografica/02-llapanga-y-mestizo.png",
+    "title": "Trajes y oficios en la Comisión Corográfica",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Acuarelas pintadas entre 1850 y 1859 por los artistas de la Comisión Corográfica, que recorrió la Nueva Granada para hacer mapas y describir sus regiones, gentes, trajes y oficios. Obras de Manuel María Paz y Carmelo Fernández.",
+    "gradeMin": 4,
+    "gradeMax": 11,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Artes",
+      "Siglo XIX"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "trajes-de-la-comision-corografica",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 8,
+        "CC BY-SA 4.0": 1
+      },
+      "imageCount": 9
+    },
+    "sha256": null,
+    "sizeBytes": 9644076,
+    "reviewNotes": "Algunos títulos originales del siglo XIX usan términos raciales de la época (p. ej. 'Retrato de un negro de Cartago'); en los pies de foto se describen de forma respetuosa. Manuel María Paz (†1902) y Carmelo Fernández (†1887): dominio público."
+  },
+  {
+    "file": "galerias/el-cafe-en-colombia",
+    "cover": "galerias/el-cafe-en-colombia/02-cereza-de-cafe.jpg",
+    "title": "El café en Colombia",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "De la flor al grano: conoce cómo se cultiva, se seca y se trilla el café, uno de los productos más importantes de la historia económica de Colombia, y el Paisaje Cultural Cafetero, patrimonio de la humanidad.",
+    "gradeMin": 3,
+    "gradeMax": 9,
+    "categories": [
+      "Ciencias sociales",
+      "Historia de Colombia",
+      "Economía",
+      "Agricultura"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "el-cafe-en-colombia",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "CC BY-SA 3.0": 2,
+        "CC0": 1,
+        "CC BY-SA 2.0": 4,
+        "CC BY-SA 4.0": 1
+      },
+      "imageCount": 8
+    },
+    "sha256": null,
+    "sizeBytes": 3297329,
+    "reviewNotes": "Tema solicitado con fotos históricas PD: no se hallaron en Commons fotos históricas libres del café colombiano distintas de la ya usada en oficios-y-vida-cotidiana-siglo-xix (Melitón Rodríguez); se usaron fotos actuales con licencia libre. Las personas aparecen de lejos o solo sus manos."
+  },
+  {
+    "file": "galerias/alicia-en-el-pais-de-las-maravillas",
+    "cover": "galerias/alicia-en-el-pais-de-las-maravillas/05-merienda-de-locos.png",
+    "title": "Alicia en el país de las maravillas",
+    "creator": "Biblioteca Macondo (curaduría) · imágenes de Wikimedia Commons",
+    "type": "GALLERY",
+    "description": "Las ilustraciones originales de John Tenniel para Alicia en el país de las maravillas (1865) y A través del espejo (1871), de Lewis Carroll: el Conejo Blanco, la Oruga, la Duquesa, la merienda de locos y las reinas del ajedrez.",
+    "gradeMin": 1,
+    "gradeMax": 7,
+    "categories": [
+      "Literatura",
+      "Literatura infantil",
+      "Ilustración",
+      "Fantasía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "PUBLISHED",
+    "license": {
+      "rightsHolder": "Varios autores (ver créditos por imagen)",
+      "licenseName": "Imágenes de Wikimedia Commons con licencias libres; créditos por imagen en la galería",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Wikimedia Commons",
+      "id": "alicia-en-el-pais-de-las-maravillas",
+      "url": "https://commons.wikimedia.org/",
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "basis": "Licencia de cada imagen verificada con la API de Commons (extmetadata LicenseShortName/License); solo dominio público, CC0, CC BY y CC BY-SA. Las CC BY/BY-SA exigen mostrar el crédito y la licencia de cada imagen (incluidos en gallery.json).",
+      "licenseMix": {
+        "Dominio público": 7
+      },
+      "imageCount": 7
+    },
+    "sha256": null,
+    "sizeBytes": 4049944,
+    "reviewNotes": "La Oruga fuma una pipa de agua (narguile), tal como en el libro original. Las ilustraciones en color son versiones coloreadas de los dibujos de Tenniel (†1914)."
+  }
+]

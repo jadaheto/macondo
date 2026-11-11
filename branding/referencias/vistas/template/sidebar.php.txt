@@ -1,0 +1,984 @@
+﻿<!-- ========== App Menu ========== -->
+<div class="app-menu navbar-menu">
+    <!-- LOGO -->
+    <div class="navbar-brand-box m-2 mt-3">
+        <a href="<?= base_url() ?>" class="logo logo-dark"></a>
+
+
+
+
+        <a href="<?= base_url() ?>" class="logo logo-light">
+            <span class="logo-sm" aria-label="Comfasucre">
+                <img src="<?= base_url('assets/images/favicon.ico') ?>" alt="Comfasucre" width="30" height="30" style="object-fit:contain;">
+            </span>
+            <span class="logo-lg">
+                <img src="<?= base_url() ?>assets/images/logo_comfasucre_light.png" alt="" height="55">
+            </span>
+        </a>
+
+
+
+
+        <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
+            <i class="ri-record-circle-line"></i>
+        </button>
+    </div>
+
+
+
+
+    <div id="scrollbar">
+        <div class="container-fluid">
+            <div id="two-column-menu"></div>
+
+
+
+
+            <?php
+$this->load->library('acl');
+$this->load->library('actualizacion_obligatoria');
+
+
+
+
+$rol = strtoupper((string)$this->session->userdata('rol_activo'));
+$urlActual = isset($url) ? (string)$url : '';
+
+
+
+
+$can = function ($permiso, $accion = 'view') {
+    return $this->acl->can($permiso, $accion);
+};
+
+
+
+
+$canAny = function (array $items) use ($can) {
+    foreach ($items as $item) {
+        $permiso = is_array($item) ? ($item[0] ?? '') : $item;
+        $accion  = is_array($item) ? ($item[1] ?? 'view') : 'view';
+
+
+
+
+        if ($can($permiso, $accion)) {
+            return true;
+        }
+    }
+
+
+
+
+    return false;
+};
+
+
+
+
+$isAfiliado = ($rol === 'AFILIADO');
+$afiliadoActivoParaActualizar = !$isAfiliado || $this->actualizacion_obligatoria->es_afiliado_activo();
+
+
+
+
+$selfPerms = [
+    ['afl.self.afiliacion', 'view'],
+    ['afl.self.aportes', 'view'],
+    ['afl.self.beneficiarios', 'view'],
+    ['afl.self.carnet', 'view'],
+    ['afl.self.cert_afiliacion', 'view'],
+    ['afl.self.cuota', 'view'],
+    ['afl.self.medio_pago', 'view'],
+    ['afl.self.actualizacion_datos', 'view'],
+    ['afl.self.pqrsf', 'view'],
+    ['afl.self.eventos', 'view'],
+    ['afl.self.bingo', 'view'],
+    ['afl.self.pqr', 'view'],
+];
+
+
+
+
+$adminDashboardPerms = [
+    ['admin.dashboard', 'view'],
+];
+
+
+
+
+$adminUsuariosPerms = [
+    ['admin.usuarios.view', 'view'],
+    ['admin.usuarios.update', 'update'],
+];
+
+
+
+
+$pushPerms = [
+    ['app.push', 'view'],
+    ['app.push.admin', 'view'],
+    ['app.push.create', 'create'],
+    ['app.push.send', 'create'],
+    ['app.push.stats', 'view'],
+    ['app.push.devices', 'view'],
+    ['app.push.maintenance', 'view'],
+    ['app.push.maintenance', 'update'],
+];
+
+
+
+
+$solicitudesPerms = [
+    ['afl.admin.actualizacion_datos', 'view'],
+    ['afl.admin.medio_pago', 'view'],
+];
+
+
+
+
+$pasadiasPerms = [
+    ['pasadias.admin.eventos', 'view'],
+    ['pasadias.admin.eventos', 'create'],
+    ['pasadias.admin.inscripciones', 'view'],
+    ['pasadias.admin.asistencia', 'view'],
+    ['pasadias.admin.reportes', 'view'],
+];
+
+
+
+
+$coberturaPerms = [
+    ['cobertura.admin.eventos', 'view'],
+    ['cobertura.admin.eventos', 'create'],
+    ['cobertura.admin.asistencias', 'view'],
+    ['cobertura.admin.reportes', 'view'],
+];
+
+
+
+
+$boleteriaPerms = [
+    ['boleteria.admin.eventos', 'view'],
+    ['boleteria.admin.inscripciones', 'view'],
+    ['boleteria.tesoreria.entregas', 'view'],
+    ['boleteria.admin.reportes', 'view'],
+    ['boleteria.admin.lotes', 'view'],
+];
+
+
+
+
+$pqrPerms = [
+    ['pqr.atencion', 'view'],
+    ['pqr.gestion', 'view'],
+    ['pqr.prorrogas', 'view'],
+    ['pqr.reportes', 'view'],
+    ['pqr.configuracion', 'view'],
+    ['pqr.auditoria', 'view'],
+    ['pqr.caracterizacion.reportar', 'view'],
+];
+
+
+
+
+$syncPerms = [
+    ['sync.trabajadores', 'view'],
+    ['sync.trabajadores', 'create'],
+    ['sync.trabajadores', 'update'],
+    ['sync.beneficiarios', 'view'],
+    ['sync.beneficiarios', 'create'],
+    ['sync.beneficiarios', 'update'],
+        ['sync.cuota_monetaria', 'view'],
+        ['sync.cuota_monetaria', 'create'],
+        ['sync.cuota_monetaria', 'update'],
+    ['sync.aportes', 'view'],
+    ['sync.aportes', 'create'],
+    ['sync.aportes', 'update'],
+        ['sync.empresas', 'view'],
+    ['sync.empresas', 'create'],
+    ['sync.empresas', 'update'],
+];
+
+
+
+
+$subsidioPerms = [
+    ['subsidio.admin.empresas', 'view'],
+    ['subsidio.admin.empresas.exportar', 'create'],
+    ['subsidio.admin.consulta_afiliados', 'view'],
+    ['subsidio.admin.afiliados', 'view'],
+    ['subsidio.admin.beneficiarios', 'view'],
+    ['subsidio.admin.beneficiarios.exportar', 'create'],
+    ['subsidio.admin.afiliados.exportar', 'create'],
+    ['subsidio.admin.afiliados.360', 'view'],
+    ['afl.admin.certificados', 'view'],
+];
+
+
+
+
+$turnosPerms = [
+    ['turnos.recepcion', 'view'],
+    ['turnos.pantallas', 'view'],
+    ['turnos.operacion', 'view'],
+    ['turnos.configuracion', 'view'],
+    ['turnos.publicidad', 'view'],
+    ['turnos.reportes', 'view'],
+    ['turnos.auditoria', 'view'],
+];
+
+
+
+
+$hasSelfMenu       = $canAny($selfPerms);
+$hasDashboardMenu  = $canAny($adminDashboardPerms);
+$hasUsuariosMenu   = $canAny($adminUsuariosPerms);
+$hasPushMenu       = $canAny($pushPerms);
+$hasSolicitudesMenu = $canAny($solicitudesPerms);
+$hasPasadiasMenu   = $canAny($pasadiasPerms);
+$hasCoberturaMenu  = $canAny($coberturaPerms);
+$hasBoleteriaMenu  = $canAny($boleteriaPerms);
+$hasPqrMenu        = $canAny($pqrPerms) || $can('pqr.permisos','view');
+$hasSyncMenu       = $canAny($syncPerms);
+$hasSubsidioMenu   = $canAny($subsidioPerms);
+$hasTurnosMenu     = $canAny($turnosPerms);
+$hasBingoMenu      = $canAny([
+    ['bingo.admin.eventos', 'view'],
+    ['bingo.admin.inscripciones', 'view'],
+    ['bingo.admin.reportes', 'view'],
+]);
+
+
+
+
+$hasAdminMenu = (
+    $hasDashboardMenu ||
+    $hasUsuariosMenu ||
+    $hasPushMenu ||
+    $hasSolicitudesMenu ||
+    $hasPasadiasMenu ||
+    $hasCoberturaMenu ||
+    $hasBoleteriaMenu ||
+    $hasPqrMenu ||
+    $hasSyncMenu ||
+    $hasSubsidioMenu ||
+    $hasTurnosMenu ||
+    $hasBingoMenu
+);
+
+
+
+
+$inicioUrl = $isAfiliado
+    ? base_url('Dashboard')
+    : base_url('Administracion/escritorio');
+
+
+
+
+$isPushActive = in_array($urlActual, [
+    'app_push',
+    'app_push_stats',
+    'app_push_devices',
+    'app_push_mantenimiento',
+    'app_push_estadisticas',
+    'app_push_dispositivos',
+    'app_push_dispositivos_mantenimiento'
+], true);
+
+
+
+
+$isSolicitudesActive = in_array($urlActual, [
+    'admin_actualizacion_datos',
+    'actualizacion_datos_admin',
+    'admin_medio_pago'
+], true);
+
+
+
+
+$isSubsidioActive = in_array($urlActual, [
+    'admin_certificados',
+    'consulta_afiliados',
+    'subsidio_afiliados',
+    'subsidio_trabajadores',
+    'subsidio_beneficiarios',
+    'subsidio_empresas'
+], true);
+
+
+
+
+$isPasadiasActive = in_array($urlActual, [
+    'pasadias',
+    'pasadias_inscripciones',
+    'pasadias_asistencia',
+    'pasadias_reportes'
+], true);
+
+
+
+
+$isCoberturaActive = in_array($urlActual, [
+    'cobertura_eventos',
+    'cobertura_asistencias',
+    'cobertura_reportes'
+], true);
+
+
+
+
+$isBoleteriaActive = in_array($urlActual, [
+    'boleteria_eventos','boleteria_inscripciones','boleteria_tesoreria','boleteria_reportes','boleteria_lotes'
+], true);
+
+
+
+
+$isPqrActive = (($menuDropdown ?? '') === 'pqr') || in_array($urlActual, ['pqr','pqr_create','pqr_reportes','pqr_estadisticas','pqr_config','pqr_configuracion','pqr_auditoria','pqr_caracterizacion','pqr_permissions'], true);
+
+
+
+
+$isSyncActive = in_array($urlActual, [
+    'sync_trabajadores',
+    'sync_beneficiarios',
+    'sync_cuota_monetaria',
+    'sync_aportes',
+        'sync_empresas',
+        'sync_aportes117',
+    'sync_detalle'
+], true);
+
+
+
+
+$isTurnosActive = in_array($urlActual, [
+    'turnos_recepcion',
+    'turnos_gestor',
+    'turnos_pantallas',
+    'turnos_dependencias',
+    'turnos_modulos',
+    'turnos_horarios',
+    'publicidad',
+    'reportes_turnos'
+], true);
+?>
+
+
+
+
+            <ul class="navbar-nav" id="navbar-nav">
+
+
+
+
+                <li class="menu-title">
+                    <span><?= $hasAdminMenu && !$isAfiliado ? 'ADMINISTRACIÓN' : 'MI PORTAL' ?></span>
+                </li>
+
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link <?= ($urlActual == "inicio") ? "active" : "" ?>" href="<?= $inicioUrl ?>">
+                        <i class="ri-home-3-line"></i> <span>Inicio</span>
+                    </a>
+                </li>
+
+
+
+
+                <?php
+                $bingoDisponible = $this->db->query("SELECT to_regclass('public.bingo_eventos') AS tabla")->row()->tabla;
+                $bingoFuncionario = false;
+                if ($bingoDisponible) {
+                    $bingoCI =& get_instance();
+                    $bingoCI->load->model('Users_model', 'sidebarBingoUsers');
+                    $bingoFuncionario = !empty($bingoCI->sidebarBingoUsers->employment_for_user((int)$this->session->userdata('id'))['active']);
+                }
+                ?>
+                <?php if ($bingoDisponible && ($can('afl.self.bingo', 'view') || $bingoFuncionario)): ?>
+                    <li class="nav-item"><a class="nav-link menu-link <?= $urlActual === 'bingo' ? 'active' : '' ?>" href="<?= base_url('bingo') ?>"><i class="bingo-menu-icon" aria-hidden="true" style="display:inline-flex;align-items:center;justify-content:center"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" focusable="false" style="display:block"><rect x="2.75" y="2.75" width="18.5" height="18.5" rx="2.25"/><path d="M2.75 9h18.5M2.75 15h18.5M9 2.75v18.5M15 2.75v18.5"/><circle cx="6" cy="6" r="0.7" fill="currentColor" stroke="none"/><circle cx="12" cy="6" r="0.7" fill="currentColor" stroke="none"/><circle cx="18" cy="6" r="0.7" fill="currentColor" stroke="none"/><circle cx="6" cy="12" r="0.7" fill="currentColor" stroke="none"/><circle cx="18" cy="12" r="0.7" fill="currentColor" stroke="none"/><circle cx="6" cy="18" r="0.7" fill="currentColor" stroke="none"/><circle cx="12" cy="18" r="0.7" fill="currentColor" stroke="none"/><circle cx="18" cy="18" r="0.7" fill="currentColor" stroke="none"/><path d="m10.4 11.9 1.0 1.15 2.45-2.55" stroke-width="1.8"/></svg></i><span><?= $bingoFuncionario && !$can('afl.self.bingo', 'view') ? 'Simulacros de bingo' : 'Mis bingos' ?></span></a></li>
+                <?php endif; ?>
+                <?php if ($bingoDisponible && $can('bingo.admin.eventos', 'view')): ?>
+                    <li class="nav-item"><a class="nav-link menu-link <?= $urlActual === 'bingo_admin' ? 'active' : '' ?>" href="<?= base_url('bingo/admin') ?>"><i class="ri-calendar-event-line"></i><span>Administrar bingos</span></a></li>
+                <?php endif; ?>
+                <?php if ($bingoDisponible && $can('bingo.admin.reportes', 'view')): ?>
+                    <li class="nav-item"><a class="nav-link menu-link <?= $urlActual === 'bingo_reportes' ? 'active' : '' ?>" href="<?= base_url('bingo/admin/reportes') ?>"><i class="ri-bar-chart-box-line"></i><span>Reportes de bingo</span></a></li>
+                <?php endif; ?>
+                <?php if ($bingoDisponible && $can('bingo.admin.inscripciones', 'view') && !$can('bingo.admin.eventos', 'view')): ?>
+                    <li class="nav-item"><a class="nav-link menu-link <?= $urlActual === 'bingo_participantes' ? 'active' : '' ?>" href="<?= base_url('bingo/admin/participantes') ?>"><i class="ri-group-line"></i><span>Participantes de bingo</span></a></li>
+                <?php endif; ?>
+
+
+
+
+                <?php if ($hasAdminMenu && !$isAfiliado): ?>
+
+
+
+
+                    <?php if ($hasUsuariosMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual == "users") ? "active" : "" ?>" href="<?= base_url('users') ?>">
+                                <i class="ri-user-settings-line"></i> <span>Usuarios y roles</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasTurnosMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isTurnosActive ? 'active' : 'collapsed' ?>" href="#sidebarTurnos" data-bs-toggle="collapse" role="button" aria-expanded="<?= $isTurnosActive ? 'true' : 'false' ?>" aria-controls="sidebarTurnos">
+                                <i class="ri-customer-service-2-line"></i> <span>Gestión de turnos</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isTurnosActive ? 'show' : '' ?>" id="sidebarTurnos">
+                                <ul class="nav nav-sm flex-column">
+                                    <?php if ($can('turnos.recepcion', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('turnos/recepcion') ?>" class="nav-link <?= ($urlActual === 'turnos_recepcion') ? 'active' : '' ?>">Recepción</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($can('turnos.operacion', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('turnos/gestor') ?>" class="nav-link <?= ($urlActual === 'turnos_gestor') ? 'active' : '' ?>">Gestor</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($can('turnos.pantallas', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('turnos/pantallas') ?>" class="nav-link <?= ($urlActual === 'turnos_pantallas') ? 'active' : '' ?>">Dispositivos</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($can('turnos.configuracion', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('turnos/modulos') ?>" class="nav-link <?= ($urlActual === 'turnos_modulos') ? 'active' : '' ?>">Módulos</a></li>
+                                        <li class="nav-item"><a href="<?= base_url('turnos/dependencias') ?>" class="nav-link <?= ($urlActual === 'turnos_dependencias') ? 'active' : '' ?>">Dependencias</a></li>
+                                        <li class="nav-item"><a href="<?= base_url('turnos/horarios') ?>" class="nav-link <?= ($urlActual === 'turnos_horarios') ? 'active' : '' ?>">Horarios</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($can('turnos.publicidad', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('publicidad') ?>" class="nav-link <?= ($urlActual === 'publicidad') ? 'active' : '' ?>">Publicidad</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($can('turnos.reportes', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('reportes') ?>" class="nav-link <?= ($urlActual === 'reportes_turnos') ? 'active' : '' ?>">Reportes</a></li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasPushMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isPushActive ? 'active' : 'collapsed' ?>" href="#sidebarPushApp" data-bs-toggle="collapse" role="button" aria-expanded="<?= $isPushActive ? 'true' : 'false' ?>" aria-controls="sidebarPushApp">
+                                <i class="ri-notification-3-line"></i> <span>Notificaciones App</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isPushActive ? 'show' : '' ?>" id="sidebarPushApp">
+                                <ul class="nav nav-sm flex-column">
+                                    <?php if ($can('app.push', 'view') || $can('app.push.admin', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('notificaciones-app') ?>" class="nav-link <?= ($urlActual == "app_push") ? "active" : "" ?>">
+                                                Campañas
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('app.push.create', 'create') || $can('app.push.send', 'create')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('notificaciones-app/nueva') ?>" class="nav-link">
+                                                Nueva campaña
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('app.push.stats', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('notificaciones-app/estadisticas') ?>" class="nav-link <?= ($urlActual == "app_push_stats") ? "active" : "" ?>">
+                                                Estadísticas
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('app.push.devices', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('notificaciones-app/dispositivos') ?>" class="nav-link <?= ($urlActual == "app_push_devices") ? "active" : "" ?>">
+                                                Dispositivos
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('app.push.maintenance', 'view') || $can('app.push.maintenance', 'update')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('notificaciones-app/dispositivos/mantenimiento') ?>" class="nav-link <?= ($urlActual == "app_push_mantenimiento") ? "active" : "" ?>">
+                                                Mantenimiento
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasSolicitudesMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isSolicitudesActive ? 'active' : 'collapsed' ?>" href="#sidebarSolicitudes" data-bs-toggle="collapse" role="button" aria-expanded="<?= $isSolicitudesActive ? 'true' : 'false' ?>" aria-controls="sidebarSolicitudes">
+                                <i class="ri-folder-user-line"></i> <span>Solicitudes</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isSolicitudesActive ? 'show' : '' ?>" id="sidebarSolicitudes">
+                                <ul class="nav nav-sm flex-column">
+                                    <?php if ($can('afl.admin.actualizacion_datos', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('ActualizacionDatos/admin') ?>" class="nav-link <?= ($urlActual == "admin_actualizacion_datos") ? "active" : "" ?>">
+                                                Actualización de datos
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('afl.admin.medio_pago', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('MedioPago/admin') ?>" class="nav-link <?= ($urlActual == "admin_medio_pago") ? "active" : "" ?>">
+                                                Medio de pago
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                </ul>
+                            </div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasPasadiasMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isPasadiasActive ? 'active' : 'collapsed' ?>" href="#sidebarPasadias" data-bs-toggle="collapse" role="button" aria-expanded="<?= $isPasadiasActive ? 'true' : 'false' ?>" aria-controls="sidebarPasadias">
+                                <i class="ri-sun-line"></i> <span>Servicios sociales</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isPasadiasActive ? 'show' : '' ?>" id="sidebarPasadias">
+                                <ul class="nav nav-sm flex-column">
+                                    <?php if ($can('pasadias.admin.eventos', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('PasadiasAdmin') ?>" class="nav-link <?= ($urlActual == "pasadias") ? "active" : "" ?>">
+                                                Pasadías
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('pasadias.admin.inscripciones', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('PasadiasAdmin') ?>" class="nav-link">
+                                                Inscripciones
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('pasadias.admin.asistencia', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('PasadiasAdmin') ?>" class="nav-link">
+                                                Asistencia
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('pasadias.admin.reportes', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('PasadiasAdmin/reportes') ?>" class="nav-link <?= ($urlActual == "pasadias_reportes") ? "active" : "" ?>">
+                                                Reportes
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasCoberturaMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isCoberturaActive ? 'active' : 'collapsed' ?>" href="#sidebarCobertura" data-bs-toggle="collapse" role="button" aria-expanded="<?= $isCoberturaActive ? 'true' : 'false' ?>" aria-controls="sidebarCobertura">
+                                <i class="ri-qr-scan-2-line"></i> <span>Cobertura</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isCoberturaActive ? 'show' : '' ?>" id="sidebarCobertura">
+                                <ul class="nav nav-sm flex-column">
+                                    <?php if ($can('cobertura.admin.eventos', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('CoberturaAdmin') ?>" class="nav-link <?= ($urlActual === 'cobertura_eventos') ? 'active' : '' ?>">Eventos y asistencia</a></li>
+                                    <?php endif; ?>
+                                    <?php if ($can('cobertura.admin.reportes', 'view')): ?>
+                                        <li class="nav-item"><a href="<?= base_url('CoberturaAdmin/reportes') ?>" class="nav-link <?= ($urlActual === 'cobertura_reportes') ? 'active' : '' ?>">Reportes</a></li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasBoleteriaMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isBoleteriaActive ? 'active' : 'collapsed' ?>" href="#sidebarBoleteria" data-bs-toggle="collapse" aria-expanded="<?= $isBoleteriaActive ? 'true' : 'false' ?>">
+                                <i class="ri-ticket-2-line"></i> <span>Boletería</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isBoleteriaActive ? 'show' : '' ?>" id="sidebarBoleteria"><ul class="nav nav-sm flex-column">
+                                <?php if ($can('boleteria.admin.eventos','view')): ?><li class="nav-item"><a href="<?=base_url('BoleteriaAdmin')?>" class="nav-link <?=in_array($urlActual,['boleteria_eventos','boleteria_inscripciones'],true)?'active':''?>">Eventos e inscripciones</a></li><?php endif; ?>
+                                <?php if ($can('boleteria.tesoreria.entregas','view')): ?><li class="nav-item"><a href="<?=base_url('BoleteriaTesoreria')?>" class="nav-link <?=$urlActual==='boleteria_tesoreria'?'active':''?>">Tesorería y entrega</a></li><?php endif; ?>
+                                <?php if ($can('boleteria.admin.reportes','view')): ?><li class="nav-item"><a href="<?=base_url('BoleteriaAdmin/reportes')?>" class="nav-link <?=$urlActual==='boleteria_reportes'?'active':''?>">Reportes</a></li><?php endif; ?>
+                                <?php if ($can('boleteria.admin.lotes','view')): ?><li class="nav-item"><a href="<?=base_url('boleteria-lotes')?>" class="nav-link <?=$urlActual==='boleteria_lotes'?'active':''?>">Cargas masivas</a></li><?php endif; ?>
+                            </ul></div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($hasPqrMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isPqrActive ? 'active' : 'collapsed' ?>" href="#sidebarPqr" data-bs-toggle="collapse" aria-expanded="<?= $isPqrActive ? 'true' : 'false' ?>" aria-controls="sidebarPqr">
+                                <i class="ri-customer-service-2-line"></i> <span>PQR</span>
+                            </a>
+                            <div class="collapse menu-dropdown <?= $isPqrActive ? 'show' : '' ?>" id="sidebarPqr"><ul class="nav nav-sm flex-column">
+                                <?php if ($canAny($pqrPerms)): ?><li class="nav-item"><a href="<?=base_url('pqr')?>" class="nav-link <?= $urlActual==='pqr'?'active':'' ?>">Bandeja y gestión</a></li><?php endif; ?>
+                                <?php if ($can('pqr.atencion','create')): ?><li class="nav-item"><a href="<?=base_url('pqr/crear')?>" class="nav-link <?= $urlActual==='pqr_create'?'active':'' ?>">Radicar solicitud</a></li><?php endif; ?>
+                                <?php if ($can('pqr.reportes','view')): ?><li class="nav-item"><a href="<?=base_url('pqr/estadisticas')?>" class="nav-link <?= in_array($urlActual,['pqr_reportes','pqr_estadisticas'],true)?'active':'' ?>">Reportes y estadísticas</a></li><?php endif; ?>
+                                <?php if ($can('pqr.caracterizacion.reportar','view')): ?><li class="nav-item"><a href="<?=base_url('pqr/caracterizacion')?>" class="nav-link <?= $urlActual==='pqr_caracterizacion'?'active':'' ?>">Caracterización</a></li><?php endif; ?>
+                                <?php if ($can('pqr.configuracion','view')): ?><li class="nav-item"><a href="<?=base_url('pqr/configuracion')?>" class="nav-link <?= $urlActual==='pqr_config'?'active':'' ?>">Configuración</a></li><?php endif; ?>
+                                <?php if ($can('pqr.permisos','view')): ?><li class="nav-item"><a href="<?=base_url('pqr/permisos')?>" class="nav-link <?= $urlActual==='pqr_permissions'?'active':'' ?>">Permisos</a></li><?php endif; ?>
+                                <?php if ($can('pqr.auditoria','view')): ?><li class="nav-item"><a href="<?=base_url('pqr/auditoria')?>" class="nav-link <?= $urlActual==='pqr_auditoria'?'active':'' ?>">Auditoría</a></li><?php endif; ?>
+                            </ul></div>
+                        </li>
+                    <?php endif; ?>
+                                
+                    <?php if ($hasSubsidioMenu): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= $isSubsidioActive ? 'active' : 'collapsed' ?>"
+                               href="#sidebarSubsidio"
+                               data-bs-toggle="collapse"
+                               role="button"
+                               aria-expanded="<?= $isSubsidioActive ? 'true' : 'false' ?>"
+                               aria-controls="sidebarSubsidio">
+                                <i class="ri-bank-line"></i>
+                                <span>Subsidio</span>
+                            </a>
+
+
+
+
+                            <div class="collapse menu-dropdown <?= $isSubsidioActive ? 'show' : '' ?>" id="sidebarSubsidio">
+                                <ul class="nav nav-sm flex-column">
+                                    <?php if ($can('subsidio.admin.consulta_afiliados', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('consulta-afiliados') ?>"
+                                               class="nav-link <?= ($urlActual === 'consulta_afiliados') ? 'active' : '' ?>">
+                                                Consulta de afiliados
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('subsidio.admin.afiliados', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('SubsidioAfiliados') ?>"
+                                               class="nav-link <?= in_array($urlActual, ['subsidio_afiliados', 'subsidio_trabajadores'], true) ? 'active' : '' ?>">
+                                                Trabajadores afiliados
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('subsidio.admin.beneficiarios', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('SubsidioBeneficiarios') ?>"
+                                               class="nav-link <?= ($urlActual == 'subsidio_beneficiarios') ? 'active' : '' ?>">
+                                                Beneficiarios
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('subsidio.admin.empresas', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('SubsidioEmpresas') ?>"
+                                               class="nav-link <?= ($urlActual == 'subsidio_empresas') ? 'active' : '' ?>">
+                                                Empresas
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+
+
+
+
+                                    <?php if ($can('afl.admin.certificados', 'view')): ?>
+                                        <li class="nav-item">
+                                            <a href="<?= base_url('CertificadosAdmin') ?>"
+                                               class="nav-link <?= ($urlActual == 'admin_certificados') ? 'active' : '' ?>">
+                                                Certificados administrativos
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+                                </ul>
+                            </div>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                                <?php if ($hasSyncMenu): ?>
+    <li class="nav-item">
+        <a class="nav-link menu-link <?= $isSyncActive ? 'active' : 'collapsed' ?>"
+           href="#sidebarSync"
+           data-bs-toggle="collapse"
+           role="button"
+           aria-expanded="<?= $isSyncActive ? 'true' : 'false' ?>"
+           aria-controls="sidebarSync">
+            <i class="ri-database-2-line"></i>
+            <span>Sincronización</span>
+        </a>
+
+
+
+
+        <div class="collapse menu-dropdown <?= $isSyncActive ? 'show' : '' ?>" id="sidebarSync">
+            <ul class="nav nav-sm flex-column">
+                                <?php if ($can('sync.empresas', 'view')): ?>
+                                <li class="nav-item">
+                                        <a href="<?= base_url('Sincronizacion/empresas') ?>"
+                                           class="nav-link <?= ($urlActual == 'sync_empresas') ? 'active' : '' ?>">
+                                                Empresas
+                                        </a>
+                                </li>
+                        <?php endif; ?>
+                <?php if ($can('sync.trabajadores', 'view')): ?>
+                    <li class="nav-item">
+                        <a href="<?= base_url('Sincronizacion/trabajadores') ?>"
+                           class="nav-link <?= ($urlActual == 'sync_trabajadores') ? 'active' : '' ?>">
+                            Trabajadores
+                        </a>
+                    </li>
+                <?php endif; ?>
+                                <?php if ($can('sync.beneficiarios', 'view')): ?>
+                                        <li class="nav-item">
+                                                <a href="<?= base_url('Sincronizacion/beneficiarios') ?>"
+                                                   class="nav-link <?= ($urlActual == 'sync_beneficiarios') ? 'active' : '' ?>">
+                                                        Beneficiarios
+                                                </a>
+                                        </li>
+                                <?php endif; ?>
+                                <?php if ($can('sync.cuota_monetaria', 'view')): ?>
+                                <li class="nav-item">
+                                        <a href="<?= base_url('Sincronizacion/cuota_monetaria') ?>"
+                                           class="nav-link <?= ($urlActual == 'sync_cuota_monetaria') ? 'active' : '' ?>">
+                                                Cuota monetaria
+                                        </a>
+                                </li>
+                        <?php endif; ?>
+                <?php if ($can('sync.aportes', 'view')): ?>
+                    <li class="nav-item">
+                        <a href="<?= base_url('Sincronizacion/aportes') ?>"
+                           class="nav-link <?= ($urlActual == 'sync_aportes') ? 'active' : '' ?>">
+                            Aportes
+                        </a>
+                    </li>
+                <?php endif; ?>
+                                <?php if ($can('sync.aportes117', 'view')): ?>
+                                        <li class="nav-item">
+                                                <a href="<?= base_url('Sincronizacion/aportes117') ?>"
+                                                   class="nav-link <?= ($urlActual == 'sync_aportes117') ? 'active' : '' ?>">
+                                                        Aportes 117
+                                                </a>
+                                        </li>
+                                <?php endif; ?>
+            </ul>
+        </div>
+    </li>
+<?php endif; ?>
+
+
+
+
+                <?php else: ?>
+
+
+
+
+                    <?php if ($can('afl.self.afiliacion','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="afiliacion") ? "active" : "" ?>" href="<?= base_url('Afiliacion/index') ?>">
+                                <i class="ri-user-line"></i> <span>Estado Afiliación</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.aportes','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="aportes") ? "active" : "" ?>" href="<?= base_url('Aportes/index') ?>">
+                                <i class="ri-file-list-3-line"></i> <span>Aportes</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.beneficiarios','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="beneficiarios") ? "active" : "" ?>" href="<?= base_url('Beneficiarios/index') ?>">
+                                <i class="ri-team-line"></i> <span>Beneficiarios</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.carnet','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="carnet") ? "active" : "" ?>" href="<?= base_url('Carnet/index') ?>">
+                                <i class="ri-profile-line"></i> <span>Carné</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.cert_afiliacion','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="certificado_afiliacion") ? "active" : "" ?>" href="<?= base_url('Certificados/CertificadoAfiliacion') ?>">
+                                <i class="ri-file-paper-2-line"></i> <span>Certificado Afiliación</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.cuota','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="cuota_monetaria") ? "active" : "" ?>" href="<?= base_url('CuotaMonetaria/inicio') ?>">
+                                <i class="ri-money-dollar-circle-line"></i> <span>Cuota Monetaria</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.medio_pago','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="medio_pago") ? "active" : "" ?>" href="<?= base_url('MedioPago') ?>">
+                                <i class="ri-bank-card-line"></i> <span>Cambio Medio Pago</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.actualizacion_datos','view') && $afiliadoActivoParaActualizar): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual=="actualizacion_datos") ? "active" : "" ?>" href="<?= base_url('ActualizacionDatos') ?>">
+                                <i class="ri-edit-box-line"></i> <span>Actualización de Datos</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.eventos','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual==="boleteria_app") ? "active" : "" ?>" href="<?= base_url('boleteria') ?>">
+                                <i class="ri-ticket-2-line"></i> <span>Boletería</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <?php if ($can('afl.self.pqr','view')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link <?= ($urlActual==='pqr_app') ? 'active' : '' ?>" href="<?= base_url('mis-pqr') ?>">
+                                <i class="ri-customer-service-2-line"></i> <span>Mis PQR</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link menu-link <?= ($urlActual=="mis_notificaciones") ? "active" : "" ?>" href="<?= base_url('mis-notificaciones') ?>">
+                            <i class="ri-notification-badge-line"></i> <span>Mis notificaciones</span>
+                        </a>
+                    </li>
+
+
+
+
+                <?php endif; ?>
+
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link menu-link <?= ($urlActual=="ayuda") ? "active" : "" ?>" href="<?= base_url('ayuda') ?>">
+                        <i class="bx bx-help-circle"></i> <span>Ayuda</span>
+                    </a>
+                </li>
+
+
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="sidebar-background"></div>
+</div>
+<div class="vertical-overlay"></div>

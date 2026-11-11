@@ -1,0 +1,97 @@
+# Macondo Digital — pila completa (db + api + web).
+# Local:     docker compose up -d --build      → http://<IP-de-este-equipo>:3100
+# EasyPanel: servicio tipo "Compose" apuntando a este archivo (ver docs/DEPLOY-EASYPANEL.md).
+# Valores por defecto = DESARROLLO (acceso desde cualquier IP). Para producción, sobrescribir
+# JWT_SECRET, POSTGRES_PASSWORD, CORS_ORIGIN y SEED_* desde el entorno / EasyPanel.
+name: macondo-digital-stack
+
+services:
+  macondo-db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-macondo}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-macondo_dev}
+      POSTGRES_DB: ${POSTGRES_DB:-macondo}
+    volumes:
+      - macondo_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    # Sin puertos publicados: solo accesible dentro de la red de la pila.
+
+  macondo-api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      macondo-db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-macondo}:${POSTGRES_PASSWORD:-macondo_dev}@macondo-db:5432/${POSTGRES_DB:-macondo}?schema=public
+      API_PORT: 4100
+      JWT_SECRET: ${JWT_SECRET:-cambia-esto-en-produccion-minimo-32-caracteres}
+      STORAGE_DRIVER: local
+      STORAGE_DIR: /app/storage
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-200}
+      CORS_ORIGIN: ${CORS_ORIGIN:-*}
+      SEED_ON_START: ${SEED_ON_START:-true}
+      SEED_ADMIN_EMAIL: ${SEED_ADMIN_EMAIL:-admin@macondo.local}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:-MacondoDev2026!}
+      SEED_LIBRARIAN_EMAIL: ${SEED_LIBRARIAN_EMAIL:-bibliotecaria@macondo.local}
+      SEED_LIBRARIAN_PASSWORD: ${SEED_LIBRARIAN_PASSWORD:-BibliotecaDemo2026!}
+      # Taller de cuentos (ADR-018). Sin clave → modo plantilla (sin internet). La clave nunca se registra.
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-chat}
+      CUENTOS_BANDAS: ${CUENTOS_BANDAS:-1-3,4-5}
+      CUENTOS_LIMITE_POR_HORA: ${CUENTOS_LIMITE_POR_HORA:-3}
+      CUENTOS_LIMITE_GLOBAL_POR_HORA: ${CUENTOS_LIMITE_GLOBAL_POR_HORA:-60}
+    # DNS público: solo hace falta en redes cuyo DNS bloquea api.deepseek.com (el servidor de EasyPanel normalmente
+    # no lo necesita; es inofensivo dejarlo). Sin resolución, la API pasa a modo plantilla y lo registra.
+    dns: ["8.8.8.8", "1.1.1.1"]
+    volumes:
+      - macondo_storage:/app/storage
+    # La API no se publica: el navegador habla solo con la web, que reenvía /api/*.
+
+  macondo-web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        API_INTERNAL_URL: http://macondo-api:4100
+        # Producción: PUBLIC_ORIGIN=https://macondo.comfasucre.co (opcional; por defecto el origen de la página)
+        NEXT_PUBLIC_PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-}
+    restart: unless-stopped
+    depends_on:
+      - macondo-api
+    environment:
+      PORT: 3100
+      HOSTNAME: 0.0.0.0
+      API_INTERNAL_URL: http://macondo-api:4100
+    ports:
+      # 0.0.0.0 → accesible desde cualquier IP de la red (tablets, kiosco, TV, PCs).
+      - "0.0.0.0:${WEB_PUBLIC_PORT:-3100}:3100"
+
+  # ── Opcional: HTTPS local para tablets/APK (perfil `https`) ─────────────────
+  # Las tablets necesitan "contexto seguro" (service worker, descargas offline): con http://IP
+  # no lo hay. Este servicio termina TLS con el certificado de infra/certs (CA local generada
+  # por `sh scripts/make-local-certs.sh`) y reenvía a macondo-web. No cambia el comportamiento
+  # por defecto: solo arranca con  docker compose --profile https up -d macondo-https
+  macondo-https:
+    image: caddy:2-alpine
+    profiles: ["https"]
+    restart: unless-stopped
+    depends_on:
+      - macondo-web
+    volumes:
+      - ./infra/docker/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./infra/certs:/certs:ro
+    ports:
+      - "0.0.0.0:${PUBLIC_HTTPS_PORT:-3443}:3443"
+
+volumes:
+  macondo_db_data:
+  macondo_storage:

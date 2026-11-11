@@ -1,0 +1,23 @@
+**/node_modules
+**/.next
+**/dist
+**/coverage
+**/playwright-report
+**/test-results
+**/*.tsbuildinfo
+.git
+.env
+.env.*
+!.env.example
+storage/*
+.agent
+branding
+demo-content/tools
+*.log
+.DS_Store
+catalogo-dp
+
+# Android: salidas de compilación y caché de Gradle (no forman parte de las imágenes web/api)
+apps/android/app/build
+apps/android/.gradle
+apps/android/.kotlin

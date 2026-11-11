@@ -1,0 +1,31 @@
+{
+ "title": "Carnavales y fiestas",
+ "description": "El Carnaval de Barranquilla, Patrimonio de la Humanidad, con su Casa del Carnaval, sus disfraces y su historia desde 1908, y un vistazo a otro carnaval famoso, el de Venecia.",
+ "gradeMin": 2, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Cultura", "Región Caribe", "Fiestas y tradiciones"],
+ "cover": 1,
+ "credits": {"5": "Fotógrafo anónimo (1908)", "6": "Fotógrafo anónimo (Venecia, década de 1860–1870), The Metropolitan Museum of Art (CC0)", "7": "Alessandro Longhi según Pietro Longhi (c. 1751), The Metropolitan Museum of Art (CC0)"},
+ "items": [
+  ["Fachada de un edificio pintada con figuras grandes y coloridas de máscaras, ojos y formas alegres, junto a palmeras.",
+   "La Casa del Carnaval, en Barranquilla, es la sede de la organización del carnaval. Su fachada está decorada con los colores y personajes de la fiesta."],
+  ["Mural nocturno de colores vivos con rostros, máscaras y figuras geométricas pintadas en una pared.",
+   "Mural de la Casa del Carnaval. En 2003 la UNESCO declaró el Carnaval de Barranquilla Obra Maestra del Patrimonio Oral e Inmaterial de la Humanidad."],
+  ["Corredor de una casa amarilla decorado con muñecos y figuras de cartón de colores que representan disfraces del carnaval.",
+   "Figuras de disfraces tradicionales en la Casa del Carnaval, como la marimonda, el congo y el torito. Muchos disfraces mezclan raíces indígenas, africanas y europeas."],
+  ["Grupo de personas con disfraces negros y máscaras de colores que desfilan por una calle con árboles.",
+   "Comparsa de títeres y máscaras en el desfile. En el carnaval, las comparsas bailan y representan personajes, y las máscaras ocultan los rostros."],
+  ["Fotografía antigua de un grupo grande de personas elegantes posando bajo un letrero que dice 'Carnaval 1908'.",
+   "Comité organizador del carnaval de Barranquilla en 1908. La fiesta se celebra desde el siglo XIX, en los días antes del Miércoles de Ceniza."],
+  ["Fotografía antigua coloreada de un personaje con traje blanco amplio, gorro puntiagudo y máscara, junto a una mesa.",
+   "Un personaje disfrazado en el carnaval de Venecia (Italia), en una foto de estudio de hacia 1860–1870. En Venecia los disfraces y máscaras tienen siglos de tradición."],
+  ["Grabado antiguo de un rinoceronte exhibido en un corral, observado por personas con capas, sombreros y máscaras.",
+   "Grabado del carnaval de Venecia de 1751: la gente enmascarada acude a ver un rinoceronte, un animal que casi nadie conocía en Europa."]
+ ],
+ "questions": [
+  ["¿Qué título dio la UNESCO al Carnaval de Barranquilla en 2003?", ["Patrimonio Oral e Inmaterial de la Humanidad", "Capital mundial de la música", "Ciudad olímpica"], 0, "Es una de las fiestas más importantes de Colombia."],
+  ["¿Cuándo se celebra el carnaval?", ["En los días antes del Miércoles de Ceniza", "En Navidad", "El 20 de julio"], 0, "Por eso su fecha cambia cada año."],
+  ["¿Cuál de estos es un disfraz tradicional del Carnaval de Barranquilla?", ["La marimonda", "El astronauta", "El pirata espacial"], 0, "También el congo y el torito."],
+  ["¿En qué ciudad italiana es famoso el carnaval con máscaras?", ["Venecia", "Madrid", "Lima"], 0, "Sus máscaras tienen siglos de tradición."]
+ ],
+ "reviewNotes": "Se descartaron fotos de desfiles, carrozas y bailarines con rostros identificables (posibles menores). Se usaron fachadas, figuras, comparsas enmascaradas y fotos históricas. Puede haber personas pequeñas al fondo de alguna foto."
+}

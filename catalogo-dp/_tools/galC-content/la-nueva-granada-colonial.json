@@ -1,0 +1,35 @@
+{
+ "title": "La Nueva Granada colonial",
+ "description": "Durante casi tres siglos, el territorio de la actual Colombia fue parte del imperio español con el nombre de Nuevo Reino de Granada. Mapas, planos, retratos, libros y obras de arte de esa época.",
+ "gradeMin": 6, "gradeMax": 11,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Época colonial"],
+ "cover": 1,
+ "credits": {"8": "Juan de Castellanos (autor); impreso en Madrid por la viuda de Alonso Gómez, 1589"},
+ "items": [
+  ["Mapa antiguo coloreado a mano del norte de Suramérica, con ríos, montañas y nombres de ciudades, y un recuadro decorado con el título.",
+   "Mapa del Nuevo Reino de Granada y la Tierra Firme hecho por el cartógrafo francés Nicolas Sanson en 1657. Muestra cómo conocían los europeos esta región en el siglo XVII."],
+  ["Mapa antiguo de bordes amarillos con el norte de Suramérica, ríos dibujados con líneas finas y un título en francés.",
+   "Mapa de Rigobert Bonne (París, 1787) con el Nuevo Reino de Granada, la Nueva Andalucía y la Guayana. Para entonces Santafé de Bogotá era la capital de un virreinato."],
+  ["Retrato pintado de un hombre con peluca blanca, casaca bordada en oro y una cruz roja en el pecho, junto a un escudo de armas y un texto al pie.",
+   "Pedro Messía de la Cerda fue virrey de la Nueva Granada entre 1761 y 1772. El virrey representaba al rey de España y gobernaba desde Santafé de Bogotá."],
+  ["Plano antiguo dibujado a tinta de un edificio con patios y muchas habitaciones, con un sello del Archivo General de la Nación.",
+   "Plano de la Real Casa de Moneda de Popayán (1771), conservado en el Archivo General de la Nación. Allí se acuñaban monedas de oro y plata."],
+  ["Plano antiguo de una villa con manzanas cuadradas, un río azul y pequeñas casas rojas dibujadas alrededor.",
+   "Plano de la Villa de Medellín en 1791. Las ciudades coloniales se trazaban en cuadrícula, con calles rectas alrededor de una plaza mayor."],
+  ["Lámina botánica pintada de una planta trepadora con flores rojas en forma de estrella y hojas grises.",
+   "Lámina de la Real Expedición Botánica del Nuevo Reino de Granada (1783–1816), dirigida por José Celestino Mutis. Pintores como Salvador Rizo dibujaron miles de plantas con gran detalle."],
+  ["Retrato pintado de un sacerdote de sotana negra sentado, con una pluma de escribir en la mano y un libro abierto.",
+   "Juan de Castellanos, sacerdote de Tunja, escribió las Elegías de varones ilustres de Indias, uno de los poemas más largos en español. Este retrato lo pintó Ricardo Moros Urbina."],
+  ["Portada de un libro antiguo impreso con el título en letras grandes, un escudo en el centro y los datos de impresión en Madrid.",
+   "Portada de la primera parte de las Elegías de varones ilustres de Indias, impresa en Madrid en 1589. El poema narra la conquista y la vida en el Nuevo Reino."],
+  ["Escultura de madera pintada de un hombre mayor de barba con manto, que toma de la mano a una niña pequeña.",
+   "Escultura colonial de San Joaquín y la niña María (1746), tallada en madera y pintada. Los talleres de Santafé, Quito y Popayán producían imágenes religiosas para iglesias y casas."]
+ ],
+ "questions": [
+  ["¿Quién representaba al rey de España en la Nueva Granada?", ["El virrey", "El cacique", "El alcalde de Tunja"], 0, "El virrey gobernaba en nombre del rey desde Santafé."],
+  ["¿Quién dirigió la Real Expedición Botánica?", ["Francisco José de Caldas", "José Celestino Mutis", "Antonio Nariño"], 1, "Mutis dirigió la expedición desde 1783."],
+  ["¿Qué se hacía en una Casa de Moneda?", ["Se acuñaban monedas", "Se tejían telas", "Se guardaban armas"], 0, "Allí se fundían el oro y la plata para hacer monedas."],
+  ["¿Cómo se trazaban las ciudades coloniales?", ["En cuadrícula, alrededor de una plaza", "En círculos", "Sin ningún orden"], 0, "Las calles rectas formaban manzanas alrededor de la plaza mayor."]
+ ],
+ "reviewNotes": "El retrato de Juan de Castellanos es obra de Ricardo Moros Urbina (†1942): dominio público en Colombia."
+}

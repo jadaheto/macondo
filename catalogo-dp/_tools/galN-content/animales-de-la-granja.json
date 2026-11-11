@@ -1,0 +1,97 @@
+{
+ "title": "Animales de la granja",
+ "description": "Vacas, caballos, burros, gallinas, cerdos, cabras, ovejas, patos y conejos: los animales de la finca y sus crías, con datos sencillos para los más pequeños.",
+ "gradeMin": 1,
+ "gradeMax": 3,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Vida en el campo"
+ ],
+ "cover": 4,
+ "items": [
+  [
+   "Una vaca cebú de pelo café y blanco, con cuernos largos y joroba, en un camino de tierra.",
+   "La vaca nos da leche, y con la leche se hacen el queso y el suero costeño. Las vacas cebú tienen joroba y aguantan bien el calor; por eso hay muchas en las sabanas de Sucre."
+  ],
+  [
+   "Una yegua de color claro y su potrillo café en un prado verde.",
+   "El caballo es fuerte y rápido. La mamá se llama yegua y su cría, potrillo. En las fincas los caballos ayudan a trabajar con el ganado."
+  ],
+  [
+   "Una burra gris y su burrito pequeño tomando leche, en un prado.",
+   "El burro es muy resistente y ayuda a cargar cosas pesadas en el campo. Aquí un burrito toma leche de su mamá. Con sus orejas largas escucha muy bien."
+  ],
+  [
+   "Una gallina café con varios pollitos amarillos en un patio de tierra.",
+   "La gallina pone huevos y cuida a sus pollitos. Los pollitos nacen del huevo después de unos 21 días. Cuando hay peligro, se esconden bajo las alas de su mamá."
+  ],
+  [
+   "Una cerda rosada acostada sobre paja con sus lechones.",
+   "La cerda es la mamá del cerdo, y sus crías se llaman lechones. Los cerdos son muy inteligentes. Les gusta revolcarse en el barro para refrescarse, porque casi no sudan."
+  ],
+  [
+   "Un cabrito de pelaje claro y orejas largas caídas, con un collar rojo.",
+   "Este es un cabrito, la cría de la cabra. Las cabras trepan muy bien y comen hojas y hierbas. Con su leche también se hace queso."
+  ],
+  [
+   "Un corderito blanco arrodillado comiendo pasto en un prado verde.",
+   "El cordero es la cría de la oveja. Con la lana de las ovejas se hacen hilos y ropa. Este corderito se arrodilla para comer el pasto."
+  ],
+  [
+   "Un pato criollo negro, con plumas blancas en el ala y la cara roja, nadando en el agua.",
+   "El pato criollo nada gracias a sus patas con membranas, que funcionan como remos. Tiene la cara roja, sin plumas. Es un ave de América y se cría en muchos patios del Caribe."
+  ],
+  [
+   "Un conejo negro de orejas largas echado sobre paja.",
+   "El conejo tiene orejas largas y dientes que no paran de crecer; por eso necesita roer pasto y hojas todo el tiempo. Sus crías nacen sin pelo y con los ojos cerrados."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cómo se llama la cría de la cabra?",
+   [
+    "Potrillo",
+    "Cabrito",
+    "Lechón",
+    "Pollito"
+   ],
+   1,
+   "La cría de la cabra es el cabrito; la del caballo, potrillo; la del cerdo, lechón."
+  ],
+  [
+   "¿Qué animal de la granja pone huevos?",
+   [
+    "La gallina",
+    "La vaca",
+    "La cabra",
+    "El conejo"
+   ],
+   0,
+   "Las gallinas ponen huevos y de algunos nacen pollitos."
+  ],
+  [
+   "¿Por qué los cerdos se revuelcan en el barro?",
+   [
+    "Para jugar a las escondidas",
+    "Para ensuciarse",
+    "Para refrescarse, porque casi no sudan",
+    "Para dormir"
+   ],
+   2,
+   "El barro los refresca y los protege del sol."
+  ],
+  [
+   "¿Qué se hace con la lana de las ovejas?",
+   [
+    "Queso",
+    "Miel",
+    "Huevos",
+    "Hilos y ropa"
+   ],
+   3,
+   "La lana se corta, se limpia y se hila para tejer ropa."
+  ]
+ ],
+ "reviewNotes": null
+}

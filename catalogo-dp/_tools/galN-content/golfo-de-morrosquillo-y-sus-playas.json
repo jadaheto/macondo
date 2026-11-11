@@ -1,0 +1,95 @@
+{
+ "title": "El golfo de Morrosquillo y sus playas",
+ "description": "Tolú, Coveñas, la isla Múcura y Santa Cruz del Islote: playas, islas y paisajes del golfo de Morrosquillo, en la costa de Sucre y Córdoba.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Geografía",
+  "Sucre",
+  "Región Caribe",
+  "Mar"
+ ],
+ "cover": 5,
+ "items": [
+  [
+   "Árboles de mangle con muchas raíces arqueadas que salen del suelo, en la isla Múcura.",
+   "Las costas del golfo de Morrosquillo y sus islas tienen manglares, árboles que crecen en el agua salada. Sus raíces protegen la costa de las olas y son la guardería de muchos peces y cangrejos. Manglar en la isla Múcura."
+  ],
+  [
+   "Una palmera inclinada sobre el mar azul con un rompeolas de piedras al fondo.",
+   "El golfo de Morrosquillo es una gran bahía entre Sucre y Córdoba. Sus aguas tranquilas son buenas para la pesca artesanal y para nadar con cuidado."
+  ],
+  [
+   "Playa larga de arena clara con olas suaves y palmeras a un lado.",
+   "Playa El Francés, en Tolú. Las playas del golfo tienen manglares cerca, que protegen la costa de las olas y son guardería de peces."
+  ],
+  [
+   "Atardecer anaranjado con palmeras y la playa de Coveñas.",
+   "Coveñas es un municipio de Sucre famoso por sus playas. Allí también llega un oleoducto que lleva petróleo a los barcos, por eso es importante cuidar el mar de derrames."
+  ],
+  [
+   "Vista de la isla Múcura, con palmeras, casas y agua turquesa.",
+   "La isla Múcura forma parte del archipiélago de San Bernardo, frente al golfo de Morrosquillo. Está rodeada de arrecifes de coral y aguas cristalinas."
+  ],
+  [
+   "Playa de arena blanca con agua transparente, sombrillas de palma y, a lo lejos, dos personas pequeñas.",
+   "Las playas blancas de Múcura están hechas de pedacitos de coral y conchas. Estas islas forman parte del Parque Nacional Natural Corales del Rosario y de San Bernardo."
+  ],
+  [
+   "Un pelícano descansando en el agua clara y poco profunda; al fondo, una lancha.",
+   "El pelícano pardo es un vecino común del golfo. Se lanza en picada al agua y guarda los peces en la bolsa de su pico."
+  ],
+  [
+   "Santa Cruz del Islote, una pequeña isla completamente cubierta de casas, rodeada de mar.",
+   "Santa Cruz del Islote es una de las islas más densamente pobladas del mundo: en un pedacito de tierra del tamaño de una manzana viven cientos de personas. Sus habitantes viven de la pesca."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Entre qué departamentos está el golfo de Morrosquillo?",
+   [
+    "Sucre y Córdoba",
+    "Antioquia y Chocó",
+    "La Guajira y Cesar",
+    "Meta y Casanare"
+   ],
+   0,
+   "El golfo baña las costas de Sucre y Córdoba."
+  ],
+  [
+   "¿De qué está hecha la arena blanca de las playas de las islas?",
+   [
+    "De sal",
+    "De pedacitos de coral y conchas",
+    "De azúcar",
+    "De piedras de río"
+   ],
+   1,
+   "Los corales y conchas se rompen y forman arena blanca."
+  ],
+  [
+   "¿Dónde guarda los peces el pelícano?",
+   [
+    "En sus alas",
+    "En sus patas",
+    "En la bolsa de su pico",
+    "En un nido de barro"
+   ],
+   2,
+   "La bolsa de su pico funciona como una red."
+  ],
+  [
+   "¿Qué tiene de especial Santa Cruz del Islote?",
+   [
+    "Es un volcán",
+    "Tiene nieve",
+    "Es la isla más grande de Colombia",
+    "Es una de las islas más densamente pobladas del mundo"
+   ],
+   3,
+   "Cientos de personas viven en una isla muy pequeña cubierta de casas."
+  ]
+ ],
+ "reviewNotes": "03, 06 y 07: personas diminutas a lo lejos, no identificables."
+}

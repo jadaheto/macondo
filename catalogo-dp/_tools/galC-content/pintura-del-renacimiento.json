@@ -1,0 +1,34 @@
+{
+ "title": "Pintura del Renacimiento",
+ "description": "Entre los siglos XV y XVI, artistas de Italia y del norte de Europa redescubrieron el arte clásico y aprendieron a pintar con perspectiva, luz y gran realismo. Obras maestras de Rafael, Leonardo, Van Eyck, Durero, Holbein y Bruegel.",
+ "gradeMin": 6, "gradeMax": 11,
+ "categories": ["Artes", "Historia del arte", "Pintura", "Europa"],
+ "cover": 1,
+ "items": [
+  ["Fresco de una gran sala con arcos y bóvedas donde muchos hombres con túnicas conversan, leen y escriben en las escaleras.",
+   "La escuela de Atenas, pintada por Rafael entre 1509 y 1511 en el Vaticano, reúne a filósofos y sabios de la Antigüedad. En el centro caminan Platón y Aristóteles; las líneas del edificio muestran el dominio de la perspectiva."],
+  ["Pintura mural de una mesa larga con trece hombres sentados en un solo lado, en una sala con ventanas al fondo.",
+   "La última cena, de Leonardo da Vinci (1495–1498), está pintada en la pared de un convento de Milán. Todas las líneas de la sala llevan la mirada hacia la figura del centro."],
+  ["Retrato de una joven de perfil con vestido de época que sostiene en brazos un armiño blanco.",
+   "La dama del armiño, de Leonardo da Vinci (hacia 1490). El armiño, un animal parecido a la comadreja, simbolizaba la pureza. Hoy está en Cracovia (Polonia)."],
+  ["Pintura de una pareja de pie en una habitación, él con sombrero grande y ella con vestido verde, con un perrito y un espejo redondo al fondo.",
+   "El matrimonio Arnolfini, de Jan van Eyck (1434). En el espejo del fondo se ven reflejadas otras dos personas. Van Eyck perfeccionó la pintura al óleo, que permite detalles muy finos."],
+  ["Dos retratos de perfil enfrentados, un hombre con gorro rojo y una mujer pálida con joyas, con paisajes al fondo.",
+   "Retratos de los duques de Urbino, de Piero della Francesca (hacia 1465). Se pintaron de perfil, como en las monedas antiguas, con un paisaje muy lejano detrás."],
+  ["Pintura de un anciano con ropa roja que abraza con ternura a un niño de cabello rubio, junto a una ventana con paisaje.",
+   "Un anciano y su nieto, de Domenico Ghirlandaio (hacia 1490). El pintor muestra el cariño entre abuelo y nieto con gran realismo, sin ocultar las marcas de la edad."],
+  ["Autorretrato de frente de un hombre de cabello largo y rizado, barba y abrigo de piel, sobre fondo oscuro.",
+   "Alberto Durero se pintó a sí mismo en 1500, a los 28 años, mirando de frente. Fue uno de los primeros artistas en hacer muchos autorretratos."],
+  ["Dos hombres de pie con ropas lujosas junto a un mueble lleno de instrumentos científicos, globos y libros; abajo hay una forma alargada extraña.",
+   "Los embajadores, de Hans Holbein el Joven (1533). La mancha alargada del suelo es una calavera deformada: solo se ve bien si se mira el cuadro desde un lado."],
+  ["Paisaje de invierno con cazadores y perros que bajan una colina nevada, un pueblo y lagunas congeladas con patinadores.",
+   "Cazadores en la nieve, de Pieter Bruegel el Viejo (1565). Muestra la vida diaria de los campesinos en un invierno muy frío; a lo lejos la gente patina sobre el hielo."]
+ ],
+ "questions": [
+  ["¿Quién pintó La escuela de Atenas?", ["Rafael", "Bruegel", "Van Eyck"], 0, "Rafael la pintó en el Vaticano."],
+  ["¿Qué se esconde en la parte de abajo de Los embajadores?", ["Una calavera deformada", "Un gato", "Una firma secreta"], 0, "Solo se ve bien al mirar el cuadro de lado."],
+  ["¿Qué técnica perfeccionó Jan van Eyck?", ["La pintura al óleo", "La fotografía", "El grafiti"], 0, "El óleo permite detalles muy finos."],
+  ["¿Qué animal sostiene la dama pintada por Leonardo?", ["Un armiño", "Un loro", "Un conejo"], 0, "El armiño simbolizaba la pureza."]
+ ],
+ "reviewNotes": "Se omitieron obras con desnudos (p. ej. La creación de Adán, El nacimiento de Venus, La primavera)."
+}

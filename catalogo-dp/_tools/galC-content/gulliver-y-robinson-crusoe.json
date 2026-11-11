@@ -1,0 +1,33 @@
+{
+ "title": "Los viajes de Gulliver y Robinson Crusoe",
+ "description": "Dos grandes novelas de aventuras del siglo XVIII: Gulliver en el país de los diminutos liliputienses y de los gigantes, y Robinson Crusoe, náufrago en una isla del Caribe. Ilustraciones de Arthur Rackham, Grandville, N. C. Wyeth y otros artistas.",
+ "gradeMin": 3, "gradeMax": 8,
+ "categories": ["Literatura", "Novela de aventuras", "Literatura infantil", "Ilustración"],
+ "cover": 3,
+ "credits": {"1": "Arthur Rackham (1899)", "2": "Arthur Rackham (1899)", "3": "Arthur Rackham (1899)", "4": "J. J. Grandville (siglo XIX)", "6": "Daniel Defoe, primera edición (Londres, 1719); escaneo de la Biblioteca Británica", "8": "Litografía anónima coloreada, editorial Trentsensky (Viena, siglo XIX)"},
+ "items": [
+  ["Ilustración de un hombre gigante sentado en el suelo que se despierta sorprendido, rodeado de pequeñísimas personas y soldados.",
+   "Gulliver despierta en Liliput atado al suelo por cientos de personitas de apenas 15 centímetros de alto. Los viajes de Gulliver fue escrita por Jonathan Swift en 1726."],
+  ["Ilustración de un hombre con casaca que levanta su sombrero y camina con cuidado entre los edificios diminutos de una ciudad.",
+   "Gulliver recorre la capital de Liliput con mucho cuidado para no aplastar casas ni habitantes. Ilustración de Arthur Rackham."],
+  ["Ilustración de un hombre muy grande que arrastra con cuerdas una flota de pequeños barcos de vela en el mar.",
+   "Gulliver se lleva toda la flota del reino enemigo, Blefuscu, tirando de los barcos con cuerdas. Swift se burlaba así de las guerras entre países vecinos."],
+  ["Grabado con un cartel en forma de pergamino que dice 'Voyage à Lilliput', rodeado de dibujos de personajes diminutos.",
+   "Portada del viaje a Liliput en la edición francesa ilustrada por Grandville. La novela se tradujo a muchísimas lenguas y se convirtió en un clásico juvenil."],
+  ["Pintura de un hombre con casaca roja que se asusta ante la cara enorme de una persona gigante que lo observa.",
+   "En su segundo viaje, Gulliver llega a Brobdingnag, el país de los gigantes, donde ahora él es el diminuto. Pintura de Richard Redgrave."],
+  ["Libro antiguo abierto: a la izquierda un grabado de un hombre con gorro y escopeta en una isla, y a la derecha la portada con el título de la novela.",
+   "Primera edición de Robinson Crusoe, de Daniel Defoe (1719). La portada dice que Robinson vivió 28 años solo en una isla cerca de la desembocadura del río Orinoco."],
+  ["Ilustración de un hombre barbudo con ropa de piel, sombrilla de pieles al hombro y una escopeta, de pie frente al mar azul.",
+   "Robinson Crusoe pintado por N. C. Wyeth (1920). Robinson se hizo ropa y una sombrilla con pieles de cabra para protegerse del sol del Caribe."],
+  ["Estampa coloreada de un hombre con sombrilla y lanza que camina por una selva tropical con dos cabras que cargan canastos.",
+   "Robinson en su nueva forma de vida: aprendió a criar cabras, cultivar y construir su casa. Su historia enseña ingenio y perseverancia."]
+ ],
+ "questions": [
+  ["¿Cómo eran los habitantes de Liliput?", ["Diminutos", "Gigantes", "Invisibles"], 0, "Medían apenas unos 15 centímetros."],
+  ["¿Quién escribió Robinson Crusoe?", ["Daniel Defoe", "Jonathan Swift", "Julio Verne"], 0, "Se publicó en 1719."],
+  ["¿Dónde vivió Robinson Crusoe durante 28 años?", ["En una isla", "En un castillo", "En una ciudad de gigantes"], 0, "La isla estaba cerca de la desembocadura del Orinoco."],
+  ["¿Qué animales crió Robinson en la isla?", ["Cabras", "Elefantes", "Caballos"], 0, "Usaba su leche, su carne y su piel."]
+ ],
+ "reviewNotes": "Se evitaron escenas violentas de Robinson (caníbales). Rackham (†1939), Wyeth (†1945) y Redgrave (†1888) cumplen la regla de 80 años."
+}

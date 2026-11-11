@@ -1,0 +1,273 @@
+{
+  "kind": "SIMULACIÓN — no es validación física",
+  "date": "2026-11-01T08:30:26.043Z",
+  "base": "http://localhost:3100",
+  "profile": {
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "deviceScaleFactor": 1.5,
+    "isMobile": true,
+    "hasTouch": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 11; KFTRWI) AppleWebKit/537.36 (KHTML, like Gecko) Silk/120.4.1 like Chrome/120.0.0.0 Safari/537.36",
+    "locale": "es-CO",
+    "cpuThrottling": 4,
+    "net": {
+      "wifi": {
+        "offline": false,
+        "latency": 20,
+        "downloadThroughput": 2621440,
+        "uploadThroughput": 1310720
+      },
+      "slow3g": {
+        "offline": false,
+        "latency": 2000,
+        "downloadThroughput": 51200,
+        "uploadThroughput": 51200
+      }
+    }
+  },
+  "checks": {
+    "1": {
+      "name": "Abrir sin Google Play (web/PWA)",
+      "result": "PASA (simulado, en localhost)",
+      "manifest": {
+        "name": "Macondo Digital",
+        "display": "standalone",
+        "start_url": "/",
+        "icons": [
+          "192x192",
+          "256x256",
+          "512x512",
+          "512x512",
+          "any"
+        ]
+      },
+      "serviceWorker": {
+        "supported": true,
+        "scope": "http://localhost:3100/",
+        "active": true
+      },
+      "installabilityErrors": [],
+      "lan": {
+        "url": "http://192.168.31.240:3100",
+        "isSecureContext": false,
+        "serviceWorker": false,
+        "caches": false,
+        "subtle": false,
+        "offlineButtonHidden": null,
+        "offlineButton": 0,
+        "unsupportedMessage": 1,
+        "screenshot": "docs/evidencia/fire-hd10-sim/1-lan-sin-contexto-seguro.jpg"
+      },
+      "screenshot": "docs/evidencia/fire-hd10-sim/1-inicio.jpg"
+    },
+    "2": {
+      "name": "Abrir EPUB y PDF",
+      "result": "PASA (simulado)",
+      "epubRenderMs": 1123,
+      "pdfRenderMs": 1044,
+      "pdfAfterNext": "El renacuajo paseador y La pobre viejecita, página 2 de 8",
+      "screenshots": [
+        "docs/evidencia/fire-hd10-sim/2-epub.jpg",
+        "docs/evidencia/fire-hd10-sim/2-pdf.jpg"
+      ]
+    },
+    "3": {
+      "name": "Reproducir MP3 (audífonos)",
+      "result": "PASA parcial (simulado): reproduce, salta y reanuda; audífonos NO simulables",
+      "durationS": 318,
+      "seekTo": 159,
+      "pausedAt": 160,
+      "resumedAt": 157,
+      "screenshot": "docs/evidencia/fire-hd10-sim/3-mp3-reanudado.jpg"
+    },
+    "4": {
+      "name": "Descargar y abrir sin Wi-Fi",
+      "result": "PASA (simulado)",
+      "downloadMs": {
+        "epub": 4423,
+        "mp3": 4383,
+        "gallery": 4887
+      },
+      "offline": {
+        "epub": true,
+        "mp3": true,
+        "gallery": true,
+        "listed": 3,
+        "galleryFromList": true
+      },
+      "screenshots": [
+        "docs/evidencia/fire-hd10-sim/4-galeria-descargada.jpg",
+        "docs/evidencia/fire-hd10-sim/4-offline-epub.jpg",
+        "docs/evidencia/fire-hd10-sim/4-offline-mp3.jpg",
+        "docs/evidencia/fire-hd10-sim/4-offline-galeria.jpg",
+        "docs/evidencia/fire-hd10-sim/4-offline-lista.jpg"
+      ]
+    },
+    "5": {
+      "name": "Reiniciar y confirmar persistencia",
+      "result": "PASA (simulado: cierre y relanzamiento del navegador con el mismo perfil)",
+      "listedAfterRestart": 3,
+      "progressKeys": [
+        "macondo.audio.cmvx6vjke016wlc01luys69e8",
+        "macondo.reading.cmvx3vpqx0002l72xtwpj1ldx",
+        "macondo.reading.cmvx6ku1r009wlc01cna1hsnl",
+        "macondo.offline.index"
+      ],
+      "progressKept": 4,
+      "epubOpensOffline": true,
+      "galleryOpensOffline": true,
+      "audioResumeAtS": 148,
+      "screenshots": [
+        "docs/evidencia/fire-hd10-sim/5-reinicio-offline-lista.jpg",
+        "docs/evidencia/fire-hd10-sim/5-reinicio-galeria.jpg",
+        "docs/evidencia/fire-hd10-sim/5-reinicio-mp3.jpg"
+      ]
+    },
+    "6": {
+      "name": "Almacenamiento y batería",
+      "result": "PARCIAL (simulado): almacenamiento medido; batería NO simulable",
+      "storage": {
+        "usageMB": 11.04,
+        "quotaMB": 10251,
+        "usageDetails": {
+          "caches": 11570944,
+          "serviceWorkerRegistrations": 5976
+        },
+        "persistedBefore": false,
+        "persistGranted": false,
+        "cacheNames": [
+          "macondo-shell-v3",
+          "macondo-runtime-v3",
+          "macondo-offline-v1"
+        ],
+        "offlineEntries": 13
+      },
+      "downloadedFilesMB": 2.44
+    },
+    "7": {
+      "name": "Uso compartido y restricciones de salida",
+      "result": "PARCIAL (simulado): reinicio por inactividad limpia estado; bloqueo de salida NO simulable (lo hace Fire OS/MDM)",
+      "warningAfterMs": 5383,
+      "stateAfterReset": {
+        "fav": null,
+        "session": 0,
+        "q": ""
+      },
+      "screenshot": "docs/evidencia/fire-hd10-sim/7-kiosco-aviso.jpg"
+    }
+  },
+  "timings": [
+    {
+      "net": "wifi",
+      "label": "inicio /",
+      "url": "/",
+      "domContentLoadedMs": 122,
+      "readyMs": 411,
+      "ok": true,
+      "transferKB": 262
+    },
+    {
+      "net": "wifi",
+      "label": "catálogo /catalogo",
+      "url": "/catalogo",
+      "domContentLoadedMs": 76,
+      "readyMs": 1052,
+      "ok": true,
+      "transferKB": 1901
+    },
+    {
+      "net": "wifi",
+      "label": "leer EPUB",
+      "url": "/leer/cmvx6ku1r009wlc01cna1hsnl",
+      "domContentLoadedMs": 76,
+      "readyMs": 974,
+      "ok": true,
+      "transferKB": 426
+    },
+    {
+      "net": "wifi",
+      "label": "leer PDF",
+      "url": "/leer/cmvx3vpqx0002l72xtwpj1ldx",
+      "domContentLoadedMs": 76,
+      "readyMs": 1449,
+      "ok": true,
+      "transferKB": 846
+    },
+    {
+      "net": "wifi",
+      "label": "leer MP3 (metadatos)",
+      "url": "/leer/cmvx6vjke016wlc01luys69e8",
+      "domContentLoadedMs": 79,
+      "readyMs": 418,
+      "ok": true,
+      "transferKB": 308
+    },
+    {
+      "net": "slow3g",
+      "label": "inicio /",
+      "url": "/",
+      "domContentLoadedMs": 4807,
+      "readyMs": 10651,
+      "ok": true,
+      "transferKB": 262
+    },
+    {
+      "net": "slow3g",
+      "label": "catálogo /catalogo",
+      "url": "/catalogo",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded."
+    },
+    {
+      "net": "slow3g",
+      "label": "leer EPUB",
+      "url": "/leer/cmvx6ku1r009wlc01cna1hsnl",
+      "domContentLoadedMs": 4848,
+      "readyMs": 23724,
+      "ok": true,
+      "transferKB": 426
+    },
+    {
+      "net": "slow3g",
+      "label": "leer PDF",
+      "url": "/leer/cmvx3vpqx0002l72xtwpj1ldx",
+      "domContentLoadedMs": 4853,
+      "readyMs": 30386,
+      "ok": true,
+      "transferKB": 846
+    },
+    {
+      "net": "slow3g",
+      "label": "leer MP3 (metadatos)",
+      "url": "/leer/cmvx6vjke016wlc01luys69e8",
+      "domContentLoadedMs": 4865,
+      "readyMs": 22644,
+      "ok": true,
+      "transferKB": 306
+    }
+  ],
+  "resources": {
+    "epub": {
+      "id": "cmvx6ku1r009wlc01cna1hsnl",
+      "title": "A Margarita Debayle",
+      "bytes": 7569
+    },
+    "pdf": {
+      "id": "cmvx3vpqx0002l72xtwpj1ldx",
+      "title": "El renacuajo paseador y La pobre viejecita",
+      "bytes": 10889
+    },
+    "mp3": {
+      "id": "cmvx6vjke016wlc01luys69e8",
+      "title": "A los niños que lean La Edad de Oro",
+      "bytes": 2548114
+    },
+    "gallery": {
+      "id": "cmvxdog4200jrsh01kxks8r4i",
+      "title": "Alicia en el país de las maravillas",
+      "bytes": 4031667
+    }
+  }
+}

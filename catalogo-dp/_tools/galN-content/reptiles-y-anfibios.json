@@ -1,0 +1,97 @@
+{
+ "title": "Reptiles y anfibios",
+ "description": "Boas, basiliscos, tortugas, ranas venenosas y de cristal, sapos y salamandras: conoce a los reptiles de piel escamosa y a los anfibios de piel húmeda que viven en América tropical.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Biodiversidad"
+ ],
+ "cover": 5,
+ "items": [
+  [
+   "Una boa enrollada en una rama, con manchas cafés y crema en la piel.",
+   "La boa no es venenosa: atrapa a sus presas apretándolas con su cuerpo. Puede medir más de 3 metros. Esta boa de cola roja fue fotografiada cerca del río Napo, en Ecuador."
+  ],
+  [
+   "Un basilisco, lagarto café de cola muy larga, sobre un tronco entre hierbas secas.",
+   "Al basilisco le dicen «lagarto Jesucristo» porque puede correr sobre el agua por unos segundos, en sus patas traseras. Vive cerca de ríos y quebradas. Es un reptil, como las serpientes y las tortugas."
+  ],
+  [
+   "Una pequeña rana verde brillante con grandes manchas negras, sobre una roca.",
+   "Los colores brillantes de esta rana venenosa avisan a los depredadores: «¡no me comas!». Su piel tiene sustancias tóxicas. Es pariente de la rana dorada del Pacífico colombiano."
+  ],
+  [
+   "Una ranita verde casi transparente sobre una hoja, junto a un grupo de huevos blancos.",
+   "Las ranas de cristal tienen la piel de la barriga tan transparente que se le ven los órganos. Ponen sus huevos sobre hojas encima de las quebradas y, al nacer, los renacuajos caen al agua."
+  ],
+  [
+   "Una rana verde de enormes ojos rojos y costados azules y amarillos, agarrada a un tallo.",
+   "La rana de ojos rojos duerme de día pegada a las hojas. Si algo la molesta, abre de golpe sus grandes ojos rojos para asustar a su enemigo. Vive en selvas húmedas desde México hasta el norte de Colombia."
+  ],
+  [
+   "Un sapo grande, de piel gruesa y rugosa color café oscuro, sentado entre piedras y raíces.",
+   "El sapo común o sapo de caña es uno de los sapos más grandes del mundo. Detrás de los ojos tiene glándulas con veneno, por eso no se debe tocar. Es nativo de América; esta foto es de Fiyi, adonde lo llevaron las personas."
+  ],
+  [
+   "Una salamandra delgada de lomo café rojizo y costados negros, sobre una roca junto a unas hojas.",
+   "Las salamandras son anfibios con cola. Muchas salamandras de la selva, como esta, no tienen pulmones: respiran a través de su piel húmeda. Por eso necesitan lugares frescos y sombreados."
+  ],
+  [
+   "Una tortuga morrocoy de caparazón oscuro con manchas amarillas y escamas rojas en la cabeza y las patas, entre plantas.",
+   "La morrocoy es una tortuga terrestre de las sabanas y bosques secos del Caribe y los Llanos. Se reconoce por las escamas rojas de sus patas y su cabeza. Puede vivir más de 50 años."
+  ],
+  [
+   "Una serpiente delgada con anillos rojos y negros sobre un fondo café borroso.",
+   "Las serpientes coral tienen colores muy llamativos y son venenosas, aunque son tímidas y casi nunca muerden. Si ves una serpiente con anillos de colores, aléjate y avisa a un adulto. Esta es una coral de la isla de Roatán, en Honduras."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué tienen de especial las ranas de cristal?",
+   [
+    "Pueden volar",
+    "La piel de su barriga es transparente",
+    "Tienen caparazón",
+    "Cambian de color con la música"
+   ],
+   1,
+   "A través de su piel transparente se pueden ver sus órganos."
+  ],
+  [
+   "¿Qué debes hacer si ves una serpiente con anillos rojos y negros?",
+   [
+    "Tocarla con un palo",
+    "Llevarla a casa",
+    "Alejarte y avisar a un adulto",
+    "Darle comida"
+   ],
+   2,
+   "Las serpientes coral son venenosas: lo más seguro es alejarse sin molestarla."
+  ],
+  [
+   "¿Cómo respira la salamandra de esta galería?",
+   [
+    "A través de su piel húmeda",
+    "Con branquias como los peces",
+    "Por las orejas",
+    "Con pulmones muy grandes"
+   ],
+   0,
+   "Muchas salamandras de la selva no tienen pulmones y respiran por la piel."
+  ],
+  [
+   "¿Qué animal de la galería puede correr sobre el agua?",
+   [
+    "La boa",
+    "La morrocoy",
+    "El sapo",
+    "El basilisco"
+   ],
+   3,
+   "El basilisco corre sobre sus patas traseras tan rápido que no alcanza a hundirse."
+  ]
+ ],
+ "reviewNotes": null
+}

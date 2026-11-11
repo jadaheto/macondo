@@ -1,0 +1,33 @@
+{
+ "title": "Los aztecas o mexicas",
+ "description": "Tenochtitlan, la gran ciudad construida sobre un lago, la Piedra del Sol, códices pintados y esculturas de sus dioses. Conoce a los mexicas, que dominaban el centro de México cuando llegaron los españoles en 1519.",
+ "gradeMin": 4, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia", "Pueblos indígenas", "América precolombina"],
+ "cover": 1,
+ "credits": {"3": "Códice Mendoza (anónimo, c. 1541), Biblioteca Bodleiana de Oxford"},
+ "items": [
+  ["Gran disco de piedra tallada con un rostro en el centro rodeado de anillos de símbolos, en una sala de museo.",
+   "La Piedra del Sol mide 3,6 metros de diámetro y pesa unas 24 toneladas. En el centro está el rostro de un dios y alrededor aparecen los signos de los días del calendario mexica."],
+  ["Ruinas de muros y escalinatas de piedra de un templo antiguo en medio de la ciudad, con una gran catedral detrás.",
+   "Los restos del Templo Mayor de Tenochtitlan están en el centro de la Ciudad de México, junto a la catedral construida por los españoles. Era el templo más importante de los mexicas."],
+  ["Página de un códice pintado con un águila sobre un nopal en el centro, rodeada de figuras humanas y canales de agua en azul.",
+   "Primera página del Códice Mendoza. Muestra la fundación de Tenochtitlan en 1325: según la tradición, los mexicas debían fundar su ciudad donde vieran un águila posada sobre un nopal."],
+  ["Gran piedra redonda tallada en relieve con una figura de brazos y piernas separados y adornos.",
+   "La piedra de Coyolxauhqui, diosa de la Luna, fue encontrada por unos trabajadores de la luz en 1978. Ese hallazgo llevó a excavar el Templo Mayor."],
+  ["Escultura de piedra gris muy alta y compleja, con cabezas de serpiente y un collar de manos y corazones tallados.",
+   "La Coatlicue era la diosa madre de la tierra en la religión mexica. Su falda está hecha de serpientes entrelazadas. Está en el Museo Nacional de Antropología de México."],
+  ["Gran penacho de plumas verdes en forma de abanico con adornos dorados, exhibido en una vitrina con fondo rojo.",
+   "Réplica del penacho de plumas de quetzal atribuido al emperador Moctezuma. El original, de más de 450 años, se conserva en un museo de Viena (Austria)."],
+  ["Página de un códice con muchas figuras pintadas de colores vivos: un personaje grande con tocado de plumas y cuadros con signos.",
+   "El Códice Borbónico es un calendario pintado por sabios mexicas. Cada cuadro representa un día con su dios protector."],
+  ["Avenida ancha y recta que lleva a una gran pirámide escalonada, con montañas al fondo.",
+   "Teotihuacan es mucho más antigua que los aztecas. Cuando los mexicas la encontraron ya estaba abandonada, y la llamaron 'el lugar donde nacen los dioses'."]
+ ],
+ "questions": [
+  ["Según la leyenda, ¿qué señal buscaban los mexicas para fundar su ciudad?", ["Un águila sobre un nopal", "Un jaguar en una cueva", "Un río de oro"], 0, "Esa imagen aparece hoy en la bandera de México."],
+  ["¿Dónde se construyó Tenochtitlan?", ["En una montaña nevada", "En una isla de un lago", "En la orilla del mar"], 1, "Tenochtitlan estaba en el lago de Texcoco; hoy allí está la Ciudad de México."],
+  ["¿Qué muestra la Piedra del Sol?", ["Un mapa del mundo", "Signos del calendario y un dios en el centro", "Una lista de emperadores"], 1, "Tiene los signos de los días alrededor de un rostro central."],
+  ["¿Quiénes construyeron Teotihuacan?", ["Los aztecas", "Un pueblo mucho más antiguo", "Los españoles"], 1, "Los mexicas la encontraron ya abandonada."]
+ ],
+ "reviewNotes": "Se evitaron imágenes de sacrificios; la Coatlicue lleva un collar de manos y corazones tallados (se describe de forma neutral)."
+}

@@ -1,0 +1,119 @@
+{
+ "title": "Orfebrería precolombina de Colombia",
+ "description": "Piezas de oro y tumbaga de los pueblos zenú, muisca, quimbaya, tairona, calima y tolima. Descubre cómo trabajaban el metal, qué significaban estos objetos y quiénes vivían en el territorio de Sucre y Córdoba antes de la llegada de los europeos.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Arte precolombino",
+  "Pueblos indígenas"
+ ],
+ "cover": 1,
+ "credits": {
+  "1": "Mario Roberto Durán Ortiz (Mariordo)"
+ },
+ "items": [
+  [
+   "Figura dorada de una balsa con un personaje grande en el centro rodeado de figuras más pequeñas, iluminada sobre fondo oscuro.",
+   "La balsa muisca, hallada en 1969 en una cueva de Pasca (Cundinamarca), representa la ceremonia en la que un cacique cubierto de oro hacía ofrendas en una laguna. Ese rito dio origen a la leyenda de El Dorado. Está en el Museo del Oro de Bogotá."
+  ],
+  [
+   "Figura plana y alargada de oro que representa a una persona de pie con tocado rectangular y objetos en las manos.",
+   "Los tunjos son figuras votivas muiscas: se ofrecían a los dioses dejándolas en lagunas, cuevas o vasijas. Este proviene de la región de la laguna de Guatavita."
+  ],
+  [
+   "Bloque de piedra oscura con la forma de una figura humana tallada en hueco.",
+   "Los orfebres muiscas usaban moldes de piedra como este para hacer muchos modelos de cera iguales. Luego cubrían la cera con barro, la derretían y vertían el metal fundido en el hueco: es la técnica de la cera perdida."
+  ],
+  [
+   "Recipiente dorado con forma de botella de cuello alto, decorado con una pequeña figura humana sentada en el frente.",
+   "Poporo de la cultura quimbaya (siglos I a VII). Los poporos guardaban cal, que se mezclaba con hojas de coca en ceremonias. El poporo quimbaya más famoso es símbolo del Museo del Oro de Bogotá."
+  ],
+  [
+   "Remate dorado en forma de búho de ojos grandes posado sobre un tubo.",
+   "Remate de bastón zenú con forma de búho. Los zenúes vivieron en los valles de los ríos Sinú y San Jorge, en lo que hoy son Córdoba y Sucre. Estas piezas adornaban la punta de bastones de mando."
+  ],
+  [
+   "Ave dorada de pico largo y curvo, con un pequeño tubo en la base para encajarla en un bastón.",
+   "Otro remate zenú, esta vez con forma de ave de pico largo. Los zenúes representaban animales de su entorno: aves de las ciénagas, felinos, caimanes y peces."
+  ],
+  [
+   "Aro circular de oro con un tejido calado en la parte inferior y pequeñas figuras de aves y una cara en el centro.",
+   "Orejera zenú que imita finos hilos de oro trenzados (filigrana), aunque fue hecha por fundición. Los zenúes construyeron además grandes canales para manejar las inundaciones de las ciénagas."
+  ],
+  [
+   "Pieza dorada alargada y horizontal con espirales en los extremos y un aro en el centro.",
+   "Nariguera zenú, adorno que se colgaba de la nariz. Los adornos de oro indicaban la importancia de quien los llevaba. Hoy los descendientes zenúes viven en Córdoba y Sucre, y el sombrero vueltiao es parte de esa herencia."
+  ],
+  [
+   "Colgante dorado de un ser con cabeza de ave y alas extendidas hacia los lados.",
+   "Colgante tairona en forma de ave. Los taironas vivieron en la Sierra Nevada de Santa Marta; sus descendientes son los pueblos kogui, arhuaco, wiwa y kankuamo."
+  ],
+  [
+   "Máscara redonda de oro con ojos huecos, nariz recta, mejillas abultadas y boca abierta.",
+   "Máscara funeraria de la cultura calima (Valle del Cauca). Las máscaras de oro se colocaban sobre el rostro de personas importantes al ser enterradas."
+  ],
+  [
+   "Colgante dorado de una figura humana con cabeza de animal, gran tocado con dos esferas y brazos que sostienen objetos.",
+   "Colgante calima con figura humana y cabeza de animal. Muchas piezas combinan rasgos humanos y animales, quizá para representar seres poderosos o chamanes transformados."
+  ],
+  [
+   "Colgante plano de oro con forma de figura humana estilizada, cuerpo calado como una rejilla y cola en forma de ancla.",
+   "Colgante de la cultura tolima. Estas figuras planas, con brazos abiertos y cola en forma de ancla, son típicas de los orfebres del valle del Magdalena en el Tolima."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué leyenda se relaciona con la ceremonia que representa la balsa muisca?",
+   [
+    "La leyenda de El Dorado",
+    "La leyenda del Mohán",
+    "La leyenda de la Llorona"
+   ],
+   0,
+   "El rito del cacique cubierto de oro dio origen a la leyenda de El Dorado."
+  ],
+  [
+   "¿En qué ríos vivieron los zenúes?",
+   [
+    "Sinú y San Jorge",
+    "Amazonas y Putumayo",
+    "Cauca y Patía"
+   ],
+   0,
+   "Los zenúes vivieron en los valles de los ríos Sinú y San Jorge."
+  ],
+  [
+   "¿Para qué servían los poporos?",
+   [
+    "Para guardar cal usada con hojas de coca en ceremonias",
+    "Para cocinar maíz",
+    "Para guardar agua de lluvia"
+   ],
+   0,
+   "Los poporos guardaban cal que se mezclaba con coca."
+  ],
+  [
+   "¿Cómo se llama la técnica en la que se derrite un modelo de cera para verter metal?",
+   [
+    "Cera perdida",
+    "Tejido en telar",
+    "Pintura al fresco"
+   ],
+   0,
+   "Es la técnica de la cera perdida."
+  ],
+  [
+   "¿Qué pueblos actuales descienden de los taironas?",
+   [
+    "Kogui, arhuaco, wiwa y kankuamo",
+    "Wayuu y zenú",
+    "Muisca y quimbaya"
+   ],
+   0,
+   "Los descendientes de los taironas viven en la Sierra Nevada de Santa Marta."
+  ]
+ ],
+ "reviewNotes": "El pie de foto del poporo menciona el uso ceremonial de hojas de coca (contexto histórico-cultural)."
+}

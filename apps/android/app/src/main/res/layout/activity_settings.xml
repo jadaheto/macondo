@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_bg"
+    android:fillViewport="true"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Servidor -->
+        <TextView style="@style/Macondo.SectionTitle" android:text="@string/settings_server_url" />
+        <EditText
+            android:id="@+id/urlInput"
+            style="@style/Macondo.Input"
+            android:autofillHints="url"
+            android:hint="@string/settings_server_url_hint"
+            android:imeOptions="actionDone"
+            android:inputType="textUri" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_server_help" />
+        <Button
+            android:id="@+id/presetMainButton"
+            style="@style/Macondo.ButtonSecondary"
+            android:layout_marginTop="8dp"
+            android:text="@string/settings_preset_main" />
+        <Button
+            android:id="@+id/presetLanButton"
+            style="@style/Macondo.ButtonSecondary"
+            android:layout_marginTop="8dp"
+            android:text="@string/settings_preset_lan" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_preset_help" />
+
+        <!-- Modo -->
+        <TextView style="@style/Macondo.SectionTitle" android:text="@string/settings_mode" />
+        <RadioGroup
+            android:id="@+id/modeGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/modeTablet" style="@style/Macondo.Radio" android:text="@string/settings_mode_tablet" />
+            <RadioButton android:id="@+id/modeKiosk" style="@style/Macondo.Radio" android:text="@string/settings_mode_kiosk" />
+            <RadioButton android:id="@+id/modeTv" style="@style/Macondo.Radio" android:text="@string/settings_mode_tv" />
+        </RadioGroup>
+
+        <!-- Pantalla -->
+        <TextView style="@style/Macondo.SectionTitle" android:text="@string/settings_screen_title" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_orientation" />
+        <RadioGroup
+            android:id="@+id/orientationGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/orientationAuto" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="@string/settings_orientation_auto" />
+            <RadioButton android:id="@+id/orientationLandscape" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="@string/settings_orientation_landscape" />
+            <RadioButton android:id="@+id/orientationPortrait" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="@string/settings_orientation_portrait" />
+        </RadioGroup>
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_scale" />
+        <RadioGroup
+            android:id="@+id/scaleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/scale100" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="100 %" />
+            <RadioButton android:id="@+id/scale125" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="125 %" />
+            <RadioButton android:id="@+id/scale150" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="150 %" />
+            <RadioButton android:id="@+id/scale175" style="@style/Macondo.Radio" android:layout_width="0dp" android:layout_weight="1" android:text="175 %" />
+        </RadioGroup>
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_scale_help" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/keepOnSwitch"
+            style="@style/Macondo.Switch"
+            android:text="@string/settings_keep_on" />
+
+        <!-- Arranque -->
+        <TextView style="@style/Macondo.SectionTitle" android:text="@string/settings_startup_title" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/autostartSwitch"
+            style="@style/Macondo.Switch"
+            android:text="@string/settings_autostart" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_autostart_help" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/homeSwitch"
+            style="@style/Macondo.Switch"
+            android:text="@string/settings_use_as_home" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_use_as_home_help" />
+
+        <!-- Kiosco -->
+        <TextView style="@style/Macondo.SectionTitle" android:text="@string/settings_kiosk_title" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/kioskSwitch"
+            style="@style/Macondo.Switch"
+            android:text="@string/settings_kiosk_switch" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_kiosk_help" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_corner_hint" />
+        <TextView
+            android:id="@+id/deviceOwnerStatus"
+            style="@style/Macondo.Help"
+            android:textStyle="bold"
+            tools:text="@string/settings_device_owner_no" />
+        <Button
+            android:id="@+id/exitKioskButton"
+            style="@style/Macondo.ButtonSecondary"
+            android:layout_marginTop="8dp"
+            android:text="@string/settings_exit_kiosk" />
+        <Button
+            android:id="@+id/clearOwnerButton"
+            style="@style/Macondo.ButtonSecondary"
+            android:layout_marginTop="8dp"
+            android:text="@string/settings_clear_owner"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <!-- PIN -->
+        <TextView style="@style/Macondo.SectionTitle" android:text="@string/settings_pin_title" />
+        <TextView style="@style/Macondo.Help" android:text="@string/settings_pin_help" />
+        <EditText
+            android:id="@+id/pinInput"
+            style="@style/Macondo.Input"
+            android:autofillHints="password"
+            android:hint="@string/settings_pin_new"
+            android:inputType="numberPassword"
+            android:maxLength="6" />
+        <EditText
+            android:id="@+id/pinConfirmInput"
+            style="@style/Macondo.Input"
+            android:autofillHints="password"
+            android:hint="@string/settings_pin_confirm"
+            android:inputType="numberPassword"
+            android:maxLength="6" />
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/Macondo.ButtonPrimary"
+            android:layout_marginTop="24dp"
+            android:text="@string/settings_save" />
+
+        <TextView
+            android:id="@+id/versionText"
+            style="@style/Macondo.Help"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            tools:text="Versión 1.0.0 · co.com.comfasucre.macondo" />
+    </LinearLayout>
+</ScrollView>

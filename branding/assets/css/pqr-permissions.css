@@ -1,0 +1,6 @@
+.pqr-permissions .form-check{min-height:44px;padding-left:1.8rem}
+.pqr-permissions .form-check-label{cursor:pointer;overflow-wrap:anywhere}
+.pqr-permissions .card-body>p,.pqr-permissions .form-text{overflow-wrap:anywhere}
+.pqr-permissions .select2-selection--multiple{min-height:44px}
+.pqr-permissions .alert-info{color:var(--pqr-text);background:var(--pqr-soft);border-color:var(--pqr-border)}
+.pqr-permissions .alert-warning,.pqr-permissions .text-warning{color:var(--pqr-text)!important}

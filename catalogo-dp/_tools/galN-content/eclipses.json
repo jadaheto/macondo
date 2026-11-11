@@ -1,0 +1,97 @@
+{
+ "title": "Eclipses de Sol y de Luna",
+ "description": "¿Por qué a veces el Sol se oscurece de día o la Luna se pone roja? Fotos de eclipses totales, anulares y parciales, la sombra de la Luna vista desde el espacio y cómo observarlos sin peligro.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Astronomía",
+  "Espacio"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "El Sol completamente tapado por la Luna, que se ve como un disco negro rodeado de un halo blanco brillante.",
+   "En un eclipse total de Sol, la Luna pasa justo entre el Sol y la Tierra y lo tapa por completo durante unos minutos. Entonces se ve la corona, la capa exterior del Sol, como un halo blanco. Eclipse del 21 de agosto de 2017 en Estados Unidos."
+  ],
+  [
+   "El Sol tapado por la Luna, rodeado de un halo blanco, con un pequeño punto brillante en el borde.",
+   "Justo antes y después de la totalidad, un último rayo de Sol se cuela entre las montañas de la Luna y forma el «anillo de diamante». Nunca se debe mirar el Sol directamente, ni siquiera en un eclipse: hay que usar filtros especiales."
+  ],
+  [
+   "Un anillo de luz anaranjada alrededor de un disco oscuro en el cielo.",
+   "En un eclipse anular, la Luna está un poco más lejos de la Tierra y no alcanza a tapar todo el Sol: queda un «anillo de fuego» alrededor. El 14 de octubre de 2023 se vio un eclipse anular desde parte del territorio colombiano."
+  ],
+  [
+   "Secuencia de imágenes del Sol parcialmente tapado mientras se pone sobre el mar.",
+   "En un eclipse parcial, la Luna tapa solo una parte del Sol, que parece mordido. Esta secuencia muestra cómo avanza el eclipse en unas pocas horas."
+  ],
+  [
+   "Sombras de árboles en el suelo llenas de pequeñas medialunas de luz durante un eclipse.",
+   "Una forma segura de ver un eclipse: los huequitos entre las hojas de los árboles funcionan como cámaras oscuras y proyectan en el suelo muchas medialunas del Sol eclipsado."
+  ],
+  [
+   "La Tierra vista desde el espacio con una mancha oscura de sombra sobre las nubes, cerca del horizonte.",
+   "Esa mancha oscura es la sombra de la Luna sobre la Tierra durante el eclipse de 2017, fotografiada desde la Estación Espacial Internacional. Las personas que estaban dentro de esa sombra vieron el eclipse total."
+  ],
+  [
+   "La Luna llena de color rojo cobrizo sobre un fondo negro.",
+   "En un eclipse de Luna, la Tierra se pone entre el Sol y la Luna, y la Luna entra en la sombra de la Tierra. Se vuelve rojiza porque la atmósfera de la Tierra desvía hacia ella la luz roja de todos los atardeceres del planeta."
+  ],
+  [
+   "Varias imágenes de la Luna en diagonal sobre una ciudad, que se va oscureciendo y volviendo roja.",
+   "Las fases de un eclipse de Luna en enero de 2018, en una composición de la NASA. A diferencia de los de Sol, los eclipses de Luna se pueden mirar sin ninguna protección."
+  ],
+  [
+   "Diagrama con un círculo grande que proyecta conos de sombra llamados umbra, penumbra y antumbra.",
+   "Este diagrama muestra las sombras que proyecta un cuerpo iluminado: la umbra, donde la sombra es total; la penumbra, donde es parcial; y la antumbra, que produce los eclipses anulares."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué pasa en un eclipse de Sol?",
+   [
+    "La Tierra tapa a la Luna",
+    "La Luna pasa entre el Sol y la Tierra y tapa el Sol",
+    "El Sol se apaga",
+    "Una nube tapa el Sol"
+   ],
+   1,
+   "La Luna se interpone y proyecta su sombra sobre la Tierra."
+  ],
+  [
+   "¿Por qué la Luna se pone roja en un eclipse lunar?",
+   [
+    "Porque la atmósfera de la Tierra desvía hacia ella la luz roja",
+    "Porque se calienta",
+    "Porque tiene volcanes",
+    "Porque refleja el color del mar"
+   ],
+   0,
+   "Es la luz de todos los amaneceres y atardeceres de la Tierra."
+  ],
+  [
+   "¿Cuál de estas es una forma segura de ver un eclipse de Sol?",
+   [
+    "Mirar directo al Sol",
+    "Usar gafas de sol normales",
+    "Ver las medialunas que proyectan las hojas de los árboles",
+    "Mirar con binoculares"
+   ],
+   2,
+   "Nunca se debe mirar el Sol directamente; las proyecciones son seguras."
+  ],
+  [
+   "¿Qué se ve en un eclipse anular?",
+   [
+    "La Luna roja",
+    "Un cielo lleno de estrellas",
+    "Dos soles",
+    "Un anillo de fuego alrededor de la Luna"
+   ],
+   3,
+   "La Luna, algo más lejana, no alcanza a cubrir todo el Sol."
+  ]
+ ],
+ "reviewNotes": "Los pies de foto incluyen la advertencia de no mirar el Sol directamente."
+}

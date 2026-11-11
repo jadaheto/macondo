@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Confianza TLS de la app:
+  - CAs del sistema (para un dominio público con certificado válido, p. ej. EasyPanel).
+  - La CA local de la biblioteca (infra/certs/ca.crt → res/raw/macondo_ca.crt) para
+    https://<IP-LAN>:3443 con el certificado emitido por scripts/make-local-certs.sh.
+  NO se ignoran errores SSL en código: si el certificado no está firmado por una de estas CAs,
+  la carga falla y se muestra la página de error.
+  cleartextTrafficPermitted=true: se admite http:// (sin contexto seguro → sin descargas offline).
+-->
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config cleartextTrafficPermitted="true" tools:ignore="InsecureBaseConfiguration">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/macondo_ca" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

@@ -1,0 +1,97 @@
+{
+ "title": "Plantas medicinales y aromáticas",
+ "description": "La quina, la sábila, la manzanilla, la hierbabuena, la albahaca y otras plantas que las personas han usado por siglos en la cocina y la medicina tradicional. Una mirada histórica y botánica, no una guía de remedios.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias naturales",
+  "Plantas",
+  "Historia de la ciencia"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Lámina botánica antigua de una rama de quina con hojas grandes, flores rosadas y detalles de flores y frutos.",
+   "De la corteza del árbol de quina, nativo de los Andes, se obtuvo la quinina, el primer medicamento eficaz contra la malaria. José Celestino Mutis la estudió en la Real Expedición Botánica del Nuevo Reino de Granada (1783-1816). Lámina del libro alemán «Plantas medicinales de Köhler» (1887)."
+  ],
+  [
+   "Una planta de sábila de hojas carnosas rojizas con una vara de flores amarillas, en una ladera rocosa junto al mar.",
+   "La sábila o aloe guarda agua en sus hojas gruesas, por eso resiste la sequía. Desde la Antigüedad se ha usado su gel en cosméticos y medicina tradicional. Es originaria de la península arábiga; esta foto es de Lanzarote, en las islas Canarias."
+  ],
+  [
+   "Un campo de flores de manzanilla blancas con centro amarillo, mezcladas con amapolas rojas.",
+   "La manzanilla se ha usado durante siglos para preparar infusiones. Sus flores se parecen a pequeñas margaritas. Llegó a América con los europeos."
+  ],
+  [
+   "Hojas verdes y arrugadas de hierbabuena vistas de cerca.",
+   "La hierbabuena tiene un aroma fresco gracias al mentol y otros aceites de sus hojas. Se usa en bebidas, dulces y comidas. Es muy fácil de cultivar en una maceta."
+  ],
+  [
+   "Una mata de albahaca con hojas verdes brillantes en un jardín.",
+   "La albahaca es una hierba aromática muy usada en la cocina. Sus hojas tienen aceites que producen su olor tan fuerte. En muchas casas del Caribe se siembra en el patio."
+  ],
+  [
+   "Una flor anaranjada de caléndula vista de cerca, con muchos pétalos.",
+   "La caléndula tiene flores anaranjadas que se abren con el sol y se cierran de noche. Desde hace siglos se usa en cremas tradicionales y para dar color a comidas."
+  ],
+  [
+   "Varios rizomas de jengibre de color café claro sembrados en una maceta con una etiqueta.",
+   "Lo que comemos del jengibre no es una raíz sino un tallo subterráneo llamado rizoma. Tiene un sabor picante y se usa en bebidas y comidas de todo el mundo. Es originario del sureste de Asia."
+  ],
+  [
+   "Pequeñas flores lilas con centro amarillo de la planta de pronto alivio, entre hojas verdes.",
+   "El pronto alivio o prontoalivio es una planta aromática nativa de América muy común en los patios de Colombia. Sus hojas huelen a limón y se han usado tradicionalmente en infusiones."
+  ],
+  [
+   "Una mata de limoncillo con hojas largas y delgadas como pasto.",
+   "El limoncillo es un pasto aromático con olor a limón. Su aceite se usa en perfumes, jabones y repelentes de insectos. Es originario de Asia y hoy se cultiva en muchas regiones tropicales."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué medicamento se obtuvo de la corteza de la quina?",
+   [
+    "La aspirina",
+    "La quinina, contra la malaria",
+    "La penicilina",
+    "La insulina"
+   ],
+   1,
+   "La quinina fue durante siglos el principal tratamiento contra la malaria."
+  ],
+  [
+   "¿Qué científico estudió la quina en la Real Expedición Botánica del Nuevo Reino de Granada?",
+   [
+    "José Celestino Mutis",
+    "Isaac Newton",
+    "Marie Curie",
+    "Charles Darwin"
+   ],
+   0,
+   "Mutis dirigió la expedición desde 1783 y reunió miles de láminas de plantas."
+  ],
+  [
+   "La parte del jengibre que comemos es...",
+   [
+    "una flor",
+    "una semilla",
+    "un tallo subterráneo llamado rizoma",
+    "una hoja"
+   ],
+   2,
+   "Aunque parece una raíz, es un tallo que crece bajo tierra."
+  ],
+  [
+   "¿Por qué la sábila resiste la sequía?",
+   [
+    "Porque no necesita sol",
+    "Porque tiene espinas",
+    "Porque vive en el agua",
+    "Porque guarda agua en sus hojas gruesas"
+   ],
+   3,
+   "Las plantas suculentas, como la sábila, almacenan agua en sus hojas."
+  ]
+ ],
+ "reviewNotes": "Galería con enfoque histórico y botánico; los pies de foto no recomiendan usos medicinales. 01 es una lámina de Köhler's Medizinal-Pflanzen (1887; H. A. Köhler †1879, ilustradores fallecidos antes de 1945)."
+}

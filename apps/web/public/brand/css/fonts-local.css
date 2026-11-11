@@ -1,0 +1,13 @@
+/* Mismas familias y pesos corporativos; archivos WOFF2 locales, OFL en assets/fonts/web. */
+@font-face { font-family: Outfit; font-style: normal; font-weight: 300 700; font-display: swap; src: url('../fonts/web/outfit-latin-20261003.woff2') format('woff2'); }
+@font-face { font-family: Outfit; font-style: normal; font-weight: 300 700; font-display: swap; src: url('../fonts/web/outfit-latin-ext-20261003.woff2') format('woff2'); unicode-range: U+0100-02FF,U+1D00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 300; font-display: swap; src: url('../fonts/web/poppins-300-latin-20261003.woff2') format('woff2'); }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 300; font-display: swap; src: url('../fonts/web/poppins-300-latin-ext-20261003.woff2') format('woff2'); unicode-range: U+0100-02FF,U+1D00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/web/poppins-400-latin-20261003.woff2') format('woff2'); }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/web/poppins-400-latin-ext-20261003.woff2') format('woff2'); unicode-range: U+0100-02FF,U+1D00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 500; font-display: swap; src: url('../fonts/web/poppins-500-latin-20261003.woff2') format('woff2'); }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 500; font-display: swap; src: url('../fonts/web/poppins-500-latin-ext-20261003.woff2') format('woff2'); unicode-range: U+0100-02FF,U+1D00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/web/poppins-600-latin-20261003.woff2') format('woff2'); }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 600; font-display: swap; src: url('../fonts/web/poppins-600-latin-ext-20261003.woff2') format('woff2'); unicode-range: U+0100-02FF,U+1D00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/web/poppins-700-latin-20261003.woff2') format('woff2'); }
+@font-face { font-family: Poppins; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/web/poppins-700-latin-ext-20261003.woff2') format('woff2'); unicode-range: U+0100-02FF,U+1D00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }

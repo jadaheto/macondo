@@ -1,0 +1,97 @@
+{
+ "title": "El mundo de los insectos",
+ "description": "Hormigas arrieras, abejas, mariquitas, libélulas, escarabajos gigantes, mantis y cigarras: los insectos son los animales más numerosos del planeta y cada uno tiene un trabajo importante.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Insectos"
+ ],
+ "cover": 5,
+ "items": [
+  [
+   "Hormigas arrieras cargando pedazos de hojas verdes sobre la espalda.",
+   "Las hormigas arrieras cortan hojas y las llevan a su hormiguero. No se las comen: las usan para cultivar un hongo, que es su alimento. ¡Pueden cargar mucho más que su propio peso!"
+  ],
+  [
+   "Una abeja de rayas cafés y negras posada en una flor morada de lavanda.",
+   "Las abejas llevan el polen de flor en flor y así ayudan a que las plantas den frutos y semillas. Muchos alimentos que comemos dependen de ellas. Con el néctar de las flores fabrican miel."
+  ],
+  [
+   "Una pequeña mariquita roja con puntos negros sobre una hoja verde clara.",
+   "Las mariquitas son escarabajos pequeños. Son amigas de los agricultores porque comen pulgones, unos insectos que dañan las plantas. Sus colores avisan que tienen mal sabor."
+  ],
+  [
+   "Una libélula de cuerpo rojo y alas transparentes posada en una ramita seca.",
+   "Las libélulas son grandes voladoras: pueden ir hacia adelante, hacia atrás y quedarse quietas en el aire. Cuando son pequeñas viven bajo el agua. Esta libélula roja fue fotografiada en Panamá."
+  ],
+  [
+   "Un escarabajo grande de alas amarillas con manchas negras y dos cuernos negros muy largos, sobre fondo blanco.",
+   "El escarabajo hércules es uno de los insectos más grandes del mundo: los machos pueden medir más de 15 cm contando el cuerno. Vive en las selvas de América, también en Colombia. Ejemplar de un museo de historia natural."
+  ],
+  [
+   "Una mantis verde con las patas delanteras dobladas, sobre una superficie roja y el cielo azul detrás.",
+   "La mantis religiosa espera quieta a sus presas con las patas delanteras dobladas, como si rezara. Puede girar la cabeza para mirar alrededor, algo raro entre los insectos."
+  ],
+  [
+   "Muchas crías de saltamontes negras con manchas rojas sobre el suelo arenoso.",
+   "Estas son crías, o ninfas, del saltamontes soldado. Los saltamontes no pasan por oruga: nacen parecidos a sus padres pero sin alas, y cambian de piel varias veces mientras crecen. Foto tomada en Brasil."
+  ],
+  [
+   "Un escarabajo alargado de color naranja posado sobre una hoja verde.",
+   "Las luciérnagas son escarabajos que producen luz en la parte de atrás de su cuerpo. Usan sus destellos para encontrarse con otras luciérnagas en la oscuridad de la noche."
+  ],
+  [
+   "Una cigarra verde pálido saliendo de su vieja piel café, pegada a una pared de ladrillo.",
+   "La cigarra vive varios años bajo tierra como ninfa. Cuando sale, trepa a un árbol o una pared y abandona su vieja piel: aquí se ve recién salida, con las alas todavía blandas. Los machos cantan muy fuerte para llamar a las hembras."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Para qué usan las hormigas arrieras las hojas que cortan?",
+   [
+    "Para hacer techos",
+    "Para cultivar un hongo que comen",
+    "Para jugar",
+    "Para dormir encima"
+   ],
+   1,
+   "Las arrieras son agricultoras: cultivan un hongo sobre las hojas y se alimentan de él."
+  ],
+  [
+   "¿Por qué son tan importantes las abejas?",
+   [
+    "Porque espantan a los zancudos",
+    "Porque dan sombra",
+    "Porque llevan el polen y ayudan a que las plantas den frutos",
+    "Porque hacen ruido"
+   ],
+   2,
+   "Al visitar las flores, las abejas las polinizan; sin ellas muchas plantas no darían frutos."
+  ],
+  [
+   "¿Qué insecto produce luz?",
+   [
+    "La luciérnaga",
+    "La mariquita",
+    "La mantis",
+    "La abeja"
+   ],
+   0,
+   "Las luciérnagas producen luz para comunicarse en la noche."
+  ],
+  [
+   "¿Cuántas patas tienen los insectos adultos?",
+   [
+    "Cuatro",
+    "Ocho",
+    "Diez",
+    "Seis"
+   ],
+   3,
+   "Todos los insectos adultos tienen seis patas y el cuerpo dividido en cabeza, tórax y abdomen. Las arañas, con ocho patas, no son insectos."
+  ]
+ ],
+ "reviewNotes": null
+}

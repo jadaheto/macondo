@@ -1,0 +1,93 @@
+{
+ "title": "Constelaciones",
+ "description": "Orión, la Cruz del Sur, la Osa Mayor, el Escorpión y las Pléyades: los dibujos que las personas han imaginado en el cielo nocturno durante miles de años, y cómo encontrarlos.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Astronomía",
+  "Espacio"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Foto del cielo nocturno con las estrellas de Orión unidas por líneas y sus nombres; abajo, un recuadro con la nebulosa de Orión.",
+   "Orión, el cazador, es una de las constelaciones más fáciles de encontrar: busca tres estrellas en fila, el «cinturón». Desde Colombia se ve muy bien en las noches de diciembre a marzo. Las líneas y nombres (en estonio) se añadieron a la foto."
+  ],
+  [
+   "Cuatro estrellas brillantes en forma de cruz junto a una mancha oscura, sobre la Vía Láctea.",
+   "La Cruz del Sur es la constelación más pequeña, pero muy famosa porque ayuda a encontrar el sur. Desde Colombia se ve cerca del horizonte sur entre marzo y junio. La mancha oscura a su lado es la nebulosa Saco de Carbón."
+  ],
+  [
+   "Cielo nocturno azul oscuro con las siete estrellas del Carro de la Osa Mayor; a un lado, ramas de un árbol iluminadas.",
+   "Siete estrellas de la Osa Mayor forman el «Carro». Siguiendo dos de ellas se llega a la Estrella Polar, en la Osa Menor, que marca el norte. Desde el Caribe colombiano el Carro se ve bajo, sobre el horizonte norte."
+  ],
+  [
+   "La Vía Láctea cruzando el cielo nocturno, con nubes de estrellas y franjas oscuras de polvo.",
+   "La Vía Láctea es nuestra galaxia vista desde dentro: una franja de millones de estrellas. En esta zona del cielo están las constelaciones de Escorpio y Sagitario. Para verla bien hay que alejarse de las luces de la ciudad."
+  ],
+  [
+   "Un grupo de estrellas azules brillantes rodeadas de una nube azulada.",
+   "Las Pléyades, o Siete Cabrillas, son un grupo de estrellas jóvenes en la constelación de Tauro. Muchos pueblos usaban su aparición en el cielo para saber cuándo sembrar."
+  ],
+  [
+   "Ilustración antigua del Escorpión dibujado sobre un mapa de estrellas, con las estrellas marcadas en su cuerpo.",
+   "Así se dibujaba la constelación de Escorpio en «El espejo de Urania», un juego de cartas del cielo publicado en Londres en 1824. Antes de los telescopios modernos, estos dibujos ayudaban a aprender las estrellas."
+  ],
+  [
+   "Rayas de luz que dejan las estrellas al moverse en el cielo, sobre un horizonte anaranjado.",
+   "Estas líneas curvas son estrellas fotografiadas durante varios minutos. Parecen girar en el cielo porque la Tierra rota sobre sí misma. Las constelaciones salen y se ocultan como el Sol."
+  ],
+  [
+   "Un rayo láser amarillo apunta desde un observatorio hacia el centro de la Vía Láctea.",
+   "Los astrónomos de hoy siguen estudiando las mismas estrellas con telescopios gigantes, como estos del observatorio Paranal, en Chile. El rayo láser les ayuda a corregir el temblor que causa la atmósfera."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué tres estrellas en fila ayudan a encontrar a Orión?",
+   [
+    "La Cruz del Sur",
+    "El cinturón de Orión",
+    "Las Pléyades",
+    "El Carro"
+   ],
+   1,
+   "Las tres estrellas del cinturón son muy fáciles de ver."
+  ],
+  [
+   "¿Qué constelación ayuda a encontrar el sur?",
+   [
+    "La Cruz del Sur",
+    "La Osa Mayor",
+    "Orión",
+    "Tauro"
+   ],
+   0,
+   "Su eje mayor apunta aproximadamente hacia el polo sur celeste."
+  ],
+  [
+   "¿Por qué las estrellas parecen moverse en el cielo durante la noche?",
+   [
+    "Porque el viento las empuja",
+    "Porque se caen",
+    "Porque la Tierra rota sobre sí misma",
+    "Porque la Luna las mueve"
+   ],
+   2,
+   "La rotación de la Tierra hace que el cielo parezca girar."
+  ],
+  [
+   "¿Para qué usaban muchos pueblos la aparición de las Pléyades?",
+   [
+    "Para jugar fútbol",
+    "Para pescar de noche",
+    "Para hacer fuego",
+    "Para saber cuándo sembrar"
+   ],
+   3,
+   "Las Pléyades servían como calendario agrícola."
+  ]
+ ],
+ "reviewNotes": "06: lámina de Urania's Mirror (1824), dominio público; Sidney Hall murió en 1831."
+}

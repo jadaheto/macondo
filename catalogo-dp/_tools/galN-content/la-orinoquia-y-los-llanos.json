@@ -1,0 +1,98 @@
+{
+ "title": "La Orinoquía y los Llanos",
+ "description": "Caño Cristales, la serranía de La Macarena, los morichales, el río Orinoco y las sabanas inundables llenas de garzas y chigüiros: la región de los Llanos Orientales.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Ecosistemas",
+  "Región Orinoquía",
+  "Geografía"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Una cascada que cae sobre rocas oscuras en Caño Cristales, con plantas acuáticas rojas en el agua.",
+   "Caño Cristales, en la serranía de La Macarena (Meta), es llamado «el río de los cinco colores». Entre junio y noviembre, una planta acuática que crece sobre las rocas se pone roja y el río parece un arcoíris."
+  ],
+  [
+   "Sabana plana y verde con una palma solitaria bajo un cielo azul con nubes, en la región de La Macarena.",
+   "Alrededor de la serranía de La Macarena se extienden sabanas y selvas. La serranía es una montaña muy antigua donde se juntan especies de los Andes, la Amazonía y los Llanos. Es un parque nacional natural."
+  ],
+  [
+   "Palmas de moriche que crecen en un terreno inundado, reflejadas en el agua.",
+   "Los morichales son bosques de palma de moriche que crecen junto a los caños de la sabana. Guardan agua en época seca y dan alimento y refugio a muchos animales. Foto tomada en La Primavera, Vichada."
+  ],
+  [
+   "Rocas grandes y redondeadas junto a un río ancho en el Parque Nacional El Tuparro.",
+   "El Parque Nacional Natural El Tuparro, en el Vichada, tiene sabanas, ríos y enormes rocas de granito muy antiguas, que forman parte del escudo guayanés."
+  ],
+  [
+   "El ancho río Orinoco con rocas en la orilla, visto desde Puerto Carreño.",
+   "El río Orinoco marca parte de la frontera entre Colombia y Venezuela. Es uno de los ríos más caudalosos de Suramérica. Foto tomada en Puerto Carreño, capital del Vichada."
+  ],
+  [
+   "Una garza blanca grande parada en la orilla del río Orinoco.",
+   "Las garzas blancas abundan en los ríos y sabanas inundables de los Llanos, donde encuentran peces, ranas e insectos."
+  ],
+  [
+   "Sabana inundada con charcos y lagunas donde descansan chigüiros y aves.",
+   "En los Llanos de Colombia y Venezuela, los chigüiros viven en grupos cerca de lagunas y caños. En invierno las sabanas se inundan y en verano se secan; los animales se adaptan a ese ciclo. Foto tomada en los Llanos de Venezuela."
+  ],
+  [
+   "El río Meta al atardecer, con el cielo naranja reflejado en el agua.",
+   "El río Meta atraviesa los Llanos y desemboca en el Orinoco. Durante siglos ha sido un camino de agua para transportar personas y productos."
+  ],
+  [
+   "Una sabana verde junto al agua con muchas corocoras rojas y garzas blancas.",
+   "Paisaje llanero en Casanare con corocoras rojas y garzas blancas. En las sabanas inundables de los Llanos viven cientos de especies de aves."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué a Caño Cristales lo llaman «el río de los cinco colores»?",
+   [
+    "Porque lo pintan cada año",
+    "Porque una planta acuática se pone roja y el agua parece un arcoíris",
+    "Porque tiene peces de colores",
+    "Porque tiene arena de colores"
+   ],
+   1,
+   "La planta acuática se colorea de rojo entre junio y noviembre."
+  ],
+  [
+   "¿Qué es un morichal?",
+   [
+    "Un bosque de palmas de moriche junto a los caños",
+    "Un tipo de pez",
+    "Una montaña",
+    "Un baile llanero"
+   ],
+   0,
+   "Los morichales guardan agua y dan refugio a muchos animales."
+  ],
+  [
+   "¿Qué río marca parte de la frontera entre Colombia y Venezuela?",
+   [
+    "El Magdalena",
+    "El Cauca",
+    "El Orinoco",
+    "El Sinú"
+   ],
+   2,
+   "El Orinoco pasa por Puerto Carreño, en el Vichada."
+  ],
+  [
+   "¿Qué les pasa a las sabanas de los Llanos durante el invierno?",
+   [
+    "Se cubren de nieve",
+    "Se convierten en desierto",
+    "Se llenan de edificios",
+    "Se inundan"
+   ],
+   3,
+   "En invierno las sabanas se inundan y en verano se secan."
+  ]
+ ],
+ "reviewNotes": "07 fue tomada en los Llanos de Venezuela (misma región natural)."
+}

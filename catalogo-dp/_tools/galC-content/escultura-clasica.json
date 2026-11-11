@@ -1,0 +1,94 @@
+{
+ "title": "Escultura clásica de Grecia y Roma",
+ "description": "Estatuas de bronce y mármol, bustos de poetas y emperadores y relieves con procesiones: obras de la Grecia y la Roma antiguas que todavía sirven de modelo a escultores de todo el mundo.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Artes",
+  "Historia del arte",
+  "Escultura",
+  "Historia antigua"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Estatua de mármol de una figura femenina sin cabeza con grandes alas abiertas y túnica que parece agitada por el viento, sobre la proa de un barco de piedra.",
+   "La Victoria de Samotracia (hacia el año 190 antes de Cristo) representa a Niké, diosa de la victoria, posada sobre la proa de un barco. Aunque perdió la cabeza y los brazos, parece moverse con el viento. Está en el Louvre."
+  ],
+  [
+   "Estatua de bronce de un joven de pie con una túnica larga de pliegues rectos, ojos incrustados y una cinta en la cabeza.",
+   "El Auriga de Delfos (hacia 475 a. C.) es una de las pocas estatuas griegas de bronce que se conservan. Representa a un conductor de carros que ganó una carrera."
+  ],
+  [
+   "Estatua de mármol de una diosa de pie con casco, túnica larga y un manto, que sostiene una lanza.",
+   "La Atenea Giustiniani es una copia romana de una estatua griega de la diosa Atenea, con casco y lanza. Está en los Museos Vaticanos."
+  ],
+  [
+   "Relieve de mármol con una fila de personas vestidas con togas y mantos que caminan en procesión.",
+   "Relieve del Ara Pacis, el Altar de la Paz que el emperador Augusto mandó construir en Roma en el año 13 a. C. Muestra a la familia imperial en una procesión."
+  ],
+  [
+   "Busto de mármol de un hombre anciano con barba larga, cabello con cinta y ojos cerrados.",
+   "Busto de Homero, el poeta al que se atribuyen la Ilíada y la Odisea. Según la tradición era ciego, por eso los escultores lo representaban con los ojos cerrados."
+  ],
+  [
+   "Busto de mármol de un hombre joven con cabello abundante y ondulado y la cabeza ligeramente inclinada.",
+   "Busto de Alejandro Magno, rey de Macedonia que creó un enorme imperio desde Grecia hasta la India antes de cumplir 33 años."
+  ],
+  [
+   "Estatua de mármol de un hombre con barba, envuelto en un manto largo, de pie con una mano sobre el pecho.",
+   "Estatua de Sófocles, uno de los grandes autores de teatro de Atenas, que escribió Antígona y Edipo rey. Los griegos representaban a sus poetas con mantos sencillos."
+  ],
+  [
+   "Busto de mármol de un hombre con barba corta y rizada, vestido con coraza y manto.",
+   "Busto del emperador Adriano (siglo II). Fue el primer emperador romano que llevó barba, a la moda de los filósofos griegos que admiraba."
+  ],
+  [
+   "Detalle de la cabeza de bronce de una estatua: un hombre con barba espesa y cabello muy rizado.",
+   "Detalle de la estatua ecuestre del emperador Marco Aurelio (siglo II). Se salvó porque durante siglos se creyó que representaba a Constantino, y ha inspirado muchas estatuas de héroes a caballo."
+  ]
+ ],
+ "questions": [
+  [
+   "¿A qué diosa representa la Victoria de Samotracia?",
+   [
+    "Niké",
+    "Atenea",
+    "Hera"
+   ],
+   0,
+   "Niké era la diosa de la victoria."
+  ],
+  [
+   "¿Por qué se representaba a Homero con los ojos cerrados?",
+   [
+    "Porque según la tradición era ciego",
+    "Porque estaba dormido",
+    "Porque era muy tímido"
+   ],
+   0,
+   "Así lo describía la tradición antigua."
+  ],
+  [
+   "¿Qué emperador romano fue el primero en llevar barba?",
+   [
+    "Adriano",
+    "Augusto",
+    "Nerón"
+   ],
+   0,
+   "Imitaba a los filósofos griegos."
+  ],
+  [
+   "¿De qué material es el Auriga de Delfos?",
+   [
+    "Bronce",
+    "Madera",
+    "Oro"
+   ],
+   0,
+   "Es una de las pocas estatuas griegas de bronce conservadas."
+  ]
+ ],
+ "reviewNotes": "Se eligieron solo figuras vestidas, bustos y relieves; se excluyeron desnudos (p. ej. Laocoonte, Discóbolo)."
+}

@@ -1,0 +1,121 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Kiosco · Kit Comfasucre</title><link rel="stylesheet" href="assets/css/turnos-kiosco.css"></head><body class="kiosco-page">
+    <div id="turnosKiosco">
+        <header class="kiosco-cabecera">
+            <img class="kiosco-logo" src="assets/images/logo_comfasucre.png" alt="Comfasucre, de todos" width="146" height="62">
+            <div class="kiosco-cabecera-texto"><h1>Solicita tu turno</h1><p>Más bienestar para nuestra gente</p></div>
+            <div id="kioscoHorario" class="kiosco-horario" aria-live="polite">Demostración sin backend</div>
+        </header>
+        <nav class="kiosco-progreso" aria-label="Pasos para solicitar un turno">
+            <ol>
+                <li data-etapa="documento" aria-current="step"><span class="kiosco-etapa-numero" aria-hidden="true">1</span><span>Documento</span></li>
+                <li data-etapa="servicio"><span class="kiosco-etapa-numero" aria-hidden="true">2</span><span>Servicio</span></li>
+                <li data-etapa="confirmacion"><span class="kiosco-etapa-numero" aria-hidden="true">3</span><span>Confirmación</span></li>
+                <li data-etapa="ticket"><span class="kiosco-etapa-numero" aria-hidden="true">4</span><span>Tu turno</span></li>
+            </ol>
+        </nav>
+        <div id="kioscoMensaje" class="kiosco-mensaje" role="status" aria-live="polite" aria-atomic="true"></div>
+        <main class="kiosco-contenido">
+            <section class="kiosco-paso kiosco-documento" data-paso="documento" aria-labelledby="kioscoDocumentoTitulo">
+                <div class="kiosco-documento-formulario">
+                    <div class="kiosco-introduccion"><p class="kiosco-eyebrow">Bienvenido</p><h2 id="kioscoDocumentoTitulo" tabindex="-1">Ingresa tu documento</h2><p>Toca los números del teclado para identificarte.</p></div>
+                    <div class="kiosco-campo">
+                        <label for="kioscoTipoDocumento">Tipo de documento</label>
+                        <select id="kioscoTipoDocumento" autocomplete="off">
+                            <option value="CC">Cédula de ciudadanía</option><option value="TI">Tarjeta de identidad</option><option value="RC">Registro civil</option><option value="CE">Cédula de extranjería</option><option value="NIT">NIT</option><option value="PA">Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="kiosco-campo">
+                        <label for="kioscoDocumento">Número de documento</label>
+                        <input id="kioscoDocumento" class="kiosco-documento-input" type="text" inputmode="none" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="20" aria-describedby="kioscoDocumentoAyuda" placeholder="Toca el teclado">
+                        <span id="kioscoDocumentoAyuda" class="kiosco-ayuda">Revisa el número antes de continuar.</span>
+                    </div>
+                    <div class="kiosco-documento-acciones">
+                        <button type="button" class="kiosco-boton kiosco-boton-secundario" data-action="letras-documento" hidden>Usar letras</button>
+                    </div>
+                    <p class="kiosco-ayuda kiosco-ayuda-recepcion">¿Necesitas ayuda? Acércate a recepción.</p>
+                </div>
+                <div class="kiosco-teclado-panel">
+                    <p class="kiosco-teclado-titulo">Teclado de documento</p>
+                    <div id="kioscoDocumentoTeclado" class="kiosco-numerico" role="group" aria-label="Teclado numérico">
+                        <button type="button" class="kiosco-tecla" data-key="1">1</button><button type="button" class="kiosco-tecla" data-key="2">2</button><button type="button" class="kiosco-tecla" data-key="3">3</button>
+                        <button type="button" class="kiosco-tecla" data-key="4">4</button><button type="button" class="kiosco-tecla" data-key="5">5</button><button type="button" class="kiosco-tecla" data-key="6">6</button>
+                        <button type="button" class="kiosco-tecla" data-key="7">7</button><button type="button" class="kiosco-tecla" data-key="8">8</button><button type="button" class="kiosco-tecla" data-key="9">9</button>
+                        <button type="button" class="kiosco-tecla kiosco-tecla-accion" data-key="backspace" aria-label="Borrar el último carácter">⌫ <span>Borrar</span></button>
+                        <button type="button" class="kiosco-tecla" data-key="0">0</button>
+                        <button type="button" class="kiosco-tecla kiosco-tecla-accion" data-key="clear" aria-label="Limpiar todo el documento">Limpiar</button>
+                    </div>
+                    <button id="kioscoConsultar" type="button" class="kiosco-boton kiosco-boton-primario">Consultar y continuar <span aria-hidden="true">→</span></button>
+                </div>
+            </section>
+            <section class="kiosco-paso kiosco-servicios-paso" data-paso="servicio" data-paginated="false" aria-labelledby="kioscoServicioTitulo" hidden>
+                <div class="kiosco-encabezado-paso">
+                    <div><h2 id="kioscoServicioTitulo" tabindex="-1">¿Qué atención necesitas?</h2><p>Selecciona un servicio para continuar.</p><button id="kioscoServiciosReintentar" type="button" class="kiosco-boton kiosco-boton-secundario" hidden>Reintentar</button></div>
+                    <div id="kioscoServiciosPaginacion" class="kiosco-paginacion" aria-label="Páginas de servicios" hidden>
+                        <button id="kioscoServiciosAnterior" type="button" class="kiosco-boton kiosco-boton-secundario" disabled>← Anterior</button><span id="kioscoServiciosPagina" aria-live="polite">Página 1 de 1</span><button id="kioscoServiciosSiguiente" type="button" class="kiosco-boton kiosco-boton-secundario" disabled>Siguiente →</button>
+                    </div>
+                </div>
+                <div id="kioscoServicios" class="kiosco-servicios-grid" role="group" aria-label="Servicios disponibles"></div>
+                <div class="kiosco-acciones-paso"><button type="button" class="kiosco-boton kiosco-boton-secundario" data-action="volver-documento">← Volver</button><button type="button" class="kiosco-boton kiosco-boton-texto" data-action="terminar">Salir sin cambiar</button><button id="kioscoContinuarServicio" type="button" class="kiosco-boton kiosco-boton-primario" disabled>Continuar →</button></div>
+            </section>
+            <section class="kiosco-paso kiosco-confirmacion" data-paso="confirmacion" aria-labelledby="kioscoConfirmacionTitulo" hidden>
+                <div class="kiosco-encabezado-paso kiosco-confirmacion-encabezado">
+                    <div><h2 id="kioscoConfirmacionTitulo" tabindex="-1">Confirma tu información</h2><p>Revisa tus datos antes de generar el turno.</p></div>
+                    <dl class="kiosco-confirmacion-servicio"><div><dt>Servicio seleccionado</dt><dd id="kioscoPersonaServicio">—</dd></div></dl>
+                </div>
+                <div class="kiosco-confirmacion-grid">
+                    <div class="kiosco-resumen-persona">
+                        <dl class="kiosco-datos-persona">
+                            <div class="kiosco-dato-nombre"><dt>Nombre</dt><dd id="kioscoPersonaNombre">—</dd></div>
+                            <div class="kiosco-dato-documento"><dt>Documento</dt><dd><span id="kioscoPersonaTipo">—</span> <span id="kioscoPersonaDocumento">—</span></dd></div>
+                        </dl>
+                        <div id="kioscoCamposParticular" class="kiosco-particular" hidden>
+                            <div class="kiosco-campo"><label for="kioscoPrimerNombre">Primer nombre</label><div class="kiosco-campo-editable"><input id="kioscoPrimerNombre" type="text" inputmode="none" autocomplete="off" spellcheck="false" maxlength="80"><button type="button" class="kiosco-boton kiosco-boton-secundario" data-action="editar-nombre" aria-label="Escribir primer nombre">Escribir</button></div></div>
+                            <div class="kiosco-campo"><label for="kioscoPrimerApellido">Primer apellido</label><div class="kiosco-campo-editable"><input id="kioscoPrimerApellido" type="text" inputmode="none" autocomplete="off" spellcheck="false" maxlength="80"><button type="button" class="kiosco-boton kiosco-boton-secundario" data-action="editar-apellido" aria-label="Escribir primer apellido">Escribir</button></div></div>
+                        </div>
+                    </div>
+                    <fieldset class="kiosco-prioridades">
+                        <legend>¿Necesitas atención prioritaria?</legend><p>Marca las opciones que correspondan.</p>
+                        <label class="kiosco-prioridad"><input type="checkbox" name="prioridad_adulto_mayor"><span>Adulto mayor</span></label>
+                        <label class="kiosco-prioridad"><input type="checkbox" name="prioridad_discapacidad"><span>Persona con discapacidad</span></label>
+                        <label class="kiosco-prioridad"><input type="checkbox" name="prioridad_embarazada"><span>Embarazada</span></label>
+                    </fieldset>
+                    <div id="kioscoCambioAviso" class="kiosco-cambio-aviso" hidden><h3>Cambio de dependencia</h3><p id="kioscoCambioTexto">Se cancelará tu turno anterior y recibirás uno nuevo. Tu espera comenzará nuevamente.</p><p>Conservarás tu identidad y tu prioridad. Nada cambia hasta que confirmes.</p></div>
+                </div>
+                <div class="kiosco-acciones-paso"><button type="button" class="kiosco-boton kiosco-boton-secundario" data-action="volver-servicio">← Volver</button><button type="button" class="kiosco-boton kiosco-boton-texto" data-action="terminar">Salir sin cambiar</button><button id="kioscoGenerar" type="button" class="kiosco-boton kiosco-boton-primario">Generar mi turno →</button></div>
+            </section>
+            <section class="kiosco-paso kiosco-vigente" data-paso="vigente" aria-labelledby="kioscoVigenteTitulo" hidden>
+                <div class="kiosco-encabezado-paso"><div><h2 id="kioscoVigenteTitulo" tabindex="-1">Ya tienes un turno</h2><p>Revisa tu servicio. No necesitas generar otro turno.</p></div></div>
+                <div class="kiosco-vigente-grid">
+                    <div class="kiosco-ticket-numero"><span>Tu turno vigente</span><strong id="kioscoVigenteCodigo">—</strong><span id="kioscoVigenteEstado" class="kiosco-vigente-estado">—</span></div>
+                    <dl class="kiosco-ticket-detalles"><div><dt>Nombre público</dt><dd id="kioscoVigenteNombre">—</dd></div><div><dt>Servicio</dt><dd id="kioscoVigenteServicio">—</dd></div><div><dt>Destino</dt><dd id="kioscoVigenteDestino">—</dd></div></dl>
+                </div>
+                <p id="kioscoVigenteAyuda" class="kiosco-vigente-ayuda"></p>
+                <div class="kiosco-vigente-opciones"><button id="kioscoVigenteMantener" type="button" class="kiosco-boton kiosco-boton-primario">Mantener / reimprimir</button><button id="kioscoVigenteCambiar" type="button" class="kiosco-boton kiosco-boton-secundario">Cambiar dependencia</button><button id="kioscoVigenteCancelar" type="button" class="kiosco-boton kiosco-boton-peligro">Cancelar turno</button></div>
+                <div class="kiosco-vigente-salida"><button id="kioscoVigenteReintentar" type="button" class="kiosco-boton kiosco-boton-secundario" hidden>Reintentar y recuperar resultado</button><button id="kioscoVigenteActualizar" type="button" class="kiosco-boton kiosco-boton-secundario">Consultar estado de nuevo</button><button type="button" class="kiosco-boton kiosco-boton-texto" data-action="terminar">Salir sin cambiar</button></div>
+            </section>
+            <section class="kiosco-paso kiosco-ticket" data-paso="ticket" aria-labelledby="kioscoTicketTitulo" hidden>
+                <div class="kiosco-ticket-cabecera"><p class="kiosco-eyebrow">¡Listo!</p><h2 id="kioscoTicketTitulo" tabindex="-1">Este es tu turno</h2><p>Recuerda tu número y espera el llamado en pantalla.</p></div>
+                <div class="kiosco-ticket-grid">
+                    <div class="kiosco-ticket-numero"><span>Tu número de turno</span><strong id="kioscoTicketCodigo">—</strong><span id="kioscoTicketPrioridad" class="kiosco-ticket-prioridad" hidden>Atención prioritaria</span><p id="kioscoTicketCuenta" class="kiosco-ticket-cuenta"></p></div>
+                    <dl class="kiosco-ticket-detalles"><div><dt>Nombre</dt><dd id="kioscoTicketNombre">—</dd></div><div><dt>Servicio</dt><dd id="kioscoTicketServicio">—</dd></div><div><dt>Espera tu llamado para dirigirte a</dt><dd id="kioscoTicketDestino">—</dd></div></dl>
+                </div>
+                <div class="kiosco-acciones-paso kiosco-ticket-acciones"><button id="kioscoImprimir" type="button" class="kiosco-boton kiosco-boton-secundario">Reimprimir ticket</button><button type="button" class="kiosco-boton kiosco-boton-primario" data-action="terminar">Volver al inicio ✓</button></div>
+            </section>
+        </main>
+        <dialog id="kioscoCancelarDialogo" class="kiosco-dialogo kiosco-dialogo-cancelar" aria-labelledby="kioscoCancelarTitulo" aria-describedby="kioscoCancelarTexto">
+            <h2 id="kioscoCancelarTitulo">¿Cancelar tu turno?</h2><p id="kioscoCancelarTexto"></p><p>Tu turno dejará de ser válido. Si después solicitas otro, tu espera comenzará nuevamente.</p>
+            <div class="kiosco-dialogo-acciones"><button id="kioscoCancelarVolver" type="button" class="kiosco-boton kiosco-boton-secundario">Volver sin cancelar</button><button id="kioscoCancelarConfirmar" type="button" class="kiosco-boton kiosco-boton-peligro">Sí, cancelar turno</button></div>
+        </dialog>
+        <dialog id="kioscoTecladoAlfa" class="kiosco-dialogo kiosco-dialogo-teclado" aria-labelledby="kioscoAlfaTitulo">
+            <div class="kiosco-dialogo-encabezado"><h2 id="kioscoAlfaTitulo">Escribe tu información</h2></div>
+            <label class="kiosco-solo-lector" for="kioscoAlfaCampo">Texto escrito</label><input id="kioscoAlfaCampo" type="text" inputmode="none" autocomplete="off" spellcheck="false" maxlength="120">
+            <div id="kioscoAlfaTeclas" class="kiosco-alfa" role="group" aria-label="Teclado de letras"></div>
+            <div class="kiosco-dialogo-acciones"><button id="kioscoAlfaCancelar" type="button" class="kiosco-boton kiosco-boton-secundario">Cancelar</button><button id="kioscoAlfaAceptar" type="button" class="kiosco-boton kiosco-boton-primario">Aceptar ✓</button></div>
+        </dialog>
+        <dialog id="kioscoInactividad" class="kiosco-dialogo kiosco-dialogo-inactividad" aria-labelledby="kioscoInactividadTitulo" aria-describedby="kioscoInactividadTexto">
+            <h2 id="kioscoInactividadTitulo">¿Sigues aquí?</h2><p id="kioscoInactividadTexto">Por tu privacidad, borraremos tus datos si no continúas.</p>
+            <div class="kiosco-dialogo-acciones"><button type="button" class="kiosco-boton kiosco-boton-secundario" data-action="terminar">Terminar</button><button id="kioscoInactividadContinuar" type="button" class="kiosco-boton kiosco-boton-primario">Sí, continuar</button></div>
+        </dialog>
+    </div>
+<script src="kit/kiosco-demo.js"></script></body>
+</html>

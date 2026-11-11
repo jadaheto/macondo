@@ -1,0 +1,35 @@
+{
+ "title": "Santa Cruz de Mompox y el río",
+ "description": "Mompox, a orillas del brazo de Mompox del río Magdalena, fue un rico puerto colonial y hoy es Patrimonio de la Humanidad. Recorre sus albarradas, calles, mercado y cementerio.",
+ "gradeMin": 4, "gradeMax": 11,
+ "categories": ["Ciencias sociales", "Historia de Colombia", "Región Caribe", "Patrimonio cultural"],
+ "cover": 2,
+ "credits": {"9": "Dietrich Reimer (mapa de 1871), Boston Public Library"},
+ "items": [
+  ["Calle de tierra junto al río con una fila de casas blancas de techos de teja y grandes árboles a un lado.",
+   "La Albarrada del Campillo. Las albarradas son muros que protegen la ciudad de las crecientes del río Magdalena; detrás se alinean las casas coloniales."],
+  ["Edificio amarillo de dos pisos con arcos y una torre pequeña, frente a una plaza de tierra con bolardos.",
+   "El antiguo mercado de Mompox, junto a la plaza de la Concepción, a orillas del río. Hasta allí llegaban productos de toda la región en canoas y barcos."],
+  ["Calle estrecha de casas blancas con escalones, árboles y banderines de colores colgados encima.",
+   "Las calles de Mompox conservan el trazado colonial. Fundada en 1537, la ciudad fue declarada Patrimonio de la Humanidad por la UNESCO en 1995."],
+  ["Casa antigua de muros desgastados con puertas de madera verde y rejas en las ventanas, iluminada de noche.",
+   "Muchas casas momposinas tienen más de 200 años, con muros gruesos, ventanas con rejas y techos altos para protegerse del calor."],
+  ["Camino de ladrillo rojo bordeado de barandas blancas y tumbas blancas, bajo un cielo azul con palmeras.",
+   "El cementerio de Mompox, del siglo XIX, es famoso por sus tumbas blancas. En Semana Santa se hace allí una serenata a los difuntos."],
+  ["Cruz grande de madera clara con varias cruces pequeñas y objetos tallados, sobre un altar.",
+   "La cruz de Mompox, obra de madera que recuerda el nombre de la ciudad: Santa Cruz de Mompox. La ciudad es conocida también por su orfebrería en filigrana."],
+  ["Río ancho al atardecer con el cielo naranja reflejado en el agua y árboles en la orilla.",
+   "Atardecer en el río Magdalena frente a Mompox. Por este río viajaban champanes y barcos de vapor entre la costa Caribe y el interior del país."],
+  ["Corredor con columnas rojas y amarillas frente a casas coloniales, junto a un camino a la orilla del río.",
+   "El malecón de Mompox, con sus casas de corredores y columnas pintadas. Simón Bolívar dijo: 'Si a Caracas debo la vida, a Mompox debo la gloria'."],
+  ["Detalle de un mapa antiguo de colores pálidos con el norte de Suramérica y las palabras Nueva Granada.",
+   "Detalle de un mapa alemán de 1871 con los Estados Unidos de Colombia. Mompox aparece sobre el Magdalena, que era la principal vía de comunicación del país."]
+ ],
+ "questions": [
+  ["¿Para qué sirven las albarradas?", ["Para proteger la ciudad de las crecientes del río", "Para guardar ganado", "Para defenderse de piratas"], 0, "Son muros a la orilla del río."],
+  ["¿Qué título dio la UNESCO a Mompox en 1995?", ["Patrimonio de la Humanidad", "Capital de Colombia", "Ciudad Olímpica"], 0, "Su centro histórico es Patrimonio de la Humanidad."],
+  ["¿A orillas de qué río está Mompox?", ["Magdalena", "Sinú", "Atrato"], 0, "Está sobre un brazo del río Magdalena."],
+  ["¿Por qué artesanía es famosa Mompox?", ["La filigrana de oro y plata", "Los tejidos de lana", "La cerámica azul"], 0, "Los orfebres momposinos trabajan finos hilos de metal."]
+ ],
+ "reviewNotes": "Se tomó 'Mompox' y 'Santa Cruz de Mompox y el río' como un solo tema para no duplicar. Complementa arquitectura-colonial y rio-magdalena sin repetir archivos."
+}

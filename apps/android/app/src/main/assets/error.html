@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sin conexión con la biblioteca</title>
+<style>
+  /* Paleta kiosco Comfasucre (branding.md §3.4). Sin recursos remotos: debe verse sin red. */
+  :root { --primary:#064679; --dark:#073258; --text:#153d5c; --muted:#557086; --border:#cddce7; --bg:#eef4f8; --err-bg:#fff1ef; --err-text:#a13726; --err-border:#edc3ba; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size:18px; line-height:1.35; background:var(--bg); color:var(--text); display:flex; align-items:center; justify-content:center; padding:24px; }
+  .panel { background:#fff; border:1px solid var(--border); border-radius:16px; padding:28px 24px; max-width:560px; width:100%; text-align:center; box-shadow:0 10px 30px rgba(6,70,121,.08); }
+  .logo { width:140px; height:auto; margin:0 auto 12px; display:block; }
+  h1 { font-size:27px; margin:8px 0 4px; color:var(--primary); }
+  p { margin:8px 0; color:var(--muted); }
+  .aviso { background:var(--err-bg); color:var(--err-text); border:1px solid var(--err-border); border-radius:12px; padding:12px 14px; font-size:16px; margin:16px 0; text-align:left; word-break:break-all; }
+  .acciones { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-top:20px; }
+  a.btn { display:inline-flex; align-items:center; justify-content:center; min-height:56px; min-width:180px; padding:0 22px; border-radius:12px; font-size:18px; font-weight:600; text-decoration:none; border:2px solid var(--primary); }
+  a.primario { background:var(--primary); color:#fff; }
+  a.secundario { background:#edf4fa; color:var(--primary); border-color:#bfd3e3; }
+  a.btn:active { filter:brightness(.92); }
+  .pie { font-size:14px; color:var(--muted); margin-top:18px; }
+</style>
+</head>
+<body>
+  <main class="panel" role="main">
+    <img class="logo" src="file:///android_res/drawable/logo_splash.png" alt="Comfasucre">
+    <h1>No se pudo conectar con la biblioteca</h1>
+    <p>Comprueba la conexión a internet (servidor principal) o que el equipo esté en el Wi-Fi de la biblioteca y el servidor local encendido.</p>
+    <div class="aviso" id="detalle">__DETALLE__</div>
+    <div class="acciones">
+      <a class="btn primario" href="macondo://reintentar">Reintentar</a>
+      <a class="btn secundario" href="macondo://configuracion">Configuración</a>
+    </div>
+    <p class="pie">Macondo Digital · Biblioteca Macondo de Comfasucre</p>
+  </main>
+</body>
+</html>

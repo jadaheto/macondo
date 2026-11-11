@@ -1,0 +1,40 @@
+{
+"title": "Dinosaurios y fósiles",
+"description": "Esqueletos de dinosaurios en museos, ilustraciones clásicas de animales prehistóricos y fósiles como amonitas, trilobites y la vértebra de la Titanoboa, la serpiente gigante hallada en La Guajira.",
+"gradeMin": 1, "gradeMax": 7,
+"categories": ["Ciencias naturales", "Paleontología", "Dinosaurios", "Historia de la Tierra"],
+"cover": 1,
+"items": [
+ ["Esqueleto completo de un tiranosaurio en un museo, con la boca abierta llena de dientes, sobre un pedestal.",
+  "Sue es uno de los esqueletos de Tyrannosaurus rex más completos que se han encontrado. Medía unos 12 metros de largo y vivió hace unos 67 millones de años. Está en el Museo Field de Chicago."],
+ ["Esqueleto de un triceratops con su gran cabeza con cuernos, exhibido dentro de una vitrina de museo.",
+  "El triceratops era un dinosaurio herbívoro con tres cuernos en la cabeza y un gran escudo óseo en el cuello. Vivió al final del período Cretácico. Museo del Ulster (Irlanda del Norte)."],
+ ["Esqueleto de estegosaurio con una hilera de placas en el lomo y púas en la cola, en un museo.",
+  "El estegosaurio tenía grandes placas en el lomo y púas en la cola para defenderse. Vivió en el período Jurásico, hace unos 150 millones de años. Museo de Historia Natural de Londres."],
+ ["Esqueleto pequeño de velocirraptor en posición de carrera, montado sobre una base en un museo.",
+  "El velocirraptor era mucho más pequeño que en las películas: más o menos del tamaño de un pavo grande, y tenía plumas. Vivió en lo que hoy es Mongolia. Instituto Real de Ciencias Naturales de Bélgica."],
+ ["Fósil en una losa de piedra clara con el esqueleto de un animal pequeño con alas y marcas de plumas.",
+  "El Archaeopteryx tenía plumas y alas como un ave, pero también dientes y una cola larga de huesos como un dinosaurio. Este fósil, hallado en Alemania en el siglo XIX, ayudó a entender que las aves descienden de los dinosaurios."],
+ ["Pintura antigua de dos dinosaurios carnívoros peleando: uno salta en el aire sobre el otro, que está tendido de espaldas.",
+  "\"Laelaps saltando\" (1897), de Charles R. Knight, fue una de las primeras pinturas que mostró a los dinosaurios como animales ágiles y activos, no lentos y torpes."],
+ ["Ilustración antigua de un reptil marino de cuello largo y mandíbulas abiertas junto a otros reptiles marinos parecidos a delfines.",
+  "Ilustración de Heinrich Harder (1912) de un mosasaurio e ictiosaurios. Eran reptiles marinos que vivieron en la época de los dinosaurios, pero no eran dinosaurios."],
+ ["Dibujo a color de un dinosaurio herbívoro de cuatro patas, con rayas, un escudo en el cuello y dos cuernos largos hacia atrás.",
+  "Reconstrucción del Achelousaurus, un dinosaurio herbívoro de la familia del triceratops que vivió en lo que hoy es Montana (Estados Unidos)."],
+ ["Concha fósil cortada por la mitad que muestra una espiral dividida en cámaras, junto a una regla.",
+  "Las amonitas eran moluscos marinos con concha en espiral dividida en cámaras, parientes de los calamares. Desaparecieron hace 66 millones de años, al mismo tiempo que los grandes dinosaurios."],
+ ["Fósil de trilobite enrollado, de color gris oscuro, con ojos grandes y el cuerpo dividido en segmentos, sobre una roca.",
+  "Los trilobites eran artrópodos marinos, parientes lejanos de los cangrejos y los insectos. Vivieron durante casi 300 millones de años y se extinguieron antes de que aparecieran los dinosaurios. Fósil de Marruecos."],
+ ["Vértebra fósil grande y oscura, exhibida en una vitrina sobre un soporte metálico.",
+  "Vértebra de la Titanoboa, una serpiente gigante de unos 13 metros que vivió hace unos 60 millones de años, después de los dinosaurios. Sus fósiles se hallaron en la mina del Cerrejón, en La Guajira. Museo Geológico José Royo y Gómez, Bogotá."],
+ ["Ilustración en blanco y negro de un mamut lanudo de pelo largo y colmillos curvos en un paisaje nevado.",
+  "Los mamuts lanudos vivieron en la última era de hielo y estaban cubiertos de pelo largo para soportar el frío. Se extinguieron hace miles de años. Dibujo de Charles R. Knight."]
+],
+"questions": [
+ ["¿Dónde se encontraron los fósiles de la Titanoboa?", ["En la mina del Cerrejón, en La Guajira", "En Chicago", "En Mongolia"], 0, "Se hallaron en la mina del Cerrejón, en La Guajira."],
+ ["¿Qué tenía el Archaeopteryx que lo hace parecido a las aves?", ["Plumas y alas", "Tres cuernos", "Placas en el lomo"], 0, "Tenía plumas y alas como un ave."],
+ ["¿Los mosasaurios eran dinosaurios?", ["No, eran reptiles marinos", "Sí, eran dinosaurios voladores", "Sí, eran dinosaurios herbívoros"], 0, "Vivieron en la época de los dinosaurios, pero no eran dinosaurios."],
+ ["¿De qué tamaño era realmente el velocirraptor?", ["Como un pavo grande", "Como un bus", "Como una hormiga"], 0, "Era del tamaño de un pavo grande y tenía plumas."],
+ ["¿Qué tenía el estegosaurio en la cola para defenderse?", ["Púas", "Una maza de hueso", "Plumas largas"], 0, "Tenía púas en la cola para defenderse."]
+]
+}

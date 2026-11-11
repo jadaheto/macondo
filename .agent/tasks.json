@@ -1,0 +1,543 @@
+{
+  "project": "macondo-digital",
+  "updated": "2026-11-01",
+  "statuses": [
+    "todo",
+    "in_progress",
+    "done",
+    "blocked"
+  ],
+  "tasks": [
+    {
+      "id": "F1-01",
+      "title": "Inspección del entorno y harness del agente (CLAUDE.md, .agent/)",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [],
+      "acceptanceCriteria": [
+        "CLAUDE.md con comandos, puertos y reglas",
+        "Archivos .agent/ creados"
+      ]
+    },
+    {
+      "id": "F1-02",
+      "title": "Monorepo npm workspaces + tsconfig base",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-01"
+      ],
+      "acceptanceCriteria": [
+        "npm install sin errores",
+        "workspaces packages/* y apps/*"
+      ]
+    },
+    {
+      "id": "F1-03",
+      "title": "Contrato compartido packages/shared (zod, tipos, API_ROUTES, reglas de licencia)",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-02"
+      ],
+      "acceptanceCriteria": [
+        "npm run build:shared compila",
+        "8/8 pruebas unitarias pasan"
+      ]
+    },
+    {
+      "id": "F1-04",
+      "title": "Docker Compose Postgres 16 en 127.0.0.1:5544 (macondo_db)",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-02"
+      ],
+      "acceptanceCriteria": [
+        "healthcheck pg_isready OK",
+        "no usa puertos de otros proyectos"
+      ]
+    },
+    {
+      "id": "F1-05",
+      "title": "Documentación base (README, docs/*)",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-01"
+      ],
+      "acceptanceCriteria": [
+        "README cubre §11 de la spec",
+        "GOALS, ROADMAP, ARCHITECTURE, DECISIONS, PROGRESS, TESTING, SECURITY, OFFLINE, CONTENT-LICENSING"
+      ]
+    },
+    {
+      "id": "F1-06",
+      "title": "Esquema Prisma + migración inicial",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-03",
+        "F1-04"
+      ],
+      "acceptanceCriteria": [
+        "prisma migrate dev aplica sin errores",
+        "modelos Resource, User, TvSlide, AuditLog, ReadingEvent"
+      ],
+      "evidence": "Migración init aplicada en dev (5544) y en schema test."
+    },
+    {
+      "id": "F1-07",
+      "title": "API v1 NestJS: health, auth JWT, catálogo, archivos con Range, admin, TV, offline manifest",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-06"
+      ],
+      "acceptanceCriteria": [
+        "rutas de API_ROUTES responden según contrato",
+        "401/403 en /api/admin/* sin token o rol",
+        "pruebas de integración pasan"
+      ],
+      "evidence": "36/36 pruebas de integración (vitest+supertest, BD real)."
+    },
+    {
+      "id": "F1-08",
+      "title": "Web v1 Next.js: diseño base, /, /catalogo, /kiosco, /tv, /admin",
+      "phase": 1,
+      "status": "done",
+      "dependsOn": [
+        "F1-03"
+      ],
+      "acceptanceCriteria": [
+        "npm run dev:web sirve en 3100",
+        "proxy /api/* hacia 4100",
+        "typecheck pasa"
+      ],
+      "evidence": "47/47 unitarias, 20/20 E2E (API simulada), build OK; verificado con API real 2026-10-31."
+    },
+    {
+      "id": "F2-01",
+      "title": "Catálogo con búsqueda y filtros por grado/tipo/categoría",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [
+        "F1-07",
+        "F1-08"
+      ],
+      "acceptanceCriteria": [
+        "prueba de integración de filtros",
+        "E2E filtro por grado y tipo"
+      ],
+      "evidence": "Filtros grado/tipo verificados vía proxy :3100 y en pruebas de API."
+    },
+    {
+      "id": "F2-02",
+      "title": "Lector EPUB (epub.js) con tipografía configurable y marcadores",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [
+        "F2-01"
+      ],
+      "acceptanceCriteria": [
+        "abre demo-content/files/samaniego-fabulas.epub",
+        "progreso guardado localmente"
+      ],
+      "evidence": "EPUB (Azul) renderiza texto en Chromium con API real. Marcadores/tipografía: solo pruebas unitarias."
+    },
+    {
+      "id": "F2-03",
+      "title": "Lector PDF (PDF.js)",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [
+        "F2-01"
+      ],
+      "acceptanceCriteria": [
+        "abre demo-content/files/pombo-renacuajo-y-viejecita.pdf"
+      ],
+      "evidence": "PDF (Pombo) renderiza en canvas con API real."
+    },
+    {
+      "id": "F2-04",
+      "title": "Reproductor MP3 con velocidad, avance y reanudación",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [
+        "F2-01"
+      ],
+      "acceptanceCriteria": [
+        "reanuda en la posición guardada tras recargar",
+        "streaming con Range 206"
+      ],
+      "evidence": "MP3 reproduce y salta (Range 206) con API real. Reanudación tras recarga: solo prueba unitaria."
+    },
+    {
+      "id": "F2-05",
+      "title": "Contenido de demostración legal + manifest + SOURCES",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [],
+      "acceptanceCriteria": [
+        "≥1 EPUB, 1 PDF, 1 MP3 verificados (bytes mágicos, sha256)",
+        "manifest valida contra ResourceInputSchema",
+        "SOURCES.md con base legal por archivo"
+      ]
+    },
+    {
+      "id": "F2-06",
+      "title": "Carga validada de archivos y portadas desde /admin",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [
+        "F1-07"
+      ],
+      "acceptanceCriteria": [
+        "rechaza extensión/MIME/bytes mágicos inválidos",
+        "respeta MAX_UPLOAD_MB",
+        "calcula sha256"
+      ],
+      "evidence": "Subida PDF real → 201; PDF falso → 415 (bytes mágicos). Probado vía proxy."
+    },
+    {
+      "id": "F2-07",
+      "title": "Seed importa demo-content y los 3 formatos abren de extremo a extremo",
+      "phase": 2,
+      "status": "done",
+      "dependsOn": [
+        "F2-02",
+        "F2-03",
+        "F2-04",
+        "F2-05"
+      ],
+      "acceptanceCriteria": [
+        "npm run seed carga 8 recursos",
+        "E2E abre EPUB, PDF y MP3"
+      ],
+      "evidence": "Seed importó 8 recursos; EPUB, PDF y MP3 abren extremo a extremo en Chromium."
+    },
+    {
+      "id": "F3-01",
+      "title": "Fichas de audiobiografía: línea de tiempo, datos curiosos, preguntas",
+      "phase": 3,
+      "status": "todo",
+      "dependsOn": [
+        "F2-07"
+      ],
+      "acceptanceCriteria": [
+        "ficha de Rafael Pombo con preguntas de comprensión"
+      ]
+    },
+    {
+      "id": "F3-02",
+      "title": "Audioresúmenes: síntesis, ideas principales, enlace a la obra",
+      "phase": 3,
+      "status": "todo",
+      "dependsOn": [
+        "F2-07"
+      ],
+      "acceptanceCriteria": [
+        "audioresumen enlaza al audiolibro de Quiroga"
+      ]
+    },
+    {
+      "id": "F3-03",
+      "title": "Galerías interactivas con zoom y paquete offline",
+      "phase": 3,
+      "status": "todo",
+      "dependsOn": [
+        "F2-06"
+      ],
+      "acceptanceCriteria": [
+        "galería demo con imágenes de licencia verificada",
+        "navegación táctil y zoom"
+      ]
+    },
+    {
+      "id": "F3-04",
+      "title": "Retos lectores e insignias sin rankings nominales",
+      "phase": 3,
+      "status": "todo",
+      "dependsOn": [
+        "F2-07"
+      ],
+      "acceptanceCriteria": [
+        "trivia, secuencias y relación de personajes",
+        "sin datos personales ni rankings públicos"
+      ]
+    },
+    {
+      "id": "F3-05",
+      "title": "Narraciones humanas con cesión de derechos para sustituir voz sintética",
+      "phase": 3,
+      "status": "blocked",
+      "dependsOn": [
+        "F2-05"
+      ],
+      "acceptanceCriteria": [
+        "contrato/cesión firmada por narrador",
+        "manifest actualizado"
+      ]
+    },
+    {
+      "id": "F4-01",
+      "title": "Kiosco: pantalla completa, sesión anónima, reinicio por inactividad, QR",
+      "phase": 4,
+      "status": "todo",
+      "dependsOn": [
+        "F1-08"
+      ],
+      "acceptanceCriteria": [
+        "E2E con reloj simulado limpia la sesión",
+        "QR solo a recursos accessible"
+      ]
+    },
+    {
+      "id": "F4-02",
+      "title": "Bloqueo de salida del kiosco por configuración del SO",
+      "phase": 4,
+      "status": "todo",
+      "dependsOn": [
+        "F4-01"
+      ],
+      "acceptanceCriteria": [
+        "procedimiento documentado y verificado en el equipo"
+      ]
+    },
+    {
+      "id": "F4-03",
+      "title": "Macondo TV: rotación, sin sonido, recuperación ante fallos",
+      "phase": 4,
+      "status": "todo",
+      "dependsOn": [
+        "F1-07",
+        "F1-08"
+      ],
+      "acceptanceCriteria": [
+        "respeta orden, duración y vigencia",
+        "se recupera tras caída de la API"
+      ]
+    },
+    {
+      "id": "F4-04",
+      "title": "Offline-first: descarga desde manifest, verificación sha256, límites de almacenamiento",
+      "phase": 4,
+      "status": "todo",
+      "dependsOn": [
+        "F2-07"
+      ],
+      "acceptanceCriteria": [
+        "solo descarga canDownloadOffline",
+        "rechaza hash incorrecto",
+        "avisa con almacenamiento insuficiente"
+      ]
+    },
+    {
+      "id": "F4-05",
+      "title": "Sincronización idempotente de progreso y contadores agregados",
+      "phase": 4,
+      "status": "todo",
+      "dependsOn": [
+        "F4-04"
+      ],
+      "acceptanceCriteria": [
+        "reenvío del mismo eventId no duplica",
+        "política max posición / última escritura por dispositivo"
+      ]
+    },
+    {
+      "id": "F4-06",
+      "title": "Validación física en Fire HD 10 (7 pruebas obligatorias)",
+      "phase": 4,
+      "status": "blocked",
+      "dependsOn": [
+        "F4-04"
+      ],
+      "acceptanceCriteria": [
+        "las 7 pruebas de docs/TESTING.md con evidencia",
+        "decisión PWA vs contenedor nativo (ADR-005)"
+      ]
+    },
+    {
+      "id": "F4-07",
+      "title": "Contenedor nativo WebView/Capacitor (solo si falla la PWA)",
+      "phase": 4,
+      "status": "todo",
+      "dependsOn": [
+        "F4-06"
+      ],
+      "acceptanceCriteria": [
+        "APK instalable por sideload sin Google Play",
+        "persistencia tras reinicio"
+      ]
+    },
+    {
+      "id": "F5-01",
+      "title": "Gestión completa de recursos y licencias con alertas de vencimiento",
+      "phase": 5,
+      "status": "todo",
+      "dependsOn": [
+        "F2-06"
+      ],
+      "acceptanceCriteria": [
+        "publicar/retirar con auditoría",
+        "alerta de licencias por vencer"
+      ]
+    },
+    {
+      "id": "F5-02",
+      "title": "Programación de TV desde /admin",
+      "phase": 5,
+      "status": "todo",
+      "dependsOn": [
+        "F4-03"
+      ],
+      "acceptanceCriteria": [
+        "CRUD de diapositivas con fechas y orden"
+      ]
+    },
+    {
+      "id": "F5-03",
+      "title": "Estadísticas agregadas y auditoría",
+      "phase": 5,
+      "status": "todo",
+      "dependsOn": [
+        "F1-07"
+      ],
+      "acceptanceCriteria": [
+        "sin datos personales de estudiantes",
+        "auditoría solo ADMIN"
+      ]
+    },
+    {
+      "id": "F5-04",
+      "title": "Estado de dispositivos y sincronización",
+      "phase": 5,
+      "status": "todo",
+      "dependsOn": [
+        "F4-05"
+      ],
+      "acceptanceCriteria": [
+        "vista sin identificar estudiantes"
+      ]
+    },
+    {
+      "id": "F6-01",
+      "title": "Revisión de seguridad y privacidad (Ley 1581/2012)",
+      "phase": 6,
+      "status": "todo",
+      "dependsOn": [
+        "F5-01"
+      ],
+      "acceptanceCriteria": [
+        "checklist de docs/SECURITY.md cumplido",
+        "npm audit sin vulnerabilidades altas sin justificar"
+      ]
+    },
+    {
+      "id": "F6-02",
+      "title": "Accesibilidad WCAG 2.1 AA (axe + revisión manual)",
+      "phase": 6,
+      "status": "todo",
+      "dependsOn": [
+        "F4-01",
+        "F2-07"
+      ],
+      "acceptanceCriteria": [
+        "0 violaciones serias en páginas principales"
+      ]
+    },
+    {
+      "id": "F6-03",
+      "title": "E2E completas y rendimiento con 229 recursos",
+      "phase": 6,
+      "status": "todo",
+      "dependsOn": [
+        "F4-05",
+        "F5-01"
+      ],
+      "acceptanceCriteria": [
+        "matriz §9 en verde con evidencia",
+        "p95 catálogo < 500 ms"
+      ]
+    },
+    {
+      "id": "F6-04",
+      "title": "Respaldo y restauración probados",
+      "phase": 6,
+      "status": "todo",
+      "dependsOn": [
+        "F1-06"
+      ],
+      "acceptanceCriteria": [
+        "pg_dump + storage/ restaurados en entorno limpio"
+      ]
+    },
+    {
+      "id": "F6-05",
+      "title": "Documentación final, despliegue local y capacitación",
+      "phase": 6,
+      "status": "todo",
+      "dependsOn": [
+        "F6-01",
+        "F6-03"
+      ],
+      "acceptanceCriteria": [
+        "README reproducible desde clon limpio",
+        "sesión de capacitación a bibliotecarios"
+      ]
+    },
+    {
+      "id": "F7-01",
+      "title": "Miniaturas de portada en el servidor (sharp, ?w=240|480, caché thumbs/, ETag/304)",
+      "phase": 7,
+      "status": "done",
+      "dependsOn": ["F1-07", "F1-08"],
+      "acceptanceCriteria": [
+        "GET /api/resources/:id/cover?w=240 devuelve WebP < 1/4 del original; ancho fuera de lista → 400; 304 con If-None-Match",
+        "Cover web usa w=240 en cuadrículas y w=480 en ficha/TV con srcset y width/height",
+        "manifest offline con miniatura pequeña"
+      ],
+      "evidence": "2026-11-01: API 44/44 + unit 8/8; web Cover.test 3/3; stack real página 1 del catálogo 8 939 728 B → 162 976 B (−98,2 %). ADR-013."
+    },
+    {
+      "id": "F7-02",
+      "title": "Pestaña Retos en /admin (lista, filtros banda/tipo/activo, activar/desactivar, Importar JSON)",
+      "phase": 7,
+      "status": "done",
+      "dependsOn": ["F3-04"],
+      "acceptanceCriteria": [
+        "marcado PQR como las demás pestañas",
+        "usa los endpoints existentes /api/admin/challenges, :id/active e import",
+        "KPI de retos del Resumen enlaza con la pestaña"
+      ],
+      "evidence": "2026-11-01: unitarias filterChallenges/parseChallengeImport; e2e simulada admin.spec 6/6; e2e real «pestaña Retos»."
+    },
+    {
+      "id": "F7-03",
+      "title": "Acciones en lote en Recursos (publicar/retirar seleccionados, confirmación, avance, errores)",
+      "phase": 7,
+      "status": "done",
+      "dependsOn": ["F5-01"],
+      "acceptanceCriteria": [
+        "casillas accesibles por fila/tarjeta y cabecera",
+        "ejecución secuencial auditada por llamada; los fallos quedan seleccionados",
+        "confirmación previa"
+      ],
+      "evidence": "2026-11-01: unitaria runSequential; e2e simulada (1 éxito + 1 error 409, cancelar diálogo); e2e real con borradores «Prueba QA» publicados y retirados."
+    },
+    {
+      "id": "F7-04",
+      "title": "Barrido funcional final del stack real (rutas, lectores, galería, retos, offline, kiosco, TV, admin, 404, API)",
+      "phase": 7,
+      "status": "done",
+      "dependsOn": ["F7-01", "F7-02", "F7-03"],
+      "acceptanceCriteria": [
+        "0 errores de consola / peticiones ≥ 400 en todas las rutas a 390/1280/1920",
+        "sin desbordamiento horizontal",
+        "conteos públicos intactos (300/100/50/20/100, 100 retos activos)"
+      ],
+      "evidence": "2026-11-01: 29 rutas × 3 anchos sin errores ni desbordamiento; flujos galería/kiosco/offline/admin/TV/API verificados (docs/TESTING.md). Hallazgo de contenido: portada ausente en disco de cmvx802p10025oc01deejrfby. Conteos intactos tras la reconstrucción."
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "nombre": "Branding Comfasucre · PQR y Digiturno",
+  "fecha": "2026-10-26",
+  "version": 1,
+  "referenciasCssAusentesEnOrigen": [
+    "assets/fonts/hkgrotesk-bold.eot"
+  ],
+  "archivos": [
+    {
+      "ruta": "assets/css/app.min.css",
+      "origen": "appv1_integrada/assets/css/app.min.css",
+      "bytes": 392812,
+      "sha256": "48abfa3089287c39ffae4ad135c02a498bdafb99a2588fc10c39d099cc78f878"
+    },
+    {
+      "ruta": "assets/css/bootstrap.min.css",
+      "origen": "appv1_integrada/assets/css/bootstrap.min.css",
+      "bytes": 348589,
+      "sha256": "23b2d73b0a1a026e4efc30b577f4d63432c948536942f38b16b57926a0a31ce4"
+    },
+    {
+      "ruta": "assets/css/custom.css",
+      "origen": "appv1_integrada/assets/css/custom.css",
+      "bytes": 27606,
+      "sha256": "adb3ec93119ee6dc6e0d71e5304928a651c00dd91d2c03eca0428ef98ae5f7ba"
+    },
+    {
+      "ruta": "assets/css/custom.min.css",
+      "origen": "appv1_integrada/assets/css/custom.min.css",
+      "bytes": 44,
+      "sha256": "3d142b9993a3c0e3c401f34da32e6cc17ba42045732e7995bc49a74c87c9a702"
+    },
+    {
+      "ruta": "assets/css/fonts-local.css",
+      "origen": "appv1_integrada/assets/css/fonts-local.css",
+      "bytes": 2765,
+      "sha256": "8daa050ee787fe76eda1fad021b0ef1e7c75f4a5748d716905e5381650d2a88a"
+    },
+    {
+      "ruta": "assets/css/icons.min.css",
+      "origen": "appv1_integrada/assets/css/icons.min.css",
+      "bytes": 604709,
+      "sha256": "f346e80652d5aacc5f543ce27f26a66036a4cfe783a0e7b265b20d907824c6ed"
+    },
+    {
+      "ruta": "assets/css/inter-local.css",
+      "origen": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      "bytes": 929,
+      "sha256": "aa1bee3eb884c5fc02b03d4dbfe6bfdfb59ac08a4863097936de29782219156c"
+    },
+    {
+      "ruta": "assets/css/pqr-360-responsive.css",
+      "origen": "appv1_integrada/assets/css/pqr-360-responsive.css",
+      "bytes": 16531,
+      "sha256": "1cf878388809d118ebc803fb504d53efb7aed207c5c8d0744e04d4fe2b7f877a"
+    },
+    {
+      "ruta": "assets/css/pqr-permissions.css",
+      "origen": "appv1_integrada/assets/css/pqr-permissions.css",
+      "bytes": 491,
+      "sha256": "d6931df55b18e9b37c59bdba54c619bbb02bf621f34847f7a735160e2a9a16fa"
+    },
+    {
+      "ruta": "assets/css/pqr.css",
+      "origen": "appv1_integrada/assets/css/pqr.css",
+      "bytes": 118062,
+      "sha256": "6bf3717402851f065f7656f627e4e7d4c67729cda40afe1ec7423183bff505f1"
+    },
+    {
+      "ruta": "assets/css/turnos-avisos.css",
+      "origen": "appv1_integrada/assets/css/turnos-avisos.css",
+      "bytes": 1250,
+      "sha256": "585207cbaa9b4be08b2af5ac6b119e47293245b4973196c59b1f8885ae4caa92"
+    },
+    {
+      "ruta": "assets/css/turnos-dashboard.css",
+      "origen": "appv1_integrada/assets/css/turnos-dashboard.css",
+      "bytes": 10772,
+      "sha256": "0866590d1430c9f064c1de66f0ad971dfe1d9fcab20998f6d903ba2318f7f465"
+    },
+    {
+      "ruta": "assets/css/turnos-gestor.css",
+      "origen": "appv1_integrada/assets/css/turnos-gestor.css",
+      "bytes": 24226,
+      "sha256": "6186ec9b48c24168b07f0bc18ed4dafaffc77d5f0101b30014a216df92db0a84"
+    },
+    {
+      "ruta": "assets/css/turnos-kiosco.css",
+      "origen": "appv1_integrada/assets/css/turnos-kiosco.css",
+      "bytes": 26440,
+      "sha256": "7d7d9cbec085fa9d224fcfe023f3102076757749438e31b183e18894360de639"
+    },
+    {
+      "ruta": "assets/css/turnos-pantalla-publica.css",
+      "origen": "appv1_integrada/assets/css/turnos-pantalla-publica.css",
+      "bytes": 19533,
+      "sha256": "70337c7c93fd3a3d2774fd76f4ae070c83488abf4cca3a4e8aca88c9a1522c1f"
+    },
+    {
+      "ruta": "assets/css/turnos-recepcion.css",
+      "origen": "appv1_integrada/assets/css/turnos-recepcion.css",
+      "bytes": 43866,
+      "sha256": "8671175ecdab8e419ddb2fb00174216fe5dc9615717cd0ec99ebcc567caac06b"
+    },
+    {
+      "ruta": "assets/fonts/boxicons.eot",
+      "origen": "appv1_integrada/assets/fonts/boxicons.eot",
+      "bytes": 405670,
+      "sha256": "c23887bb1c71c66599f84c6ada9408a619f8bbce2541b6c74129c2ae3a50e1f7"
+    },
+    {
+      "ruta": "assets/fonts/boxicons.svg",
+      "origen": "appv1_integrada/assets/fonts/boxicons.svg",
+      "bytes": 1243781,
+      "sha256": "0b7f8ae75f5c1c807de3ae12677925f2cf33021d533ddcf4a793e25354bd51c3"
+    },
+    {
+      "ruta": "assets/fonts/boxicons.ttf",
+      "origen": "appv1_integrada/assets/fonts/boxicons.ttf",
+      "bytes": 320944,
+      "sha256": "47509a2dd79b019b0b914eed0ba4120748124889467a30a51f095c7adb41dc06"
+    },
+    {
+      "ruta": "assets/fonts/boxicons.woff",
+      "origen": "appv1_integrada/assets/fonts/boxicons.woff",
+      "bytes": 321020,
+      "sha256": "d5d511cf96072bc7d5db37f92c35b5306ad5cb5ba37f456abfb08ffa77f16286"
+    },
+    {
+      "ruta": "assets/fonts/boxicons.woff2",
+      "origen": "appv1_integrada/assets/fonts/boxicons.woff2",
+      "bytes": 115680,
+      "sha256": "4b87cbc74f3ffaf08314a5d81b501be6fc36f553dbe446ef5a4b29f0138ba0b0"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-bold.woff",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-bold.woff",
+      "bytes": 61184,
+      "sha256": "b17c83865e1dd546bcc42682356eb3bd6ed1e99cd4275ff4be58ec6f444bc1e5"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-light.eot",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-light.eot",
+      "bytes": 93730,
+      "sha256": "d980392e267665a01d1f3b6055d27147c834ad8eed81d165e6247c5f6b4ff26c"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-light.woff",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-light.woff",
+      "bytes": 40940,
+      "sha256": "e05026f2d2738c9f234b53cd4af3fb2fa6e7dd4cc6e81ecb558a1ac20927168f"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-medium.eot",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-medium.eot",
+      "bytes": 94578,
+      "sha256": "ba2cce1fcc7037b94031d524f0a620f301d9bf10ce9e7f1ac69d7d6e8c23d33a"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-medium.woff",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-medium.woff",
+      "bytes": 42172,
+      "sha256": "220567a08de9c722420a4cb513ac1a0f7b9f6daf12661172d44efe86604056eb"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-regular.eot",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-regular.eot",
+      "bytes": 139642,
+      "sha256": "7e08a46841cfd00c26e510db88887660ac6dfc505a914f205a3936a0fa4731b7"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-regular.woff",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-regular.woff",
+      "bytes": 61068,
+      "sha256": "52c22a937681dce2d918b84740d527540f4fa2adf7cd4f0c28d37b78b2cab1e7"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-semibold.eot",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-semibold.eot",
+      "bytes": 141122,
+      "sha256": "eb49507901e52ff904a8010b1b7fb2db0f82ee0beb518388da464f945b8786c4"
+    },
+    {
+      "ruta": "assets/fonts/hkgrotesk-semibold.woff",
+      "origen": "appv1_integrada/assets/fonts/hkgrotesk-semibold.woff",
+      "bytes": 62688,
+      "sha256": "fd55423683b9d9e6715d7a112d66191a01b1acd4bc930fed86d26ff2f570001e"
+    },
+    {
+      "ruta": "assets/fonts/la-brands-400.eot",
+      "origen": "appv1_integrada/assets/fonts/la-brands-400.eot",
+      "bytes": 156260,
+      "sha256": "c0e323872bfa597c4ff4f580b46415a86ade6fd6485592e4605383669d7b1b4c"
+    },
+    {
+      "ruta": "assets/fonts/la-brands-400.svg",
+      "origen": "appv1_integrada/assets/fonts/la-brands-400.svg",
+      "bytes": 928648,
+      "sha256": "af7a9c33faa8c99578de0b17f918a561229911866bc0995e4c119648cb13d3dc"
+    },
+    {
+      "ruta": "assets/fonts/la-brands-400.ttf",
+      "origen": "appv1_integrada/assets/fonts/la-brands-400.ttf",
+      "bytes": 156072,
+      "sha256": "fbc9870278f1a9ba97f8c15ce9b065a6312a1a7232f619b5cd11bf117fee9395"
+    },
+    {
+      "ruta": "assets/fonts/la-brands-400.woff",
+      "origen": "appv1_integrada/assets/fonts/la-brands-400.woff",
+      "bytes": 98673,
+      "sha256": "14c633773bd885e7553b31688925829b2eb40ab5080f644bc180eeb14862e493"
+    },
+    {
+      "ruta": "assets/fonts/la-brands-400.woff2",
+      "origen": "appv1_integrada/assets/fonts/la-brands-400.woff2",
+      "bytes": 84772,
+      "sha256": "ff70c9bc4650cf5e6b12d1feaa7af29ebf0681993fc0c5ffe3658cea0dbd5403"
+    },
+    {
+      "ruta": "assets/fonts/la-regular-400.eot",
+      "origen": "appv1_integrada/assets/fonts/la-regular-400.eot",
+      "bytes": 33916,
+      "sha256": "7dc456f0be714bdeca84b1e2f2124a62a0c020abf8315c5124147f876c5966a7"
+    },
+    {
+      "ruta": "assets/fonts/la-regular-400.svg",
+      "origen": "appv1_integrada/assets/fonts/la-regular-400.svg",
+      "bytes": 114002,
+      "sha256": "8606b5836eb8527481c002fd74f6fd5d2b0e6df95d4be9560a6fe303aa14b5a6"
+    },
+    {
+      "ruta": "assets/fonts/la-regular-400.ttf",
+      "origen": "appv1_integrada/assets/fonts/la-regular-400.ttf",
+      "bytes": 33724,
+      "sha256": "4b6ab8d0826f891a0bd559493a9837448d2c2ac8ae1bab3850b008111afbd29c"
+    },
+    {
+      "ruta": "assets/fonts/la-regular-400.woff",
+      "origen": "appv1_integrada/assets/fonts/la-regular-400.woff",
+      "bytes": 15489,
+      "sha256": "7711fabca2d07d9322442f29543531b7e96703a65cebc45890846d020b392f6c"
+    },
+    {
+      "ruta": "assets/fonts/la-regular-400.woff2",
+      "origen": "appv1_integrada/assets/fonts/la-regular-400.woff2",
+      "bytes": 12900,
+      "sha256": "51ca2c00a3e30945e52227147fed9e296dde03af3c4d7589e8e95ca5740037db"
+    },
+    {
+      "ruta": "assets/fonts/la-solid-900.eot",
+      "origen": "appv1_integrada/assets/fonts/la-solid-900.eot",
+      "bytes": 226312,
+      "sha256": "8a57f8a90a863c736b625f2dd2089408f6711dc9f232fa9337f109d85584a58f"
+    },
+    {
+      "ruta": "assets/fonts/la-solid-900.svg",
+      "origen": "appv1_integrada/assets/fonts/la-solid-900.svg",
+      "bytes": 926045,
+      "sha256": "36bf86c3d5cc830ef124dc6dc7359e57e41bc658280ea64b952ed53253827e84"
+    },
+    {
+      "ruta": "assets/fonts/la-solid-900.ttf",
+      "origen": "appv1_integrada/assets/fonts/la-solid-900.ttf",
+      "bytes": 226128,
+      "sha256": "07ce355990b27cd096df9864e0c102573f0cae020d611aee2578aa3d797e4230"
+    },
+    {
+      "ruta": "assets/fonts/la-solid-900.woff",
+      "origen": "appv1_integrada/assets/fonts/la-solid-900.woff",
+      "bytes": 125421,
+      "sha256": "a0d21b2ab40d48860c6ae95e00c9e9ca12ecb34c23ba3b882ed81340d4509c67"
+    },
+    {
+      "ruta": "assets/fonts/la-solid-900.woff2",
+      "origen": "appv1_integrada/assets/fonts/la-solid-900.woff2",
+      "bytes": 96752,
+      "sha256": "10a68e01209d939afa9318ee71601b0a6e10f025d4cd6d98a492d340b73941fb"
+    },
+    {
+      "ruta": "assets/fonts/materialdesignicons-webfont.eot",
+      "origen": "appv1_integrada/assets/fonts/materialdesignicons-webfont.eot",
+      "bytes": 1280212,
+      "sha256": "67d24abeb10cd3450a734730cec5130aacc98ac44d3622c6ac8a48bc34985118"
+    },
+    {
+      "ruta": "assets/fonts/materialdesignicons-webfont.ttf",
+      "origen": "appv1_integrada/assets/fonts/materialdesignicons-webfont.ttf",
+      "bytes": 1279992,
+      "sha256": "a58ecb54f45eec1afadbc21314d1f0932cf009e5cbc7f3225d7e4a4e1b71ef6b"
+    },
+    {
+      "ruta": "assets/fonts/materialdesignicons-webfont.woff",
+      "origen": "appv1_integrada/assets/fonts/materialdesignicons-webfont.woff",
+      "bytes": 576748,
+      "sha256": "80bb28b30acbf54abe37ab633808be054db36c45db7c1b3868ecb8bac36f832e"
+    },
+    {
+      "ruta": "assets/fonts/materialdesignicons-webfont.woff2",
+      "origen": "appv1_integrada/assets/fonts/materialdesignicons-webfont.woff2",
+      "bytes": 396732,
+      "sha256": "c1c004a90e60a31becd3ca261781c3a13a2937b5b26338fd8dd89e10ab562849"
+    },
+    {
+      "ruta": "assets/fonts/remixicon.eot",
+      "origen": "appv1_integrada/assets/fonts/remixicon.eot",
+      "bytes": 464044,
+      "sha256": "25af6e928e283c8fa779f96635ebe68ec584017e6ea126ee8ac0b409c8bc961f"
+    },
+    {
+      "ruta": "assets/fonts/remixicon.svg",
+      "origen": "appv1_integrada/assets/fonts/remixicon.svg",
+      "bytes": 2181318,
+      "sha256": "ddb063ff9fe67373cc127f0dc2ac9a3f403cd0e85ed301553775afea7645ea3d"
+    },
+    {
+      "ruta": "assets/fonts/remixicon.ttf",
+      "origen": "appv1_integrada/assets/fonts/remixicon.ttf",
+      "bytes": 463872,
+      "sha256": "4022c89b13643c9923f9a23df1133879bc6eed93397a193290fcf46d4f4ac434"
+    },
+    {
+      "ruta": "assets/fonts/remixicon.woff",
+      "origen": "appv1_integrada/assets/fonts/remixicon.woff",
+      "bytes": 197616,
+      "sha256": "529768191dd4b558d57d00f899b7d4e61db585e5c3169c911424e338222eebbc"
+    },
+    {
+      "ruta": "assets/fonts/remixicon.woff2",
+      "origen": "appv1_integrada/assets/fonts/remixicon.woff2",
+      "bytes": 143720,
+      "sha256": "b0d0b7e5101a1b8a54268b9188da520d19d74df9b35714a8ddb5987fad990591"
+    },
+    {
+      "ruta": "assets/fonts/web/inter-300-20261026.ttf",
+      "origen": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf",
+      "bytes": 325748,
+      "sha256": "d0f4bc7faca468376e3db9b5e57afcdc2192134c9ac82a9511f32767b56853a4"
+    },
+    {
+      "ruta": "assets/fonts/web/inter-400-20261026.ttf",
+      "origen": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "bytes": 324820,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "ruta": "assets/fonts/web/inter-500-20261026.ttf",
+      "origen": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "bytes": 325304,
+      "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+    },
+    {
+      "ruta": "assets/fonts/web/inter-600-20261026.ttf",
+      "origen": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "bytes": 326048,
+      "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7"
+    },
+    {
+      "ruta": "assets/fonts/web/inter-700-20261026.ttf",
+      "origen": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+      "bytes": 326468,
+      "sha256": "b37284b5701b6b168dfc770aa1a4ac492106422fd3ba76bc7641e37434e8019c"
+    },
+    {
+      "ruta": "assets/fonts/web/inter-OFL.txt",
+      "origen": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "ruta": "assets/fonts/web/outfit-latin-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/outfit-latin-20261003.woff2",
+      "bytes": 32292,
+      "sha256": "6c18d579fd87c3776be068b762cbc83fde3acb543d49eabd3ade842eb987e887"
+    },
+    {
+      "ruta": "assets/fonts/web/outfit-latin-ext-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/outfit-latin-ext-20261003.woff2",
+      "bytes": 14808,
+      "sha256": "0f53d1c03b3918d744a843b5039001ee31695ca1e255e3914188df81beb461e9"
+    },
+    {
+      "ruta": "assets/fonts/web/outfit-OFL.txt",
+      "origen": "appv1_integrada/assets/fonts/web/outfit-OFL.txt",
+      "bytes": 4389,
+      "sha256": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-300-latin-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-300-latin-20261003.woff2",
+      "bytes": 7840,
+      "sha256": "78bc3aa78faec288bbb3bf26c9a0fa4eb67b1e69da94a17233c5cab60525efdb"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-300-latin-ext-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-300-latin-ext-20261003.woff2",
+      "bytes": 5524,
+      "sha256": "33ff412e573782b800c68bb81a6be6f987ad40c36b681aeeaf188e723a9fc46c"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-400-latin-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-400-latin-20261003.woff2",
+      "bytes": 7884,
+      "sha256": "7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-400-latin-ext-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-400-latin-ext-20261003.woff2",
+      "bytes": 5644,
+      "sha256": "0b1fcab42c18b69bcfe9ce4799fcbff5af1621c53ffcfdc4723c6f5ec4ee3ffb"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-500-latin-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-500-latin-20261003.woff2",
+      "bytes": 7748,
+      "sha256": "cd36de204aca2d5fa263a731f7c20009b5e3d754ba1f1e03c33e93a48f3e7446"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-500-latin-ext-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-500-latin-ext-20261003.woff2",
+      "bytes": 5484,
+      "sha256": "af5fda16a19169e029a132374616728e1bf326d90bef5a552395c5053e21cd0f"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-600-latin-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-600-latin-20261003.woff2",
+      "bytes": 8000,
+      "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-600-latin-ext-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-600-latin-ext-20261003.woff2",
+      "bytes": 5524,
+      "sha256": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-700-latin-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-700-latin-20261003.woff2",
+      "bytes": 7816,
+      "sha256": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-700-latin-ext-20261003.woff2",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-700-latin-ext-20261003.woff2",
+      "bytes": 5432,
+      "sha256": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a"
+    },
+    {
+      "ruta": "assets/fonts/web/poppins-OFL.txt",
+      "origen": "appv1_integrada/assets/fonts/web/poppins-OFL.txt",
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "ruta": "assets/images/auth-one-bg.jpg",
+      "origen": "appv1_integrada/assets/images/auth-one-bg.jpg",
+      "bytes": 322637,
+      "sha256": "bf32549c839b36ac0454894aec26917e346e07c1d38be0bdf92a6796342ab950"
+    },
+    {
+      "ruta": "assets/images/auth-three-bg.jpg",
+      "origen": "appv1_integrada/assets/images/auth-three-bg.jpg",
+      "bytes": 986404,
+      "sha256": "905579c53c6eef4a77636174ba3edd031d35fb72e4b3a226b272660950c3ca29"
+    },
+    {
+      "ruta": "assets/images/chat-bg-pattern.png",
+      "origen": "appv1_integrada/assets/images/chat-bg-pattern.png",
+      "bytes": 5564,
+      "sha256": "e3e4de9689a558864477594ce6abfbe39b9d2d56333cc0830710feb1939ffe4c"
+    },
+    {
+      "ruta": "assets/images/cover-pattern.png",
+      "origen": "appv1_integrada/assets/images/cover-pattern.png",
+      "bytes": 1069176,
+      "sha256": "d3fd84f2e1d1323e92ed71e4fe971b0c2cffe123983debf6c25b1405249fef48"
+    },
+    {
+      "ruta": "assets/images/favicon.ico",
+      "origen": "appv1_integrada/assets/images/favicon.ico",
+      "bytes": 17962,
+      "sha256": "98812e72b34bc5a0ede8eafa66de50fc671794cc9a3da0f8afc1445e335ff7f5"
+    },
+    {
+      "ruta": "assets/images/file.png",
+      "origen": "appv1_integrada/assets/images/file.png",
+      "bytes": 78617,
+      "sha256": "8a50b552195c13d5aae38bf78832ee44d09841039bb88c0d66120c2f59bb56c2"
+    },
+    {
+      "ruta": "assets/images/flags/us.svg",
+      "origen": "appv1_integrada/assets/images/flags/us.svg",
+      "bytes": 16460,
+      "sha256": "e827293476ca1e1d33682080dd143ba19cda73cf2770f829a1424aba84f71577"
+    },
+    {
+      "ruta": "assets/images/landing/bg-pattern.png",
+      "origen": "appv1_integrada/assets/images/landing/bg-pattern.png",
+      "bytes": 102935,
+      "sha256": "d91fd86dc9a8a57d1e4cb464dc01968c8250e7b3d5ad1e45cc9ee1b9a5570f0b"
+    },
+    {
+      "ruta": "assets/images/logo_comfasucre_light.png",
+      "origen": "appv1_integrada/assets/images/logo_comfasucre_light.png",
+      "bytes": 21859,
+      "sha256": "25578c47a035a1024bd1742175a587135d4dabcae8146c48e88e9a301f8ec5e7"
+    },
+    {
+      "ruta": "assets/images/logo_comfasucre.png",
+      "origen": "appv1_integrada/assets/images/logo_comfasucre.png",
+      "bytes": 74093,
+      "sha256": "87187b250c75092a93f8d9e9861678c9a72eb4d16a4ec066a579cb1919cb6eac"
+    },
+    {
+      "ruta": "assets/images/logo_white.png",
+      "origen": "appv1_integrada/assets/images/logo_white.png",
+      "bytes": 29309,
+      "sha256": "d8183eaa0c4ba2368f5661aa2d3edbd1ca8b97f6e3b5e927ff6a0883e2ea57ae"
+    },
+    {
+      "ruta": "assets/images/modal-bg.png",
+      "origen": "appv1_integrada/assets/images/modal-bg.png",
+      "bytes": 1090,
+      "sha256": "f849fc08036118994320586420ceb0bd2d3fb8ef371e5211f6a7d20723160e87"
+    },
+    {
+      "ruta": "assets/images/new.png",
+      "origen": "appv1_integrada/assets/images/new.png",
+      "bytes": 4198,
+      "sha256": "f63d71af513356dfb2d652a4363ae771b38d73ab5148a4fcc7d6e8b759036e73"
+    },
+    {
+      "ruta": "assets/images/nft/bg-home.jpg",
+      "origen": "appv1_integrada/assets/images/nft/bg-home.jpg",
+      "bytes": 624068,
+      "sha256": "68fd17fa09cf50f8c357a8230c52c5d300610f8e528ba1469c8e2b652892911d"
+    },
+    {
+      "ruta": "assets/images/nft/marketplace.png",
+      "origen": "appv1_integrada/assets/images/nft/marketplace.png",
+      "bytes": 157981,
+      "sha256": "cd732bec1972917b6768e9e93714c8a2f4dbb477d3212c5ce46ed35919559713"
+    },
+    {
+      "ruta": "assets/images/sidebar/img-1.jpg",
+      "origen": "appv1_integrada/assets/images/sidebar/img-1.jpg",
+      "bytes": 210932,
+      "sha256": "83ab24c3f65bf780d152bbfbfbecc2aaed9e0ef1135147895b6a7874b4636517"
+    },
+    {
+      "ruta": "assets/images/sidebar/img-2.jpg",
+      "origen": "appv1_integrada/assets/images/sidebar/img-2.jpg",
+      "bytes": 109302,
+      "sha256": "54d3615d877cd2ba8eb0e0c734b77b4369486e89e3cfeeb47dbec21d8c6fe29e"
+    },
+    {
+      "ruta": "assets/images/sidebar/img-3.jpg",
+      "origen": "appv1_integrada/assets/images/sidebar/img-3.jpg",
+      "bytes": 181716,
+      "sha256": "9f918a9b9dc22a9c48b87c8ed127557740a7fcd8944154c24000842424be57d2"
+    },
+    {
+      "ruta": "assets/images/sidebar/img-4.jpg",
+      "origen": "appv1_integrada/assets/images/sidebar/img-4.jpg",
+      "bytes": 126084,
+      "sha256": "d7136dcabf8570c26ebbe81ba3d8b709e49836131e77ac396c0d10f37792411d"
+    },
+    {
+      "ruta": "assets/js/app.js",
+      "origen": "appv1_integrada/assets/js/app.js",
+      "bytes": 54756,
+      "sha256": "cd285560e4b00d30e3ce770f05d0d3476249f9d600eb86df0e6bff3403f10102"
+    },
+    {
+      "ruta": "assets/js/datatables/dataTables.bootstrap5.min.js",
+      "origen": "appv1_integrada/assets/js/datatables/dataTables.bootstrap5.min.js",
+      "bytes": 4480,
+      "sha256": "da26250989894c70aa1082d48ce8eb18558f1c8cb89faf82bc7cce6194f64ada"
+    },
+    {
+      "ruta": "assets/js/datatables/dataTables.responsive.min.js",
+      "origen": "appv1_integrada/assets/js/datatables/dataTables.responsive.min.js",
+      "bytes": 16849,
+      "sha256": "7feaf64d7dca902e9abe9bfb17c6d18556593bc9d6ef126198229dea4ecfa861"
+    },
+    {
+      "ruta": "assets/js/datatables/jquery.dataTables.min.js",
+      "origen": "appv1_integrada/assets/js/datatables/jquery.dataTables.min.js",
+      "bytes": 88080,
+      "sha256": "ca6354d4b8725cd77923a2a52242fb9bec53cf7bac69882086d1d34b5276fbbc"
+    },
+    {
+      "ruta": "assets/js/funciones/jquery-3.6.4.min.js",
+      "origen": "appv1_integrada/assets/js/funciones/jquery-3.6.4.min.js",
+      "bytes": 89795,
+      "sha256": "a0fe8723dcf55da64d06b25446d0a8513e52527c45afcb37073465f9c6f352af"
+    },
+    {
+      "ruta": "assets/js/layout.js",
+      "origen": "appv1_integrada/assets/js/layout.js",
+      "bytes": 1414,
+      "sha256": "063c992900c42ccf4c3718c64c98b3d5ffc685a3cacff8418b182fd0fbcdbc19"
+    },
+    {
+      "ruta": "assets/js/pqr-360-workspace.js",
+      "origen": "appv1_integrada/assets/js/pqr-360-workspace.js",
+      "bytes": 40653,
+      "sha256": "4c29294fa8b44a9aac47b2cabce67f0e43c4fdeebb1d58f2dae26163149bb0aa"
+    },
+    {
+      "ruta": "assets/js/pqr-attachments.js",
+      "origen": "appv1_integrada/assets/js/pqr-attachments.js",
+      "bytes": 8044,
+      "sha256": "7744166ec70c5d68fca7f6bf2b625b333c01e2045909dd86df51e5a38ca3a23c"
+    },
+    {
+      "ruta": "assets/js/pqr-components.js",
+      "origen": "appv1_integrada/assets/js/pqr-components.js",
+      "bytes": 9928,
+      "sha256": "af302f981b09c48ced19e570a6aabf3a677a18f09587f5a174640cea764a3eab"
+    },
+    {
+      "ruta": "assets/js/pqr-history.js",
+      "origen": "appv1_integrada/assets/js/pqr-history.js",
+      "bytes": 2000,
+      "sha256": "f6c8509b581a88391290cd9257c89a1740bc23d8df5ebd861418bc35f31d5264"
+    },
+    {
+      "ruta": "assets/js/pqr-inbox.js",
+      "origen": "appv1_integrada/assets/js/pqr-inbox.js",
+      "bytes": 10103,
+      "sha256": "c66ec92e1379bc0f2293e706fc550d838e161a0cd19ea4836aa67a17e1386caf"
+    },
+    {
+      "ruta": "assets/js/pqr-permissions.js",
+      "origen": "appv1_integrada/assets/js/pqr-permissions.js",
+      "bytes": 6138,
+      "sha256": "ad4a67bb0c8bfab16e7dd1244c227a6f97714b88ca644c499b55348666896602"
+    },
+    {
+      "ruta": "assets/js/pqr-precheck.js",
+      "origen": "appv1_integrada/assets/js/pqr-precheck.js",
+      "bytes": 24681,
+      "sha256": "427dded2ebf52635740b71d46a5ace999407c5143301173df7f6295c2647f0ed"
+    },
+    {
+      "ruta": "assets/js/pqr-security.js",
+      "origen": "appv1_integrada/assets/js/pqr-security.js",
+      "bytes": 2611,
+      "sha256": "5bbf6dd8848aa6ed439bf9c1144a0f68c5542b6627127220270793c8bcfa3c56"
+    },
+    {
+      "ruta": "assets/js/pqr-statistics.js",
+      "origen": "appv1_integrada/assets/js/pqr-statistics.js",
+      "bytes": 3097,
+      "sha256": "f396896b8fab7434695a422bf438339e36450a7a17d4dfa041b935c875f85090"
+    },
+    {
+      "ruta": "assets/js/pqr-validation.js",
+      "origen": "appv1_integrada/assets/js/pqr-validation.js",
+      "bytes": 16580,
+      "sha256": "73d1909bd0d41b078e71d647f64054a8e2762129b06707790cb40051689f4fa6"
+    },
+    {
+      "ruta": "assets/js/turnos-anuncios.js",
+      "origen": "appv1_integrada/assets/js/turnos-anuncios.js",
+      "bytes": 2464,
+      "sha256": "0a6a24ecaa685f6be5bcc9d4f452571cd7f0570e0c04e5a21e0d9996f7f1567d"
+    },
+    {
+      "ruta": "assets/js/turnos-avisos.js",
+      "origen": "appv1_integrada/assets/js/turnos-avisos.js",
+      "bytes": 4617,
+      "sha256": "33e675a80490379eea10c72674974028720fdaeec2971a4c22db641551dd23f2"
+    },
+    {
+      "ruta": "assets/js/turnos-dashboard.js",
+      "origen": "appv1_integrada/assets/js/turnos-dashboard.js",
+      "bytes": 17074,
+      "sha256": "51e80d1cce3edc1933848cac991cbd4968a5f479cf6f8082b60e9cdb3b4486ed"
+    },
+    {
+      "ruta": "assets/js/turnos-fechas.js",
+      "origen": "appv1_integrada/assets/js/turnos-fechas.js",
+      "bytes": 3539,
+      "sha256": "87a7330a7d4dd28ec12e0919a6a81f83a0a389246daa1180da50172ff8e0a84d"
+    },
+    {
+      "ruta": "assets/js/turnos-gestor-avisos.js",
+      "origen": "appv1_integrada/assets/js/turnos-gestor-avisos.js",
+      "bytes": 13208,
+      "sha256": "4c5e03a4f8c59ccb65f41cedbae8a00d1a8082e11a1fe978fb6801263fabf59a"
+    },
+    {
+      "ruta": "assets/js/turnos-hora-editor.js",
+      "origen": "appv1_integrada/assets/js/turnos-hora-editor.js",
+      "bytes": 11866,
+      "sha256": "7dd12f5d1ca341cd7edb1067f6f980595c86a9960688b92cf77e8f257b06849a"
+    },
+    {
+      "ruta": "assets/js/turnos-kiosco.js",
+      "origen": "appv1_integrada/assets/js/turnos-kiosco.js",
+      "bytes": 49136,
+      "sha256": "a45e761a9a89895a8ae913b99ea1246c732961072961fa255abad7267da5971f"
+    },
+    {
+      "ruta": "assets/js/turnos-pantalla-layout.js",
+      "origen": "appv1_integrada/assets/js/turnos-pantalla-layout.js",
+      "bytes": 9230,
+      "sha256": "026ba025af0aedcce2d458d32f951f082b493a8506141b4dd5603d2a211e8f01"
+    },
+    {
+      "ruta": "assets/js/turnos-recepcion.js",
+      "origen": "appv1_integrada/assets/js/turnos-recepcion.js",
+      "bytes": 37834,
+      "sha256": "cad96d3fb2ec81aec432716552e07360fb862a85b05924f96a5ac58d3a91c449"
+    },
+    {
+      "ruta": "assets/js/turnos-ticket.js",
+      "origen": "appv1_integrada/assets/js/turnos-ticket.js",
+      "bytes": 1389,
+      "sha256": "8fd3036116db02fe97f75f87cb4bdc59997bd791704589be338766c1e734a8c2"
+    },
+    {
+      "ruta": "assets/libs/apexcharts/apexcharts.min.js",
+      "origen": "appv1_integrada/assets/libs/apexcharts/apexcharts.min.js",
+      "bytes": 512609,
+      "sha256": "26f7eb6c6d09923d57cf032edbcc307aae034f31e0440407982e5fd2cb5d5394"
+    },
+    {
+      "ruta": "assets/libs/bootstrap/js/bootstrap.bundle.min.js",
+      "origen": "appv1_integrada/assets/libs/bootstrap/js/bootstrap.bundle.min.js",
+      "bytes": 80663,
+      "sha256": "82f64f62bb03c1bc1824b0f9c9e05f70dba33e146818e63cdf5c306c8cf3dedd"
+    },
+    {
+      "ruta": "assets/libs/cleave.js/cleave.min.js",
+      "origen": "appv1_integrada/assets/libs/cleave.js/cleave.min.js",
+      "bytes": 21133,
+      "sha256": "7eb194c2648de022cb8f29399b9f4409d5ec0cc5314d6e4eea175c78d1d5089a"
+    },
+    {
+      "ruta": "assets/libs/feather-icons/feather.min.js",
+      "origen": "appv1_integrada/assets/libs/feather-icons/feather.min.js",
+      "bytes": 75963,
+      "sha256": "ee42895b008b34df27e6b4f530d52954f91e2f16f07b511953bde388b76cb2b2"
+    },
+    {
+      "ruta": "assets/libs/flatpickr/flatpickr.min.css",
+      "origen": "appv1_integrada/assets/libs/flatpickr/flatpickr.min.css",
+      "bytes": 16166,
+      "sha256": "1b34a42552c96f10e4dfaaa4a367276b03868aacff63c1ac42ffe331352bc754"
+    },
+    {
+      "ruta": "assets/libs/flatpickr/flatpickr.min.js",
+      "origen": "appv1_integrada/assets/libs/flatpickr/flatpickr.min.js",
+      "bytes": 56042,
+      "sha256": "b127ac3a8e0beb5de3927f0363963d4d621d25130c3f0bc76961aa79fd2fd729"
+    },
+    {
+      "ruta": "assets/libs/flatpickr/l10n/es.js",
+      "origen": "appv1_integrada/assets/libs/flatpickr/l10n/es.js",
+      "bytes": 1765,
+      "sha256": "1b96fff57937da386abf4186e9970d6a53d0fa587f00d1062c7615e812e4b08c"
+    },
+    {
+      "ruta": "assets/libs/node-waves/waves.min.js",
+      "origen": "appv1_integrada/assets/libs/node-waves/waves.min.js",
+      "bytes": 6329,
+      "sha256": "47ffc00429342db1b5fd3bd0438fac6f08f398fc499fd485e5fec5276030278a"
+    },
+    {
+      "ruta": "assets/libs/simplebar/simplebar.min.js",
+      "origen": "appv1_integrada/assets/libs/simplebar/simplebar.min.js",
+      "bytes": 27057,
+      "sha256": "c95620ba4204d07af1f58e3cc5b90bc725ca896ccde5998195ca54c9939f8416"
+    },
+    {
+      "ruta": "assets/libs/sweetalert2/sweetalert2.min.css",
+      "origen": "appv1_integrada/assets/libs/sweetalert2/sweetalert2.min.css",
+      "bytes": 23851,
+      "sha256": "ee3512f8c59eaa415d996f68ce467b98f6a0cfe42631bb0196df90dccb04f855"
+    },
+    {
+      "ruta": "assets/libs/sweetalert2/sweetalert2.min.js",
+      "origen": "appv1_integrada/assets/libs/sweetalert2/sweetalert2.min.js",
+      "bytes": 43918,
+      "sha256": "a8653a0c5e9d394ac006aae7e181aaafb3b397e2576eb68c69477970c8fd4950"
+    },
+    {
+      "ruta": "assets/select2/dist/css/select2.min.css",
+      "origen": "appv1_integrada/assets/select2/dist/css/select2.min.css",
+      "bytes": 15180,
+      "sha256": "31e49ff119a0ddbe6a2c59628e7a7193a97e20992247dd7ffd818f0ab0a6a205"
+    },
+    {
+      "ruta": "assets/select2/dist/js/i18n/es.js",
+      "origen": "appv1_integrada/assets/select2/dist/js/i18n/es.js",
+      "bytes": 897,
+      "sha256": "ea87026fac2672c419c8a9e1a28bdc4b79c90e11744fe9ceb166aa64d293e5b0"
+    },
+    {
+      "ruta": "assets/select2/dist/js/select2.min.js",
+      "origen": "appv1_integrada/assets/select2/dist/js/select2.min.js",
+      "bytes": 67959,
+      "sha256": "66370c8c5f43ba4ec0970ff2391d37792eaf3062b1fca1702881432a9035d806"
+    },
+    {
+      "ruta": "branding.md",
+      "origen": "branding.md",
+      "bytes": 42939,
+      "sha256": "f2ad62786bf3cfe35580c68c260813d8c9c471f5d6eaede043bd199681ba0eb5"
+    },
+    {
+      "ruta": "digiturno-gestor.html",
+      "origen": null,
+      "bytes": 9040,
+      "sha256": "17d7c0a8583c42d0f02c9563f52f5e84ce726378860a6387ffad8d7a7e8d0616"
+    },
+    {
+      "ruta": "digiturno-recepcion.html",
+      "origen": null,
+      "bytes": 8336,
+      "sha256": "43dd69b976066d056ae815ad26631d267b9539be6f06915d6e3cd50756c9fd32"
+    },
+    {
+      "ruta": "digiturno-reportes.html",
+      "origen": null,
+      "bytes": 6254,
+      "sha256": "a82c9c7d219f16015df1de960ff99750b1ce1b340883f620720be28a504a510b"
+    },
+    {
+      "ruta": "dist/jquery.validate.min.js",
+      "origen": "appv1_integrada/dist/jquery.validate.min.js",
+      "bytes": 24601,
+      "sha256": "270524b0d27afd1d3b6622d1a176c678daed94564c143297e217a63e21ce9820"
+    },
+    {
+      "ruta": "index.html",
+      "origen": null,
+      "bytes": 8300,
+      "sha256": "c31f4f8c295f8fdaa2ebe7b2bb28cef1d0c8a20144fe17d04af0c98f628fd9fa"
+    },
+    {
+      "ruta": "kiosco.html",
+      "origen": null,
+      "bytes": 15432,
+      "sha256": "d0deb24598ea4b1a33e925727eea8c43ba71d9d736f8e4ab203cd8b1129b2191"
+    },
+    {
+      "ruta": "kit/ejemplos.css",
+      "origen": null,
+      "bytes": 765,
+      "sha256": "9fe7d9691610ef05ed3316a0d727cd081473414e2989870ecfc95245eeb58341"
+    },
+    {
+      "ruta": "kit/ejemplos.js",
+      "origen": null,
+      "bytes": 4883,
+      "sha256": "e04fb5fcc6eb2181c07f4dde263bb2f296f8923b197afcb6e05f70658af6a339"
+    },
+    {
+      "ruta": "kit/kiosco-demo.js",
+      "origen": null,
+      "bytes": 751,
+      "sha256": "22f05c44d102aac48d34d2f9512478be096dff1a850c14608988baa28cd42096"
+    },
+    {
+      "ruta": "kit/sala-demo.js",
+      "origen": null,
+      "bytes": 1747,
+      "sha256": "b1c58c504ee3f0065fac108409a56a6165c50a6044313c160ec2ee07e0d42361"
+    },
+    {
+      "ruta": "LICENCIAS-Y-ORIGEN.md",
+      "origen": null,
+      "bytes": 1154,
+      "sha256": "219cccd5c5b50d1670b50e796e85b26173a2a9d653bc790210acceea9f7213f4"
+    },
+    {
+      "ruta": "pantalla-sala.html",
+      "origen": null,
+      "bytes": 8008,
+      "sha256": "eb00f2b7868367a888d7aab68b68f6fa8d159b2fdc3f2e03e35d08ce11d33f00"
+    },
+    {
+      "ruta": "pqr-360.html",
+      "origen": null,
+      "bytes": 8590,
+      "sha256": "a6c856f83f8f737a85ad14f2939187a51ab3658c5a90045da12c2c77509f22d3"
+    },
+    {
+      "ruta": "pqr-bandeja.html",
+      "origen": null,
+      "bytes": 12053,
+      "sha256": "d38a5ae7c107c3a8eaec647ae92a983968f2689da50329aa64ffe23f3772921c"
+    },
+    {
+      "ruta": "pqr-formulario.html",
+      "origen": null,
+      "bytes": 12293,
+      "sha256": "2841de73ffcc80ebd821d06d4a168c861a44cde312d029ebd06f95cd3a24768a"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/_precheck_fields.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/_precheck_fields.php",
+      "bytes": 3658,
+      "sha256": "c4328e4dcaa46e444af8e9b0f00d47b50c353294d1b13a9a635b9ee492aad9db"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/_precheck_modal.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/_precheck_modal.php",
+      "bytes": 5967,
+      "sha256": "5cb42cfa82b454d481172dad27b34069df0f0a07aa4397d247d94d3a9a93b899"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/_rows.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/_rows.php",
+      "bytes": 9796,
+      "sha256": "43e508a487c693eb0a91d06c1ed2a12b017e8ce1ae5bcd6d85800531958c18e3"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/form.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/form.php",
+      "bytes": 32667,
+      "sha256": "7e8c2b8fcfd2c62674bcca74f69d6815c8996c0c7ae74a5cbf3768527443bb86"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/index.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/index.php",
+      "bytes": 8465,
+      "sha256": "39d59e229662500363f38334bd03b44722d153098533a416949920ca7a0b7028"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/permissions.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/permissions.php",
+      "bytes": 4712,
+      "sha256": "ce7db995fda1560e0a439545b4efb763e3b539d71be99658f1351252061fd2a8"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/public_footer.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/public_footer.php",
+      "bytes": 909,
+      "sha256": "99c5ac1cf4daf79e1781fcad89b694a0482be010a0aafca39703edc4ac9adf3b"
+    },
+    {
+      "ruta": "referencias/vistas/pqr/public_head.php.txt",
+      "origen": "appv1_integrada/application/views/pqr/public_head.php",
+      "bytes": 866,
+      "sha256": "2ca74a542c5da8a9b0659956c02215f01f14f35d12a5716e564bfaf064aff982"
+    },
+    {
+      "ruta": "referencias/vistas/reportes/turnos.php.txt",
+      "origen": "appv1_integrada/application/views/reportes/turnos.php",
+      "bytes": 35659,
+      "sha256": "ee25518f30cb2b57491f66cca52030a8ed93858b128ddb2bc09aaf5c2b28a8f1"
+    },
+    {
+      "ruta": "referencias/vistas/template/css.php.txt",
+      "origen": "appv1_integrada/application/views/template/css.php",
+      "bytes": 3253,
+      "sha256": "31f5bfec6b67b746c49c418ed9594a89652885251ead76c1843fbb43fce9976c"
+    },
+    {
+      "ruta": "referencias/vistas/template/footer.php.txt",
+      "origen": "appv1_integrada/application/views/template/footer.php",
+      "bytes": 3685,
+      "sha256": "684d92628f7124328fed0bfa06458051d31099251349787ebda7be3f6ef6a9a8"
+    },
+    {
+      "ruta": "referencias/vistas/template/header.php.txt",
+      "origen": "appv1_integrada/application/views/template/header.php",
+      "bytes": 19706,
+      "sha256": "ce68776a7fca8b3a8e3bcd35953fffd771916258216918f73fc3642f68dea1db"
+    },
+    {
+      "ruta": "referencias/vistas/template/sidebar.php.txt",
+      "origen": "appv1_integrada/application/views/template/sidebar.php",
+      "bytes": 43713,
+      "sha256": "da9cd01c5bfe411280162e18975c29822b1a578c409ee0ed5e2cab0be33f74f3"
+    },
+    {
+      "ruta": "referencias/vistas/turnos/gestor.php.txt",
+      "origen": "appv1_integrada/application/views/turnos/gestor.php",
+      "bytes": 53212,
+      "sha256": "4ed233710c1f2dae975fdd12cc0a116cd1f3b1e87d28df437eb026b583a4a038"
+    },
+    {
+      "ruta": "referencias/vistas/turnos/pantalla_global_velzon.php.txt",
+      "origen": "appv1_integrada/application/views/turnos/pantalla_global_velzon.php",
+      "bytes": 69261,
+      "sha256": "0646119a37925f9228e22b5e08e7347bd0c9a29ebc83f04b6e93c16816ed282b"
+    },
+    {
+      "ruta": "referencias/vistas/turnos/recepcion.php.txt",
+      "origen": "appv1_integrada/application/views/turnos/recepcion.php",
+      "bytes": 17254,
+      "sha256": "d62a923e23c56ab88e79bfc89db54a762890a3986fa8c0c894bcd051f9804e6e"
+    },
+    {
+      "ruta": "referencias/vistas/turnos/turno_publico.php.txt",
+      "origen": "appv1_integrada/application/views/turnos/turno_publico.php",
+      "bytes": 16722,
+      "sha256": "8d20dc281912ebb22a2aa34ab222e7189acaee6fc223b4bd711d6b35c46a5dd7"
+    }
+  ]
+}

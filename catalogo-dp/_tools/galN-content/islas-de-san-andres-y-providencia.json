@@ -1,0 +1,94 @@
+{
+ "title": "Islas de San Andrés y Providencia",
+ "description": "Johnny Cay, el mar de los siete colores, el Hoyo Soplador, Providencia y el cangrejo negro: el archipiélago colombiano en medio del mar Caribe, parte de la Reserva de Biosfera Seaflower.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Geografía",
+  "Región Insular",
+  "Mar"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Playa de arena blanca con rocas y agua cristalina en Johnny Cay.",
+   "Johnny Cay es un pequeño cayo de arena y palmeras frente a San Andrés. Los cayos se forman con arena de coral que se acumula sobre los arrecifes."
+  ],
+  [
+   "Un cayo cubierto de palmeras visto a lo lejos sobre el mar azul.",
+   "Johnny Cay visto desde San Andrés. Las playas del archipiélago tienen arena blanca formada por pedacitos de coral y conchas. San Andrés está a unos 700 kilómetros de la costa continental de Colombia, más cerca de Nicaragua."
+  ],
+  [
+   "Una lancha navegando sobre un mar de color verde turquesa muy claro.",
+   "Al mar de San Andrés lo llaman «el mar de los siete colores». Los distintos tonos de azul y verde dependen de la profundidad del agua y de si el fondo es arena, coral o pastos marinos."
+  ],
+  [
+   "Costa de roca oscura donde rompen olas blancas, junto al mar azul.",
+   "En esta costa rocosa de San Andrés está el Hoyo Soplador: un hueco en la roca de coral por donde las olas empujan el agua y el aire, que salen disparados hacia arriba como un géiser."
+  ],
+  [
+   "Letras de colores que dicen «Rocky Point» con un bote encima, junto a una carretera y el mar en Providencia.",
+   "Rocky Point, en la isla de Providencia. Providencia es una isla montañosa de origen volcánico, más antigua que San Andrés. Sus habitantes, los raizales, hablan creole, español e inglés."
+  ],
+  [
+   "Un cangrejo de caparazón oscuro y patas anaranjadas sobre el suelo, entre hojas.",
+   "El cangrejo negro vive en tierra en las islas, pero cada año baja al mar para soltar sus huevos. En Providencia se cierran carreteras en esa época para protegerlo. Foto tomada en Centroamérica."
+  ],
+  [
+   "Mapa del archipiélago de San Andrés, Providencia y Santa Catalina con sus islas y cayos.",
+   "El archipiélago está formado por las islas de San Andrés, Providencia y Santa Catalina y muchos cayos. Desde el año 2000 es la Reserva de Biosfera Seaflower, una de las áreas marinas protegidas más grandes del Caribe."
+  ],
+  [
+   "Mapa antiguo de las islas de Providencia y Santa Catalina, con el relieve y la costa dibujados.",
+   "Mapa antiguo de Providencia y Santa Catalina conservado en la Biblioteca Nacional de Francia. Estas islas fueron visitadas por marinos y piratas durante siglos."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué al mar de San Andrés lo llaman «el mar de los siete colores»?",
+   [
+    "Porque lo iluminan de noche",
+    "Por los tonos que da la profundidad y el tipo de fondo",
+    "Porque tiene peces de siete colores",
+    "Por un festival"
+   ],
+   1,
+   "Arena, coral, pastos marinos y profundidad cambian el color del agua."
+  ],
+  [
+   "¿Qué hace el cangrejo negro cada año?",
+   [
+    "Baja al mar para soltar sus huevos",
+    "Se va volando a otra isla",
+    "Duerme bajo la nieve",
+    "Cambia de color a verde"
+   ],
+   0,
+   "Durante la migración del cangrejo negro se protegen las carreteras de Providencia."
+  ],
+  [
+   "¿Cómo se llama la reserva de biosfera del archipiélago?",
+   [
+    "Sierra Nevada",
+    "Chingaza",
+    "Seaflower",
+    "Tayrona"
+   ],
+   2,
+   "La Reserva de Biosfera Seaflower protege arrecifes, manglares y pastos marinos."
+  ],
+  [
+   "¿Qué idiomas hablan los raizales de las islas?",
+   [
+    "Solo francés",
+    "Solo portugués",
+    "Wayuunaiki",
+    "Creole, español e inglés"
+   ],
+   3,
+   "Los raizales son el pueblo nativo del archipiélago."
+  ]
+ ],
+ "reviewNotes": "03: lancha con pasajeros diminutos, no identificables. 06 es de la misma especie, fotografiada en Centroamérica. 08: mapa antiguo de la Biblioteca Nacional de Francia (dominio público)."
+}

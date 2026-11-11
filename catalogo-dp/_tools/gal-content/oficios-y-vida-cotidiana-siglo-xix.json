@@ -1,0 +1,38 @@
+{
+"title": "Oficios y vida cotidiana en la Colombia antigua",
+"description": "Fotografías, acuarelas y postales en dominio público del siglo XIX y comienzos del XX: recolectores de café, zapateros, arrieros, calles, mercados y viajes por el Magdalena. Para comparar cómo se vivía y trabajaba antes con cómo vivimos hoy.",
+"gradeMin": 4, "gradeMax": 11,
+"categories": ["Ciencias sociales", "Historia de Colombia", "Oficios", "Fotografía antigua"],
+"cover": 3,
+"items": [
+ ["Fotografía antigua en blanco y negro de un grupo de mujeres y hombres con canastos y sombreros recogiendo café entre los arbustos.",
+  "Recolectores de café fotografiados por Melitón Rodríguez en Antioquia a comienzos del siglo XX. En esa época el café se convirtió en el principal producto de exportación de Colombia; la recolección se hacía a mano, grano por grano."],
+ ["Fotografía antigua de un taller al aire libre donde varios hombres sentados trabajan haciendo zapatos.",
+  "Zapateros en Medellín, en una foto de Melitón Rodríguez. Antes de las fábricas, muchos objetos de uso diario, como los zapatos, se hacían a mano en pequeños talleres."],
+ ["Fotografía antigua de estudio de un hombre de pie, descalzo, con sombrero, camisa blanca y un carriel colgado al hombro.",
+  "Arriero fotografiado por Benjamín de la Calle (1869-1934). Los arrieros transportaban mercancías a lomo de mula por los caminos de montaña, cuando aún no había carreteras ni ferrocarriles."],
+ ["Fotografía antigua de una calle empedrada con casas blancas de un piso, una torre de iglesia al fondo y bueyes de carga.",
+  "La calle Palacé en el antiguo Medellín, fotografiada por Melitón Rodríguez. Los bueyes y las mulas eran el principal medio para mover carga por las calles."],
+ ["Pintura en marco dorado de una sala elegante con papel de colgadura, sillas tapizadas y una mujer con vestido claro sentada al piano.",
+  "\"Interior santafereño\", atribuido a Ramón Torres Méndez (1809-1885). Muestra una sala de una familia acomodada de Bogotá en el siglo XIX, con un piano, muebles tapizados y retratos en la pared."],
+ ["Acuarela de una calle donde un gendarme con sombrero sujeta del brazo a una mujer con mantilla, mientras al fondo otros hombres forcejean.",
+  "\"Gendarmes de Bogotá, 1850\", acuarela de Ramón Torres Méndez. Sus cuadros de costumbres registraron oficios y escenas de la vida en las calles de la capital."],
+ ["Acuarela de una mujer con vestido largo de color morado, chal y un ramito de flores en la mano, sobre fondo rosado.",
+  "\"Dama de Vélez\", acuarela de Ramón Torres Méndez. Muestra la forma de vestir de las mujeres de Vélez (Santander) en el siglo XIX."],
+ ["Acuarela de una casa grande de un piso con techo de teja junto a un camino, rodeada de montañas verdes y un cielo nublado.",
+  "Casa principal de Cachirí (Santander), acuarela de Carmelo Fernández de 1850. La Comisión Corográfica, dirigida por Agustín Codazzi, recorrió el país para hacer mapas y pintar sus paisajes y habitantes."],
+ ["Hoja de papel antiguo con dibujos a lápiz de plantas, palmas y varias embarcaciones, entre ellas un barco de vapor.",
+  "Bocetos del río Magdalena hechos en 1853 por el pintor estadounidense Frederic Edwin Church durante su viaje por Colombia: plantas, un barco de vapor y un champán."],
+ ["Postal antigua de Cartagena con una puerta de la muralla coronada por una torre de reloj y una plaza con personas y coches.",
+  "Tarjeta postal de comienzos del siglo XX que muestra la Puerta del Reloj en las murallas de Cartagena. Las postales eran una forma popular de enviar saludos e imágenes de las ciudades."],
+ ["Fotografía antigua desde lo alto de una plaza con árboles y palmas, rodeada de edificios, con una cúpula a la derecha.",
+  "El Parque de Berrío, en Medellín, en una fotografía de Melitón Rodríguez publicada en el Álbum de Medellín de 1932. Las plazas eran el centro de la vida social y del comercio."]
+],
+"questions": [
+ ["¿Qué hacían los arrieros?", ["Transportaban mercancías a lomo de mula", "Fabricaban zapatos", "Tomaban fotografías"], 0, "Los arrieros llevaban mercancías en mulas por los caminos de montaña."],
+ ["¿Cómo se recogía el café a comienzos del siglo XX?", ["A mano, grano por grano", "Con grandes máquinas", "Con aviones"], 0, "La recolección se hacía a mano, grano por grano."],
+ ["¿Quién dirigió la Comisión Corográfica?", ["Agustín Codazzi", "Melitón Rodríguez", "Frederic Edwin Church"], 0, "La Comisión Corográfica fue dirigida por Agustín Codazzi."],
+ ["¿Qué muestran los cuadros de costumbres de Ramón Torres Méndez?", ["Oficios y escenas de la vida diaria del siglo XIX", "Batallas de la independencia", "Paisajes de otros planetas"], 0, "Registran oficios, trajes y escenas de la vida cotidiana."],
+ ["¿Qué puerta de Cartagena aparece en la postal antigua?", ["La Puerta del Reloj", "La Puerta de Alcalá", "La Puerta del Sol"], 0, "La postal muestra la Puerta del Reloj."]
+]
+}

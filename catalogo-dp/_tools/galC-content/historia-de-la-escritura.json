@@ -1,0 +1,33 @@
+{
+ "title": "Historia de la escritura",
+ "description": "De las pinturas en las cavernas a los alfabetos: tablillas de barro, jeroglíficos, huesos chinos, rollos y manuscritos que muestran cómo la humanidad aprendió a guardar sus palabras.",
+ "gradeMin": 4, "gradeMax": 10,
+ "categories": ["Ciencias sociales", "Historia", "Lenguaje", "Lectura y libros"],
+ "cover": 2,
+ "credits": {"2": "Escriba mesopotámico anónimo (c. 2000 a. C.)", "3": "Autor anónimo (c. 1250 a. C.); foto: ver página de Commons", "8": "Rollo anónimo (c. 30-1 a. C.); fotografía de Shai Halevi, Autoridad de Antigüedades de Israel"},
+ "items": [
+  ["Pintura sobre roca de animales parecidos a toros y caballos en tonos rojos y negros.",
+   "Réplica de las pinturas de la cueva de Lascaux (Francia), de hace unos 17.000 años. Antes de escribir, los seres humanos ya dejaban mensajes con dibujos."],
+  ["Pequeña tablilla de barro color marrón cubierta de marcas en forma de cuña.",
+   "La escritura cuneiforme nació en Mesopotamia hace más de 5.000 años. Los escribas hacían marcas en forma de cuña sobre barro fresco con una caña afilada."],
+  ["Losa de piedra con la parte superior redondeada, tallada con figuras de personas y filas de jeroglíficos.",
+   "Estela egipcia con jeroglíficos, de hacia 1250 a. C. Los jeroglíficos combinaban dibujos que representaban objetos, ideas y sonidos."],
+  ["Hueso plano e irregular, de color amarillento, con pequeños caracteres chinos grabados.",
+   "Los huesos oraculares de China, de hace unos 3.200 años, tienen las formas más antiguas de los caracteres chinos. Se usaban para hacer preguntas sobre el futuro."],
+  ["Tablilla de barro rojizo con signos grabados en líneas, junto a un dibujo que copia sus signos.",
+   "Tablilla en escritura lineal B de Micenas, la forma más antigua del idioma griego. Muchas de estas tablillas eran listas de alimentos y bienes."],
+  ["Tabla impresa antigua con columnas que comparan las formas de las letras de varios alfabetos antiguos.",
+   "Tabla de 1828 que compara letras fenicias. Los fenicios crearon un alfabeto de 22 signos que dio origen al alfabeto griego, al latino y, por tanto, al que usamos en español."],
+  ["Fragmento largo y oscuro de pergamino con columnas de texto en hebreo.",
+   "Fragmento de los manuscritos del mar Muerto, escritos hace más de 2.000 años y encontrados en cuevas a partir de 1947. Contienen algunos de los textos bíblicos más antiguos que se conocen."],
+  ["Libro antiguo abierto en una vitrina, con grandes letras árabes de trazo grueso y anguloso.",
+   "Edición de 1905 de un Corán escrito en caligrafía cúfica, un estilo árabe de letras anchas y angulosas. En el mundo islámico la caligrafía es un arte muy valorado."]
+ ],
+ "questions": [
+  ["¿Dónde nació la escritura cuneiforme?", ["En Mesopotamia", "En Colombia", "En Australia"], 0, "Se escribía sobre tablillas de barro."],
+  ["¿De qué alfabeto viene el alfabeto latino que usamos?", ["Del fenicio, a través del griego", "Del chino", "De los jeroglíficos mayas"], 0, "El alfabeto fenicio tenía 22 signos."],
+  ["¿Sobre qué se escribían los caracteres chinos más antiguos?", ["Sobre huesos", "Sobre hojas de plátano", "Sobre vidrio"], 0, "Son los huesos oraculares."],
+  ["¿Con qué hacían los escribas mesopotámicos sus marcas en el barro?", ["Con una caña afilada", "Con un bolígrafo", "Con pintura en aerosol"], 0, "La punta dejaba marcas en forma de cuña."]
+ ],
+ "reviewNotes": null
+}

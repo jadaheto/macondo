@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "date": "2026-10-31",
+    "label": "Fundamentos + contenido demo legal + documentación",
+    "commit": null,
+    "commitNote": "Sin commit: no autorizado todavía por el usuario.",
+    "tasksDone": [
+      "F1-01",
+      "F1-02",
+      "F1-03",
+      "F1-04",
+      "F1-05",
+      "F2-05"
+    ],
+    "tasksInProgress": [
+      "F1-06",
+      "F1-07",
+      "F1-08",
+      "F2-01",
+      "F2-02",
+      "F2-03",
+      "F2-04"
+    ],
+    "verifiedTests": [
+      {
+        "suite": "packages/shared (vitest)",
+        "command": "cd packages/shared && npx vitest run",
+        "result": "8/8 passed"
+      },
+      {
+        "suite": "demo-content/manifest.json vs ResourceInputSchema",
+        "command": "node (require @macondo/shared)",
+        "result": "8/8 válidos"
+      }
+    ],
+    "notVerified": [
+      "apps/api",
+      "apps/web",
+      "E2E",
+      "Fire HD 10 (pendiente de validación física)"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-10-31",
+    "label": "Primera versión ejecutable: API + web + seed integrados",
+    "commit": null,
+    "commitNote": "Sin commit: no autorizado todavía por el usuario.",
+    "tasksDone": [
+      "F1-06",
+      "F1-07",
+      "F1-08",
+      "F2-01",
+      "F2-02",
+      "F2-03",
+      "F2-04",
+      "F2-06",
+      "F2-07"
+    ],
+    "verifiedTests": [
+      {
+        "suite": "packages/shared",
+        "command": "npm test",
+        "result": "8/8 passed"
+      },
+      {
+        "suite": "apps/api (integración, BD real schema=test)",
+        "command": "npm test -w @macondo/api",
+        "result": "36/36 passed"
+      },
+      {
+        "suite": "apps/web unitarias",
+        "command": "npm test -w @macondo/web",
+        "result": "47/47 passed"
+      },
+      {
+        "suite": "apps/web E2E (API simulada)",
+        "command": "cd apps/web && npx playwright test",
+        "result": "20/20 passed (reportado por agente web)"
+      },
+      {
+        "suite": "typecheck + lint (tsc)",
+        "command": "npm run typecheck && npm run lint",
+        "result": "sin errores"
+      },
+      {
+        "suite": "Integración real Chromium",
+        "command": "script Playwright ad hoc contra :3100 + :4100",
+        "result": "EPUB texto visible, PDF canvas 630x892, MP3 reproduce y salta, 0 errores JS"
+      },
+      {
+        "suite": "Flujo admin real vía proxy",
+        "command": "curl",
+        "result": "401 sin token; crear→subir PDF 201; PDF falso 415; oculto hasta publicar; publicado visible con grade=7; retirado oculto"
+      }
+    ],
+    "notVerified": [
+      "Service worker / offline en navegador real",
+      "Reanudación de audio tras recarga en navegador",
+      "Fire HD 10 (pendiente de validación física)"
+    ]
+  }
+]

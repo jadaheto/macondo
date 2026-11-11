@@ -1,0 +1,32 @@
+{
+ "title": "Los mayas",
+ "description": "Pirámides en la selva, escritura con glifos, un calendario muy preciso y murales de colores. Conoce a los mayas, que habitaron el sur de México y Centroamérica y cuyos descendientes aún hablan lenguas mayas.",
+ "gradeMin": 4, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia", "Pueblos indígenas", "América precolombina"],
+ "cover": 1,
+ "items": [
+  ["Pirámide escalonada de piedra con una escalinata en cada lado y un templo en la cima, sobre un prado verde.",
+   "El Castillo de Chichén Itzá, en Yucatán (México), es un templo dedicado a Kukulkán, la serpiente emplumada. En los equinoccios, la sombra de sus escalones parece una serpiente que baja por la escalinata."],
+  ["Pirámide alta de piedra gris con escalinata empinada y un templo arriba, rodeada de árboles y cielo con nubes.",
+   "Tikal, en Guatemala, fue una de las ciudades mayas más grandes. Su Templo II, también llamado de las Máscaras, mide unos 38 metros de altura."],
+  ["Pirámide escalonada con un templo en la cima en medio de la selva, vista desde un camino con visitantes.",
+   "En Palenque (Chiapas, México) está el Templo de las Inscripciones, donde se encontró la tumba del gobernante K'inich Janaab' Pakal, que reinó en el siglo VII."],
+  ["Pirámide de piedra con esquinas redondeadas y una escalinata muy empinada, bajo un cielo azul.",
+   "La pirámide del Adivino, en Uxmal (Yucatán), tiene una forma ovalada poco común. Una leyenda cuenta que un enano mágico la construyó en una sola noche."],
+  ["Máscara hecha con pequeños pedazos de piedra verde, con ojos de concha blanca, sobre un fondo rojo.",
+   "La máscara funeraria de Pakal está hecha con cientos de piezas de jade. Para los mayas, el jade verde era más valioso que el oro."],
+  ["Página alargada de un libro antiguo con dibujos de figuras de colores y filas de signos mayas.",
+   "El Códice de Dresde es uno de los pocos libros mayas que se conservan. Contiene cálculos astronómicos sobre los movimientos de Venus y los eclipses."],
+  ["Pintura mural desgastada en tonos rojos y azules que muestra una fila de figuras humanas de pie.",
+   "Los murales de Bonampak (Chiapas) muestran ceremonias, músicos y guerreros de hace unos 1.200 años. Nos ayudan a conocer cómo vestían y celebraban los mayas."],
+  ["Dibujo antiguo en tonos sepia de una estela de piedra tallada en medio de la selva, junto a otra piedra caída.",
+   "El dibujante inglés Frederick Catherwood viajó por Centroamérica en 1839 y dibujó las estelas de Copán (Honduras). Sus imágenes dieron a conocer las ciudades mayas en el mundo."]
+ ],
+ "questions": [
+  ["¿Qué piedra verde valoraban los mayas más que el oro?", ["El jade", "La esmeralda", "El cuarzo"], 0, "La máscara de Pakal está hecha con cientos de piezas de jade."],
+  ["¿Qué estudia el Códice de Dresde, entre otras cosas?", ["Recetas de cocina", "Movimientos de Venus y eclipses", "Mapas de ríos"], 1, "Los mayas eran grandes astrónomos y matemáticos."],
+  ["¿A qué ser está dedicado El Castillo de Chichén Itzá?", ["A Kukulkán, la serpiente emplumada", "Al dios del mar", "A un jaguar"], 0, "En los equinoccios, una sombra con forma de serpiente baja por su escalinata."],
+  ["¿En qué país está Tikal?", ["Perú", "Guatemala", "Colombia"], 1, "Tikal está en la selva del norte de Guatemala."]
+ ],
+ "reviewNotes": null
+}

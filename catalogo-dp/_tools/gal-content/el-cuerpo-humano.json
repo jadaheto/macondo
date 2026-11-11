@@ -1,0 +1,37 @@
+{
+"title": "El cuerpo humano",
+"description": "Diagramas en español de los principales sistemas del cuerpo humano —esqueleto, corazón, circulación, respiración, digestión y nervios—, la célula y los dientes, junto con dos dibujos históricos de Leonardo da Vinci y Andrés Vesalio.",
+"gradeMin": 3, "gradeMax": 9,
+"categories": ["Ciencias naturales", "Cuerpo humano", "Biología", "Salud"],
+"cover": 2,
+"reviewNotes": "Incluye dos obras históricas con figuras humanas desnudas de carácter artístico/anatómico (Hombre de Vitruvio de Leonardo y lámina de músculos de Vesalio). Revisar si se mantienen para los grados inferiores.",
+"items": [
+ ["Diagrama de un esqueleto humano visto de frente, de color amarillo claro, con los nombres de los huesos en español.",
+  "El esqueleto de una persona adulta tiene 206 huesos. Sostiene el cuerpo, permite el movimiento junto con los músculos y protege órganos: el cráneo protege el cerebro y las costillas, el corazón y los pulmones."],
+ ["Diagrama de un corazón cortado por la mitad que muestra sus cavidades, válvulas y grandes vasos, con flechas que indican el paso de la sangre y nombres en español.",
+  "El corazón es un músculo del tamaño de un puño que bombea sangre sin parar. Tiene cuatro cavidades: dos aurículas arriba y dos ventrículos abajo. Sus válvulas impiden que la sangre se devuelva."],
+ ["Silueta humana con una red de vasos sanguíneos rojos y azules que recorren todo el cuerpo, con nombres en español.",
+  "El sistema circulatorio lleva oxígeno y nutrientes a todo el cuerpo. En los diagramas, las arterias (rojo) salen del corazón y las venas (azul) regresan a él."],
+ ["Diagrama del sistema respiratorio con la nariz, la laringe, la tráquea, los bronquios y los dos pulmones rosados, con un detalle de los alvéolos.",
+  "El aire entra por la nariz, baja por la tráquea y los bronquios y llega a los pulmones. En unos saquitos diminutos, los alvéolos, el oxígeno pasa a la sangre y sale el dióxido de carbono."],
+ ["Diagrama del aparato digestivo, desde la boca y el esófago hasta el estómago, el hígado y los intestinos, con nombres en español.",
+  "El aparato digestivo transforma los alimentos en nutrientes. En la boca se mastican, el estómago los mezcla con jugos y el intestino delgado absorbe los nutrientes; el intestino grueso absorbe agua."],
+ ["Silueta humana con el cerebro, la médula espinal y una red de nervios azules que llegan a brazos y piernas, con nombres en español.",
+  "El sistema nervioso es la red de comunicaciones del cuerpo. El cerebro y la médula espinal forman el sistema nervioso central; los nervios llevan los mensajes hacia y desde todo el cuerpo."],
+ ["Diagrama de una célula animal de color rojo y naranja con su núcleo verde y orgánulos como mitocondrias, ribosomas y aparato de Golgi, con nombres en español.",
+  "La célula es la unidad básica de los seres vivos. El núcleo guarda el ADN, las mitocondrias producen energía y la membrana plasmática controla lo que entra y sale."],
+ ["Diagrama numerado del corte de una muela que muestra sus capas, la raíz, los nervios y los vasos sanguíneos dentro de la encía y el hueso.",
+  "Por dentro, un diente tiene tres capas principales: el esmalte, el material más duro del cuerpo; la dentina; y la pulpa, donde están los nervios y los vasos sanguíneos. Cepillarse protege el esmalte."],
+ ["Dibujo antiguo a tinta de un hombre con los brazos y las piernas en dos posiciones, inscrito en un círculo y un cuadrado, con textos escritos arriba y abajo.",
+  "El Hombre de Vitruvio (hacia 1490) es un dibujo de Leonardo da Vinci que estudia las proporciones del cuerpo humano, basándose en las ideas del arquitecto romano Vitruvio."],
+ ["Grabado antiguo de una figura humana de pie, sin piel, que muestra todos sus músculos, frente a un paisaje.",
+  "Lámina del libro De humani corporis fabrica (1543), de Andrés Vesalio, considerado el primer tratado moderno de anatomía. Vesalio estudió el cuerpo humano observándolo directamente."]
+],
+"questions": [
+ ["¿Cuántos huesos tiene el esqueleto de una persona adulta?", ["206", "50", "1.000"], 0, "El esqueleto adulto tiene 206 huesos."],
+ ["¿Cuántas cavidades tiene el corazón?", ["Cuatro", "Dos", "Seis"], 0, "Dos aurículas y dos ventrículos."],
+ ["¿Dónde pasa el oxígeno del aire a la sangre?", ["En los alvéolos de los pulmones", "En el estómago", "En el corazón"], 0, "En los alvéolos, el oxígeno pasa a la sangre."],
+ ["¿Cuál es el material más duro del cuerpo humano?", ["El esmalte de los dientes", "El hueso del fémur", "Las uñas"], 0, "El esmalte dental es el material más duro del cuerpo."],
+ ["¿Qué parte de la célula produce energía?", ["Las mitocondrias", "El núcleo", "La membrana"], 0, "Las mitocondrias producen la energía de la célula."]
+]
+}

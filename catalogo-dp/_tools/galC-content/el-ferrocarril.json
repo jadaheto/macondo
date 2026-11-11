@@ -1,0 +1,33 @@
+{
+ "title": "La historia del ferrocarril",
+ "description": "Desde la locomotora Rocket de 1829 hasta los trenes que subían por las montañas de Antioquia: conoce cómo el ferrocarril de vapor cambió los viajes, el comercio y las ciudades.",
+ "gradeMin": 3, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia", "Tecnología", "Transporte"],
+ "cover": 5,
+ "credits": {"2": "Fotógrafo anónimo (c. 1869)", "3": "Andrew J. Russell (1869)"},
+ "items": [
+  ["Locomotora antigua con una chimenea alta y una caldera en forma de barril sobre ruedas, exhibida en un museo junto a otra locomotora amarilla.",
+   "La Rocket, construida por George y Robert Stephenson en 1829, ganó una competencia de locomotoras en Inglaterra y alcanzó unos 48 km/h. Está en el Museo Nacional del Ferrocarril de York."],
+  ["Fotografía antigua en blanco y negro de un tren largo pasando por una llanura al pie de una montaña rocosa.",
+   "Un tren del primer ferrocarril transcontinental de Estados Unidos, hacia 1869. Esa línea unió por primera vez las costas del Atlántico y del Pacífico."],
+  ["Fotografía antigua de dos locomotoras frente a frente rodeadas de una multitud de trabajadores con sombrero.",
+   "El 10 de mayo de 1869, en Promontory (Utah), se unieron las vías que venían del este y del oeste. Miles de trabajadores, muchos de ellos inmigrantes chinos e irlandeses, construyeron la línea."],
+  ["Puerta abierta de un horno de metal con brasas encendidas de color naranja brillante.",
+   "El fogón de una locomotora de vapor. Allí se quemaba carbón o leña para calentar el agua de la caldera; el vapor empujaba los pistones que movían las ruedas."],
+  ["Locomotora de vapor negra con chimenea y faro al frente, sobre rieles junto a una estación.",
+   "Locomotora del Ferrocarril de Antioquia, que unió a Medellín con Puerto Berrío, sobre el río Magdalena. Para construirlo hubo que abrir el túnel de La Quiebra."],
+  ["Locomotora negra con detalles amarillos exhibida bajo un techo, en un parque con árboles.",
+   "Locomotora conservada en Cisneros (Antioquia), un pueblo que nació alrededor del ferrocarril. Muchos pueblos de Colombia crecieron junto a las estaciones del tren."],
+  ["Edificio de estilo clásico con columnas y un águila en lo alto, bajo un cielo nublado.",
+   "La Estación de la Sabana, en Bogotá, se terminó en 1917. Era el punto de partida de los trenes hacia Facatativá, Girardot y el norte del país."],
+  ["Locomotora de vapor antigua y oxidada, de color azul y rojo, sobre rieles frente a un edificio con torre de reloj.",
+   "En Cuba todavía se conservan muchas locomotoras de vapor que se usaron para transportar caña de azúcar. Muestran cómo el tren ayudó a mover las cosechas hacia los puertos."]
+ ],
+ "questions": [
+  ["¿Qué movía a las locomotoras antiguas?", ["El vapor de agua", "La electricidad solar", "El viento"], 0, "El fuego calentaba el agua y el vapor movía los pistones."],
+  ["¿Qué ciudades unía el Ferrocarril de Antioquia?", ["Medellín y Puerto Berrío", "Cali y Buenaventura", "Bogotá y Tunja"], 0, "Conectaba Medellín con el río Magdalena."],
+  ["¿Quiénes construyeron la locomotora Rocket?", ["George y Robert Stephenson", "Los hermanos Wright", "Thomas Edison"], 0, "La Rocket es de 1829."],
+  ["¿Qué océanos conectó el primer ferrocarril transcontinental de Estados Unidos?", ["Atlántico y Pacífico", "Índico y Ártico", "Pacífico e Índico"], 0, "Las vías se unieron en Utah en 1869."]
+ ],
+ "reviewNotes": null
+}

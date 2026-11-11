@@ -1,0 +1,2858 @@
+[
+ {
+  "slug": "cinco-cangrejitos",
+  "title": "Cinco cangrejitos",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "números",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "números",
+   "playa"
+  ],
+  "synopsis": "En la playa de Coveñas, cinco cangrejitos juegan en la arena y se esconden uno a uno. Lía los cuenta con sus dedos y aprende a mirarlos sin tocarlos.",
+  "coverScene": {
+   "bg": "playa",
+   "items": [
+    [
+     "sol",
+     680,
+     95,
+     0.8
+    ],
+    [
+     "nube",
+     260,
+     110,
+     0.8
+    ],
+    [
+     "palmera",
+     90,
+     470,
+     1
+    ],
+    [
+     "cangrejo",
+     250,
+     530,
+     0.7
+    ],
+    [
+     "cangrejo",
+     340,
+     500,
+     0.6,
+     {
+      "color": "orange"
+     }
+    ],
+    [
+     "cangrejo",
+     430,
+     535,
+     0.7
+    ],
+    [
+     "cangrejo",
+     520,
+     505,
+     0.6,
+     {
+      "color": "orange"
+     }
+    ],
+    [
+     "cangrejo",
+     610,
+     535,
+     0.7
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En la playa de Coveñas sale el sol.",
+     "Cinco cangrejitos juegan en la arena. Uno, dos, tres, cuatro, cinco. ¡Clic, clac!, hacen sus pinzas.",
+     "Llega una ola grande. ¡Shhh! Un cangrejito corre a su cueva. Ahora quedan cuatro cangrejitos. Uno, dos, tres, cuatro."
+    ],
+    "scene": {
+     "bg": "playa",
+     "items": [
+      [
+       "sol",
+       690,
+       90,
+       0.7
+      ],
+      [
+       "olas",
+       420,
+       345,
+       1
+      ],
+      [
+       "cangrejo",
+       200,
+       530,
+       0.7
+      ],
+      [
+       "cangrejo",
+       300,
+       505,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "cangrejo",
+       400,
+       535,
+       0.7
+      ],
+      [
+       "cangrejo",
+       500,
+       505,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "cangrejo",
+       600,
+       535,
+       0.7
+      ]
+     ]
+    },
+    "alt": "Cinco cangrejitos rojos y anaranjados en la arena de la playa, con el mar y el sol detrás."
+   },
+   {
+    "text": [
+     "Llega otra ola. ¡Shhh! Otro cangrejito corre a su cueva. Ahora quedan tres. Uno, dos, tres.",
+     "Pasa una garza blanca. Un cangrejito se esconde. Ahora quedan dos. Uno, dos.",
+     "Sopla el viento. Un cangrejito se va a dormir. Ahora queda uno. Solo uno."
+    ],
+    "scene": {
+     "bg": "playa",
+     "items": [
+      [
+       "nube",
+       200,
+       110,
+       0.9
+      ],
+      [
+       "nube",
+       560,
+       80,
+       0.6
+      ],
+      [
+       "olas",
+       300,
+       350,
+       1
+      ],
+      [
+       "garza",
+       620,
+       500,
+       0.8
+      ],
+      [
+       "cangrejo",
+       330,
+       535,
+       0.9
+      ]
+     ]
+    },
+    "alt": "Una garza blanca camina por la playa y un solo cangrejito queda en la arena."
+   },
+   {
+    "text": [
+     "Lía camina por la playa.",
+     "—¿Dónde están tus amigos, cangrejito?",
+     "El cangrejito mueve sus pinzas: ¡clic, clac! De las cuevas salen uno, dos, tres, cuatro cangrejitos. ¡Con él son cinco otra vez!",
+     "Lía cuenta con sus dedos: uno, dos, tres, cuatro, cinco. Lía mira y no toca. Los cangrejitos viven en la arena.",
+     "—¡Adiós, cangrejitos! —dice Lía."
+    ],
+    "scene": {
+     "bg": "playa",
+     "time": "atardecer",
+     "items": [
+      [
+       "sol",
+       640,
+       300,
+       0.7,
+       {
+        "cara": false
+       }
+      ],
+      [
+       "persona",
+       200,
+       560,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "yellow",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "cangrejo",
+       360,
+       540,
+       0.6
+      ],
+      [
+       "cangrejo",
+       440,
+       515,
+       0.55,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "cangrejo",
+       520,
+       545,
+       0.6
+      ],
+      [
+       "cangrejo",
+       600,
+       515,
+       0.55,
+       {
+        "color": "orange"
+       }
+      ],
+      [
+       "cangrejo",
+       680,
+       545,
+       0.6
+      ]
+     ]
+    },
+    "alt": "Lía, una niña afrocolombiana con trenzas, saluda a cinco cangrejitos en la playa al atardecer."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Cuántos cangrejitos jugaban al principio?",
+    "options": [
+     "Tres",
+     "Cinco",
+     "Diez"
+    ],
+    "answer": 1,
+    "explanation": "Al principio eran cinco: uno, dos, tres, cuatro, cinco."
+   },
+   {
+    "prompt": "¿A dónde corría un cangrejito cuando llegaba la ola?",
+    "options": [
+     "A su cueva",
+     "Al colegio",
+     "A un árbol"
+    ],
+    "answer": 0,
+    "explanation": "Los cangrejitos se esconden en sus cuevas en la arena."
+   },
+   {
+    "prompt": "¿Qué hace Lía con los cangrejitos?",
+    "options": [
+     "Los guarda en un balde",
+     "Los persigue",
+     "Los mira sin tocarlos"
+    ],
+    "answer": 2,
+    "explanation": "Lía mira y no toca, porque los cangrejitos viven en la arena."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "garza-mira-los-colores",
+  "title": "Garza mira los colores",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "colores",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "colores",
+   "ciénaga"
+  ],
+  "synopsis": "Garza, un ave muy blanca de la ciénaga, sale a buscar colores. Ve el sol amarillo, el agua azul y las hojas verdes, y descubre que el blanco también es un color bonito.",
+  "coverScene": {
+   "bg": "cienaga",
+   "items": [
+    [
+     "sol",
+     680,
+     95,
+     0.8
+    ],
+    [
+     "mangle",
+     130,
+     390,
+     0.8
+    ],
+    [
+     "garza",
+     420,
+     480,
+     1.1
+    ],
+    [
+     "mariposa",
+     580,
+     250,
+     0.8,
+     {
+      "color": "orange"
+     }
+    ],
+    [
+     "juncos",
+     640,
+     345,
+     1
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Garza es blanca, muy blanca. Vive en la ciénaga.",
+     "Un día Garza dice: —Quiero ver colores.",
+     "Garza vuela y mira. ¿Qué ve Garza?",
+     "Ve el sol. El sol es amarillo. Ve el agua. El agua es azul. Ve las hojas del mangle. Las hojas son verdes.",
+     "Garza abre sus alas. ¡Fsss! Garza sube, sube, sube."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "items": [
+      [
+       "sol",
+       140,
+       100,
+       0.8
+      ],
+      [
+       "mangle",
+       620,
+       395,
+       0.9
+      ],
+      [
+       "garza",
+       320,
+       480,
+       1
+      ]
+     ]
+    },
+    "alt": "Una garza blanca en la ciénaga, con el sol amarillo, el agua azul y un mangle verde."
+   },
+   {
+    "text": [
+     "Garza vuela más. ¿Qué ve Garza?",
+     "Ve un cangrejo. El cangrejo es rojo.",
+     "Ve una flor. La flor es rosada.",
+     "Ve una mariposa. La mariposa es anaranjada.",
+     "¡Cuántos colores!",
+     "Rojo, rosado, anaranjado. Garza los cuenta con su pico: uno, dos, tres colores."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "garza",
+       180,
+       500,
+       0.9
+      ],
+      [
+       "cangrejo",
+       380,
+       540,
+       0.8
+      ],
+      [
+       "flor",
+       520,
+       520,
+       1,
+       {
+        "color": "pink"
+       }
+      ],
+      [
+       "flor",
+       570,
+       535,
+       0.8,
+       {
+        "color": "pink"
+       }
+      ],
+      [
+       "mariposa",
+       640,
+       270,
+       0.9,
+       {
+        "color": "orange"
+       }
+      ]
+     ]
+    },
+    "alt": "La garza mira un cangrejo rojo, flores rosadas y una mariposa anaranjada en la sabana."
+   },
+   {
+    "text": [
+     "Garza se mira en el agua.",
+     "—Y yo soy blanca —dice Garza—. El blanco también es un color bonito.",
+     "Al atardecer, el cielo se pone de muchos colores. Garza está feliz. Todos los colores juntos se ven mejor.",
+     "Garza vuelve a su casa en la ciénaga. Se acomoda en una rama del mangle. Cierra los ojos y sueña con colores.",
+     "¿Y tú? ¿Qué colores ves hoy?"
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "time": "atardecer",
+     "items": [
+      [
+       "sol",
+       600,
+       280,
+       0.8,
+       {
+        "cara": false
+       }
+      ],
+      [
+       "mangle",
+       120,
+       395,
+       0.8
+      ],
+      [
+       "garza",
+       400,
+       480,
+       1.1
+      ],
+      [
+       "mariposa",
+       260,
+       230,
+       0.6,
+       {
+        "color": "orange"
+       }
+      ]
+     ]
+    },
+    "alt": "La garza blanca, feliz en la ciénaga, bajo un cielo de atardecer anaranjado."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿De qué color es Garza?",
+    "options": [
+     "Verde",
+     "Blanca",
+     "Roja"
+    ],
+    "answer": 1,
+    "explanation": "Garza es blanca, muy blanca."
+   },
+   {
+    "prompt": "En el cuento, ¿de qué color es el sol?",
+    "options": [
+     "Amarillo",
+     "Azul",
+     "Morado"
+    ],
+    "answer": 0,
+    "explanation": "Garza ve el sol y dice que es amarillo."
+   },
+   {
+    "prompt": "¿Qué aprende Garza al final?",
+    "options": [
+     "Que solo el rojo es bonito",
+     "Que no le gustan los colores",
+     "Que el blanco también es un color bonito"
+    ],
+    "answer": 2,
+    "explanation": "Garza se mira en el agua y descubre que su color blanco también es bonito."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "hola-manati",
+  "title": "Hola, manatí",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "respeto por los animales",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "respeto por los animales",
+   "ciénaga"
+  ],
+  "synopsis": "Mateo y su mamá pasean en canoa por la ciénaga y ven un manatí. Mateo aprende a saludarlo en voz bajita y a mirarlo desde lejos, con respeto.",
+  "coverScene": {
+   "bg": "cienaga",
+   "items": [
+    [
+     "sol",
+     680,
+     95,
+     0.75
+    ],
+    [
+     "persona",
+     210,
+     430,
+     0.75,
+     {
+      "adulto": true,
+      "piel": "morena",
+      "pelo": "moño",
+      "ropa": "purple"
+     }
+    ],
+    [
+     "persona",
+     300,
+     435,
+     0.75,
+     {
+      "piel": "morena",
+      "pelo": "rizos",
+      "ropa": "yellow",
+      "brazos": "saluda"
+     }
+    ],
+    [
+     "canoa",
+     260,
+     460,
+     1,
+     {
+      "remo": false
+     }
+    ],
+    [
+     "manati",
+     540,
+     560,
+     0.9
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Mateo y su mamá van en canoa por la ciénaga. El agua está quieta.",
+     "—Mira, mamá. ¡Algo se mueve!",
+     "Es un manatí. El manatí es grande y gris. El manatí es tranquilo. Come plantas del agua. Ñam, ñam, ñam.",
+     "Mateo abre los ojos grandes. Mamá deja de remar. La canoa se queda quieta."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "items": [
+      [
+       "nube",
+       600,
+       100,
+       0.8
+      ],
+      [
+       "persona",
+       200,
+       430,
+       0.75,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "purple"
+       }
+      ],
+      [
+       "persona",
+       290,
+       435,
+       0.75,
+       {
+        "piel": "morena",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "canoa",
+       250,
+       460,
+       1
+      ],
+      [
+       "manati",
+       560,
+       560,
+       0.85
+      ]
+     ]
+    },
+    "alt": "Mateo y su mamá en una canoa de madera miran un manatí gris en la ciénaga."
+   },
+   {
+    "text": [
+     "—Hola, manatí —dice Mateo en voz bajita.",
+     "Mateo quiere tocarlo.",
+     "—No, Mateo —dice mamá—. El manatí es un animal silvestre. Lo miramos desde lejos. No le damos comida. No le hacemos ruido.",
+     "Mateo se queda quieto. Mateo mira y sonríe.",
+     "El manatí mueve su cola despacio. Mateo cuenta en silencio: uno, dos, tres.",
+     "Mamá le da la mano. Los dos sonríen."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "items": [
+      [
+       "persona",
+       150,
+       430,
+       0.75,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "purple"
+       }
+      ],
+      [
+       "persona",
+       240,
+       435,
+       0.75,
+       {
+        "piel": "morena",
+        "pelo": "rizos",
+        "ropa": "yellow"
+       }
+      ],
+      [
+       "canoa",
+       200,
+       460,
+       1,
+       {
+        "remo": false
+       }
+      ],
+      [
+       "manati",
+       560,
+       540,
+       1.2
+      ],
+      [
+       "juncos",
+       740,
+       345,
+       1
+      ],
+      [
+       "pez",
+       400,
+       580,
+       0.6
+      ]
+     ]
+    },
+    "alt": "Mateo mira quieto y sonriente al manatí desde la canoa, a una distancia respetuosa."
+   },
+   {
+    "text": [
+     "El manatí saca la nariz. Respira: ¡fuuu! Luego se hunde despacio.",
+     "—Adiós, manatí —dice Mateo.",
+     "—Cuidamos la ciénaga para que el manatí viva feliz —dice mamá.",
+     "En la orilla, Mateo dibuja un manatí en la arena. Es grande, gris y tranquilo.",
+     "Mateo dice: —Mañana volvemos a mirar. Desde lejos, en silencio, con respeto."
+    ],
+    "scene": {
+     "bg": "cienaga",
+     "time": "atardecer",
+     "items": [
+      [
+       "sol",
+       620,
+       290,
+       0.7,
+       {
+        "cara": false
+       }
+      ],
+      [
+       "mangle",
+       700,
+       395,
+       0.7
+      ],
+      [
+       "persona",
+       270,
+       450,
+       0.75,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "ropa": "purple"
+       }
+      ],
+      [
+       "persona",
+       360,
+       455,
+       0.75,
+       {
+        "piel": "morena",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "canoa",
+       320,
+       480,
+       1
+      ],
+      [
+       "manati",
+       560,
+       580,
+       0.5
+      ]
+     ]
+    },
+    "alt": "Al atardecer, Mateo se despide del manatí con la mano mientras su mamá rema la canoa."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué come el manatí?",
+    "options": [
+     "Plantas del agua",
+     "Galletas",
+     "Piedras"
+    ],
+    "answer": 0,
+    "explanation": "El manatí come plantas que crecen en el agua."
+   },
+   {
+    "prompt": "¿Por qué Mateo no toca al manatí?",
+    "options": [
+     "Porque es muy pequeño",
+     "Porque es un animal silvestre y se mira desde lejos",
+     "Porque está dormido"
+    ],
+    "answer": 1,
+    "explanation": "Mamá explica que a los animales silvestres los miramos desde lejos, sin tocarlos ni darles comida."
+   },
+   {
+    "prompt": "¿Cómo saluda Mateo al manatí?",
+    "options": [
+     "Gritando",
+     "Con un pito",
+     "En voz bajita"
+    ],
+    "answer": 2,
+    "explanation": "Mateo dice «Hola, manatí» en voz bajita para no molestarlo."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "m-de-manglar",
+  "title": "M de manglar",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "letras",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "letras",
+   "manglar"
+  ],
+  "synopsis": "Marta aprende la letra M y la encuentra por todas partes: en el mar, el manglar, el mono, la mariposa y el manatí. ¡Y también en su propio nombre!",
+  "coverScene": {
+   "bg": "manglar",
+   "items": [
+    [
+     "mangle",
+     140,
+     400,
+     0.85
+    ],
+    [
+     "mono",
+     140,
+     255,
+     0.5
+    ],
+    [
+     "texto",
+     430,
+     270,
+     1,
+     {
+      "t": "M",
+      "size": 150,
+      "color": "navy",
+      "bg": "white"
+     }
+    ],
+    [
+     "mariposa",
+     640,
+     150,
+     0.9
+    ],
+    [
+     "manati",
+     520,
+     560,
+     0.7
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Hoy Marta aprende la letra M.",
+     "La profe escribe en el tablero: M, m.",
+     "—¿Qué palabras empiezan con M? —pregunta la profe.",
+     "Marta piensa y piensa. Marta mira por la ventana.",
+     "Afuera ve el mar, el manglar y el cielo azul. Marta sonríe. ¡Ya sabe!"
+    ],
+    "scene": {
+     "bg": "aula",
+     "items": [
+      [
+       "texto",
+       400,
+       230,
+       1,
+       {
+        "t": "M m",
+        "size": 120,
+        "color": "white"
+       }
+      ],
+      [
+       "persona",
+       190,
+       575,
+       1,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       640,
+       575,
+       1,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "moño",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "pupitre",
+       330,
+       590,
+       0.9
+      ]
+     ]
+    },
+    "alt": "En el salón, la profesora señala la letra M en el tablero y Marta escucha."
+   },
+   {
+    "text": [
+     "M de mar. El mar es azul.",
+     "M de manglar. El manglar tiene raíces largas.",
+     "M de mono. El mono salta en el árbol.",
+     "M de mariposa. La mariposa vuela.",
+     "M de manatí. El manatí nada despacio.",
+     "Marta dice las palabras despacio: mmmar, mmmanglar, mmmono. La M suena así: mmm."
+    ],
+    "scene": {
+     "bg": "manglar",
+     "items": [
+      [
+       "mangle",
+       150,
+       400,
+       0.9
+      ],
+      [
+       "mono",
+       150,
+       240,
+       0.5
+      ],
+      [
+       "mariposa",
+       400,
+       160,
+       0.8
+      ],
+      [
+       "texto",
+       640,
+       230,
+       1,
+       {
+        "t": "M",
+        "size": 110,
+        "color": "navy",
+        "bg": "white"
+       }
+      ],
+      [
+       "manati",
+       470,
+       545,
+       0.75
+      ]
+     ]
+    },
+    "alt": "Un manglar con un mono en el árbol, una mariposa amarilla, un manatí en el agua y una gran letra M."
+   },
+   {
+    "text": [
+     "—¡Y M de Marta! —dice Marta—. Mi nombre empieza con M.",
+     "Toda la clase aplaude. Mamá también empieza con M.",
+     "Mamá, mar, manglar, mono, mariposa, manatí. ¡Mmm, qué linda es la letra M!",
+     "Marta escribe la M en su cuaderno. Una M grande. Una m pequeña. Una M para mamá.",
+     "¿Qué palabras con M conoces tú?"
+    ],
+    "scene": {
+     "bg": "aula",
+     "items": [
+      [
+       "texto",
+       400,
+       230,
+       1,
+       {
+        "t": "Marta",
+        "size": 100,
+        "color": "white"
+       }
+      ],
+      [
+       "persona",
+       400,
+       580,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "navy",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       170,
+       585,
+       0.9,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "coral",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       630,
+       585,
+       0.9,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "yellow",
+        "gafas": true,
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "Marta levanta los brazos feliz frente al tablero donde está escrito su nombre; sus compañeros aplauden."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué letra aprende Marta?",
+    "options": [
+     "La letra S",
+     "La letra M",
+     "La letra T"
+    ],
+    "answer": 1,
+    "explanation": "La profe escribe M y m en el tablero."
+   },
+   {
+    "prompt": "¿Cuál de estas palabras empieza con M?",
+    "options": [
+     "Sol",
+     "Pez",
+     "Mono"
+    ],
+    "answer": 2,
+    "explanation": "Mono empieza con M, como manglar y mariposa."
+   },
+   {
+    "prompt": "¿Qué palabra con M descubre Marta al final?",
+    "options": [
+     "Su propio nombre: Marta",
+     "Casa",
+     "Luna"
+    ],
+    "answer": 0,
+    "explanation": "Marta se da cuenta de que su nombre también empieza con M."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "quien-vive-en-la-ceiba",
+  "title": "¿Quién vive en la ceiba?",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "animales y su hogar",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "animales y su hogar",
+   "árboles"
+  ],
+  "synopsis": "Sami y Lucho miran la gran ceiba del patio de la escuela y descubren que es la casa de una iguana, un pájaro, un colibrí y un mono. Por eso deciden cuidarla.",
+  "coverScene": {
+   "bg": "patio",
+   "items": [
+    [
+     "sol",
+     90,
+     90,
+     0.7
+    ],
+    [
+     "ceiba",
+     420,
+     480,
+     1.15,
+     {
+      "flores": "pink"
+     }
+    ],
+    [
+     "iguana",
+     230,
+     540,
+     0.65
+    ],
+    [
+     "nido",
+     300,
+     245,
+     0.7
+    ],
+    [
+     "pajaro",
+     330,
+     240,
+     0.8
+    ],
+    [
+     "mono",
+     510,
+     250,
+     0.5
+    ],
+    [
+     "colibri",
+     650,
+     320,
+     1
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "En el patio de la escuela hay una ceiba grande.",
+     "Sami y Lucho miran la ceiba.",
+     "—¿Quién vive en la ceiba? —pregunta Sami.",
+     "Miran abajo, en las raíces. ¡Una iguana verde! La iguana toma el sol.",
+     "—La iguana vive en la ceiba."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "sol",
+       100,
+       90,
+       0.7
+      ],
+      [
+       "ceiba",
+       540,
+       470,
+       1
+      ],
+      [
+       "iguana",
+       620,
+       545,
+       0.7
+      ],
+      [
+       "persona",
+       180,
+       565,
+       1,
+       {
+        "piel": "clara",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "turq"
+       }
+      ],
+      [
+       "persona",
+       310,
+       565,
+       1,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "silla": true
+       }
+      ]
+     ]
+    },
+    "alt": "Sami y Lucho, que usa silla de ruedas, miran una iguana verde junto a las raíces de una ceiba."
+   },
+   {
+    "text": [
+     "Miran el tronco. ¡Un pájaro azul!",
+     "—El pájaro tiene un nido con tres huevos. El pájaro vive en la ceiba.",
+     "Miran las flores. ¡Un colibrí! El colibrí toma néctar. —El colibrí visita la ceiba.",
+     "Miran arriba, muy arriba. ¡Un mono!",
+     "—¡El mono vive en la ceiba!"
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "ceiba",
+       400,
+       520,
+       1.25,
+       {
+        "flores": "pink"
+       }
+      ],
+      [
+       "nido",
+       290,
+       270,
+       0.75,
+       {
+        "huevos": 3
+       }
+      ],
+      [
+       "pajaro",
+       250,
+       262,
+       0.8
+      ],
+      [
+       "colibri",
+       560,
+       320,
+       1.1
+      ],
+      [
+       "mono",
+       430,
+       240,
+       0.5
+      ]
+     ]
+    },
+    "alt": "La copa de la ceiba con un nido de tres huevos, un pájaro azul, un colibrí y un mono."
+   },
+   {
+    "text": [
+     "—La ceiba es una casa grande —dice Lucho.",
+     "—Es la casa de muchos animales —dice Sami.",
+     "—Entonces cuidamos la ceiba —dicen los dos.",
+     "No arrancan sus hojas. No le tiran piedras. Le dan agua cuando hace calor.",
+     "La ceiba mueve sus hojas con el viento. Parece que dice: gracias, amigos.",
+     "¿Hay un árbol cerca de tu casa? ¿Quién vive en él?"
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "ceiba",
+       600,
+       470,
+       1,
+       {
+        "flores": "pink"
+       }
+      ],
+      [
+       "pajaro",
+       560,
+       250,
+       0.7
+      ],
+      [
+       "persona",
+       230,
+       565,
+       1,
+       {
+        "piel": "clara",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "turq",
+        "sosten": "balde"
+       }
+      ],
+      [
+       "persona",
+       370,
+       565,
+       1,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "turq",
+        "pantalon": "navy",
+        "silla": true,
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "corazon",
+       300,
+       240,
+       0.8
+      ]
+     ]
+    },
+    "alt": "Sami lleva un balde de agua para la ceiba y Lucho saluda feliz desde su silla de ruedas."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué animal toma el sol en las raíces de la ceiba?",
+    "options": [
+     "La iguana",
+     "El mono",
+     "El pez"
+    ],
+    "answer": 0,
+    "explanation": "Sami y Lucho ven una iguana verde tomando el sol en las raíces."
+   },
+   {
+    "prompt": "¿Cuántos huevos hay en el nido?",
+    "options": [
+     "Uno",
+     "Tres",
+     "Diez"
+    ],
+    "answer": 1,
+    "explanation": "El pájaro azul tiene un nido con tres huevos."
+   },
+   {
+    "prompt": "¿Por qué Sami y Lucho deciden cuidar la ceiba?",
+    "options": [
+     "Porque quieren cortarla",
+     "Porque es de plástico",
+     "Porque es la casa de muchos animales"
+    ],
+    "answer": 2,
+    "explanation": "Descubren que la ceiba es el hogar de muchos animales."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "la-semilla-de-sara",
+  "title": "La semilla de Sara",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "las plantas",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "las plantas",
+   "ciencias"
+  ],
+  "synopsis": "Sara siembra una semilla pequeña y la riega cada día. Con sol, agua, tierra y paciencia, la semilla se convierte en una planta con una flor roja.",
+  "coverScene": {
+   "bg": "huerta",
+   "items": [
+    [
+     "sol",
+     680,
+     95,
+     0.8
+    ],
+    [
+     "persona",
+     280,
+     560,
+     1.1,
+     {
+      "piel": "oscura",
+      "pelo": "rizos",
+      "ropa": "yellow",
+      "falda": true,
+      "pantalon": "coral",
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "planta",
+     500,
+     575,
+     1.2,
+     {
+      "etapa": 3,
+      "color": "coral"
+     }
+    ],
+    [
+     "mariposa",
+     600,
+     300,
+     0.8
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Sara tiene una semilla. Es pequeña y café.",
+     "Sara hace un hueco en la tierra. Pone la semilla. La tapa con tierra.",
+     "—Crece, semillita —dice Sara.",
+     "La semilla queda dormida bajo la tierra. Sara espera y espera."
+    ],
+    "scene": {
+     "bg": "huerta",
+     "items": [
+      [
+       "sol",
+       680,
+       95,
+       0.75
+      ],
+      [
+       "persona",
+       300,
+       555,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "coral",
+        "sosten": "semilla"
+       }
+      ],
+      [
+       "planta",
+       520,
+       575,
+       1.2,
+       {
+        "etapa": 0
+       }
+      ]
+     ]
+    },
+    "alt": "Sara, una niña afrocolombiana, sostiene una semilla café junto a un hueco en la tierra."
+   },
+   {
+    "text": [
+     "Día uno: Sara le pone agua. No pasa nada.",
+     "Día dos: Sara le pone agua. No pasa nada.",
+     "Día tres: sale el sol. Sara le pone agua.",
+     "¡Sale una hojita verde! Sara aplaude.",
+     "—Hola, hojita —dice Sara—. Bienvenida.",
+     "Sara le cuenta a su abuela. La abuela también aplaude."
+    ],
+    "scene": {
+     "bg": "huerta",
+     "items": [
+      [
+       "sol",
+       120,
+       95,
+       0.75
+      ],
+      [
+       "texto",
+       640,
+       200,
+       1,
+       {
+        "t": "Día 3",
+        "size": 60,
+        "color": "navy",
+        "bg": "white"
+       }
+      ],
+      [
+       "planta",
+       330,
+       575,
+       1.2,
+       {
+        "etapa": 1
+       }
+      ],
+      [
+       "persona",
+       500,
+       555,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "coral",
+        "sosten": "balde"
+       }
+      ]
+     ]
+    },
+    "alt": "El tercer día brota una hojita verde y Sara llega con un balde de agua."
+   },
+   {
+    "text": [
+     "Pasan muchos días. Sol, agua y tierra.",
+     "La hojita crece y crece. Ahora tiene un tallo y muchas hojas.",
+     "Un día aparece una flor roja. Llega una mariposa amarilla.",
+     "—Gracias, sol. Gracias, agua. Gracias, tierra —dice Sara.",
+     "La flor es roja como un tomate. Sara la mira y la mira. ¡Qué bonita!",
+     "Sara aprendió a esperar. Las plantas crecen despacio."
+    ],
+    "scene": {
+     "bg": "huerta",
+     "items": [
+      [
+       "sol",
+       680,
+       95,
+       0.8
+      ],
+      [
+       "planta",
+       450,
+       575,
+       1.4,
+       {
+        "etapa": 3,
+        "color": "coral"
+       }
+      ],
+      [
+       "mariposa",
+       560,
+       280,
+       0.8
+      ],
+      [
+       "persona",
+       240,
+       555,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "rizos",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "coral",
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "La planta de Sara ya tiene hojas y una flor roja; una mariposa amarilla la visita."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué necesita la semilla para crecer?",
+    "options": [
+     "Sol, agua y tierra",
+     "Juguetes",
+     "Mucho ruido"
+    ],
+    "answer": 0,
+    "explanation": "Sara da las gracias al sol, al agua y a la tierra."
+   },
+   {
+    "prompt": "¿Qué salió el día tres?",
+    "options": [
+     "Una flor roja",
+     "Una hojita verde",
+     "Una mariposa"
+    ],
+    "answer": 1,
+    "explanation": "El día tres salió una hojita verde y Sara aplaudió."
+   },
+   {
+    "prompt": "¿Qué aprendió Sara?",
+    "options": [
+     "Que las plantas crecen en un minuto",
+     "Que a las plantas no se les pone agua",
+     "Que las plantas crecen despacio y hay que esperar"
+    ],
+    "answer": 2,
+    "explanation": "Sara aprendió a tener paciencia: las plantas crecen despacio."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "tomas-juega-conmigo",
+  "title": "Tomás juega conmigo",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "inclusión",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "inclusión",
+   "amistad"
+  ],
+  "synopsis": "Tomás usa silla de ruedas, ríe mucho y tiene ideas geniales. En el recreo, él y su amiga inventan un juego en el que nadie se queda afuera.",
+  "coverScene": {
+   "bg": "patio",
+   "items": [
+    [
+     "escuela",
+     400,
+     395,
+     0.85
+    ],
+    [
+     "sol",
+     700,
+     90,
+     0.7
+    ],
+    [
+     "persona",
+     300,
+     565,
+     1.1,
+     {
+      "piel": "trigueña",
+      "pelo": "corto",
+      "ropa": "orange",
+      "pantalon": "navy",
+      "silla": true,
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "persona",
+     520,
+     565,
+     1.1,
+     {
+      "piel": "morena",
+      "pelo": "largo",
+      "ropa": "green",
+      "falda": true,
+      "pantalon": "purple",
+      "sosten": "pelota"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Tomás es mi amigo. Tomás usa silla de ruedas.",
+     "Tomás ríe mucho. Tomás canta bonito.",
+     "En el recreo, todos corren.",
+     "—¿Jugamos? —pregunta Tomás.",
+     "—¡Sí! —digo yo.",
+     "Tomás mueve las ruedas rápido. ¡Zum, zum! Yo corro a su lado."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "escuela",
+       400,
+       395,
+       0.9
+      ],
+      [
+       "persona",
+       290,
+       565,
+       1.1,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "silla": true,
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "persona",
+       510,
+       565,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "purple",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    },
+    "alt": "Tomás, en su silla de ruedas, y su amiga se saludan en el patio de la escuela."
+   },
+   {
+    "text": [
+     "Jugamos a la pelota. Yo lanzo. Tomás atrapa. Tomás lanza. Yo atrapo.",
+     "Luego jugamos a contar: uno, dos, tres… ¡Tomás cuenta hasta cien!",
+     "Ana llega. Pedro llega. Todos queremos jugar.",
+     "—¿A qué jugamos ahora? —pregunta Ana.",
+     "—¡A las adivinanzas! —dice Pedro.",
+     "Tomás sabe muchas adivinanzas. Todos se ríen."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "sol",
+       90,
+       90,
+       0.7
+      ],
+      [
+       "persona",
+       220,
+       565,
+       1.1,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "silla": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "pelota",
+       380,
+       320,
+       1.1,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       520,
+       565,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "purple",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       680,
+       575,
+       0.95,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "blue"
+       }
+      ]
+     ]
+    },
+    "alt": "Tomás y su amiga se lanzan una pelota roja; Ana llega a jugar."
+   },
+   {
+    "text": [
+     "Inventamos un juego nuevo. Es un juego para todos. Nadie se queda afuera.",
+     "Es un juego con pelota, con canciones y con adivinanzas. Todos ayudamos. Todos ganamos.",
+     "Tomás tiene ideas geniales. Yo también. Juntos jugamos mejor.",
+     "Suena la campana.",
+     "—Mañana jugamos otra vez —dice Tomás.",
+     "—¡Sí! —digo yo. Tomás es mi amigo. Y yo soy su amiga."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "corazon",
+       400,
+       200,
+       0.9
+      ],
+      [
+       "persona",
+       140,
+       575,
+       0.95,
+       {
+        "piel": "oscura",
+        "pelo": "trenzas",
+        "ropa": "yellow",
+        "falda": true,
+        "pantalon": "blue",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       310,
+       565,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "corto",
+        "ropa": "orange",
+        "pantalon": "navy",
+        "silla": true,
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       500,
+       565,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "largo",
+        "ropa": "green",
+        "falda": true,
+        "pantalon": "purple",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       660,
+       575,
+       0.95,
+       {
+        "piel": "clara",
+        "pelo": "corto",
+        "pelocolor": "castaño",
+        "ropa": "blue",
+        "gafas": true,
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "Cuatro amigos, entre ellos Tomás en su silla de ruedas, celebran juntos su juego nuevo."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué usa Tomás para moverse?",
+    "options": [
+     "Una bicicleta",
+     "Una silla de ruedas",
+     "Unos patines"
+    ],
+    "answer": 1,
+    "explanation": "Tomás usa silla de ruedas, y eso no le impide jugar."
+   },
+   {
+    "prompt": "¿Hasta qué número cuenta Tomás?",
+    "options": [
+     "Hasta cien",
+     "Hasta tres",
+     "Hasta diez"
+    ],
+    "answer": 0,
+    "explanation": "Cuando juegan a contar, Tomás cuenta hasta cien."
+   },
+   {
+    "prompt": "¿Cómo es el juego nuevo que inventan?",
+    "options": [
+     "Solo para los más rápidos",
+     "Solo para dos niños",
+     "Un juego para todos, donde nadie se queda afuera"
+    ],
+    "answer": 2,
+    "explanation": "Inventan un juego para todos: juntos juegan mejor."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "diez-mariposas-amarillas",
+  "title": "Diez mariposas amarillas",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "números",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "números",
+   "sabana"
+  ],
+  "synopsis": "Una mañana en la sabana, Juana y su abuelo cuentan las mariposas amarillas que llegan a las flores: una, dos, tres… ¡hasta diez!",
+  "coverScene": {
+   "bg": "sabana",
+   "items": [
+    [
+     "sol",
+     700,
+     90,
+     0.7
+    ],
+    [
+     "flor",
+     120,
+     560,
+     1,
+     {
+      "color": "coral"
+     }
+    ],
+    [
+     "flor",
+     170,
+     575,
+     0.8,
+     {
+      "color": "pink"
+     }
+    ],
+    [
+     "persona",
+     330,
+     565,
+     1.05,
+     {
+      "piel": "trigueña",
+      "pelo": "trenzas",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "turq",
+      "brazos": "arriba"
+     }
+    ],
+    [
+     "persona",
+     530,
+     565,
+     1,
+     {
+      "adulto": true,
+      "piel": "trigueña",
+      "pelo": "corto",
+      "pelocolor": "canoso",
+      "ropa": "white",
+      "pantalon": "navy",
+      "sombrero": true
+     }
+    ],
+    [
+     "mariposa",
+     150,
+     230,
+     0.6
+    ],
+    [
+     "mariposa",
+     250,
+     150,
+     0.7
+    ],
+    [
+     "mariposa",
+     360,
+     230,
+     0.55
+    ],
+    [
+     "mariposa",
+     430,
+     120,
+     0.6
+    ],
+    [
+     "mariposa",
+     520,
+     180,
+     0.5
+    ],
+    [
+     "mariposa",
+     620,
+     230,
+     0.6
+    ],
+    [
+     "mariposa",
+     700,
+     300,
+     0.55
+    ],
+    [
+     "mariposa",
+     100,
+     360,
+     0.5
+    ],
+    [
+     "mariposa",
+     680,
+     420,
+     0.5
+    ],
+    [
+     "mariposa",
+     220,
+     420,
+     0.5
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Es de mañana en la sabana. El sol brilla.",
+     "Llega una mariposa amarilla. Una.",
+     "Llegan dos más. Una, dos, tres.",
+     "Llegan tres más. Cuatro, cinco, seis.",
+     "Juana y su abuelo caminan entre las flores. —Mira, abuelo —dice Juana—. ¡Mariposas!"
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "sol",
+       690,
+       90,
+       0.75
+      ],
+      [
+       "flor",
+       200,
+       560,
+       1.1,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "flor",
+       330,
+       575,
+       0.9,
+       {
+        "color": "pink"
+       }
+      ],
+      [
+       "flor",
+       480,
+       565,
+       1,
+       {
+        "color": "coral"
+       }
+      ],
+      [
+       "mariposa",
+       180,
+       300,
+       0.6
+      ],
+      [
+       "mariposa",
+       280,
+       220,
+       0.6
+      ],
+      [
+       "mariposa",
+       380,
+       310,
+       0.6
+      ],
+      [
+       "mariposa",
+       470,
+       200,
+       0.6
+      ],
+      [
+       "mariposa",
+       560,
+       290,
+       0.6
+      ],
+      [
+       "mariposa",
+       640,
+       380,
+       0.6
+      ]
+     ]
+    },
+    "alt": "Seis mariposas amarillas vuelan sobre flores en la sabana."
+   },
+   {
+    "text": [
+     "Las mariposas vuelan sobre las flores.",
+     "Llega otra. Siete. Llega otra. Ocho. Llega otra más. Nueve.",
+     "¿Falta una? Juana mira y cuenta: —Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve.",
+     "Juana cuenta otra vez. Siempre son nueve. —¿Dónde está la mariposa diez? —pregunta Juana."
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "ceiba",
+       650,
+       420,
+       0.8
+      ],
+      [
+       "persona",
+       200,
+       565,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "saluda"
+       }
+      ],
+      [
+       "mariposa",
+       330,
+       160,
+       0.55
+      ],
+      [
+       "mariposa",
+       420,
+       230,
+       0.55
+      ],
+      [
+       "mariposa",
+       510,
+       150,
+       0.55
+      ],
+      [
+       "mariposa",
+       360,
+       320,
+       0.55
+      ],
+      [
+       "mariposa",
+       460,
+       380,
+       0.55
+      ],
+      [
+       "mariposa",
+       560,
+       300,
+       0.55
+      ],
+      [
+       "mariposa",
+       300,
+       450,
+       0.55
+      ],
+      [
+       "mariposa",
+       420,
+       500,
+       0.55
+      ],
+      [
+       "mariposa",
+       540,
+       460,
+       0.55
+      ]
+     ]
+    },
+    "alt": "Juana, una niña zenú con trenzas, cuenta nueve mariposas amarillas."
+   },
+   {
+    "text": [
+     "Una mariposa pequeña se posa en el sombrero del abuelo.",
+     "—¡Diez! —grita Juana—. ¡Diez mariposas amarillas!",
+     "Las mariposas bailan con el viento. El abuelo sonríe: —Las mariposas cuidan las flores, y las flores cuidan a las mariposas.",
+     "Juana y su abuelo se sientan bajo la ceiba. Miran volar a las mariposas.",
+     "Juana cuenta otra vez, despacito: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, ¡diez!"
+    ],
+    "scene": {
+     "bg": "sabana",
+     "items": [
+      [
+       "sol",
+       90,
+       90,
+       0.7
+      ],
+      [
+       "persona",
+       300,
+       565,
+       1.05,
+       {
+        "piel": "trigueña",
+        "pelo": "trenzas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "persona",
+       500,
+       565,
+       1.05,
+       {
+        "adulto": true,
+        "piel": "trigueña",
+        "pelo": "corto",
+        "pelocolor": "canoso",
+        "ropa": "white",
+        "pantalon": "navy",
+        "sombrero": true
+       }
+      ],
+      [
+       "mariposa",
+       500,
+       345,
+       0.4
+      ],
+      [
+       "texto",
+       660,
+       200,
+       1,
+       {
+        "t": "10",
+        "size": 90,
+        "color": "navy",
+        "bg": "yellow"
+       }
+      ],
+      [
+       "flor",
+       700,
+       570,
+       1,
+       {
+        "color": "coral"
+       }
+      ]
+     ]
+    },
+    "alt": "Una mariposa se posa en el sombrero tejido del abuelo; Juana celebra que ya son diez."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿De qué color son las mariposas del cuento?",
+    "options": [
+     "Azules",
+     "Amarillas",
+     "Negras"
+    ],
+    "answer": 1,
+    "explanation": "Todas las mariposas del cuento son amarillas."
+   },
+   {
+    "prompt": "¿Dónde se posa la última mariposa?",
+    "options": [
+     "En el sombrero del abuelo",
+     "En un balde",
+     "En el agua"
+    ],
+    "answer": 0,
+    "explanation": "La mariposa número diez se posa en el sombrero del abuelo."
+   },
+   {
+    "prompt": "¿Cuántas mariposas hay al final?",
+    "options": [
+     "Cinco",
+     "Nueve",
+     "Diez"
+    ],
+    "answer": 2,
+    "explanation": "Juana cuenta hasta diez: ¡diez mariposas amarillas!"
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "agua-para-todos",
+  "title": "Agua para todos",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 2,
+  "theme": "cuidar el agua",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "cuidar el agua",
+   "medio ambiente"
+  ],
+  "synopsis": "Pipe deja el grifo abierto mientras canta. Su abuela le explica que el agua es para todos, y Pipe inventa un plan para cuidarla.",
+  "coverScene": {
+   "bg": "casa",
+   "items": [
+    [
+     "gota",
+     400,
+     250,
+     1.4
+    ],
+    [
+     "grifo",
+     600,
+     480,
+     1,
+     {
+      "cerrado": true
+     }
+    ],
+    [
+     "persona",
+     220,
+     575,
+     1.1,
+     {
+      "piel": "morena",
+      "pelo": "corto",
+      "ropa": "blue",
+      "pantalon": "navy",
+      "brazos": "arriba"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Pipe se lava los dientes. El agua sale del grifo: chas, chas, chas.",
+     "Pipe canta y el agua corre.",
+     "—Pipe —dice la abuela—, ¡cierra el grifo!",
+     "Pipe cierra el grifo. Ahora el agua descansa.",
+     "Pipe mira el grifo. —¿El agua se cansa, abuela? —pregunta Pipe."
+    ],
+    "scene": {
+     "bg": "casa",
+     "items": [
+      [
+       "grifo",
+       560,
+       480,
+       1.1
+      ],
+      [
+       "persona",
+       400,
+       575,
+       1.1,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "blue",
+        "pantalon": "navy"
+       }
+      ],
+      [
+       "persona",
+       170,
+       575,
+       1,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "coral",
+        "brazos": "saluda"
+       }
+      ]
+     ]
+    },
+    "alt": "Pipe está junto al grifo abierto y su abuela le recuerda que lo cierre."
+   },
+   {
+    "text": [
+     "La abuela explica: —El agua viene del río y de la lluvia.",
+     "El agua es para todos. Para las personas. Para las plantas. Para los animales.",
+     "Si gastamos mucha, falta agua.",
+     "Pipe piensa: —El agua es un tesoro.",
+     "—El agua no se cansa —dice la abuela—, pero se puede acabar si la gastamos sin cuidado."
+    ],
+    "scene": {
+     "bg": "rio",
+     "items": [
+      [
+       "lluvia",
+       250,
+       120,
+       1
+      ],
+      [
+       "nube",
+       600,
+       90,
+       0.8
+      ],
+      [
+       "gota",
+       620,
+       300,
+       0.9
+      ],
+      [
+       "pez",
+       380,
+       470,
+       0.8
+      ],
+      [
+       "garza",
+       120,
+       400,
+       0.6
+      ],
+      [
+       "arbusto",
+       680,
+       360,
+       0.9
+      ]
+     ]
+    },
+    "alt": "Llueve sobre un río donde nada un pez; una garza descansa en la orilla."
+   },
+   {
+    "text": [
+     "Pipe hace un plan. Cierra el grifo cuando se enjabona. Usa un vaso para lavarse los dientes.",
+     "Recoge agua de lluvia en un balde. Con esa agua riega las matas.",
+     "La abuela sonríe.",
+     "—Agua para mí, agua para ti, agua para todos —canta Pipe.",
+     "Pipe le cuenta su plan a su amiga Luisa. Ahora Luisa también cierra el grifo.",
+     "Y el agua parece decir: gracias."
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "items": [
+      [
+       "casa",
+       170,
+       450,
+       0.85,
+       {
+        "color": "#f6c36b",
+        "techo": "zinc"
+       }
+      ],
+      [
+       "nube",
+       600,
+       90,
+       0.7,
+       {
+        "color": "#cfe2ee"
+       }
+      ],
+      [
+       "persona",
+       400,
+       570,
+       1.05,
+       {
+        "piel": "morena",
+        "pelo": "corto",
+        "ropa": "blue",
+        "pantalon": "navy",
+        "sosten": "balde"
+       }
+      ],
+      [
+       "planta",
+       540,
+       575,
+       1,
+       {
+        "etapa": 2
+       }
+      ],
+      [
+       "persona",
+       680,
+       575,
+       1,
+       {
+        "adulto": true,
+        "piel": "morena",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "purple",
+        "falda": true,
+        "pantalon": "coral"
+       }
+      ]
+     ]
+    },
+    "alt": "Pipe riega una mata con agua de lluvia de un balde mientras su abuela sonríe."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué le pide la abuela a Pipe?",
+    "options": [
+     "Que cante más fuerte",
+     "Que cierre el grifo",
+     "Que abra todas las llaves"
+    ],
+    "answer": 1,
+    "explanation": "La abuela le pide cerrar el grifo para no desperdiciar agua."
+   },
+   {
+    "prompt": "Según la abuela, ¿de dónde viene el agua?",
+    "options": [
+     "Del río y de la lluvia",
+     "De las piedras",
+     "De la nevera"
+    ],
+    "answer": 0,
+    "explanation": "La abuela explica que el agua viene del río y de la lluvia."
+   },
+   {
+    "prompt": "¿Para qué usa Pipe el agua de lluvia?",
+    "options": [
+     "Para botarla",
+     "Para jugar a mojar",
+     "Para regar las matas"
+    ],
+    "answer": 2,
+    "explanation": "Pipe recoge agua de lluvia en un balde y con ella riega las matas."
+   }
+  ],
+  "glossary": []
+ },
+ {
+  "slug": "el-tambor-de-nico",
+  "title": "El tambor de Nico",
+  "grade": 1,
+  "gradeMin": 1,
+  "gradeMax": 1,
+  "theme": "música tradicional",
+  "categories": [
+   "cuento",
+   "cuento original",
+   "Caribe colombiano",
+   "música tradicional",
+   "patrimonio cultural"
+  ],
+  "synopsis": "Nico toca su tambor alegre: pum, pum, pum. Con las palmas de su hermana y la gaita del abuelo, toda la familia baila la música de su tierra.",
+  "coverScene": {
+   "bg": "pueblo",
+   "time": "atardecer",
+   "items": [
+    [
+     "casa",
+     130,
+     440,
+     0.8,
+     {
+      "color": "#ef9f6e"
+     }
+    ],
+    [
+     "persona",
+     330,
+     565,
+     1.05,
+     {
+      "piel": "oscura",
+      "pelo": "corto",
+      "ropa": "yellow",
+      "pantalon": "navy",
+      "sosten": "tambor"
+     }
+    ],
+    [
+     "persona",
+     510,
+     565,
+     1,
+     {
+      "adulto": true,
+      "piel": "oscura",
+      "pelo": "calvo",
+      "ropa": "white",
+      "pantalon": "navy",
+      "sosten": "gaita"
+     }
+    ],
+    [
+     "persona",
+     680,
+     570,
+     0.95,
+     {
+      "piel": "oscura",
+      "pelo": "coletas",
+      "ropa": "coral",
+      "falda": true,
+      "pantalon": "turq",
+      "brazos": "arriba"
+     }
+    ]
+   ]
+  },
+  "pages": [
+   {
+    "text": [
+     "Nico tiene un tambor. Es un tambor alegre.",
+     "Nico toca: pum, pum, pum.",
+     "Mamá mueve las manos. La abuela mueve los pies.",
+     "—¡Qué rico suena! —dice la abuela.",
+     "El tambor es redondo. Tiene un cuero tenso arriba. Nico lo toca con las manos."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "sol",
+       690,
+       90,
+       0.7
+      ],
+      [
+       "persona",
+       300,
+       565,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       520,
+       565,
+       1,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "moño",
+        "pelocolor": "canoso",
+        "ropa": "turq",
+        "falda": true,
+        "pantalon": "coral",
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "Nico, un niño afrocolombiano, toca su tambor y su abuela baila con los brazos en alto."
+   },
+   {
+    "text": [
+     "Nico toca despacio: pum… pum… pum. Es la lluvia que llega.",
+     "Nico toca rápido: pum, pum, pum, pum. ¡Es el corazón contento!",
+     "Nico toca suave. Nico toca fuerte.",
+     "Su hermana Dayana toca las palmas: plas, plas, plas.",
+     "Pum, plas. Pum, plas. Los dos hacen música juntos."
+    ],
+    "scene": {
+     "bg": "patio",
+     "items": [
+      [
+       "lluvia",
+       640,
+       110,
+       0.8
+      ],
+      [
+       "texto",
+       400,
+       200,
+       1,
+       {
+        "t": "pum pum",
+        "size": 60,
+        "color": "coral"
+       }
+      ],
+      [
+       "persona",
+       280,
+       565,
+       1.1,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       500,
+       570,
+       1,
+       {
+        "piel": "oscura",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "arriba"
+       }
+      ]
+     ]
+    },
+    "alt": "Nico toca el tambor y su hermana Dayana aplaude; se lee «pum pum»."
+   },
+   {
+    "text": [
+     "Llega el abuelo con una gaita. Fiu, fiu, fiu.",
+     "Pum, pum, plas. Fiu, fiu, fiu. Todos bailan en el patio.",
+     "Es la música de nuestra tierra. La tocaban los abuelos de los abuelos.",
+     "—Ahora la tocas tú —dice el abuelo.",
+     "La abuela baila. Mamá baila. Dayana da vueltas y vueltas.",
+     "Nico sonríe y toca: pum, pum, pum. Y tú, ¿cómo tocas?"
+    ],
+    "scene": {
+     "bg": "pueblo",
+     "time": "atardecer",
+     "items": [
+      [
+       "casa",
+       130,
+       440,
+       0.8,
+       {
+        "color": "#ef9f6e"
+       }
+      ],
+      [
+       "persona",
+       320,
+       565,
+       1.05,
+       {
+        "piel": "oscura",
+        "pelo": "corto",
+        "ropa": "yellow",
+        "pantalon": "navy",
+        "sosten": "tambor"
+       }
+      ],
+      [
+       "persona",
+       500,
+       565,
+       1,
+       {
+        "adulto": true,
+        "piel": "oscura",
+        "pelo": "calvo",
+        "ropa": "white",
+        "pantalon": "navy",
+        "sosten": "gaita"
+       }
+      ],
+      [
+       "persona",
+       670,
+       570,
+       0.95,
+       {
+        "piel": "oscura",
+        "pelo": "coletas",
+        "ropa": "coral",
+        "falda": true,
+        "pantalon": "turq",
+        "brazos": "arriba"
+       }
+      ],
+      [
+       "texto",
+       560,
+       150,
+       1,
+       {
+        "t": "fiu fiu",
+        "size": 50,
+        "color": "navy"
+       }
+      ]
+     ]
+    },
+    "alt": "Al atardecer, el abuelo toca la gaita, Nico el tambor y Dayana baila frente a la casa."
+   }
+  ],
+  "questions": [
+   {
+    "prompt": "¿Qué instrumento toca Nico?",
+    "options": [
+     "Una guitarra",
+     "Un tambor",
+     "Un piano"
+    ],
+    "answer": 1,
+    "explanation": "Nico tiene un tambor alegre."
+   },
+   {
+    "prompt": "¿Qué instrumento trae el abuelo?",
+    "options": [
+     "Una gaita",
+     "Un violín",
+     "Una trompeta"
+    ],
+    "answer": 0,
+    "explanation": "El abuelo llega con una gaita: fiu, fiu, fiu."
+   },
+   {
+    "prompt": "¿Cómo suena el tambor de Nico?",
+    "options": [
+     "Fiu, fiu, fiu",
+     "Miau, miau",
+     "Pum, pum, pum"
+    ],
+    "answer": 2,
+    "explanation": "El tambor hace pum, pum, pum; la gaita hace fiu, fiu."
+   }
+  ],
+  "glossary": []
+ }
+]

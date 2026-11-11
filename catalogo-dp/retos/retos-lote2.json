@@ -1,0 +1,883 @@
+[
+  {
+    "id": "l2-b13-semilla-sara-secuencia",
+    "kind": "sequence",
+    "title": "Ordena: la semilla de Sara",
+    "source": "Cuento original de la Biblioteca Macondo – Comfasucre.",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "La semilla de Sara",
+      "creator": "Biblioteca Macondo – Comfasucre (cuento original)"
+    },
+    "text": "Ordena lo que pasa en «La semilla de Sara».",
+    "steps": [
+      "Sara hace un hueco en la tierra y pone la semilla.",
+      "Sara le pone agua y espera varios días.",
+      "El día tres sale una hojita verde.",
+      "La planta crece y tiene tallo y muchas hojas.",
+      "Aparece una flor roja y llega una mariposa amarilla."
+    ]
+  },
+  {
+    "id": "l2-b13-gotita-secuencia",
+    "kind": "sequence",
+    "title": "El viaje de Gotita",
+    "source": "Cuento original de la Biblioteca Macondo – Comfasucre.",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "El viaje de Gotita por La Mojana",
+      "creator": "Biblioteca Macondo – Comfasucre (cuento original)"
+    },
+    "text": "Ordena el viaje de Gotita por La Mojana.",
+    "steps": [
+      "Gotita vive en una ciénaga de La Mojana.",
+      "El sol la calienta y sube como vapor: evaporación.",
+      "Se junta con otras gotitas y forman una nube: condensación.",
+      "Cae como lluvia sobre un campo de arroz: precipitación.",
+      "Llega al río San Jorge y el río la lleva otra vez a su ciénaga."
+    ]
+  },
+  {
+    "id": "l2-b13-valentina-trivia",
+    "kind": "trivia",
+    "title": "Señas para ser amigos",
+    "source": "Cuento original de la Biblioteca Macondo – Comfasucre.",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "Valentina habla con las manos",
+      "creator": "Biblioteca Macondo – Comfasucre (cuento original)"
+    },
+    "text": "Valentina le enseñó a Andrés la seña de pelota, la de correr y la de amigo: dos dedos que se abrazan. Al día siguiente, Andrés le enseñó las señas a Luisa, Luisa a Mateo, y Mateo a todo el salón. […] Un mes después, el curso preparó una sorpresa para la izada de bandera. […] todos subieron al escenario y cantaron una canción del río con la voz y con las manos al mismo tiempo.",
+    "questions": [
+      {
+        "prompt": "¿Cómo es la seña de «amigo»?",
+        "options": [
+          "Una mano que saluda",
+          "Dos dedos que se abrazan",
+          "Un aplauso"
+        ],
+        "answer": 1,
+        "explanation": "Valentina enseñó que «amigo» se dice con dos dedos que se abrazan."
+      },
+      {
+        "prompt": "¿Cómo aprendió todo el salón las señas?",
+        "options": [
+          "Unos se las enseñaron a otros, uno por uno",
+          "Vieron un video",
+          "Las leyeron en un libro"
+        ],
+        "answer": 0,
+        "explanation": "Andrés enseñó a Luisa, Luisa a Mateo y Mateo a todo el salón: así se comparte lo que se aprende."
+      },
+      {
+        "prompt": "¿Qué sorpresa le dio el curso a Valentina?",
+        "options": [
+          "Le regalaron una pelota",
+          "Le hicieron una fiesta de cumpleaños",
+          "Cantaron una canción con la voz y con las manos"
+        ],
+        "answer": 2,
+        "explanation": "Fue la primera vez que todo un salón le habló a Valentina en su idioma, la Lengua de Señas Colombiana."
+      }
+    ]
+  },
+  {
+    "id": "l2-b13-agua-para-todos-trivia",
+    "kind": "trivia",
+    "title": "El plan de Pipe",
+    "source": "Cuento original de la Biblioteca Macondo – Comfasucre.",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "Agua para todos",
+      "creator": "Biblioteca Macondo – Comfasucre (cuento original)"
+    },
+    "text": "Pipe hace un plan. Cierra el grifo cuando se enjabona. Usa un vaso para lavarse los dientes. Recoge agua de lluvia en un balde. Con esa agua riega las matas. […] Pipe le cuenta su plan a su amiga Luisa. Ahora Luisa también cierra el grifo.",
+    "questions": [
+      {
+        "prompt": "¿Qué usa Pipe para lavarse los dientes?",
+        "options": [
+          "Un vaso",
+          "La manguera",
+          "El grifo abierto"
+        ],
+        "answer": 0,
+        "explanation": "Con un vaso se gasta mucha menos agua que con el grifo abierto."
+      },
+      {
+        "prompt": "¿Qué hace Pipe con el agua de lluvia?",
+        "options": [
+          "La bota",
+          "Riega las matas",
+          "Se la toma"
+        ],
+        "answer": 1,
+        "explanation": "Pipe recoge el agua de lluvia en un balde y la usa para regar."
+      },
+      {
+        "prompt": "¿Qué pasó cuando Pipe le contó su plan a Luisa?",
+        "options": [
+          "Luisa se rió",
+          "Luisa no le creyó",
+          "Luisa también empezó a cerrar el grifo"
+        ],
+        "answer": 2,
+        "explanation": "Las buenas ideas se contagian: cuidar el agua es tarea de todos."
+      }
+    ]
+  },
+  {
+    "id": "l2-b13-tortugas-personajes",
+    "kind": "match",
+    "title": "Guardianes de las tortugas",
+    "source": "Cuento original de la Biblioteca Macondo – Comfasucre.",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "Las tortugas de Rincón del Mar",
+      "creator": "Biblioteca Macondo – Comfasucre (cuento original)"
+    },
+    "text": "Relaciona cada personaje de «Las tortugas de Rincón del Mar» con lo que hace.",
+    "pairs": [
+      {
+        "left": "La señora Rosario",
+        "right": "Busca huellas de tortuga y marca los nidos con palitos"
+      },
+      {
+        "left": "Yeison",
+        "right": "Pide con respeto al vecino que apague el bombillo"
+      },
+      {
+        "left": "Luz Ángela",
+        "right": "Lee los labios y anota todo en la libreta"
+      },
+      {
+        "left": "El vecino",
+        "right": "Apaga la luz y después se inscribe como voluntario"
+      },
+      {
+        "left": "Las tortuguitas",
+        "right": "Caminan hacia el brillo plateado del mar"
+      }
+    ]
+  },
+  {
+    "id": "l2-b13-canoa-abuela-palabras",
+    "kind": "match",
+    "title": "Palabras de La Mojana",
+    "source": "Cuento original de la Biblioteca Macondo – Comfasucre.",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "La canoa de la abuela Mercedes",
+      "creator": "Biblioteca Macondo – Comfasucre (cuento original)"
+    },
+    "text": "Relaciona cada palabra del cuento «La canoa de la abuela Mercedes» con su significado.",
+    "pairs": [
+      {
+        "left": "La creciente",
+        "right": "Cuando llueve, el río sube y cubre los potreros"
+      },
+      {
+        "left": "Los canales",
+        "right": "Repartían el agua de la creciente sin hacer daño"
+      },
+      {
+        "left": "Los camellones",
+        "right": "Caminos de tierra más altos donde sembraban maíz y yuca"
+      },
+      {
+        "left": "Los zenúes",
+        "right": "Antepasados de la abuela que estudiaban el agua"
+      },
+      {
+        "left": "La caña flecha",
+        "right": "Fibra con la que la abuela teje su trenza"
+      }
+    ]
+  },
+  {
+    "id": "l2-b13-simon-bobito",
+    "kind": "match",
+    "title": "Las bobadas de Simón",
+    "source": "«Simón el bobito», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "Simón el bobito",
+      "creator": "Rafael Pombo"
+    },
+    "text": "Relaciona lo que hizo Simón el bobito con lo que le pasó.",
+    "pairs": [
+      {
+        "left": "Quiso comprar pasteles",
+        "right": "No tenía ni un cuartillo para pagar"
+      },
+      {
+        "left": "Asó en las brasas un pastel de nieve",
+        "right": "Se deshizo, apagó las brasas y no comió nada"
+      },
+      {
+        "left": "Pescaba sentado, sentado",
+        "right": "Lo hacía en el balde de mamá Leonor"
+      },
+      {
+        "left": "Se tomó un trago de mostaza",
+        "right": "Creyó que era miel y terminó rabiando"
+      },
+      {
+        "left": "Lo enviaron por agua",
+        "right": "Llevó un cedazo para echarla en él"
+      }
+    ]
+  },
+  {
+    "id": "l2-b13-mirringa-trivia",
+    "kind": "trivia",
+    "title": "El convite de Mirringa Mirronga",
+    "source": "«Mirringa Mirronga», Rafael Pombo (dominio público).",
+    "bands": [
+      "1-3"
+    ],
+    "resource": {
+      "title": "Mirringa Mirronga",
+      "creator": "Rafael Pombo"
+    },
+    "text": "Mirringa Mirronga, la gata candonga / va a dar un convite jugando escondite, / y quiere que todos los gatos y gatas / no almuercen ratones ni cenen con ratas. / \"A ver mis anteojos, y pluma y tintero, / y vamos poniendo las cartas primero. […]\" / Mas ¡ay! que una espina se le atasca indina, […] / Mirriña a Cuca le golpeó en la nuca / y pasó al instante la espina del diantre.",
+    "questions": [
+      {
+        "prompt": "¿Qué prepara Mirringa Mirronga?",
+        "options": [
+          "Un viaje",
+          "Un convite (una fiesta) para los gatos",
+          "Una carrera"
+        ],
+        "answer": 1,
+        "explanation": "La gata candonga «va a dar un convite» e invita a todos los gatos."
+      },
+      {
+        "prompt": "¿Qué hace primero Mirringa para invitar a todos?",
+        "options": [
+          "Escribe las cartas con pluma y tintero",
+          "Sale a gritar por la calle",
+          "Llama por teléfono"
+        ],
+        "answer": 0,
+        "explanation": "Pide sus anteojos, pluma y tintero: «vamos poniendo las cartas primero»."
+      },
+      {
+        "prompt": "¿Qué problema hubo en la comida?",
+        "options": [
+          "Se quemó la sopa",
+          "Se apagaron las luces",
+          "A un invitado se le atascó una espina"
+        ],
+        "answer": 2,
+        "explanation": "Se le atascó una espina de pescado, y un golpecito en la nuca la hizo pasar."
+      }
+    ]
+  },
+  {
+    "id": "l2-b45-tortuga-gigante-secuencia",
+    "kind": "sequence",
+    "title": "Ordena «La tortuga gigante»",
+    "source": "Cuentos de la selva, Horacio Quiroga (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Cuentos de la selva",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "Ordena lo que pasa en «La tortuga gigante».",
+    "steps": [
+      "Un hombre enfermo se va a vivir al monte para curarse.",
+      "Encuentra una tortuga herida y, aunque tiene hambre, la cura.",
+      "El hombre cae enfermo con mucha fiebre.",
+      "La tortuga le da agua y raíces, y lo lleva en su lomo hacia Buenos Aires.",
+      "Sin fuerzas, un ratoncito le dice que ya llegó a Buenos Aires.",
+      "El hombre se cura y la tortuga vive cuidada en el Jardín Zoológico."
+    ]
+  },
+  {
+    "id": "l2-b45-abeja-haragana-trivia",
+    "kind": "trivia",
+    "title": "La abeja haragana",
+    "source": "Cuentos de la selva, Horacio Quiroga (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Cuentos de la selva",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "Había una vez en una colmena una abeja que no quería trabajar. Es decir, recorría los árboles uno por uno para tomar el jugo de las flores; pero en vez de conservarlo para convertirlo en miel, se lo tomaba del todo. […] —No hay mañana para las que no trabajan —respondieron las abejas […]. —No, no morirás. Aprenderás en una sola noche lo que es el descanso ganado con el trabajo. Vete.",
+    "questions": [
+      {
+        "prompt": "¿Por qué la llamaban «haragana»?",
+        "options": [
+          "Porque dormía todo el día",
+          "Porque se tomaba el jugo de las flores en vez de hacer miel",
+          "Porque picaba a las demás"
+        ],
+        "answer": 1,
+        "explanation": "Volaba de flor en flor, pero no aportaba miel a la colmena."
+      },
+      {
+        "prompt": "¿Qué hicieron las abejas de guardia el 20 de abril?",
+        "options": [
+          "No la dejaron entrar a la colmena",
+          "Le regalaron miel",
+          "La nombraron reina"
+        ],
+        "answer": 0,
+        "explanation": "Le habían advertido tres veces; ese día le cerraron la puerta."
+      },
+      {
+        "prompt": "¿Cómo se salvó la abeja de la culebra?",
+        "options": [
+          "Huyó volando",
+          "La picó",
+          "Se escondió en una plantita sensitiva que cerró sus hojas"
+        ],
+        "answer": 2,
+        "explanation": "Usó lo que había observado: las hojas de la sensitiva se cierran al tocarlas."
+      }
+    ]
+  },
+  {
+    "id": "l2-b45-abeja-haragana-personajes",
+    "kind": "match",
+    "title": "Personajes de «La abeja haragana»",
+    "source": "Cuentos de la selva, Horacio Quiroga (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "Cuentos de la selva",
+      "creator": "Horacio Quiroga"
+    },
+    "text": "Relaciona cada personaje u objeto del cuento con su descripción.",
+    "pairs": [
+      {
+        "left": "La abeja haragana",
+        "right": "Pasea de flor en flor sin trabajar y luego aprende la lección"
+      },
+      {
+        "left": "Las abejas de guardia",
+        "right": "Son viejas, tienen el lomo pelado y cuidan la puerta"
+      },
+      {
+        "left": "La culebra",
+        "right": "Vive en el hueco de un árbol y propone dos pruebas"
+      },
+      {
+        "left": "El trompito de eucalipto",
+        "right": "La culebra lo hace bailar con la cola"
+      },
+      {
+        "left": "La sensitiva",
+        "right": "Plantita cuyas hojas se cierran y esconden a la abeja"
+      }
+    ]
+  },
+  {
+    "id": "l2-b45-margarita-debayle-trivia",
+    "kind": "trivia",
+    "title": "A Margarita Debayle",
+    "source": "«A Margarita Debayle», Rubén Darío (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "A Margarita Debayle",
+      "creator": "Rubén Darío"
+    },
+    "text": "Margarita, está linda la mar, / y el viento / lleva esencia sutil de azahar; […] / Margarita, te voy a contar / un cuento. / Este era un rey que tenía / un palacio de diamantes, / una tienda hecha del día / y un rebaño de elefantes […] / Una tarde la princesa / vio una estrella aparecer; / la princesa era traviesa / y la quiso ir a coger. […] mas lo malo es que ella iba / sin permiso del papá.",
+    "questions": [
+      {
+        "prompt": "¿Quién cuenta el cuento y a quién?",
+        "options": [
+          "La princesa a su papá",
+          "El poeta a una niña llamada Margarita",
+          "El rey a los elefantes"
+        ],
+        "answer": 1,
+        "explanation": "El poema empieza hablándole a Margarita: «te voy a contar un cuento»."
+      },
+      {
+        "prompt": "¿Qué quiso coger la princesa?",
+        "options": [
+          "Una estrella",
+          "Una perla del mar",
+          "Una flor del jardín"
+        ],
+        "answer": 0,
+        "explanation": "La princesa traviesa vio una estrella y fue a cortarla."
+      },
+      {
+        "prompt": "¿Qué hizo mal la princesa, según el poema?",
+        "options": [
+          "Mintió a su papá",
+          "Perdió el prendedor",
+          "Se fue sin permiso de su papá"
+        ],
+        "answer": 2,
+        "explanation": "Cuando el rey le pregunta, ella dice la verdad, pero había salido sin permiso."
+      }
+    ]
+  },
+  {
+    "id": "l2-b45-hornero-trivia",
+    "kind": "trivia",
+    "title": "La casita del hornero",
+    "source": "«El hornero», Leopoldo Lugones (dominio público).",
+    "bands": [
+      "4-5"
+    ],
+    "resource": {
+      "title": "El hornero",
+      "creator": "Leopoldo Lugones"
+    },
+    "text": "La casita del hornero / tiene alcoba y tiene sala. / En la alcoba la hembra instala / justamente el nido entero. / En la sala, muy orondo, / el padre guarda la puerta […] / Allá, si el barro está blando, / canta su gozo sincero. / Yo quisiera ser hornero / y hacer mi choza cantando. […] / La trabaja en paja y barro, / lindamente la trabaja, / que en el barro y en la paja / es arquitecto bizarro.",
+    "questions": [
+      {
+        "prompt": "¿Con qué materiales construye el hornero su casita?",
+        "options": [
+          "Con ramas y hojas",
+          "Con paja y barro",
+          "Con piedras y arena"
+        ],
+        "answer": 1,
+        "explanation": "El poema dice: «La trabaja en paja y barro»."
+      },
+      {
+        "prompt": "¿Qué partes tiene la casita del hornero?",
+        "options": [
+          "Alcoba y sala",
+          "Cocina y patio",
+          "Torre y jardín"
+        ],
+        "answer": 0,
+        "explanation": "En la alcoba está el nido; en la sala, el padre guarda la puerta."
+      },
+      {
+        "prompt": "¿Por qué el poeta llama al hornero «arquitecto»?",
+        "options": [
+          "Porque dibuja planos",
+          "Porque vive en la ciudad",
+          "Porque construye su casa con mucha destreza"
+        ],
+        "answer": 2,
+        "explanation": "Es una metáfora: compara al pájaro con una persona que diseña y construye casas."
+      }
+    ]
+  },
+  {
+    "id": "l2-b45-cancion-pirata",
+    "kind": "match",
+    "title": "Canción del pirata",
+    "source": "«Canción del pirata», José de Espronceda (dominio público).",
+    "bands": [
+      "4-5",
+      "6-8"
+    ],
+    "resource": {
+      "title": "Canción del pirata",
+      "creator": "José de Espronceda"
+    },
+    "text": "En el estribillo, el capitán pirata dice qué es lo más importante para él: «Que es mi barco mi tesoro, / Que es mi Dios la libertad, / Mi ley la fuerza y el viento, / Mi única patria la mar.» Relaciona cada elemento con lo que significa para el pirata.",
+    "pairs": [
+      {
+        "left": "Su barco",
+        "right": "Su tesoro"
+      },
+      {
+        "left": "La libertad",
+        "right": "Lo que más valora, como si fuera su dios"
+      },
+      {
+        "left": "La fuerza y el viento",
+        "right": "Su única ley"
+      },
+      {
+        "left": "La mar",
+        "right": "Su única patria"
+      },
+      {
+        "left": "«el Temido»",
+        "right": "Nombre que dan al bajel pirata por su bravura"
+      }
+    ]
+  },
+  {
+    "id": "l2-b68-versos-sencillos-trivia",
+    "kind": "trivia",
+    "title": "Yo soy un hombre sincero",
+    "source": "Versos sencillos, José Martí (1891, dominio público).",
+    "bands": [
+      "6-8"
+    ],
+    "resource": {
+      "title": "Versos sencillos",
+      "creator": "José Martí"
+    },
+    "text": "Yo soy un hombre sincero / De donde crece la palma. / Y antes de morirme quiero / Echar mis versos del alma. / Yo vengo de todas partes, / Y hacia todas partes voy: / Arte soy entre las artes, / En los montes, monte soy. […] // Cultivo una rosa blanca / En julio como enero, / Para el amigo sincero / Que me da su mano franca. / Y para el cruel que me arranca / El corazón con que vivo, / Cardo ni ortiga cultivo; / Cultivo la rosa blanca.",
+    "questions": [
+      {
+        "prompt": "¿Qué lugar sugiere «De donde crece la palma»?",
+        "options": [
+          "Una ciudad europea",
+          "Una tierra tropical, la patria del poeta (Cuba)",
+          "Un desierto",
+          "Las montañas nevadas"
+        ],
+        "answer": 1,
+        "explanation": "La palma es símbolo de la tierra natal de Martí."
+      },
+      {
+        "prompt": "¿Qué actitud expresa «Cultivo la rosa blanca» ante el cruel?",
+        "options": [
+          "Responder al daño con bondad, sin rencor",
+          "Vengarse",
+          "Alejarse para siempre",
+          "Pedir ayuda"
+        ],
+        "answer": 0,
+        "explanation": "La rosa blanca simboliza el perdón y la paz; cardo y ortiga, el rencor."
+      },
+      {
+        "prompt": "¿Qué representan el «cardo» y la «ortiga»?",
+        "options": [
+          "La alegría",
+          "El trabajo del campo",
+          "El odio o el deseo de hacer daño",
+          "La primavera"
+        ],
+        "answer": 2,
+        "explanation": "Son plantas que pinchan o irritan: imágenes del rencor que el poeta rechaza."
+      },
+      {
+        "prompt": "¿Cómo son la mayoría de estos versos y estrofas?",
+        "options": [
+          "Versos libres sin rima",
+          "Endecasílabos en sonetos",
+          "Alejandrinos",
+          "Octosílabos con rima, en estrofas breves"
+        ],
+        "answer": 3,
+        "explanation": "El título lo anuncia: «versos sencillos», de arte menor y música popular."
+      }
+    ]
+  },
+  {
+    "id": "l2-b68-motivos-lobo-secuencia",
+    "kind": "sequence",
+    "title": "Ordena «Los motivos del lobo»",
+    "source": "«Los motivos del lobo», Rubén Darío (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Los motivos del lobo",
+      "creator": "Rubén Darío"
+    },
+    "text": "Ordena lo que pasa en el poema de Rubén Darío.",
+    "steps": [
+      "El lobo de Gubbia ataca rebaños y pastores.",
+      "Francisco de Asís lo busca y le dice: «¡Paz, hermano lobo!».",
+      "El lobo promete dejar en paz a la gente y la aldea promete alimentarlo.",
+      "El lobo vive manso en el convento.",
+      "Cuando Francisco se ausenta, el lobo vuelve a la montaña.",
+      "El lobo explica que la gente lo apaleó y que en las casas vio envidia, ira y mentira."
+    ]
+  },
+  {
+    "id": "l2-b68-motivos-lobo-trivia",
+    "kind": "trivia",
+    "title": "Los motivos del lobo",
+    "source": "«Los motivos del lobo», Rubén Darío (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Los motivos del lobo",
+      "creator": "Rubén Darío"
+    },
+    "text": "\"¡Es duro el invierno, / y es horrible el hambre! […] ¿La sangre? Yo vi más de un cazador / sobre su caballo, llevando el azor / al puño; o correr tras el jabalí […] / ¡Y no era por hambre, que iban a cazar!\" […] \"Me vieron humilde, lamía las manos / y los pies. […] Y así, me apalearon y me echaron fuera. […] y me sentí lobo malo de repente; / mas siempre mejor que esa mala gente.\"",
+    "questions": [
+      {
+        "prompt": "¿Qué justificación da el lobo para sus primeros ataques?",
+        "options": [
+          "Que le gustaba asustar",
+          "El hambre del duro invierno",
+          "Que lo mandó otro lobo",
+          "Que defendía a sus cachorros"
+        ],
+        "answer": 1,
+        "explanation": "El lobo dice: «¡Es duro el invierno, y es horrible el hambre!»."
+      },
+      {
+        "prompt": "¿Qué contraste establece el lobo con los cazadores?",
+        "options": [
+          "Él mata por hambre; ellos, sin necesidad",
+          "Ellos cazan mejor que él",
+          "Ellos son sus amigos",
+          "Él no come carne"
+        ],
+        "answer": 0,
+        "explanation": "«¡Y no era por hambre, que iban a cazar!»: el lobo acusa a los humanos de crueldad gratuita."
+      },
+      {
+        "prompt": "¿Por qué volvió el lobo a ser malo?",
+        "options": [
+          "Porque Francisco lo regañó",
+          "Porque extrañaba la montaña",
+          "Porque la gente lo apaleó y lo echó",
+          "Porque se aburrió del convento"
+        ],
+        "answer": 2,
+        "explanation": "La violencia que recibió despertó otra vez «la fiera»."
+      },
+      {
+        "prompt": "¿Cuál es la intención crítica del poema?",
+        "options": [
+          "Enseñar a cazar lobos",
+          "Describir la vida en un convento",
+          "Contar la biografía de san Francisco",
+          "Mostrar que la maldad humana puede ser peor que la de la fiera"
+        ],
+        "answer": 3,
+        "explanation": "«Mas siempre mejor que esa mala gente»: Darío invierte los papeles y critica a la sociedad."
+      }
+    ]
+  },
+  {
+    "id": "l2-b68-maderos-san-juan",
+    "kind": "match",
+    "title": "Los maderos de San Juan",
+    "source": "«Los maderos de San Juan», José Asunción Silva (dominio público).",
+    "bands": [
+      "6-8",
+      "9-11"
+    ],
+    "resource": {
+      "title": "Los maderos de San Juan",
+      "creator": "José Asunción Silva"
+    },
+    "text": "Relaciona cada elemento del poema de José Asunción Silva con su sentido.",
+    "pairs": [
+      {
+        "left": "«¡Aserrín! ¡Aserrán! / Los maderos de San Juan»",
+        "right": "Canción infantil que se repite como estribillo"
+      },
+      {
+        "left": "El niño en las rodillas de la abuela",
+        "right": "Se balancea con movimiento rítmico, jugando"
+      },
+      {
+        "left": "El «temor extraño» de la abuela",
+        "right": "Teme la angustia y el desengaño que guarda el futuro del nieto"
+      },
+      {
+        "left": "«Esas arrugas hondas»",
+        "right": "Recuerdan una historia de sufrimientos largos"
+      },
+      {
+        "left": "«Mañana cuando duerma la Anciana, yerta y muda»",
+        "right": "Anuncia la muerte de la abuela, cuya voz recordará el nieto"
+      }
+    ]
+  },
+  {
+    "id": "l2-b911-nocturno-trivia",
+    "kind": "trivia",
+    "title": "Nocturno de Silva",
+    "source": "«Nocturno» («Una noche…»), José Asunción Silva (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "Nocturno",
+      "creator": "José Asunción Silva"
+    },
+    "text": "Una noche, / una noche toda llena de perfumes, de murmullos y de música de alas, / una noche, […] / y tu sombra, / fina y lánguida, / y mi sombra / por los rayos de la luna proyectadas, / sobre las arenas tristes / de la senda se juntaban / y eran una / y eran una / ¡Y eran una sola sombra larga! […] Esta noche / solo, el alma / llena de las infinitas amarguras y agonías de tu muerte, […] Sentí frío; ¡era el frío que tenían en tu alcoba / tus mejillas y tus sienes y tus manos adoradas […]",
+    "questions": [
+      {
+        "prompt": "¿Qué dos momentos contrapone el poema?",
+        "options": [
+          "La infancia y la vejez",
+          "Una noche compartida con la amada y una noche de soledad tras su muerte",
+          "El día y la noche de una fiesta",
+          "Un viaje de ida y uno de vuelta"
+        ],
+        "answer": 1,
+        "explanation": "«Una noche» (el recuerdo feliz) se opone a «Esta noche» (el duelo presente)."
+      },
+      {
+        "prompt": "¿Qué simbolizan las dos sombras que «eran una sola sombra larga»?",
+        "options": [
+          "La unión de los amantes",
+          "El miedo a la oscuridad",
+          "Dos desconocidos",
+          "La llegada del día"
+        ],
+        "answer": 0,
+        "explanation": "Las sombras fundidas expresan la unión amorosa."
+      },
+      {
+        "prompt": "¿Qué recurso predomina en «y eran una / y eran una / ¡Y eran una sola sombra larga!»?",
+        "options": [
+          "Hipérbaton",
+          "Onomatopeya",
+          "Repetición (anáfora) que crea ritmo y musicalidad",
+          "Ironía"
+        ],
+        "answer": 2,
+        "explanation": "Silva renovó el verso con repeticiones y versos de medida variable, típicos del Modernismo."
+      },
+      {
+        "prompt": "¿Qué sensación asocia el yo poético con la muerte de la amada?",
+        "options": [
+          "El calor",
+          "El perfume",
+          "La música",
+          "El frío"
+        ],
+        "answer": 3,
+        "explanation": "«Era el frío del sepulcro, era el frío de la muerte»: una imagen sensorial del duelo."
+      }
+    ]
+  },
+  {
+    "id": "l2-b911-voragine-trivia",
+    "kind": "trivia",
+    "title": "El comienzo de La vorágine",
+    "source": "La vorágine, José Eustasio Rivera (1924), prólogo y primera parte.",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "La vorágine",
+      "creator": "José Eustasio Rivera"
+    },
+    "text": "Señor Ministro: De acuerdo con los deseos de S. S. he arreglado para la publicidad los manuscritos de Arturo Cova, remitidos a ese Ministerio por el Cónsul de Colombia en Manaos. En esas páginas respeté el estilo y hasta las incorrecciones del infortunado escritor […]. Creo […] que este libro no se debe publicar antes de tener más noticias de los caucheros colombianos del Río Negro o Guainía […]. // Antes que me hubiera apasionado por mujer alguna, jugué mi corazón al azar y me lo ganó la Violencia.",
+    "questions": [
+      {
+        "prompt": "¿Qué función cumple el prólogo dirigido al «Señor Ministro»?",
+        "options": [
+          "Resume el final de la novela",
+          "Presenta la novela como manuscritos reales de Arturo Cova, dando verosimilitud",
+          "Es una carta de amor",
+          "Explica cómo se extrae el caucho"
+        ],
+        "answer": 1,
+        "explanation": "El recurso del manuscrito encontrado hace creer que se trata de un testimonio verdadero."
+      },
+      {
+        "prompt": "¿Quién narra la primera parte?",
+        "options": [
+          "Arturo Cova, en primera persona",
+          "El Ministro",
+          "El Cónsul de Colombia en Manaos",
+          "Alicia"
+        ],
+        "answer": 0,
+        "explanation": "«Antes que me hubiera apasionado…»: habla el propio Cova."
+      },
+      {
+        "prompt": "¿Qué sugiere la frase «jugué mi corazón al azar y me lo ganó la Violencia»?",
+        "options": [
+          "Que Cova es un jugador de cartas",
+          "Que perdió dinero",
+          "Que la violencia domina su carácter y su destino",
+          "Que nunca conoció la violencia"
+        ],
+        "answer": 2,
+        "explanation": "La personificación de la Violencia anuncia el tono de la novela."
+      },
+      {
+        "prompt": "¿Qué realidad histórica menciona el prólogo?",
+        "options": [
+          "La guerra de independencia",
+          "La construcción del ferrocarril",
+          "La fundación de Bogotá",
+          "La situación de los caucheros colombianos en la selva"
+        ],
+        "answer": 3,
+        "explanation": "La novela denuncia la explotación de la industria del caucho en la Amazonia."
+      }
+    ]
+  },
+  {
+    "id": "l2-b911-maria-secuencia",
+    "kind": "sequence",
+    "title": "La partida de Efraín",
+    "source": "María, Jorge Isaacs (1867), capítulos I y II.",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "María",
+      "creator": "Jorge Isaacs"
+    },
+    "text": "Ordena los hechos del inicio de María, narrados por Efraín.",
+    "steps": [
+      "La noche antes del viaje, una hermana corta unos cabellos de Efraín y llora.",
+      "Efraín se duerme llorando, con el presentimiento de pesares futuros.",
+      "Por la mañana, el padre desata de su cabeza los brazos de la madre.",
+      "María, humildemente, se despide juntando su mejilla a la de él.",
+      "Al dar la vuelta a una colina, Efraín ve a María bajo las enredaderas.",
+      "Seis años después, Efraín regresa al valle del Cauca."
+    ]
+  },
+  {
+    "id": "l2-b911-carrasquilla-habla",
+    "kind": "match",
+    "title": "El habla popular en Carrasquilla",
+    "source": "«En la diestra de Dios Padre», Tomás Carrasquilla (dominio público).",
+    "bands": [
+      "9-11"
+    ],
+    "resource": {
+      "title": "En la diestra de Dios Padre",
+      "creator": "Tomás Carrasquilla"
+    },
+    "text": "Carrasquilla escribe el cuento imitando el habla popular antioqueña. Relaciona cada expresión del texto con el rasgo que muestra.",
+    "pairs": [
+      {
+        "left": "«Este dizque era un hombre que se llamaba Peralta»",
+        "right": "Fórmula de inicio de un relato oral tradicional"
+      },
+      {
+        "left": "«No era casao»",
+        "right": "Pérdida de la d entre vocales"
+      },
+      {
+        "left": "«Casáte, hombre; casáte pa que tengás hijos»",
+        "right": "Voseo y apócope de «para»"
+      },
+      {
+        "left": "«cocos de güevos»",
+        "right": "Pronunciación popular de «hue» como «güe»"
+      },
+      {
+        "left": "«Peralta seguía más pior»",
+        "right": "Doble comparativo propio del habla coloquial"
+      }
+    ]
+  }
+]

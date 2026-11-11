@@ -1,0 +1,277 @@
+/* Kiosco táctil independiente: ningún estilo depende de hover, mouse o CDN. */
+body.kiosco-page { margin: 0; }
+
+#turnosKiosco {
+    --kiosco-azul: #064679;
+    --kiosco-oscuro: #073258;
+    --kiosco-cian: #087ea4;
+    --kiosco-verde: #087a68;
+    --kiosco-texto: #153d5c;
+    --kiosco-mutado: #557086;
+    --kiosco-borde: #cddce7;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    padding: 12px;
+    display: grid;
+    grid-template-rows: 64px 44px 48px minmax(0, 1fr);
+    gap: 8px;
+    overflow: hidden;
+    background: #eef4f8;
+    color: var(--kiosco-texto);
+    font: 400 16px/1.35 system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+#turnosKiosco *, #turnosKiosco *::before, #turnosKiosco *::after { box-sizing: border-box; }
+#turnosKiosco [hidden] { display: none !important; }
+#turnosKiosco h1, #turnosKiosco h2, #turnosKiosco p, #turnosKiosco ol, #turnosKiosco dl, #turnosKiosco dd { margin: 0; }
+#turnosKiosco h1 { color: var(--kiosco-oscuro); font-size: 26px; line-height: 1.15; }
+#turnosKiosco h2 { color: var(--kiosco-oscuro); font-size: 27px; line-height: 1.15; }
+#turnosKiosco h2[tabindex="-1"]:focus { outline: none; }
+#turnosKiosco button, #turnosKiosco input, #turnosKiosco select { font: inherit; color: inherit; }
+#turnosKiosco button { cursor: pointer; touch-action: manipulation; }
+#turnosKiosco button:focus-visible, #turnosKiosco input:focus-visible, #turnosKiosco select:focus-visible { outline: 3px solid #079bbb; outline-offset: 3px; }
+#turnosKiosco button:disabled { cursor: default; opacity: .48; }
+
+#turnosKiosco .kiosco-cabecera { min-width: 0; display: flex; align-items: center; gap: 20px; padding: 0 10px; }
+#turnosKiosco .kiosco-logo { width: 138px; height: 58px; flex: 0 0 auto; object-fit: contain; }
+#turnosKiosco .kiosco-cabecera-texto { padding-left: 20px; border-left: 1px solid var(--kiosco-borde); }
+#turnosKiosco .kiosco-cabecera-texto p { margin-top: 4px; color: var(--kiosco-mutado); font-size: 14px; }
+#turnosKiosco .kiosco-horario { margin-left: auto; max-width: 270px; padding: 8px 12px; border: 1px solid #c6e7df; border-radius: 12px; background: #e8f6f1; color: var(--kiosco-verde); font-size: 14px; font-weight: 650; text-align: center; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-progreso ol { height: 100%; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; list-style: none; }
+#turnosKiosco .kiosco-progreso li { min-width: 0; display: flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid var(--kiosco-borde); border-radius: 12px; background: #fff; color: var(--kiosco-mutado); font-size: 16px; font-weight: 650; }
+#turnosKiosco .kiosco-etapa-numero { width: 28px; height: 28px; display: grid; place-items: center; border-radius: 50%; background: #eaf1f7; color: var(--kiosco-azul); font-size: 15px; }
+#turnosKiosco .kiosco-progreso li[aria-current="step"], #turnosKiosco .kiosco-progreso li.is-active { border-color: var(--kiosco-azul); background: var(--kiosco-azul); color: #fff; }
+#turnosKiosco .kiosco-progreso li[aria-current="step"] .kiosco-etapa-numero, #turnosKiosco .kiosco-progreso li.is-active .kiosco-etapa-numero { background: #fff; }
+#turnosKiosco .kiosco-progreso li.is-complete, #turnosKiosco .kiosco-progreso li.is-done { border-color: #a6d4cc; color: var(--kiosco-verde); }
+#turnosKiosco .kiosco-mensaje { min-width: 0; height: 48px; padding: 6px 12px; display: flex; align-items: center; justify-content: center; border: 1px solid transparent; border-radius: 12px; font-size: 15px; line-height: 18px; font-weight: 600; text-align: center; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-mensaje:not(:empty) { background: #e5f1fa; border-color: #c2ddee; }
+#turnosKiosco .kiosco-mensaje.is-error, #turnosKiosco .kiosco-mensaje[data-tone="error"] { background: #fff1ef; border-color: #edc3ba; color: #a13726; }
+#turnosKiosco .kiosco-mensaje.is-success, #turnosKiosco .kiosco-mensaje[data-tone="success"] { background: #e8f6f1; border-color: #b4ddd0; color: var(--kiosco-verde); }
+#turnosKiosco .kiosco-mensaje[data-tone="warning"] { background: #fff5d8; border-color: #e8d5a0; color: #795710; }
+#turnosKiosco .kiosco-horario[data-status="closed"] { border-color: #e8d5a0; background: #fff5d8; color: #795710; }
+#turnosKiosco .kiosco-horario[data-status="offline"] { border-color: #ced9df; background: #edf1f4; color: #536b7a; }
+
+#turnosKiosco .kiosco-contenido, #turnosKiosco .kiosco-paso { min-width: 0; min-height: 0; }
+#turnosKiosco .kiosco-paso { height: 100%; padding: 20px; border: 1px solid var(--kiosco-borde); border-radius: 16px; background: #fff; }
+#turnosKiosco .kiosco-documento { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: center; }
+#turnosKiosco .kiosco-documento-formulario { min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+#turnosKiosco .kiosco-eyebrow { margin-bottom: 4px; color: var(--kiosco-cian); font-size: 15px; font-weight: 750; }
+#turnosKiosco .kiosco-introduccion > p:last-child, #turnosKiosco .kiosco-encabezado-paso p, #turnosKiosco .kiosco-ticket-cabecera > p:last-child { margin-top: 5px; color: var(--kiosco-mutado); font-size: 16px; }
+#turnosKiosco .kiosco-campo { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+#turnosKiosco .kiosco-campo > label { font-size: 16px; font-weight: 650; }
+#turnosKiosco input:not([type="checkbox"]), #turnosKiosco select { width: 100%; min-width: 0; min-height: 56px; padding: 10px 14px; border: 2px solid var(--kiosco-borde); border-radius: 12px; background: #fff; font-size: 20px; line-height: 1.2; }
+#turnosKiosco select { padding-right: 34px; }
+#turnosKiosco #kioscoDocumento { height: 64px; font-size: 30px; font-weight: 750; letter-spacing: 1px; }
+#turnosKiosco input::placeholder { color: #6a8397; font-size: 20px; font-weight: 400; letter-spacing: 0; }
+#turnosKiosco .kiosco-ayuda { color: var(--kiosco-mutado); font-size: 14px; }
+#turnosKiosco .kiosco-documento-acciones { display: flex; gap: 8px; }
+#turnosKiosco .kiosco-documento-acciones .kiosco-boton-primario { flex: 1; }
+#turnosKiosco .kiosco-boton { min-height: 56px; min-width: 56px; padding: 10px 18px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid transparent; border-radius: 12px; font-size: 18px; line-height: 1.15; font-weight: 700; text-align: center; }
+#turnosKiosco .kiosco-boton-primario { background: var(--kiosco-azul); color: #fff; border-color: var(--kiosco-azul); }
+#turnosKiosco .kiosco-boton-secundario { background: #edf4fa; color: var(--kiosco-azul); border-color: #bfd3e3; }
+#turnosKiosco .kiosco-boton-texto { background: #fff; color: var(--kiosco-mutado); border-color: var(--kiosco-borde); }
+#turnosKiosco .kiosco-boton-peligro { background: #fff1ef; color: #9d2b25; border-color: #e5b5af; }
+#turnosKiosco .kiosco-boton:not(:disabled):active, #turnosKiosco .kiosco-tecla:not(:disabled):active { background: #d5e9f4; color: var(--kiosco-oscuro); }
+#turnosKiosco .kiosco-teclado-panel { min-width: 0; padding-left: 24px; border-left: 1px solid #dce7ee; }
+#turnosKiosco #kioscoConsultar { width: 100%; margin-top: 10px; }
+#turnosKiosco .kiosco-teclado-titulo { margin-bottom: 12px; color: var(--kiosco-mutado); font-size: 16px; font-weight: 650; text-align: center; }
+#turnosKiosco .kiosco-numerico { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 78px; gap: 8px; }
+#turnosKiosco .kiosco-tecla { min-width: 0; min-height: 56px; border: 1px solid #bfd3e3; border-radius: 12px; background: #edf4fa; color: var(--kiosco-oscuro); font-size: 32px; line-height: 1; font-weight: 700; }
+#turnosKiosco .kiosco-tecla-accion { display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 4px; font-size: 19px; }
+#turnosKiosco .kiosco-tecla-accion span { font-size: 14px; }
+
+#turnosKiosco .kiosco-servicios-paso { display: grid; grid-template-rows: auto minmax(0, 1fr) 56px; gap: 12px; }
+#turnosKiosco .kiosco-encabezado-paso { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+#turnosKiosco .kiosco-servicios-paso > .kiosco-encabezado-paso { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+#turnosKiosco .kiosco-servicios-paso[data-paginated="true"] > .kiosco-encabezado-paso { grid-template-columns: minmax(0, 1fr) minmax(350px, 44%); }
+#turnosKiosco .kiosco-servicios-paso .kiosco-paginacion { gap: 8px; }
+#turnosKiosco .kiosco-servicios-paso .kiosco-paginacion .kiosco-boton { padding-inline: 8px; font-size: 16px; }
+#turnosKiosco .kiosco-servicios-grid { min-width: 0; min-height: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 12px; }
+#turnosKiosco .kiosco-servicio { min-width: 0; min-height: 56px; padding: 12px; display: flex; align-items: center; justify-content: center; gap: 8px; flex-direction: column; border: 2px solid var(--kiosco-borde); border-radius: 14px; background: #f7fafc; color: var(--kiosco-azul); font-size: clamp(16px, 1.45vw, 21px); line-height: 1.2; font-weight: 700; text-align: center; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-servicio[aria-pressed="true"], #turnosKiosco .kiosco-servicio.is-selected, #turnosKiosco .kiosco-servicio.is-seleccionado { border-color: var(--kiosco-azul); background: #e5f2fa; box-shadow: inset 0 0 0 1px var(--kiosco-azul); }
+#turnosKiosco .kiosco-servicio small { color: var(--kiosco-mutado); font-size: 14px; font-weight: 500; }
+#turnosKiosco .kiosco-servicios-vacios { grid-column: 1 / -1; grid-row: 1 / -1; align-self: center; justify-self: center; padding: 20px; color: var(--kiosco-mutado); font-size: 20px; text-align: center; }
+#turnosKiosco .kiosco-paginacion { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px; }
+#turnosKiosco .kiosco-paginacion > span { color: var(--kiosco-mutado); font-size: 16px; font-weight: 650; text-align: center; }
+#turnosKiosco .kiosco-acciones-paso { display: grid; grid-template-columns: auto auto minmax(0, 1fr); gap: 12px; }
+#turnosKiosco .kiosco-acciones-paso > .kiosco-boton-primario { justify-self: end; min-width: 250px; }
+
+#turnosKiosco .kiosco-confirmacion { display: grid; grid-template-rows: auto minmax(0, 1fr) 56px; gap: 12px; }
+#turnosKiosco .kiosco-confirmacion-encabezado { display: grid; gap: 8px; }
+#turnosKiosco .kiosco-confirmacion-servicio { padding: 8px 12px; border: 1px solid #d9e5ed; border-radius: 12px; background: #f4f8fb; }
+#turnosKiosco .kiosco-confirmacion-servicio dd { font-size: 18px; }
+#turnosKiosco .kiosco-confirmacion-grid { min-width: 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; }
+#turnosKiosco .kiosco-resumen-persona { min-width: 0; padding: 14px 18px; border: 1px solid #d9e5ed; border-radius: 14px; background: #f4f8fb; }
+#turnosKiosco .kiosco-datos-persona { display: grid; gap: 12px; }
+#turnosKiosco dt { color: var(--kiosco-mutado); font-size: 14px; line-height: 1.2; }
+#turnosKiosco dd { margin-top: 4px; color: var(--kiosco-oscuro); font-size: 20px; line-height: 1.2; font-weight: 700; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-particular { margin-top: 12px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
+#turnosKiosco .kiosco-campo-editable { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+#turnosKiosco .kiosco-campo-editable input { font-size: 18px; }
+#turnosKiosco .kiosco-campo-editable .kiosco-boton { padding-inline: 12px; font-size: 16px; }
+#turnosKiosco .kiosco-particular .kiosco-campo-editable { grid-template-columns: minmax(0, 1fr); }
+/* El formulario del particular sustituye el nombre vacío, sin duplicar filas. */
+#turnosKiosco .kiosco-resumen-persona:has(#kioscoCamposParticular:not([hidden])) .kiosco-dato-nombre { display: none; }
+#turnosKiosco .kiosco-resumen-persona:has(#kioscoCamposParticular:not([hidden])) .kiosco-datos-persona { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+#turnosKiosco .kiosco-prioridades { min-width: 0; margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: 10px; }
+#turnosKiosco .kiosco-prioridades legend { padding: 0; color: var(--kiosco-oscuro); font-size: 19px; line-height: 1.2; font-weight: 700; }
+#turnosKiosco .kiosco-prioridades > p { margin-top: 6px; color: var(--kiosco-mutado); font-size: 14px; }
+#turnosKiosco .kiosco-prioridad { min-height: 56px; display: flex; align-items: center; gap: 12px; padding: 10px 14px; border: 1px solid #c9dbe7; border-radius: 12px; background: #f4f8fb; font-size: 18px; font-weight: 650; cursor: pointer; }
+#turnosKiosco .kiosco-prioridad input { flex: 0 0 auto; width: 26px; height: 26px; margin: 0; accent-color: var(--kiosco-azul); }
+#turnosKiosco .kiosco-prioridad:has(input:checked) { border-color: var(--kiosco-azul); background: #e5f2fa; }
+
+#turnosKiosco .kiosco-ticket { display: grid; grid-template-rows: auto minmax(0, 1fr) 56px; gap: 12px; }
+#turnosKiosco .kiosco-ticket-cabecera { text-align: center; }
+#turnosKiosco .kiosco-ticket-grid { min-height: 0; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 24px; align-items: center; }
+#turnosKiosco .kiosco-ticket-numero { min-width: 0; padding: 18px; border: 1px solid #b9d3e5; border-radius: 16px; background: #eaf4fb; text-align: center; }
+#turnosKiosco .kiosco-ticket-numero > span:first-child { display: block; color: var(--kiosco-mutado); font-size: 16px; font-weight: 650; }
+#turnosKiosco #kioscoTicketCodigo { display: block; margin: 8px 0; color: var(--kiosco-oscuro); font-size: clamp(46px, 7.2vw, 92px); line-height: 1.05; font-weight: 800; letter-spacing: 1px; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-ticket-prioridad { display: inline-block; margin-top: 4px; padding: 6px 12px; border-radius: 10px; background: #fff2cb; color: #785406; font-size: 15px; font-weight: 700; }
+#turnosKiosco .kiosco-ticket-cuenta { margin-top: 12px; color: var(--kiosco-mutado); font-size: 15px; }
+#turnosKiosco .kiosco-ticket-detalles { min-width: 0; display: grid; gap: 12px; }
+#turnosKiosco .kiosco-ticket-detalles dd { font-size: 18px; }
+#turnosKiosco .kiosco-ticket-acciones { grid-template-columns: 1fr 1fr; }
+#turnosKiosco .kiosco-ticket-acciones > .kiosco-boton-primario { justify-self: stretch; }
+
+/* Recuperar un vigente no genera ni imprime otro turno automáticamente. */
+#turnosKiosco .kiosco-vigente { display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto auto; gap: 12px; }
+#turnosKiosco .kiosco-vigente-grid { min-width: 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); align-items: center; gap: 24px; }
+#turnosKiosco #kioscoVigenteCodigo { display: block; margin: 8px 0; color: var(--kiosco-oscuro); font-size: clamp(42px, 6.6vw, 86px); line-height: 1.05; font-weight: 800; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-vigente-estado { display: inline-block; padding: 6px 12px; border-radius: 10px; background: #d8ede7; color: var(--kiosco-verde); font-weight: 700; }
+#turnosKiosco .kiosco-vigente-ayuda { padding: 10px 12px; border: 1px solid #c6dbe8; border-radius: 10px; background: #f4f8fb; color: var(--kiosco-mutado); font-size: 16px; overflow-wrap: anywhere; }
+#turnosKiosco .kiosco-vigente-opciones { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+#turnosKiosco .kiosco-vigente-salida { display: flex; align-items: center; justify-content: flex-end; gap: 12px; }
+#turnosKiosco .kiosco-vigente-salida > .kiosco-boton { min-width: 0; }
+#turnosKiosco .kiosco-cambio-aviso { padding: 18px; border: 1px solid #e8d5a0; border-radius: 14px; background: #fff7df; color: #785406; }
+#turnosKiosco .kiosco-cambio-aviso h3 { margin: 0 0 12px; font-size: 21px; }
+#turnosKiosco .kiosco-cambio-aviso p + p { margin-top: 12px; font-size: 16px; }
+#turnosKiosco .kiosco-dialogo-cancelar { width: min(640px, calc(100vw - 24px)); }
+#turnosKiosco .kiosco-dialogo-cancelar > p { margin: 14px 0; font-size: 18px; overflow-wrap: anywhere; }
+
+#turnosKiosco .kiosco-dialogo { width: min(960px, calc(100vw - 24px)); max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); margin: auto; padding: 20px; border: 1px solid var(--kiosco-borde); border-radius: 18px; background: #fff; color: var(--kiosco-texto); }
+#turnosKiosco .kiosco-dialogo::backdrop { background: rgba(6, 36, 59, .64); }
+#turnosKiosco .kiosco-dialogo-teclado[open] { display: grid; gap: 12px; }
+#turnosKiosco .kiosco-dialogo-encabezado h2 { font-size: 24px; }
+#turnosKiosco #kioscoAlfaCampo { height: 60px; font-size: 25px; font-weight: 650; }
+#turnosKiosco .kiosco-alfa { display: grid; gap: 8px; }
+#turnosKiosco .kiosco-alfa-fila { display: flex; justify-content: center; gap: 6px; }
+#turnosKiosco .kiosco-alfa-fila .kiosco-tecla { flex: 1 1 0; min-width: 0; min-height: 56px; padding: 8px 4px; font-size: 22px; }
+#turnosKiosco .kiosco-alfa-fila .kiosco-tecla-accion, #turnosKiosco .kiosco-alfa-fila [data-key="space"], #turnosKiosco .kiosco-alfa-fila [data-key="backspace"], #turnosKiosco .kiosco-alfa-fila [data-key="clear"] { flex-grow: 2; font-size: 17px; }
+#turnosKiosco .kiosco-dialogo-acciones { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+#turnosKiosco .kiosco-dialogo-inactividad { width: min(540px, calc(100vw - 24px)); padding: 28px; }
+#turnosKiosco .kiosco-dialogo-inactividad > p { margin: 16px 0 24px; color: var(--kiosco-mutado); font-size: 19px; }
+#turnosKiosco .kiosco-solo-lector { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+/* 1024 × 640: compactar separaciones, nunca esconder o reducir las teclas de 78 px. */
+@media (min-width: 801px) and (max-height: 700px) {
+    #turnosKiosco { grid-template-rows: 56px 44px 48px minmax(0, 1fr); }
+    #turnosKiosco .kiosco-logo { width: 125px; height: 52px; }
+    #turnosKiosco .kiosco-paso { padding: 16px; }
+    #turnosKiosco .kiosco-documento-formulario { gap: 10px; }
+    #turnosKiosco .kiosco-teclado-titulo { display: none; }
+    #turnosKiosco .kiosco-introduccion > p:last-child { font-size: 15px; }
+    #turnosKiosco .kiosco-servicios-paso, #turnosKiosco .kiosco-confirmacion, #turnosKiosco .kiosco-ticket { gap: 10px; }
+    #turnosKiosco .kiosco-servicios-paso { padding: 8px; gap: 8px; }
+    #turnosKiosco .kiosco-servicios-paso > .kiosco-encabezado-paso p { display: none; }
+    #turnosKiosco .kiosco-servicios-grid { gap: 8px; }
+    #turnosKiosco .kiosco-servicio { padding: 3px; font-size: 16px; }
+    #turnosKiosco .kiosco-confirmacion-encabezado > div > p { display: none; }
+    #turnosKiosco .kiosco-confirmacion-servicio { padding: 4px 8px; }
+    #turnosKiosco .kiosco-confirmacion-servicio dd { font-size: 16px; }
+    #turnosKiosco .kiosco-ticket-cabecera > p { display: none; }
+    #turnosKiosco .kiosco-resumen-persona { padding: 8px; }
+    #turnosKiosco .kiosco-datos-persona { gap: 8px; }
+    #turnosKiosco .kiosco-datos-persona dd, #turnosKiosco .kiosco-ticket-detalles dd { font-size: 16px; }
+    #turnosKiosco .kiosco-ticket-detalles { gap: 8px; }
+    #turnosKiosco .kiosco-vigente { gap: 8px; }
+    #turnosKiosco .kiosco-vigente-grid { gap: 16px; }
+    #turnosKiosco .kiosco-vigente .kiosco-ticket-numero { padding: 8px; }
+    #turnosKiosco #kioscoVigenteCodigo { font-size: 54px; }
+    #turnosKiosco .kiosco-vigente-opciones { gap: 8px; }
+    #turnosKiosco .kiosco-vigente-opciones .kiosco-boton, #turnosKiosco .kiosco-vigente-salida .kiosco-boton { padding-inline: 10px; font-size: 16px; }
+    #turnosKiosco .kiosco-vigente-ayuda { padding: 8px 10px; font-size: 15px; }
+    #turnosKiosco .kiosco-cambio-aviso { padding: 12px; }
+    #turnosKiosco .kiosco-particular { margin-top: 8px; gap: 8px; }
+    #turnosKiosco .kiosco-particular .kiosco-campo { gap: 4px; }
+    #turnosKiosco .kiosco-particular .kiosco-campo > label { font-size: 14px; }
+    #turnosKiosco .kiosco-prioridades { gap: 8px; }
+    #turnosKiosco .kiosco-prioridades legend { font-size: 17px; }
+    #turnosKiosco .kiosco-prioridades > p { display: none; }
+}
+
+/* En móvil se permite desplazamiento vertical; nunca desplazamiento horizontal. */
+@media (max-width: 800px) {
+    #turnosKiosco { height: auto; min-height: 100vh; min-height: 100dvh; padding: 10px; grid-template-rows: auto 44px minmax(48px, auto) auto; overflow: visible; }
+    #turnosKiosco .kiosco-mensaje { height: auto; min-height: 48px; }
+    #turnosKiosco .kiosco-cabecera { padding: 4px 2px; gap: 12px; flex-wrap: wrap; }
+    #turnosKiosco .kiosco-logo { width: 106px; height: 48px; }
+    #turnosKiosco .kiosco-cabecera-texto { flex: 1; padding-left: 12px; }
+    #turnosKiosco h1 { font-size: 22px; }
+    #turnosKiosco .kiosco-cabecera-texto p { font-size: 12px; }
+    #turnosKiosco .kiosco-horario { width: 100%; max-width: none; margin-left: 0; padding: 6px 10px; }
+    #turnosKiosco .kiosco-progreso ol { gap: 4px; }
+    #turnosKiosco .kiosco-progreso li { gap: 4px; font-size: 12px; border-radius: 10px; }
+    #turnosKiosco .kiosco-etapa-numero { width: 22px; height: 22px; font-size: 12px; }
+    #turnosKiosco .kiosco-paso { height: auto; padding: 16px; }
+    #turnosKiosco h2 { font-size: 25px; }
+    #turnosKiosco .kiosco-documento, #turnosKiosco .kiosco-confirmacion-grid, #turnosKiosco .kiosco-ticket-grid { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+    #turnosKiosco .kiosco-documento-formulario { gap: 14px; }
+    #turnosKiosco .kiosco-teclado-panel { padding: 0; border-left: 0; }
+    #turnosKiosco .kiosco-servicios-paso { grid-template-rows: auto auto auto; }
+    #turnosKiosco .kiosco-servicios-paso > .kiosco-encabezado-paso, #turnosKiosco .kiosco-servicios-paso[data-paginated="true"] > .kiosco-encabezado-paso { grid-template-columns: minmax(0, 1fr); }
+    #turnosKiosco .kiosco-servicios-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; grid-auto-rows: minmax(104px, auto); gap: 10px; }
+    #turnosKiosco .kiosco-servicio { padding: 14px 10px; font-size: 18px; }
+    #turnosKiosco .kiosco-paginacion { grid-template-columns: 1fr 1fr; gap: 8px; }
+    #turnosKiosco .kiosco-paginacion > span { grid-column: 1 / -1; grid-row: 1; padding: 4px; }
+    #turnosKiosco .kiosco-paginacion .kiosco-boton { padding: 10px; font-size: 16px; }
+    #turnosKiosco .kiosco-acciones-paso { grid-template-columns: 1fr 1fr; gap: 8px; }
+    #turnosKiosco .kiosco-acciones-paso > .kiosco-boton-primario { grid-column: 1 / -1; justify-self: stretch; min-width: 0; }
+    #turnosKiosco .kiosco-confirmacion, #turnosKiosco .kiosco-ticket { grid-template-rows: auto auto auto; gap: 18px; }
+    #turnosKiosco .kiosco-resumen-persona:has(#kioscoCamposParticular:not([hidden])) .kiosco-datos-persona { grid-template-columns: minmax(0, 1fr); }
+    #turnosKiosco .kiosco-ticket-acciones { grid-template-columns: 1fr; }
+    #turnosKiosco .kiosco-vigente { grid-template-rows: auto auto auto auto auto; gap: 16px; }
+    #turnosKiosco .kiosco-vigente-grid { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+    #turnosKiosco .kiosco-vigente-opciones { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+    #turnosKiosco .kiosco-vigente-salida { flex-wrap: wrap; }
+    #turnosKiosco .kiosco-vigente-salida > .kiosco-boton { flex: 1 1 180px; }
+    #turnosKiosco .kiosco-dialogo { padding: 14px; }
+    #turnosKiosco .kiosco-alfa-fila { gap: 3px; }
+    #turnosKiosco .kiosco-alfa { grid-template-columns: repeat(auto-fit, minmax(56px, 1fr)); gap: 4px; }
+    #turnosKiosco .kiosco-alfa-fila { display: contents; }
+    #turnosKiosco .kiosco-alfa-fila .kiosco-tecla { min-width: 56px; padding: 6px 1px; border-radius: 8px; font-size: 17px; }
+    #turnosKiosco .kiosco-dialogo-acciones { gap: 8px; }
+    #turnosKiosco .kiosco-dialogo-acciones .kiosco-boton { padding: 10px; font-size: 17px; }
+}
+@media (max-width: 420px) {
+    #turnosKiosco .kiosco-progreso li { flex-direction: column; gap: 2px; font-size: 11px; }
+    #turnosKiosco .kiosco-documento-acciones { flex-direction: column; }
+    #turnosKiosco .kiosco-campo-editable { grid-template-columns: minmax(0, 1fr) 88px; }
+}
+/* Tablet vertical: aprovechar su anchura en el formulario y mantener todos los pasos a la vista. */
+@media (min-width: 601px) and (max-width: 800px) and (min-height: 960px) {
+    #turnosKiosco { height: 100vh; height: 100dvh; grid-template-rows: 64px 44px minmax(48px, auto) minmax(0, 1fr); overflow: hidden; }
+    #turnosKiosco .kiosco-cabecera { flex-wrap: nowrap; }
+    #turnosKiosco .kiosco-horario { width: auto; max-width: 210px; margin-left: auto; }
+    #turnosKiosco .kiosco-paso { height: 100%; }
+    #turnosKiosco .kiosco-documento { grid-template-rows: auto auto; align-content: center; gap: 16px; }
+    #turnosKiosco .kiosco-documento-formulario { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+    #turnosKiosco .kiosco-introduccion { grid-column: 1 / -1; }
+    #turnosKiosco .kiosco-documento-acciones, #turnosKiosco .kiosco-ayuda-recepcion { align-self: center; }
+    #turnosKiosco .kiosco-teclado-titulo { display: none; }
+    #turnosKiosco .kiosco-confirmacion { grid-template-rows: auto minmax(0, 1fr) 56px; }
+    #turnosKiosco .kiosco-confirmacion-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+    #turnosKiosco .kiosco-acciones-paso { grid-template-columns: auto auto minmax(0, 1fr); }
+    #turnosKiosco .kiosco-acciones-paso > .kiosco-boton-primario { grid-column: auto; }
+    #turnosKiosco .kiosco-ticket { grid-template-rows: auto minmax(0, 1fr) 56px; }
+    #turnosKiosco .kiosco-ticket-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 16px; }
+    #turnosKiosco .kiosco-ticket-acciones { grid-template-columns: 1fr 1fr; }
+    /* Doce servicios necesitan seis filas en vertical, sin solapar las acciones. */
+    #turnosKiosco:has(.kiosco-servicios-paso:not([hidden])) { height: auto; min-height: 100vh; min-height: 100dvh; grid-template-rows: 64px 44px minmax(48px, auto) auto; overflow: visible; }
+    #turnosKiosco .kiosco-servicios-paso { height: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #turnosKiosco *, #turnosKiosco *::before, #turnosKiosco *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

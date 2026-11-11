@@ -1,0 +1,34 @@
+{
+ "title": "Pintura barroca",
+ "description": "En el siglo XVII los pintores usaron fuertes contrastes de luz y sombra, escenas llenas de vida y gran realismo. Obras de Vermeer, Rembrandt, Velázquez, Frans Hals, Artemisia Gentileschi, Murillo, Zurbarán y Rubens.",
+ "gradeMin": 6, "gradeMax": 11,
+ "categories": ["Artes", "Historia del arte", "Pintura", "Europa"],
+ "cover": 1,
+ "items": [
+  ["Pintura de una mujer con delantal azul y gorro blanco que vierte leche de una jarra, junto a una mesa con pan, iluminada desde una ventana.",
+   "La lechera, de Johannes Vermeer (hacia 1658). Vermeer era un maestro de la luz que entra por las ventanas; se dice que pintaba los puntitos de luz del pan uno por uno."],
+  ["Paisaje de una ciudad con torres y techos rojos al otro lado del agua, bajo un cielo amplio con nubes.",
+   "Vista de Delft, de Vermeer (hacia 1660). Muestra su ciudad natal en Holanda reflejada en el agua, con nubes que proyectan sombras sobre los edificios."],
+  ["Autorretrato de un hombre mayor con boina oscura, rostro iluminado y fondo en penumbra.",
+   "Rembrandt se pintó a sí mismo en 1659. Hizo cerca de 80 autorretratos a lo largo de su vida, en los que se ve cómo fue envejeciendo."],
+  ["Pintura de dos grupos de soldados con lanzas; en el centro un general entrega una llave a otro que lo recibe con amabilidad.",
+   "La rendición de Breda, de Diego Velázquez (hacia 1635). El general vencido entrega la llave de la ciudad y el vencedor le pone la mano en el hombro, un gesto de respeto. También se le llama 'Las lanzas'."],
+  ["Retrato de un caballero con bigote, sombrero negro de ala ancha y traje bordado, que mira con media sonrisa.",
+   "El caballero sonriente, de Frans Hals (1624). Hals pintaba con pinceladas rápidas y sueltas, que dan la impresión de movimiento y vida."],
+  ["Autorretrato de una mujer con turbante y vestido azul que toca un laúd.",
+   "Artemisia Gentileschi se retrató tocando el laúd (hacia 1615–1618). Fue una de las primeras mujeres admitidas en la Academia de Dibujo de Florencia."],
+  ["Pintura de dos niños sentados en el suelo comiendo uvas y melón, con una canasta de fruta.",
+   "Niños comiendo uvas y melón, de Bartolomé Esteban Murillo (hacia 1650). El pintor sevillano retrató a niños de la calle con simpatía y naturalidad."],
+  ["Bodegón sobre fondo negro con limones en un plato, una canasta de naranjas con flores y una taza con una rosa.",
+   "Bodegón con limones, naranjas y una rosa, de Francisco de Zurbarán (1633). Los bodegones representan objetos y alimentos; aquí la luz hace brillar cada fruta sobre el fondo oscuro."],
+  ["Autorretrato de un hombre con sombrero negro de ala ancha, bigote y barba, con capa oscura.",
+   "Pedro Pablo Rubens fue uno de los pintores más famosos del barroco y también diplomático. Tenía un gran taller en Amberes con muchos ayudantes."]
+ ],
+ "questions": [
+  ["¿Qué gesto hace el general vencedor en La rendición de Breda?", ["Pone la mano en el hombro del vencido", "Le quita la espada", "Le da la espalda"], 0, "Es un gesto de respeto hacia el vencido."],
+  ["¿Qué caracteriza a la pintura de Vermeer?", ["La luz que entra por las ventanas", "Los colores fosforescentes", "Las figuras geométricas"], 0, "Vermeer era un maestro de la luz."],
+  ["¿Qué es un bodegón?", ["Una pintura de objetos y alimentos", "Un retrato de un rey", "Un mapa"], 0, "Zurbarán pintó un famoso bodegón con limones y naranjas."],
+  ["¿Cuántos autorretratos pintó aproximadamente Rembrandt?", ["Cerca de 80", "Solo uno", "Más de mil"], 0, "En ellos se ve cómo fue envejeciendo."]
+ ],
+ "reviewNotes": "Las meninas, La ronda de noche y La joven de la perla ya están en grandes-pintores; no se repitieron."
+}

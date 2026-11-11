@@ -1,0 +1,88 @@
+<?php
+
+?>
+<!--start back-to-top-->
+<button onclick="topFunction()" class="btn btn-secondary btn-icon" id="back-to-top">
+    <i class="ri-arrow-up-line"></i>
+</button>
+<!--end back-to-top-->
+
+<!--preloader-->
+<div id="preloader">
+    <div id="status">
+        <div class="spinner-border text-primary avatar-sm" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+<!-- JAVASCRIPT -->
+<?php if (!empty($pqr_assets)): ?>
+<script src="<?php echo base_url() ?>assets/js/funciones/jquery-3.6.4.min.js"></script>
+<script src="<?php echo base_url() ?>dist/jquery.validate.min.js"></script>
+<script src="<?php echo base_url() ?>assets/select2/dist/js/select2.min.js"></script>
+<script src="<?php echo base_url() ?>assets/libs/flatpickr/flatpickr.min.js"></script>
+<script src="<?php echo base_url() ?>assets/libs/flatpickr/l10n/es.js"></script>
+<?php endif; ?>
+<script src="<?php echo base_url() ?>assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url() ?>assets/libs/simplebar/simplebar.min.js"></script>
+<script src="<?php echo base_url() ?>assets/libs/node-waves/waves.min.js"></script>
+<script src="<?php echo base_url() ?>assets/libs/feather-icons/feather.min.js"></script>
+<?php if (empty($inicio_assets_minimos)): ?>
+<script src="<?php echo base_url() ?>assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
+<?php endif; ?>
+<script src="<?php echo app_asset_url('assets/js/plugins.js'); ?>"></script>
+
+<!-- apexcharts -->
+<?php if (empty($inicio_assets_minimos)): ?>
+<script src="<?php echo base_url() ?>assets/libs/apexcharts/apexcharts.min.js"></script>
+
+<!-- Vector map-->
+<script src="<?php echo base_url() ?>assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+<script src="<?php echo base_url() ?>assets/libs/jsvectormap/maps/world-merc.js"></script>
+
+<!--Swiper slider js-->
+<script src="<?php echo base_url() ?>assets/libs/swiper/swiper-bundle.min.js"></script>
+
+<!-- Dashboard init -->
+<script src="<?php echo base_url() ?>assets/js/pages/dashboard-ecommerce.init.js"></script>
+
+<!-- profile-setting init js -->
+<script src="<?php echo base_url() ?>assets/js/pages/profile-setting.init.js"></script>
+<?php endif; ?>
+
+<script src="<?php echo base_url() ?>assets/js/pages/notifications.init.js"></script>
+
+<!-- App js -->
+<script src="<?php echo base_url() ?>assets/js/app.js"></script>        
+<!-- Sweet Alerts js -->
+<script src="<?php echo base_url() ?>assets/libs/sweetalert2/sweetalert2.min.js"></script>
+<?php if (!empty($pqr_assets)): ?>
+<script src="<?php echo base_url() ?>assets/js/pqr-validation.js?v=<?php echo (int)@filemtime(FCPATH.'assets/js/pqr-validation.js'); ?>"></script>
+<script src="<?php echo base_url() ?>assets/js/pqr-components.js?v=<?php echo (int)@filemtime(FCPATH.'assets/js/pqr-components.js'); ?>"></script>
+<?php endif; ?>
+
+<!-- Sweet alert init js-->
+<?php if (empty($inicio_assets_minimos)): ?>
+<script src="<?php echo base_url() ?>assets/js/pages/sweetalerts.init.js"></script>
+
+<script src="<?php echo base_url() ?>assets/js/pages/modal.init.js"></script>    
+<!-- Widget init -->
+
+<script src="<?php echo base_url() ?>assets/libs/cleave.js/cleave.min.js"></script>
+<script src="<?php echo base_url() ?>assets/js/pages/form-masks.init.js"></script>
+<?php endif; ?>
+
+
+
+
+
+
+<!-- PWA App Comfasucre -->
+<script src="<?php echo base_url('assets/js/app-pwa.js'); ?>"></script>
+<script src="<?php echo app_asset_url('assets/js/app-startup.js'); ?>"></script>
+<script src="<?php echo app_asset_url('assets/js/app-push.js'); ?>"></script>
+<script src="<?php echo app_asset_url('assets/js/app-notificaciones-internas.js'); ?>"></script>
+
+</body>
+
+</html>

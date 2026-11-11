@@ -1,0 +1,89 @@
+﻿<?php
+ defined('BASEPATH') OR exit('No direct script access allowed');
+ function pqr_rows_h($v){return html_escape((string)($v??''));}
+ function pqr_rows_subject_view($raw) {
+  $raw = (string)$raw;
+  // QA-only prefix is metadata; keep the complete source in the HTML title.
+  if (preg_match('/^\[(QA[A-Z0-9_-]{6,48})\]\s*(\S.*)$/iu', $raw, $matches)) {
+   return ['text' => $matches[2], 'qa' => $matches[1], 'full' => $raw];
+  }
+  return ['text' => $raw, 'qa' => '', 'full' => $raw];
+ }
+ function pqr_rows_compact_priority($label) {
+  $label = (string)$label;
+  // Only abbreviate the known full overdue expression, never recalculate legal terms.
+  if (preg_match('/^Vencida hace\s+(\d+)\s+d[ií]a(?:s)?\s+h[aá]bil(?:es)?$/iu', trim($label), $matches)) {
+   return 'Vencida · '.$matches[1].' d. háb.';
+  }
+  // Un resultado de 0 días hábiles no significa que la fecha de vencimiento sea hoy.
+  if (preg_match('/^Faltan\s+0\s+d[ií]as?\s+h[aá]bil(?:es)?$/iu', trim($label))) {
+   return 'Sin días hábiles';
+  }
+  return $label;
+ }
+ function pqr_rows_state_label($state) {
+   $state=(string)$state;
+   // Solo traducir la etiqueta visual; el identificador del estado no cambia.
+   if ($state==='pendiente_prorroga') return 'Pendiente de prórroga';
+   return ucwords(str_replace('_',' ',$state));
+ }
+ $rows=$result['rows']??[];
+ $page=(int)($result['page']??1);
+ $pages=max(1,(int)($result['pages']??1));
+ $showOrigin=!empty($show_origin);
+ $statusClasses=['pendiente_canalizacion'=>'warning','canalizada'=>'info','en_gestion'=>'info','pendiente_prorroga'=>'attention','suspendida'=>'secondary','respondida'=>'success','cerrada'=>'success','trasladada'=>'secondary','anulada'=>'secondary'];
+?>
+<?php if(!$rows):?>
+ <div class="pqr-empty"><i class="ri-inbox-archive-line fs-1 d-block mb-2" aria-hidden="true"></i><strong>No hay PQR con los filtros seleccionados.</strong><span class="d-block mt-1">Prueba otra prioridad o limpia los filtros.</span></div>
+<?php else:?>
+ <div class="pqr-desktop-list table-responsive">
+  <table class="table pqr-table pqr-inbox-table mb-0">
+   <thead><tr><th scope="col">Radicado</th><th scope="col">Asunto / solicitante</th><?php if($showOrigin):?><th scope="col">Origen</th><?php endif;?><th scope="col">Dependencia</th><th scope="col">Estado</th><th scope="col">Plazo</th><th scope="col">Acción requerida</th><th scope="col" class="pqr-actions-col">Acciones</th></tr></thead>
+   <tbody>
+   <?php foreach($rows as $r):
+     $priority=$r['prioridad']??$r['semaforo']??['class'=>'secondary','icon'=>'ri-information-line','label'=>'Sin prioridad','reason'=>'','action'=>'Abrir expediente'];
+     $state=(string)($r['estado']??'');
+     $stateClass=$statusClasses[$state]??'secondary';
+     $deadline=!empty($r['fecha_vencimiento'])?date('d/m/Y',strtotime($r['fecha_vencimiento'])):null;
+     $subject=pqr_rows_subject_view($r['asunto']??'');
+     $priorityCaption=pqr_rows_compact_priority($priority['label']??'');
+     $priorityTooltip=$priorityCaption==='Sin días hábiles' && $deadline
+      ? $priorityCaption.'. Fecha de vencimiento: '.$deadline
+      : ($priority['label']??'');
+   ?>
+   <tr class="pqr-priority-row priority-<?=pqr_rows_h($priority['code']??'normal')?>">
+    <td class="pqr-inbox-radicado"><a href="<?=pqr_rows_h($r['url'])?>" class="pqr-radicado"><?=pqr_rows_h($r['radicado'])?></a><small class="d-block text-muted"><?=pqr_rows_h($r['canal'])?></small><?php if(!empty($r['radicado_archivo'])):?><small class="d-block text-muted">Archivo: <?=pqr_rows_h($r['radicado_archivo'])?></small><?php endif;?></td>
+     <td class="pqr-inbox-person"><span class="pqr-inbox-subject pqr-clamp-2" title="<?=pqr_rows_h($subject['full'])?>"><?=pqr_rows_h($subject['text'])?></span><span class="pqr-inbox-person-meta"><span class="pqr-inbox-person-name" title="<?=pqr_rows_h($r['nombres'])?>"><?=pqr_rows_h($r['nombres'])?></span><?php if($subject['qa']!==''):?><abbr class="pqr-inbox-qa" title="Referencia de pruebas: <?=pqr_rows_h($subject['qa'])?>">QA</abbr><?php endif;?></span></td>
+    <?php if($showOrigin):?><td><span class="pqr-badge <?=pqr_rows_h($r['origin_class']??'secondary')?>"><i class="<?=pqr_rows_h($r['origin_icon']??'ri-information-line')?>" aria-hidden="true"></i><?=pqr_rows_h($r['origin_label']??'Origen no disponible')?></span></td><?php endif;?>
+    <td class="pqr-inbox-area"><?=pqr_rows_h($r['area_principal']?:'Pendiente de canalización')?><?php if((int)$r['areas_pendientes']>0):?><small class="d-block text-muted"><?=(int)$r['areas_pendientes']?> área<?=(int)$r['areas_pendientes']===1?'':'s'?> pendiente<?=(int)$r['areas_pendientes']===1?'':'s'?></small><?php endif;?></td>
+    <td><span class="pqr-badge <?=pqr_rows_h($stateClass)?>"><i class="ri-record-circle-line" aria-hidden="true"></i><?=pqr_rows_h(pqr_rows_state_label($state))?></span></td>
+    <td class="pqr-inbox-deadline"><span class="pqr-badge <?=pqr_rows_h($priority['class'])?>" title="<?=pqr_rows_h($priorityTooltip)?>" aria-label="<?=pqr_rows_h($priorityTooltip)?>"><i class="<?=pqr_rows_h($priority['icon'])?>" aria-hidden="true"></i><?=pqr_rows_h($priorityCaption)?></span><small class="d-block text-muted mt-1"><?=$deadline?'Vence: '.pqr_rows_h($deadline):'Recibida: '.pqr_rows_h(date('d/m/Y',strtotime($r['fecha_recepcion'])))?></small></td>
+    <td class="pqr-inbox-next"><strong class="pqr-action-label"><?=pqr_rows_h($priority['action'])?></strong><small class="d-block text-muted pqr-clamp-2"><?=pqr_rows_h($priority['reason'])?></small></td>
+    <td class="pqr-inbox-action"><a class="btn btn-sm btn-pqr" href="<?=pqr_rows_h($r['url'])?>" aria-label="Gestionar expediente <?=pqr_rows_h($r['radicado'])?>">Gestionar</a></td>
+   </tr>
+   <?php endforeach;?>
+   </tbody>
+  </table>
+ </div>
+ <div class="pqr-mobile-list">
+  <?php foreach($rows as $r):
+    $priority=$r['prioridad']??$r['semaforo']??['class'=>'secondary','icon'=>'ri-information-line','label'=>'Sin prioridad','reason'=>'','action'=>'Abrir expediente'];
+    $state=(string)($r['estado']??'');
+    $subject=pqr_rows_subject_view($r['asunto']??'');
+    $priorityCaption=pqr_rows_compact_priority($priority['label']??'');
+    $deadline=!empty($r['fecha_vencimiento'])?date('d/m/Y',strtotime($r['fecha_vencimiento'])):null;
+    $priorityTooltip=$priorityCaption==='Sin días hábiles' && $deadline
+     ? $priorityCaption.'. Fecha de vencimiento: '.$deadline
+     : ($priority['label']??'');
+  ?>
+  <article class="pqr-mobile-card priority-<?=pqr_rows_h($priority['code']??'normal')?>">
+   <div class="pqr-mobile-top"><div><a href="<?=pqr_rows_h($r['url'])?>" class="pqr-radicado"><?=pqr_rows_h($r['radicado'])?></a><small class="d-block text-muted"><?=pqr_rows_h($r['canal'])?></small></div><span class="pqr-badge <?=pqr_rows_h($priority['class'])?>" title="<?=pqr_rows_h($priorityTooltip)?>" aria-label="<?=pqr_rows_h($priorityTooltip)?>"><i class="<?=pqr_rows_h($priority['icon'])?>" aria-hidden="true"></i><?=pqr_rows_h($priorityCaption)?></span></div>
+    <h6 class="pqr-mobile-subject pqr-clamp-2" title="<?=pqr_rows_h($subject['full'])?>"><?=pqr_rows_h($subject['text'])?></h6><p class="pqr-mobile-person"><?=pqr_rows_h($r['nombres'])?><?php if($subject['qa']!==''):?> <abbr class="pqr-inbox-qa" title="Referencia de pruebas: <?=pqr_rows_h($subject['qa'])?>">QA</abbr><?php endif;?></p>
+   <div class="pqr-mobile-facts"><span><i class="ri-building-line" aria-hidden="true"></i> <?=pqr_rows_h($r['area_principal']?:'Pendiente de canalización')?></span><span><i class="ri-calendar-event-line" aria-hidden="true"></i> <?=pqr_rows_h(!empty($r['fecha_vencimiento'])?date('d/m/Y',strtotime($r['fecha_vencimiento'])):'Sin término')?></span><span><i class="ri-record-circle-line" aria-hidden="true"></i> <?=pqr_rows_h(pqr_rows_state_label($state))?></span><span><i class="ri-team-line" aria-hidden="true"></i> <?=(int)$r['areas_pendientes']?> área<?=(int)$r['areas_pendientes']===1?'':'s'?> pendiente<?=(int)$r['areas_pendientes']===1?'':'s'?></span></div>
+   <?php if($showOrigin):?><span class="pqr-badge pqr-origin-label <?=pqr_rows_h($r['origin_class']??'secondary')?>"><i class="<?=pqr_rows_h($r['origin_icon']??'ri-information-line')?>" aria-hidden="true"></i><?=pqr_rows_h($r['origin_label']??'Origen no disponible')?></span><?php endif;?>
+   <div class="pqr-mobile-footer"><div class="pqr-mobile-next"><strong><?=pqr_rows_h($priority['action'])?></strong><small class="d-block text-muted pqr-clamp-2"><?=pqr_rows_h($priority['reason'])?></small></div><a class="btn btn-pqr" href="<?=pqr_rows_h($r['url'])?>" aria-label="Gestionar expediente <?=pqr_rows_h($r['radicado'])?>">Gestionar</a></div>
+  </article>
+  <?php endforeach;?>
+ </div>
+ <div class="pqr-pagination pqr-inbox-pagination"><span class="pqr-pagination-info">Página <?=$page?> de <?=$pages?> · <?=(int)$result['total']?> expedientes</span><div class="pqr-page-actions"><button type="button" class="btn btn-light" data-page="<?=max(1,$page-1)?>" <?=$page<=1?'disabled':''?> aria-label="Página anterior"><i class="ri-arrow-left-s-line" aria-hidden="true"></i><span class="d-none d-sm-inline"> Anterior</span></button><?php $start=max(1,$page-2);$end=min($pages,$start+4);$start=max(1,$end-4);for($p=$start;$p<=$end;$p++):?><button type="button" data-page="<?=$p?>" class="btn <?=$p===$page?'btn-pqr':'btn-light'?> pqr-page-number" <?=$p===$page?'aria-current="page"':''?> aria-label="Página <?=$p?>"><?=$p?></button><?php endfor;?><button type="button" class="btn btn-light" data-page="<?=min($pages,$page+1)?>" <?=$page>=$pages?'disabled':''?> aria-label="Página siguiente"><span class="d-none d-sm-inline">Siguiente </span><i class="ri-arrow-right-s-line" aria-hidden="true"></i></button></div></div>
+<?php endif;?>

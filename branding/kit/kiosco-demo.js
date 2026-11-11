@@ -1,0 +1,4 @@
+(function(){'use strict';const root=document.getElementById('turnosKiosco');const input=document.getElementById('kioscoDocumento');function message(text){document.getElementById('kioscoMensaje').textContent=text;}
+root.querySelectorAll('[data-key]').forEach(button=>button.addEventListener('click',()=>{const key=button.dataset.key;if(key==='clear')input.value='';else if(key==='backspace')input.value=input.value.slice(0,-1);else if(/^\d$/.test(key)&&input.value.length<input.maxLength)input.value+=key;}));
+document.getElementById('kioscoConsultar').addEventListener('click',()=>{if(!input.value){message('Ingresa un documento para probar la presentación.');return;}message('Demostración: no se consulta identidad ni se generan turnos.');});
+})();

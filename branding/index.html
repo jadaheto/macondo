@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es" data-layout="vertical" data-layout-style="default" data-sidebar="dark" data-topbar="light" data-sidebar-size="lg" data-bs-theme="light">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kit de identidad · Kit Comfasucre</title><link rel="icon" href="assets/images/favicon.ico">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/icons.min.css">
+<link rel="stylesheet" href="assets/css/app.min.css">
+<link rel="stylesheet" href="assets/css/custom.min.css">
+<link rel="stylesheet" href="assets/css/custom.css">
+<link rel="stylesheet" href="assets/select2/dist/css/select2.min.css">
+<link rel="stylesheet" href="assets/libs/flatpickr/flatpickr.min.css">
+<link rel="stylesheet" href="assets/libs/sweetalert2/sweetalert2.min.css">
+<link rel="stylesheet" href="assets/css/pqr.css">
+<link rel="stylesheet" href="assets/css/turnos-avisos.css">
+<link rel="stylesheet" href="kit/ejemplos.css"></head>
+<body data-kit-page="index.html">
+<!-- Estructura de plantilla: conservar #layout-wrapper, topbar, menú y los tres contenedores de contenido. -->
+<div id="layout-wrapper">
+<header id="page-topbar"><div class="layout-width"><div class="navbar-header"><div class="d-flex align-items-center"><button id="kitMenu" type="button" class="btn header-item" aria-label="Abrir o contraer menú"><i class="ri-menu-2-line fs-22" aria-hidden="true"></i></button><span class="fw-semibold">App Comfasucre</span></div><div class="d-flex align-items-center gap-2"><span class="text-muted small d-none d-sm-inline">Demostración local · datos ficticios</span><button id="kitTheme" type="button" class="btn btn-light" aria-label="Cambiar tema"><i class="ri-moon-line" aria-hidden="true"></i></button></div></div></div></header>
+<aside class="app-menu navbar-menu"><div class="navbar-brand-box"><a href="index.html" class="logo logo-light"><span class="logo-sm"><img src="assets/images/logo_comfasucre_light.png" alt="Comfasucre" height="28"></span><span class="logo-lg"><img src="assets/images/logo_comfasucre_light.png" alt="Comfasucre" height="48"></span></a></div><div id="scrollbar"><div class="container-fluid"><ul class="navbar-nav" id="navbar-nav"><li class="nav-item"><a class="nav-link menu-link active" href="index.html"><i class="ri-palette-line" aria-hidden="true"></i><span>Guía del kit</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pqr-bandeja.html"><i class="ri-inbox-line" aria-hidden="true"></i><span>Bandeja PQR</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pqr-formulario.html"><i class="ri-edit-box-line" aria-hidden="true"></i><span>Formulario PQR</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pqr-360.html"><i class="ri-user-search-line" aria-hidden="true"></i><span>Vista 360</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="digiturno-recepcion.html"><i class="ri-customer-service-2-line" aria-hidden="true"></i><span>Recepción</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="digiturno-gestor.html"><i class="ri-user-voice-line" aria-hidden="true"></i><span>Gestor</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="digiturno-reportes.html"><i class="ri-bar-chart-box-line" aria-hidden="true"></i><span>Reportes</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="kiosco.html"><i class="ri-hand-heart-line" aria-hidden="true"></i><span>Kiosco</span></a></li>
+<li class="nav-item"><a class="nav-link menu-link " href="pantalla-sala.html"><i class="ri-tv-line" aria-hidden="true"></i><span>Pantalla de sala</span></a></li></ul></div></div></aside>
+<div class="vertical-overlay" id="kitOverlay"></div>
+<main class="main-content "><div class="page-content "><div class="container-fluid pqr-shell">
+<section class="pqr-hero mb-3"><span class="pqr-kicker">Kit de identidad · PQR y Digiturno</span><h3>Una base para los próximos proyectos</h3><p>Recursos originales, estructuras HTML y comportamientos de presentación.</p></section>
+<p class="kit-demo-note">Estos ejemplos usan datos ficticios y no consultan servidores. Abre branding.md para integrar el kit.</p>
+<div class="kit-grid"><article class="card pqr-card"><div class="card-body"><i class="ri-inbox-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Bandeja PQR</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="pqr-bandeja.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-edit-box-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Formulario PQR</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="pqr-formulario.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-user-search-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Vista 360</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="pqr-360.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-customer-service-2-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Recepción</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="digiturno-recepcion.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-user-voice-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Gestor</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="digiturno-gestor.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-bar-chart-box-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Reportes</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="digiturno-reportes.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-hand-heart-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Kiosco</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="kiosco.html">Abrir plantilla</a></div></article><article class="card pqr-card"><div class="card-body"><i class="ri-tv-line fs-24" aria-hidden="true"></i><h5 class="mt-2">Pantalla de sala</h5><p class="text-muted">Estructura reutilizable con clases y recursos del módulo vigente.</p><a class="btn btn-pqr" href="pantalla-sala.html">Abrir plantilla</a></div></article></div>
+<section class="card pqr-card mt-3"><div class="card-body"><h5>Identidad por perfil</h5><span class="kit-color"><b style="--swatch:#17365d"></b>PQR · #17365d</span><span class="kit-color"><b style="--swatch:#184b78"></b>Operación Digiturno · #184b78</span><span class="kit-color"><b style="--swatch:#064679"></b>Kiosco · #064679</span><span class="kit-color"><b style="--swatch:#063b75"></b>Sala · #063b75</span><p class="mt-3 mb-0">CSS y JS originales en assets/. Los archivos kit/ son adaptadores de demostración. Las vistas originales están en referencias/vistas/ como texto y requieren backend para funcionar.</p></div></section>
+</div></div></main></div>
+<script src="assets/js/funciones/jquery-3.6.4.min.js"></script>
+<script src="dist/jquery.validate.min.js"></script>
+<script src="assets/select2/dist/js/select2.min.js"></script>
+<script src="assets/select2/dist/js/i18n/es.js"></script>
+<script src="assets/libs/flatpickr/flatpickr.min.js"></script>
+<script src="assets/libs/flatpickr/l10n/es.js"></script>
+<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/libs/sweetalert2/sweetalert2.min.js"></script>
+<script src="assets/libs/cleave.js/cleave.min.js"></script>
+<script src="assets/js/pqr-validation.js"></script>
+<script src="assets/js/pqr-components.js"></script>
+<script src="assets/js/turnos-avisos.js"></script>
+
+<script src="kit/ejemplos.js"></script>
+</body></html>

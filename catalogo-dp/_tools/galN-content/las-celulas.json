@@ -1,0 +1,93 @@
+{
+ "title": "Las células",
+ "description": "De las celdas de corcho que vio Robert Hooke en 1665 a las neuronas y la mitosis: células vegetales y animales vistas al microscopio, y sus partes.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias naturales",
+  "Biología",
+  "Historia de la ciencia"
+ ],
+ "cover": 4,
+ "items": [
+  [
+   "Dibujo antiguo de una lámina de corcho vista al microscopio, formada por pequeñas celdas como un panal.",
+   "En 1665, el inglés Robert Hooke miró una lámina de corcho con su microscopio y vio pequeñas celdas que le recordaron las habitaciones de un convento. Las llamó «células». Dibujo de su libro «Micrographia»."
+  ],
+  [
+   "Células alargadas de cebolla teñidas de verde azulado, como ladrillos, con un punto oscuro (núcleo) en cada una.",
+   "Estas son células de la piel de una cebolla. Tienen una pared gruesa que las rodea y les da forma de ladrillo, y un núcleo, el centro de control de la célula. Es un experimento clásico de laboratorio escolar."
+  ],
+  [
+   "Células planas y de forma irregular teñidas de azul, cada una con un punto oscuro en el centro.",
+   "Estas son células de la mejilla humana, teñidas con azul de metileno. Las células animales no tienen pared celular, por eso su forma es más irregular. El punto oscuro es el núcleo."
+  ],
+  [
+   "Células verdes de una hoja, llenas de pequeños puntos verdes redondos, vistas al microscopio.",
+   "Los puntitos verdes son cloroplastos, donde la planta hace la fotosíntesis: usa la luz del Sol para fabricar su alimento y liberar oxígeno. Hojas de la planta acuática elodea."
+  ],
+  [
+   "Superficie de una hoja vista con microscopio electrónico, cubierta de pelitos con forma de copa.",
+   "La superficie de las hojas tiene pelitos llamados tricomas y poros diminutos llamados estomas. Por los estomas entra el dióxido de carbono y salen el oxígeno y el vapor de agua. Imagen de microscopio electrónico de una hoja de tabaco ornamental."
+  ],
+  [
+   "Células de la punta de una raíz de cebolla, algunas con los cromosomas visibles mientras se dividen.",
+   "Así crecen los seres vivos: una célula se divide en dos. Este proceso se llama mitosis. En la punta de la raíz de cebolla se pueden ver células en distintas etapas de la división."
+  ],
+  [
+   "Neuronas brillantes de color verde con prolongaciones largas y ramificadas sobre fondo oscuro.",
+   "Las neuronas son las células del sistema nervioso. Con sus prolongaciones se conectan con miles de otras neuronas y se envían mensajes eléctricos. Se ven verdes gracias a una proteína fluorescente."
+  ],
+  [
+   "Diagrama en español de una célula vegetal con sus partes señaladas: pared celular, núcleo, cloroplastos y vacuola.",
+   "Este diagrama muestra las partes de una célula vegetal: la pared celular, la membrana, el núcleo, los cloroplastos, las mitocondrias y una gran vacuola llena de agua."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Quién usó por primera vez la palabra «célula» al mirar un trozo de corcho?",
+   [
+    "Robert Hooke",
+    "Charles Darwin",
+    "Marie Curie",
+    "José Celestino Mutis"
+   ],
+   0,
+   "Hooke lo describió en su libro Micrographia, en 1665."
+  ],
+  [
+   "¿Qué tienen las células vegetales que no tienen las animales?",
+   [
+    "Núcleo",
+    "Pared celular y cloroplastos",
+    "Membrana",
+    "Citoplasma"
+   ],
+   1,
+   "La pared celular da forma rígida y los cloroplastos hacen la fotosíntesis."
+  ],
+  [
+   "¿Qué ocurre en la mitosis?",
+   [
+    "La célula muere",
+    "La célula se congela",
+    "Una célula se divide en dos",
+    "La célula hace fotosíntesis"
+   ],
+   2,
+   "La mitosis permite crecer y reponer células."
+  ],
+  [
+   "¿Para qué sirven los estomas de las hojas?",
+   [
+    "Para sostener la hoja",
+    "Para guardar semillas",
+    "Para atrapar insectos",
+    "Para el intercambio de gases y vapor de agua"
+   ],
+   3,
+   "Por ellos entra el dióxido de carbono y salen el oxígeno y el vapor."
+  ]
+ ],
+ "reviewNotes": "01: lámina de Micrographia (Robert Hooke, 1665), dominio público."
+}

@@ -1,0 +1,102 @@
+{
+ "title": "Energía del sol, el viento y el agua",
+ "description": "Parques eólicos en La Guajira, paneles solares en Córdoba, represas, molinos, ruedas hidráulicas y energía geotérmica: cómo convertimos las fuerzas de la naturaleza en energía.",
+ "gradeMin": 6,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias naturales",
+  "Tecnología",
+  "Medio ambiente",
+  "Energía"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Una fila de aerogeneradores blancos a lo lejos, a lo largo de una costa desértica junto al mar.",
+   "El Parque Eólico Jepírachi, en La Guajira, fue el primero de Colombia. Allí el viento constante del desierto mueve las aspas de los aerogeneradores, que convierten ese movimiento en electricidad."
+  ],
+  [
+   "Una fila de aerogeneradores en el mar, bajo un cielo azul.",
+   "Los parques eólicos marinos aprovechan que en el mar el viento sopla más fuerte y constante. Este está frente a Copenhague, en Dinamarca."
+  ],
+  [
+   "Vista aérea de campos verdes con árboles; en una esquina se ven hileras de paneles solares.",
+   "Los paneles solares convierten la luz del Sol directamente en electricidad. Colombia, por estar cerca del ecuador, recibe sol fuerte todo el año. Parque solar en Montería, Córdoba."
+  ],
+  [
+   "Un calentador solar con tubos y un tanque instalado en el techo de una casa.",
+   "Un calentador solar usa el calor del Sol para calentar agua, sin gastar electricidad ni gas. El agua caliente sube sola al tanque porque es más liviana que la fría."
+  ],
+  [
+   "Vista aérea de la represa Hoover, un muro curvo de concreto en un cañón, con el lago detrás y un puente.",
+   "En una central hidroeléctrica, una represa guarda el agua de un río y la deja caer por turbinas que giran y producen electricidad. Esta es la represa Hoover, en Estados Unidos. En Colombia, la mayor parte de la electricidad viene del agua."
+  ],
+  [
+   "Vista aérea de un embalse de muchos brazos de agua con una gran roca en el centro.",
+   "El embalse de El Peñol-Guatapé, en Antioquia, se creó para producir electricidad. Al llenarse, el agua cubrió valles y formó muchas islas."
+  ],
+  [
+   "Fotografía antigua en blanco y negro de una central eléctrica con estructuras metálicas y máquinas.",
+   "La central Guadalupe I, en Antioquia, en una foto de 1932. Desde comienzos del siglo XX Colombia aprovecha sus ríos de montaña para producir electricidad."
+  ],
+  [
+   "Una gran rueda de madera junto a la pared de piedra de un viejo molino.",
+   "Durante siglos, las ruedas hidráulicas usaron la fuerza del agua para moler granos o mover máquinas. Son las abuelas de las turbinas modernas. Molino en Allerford, Inglaterra."
+  ],
+  [
+   "Molinos de viento antiguos junto a un canal en los Países Bajos.",
+   "Los molinos de viento de Kinderdijk, en los Países Bajos, se construyeron hace casi 300 años para sacar el agua de las tierras bajas. Usaban el viento como los aerogeneradores de hoy."
+  ],
+  [
+   "Una planta geotérmica con tuberías y columnas de vapor en un paisaje volcánico.",
+   "La energía geotérmica aprovecha el calor del interior de la Tierra. En Islandia, el vapor caliente del subsuelo mueve turbinas y calienta casas. Colombia estudia usarla cerca de sus volcanes."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál fue el primer parque eólico de Colombia?",
+   [
+    "Guatapé",
+    "Jepírachi, en La Guajira",
+    "Hoover",
+    "Kinderdijk"
+   ],
+   1,
+   "Jepírachi aprovecha los vientos constantes del desierto guajiro."
+  ],
+  [
+   "¿De dónde viene la mayor parte de la electricidad de Colombia?",
+   [
+    "Del agua de los ríos (hidroeléctricas)",
+    "Del carbón de la Luna",
+    "De los volcanes",
+    "De las olas"
+   ],
+   0,
+   "Colombia tiene muchos ríos de montaña aprovechados por hidroeléctricas."
+  ],
+  [
+   "¿Qué convierten los paneles solares en electricidad?",
+   [
+    "El viento",
+    "El agua",
+    "La luz del Sol",
+    "El calor de los volcanes"
+   ],
+   2,
+   "Las celdas solares transforman la luz en corriente eléctrica."
+  ],
+  [
+   "¿Qué aprovecha la energía geotérmica?",
+   [
+    "La luz de la Luna",
+    "Las mareas",
+    "El viento del desierto",
+    "El calor del interior de la Tierra"
+   ],
+   3,
+   "Se usa sobre todo en zonas volcánicas, como Islandia."
+  ]
+ ],
+ "reviewNotes": "03: foto del Gobierno de Colombia publicada en Flickr con Marca de Dominio Público (sin personas). 07: fotografía de 1932 de autor anónimo (PD-Colombia)."
+}

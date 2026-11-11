@@ -1,0 +1,33 @@
+{
+ "title": "Historia del transporte: barcos, carruajes y automóviles",
+ "description": "¿Cómo viajaba la gente antes de los carros? Barcos vikingos, diligencias, barcos de vapor, veleros, bicicletas antiguas, los primeros automóviles y la colorida chiva colombiana.",
+ "gradeMin": 1, "gradeMax": 7,
+ "categories": ["Ciencias sociales", "Historia", "Tecnología", "Transporte"],
+ "cover": 8,
+ "credits": {"3": "Ilustración de la serie 'Ships Through the Ages', Boston Public Library"},
+ "items": [
+  ["Barco de madera oscura, largo y estrecho, con la proa muy alta terminada en espiral, exhibido en un museo.",
+   "El barco de Oseberg fue construido por los vikingos hacia el año 820 en Noruega. Con barcos de remos y vela como este, los vikingos navegaron hasta Islandia y Groenlandia."],
+  ["Pintura de un grupo de niños jugando sobre una vieja diligencia roja abandonada en un prado.",
+   "En 'La vieja diligencia' (1871), el pintor Eastman Johnson muestra a unos niños jugando en un carruaje viejo. Las diligencias, tiradas por caballos, llevaban pasajeros y correo entre ciudades."],
+  ["Pintura de un barco de vapor con una gran rueda de paletas al costado y una chimenea que echa humo.",
+   "El Clermont de Robert Fulton empezó a navegar en 1807 por el río Hudson, en Estados Unidos. Fue uno de los primeros barcos de vapor que funcionaron con éxito."],
+  ["Velero de tres mástiles con muchas cuerdas, en exhibición sobre un dique seco bajo un cielo nublado.",
+   "El Cutty Sark, de 1869, fue uno de los veleros más rápidos de su época. Transportaba té desde China y lana desde Australia hasta Inglaterra."],
+  ["Bicicleta antigua de metal con una rueda delantera enorme y una trasera muy pequeña.",
+   "El biciclo o 'penny-farthing' se usó hacia 1870–1890. Su rueda delantera gigante permitía ir más rápido, pero era fácil caerse desde tan alto."],
+  ["Vehículo antiguo de tres ruedas con rayos de metal, asiento de cuero y un motor pequeño atrás, en un museo.",
+   "El Benz Patent-Motorwagen, construido por Karl Benz en 1886, es considerado el primer automóvil con motor de gasolina. Tenía tres ruedas y alcanzaba unos 16 km/h."],
+  ["Carro antiguo de color dorado con faroles redondos, asientos rojos y ruedas de rayos, exhibido en un museo.",
+   "El Ford Modelo T se fabricó entre 1908 y 1927 en cadenas de montaje, lo que lo hizo más barato. Se vendieron más de 15 millones y el automóvil se volvió popular."],
+  ["Interior de un bus de madera pintado de colores, con pasajeros sentados en bancas de lado a lado, vistos de espaldas.",
+   "La chiva o bus escalera es un transporte típico de los campos de Colombia. Tiene bancas de lado a lado y lleva pasajeros, carga y hasta animales entre las veredas y los pueblos."]
+ ],
+ "questions": [
+  ["¿Quién construyó el primer automóvil con motor de gasolina?", ["Karl Benz", "Henry Ford", "Robert Fulton"], 0, "Fue el Benz Patent-Motorwagen de 1886."],
+  ["¿Qué movía al barco Clermont?", ["Una máquina de vapor", "Remos", "Paneles solares"], 0, "Era un barco de vapor con ruedas de paletas."],
+  ["¿Cómo se llama el bus de colores típico de los campos de Colombia?", ["Chiva", "Tranvía", "Metro"], 0, "También se le llama bus escalera."],
+  ["¿Qué animales tiraban de las diligencias?", ["Caballos", "Perros", "Elefantes"], 0, "Las diligencias eran carruajes tirados por caballos."]
+ ],
+ "reviewNotes": "En la foto de la chiva se ven pasajeros de espaldas, sin rostros identificables. Se descartaron fotos de un biciclo y de un Ford T con conductores identificables."
+}

@@ -1,0 +1,98 @@
+{
+ "title": "Peces de río y de mar",
+ "description": "Del bocachico de la subienda al tiburón ballena: peces de los ríos, ciénagas y mares de Colombia, cómo viven y por qué algunos, como el pez león, son un problema.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Agua",
+  "Biodiversidad"
+ ],
+ "cover": 8,
+ "items": [
+  [
+   "Un pez plateado y alargado nadando bajo el agua clara de un río, junto a plantas acuáticas y rocas con musgo.",
+   "El bocachico es uno de los peces más pescados y comidos en los ríos y ciénagas del Magdalena y del Caribe colombiano. Cada año sube por los ríos en grandes grupos para reproducirse: es la famosa «subienda». En la foto, un pariente cercano del bocachico en un río de Suramérica."
+  ],
+  [
+   "Un bagre grande de piel con manchas oscuras, en agua poco profunda junto a unos tallos.",
+   "Los bagres tienen barbillas, como bigotes, que les sirven para sentir y saborear en el agua turbia. En Colombia vive el bagre rayado, pariente de este bagre pintado fotografiado en Argentina."
+  ],
+  [
+   "Un pez grande, alto y oscuro nadando en un acuario de agua azul junto a peces pequeños.",
+   "La cachama negra vive en los ríos de la Amazonía y la Orinoquía. Come frutas y semillas que caen al agua, y sus dientes parecen muelas. Hoy se cría en estanques en muchas regiones de Colombia."
+  ],
+  [
+   "Varios peces grandes y alargados de color rojizo nadando en un acuario largo.",
+   "El pirarucú o paiche de la Amazonía es uno de los peces de río más grandes del mundo: puede medir cerca de 3 metros. Sube a la superficie a respirar aire con una especie de pulmón."
+  ],
+  [
+   "Un pez plateado y alargado, de escamas grandes y brillantes, nadando bajo el agua.",
+   "El sábalo vive en las costas y ciénagas del Caribe y puede dar grandes saltos fuera del agua. Sus escamas plateadas son grandes como monedas. Igual que el pirarucú, puede tomar aire de la superficie."
+  ],
+  [
+   "Un pez de colores verde y azul nadando sobre arena blanca, cerca de un arrecife.",
+   "El pez loro tiene la boca en forma de pico, con la que raspa algas de los corales. Al comer muele trocitos de coral y los expulsa como arena fina: ¡ayuda a formar las playas blancas del Caribe!"
+  ],
+  [
+   "Un gran banco de peces plateados y alargados nadando juntos en el mar azul.",
+   "Las barracudas son peces cazadores, rápidos y de dientes afilados. Nadar en grupo, o en banco, ayuda a muchos peces a protegerse. Foto tomada en el mar Rojo; también viven en el Caribe."
+  ],
+  [
+   "Un pez con rayas rojizas y blancas y aletas largas como plumas, en un acuario.",
+   "El pez león es originario de los océanos Índico y Pacífico, pero llegó al mar Caribe y se volvió una especie invasora: come muchos peces pequeños y casi no tiene enemigos naturales. Sus espinas son venenosas."
+  ],
+  [
+   "Un tiburón ballena enorme, con manchas blancas, visto de frente en agua oscura.",
+   "El tiburón ballena es el pez más grande del mundo: puede medir más de 12 metros. A pesar de su tamaño es inofensivo y se alimenta de plancton, animales diminutos del mar."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el pez más grande del mundo?",
+   [
+    "El pirarucú",
+    "La barracuda",
+    "El tiburón ballena",
+    "El bagre"
+   ],
+   2,
+   "El tiburón ballena puede superar los 12 metros y se alimenta de plancton."
+  ],
+  [
+   "¿Qué es la «subienda»?",
+   [
+    "Una fiesta de pescadores",
+    "Cuando los bocachicos suben por los ríos en grandes grupos para reproducirse",
+    "La marea alta del mar",
+    "Una red de pesca"
+   ],
+   1,
+   "Durante la subienda los peces nadan río arriba; es una temporada importante para los pescadores del Magdalena."
+  ],
+  [
+   "¿Por qué el pez león es un problema en el mar Caribe?",
+   [
+    "Porque es una especie invasora que come muchos peces pequeños",
+    "Porque destruye barcos",
+    "Porque contamina el agua",
+    "Porque asusta a los turistas"
+   ],
+   0,
+   "Llegó desde otros océanos y no tiene enemigos naturales en el Caribe."
+  ],
+  [
+   "¿Qué pez ayuda a formar la arena blanca de las playas del Caribe?",
+   [
+    "El sábalo",
+    "La cachama",
+    "El tiburón ballena",
+    "El pez loro"
+   ],
+   3,
+   "El pez loro muele coral al comer algas y lo expulsa como arena fina."
+  ]
+ ],
+ "reviewNotes": "01: la foto es de Prochilodus lineatus, pariente cercano del bocachico (Prochilodus magdalenae); la única foto libre del bocachico ya se usa en la galería rio-magdalena."
+}

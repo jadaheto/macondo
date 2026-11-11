@@ -1,0 +1,94 @@
+{
+ "title": "Cartagena de Indias en la historia",
+ "description": "Fundada en 1533, Cartagena fue uno de los puertos más importantes del imperio español. Grabados, mapas antiguos y fotografías cuentan sus ataques de piratas, su defensa y su vida a lo largo de los siglos.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia de Colombia",
+  "Región Caribe",
+  "Época colonial"
+ ],
+ "cover": 2,
+ "credits": {
+  "2": "Giovanni Battista Boazio (1588)",
+  "6": "Fotógrafo anónimo (comienzos del siglo XX)"
+ },
+ "items": [
+  [
+   "Grabado antiguo en blanco y negro de una ciudad amurallada junto al mar, con muchos barcos de vela en primer plano.",
+   "Vista de Cartagena publicada por Arnoldus Montanus en 1671. La ciudad era el puerto donde llegaban y salían las flotas españolas cargadas de mercancías y metales preciosos."
+  ],
+  [
+   "Mapa antiguo coloreado de una bahía con una ciudad, muchos barcos, una rosa de los vientos y un dibujo de un caimán.",
+   "Este mapa de Giovanni Battista Boazio (1588) muestra el ataque del corsario inglés Francis Drake a Cartagena en 1586. Después de estos ataques, España construyó las murallas y fuertes."
+  ],
+  [
+   "Plano antiguo de una ciudad rodeada de murallas en una bahía, con una larga lista de lugares numerados a los lados.",
+   "Plano de la ciudad de Cartagena de Indias del siglo XVIII. Se ven las murallas, los baluartes y los barrios de la ciudad y de Getsemaní."
+  ],
+  [
+   "Mapa antiguo de una bahía larga con islas, líneas que marcan el fondo del mar y una rosa de los vientos.",
+   "Mapa inglés de la bahía de Cartagena durante la guerra de 1740–1741. En 1741 el almirante Blas de Lezo defendió la ciudad del gran ataque británico dirigido por Edward Vernon."
+  ],
+  [
+   "Grabado de una iglesia colonial con una torre alta, frente a una calle con personas y una carreta de bueyes.",
+   "Grabado de 1871 de la catedral de Cartagena, que empezó a construirse en 1577 y fue dañada por el ataque de Drake."
+  ],
+  [
+   "Fotografía antigua en blanco y negro de una iglesia grande de paredes blancas con una torre, en una esquina.",
+   "La catedral de Cartagena en una fotografía antigua. Su torre y su fachada se modificaron varias veces a lo largo de los siglos."
+  ],
+  [
+   "Fotografía doble en tono sepia de la fachada de una iglesia con dos torres, montada en un cartón para estereoscopio.",
+   "Fotografía estereoscópica del siglo XIX: con un visor especial, las dos imágenes se ven como una sola en relieve. Muestra la iglesia que hoy se conoce como San Pedro Claver."
+  ],
+  [
+   "Construcción larga de color amarillo con muchos arcos blancos, junto a la muralla de la ciudad.",
+   "Las Bóvedas fueron construidas a finales del siglo XVIII dentro de la muralla como depósitos y cuarteles. Hoy albergan tiendas de artesanías."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué corsario inglés atacó Cartagena en 1586?",
+   [
+    "Francis Drake",
+    "Cristóbal Colón",
+    "Blas de Lezo"
+   ],
+   0,
+   "Después de sus ataques se fortificó la ciudad."
+  ],
+  [
+   "¿Quién defendió Cartagena en 1741?",
+   [
+    "Blas de Lezo",
+    "Edward Vernon",
+    "Simón Bolívar"
+   ],
+   0,
+   "Vernon dirigía el ataque británico; Blas de Lezo, la defensa."
+  ],
+  [
+   "¿Para qué servían originalmente Las Bóvedas?",
+   [
+    "Como depósitos y cuarteles",
+    "Como escuelas",
+    "Como hospitales"
+   ],
+   0,
+   "Hoy son tiendas de artesanías."
+  ],
+  [
+   "¿Qué permitía ver una fotografía estereoscópica?",
+   [
+    "Una imagen en relieve",
+    "Una imagen en movimiento",
+    "Una imagen con sonido"
+   ],
+   0,
+   "Con un visor especial las dos fotos se ven como una sola en relieve."
+  ]
+ ],
+ "reviewNotes": "Complementa la galería arquitectura-colonial sin repetir archivos. El mapa de Boazio muestra un ataque militar (sin violencia explícita)."
+}

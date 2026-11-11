@@ -1,0 +1,33 @@
+{
+ "title": "Los incas",
+ "description": "Ciudades en lo alto de los Andes, muros de piedra perfectamente encajados, caminos de miles de kilómetros y cuerdas con nudos para contar. Conoce el Tahuantinsuyo, el imperio de los incas, que llegó hasta el sur de Colombia.",
+ "gradeMin": 4, "gradeMax": 9,
+ "categories": ["Ciencias sociales", "Historia", "Pueblos indígenas", "América precolombina"],
+ "cover": 1,
+ "credits": {"8": "Anónimo inca (c. 1500), Dumbarton Oaks, Washington"},
+ "items": [
+  ["Vista panorámica de montañas verdes y escarpadas con las ruinas de una ciudad de piedra sobre una cresta.",
+   "Machu Picchu fue construida hacia 1450 en lo alto de una montaña, cerca del Cusco (Perú). Los españoles nunca la encontraron, y se dio a conocer al mundo en 1911."],
+  ["Muros de enormes piedras grises que encajan entre sí sin espacios, en zigzag, bajo un cielo azul.",
+   "En Sacsayhuamán, junto al Cusco, los incas encajaron piedras de varias toneladas sin usar mezcla. Las uniones son tan precisas que no cabe ni una hoja de papel."],
+  ["Edificio de piedra con balcón de madera y arcos, construido encima de un muro curvo de piedra inca.",
+   "El Coricancha era el templo del Sol en el Cusco y sus paredes estaban cubiertas de oro. Los españoles construyeron encima el convento de Santo Domingo, pero los muros incas resistieron los terremotos."],
+  ["Terrazas de piedra escalonadas que suben por una montaña rocosa, con un prado verde abajo.",
+   "En Ollantaytambo se ven las terrazas o andenes: escalones en las laderas que permitían cultivar maíz y papa en las montañas y evitaban que la lluvia arrastrara la tierra."],
+  ["Camino empedrado antiguo que atraviesa una ladera con pasto y arbustos, entre la niebla.",
+   "El Qhapaq Ñan era la red de caminos incas: unos 30.000 km que unían el imperio desde el sur de Colombia hasta Chile y Argentina. Mensajeros llamados chasquis corrían por ellos llevando noticias."],
+  ["Dibujo en blanco y negro de varias cuerdas colgantes con diferentes tipos de nudos, marcados con letras y números.",
+   "Los quipus eran cuerdas con nudos que los incas usaban para registrar números, como cosechas o habitantes. El tipo de nudo y su posición indicaban unidades, decenas y centenas."],
+  ["Dibujo a tinta de dos hombres que cargan en andas a una figura sentada y adornada, con el Sol y la Luna arriba.",
+   "Dibujo de Felipe Guamán Poma de Ayala, cronista indígena que hacia 1615 escribió e ilustró una larga carta al rey de España sobre la vida en los Andes. Aquí muestra una procesión en honor de los antepasados."],
+  ["Túnica tejida en forma de rectángulo cubierta de pequeños cuadros con diseños geométricos de muchos colores.",
+   "Los tejidos eran muy valiosos para los incas, incluso más que el oro. Esta túnica o unku está llena de pequeños diseños llamados tocapus, que quizá funcionaban como símbolos."]
+ ],
+ "questions": [
+  ["¿Para qué servían los quipus?", ["Para pescar", "Para registrar números", "Para tocar música"], 1, "Los nudos indicaban unidades, decenas y centenas."],
+  ["¿Cómo se llamaban los mensajeros que corrían por los caminos incas?", ["Chasquis", "Caciques", "Tunjos"], 0, "Los chasquis se relevaban para llevar mensajes a gran velocidad."],
+  ["¿Para qué servían las terrazas o andenes?", ["Para cultivar en las laderas", "Para que jugaran los niños", "Para guardar agua salada"], 0, "Permitían sembrar en las montañas y frenaban la erosión."],
+  ["¿Hasta qué país actual llegaba el norte del imperio inca?", ["Venezuela", "Colombia", "México"], 1, "El Tahuantinsuyo llegó hasta el sur de la actual Colombia (Nariño)."]
+ ],
+ "reviewNotes": "El dibujo de Guamán Poma representa el traslado de un antepasado momificado en una fiesta; se describe como procesión en honor de los antepasados."
+}

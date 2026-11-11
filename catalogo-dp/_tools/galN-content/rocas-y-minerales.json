@@ -1,0 +1,101 @@
+{
+ "title": "Rocas y minerales",
+ "description": "Esmeraldas de Muzo, cuarzo, pirita, obsidiana, granito, basalto, piedra pómez, sal y geodas: cómo se forman las rocas ígneas, sedimentarias y metamórficas, y los minerales que las componen.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Geología",
+  "Ciencias de la Tierra"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Un cristal verde de esmeralda incrustado en una roca blanca y gris.",
+   "Las esmeraldas de Colombia son famosas en todo el mundo por su color verde intenso. Este cristal, de unos 2 centímetros, viene de la mina de Muzo, en Boyacá. Son una variedad del mineral berilo."
+  ],
+  [
+   "Un grupo de cristales de cuarzo transparentes y puntiagudos, con una moneda al lado para comparar el tamaño.",
+   "El cuarzo es uno de los minerales más comunes de la Tierra. Sus cristales tienen seis caras y terminan en punta. Se usa para fabricar vidrio y en los relojes de cuarzo."
+  ],
+  [
+   "Cristales de pirita dorados y brillantes en forma de cubos perfectos.",
+   "A la pirita la llaman «oro de los tontos» porque brilla como el oro, pero vale mucho menos. Sus cristales forman cubos casi perfectos de manera natural."
+  ],
+  [
+   "Trozos de obsidiana negros y brillantes mezclados con grava clara en el suelo.",
+   "La obsidiana es un vidrio volcánico: se forma cuando la lava se enfría tan rápido que no alcanzan a formarse cristales. Sus bordes son muy afilados; los pueblos antiguos la usaban para hacer cuchillos y puntas de flecha."
+  ],
+  [
+   "Montón de piedras de granito grises y angulosas.",
+   "El granito es una roca ígnea que se formó con magma que se enfrió lentamente bajo la tierra. Por eso es muy duro y tiene cristales que se ven a simple vista. Se usa en edificios, adoquines y mesones."
+  ],
+  [
+   "Una pared de roca formada por columnas de basalto junto a un sendero con árboles.",
+   "Estas columnas de basalto se formaron cuando una colada de lava se enfrió y se agrietó en forma de prismas, igual que el barro cuando se seca. El basalto es la roca más común del fondo de los océanos."
+  ],
+  [
+   "Primer plano de una piedra pómez gris claro llena de pequeños huecos.",
+   "La piedra pómez es una roca volcánica tan llena de burbujas de gas que puede flotar en el agua. Se forma en erupciones explosivas."
+  ],
+  [
+   "Una mano sostiene un cristal de sal transparente en forma de cubo con una burbuja de agua dentro.",
+   "La halita es el mineral de la sal de cocina y sus cristales son cubos; este tiene atrapada una burbuja de agua de hace millones de años. En Zipaquirá hay una enorme mina de sal convertida en catedral."
+  ],
+  [
+   "Una geoda partida por la mitad que muestra por dentro cristales morados de amatista.",
+   "Una geoda parece una piedra común por fuera, pero por dentro está hueca y llena de cristales. Estos cristales morados son amatista, una variedad de cuarzo."
+  ],
+  [
+   "Capas de roca de colores rojo, amarillo y blanco en la pared de un cañón.",
+   "Las rocas sedimentarias se forman con capas de arena, barro y restos que se acumulan durante millones de años y se endurecen. Cada capa cuenta una parte de la historia de la Tierra. Foto tomada en Israel."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué a la pirita la llaman «oro de los tontos»?",
+   [
+    "Porque es muy blanda",
+    "Porque brilla como el oro pero vale mucho menos",
+    "Porque se encuentra en las escuelas",
+    "Porque es invisible"
+   ],
+   1,
+   "Su color dorado engañaba a muchos buscadores de oro."
+  ],
+  [
+   "¿Cómo se forma la obsidiana?",
+   [
+    "Cuando la lava se enfría muy rápido",
+    "Con arena del mar",
+    "Con restos de animales",
+    "Con hielo"
+   ],
+   0,
+   "Al enfriarse tan rápido, no alcanzan a formarse cristales y queda un vidrio."
+  ],
+  [
+   "¿Qué roca puede flotar en el agua?",
+   [
+    "El granito",
+    "La pirita",
+    "La piedra pómez",
+    "La esmeralda"
+   ],
+   2,
+   "Está tan llena de burbujas que es más liviana que el agua."
+  ],
+  [
+   "¿Por qué son famosas las esmeraldas de Colombia?",
+   [
+    "Porque son azules",
+    "Porque son blandas",
+    "Porque son de plástico",
+    "Por su color verde intenso"
+   ],
+   3,
+   "Las minas de Boyacá, como Muzo, producen algunas de las mejores esmeraldas del mundo."
+  ]
+ ],
+ "reviewNotes": null
+}

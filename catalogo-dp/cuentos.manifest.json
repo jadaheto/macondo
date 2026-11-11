@@ -1,0 +1,2907 @@
+[
+  {
+    "file": "cuentos/cinco-cangrejitos.epub",
+    "cover": "cuentos/portadas/cinco-cangrejitos.png",
+    "title": "Cinco cangrejitos",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En la playa de Coveñas, cinco cangrejitos juegan en la arena y se esconden uno a uno. Lía los cuenta con sus dedos y aprende a mirarlos sin tocarlos.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "números",
+      "playa"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "cinco-cangrejitos",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "3c7129f3acce84565da1c5cdb976bad95b2f70ade74c32a9be31bdceabe02eb2",
+    "sizeBytes": 100395,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "números",
+    "grade": 1,
+    "wordCount": 143,
+    "text": "Cinco cangrejitos\n\nEn la playa de Coveñas sale el sol.\n\nCinco cangrejitos juegan en la arena. Uno, dos, tres, cuatro, cinco. ¡Clic, clac!, hacen sus pinzas.\n\nLlega una ola grande. ¡Shhh! Un cangrejito corre a su cueva. Ahora quedan cuatro cangrejitos. Uno, dos, tres, cuatro.\n\nLlega otra ola. ¡Shhh! Otro cangrejito corre a su cueva. Ahora quedan tres. Uno, dos, tres.\n\nPasa una garza blanca. Un cangrejito se esconde. Ahora quedan dos. Uno, dos.\n\nSopla el viento. Un cangrejito se va a dormir. Ahora queda uno. Solo uno.\n\nLía camina por la playa.\n\n—¿Dónde están tus amigos, cangrejito?\n\nEl cangrejito mueve sus pinzas: ¡clic, clac! De las cuevas salen uno, dos, tres, cuatro cangrejitos. ¡Con él son cinco otra vez!\n\nLía cuenta con sus dedos: uno, dos, tres, cuatro, cinco. Lía mira y no toca. Los cangrejitos viven en la arena.\n\n—¡Adiós, cangrejitos! —dice Lía.",
+    "questions": [
+      {
+        "prompt": "¿Cuántos cangrejitos jugaban al principio?",
+        "options": [
+          "Tres",
+          "Cinco",
+          "Diez"
+        ],
+        "answer": 1,
+        "explanation": "Al principio eran cinco: uno, dos, tres, cuatro, cinco."
+      },
+      {
+        "prompt": "¿A dónde corría un cangrejito cuando llegaba la ola?",
+        "options": [
+          "A su cueva",
+          "Al colegio",
+          "A un árbol"
+        ],
+        "answer": 0,
+        "explanation": "Los cangrejitos se esconden en sus cuevas en la arena."
+      },
+      {
+        "prompt": "¿Qué hace Lía con los cangrejitos?",
+        "options": [
+          "Los guarda en un balde",
+          "Los persigue",
+          "Los mira sin tocarlos"
+        ],
+        "answer": 2,
+        "explanation": "Lía mira y no toca, porque los cangrejitos viven en la arena."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/garza-mira-los-colores.epub",
+    "cover": "cuentos/portadas/garza-mira-los-colores.png",
+    "title": "Garza mira los colores",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Garza, un ave muy blanca de la ciénaga, sale a buscar colores. Ve el sol amarillo, el agua azul y las hojas verdes, y descubre que el blanco también es un color bonito.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "colores",
+      "ciénaga"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "garza-mira-los-colores",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "46a356c5bc29cf404a832ee0caf6f89694064d5c6b799f1df59249726e8d355f",
+    "sizeBytes": 97335,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "colores",
+    "grade": 1,
+    "wordCount": 163,
+    "text": "Garza mira los colores\n\nGarza es blanca, muy blanca. Vive en la ciénaga.\n\nUn día Garza dice: —Quiero ver colores.\n\nGarza vuela y mira. ¿Qué ve Garza?\n\nVe el sol. El sol es amarillo. Ve el agua. El agua es azul. Ve las hojas del mangle. Las hojas son verdes.\n\nGarza abre sus alas. ¡Fsss! Garza sube, sube, sube.\n\nGarza vuela más. ¿Qué ve Garza?\n\nVe un cangrejo. El cangrejo es rojo.\n\nVe una flor. La flor es rosada.\n\nVe una mariposa. La mariposa es anaranjada.\n\n¡Cuántos colores!\n\nRojo, rosado, anaranjado. Garza los cuenta con su pico: uno, dos, tres colores.\n\nGarza se mira en el agua.\n\n—Y yo soy blanca —dice Garza—. El blanco también es un color bonito.\n\nAl atardecer, el cielo se pone de muchos colores. Garza está feliz. Todos los colores juntos se ven mejor.\n\nGarza vuelve a su casa en la ciénaga. Se acomoda en una rama del mangle. Cierra los ojos y sueña con colores.\n\n¿Y tú? ¿Qué colores ves hoy?",
+    "questions": [
+      {
+        "prompt": "¿De qué color es Garza?",
+        "options": [
+          "Verde",
+          "Blanca",
+          "Roja"
+        ],
+        "answer": 1,
+        "explanation": "Garza es blanca, muy blanca."
+      },
+      {
+        "prompt": "En el cuento, ¿de qué color es el sol?",
+        "options": [
+          "Amarillo",
+          "Azul",
+          "Morado"
+        ],
+        "answer": 0,
+        "explanation": "Garza ve el sol y dice que es amarillo."
+      },
+      {
+        "prompt": "¿Qué aprende Garza al final?",
+        "options": [
+          "Que solo el rojo es bonito",
+          "Que no le gustan los colores",
+          "Que el blanco también es un color bonito"
+        ],
+        "answer": 2,
+        "explanation": "Garza se mira en el agua y descubre que su color blanco también es bonito."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/hola-manati.epub",
+    "cover": "cuentos/portadas/hola-manati.png",
+    "title": "Hola, manatí",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Mateo y su mamá pasean en canoa por la ciénaga y ven un manatí. Mateo aprende a saludarlo en voz bajita y a mirarlo desde lejos, con respeto.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "respeto por los animales",
+      "ciénaga"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "hola-manati",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "544bba0482b8be0498a63fd628ff12ea5201483622552f467f61a161d2d66e5c",
+    "sizeBytes": 94132,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "respeto por los animales",
+    "grade": 1,
+    "wordCount": 167,
+    "text": "Hola, manatí\n\nMateo y su mamá van en canoa por la ciénaga. El agua está quieta.\n\n—Mira, mamá. ¡Algo se mueve!\n\nEs un manatí. El manatí es grande y gris. El manatí es tranquilo. Come plantas del agua. Ñam, ñam, ñam.\n\nMateo abre los ojos grandes. Mamá deja de remar. La canoa se queda quieta.\n\n—Hola, manatí —dice Mateo en voz bajita.\n\nMateo quiere tocarlo.\n\n—No, Mateo —dice mamá—. El manatí es un animal silvestre. Lo miramos desde lejos. No le damos comida. No le hacemos ruido.\n\nMateo se queda quieto. Mateo mira y sonríe.\n\nEl manatí mueve su cola despacio. Mateo cuenta en silencio: uno, dos, tres.\n\nMamá le da la mano. Los dos sonríen.\n\nEl manatí saca la nariz. Respira: ¡fuuu! Luego se hunde despacio.\n\n—Adiós, manatí —dice Mateo.\n\n—Cuidamos la ciénaga para que el manatí viva feliz —dice mamá.\n\nEn la orilla, Mateo dibuja un manatí en la arena. Es grande, gris y tranquilo.\n\nMateo dice: —Mañana volvemos a mirar. Desde lejos, en silencio, con respeto.",
+    "questions": [
+      {
+        "prompt": "¿Qué come el manatí?",
+        "options": [
+          "Plantas del agua",
+          "Galletas",
+          "Piedras"
+        ],
+        "answer": 0,
+        "explanation": "El manatí come plantas que crecen en el agua."
+      },
+      {
+        "prompt": "¿Por qué Mateo no toca al manatí?",
+        "options": [
+          "Porque es muy pequeño",
+          "Porque es un animal silvestre y se mira desde lejos",
+          "Porque está dormido"
+        ],
+        "answer": 1,
+        "explanation": "Mamá explica que a los animales silvestres los miramos desde lejos, sin tocarlos ni darles comida."
+      },
+      {
+        "prompt": "¿Cómo saluda Mateo al manatí?",
+        "options": [
+          "Gritando",
+          "Con un pito",
+          "En voz bajita"
+        ],
+        "answer": 2,
+        "explanation": "Mateo dice «Hola, manatí» en voz bajita para no molestarlo."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/m-de-manglar.epub",
+    "cover": "cuentos/portadas/m-de-manglar.png",
+    "title": "M de manglar",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Marta aprende la letra M y la encuentra por todas partes: en el mar, el manglar, el mono, la mariposa y el manatí. ¡Y también en su propio nombre!",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "letras",
+      "manglar"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "m-de-manglar",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "a958efebb09b71ffc804561264add7bc65eac35045a9292935a5cb12fcee9ac2",
+    "sizeBytes": 86950,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "letras",
+    "grade": 1,
+    "wordCount": 151,
+    "text": "M de manglar\n\nHoy Marta aprende la letra M.\n\nLa profe escribe en el tablero: M, m.\n\n—¿Qué palabras empiezan con M? —pregunta la profe.\n\nMarta piensa y piensa. Marta mira por la ventana.\n\nAfuera ve el mar, el manglar y el cielo azul. Marta sonríe. ¡Ya sabe!\n\nM de mar. El mar es azul.\n\nM de manglar. El manglar tiene raíces largas.\n\nM de mono. El mono salta en el árbol.\n\nM de mariposa. La mariposa vuela.\n\nM de manatí. El manatí nada despacio.\n\nMarta dice las palabras despacio: mmmar, mmmanglar, mmmono. La M suena así: mmm.\n\n—¡Y M de Marta! —dice Marta—. Mi nombre empieza con M.\n\nToda la clase aplaude. Mamá también empieza con M.\n\nMamá, mar, manglar, mono, mariposa, manatí. ¡Mmm, qué linda es la letra M!\n\nMarta escribe la M en su cuaderno. Una M grande. Una m pequeña. Una M para mamá.\n\n¿Qué palabras con M conoces tú?",
+    "questions": [
+      {
+        "prompt": "¿Qué letra aprende Marta?",
+        "options": [
+          "La letra S",
+          "La letra M",
+          "La letra T"
+        ],
+        "answer": 1,
+        "explanation": "La profe escribe M y m en el tablero."
+      },
+      {
+        "prompt": "¿Cuál de estas palabras empieza con M?",
+        "options": [
+          "Sol",
+          "Pez",
+          "Mono"
+        ],
+        "answer": 2,
+        "explanation": "Mono empieza con M, como manglar y mariposa."
+      },
+      {
+        "prompt": "¿Qué palabra con M descubre Marta al final?",
+        "options": [
+          "Su propio nombre: Marta",
+          "Casa",
+          "Luna"
+        ],
+        "answer": 0,
+        "explanation": "Marta se da cuenta de que su nombre también empieza con M."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/quien-vive-en-la-ceiba.epub",
+    "cover": "cuentos/portadas/quien-vive-en-la-ceiba.png",
+    "title": "¿Quién vive en la ceiba?",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Sami y Lucho miran la gran ceiba del patio de la escuela y descubren que es la casa de una iguana, un pájaro, un colibrí y un mono. Por eso deciden cuidarla.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "animales y su hogar",
+      "árboles"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "quien-vive-en-la-ceiba",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "00711115be1fa572a5db5f4f98e50e43ba759cd80f54050b5cad57858e972a60",
+    "sizeBytes": 97557,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "animales y su hogar",
+    "grade": 1,
+    "wordCount": 149,
+    "text": "¿Quién vive en la ceiba?\n\nEn el patio de la escuela hay una ceiba grande.\n\nSami y Lucho miran la ceiba.\n\n—¿Quién vive en la ceiba? —pregunta Sami.\n\nMiran abajo, en las raíces. ¡Una iguana verde! La iguana toma el sol.\n\n—La iguana vive en la ceiba.\n\nMiran el tronco. ¡Un pájaro azul!\n\n—El pájaro tiene un nido con tres huevos. El pájaro vive en la ceiba.\n\nMiran las flores. ¡Un colibrí! El colibrí toma néctar. —El colibrí visita la ceiba.\n\nMiran arriba, muy arriba. ¡Un mono!\n\n—¡El mono vive en la ceiba!\n\n—La ceiba es una casa grande —dice Lucho.\n\n—Es la casa de muchos animales —dice Sami.\n\n—Entonces cuidamos la ceiba —dicen los dos.\n\nNo arrancan sus hojas. No le tiran piedras. Le dan agua cuando hace calor.\n\nLa ceiba mueve sus hojas con el viento. Parece que dice: gracias, amigos.\n\n¿Hay un árbol cerca de tu casa? ¿Quién vive en él?",
+    "questions": [
+      {
+        "prompt": "¿Qué animal toma el sol en las raíces de la ceiba?",
+        "options": [
+          "La iguana",
+          "El mono",
+          "El pez"
+        ],
+        "answer": 0,
+        "explanation": "Sami y Lucho ven una iguana verde tomando el sol en las raíces."
+      },
+      {
+        "prompt": "¿Cuántos huevos hay en el nido?",
+        "options": [
+          "Uno",
+          "Tres",
+          "Diez"
+        ],
+        "answer": 1,
+        "explanation": "El pájaro azul tiene un nido con tres huevos."
+      },
+      {
+        "prompt": "¿Por qué Sami y Lucho deciden cuidar la ceiba?",
+        "options": [
+          "Porque quieren cortarla",
+          "Porque es de plástico",
+          "Porque es la casa de muchos animales"
+        ],
+        "answer": 2,
+        "explanation": "Descubren que la ceiba es el hogar de muchos animales."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/la-semilla-de-sara.epub",
+    "cover": "cuentos/portadas/la-semilla-de-sara.png",
+    "title": "La semilla de Sara",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Sara siembra una semilla pequeña y la riega cada día. Con sol, agua, tierra y paciencia, la semilla se convierte en una planta con una flor roja.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "las plantas",
+      "ciencias"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "la-semilla-de-sara",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "52e64ae833ac219f66abcbd580c1d43e0eb612019b94c7cd8d9cb1f6e75f6eab",
+    "sizeBytes": 90492,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "las plantas",
+    "grade": 1,
+    "wordCount": 145,
+    "text": "La semilla de Sara\n\nSara tiene una semilla. Es pequeña y café.\n\nSara hace un hueco en la tierra. Pone la semilla. La tapa con tierra.\n\n—Crece, semillita —dice Sara.\n\nLa semilla queda dormida bajo la tierra. Sara espera y espera.\n\nDía uno: Sara le pone agua. No pasa nada.\n\nDía dos: Sara le pone agua. No pasa nada.\n\nDía tres: sale el sol. Sara le pone agua.\n\n¡Sale una hojita verde! Sara aplaude.\n\n—Hola, hojita —dice Sara—. Bienvenida.\n\nSara le cuenta a su abuela. La abuela también aplaude.\n\nPasan muchos días. Sol, agua y tierra.\n\nLa hojita crece y crece. Ahora tiene un tallo y muchas hojas.\n\nUn día aparece una flor roja. Llega una mariposa amarilla.\n\n—Gracias, sol. Gracias, agua. Gracias, tierra —dice Sara.\n\nLa flor es roja como un tomate. Sara la mira y la mira. ¡Qué bonita!\n\nSara aprendió a esperar. Las plantas crecen despacio.",
+    "questions": [
+      {
+        "prompt": "¿Qué necesita la semilla para crecer?",
+        "options": [
+          "Sol, agua y tierra",
+          "Juguetes",
+          "Mucho ruido"
+        ],
+        "answer": 0,
+        "explanation": "Sara da las gracias al sol, al agua y a la tierra."
+      },
+      {
+        "prompt": "¿Qué salió el día tres?",
+        "options": [
+          "Una flor roja",
+          "Una hojita verde",
+          "Una mariposa"
+        ],
+        "answer": 1,
+        "explanation": "El día tres salió una hojita verde y Sara aplaudió."
+      },
+      {
+        "prompt": "¿Qué aprendió Sara?",
+        "options": [
+          "Que las plantas crecen en un minuto",
+          "Que a las plantas no se les pone agua",
+          "Que las plantas crecen despacio y hay que esperar"
+        ],
+        "answer": 2,
+        "explanation": "Sara aprendió a tener paciencia: las plantas crecen despacio."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/tomas-juega-conmigo.epub",
+    "cover": "cuentos/portadas/tomas-juega-conmigo.png",
+    "title": "Tomás juega conmigo",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Tomás usa silla de ruedas, ríe mucho y tiene ideas geniales. En el recreo, él y su amiga inventan un juego en el que nadie se queda afuera.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "inclusión",
+      "amistad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "tomas-juega-conmigo",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "3a4cc96107045444f1e992353b2bdc673284d6157b2373d26cb0ac98d5797af0",
+    "sizeBytes": 92482,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "inclusión",
+    "grade": 1,
+    "wordCount": 143,
+    "text": "Tomás juega conmigo\n\nTomás es mi amigo. Tomás usa silla de ruedas.\n\nTomás ríe mucho. Tomás canta bonito.\n\nEn el recreo, todos corren.\n\n—¿Jugamos? —pregunta Tomás.\n\n—¡Sí! —digo yo.\n\nTomás mueve las ruedas rápido. ¡Zum, zum! Yo corro a su lado.\n\nJugamos a la pelota. Yo lanzo. Tomás atrapa. Tomás lanza. Yo atrapo.\n\nLuego jugamos a contar: uno, dos, tres… ¡Tomás cuenta hasta cien!\n\nAna llega. Pedro llega. Todos queremos jugar.\n\n—¿A qué jugamos ahora? —pregunta Ana.\n\n—¡A las adivinanzas! —dice Pedro.\n\nTomás sabe muchas adivinanzas. Todos se ríen.\n\nInventamos un juego nuevo. Es un juego para todos. Nadie se queda afuera.\n\nEs un juego con pelota, con canciones y con adivinanzas. Todos ayudamos. Todos ganamos.\n\nTomás tiene ideas geniales. Yo también. Juntos jugamos mejor.\n\nSuena la campana.\n\n—Mañana jugamos otra vez —dice Tomás.\n\n—¡Sí! —digo yo. Tomás es mi amigo. Y yo soy su amiga.",
+    "questions": [
+      {
+        "prompt": "¿Qué usa Tomás para moverse?",
+        "options": [
+          "Una bicicleta",
+          "Una silla de ruedas",
+          "Unos patines"
+        ],
+        "answer": 1,
+        "explanation": "Tomás usa silla de ruedas, y eso no le impide jugar."
+      },
+      {
+        "prompt": "¿Hasta qué número cuenta Tomás?",
+        "options": [
+          "Hasta cien",
+          "Hasta tres",
+          "Hasta diez"
+        ],
+        "answer": 0,
+        "explanation": "Cuando juegan a contar, Tomás cuenta hasta cien."
+      },
+      {
+        "prompt": "¿Cómo es el juego nuevo que inventan?",
+        "options": [
+          "Solo para los más rápidos",
+          "Solo para dos niños",
+          "Un juego para todos, donde nadie se queda afuera"
+        ],
+        "answer": 2,
+        "explanation": "Inventan un juego para todos: juntos juegan mejor."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/diez-mariposas-amarillas.epub",
+    "cover": "cuentos/portadas/diez-mariposas-amarillas.png",
+    "title": "Diez mariposas amarillas",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Una mañana en la sabana, Juana y su abuelo cuentan las mariposas amarillas que llegan a las flores: una, dos, tres… ¡hasta diez!",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "números",
+      "sabana"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "diez-mariposas-amarillas",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "015210ae4e563a79e0a73fb9ed0fb1c1be7bbc3a2b320c428dbdc609c148baf5",
+    "sizeBytes": 101047,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "números",
+    "grade": 1,
+    "wordCount": 150,
+    "text": "Diez mariposas amarillas\n\nEs de mañana en la sabana. El sol brilla.\n\nLlega una mariposa amarilla. Una.\n\nLlegan dos más. Una, dos, tres.\n\nLlegan tres más. Cuatro, cinco, seis.\n\nJuana y su abuelo caminan entre las flores. —Mira, abuelo —dice Juana—. ¡Mariposas!\n\nLas mariposas vuelan sobre las flores.\n\nLlega otra. Siete. Llega otra. Ocho. Llega otra más. Nueve.\n\n¿Falta una? Juana mira y cuenta: —Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve.\n\nJuana cuenta otra vez. Siempre son nueve. —¿Dónde está la mariposa diez? —pregunta Juana.\n\nUna mariposa pequeña se posa en el sombrero del abuelo.\n\n—¡Diez! —grita Juana—. ¡Diez mariposas amarillas!\n\nLas mariposas bailan con el viento. El abuelo sonríe: —Las mariposas cuidan las flores, y las flores cuidan a las mariposas.\n\nJuana y su abuelo se sientan bajo la ceiba. Miran volar a las mariposas.\n\nJuana cuenta otra vez, despacito: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, ¡diez!",
+    "questions": [
+      {
+        "prompt": "¿De qué color son las mariposas del cuento?",
+        "options": [
+          "Azules",
+          "Amarillas",
+          "Negras"
+        ],
+        "answer": 1,
+        "explanation": "Todas las mariposas del cuento son amarillas."
+      },
+      {
+        "prompt": "¿Dónde se posa la última mariposa?",
+        "options": [
+          "En el sombrero del abuelo",
+          "En un balde",
+          "En el agua"
+        ],
+        "answer": 0,
+        "explanation": "La mariposa número diez se posa en el sombrero del abuelo."
+      },
+      {
+        "prompt": "¿Cuántas mariposas hay al final?",
+        "options": [
+          "Cinco",
+          "Nueve",
+          "Diez"
+        ],
+        "answer": 2,
+        "explanation": "Juana cuenta hasta diez: ¡diez mariposas amarillas!"
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/agua-para-todos.epub",
+    "cover": "cuentos/portadas/agua-para-todos.png",
+    "title": "Agua para todos",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Pipe deja el grifo abierto mientras canta. Su abuela le explica que el agua es para todos, y Pipe inventa un plan para cuidarla.",
+    "gradeMin": 1,
+    "gradeMax": 2,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "cuidar el agua",
+      "medio ambiente"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "agua-para-todos",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "9dbedb9b8e79ddbb98bf14278bfe4c4aff6d6975d4a900c50a6f5e90c9d55c14",
+    "sizeBytes": 77473,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "cuidar el agua",
+    "grade": 1,
+    "wordCount": 165,
+    "text": "Agua para todos\n\nPipe se lava los dientes. El agua sale del grifo: chas, chas, chas.\n\nPipe canta y el agua corre.\n\n—Pipe —dice la abuela—, ¡cierra el grifo!\n\nPipe cierra el grifo. Ahora el agua descansa.\n\nPipe mira el grifo. —¿El agua se cansa, abuela? —pregunta Pipe.\n\nLa abuela explica: —El agua viene del río y de la lluvia.\n\nEl agua es para todos. Para las personas. Para las plantas. Para los animales.\n\nSi gastamos mucha, falta agua.\n\nPipe piensa: —El agua es un tesoro.\n\n—El agua no se cansa —dice la abuela—, pero se puede acabar si la gastamos sin cuidado.\n\nPipe hace un plan. Cierra el grifo cuando se enjabona. Usa un vaso para lavarse los dientes.\n\nRecoge agua de lluvia en un balde. Con esa agua riega las matas.\n\nLa abuela sonríe.\n\n—Agua para mí, agua para ti, agua para todos —canta Pipe.\n\nPipe le cuenta su plan a su amiga Luisa. Ahora Luisa también cierra el grifo.\n\nY el agua parece decir: gracias.",
+    "questions": [
+      {
+        "prompt": "¿Qué le pide la abuela a Pipe?",
+        "options": [
+          "Que cante más fuerte",
+          "Que cierre el grifo",
+          "Que abra todas las llaves"
+        ],
+        "answer": 1,
+        "explanation": "La abuela le pide cerrar el grifo para no desperdiciar agua."
+      },
+      {
+        "prompt": "Según la abuela, ¿de dónde viene el agua?",
+        "options": [
+          "Del río y de la lluvia",
+          "De las piedras",
+          "De la nevera"
+        ],
+        "answer": 0,
+        "explanation": "La abuela explica que el agua viene del río y de la lluvia."
+      },
+      {
+        "prompt": "¿Para qué usa Pipe el agua de lluvia?",
+        "options": [
+          "Para botarla",
+          "Para jugar a mojar",
+          "Para regar las matas"
+        ],
+        "answer": 2,
+        "explanation": "Pipe recoge agua de lluvia en un balde y con ella riega las matas."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/el-tambor-de-nico.epub",
+    "cover": "cuentos/portadas/el-tambor-de-nico.png",
+    "title": "El tambor de Nico",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Nico toca su tambor alegre: pum, pum, pum. Con las palmas de su hermana y la gaita del abuelo, toda la familia baila la música de su tierra.",
+    "gradeMin": 1,
+    "gradeMax": 1,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "música tradicional",
+      "patrimonio cultural"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-tambor-de-nico",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "b169fa8b9c621672c590c8128a78f1a517eaedb5d4aeb494f15446f6a1e4096d",
+    "sizeBytes": 88552,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "música tradicional",
+    "grade": 1,
+    "wordCount": 150,
+    "text": "El tambor de Nico\n\nNico tiene un tambor. Es un tambor alegre.\n\nNico toca: pum, pum, pum.\n\nMamá mueve las manos. La abuela mueve los pies.\n\n—¡Qué rico suena! —dice la abuela.\n\nEl tambor es redondo. Tiene un cuero tenso arriba. Nico lo toca con las manos.\n\nNico toca despacio: pum… pum… pum. Es la lluvia que llega.\n\nNico toca rápido: pum, pum, pum, pum. ¡Es el corazón contento!\n\nNico toca suave. Nico toca fuerte.\n\nSu hermana Dayana toca las palmas: plas, plas, plas.\n\nPum, plas. Pum, plas. Los dos hacen música juntos.\n\nLlega el abuelo con una gaita. Fiu, fiu, fiu.\n\nPum, pum, plas. Fiu, fiu, fiu. Todos bailan en el patio.\n\nEs la música de nuestra tierra. La tocaban los abuelos de los abuelos.\n\n—Ahora la tocas tú —dice el abuelo.\n\nLa abuela baila. Mamá baila. Dayana da vueltas y vueltas.\n\nNico sonríe y toca: pum, pum, pum. Y tú, ¿cómo tocas?",
+    "questions": [
+      {
+        "prompt": "¿Qué instrumento toca Nico?",
+        "options": [
+          "Una guitarra",
+          "Un tambor",
+          "Un piano"
+        ],
+        "answer": 1,
+        "explanation": "Nico tiene un tambor alegre."
+      },
+      {
+        "prompt": "¿Qué instrumento trae el abuelo?",
+        "options": [
+          "Una gaita",
+          "Un violín",
+          "Una trompeta"
+        ],
+        "answer": 0,
+        "explanation": "El abuelo llega con una gaita: fiu, fiu, fiu."
+      },
+      {
+        "prompt": "¿Cómo suena el tambor de Nico?",
+        "options": [
+          "Fiu, fiu, fiu",
+          "Miau, miau",
+          "Pum, pum, pum"
+        ],
+        "answer": 2,
+        "explanation": "El tambor hace pum, pum, pum; la gaita hace fiu, fiu."
+      }
+    ],
+    "glossary": []
+  },
+  {
+    "file": "cuentos/la-gaita-de-juancho.epub",
+    "cover": "cuentos/portadas/la-gaita-de-juancho.png",
+    "title": "La gaita de Juancho",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Juancho quiere tocar la gaita como su abuelo Ramiro, pero al principio solo le salen soplidos. Con paciencia y práctica, descubre que la música también es una herencia de su pueblo.",
+    "gradeMin": 2,
+    "gradeMax": 2,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "tradiciones",
+      "música"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "la-gaita-de-juancho",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "fdf51d8bc95a28f1fe154f8c89d93b2edd5aaa95d77969f49af857a218bdeec1",
+    "sizeBytes": 97305,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "tradiciones",
+    "grade": 2,
+    "wordCount": 335,
+    "text": "La gaita de Juancho\n\nEn Ovejas, un pueblo de Sucre, vivía Juancho con su abuelo Ramiro. Cada tarde, el abuelo se sentaba en el patio y tocaba su gaita. La música salía suavecita, como el viento entre las hojas.\n\n—Abuelo, yo quiero tocar como tú —dijo Juancho un día.\n\n—Entonces vamos a hacer una gaita para ti —respondió el abuelo con una sonrisa.\n\nJuntos buscaron un tallo de cardón, lo limpiaron y le abrieron huequitos. En la punta pusieron cera de abejas y una pluma delgada para soplar.\n\n—La gaita hembra canta la melodía y la gaita macho le responde —explicó el abuelo—. Así conversan, como dos amigos en la terraza.\n\nJuancho sopló con fuerza. ¡Fffff! No salió ninguna nota. Sopló otra vez. ¡Piiii! Salió un chillido tan agudo que el gato se escondió debajo de la hamaca.\n\n—Mi gaita está dañada —dijo Juancho, triste.\n\n—Tu gaita está bien —dijo el abuelo—. Lo que pasa es que la música se aprende despacio. Primero se escucha, luego se respira, y después se sopla con cariño.\n\nDesde ese día, Juancho practicó un ratico cada tarde. A veces le salía una nota bonita y a veces un soplido chistoso. Pero no se rindió.\n\nUn día le salieron tres notas seguidas. Su prima Rosmery, que tocaba el tambor alegre, le hizo el ritmo con las manos: pum, pa, pum. Juancho se rió tanto que se le olvidó la cuarta nota. —No importa —dijo Rosmery—. Mañana te sale la canción completa.\n\nLlegó el festival de gaitas. La plaza se llenó de gente, de sombreros y de música de tambores. El abuelo Ramiro subió a la tarima y llamó a Juancho.\n\nRosmery se sentó a su lado con el tambor y le guiñó un ojo.\n\nJuancho tenía mariposas en la barriga. Respiró hondo, como le había enseñado su abuelo, y tocó. Las notas salieron claras y alegres. ¡La gente aplaudió y bailó!\n\n—Abuelo, ¿cómo lo logré? —preguntó Juancho.\n\n—Con paciencia —dijo el abuelo—. Y porque ahora la música de nuestro pueblo también vive en ti.",
+    "questions": [
+      {
+        "prompt": "¿Quién le enseñó a Juancho a tocar la gaita?",
+        "options": [
+          "Su maestra",
+          "Su abuelo Ramiro",
+          "Un vecino"
+        ],
+        "answer": 1,
+        "explanation": "El abuelo Ramiro tocaba la gaita cada tarde y le ayudó a Juancho a hacer la suya."
+      },
+      {
+        "prompt": "¿Qué hizo Juancho cuando la gaita no sonaba bien?",
+        "options": [
+          "Practicó un ratico cada tarde",
+          "La botó a la basura",
+          "Dejó de intentarlo"
+        ],
+        "answer": 0,
+        "explanation": "Juancho no se rindió: practicó con paciencia cada día."
+      },
+      {
+        "prompt": "¿Qué aprendió Juancho al final?",
+        "options": [
+          "Que la gaita era mágica",
+          "Que solo los adultos tocan gaita",
+          "Que con paciencia se aprende y la música es herencia de su pueblo"
+        ],
+        "answer": 2,
+        "explanation": "El abuelo le dice que lo logró con paciencia y que la música del pueblo ahora vive en él."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "gaita",
+        "meaning": "Flauta tradicional del Caribe colombiano, hecha de cardón, con cabeza de cera y pluma."
+      },
+      {
+        "word": "cardón",
+        "meaning": "Planta parecida a un cactus, de tallo largo y hueco."
+      },
+      {
+        "word": "tarima",
+        "meaning": "Plataforma alta donde se presentan los músicos."
+      },
+      {
+        "word": "festival",
+        "meaning": "Gran fiesta donde se presentan música, bailes y tradiciones."
+      },
+      {
+        "word": "herencia",
+        "meaning": "Lo que recibimos de nuestros mayores, como costumbres y saberes."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/los-colores-de-ines.epub",
+    "cover": "cuentos/portadas/los-colores-de-ines.png",
+    "title": "Los colores de Inés",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Inés es una iguana que siente muchas cosas en un solo día: alegría, rabia, tristeza y un poquito de miedo. Con ayuda de su amiga la garza, aprende a nombrar sus emociones y a respirar para encontrar la calma.",
+    "gradeMin": 1,
+    "gradeMax": 2,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "emociones"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "los-colores-de-ines",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "ba2eb639d1f326aa40fbbb345f5b362e32495d9f5398f62533462e40bd7fcb20",
+    "sizeBytes": 94165,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "emociones",
+    "grade": 2,
+    "wordCount": 313,
+    "text": "Los colores de Inés\n\nInés era una iguana verde que vivía en una ceiba, cerca de una escuela de Sincelejo. Por la mañana, el sol le calentó la espalda.\n\n—¡Qué rico! —dijo Inés—. Me siento contenta, contenta como un mango maduro.\n\nPero de pronto, un mono travieso le quitó su rama favorita para tomar el sol. Inés sintió calor en la cara y ganas de gritar.\n\n—¡Esa rama es mía! —dijo, y golpeó la corteza con la cola.\n\nSu amiga Gertrudis, una garza blanca, llegó volando.\n\n—Inés, ¿qué estás sintiendo? —le preguntó.\n\n—No sé. Siento algo caliente aquí adentro.\n\n—Eso se llama rabia —dijo Gertrudis—. Sentir rabia está bien. Lo importante es no lastimar a nadie. Vamos a respirar: huele una flor… y sopla una vela.\n\nInés olió una flor imaginaria y sopló una vela imaginaria. Una vez, dos veces, tres veces. El calor se fue haciendo pequeñito.\n\nMás tarde, Inés vio que sus amigos jugaban sin ella y se sintió triste. Luego tronó una nube gris y sintió un poquito de miedo. Cada vez, Gertrudis le ayudó a ponerle nombre a lo que sentía.\n\n—Y cuando sientas tristeza, puedes buscar a un amigo —dijo la garza—. Y si sientes miedo, puedes decirlo en voz alta. Las emociones son como nubes: llegan, se quedan un rato y después pasan.\n\nInés se acercó a sus amigos y les preguntó: —¿Puedo jugar? Y claro que pudo.\n\nAl atardecer, el mono volvió con una sorpresa.\n\n—Perdón por quitarte la rama, Inés. ¿La compartimos?\n\nInés respiró hondo y sonrió. —Sí. Hay sol para los dos.\n\nEsa noche, antes de dormir, Inés repasó su día: alegría, rabia, tristeza, miedo y, al final, calma.\n\n—Hoy sentí de todos los colores —le dijo a la luna—. Y todos me enseñaron algo.\n\nLuego cerró los ojos, olió una flor imaginaria, sopló una vela imaginaria y se quedó dormida, tranquila como el agua de la ciénaga.",
+    "questions": [
+      {
+        "prompt": "¿Qué sintió Inés cuando el mono le quitó su rama?",
+        "options": [
+          "Alegría",
+          "Rabia",
+          "Sueño"
+        ],
+        "answer": 1,
+        "explanation": "Inés sintió calor en la cara y ganas de gritar: Gertrudis le explicó que eso se llama rabia."
+      },
+      {
+        "prompt": "¿Qué hacía Inés para calmarse?",
+        "options": [
+          "Gritaba más fuerte",
+          "Se escondía",
+          "Respiraba: olía una flor y soplaba una vela imaginaria"
+        ],
+        "answer": 2,
+        "explanation": "Gertrudis le enseñó a respirar despacio, oliendo una flor y soplando una vela imaginaria."
+      },
+      {
+        "prompt": "¿Qué aprendió Inés al final del día?",
+        "options": [
+          "Que todas las emociones le enseñan algo",
+          "Que nunca hay que sentir rabia",
+          "Que no debe tener amigos"
+        ],
+        "answer": 0,
+        "explanation": "Inés dice que sintió de todos los colores y que todos le enseñaron algo."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "emoción",
+        "meaning": "Lo que sentimos por dentro, como alegría, tristeza, rabia o miedo."
+      },
+      {
+        "word": "rabia",
+        "meaning": "Emoción que sentimos cuando algo nos parece injusto o nos molesta mucho."
+      },
+      {
+        "word": "calma",
+        "meaning": "Sentirse tranquilo y en paz."
+      },
+      {
+        "word": "corteza",
+        "meaning": "La piel dura que cubre el tronco de los árboles."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/la-sombra-del-chiguiro.epub",
+    "cover": "cuentos/portadas/la-sombra-del-chiguiro.png",
+    "title": "La sombra grande del chigüiro",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Al mediodía, en la sabana, hace mucho calor y Chepe el chigüiro tiene la mejor sombra bajo un gran árbol. Cuando otros animales llegan acalorados, Chepe descubre que compartir hace la sombra más alegre.",
+    "gradeMin": 2,
+    "gradeMax": 2,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "compartir",
+      "convivencia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "la-sombra-del-chiguiro",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "27fa39667508ad4ecebcdd3542e39a68139f79d20655d282f215586b31493e1a",
+    "sizeBytes": 97436,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "compartir",
+    "grade": 2,
+    "wordCount": 308,
+    "text": "La sombra grande del chigüiro\n\nEn la sabana de Sucre, el sol del mediodía calentaba como un fogón. El pasto estaba amarillo y el aire temblaba de calor.\n\nChepe, un chigüiro gordito y tranquilo, había encontrado la mejor sombra de todas: la de una ceiba enorme. Se acostó, cerró los ojos y suspiró.\n\n—Esta sombra es mía, toda mía —dijo bajito.\n\nDesde allí veía la ciénaga brillar a lo lejos y escuchaba a las chicharras cantar: ¡chiiii, chiiii! Era el mejor lugar de toda la sabana, y Chepe no pensaba moverse de ahí hasta que bajara el sol.\n\nAl rato llegó una iguana con la lengua afuera.\n\n—Chepe, ¿me dejas un rinconcito? Las piedras están que queman.\n\nChepe abrió un ojo. —Mmm… es que la sombra es pequeña.\n\nDespués llegó un pajarito con las alas caídas, y luego una mariposa que casi no podía volar. Todos miraban la sombra con ojitos cansados.\n\nChepe se sintió incómodo. Recordó una tarde en que él tuvo mucho calor y una vaca le hizo campo bajo un totumo. ¡Qué bien se había sentido!\n\nChepe miró a la iguana, que respiraba rápido. Miró al pajarito, que tenía el pico abierto por el calor. Miró a la mariposa, que se posó, cansada, en una piedra caliente. Y sintió un pellizquito en el corazón.\n\nChepe se levantó y se corrió un poquito.\n\n—Vengan todos. Si nos acomodamos, cabemos.\n\nLa iguana se acostó junto a la raíz. El pajarito se posó en la espalda de Chepe. La mariposa descansó en una hoja. Y pasó algo curioso: la sombra parecía más grande.\n\nMientras esperaban que bajara el sol, se contaron chistes y adivinanzas. La iguana sabía una de un mango y todos se rieron.\n\n—¿Saben? —dijo Chepe—. Sola, la sombra era fresca. Compartida, además es divertida.\n\nY desde ese día, en la sabana, la ceiba de Chepe fue la sombra de todos.",
+    "questions": [
+      {
+        "prompt": "¿Por qué los animales buscaban la sombra?",
+        "options": [
+          "Porque llovía",
+          "Porque hacía mucho calor al mediodía",
+          "Porque era de noche"
+        ],
+        "answer": 1,
+        "explanation": "El sol del mediodía calentaba como un fogón en la sabana."
+      },
+      {
+        "prompt": "¿Qué recordó Chepe antes de compartir?",
+        "options": [
+          "Una vez que una vaca le hizo campo bajo un árbol",
+          "Un paseo al mar",
+          "Una canción de cuna"
+        ],
+        "answer": 0,
+        "explanation": "Chepe recordó lo bien que se sintió cuando una vaca compartió su sombra con él."
+      },
+      {
+        "prompt": "¿Qué descubrió Chepe al compartir?",
+        "options": [
+          "Que la sombra desaparecía",
+          "Que ya no tenía amigos",
+          "Que compartida, la sombra era más divertida"
+        ],
+        "answer": 2,
+        "explanation": "Chepe dice que, compartida, la sombra además es divertida."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "sabana",
+        "meaning": "Terreno plano y amplio, con pasto y pocos árboles."
+      },
+      {
+        "word": "chigüiro",
+        "meaning": "El roedor más grande del mundo; vive cerca del agua y come hierba."
+      },
+      {
+        "word": "fogón",
+        "meaning": "Lugar donde se hace fuego para cocinar."
+      },
+      {
+        "word": "totumo",
+        "meaning": "Árbol del Caribe cuyo fruto redondo, seco, sirve para hacer totumas."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/los-guardianes-del-reciclaje.epub",
+    "cover": "cuentos/portadas/los-guardianes-del-reciclaje.png",
+    "title": "Los guardianes del reciclaje",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En un barrio de Sincelejo, Mariana, Samuel y Kevin ven que el arroyo está lleno de botellas. Deciden formar el club de los guardianes del reciclaje y enseñan a sus vecinos a separar los residuos.",
+    "gradeMin": 2,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "reciclaje",
+      "medio ambiente"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "los-guardianes-del-reciclaje",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "5e7f82ac687fa42cdad93942fcd2b8a7eca9aa7356179e0baab9361d41f794ec",
+    "sizeBytes": 100845,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "reciclaje",
+    "grade": 2,
+    "wordCount": 324,
+    "text": "Los guardianes del reciclaje\n\nEn el barrio de Mariana, en Sincelejo, pasaba un arroyito. Cuando llovía, el agua corría alegre. Pero un sábado, Mariana vio algo triste: el arroyo estaba lleno de botellas, bolsas y tapas.\n\n—¡Pobre arroyo! Parece una caneca —dijo.\n\nSus amigos Samuel y Kevin se acercaron. Samuel se acomodó las gafas y Kevin movió las ruedas de su silla para ver mejor.\n\n—Si la basura llega al río, después llega al mar —dijo Kevin—. Y allá viven las tortugas.\n\nMariana recogió una botella con un palo. —No podemos limpiar todo el arroyo nosotros solos —dijo—, pero sí podemos hacer que llegue menos basura.\n\nLos tres se reunieron en la terraza de Mariana.\n\n—Seremos los guardianes del reciclaje —propuso Samuel.\n\nLa profesora Luz, que vivía al lado, les prestó unos libros. Así aprendieron que la basura no es toda igual. El plástico, el papel y el vidrio se pueden reciclar. Las cáscaras de frutas sirven para hacer abono. Y hay cosas que no se pueden aprovechar.\n\nCon cajas viejas y pintura hicieron tres canecas: una azul para el plástico, una verde para lo orgánico y una gris para lo demás. Kevin dibujó carteles con flechas y colores.\n\n—También podemos reducir —dijo la profesora Luz—. Eso quiere decir usar menos cosas desechables. Por ejemplo, llevar una botella para el agua que se lava y se vuelve a llenar.\n\nKevin anotó la palabra reducir en su cartel más grande.\n\nEl domingo salieron por la cuadra. Tocaban las puertas y explicaban:\n\n—Buenos días, vecina. ¿Nos ayuda a separar? Las botellas van en la azul.\n\nAlgunos vecinos dijeron que no tenían tiempo. Pero don Aurelio, el de la tienda de la esquina, puso las canecas frente a su puerta. Luego se unieron la señora Edith y los primos de Kevin.\n\nUn mes después, el arroyo corría limpio otra vez. Una garza se paró en la orilla, como diciendo gracias.\n\n—Ser guardián no es difícil —dijo Mariana—. Solo hay que empezar.",
+    "questions": [
+      {
+        "prompt": "¿Qué problema encontró Mariana en el arroyo?",
+        "options": [
+          "Estaba seco",
+          "Estaba lleno de botellas, bolsas y tapas",
+          "Tenía muchos peces"
+        ],
+        "answer": 1,
+        "explanation": "Mariana vio el arroyo lleno de basura y dijo que parecía una caneca."
+      },
+      {
+        "prompt": "¿Qué va en la caneca verde?",
+        "options": [
+          "Lo orgánico, como cáscaras de frutas",
+          "Las botellas de plástico",
+          "El vidrio"
+        ],
+        "answer": 0,
+        "explanation": "Los guardianes usaron la caneca verde para los residuos orgánicos, que sirven para hacer abono."
+      },
+      {
+        "prompt": "¿Qué pasó un mes después?",
+        "options": [
+          "Nadie ayudó",
+          "El arroyo se secó",
+          "El arroyo corría limpio otra vez"
+        ],
+        "answer": 2,
+        "explanation": "Gracias a los vecinos que separaron sus residuos, el arroyo volvió a estar limpio."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "reciclar",
+        "meaning": "Volver a usar materiales como plástico, papel o vidrio para hacer cosas nuevas."
+      },
+      {
+        "word": "orgánico",
+        "meaning": "Residuo que viene de plantas o alimentos, como cáscaras y hojas."
+      },
+      {
+        "word": "abono",
+        "meaning": "Tierra rica que ayuda a crecer a las plantas."
+      },
+      {
+        "word": "arroyo",
+        "meaning": "Corriente pequeña de agua."
+      },
+      {
+        "word": "guardián",
+        "meaning": "Persona que cuida y protege algo."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/valentina-habla-con-las-manos.epub",
+    "cover": "cuentos/portadas/valentina-habla-con-las-manos.png",
+    "title": "Valentina habla con las manos",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Valentina es sorda y se comunica en Lengua de Señas Colombiana. Cuando llega a un nuevo salón, sus compañeros descubren que pueden aprender a hablar con las manos y que la amistad no necesita palabras en voz alta.",
+    "gradeMin": 2,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "inclusión",
+      "diversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "valentina-habla-con-las-manos",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "aded2f532d043a443755d16059012ba85db85abcbf11d43effdf9ed25bf3cd2a",
+    "sizeBytes": 92359,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "inclusión",
+    "grade": 2,
+    "wordCount": 332,
+    "text": "Valentina habla con las manos\n\nEra lunes en una escuela de San Marcos, a orillas del San Jorge. La profe Adriana entró al salón con una niña de trenzas largas.\n\n—Ella es Valentina. Valentina es sorda: no escucha con los oídos, pero entiende con los ojos y habla con las manos, en Lengua de Señas Colombiana.\n\nValentina sonrió y movió las manos con rapidez. Parecían mariposas.\n\n—¿Qué dijo? —preguntó Andrés.\n\n—Dijo: hola, mucho gusto —explicó la profe, y les mostró cómo hacer el saludo.\n\nTodos intentaron hacer la seña. A Mateo se le enredaron los dedos y Valentina se rió con él, no de él. Luego la profe les explicó que, para hablar con Valentina, había que mirarla a la cara, no taparse la boca y tener paciencia.\n\nA la hora del recreo, Andrés quería jugar con Valentina, pero no sabía cómo invitarla. Se puso nervioso y solo la saludó con la mano.\n\nValentina sacó una libreta y escribió: ¿Jugamos a la pelota?\n\nAndrés dio un brinco de alegría. Jugaron toda la tarde. Valentina le enseñó la seña de pelota, la de correr y la de amigo: dos dedos que se abrazan.\n\nAl día siguiente, Andrés le enseñó las señas a Luisa, Luisa a Mateo, y Mateo a todo el salón.\n\nCada mañana, Valentina enseñaba una seña nueva: agua, comer, feliz, río, gracias. Los niños las practicaban en la fila, en el comedor y hasta en la casa con sus familias. La mamá de Andrés aprendió a decir buenos días con las manos.\n\nUn mes después, el curso preparó una sorpresa para la izada de bandera. Cuando llegó su turno, todos subieron al escenario y cantaron una canción del río con la voz y con las manos al mismo tiempo.\n\nValentina se puso las manos en el pecho. Era la primera vez que todo un salón le hablaba en su idioma.\n\nDespués, con señas, les dijo algo que ya todos entendían:\n\n—Gracias, amigos.\n\nY cien manos se levantaron para responder, moviéndose en el aire como mariposas felices.",
+    "questions": [
+      {
+        "prompt": "¿Cómo se comunica Valentina?",
+        "options": [
+          "Solo con dibujos",
+          "No se comunica",
+          "Con las manos, en Lengua de Señas Colombiana"
+        ],
+        "answer": 2,
+        "explanation": "Valentina es sorda y habla con las manos en Lengua de Señas Colombiana."
+      },
+      {
+        "prompt": "¿Cómo invitó Valentina a Andrés a jugar?",
+        "options": [
+          "Le escribió en una libreta",
+          "Lo llamó gritando",
+          "Le mandó una carta por correo"
+        ],
+        "answer": 0,
+        "explanation": "Valentina escribió en su libreta: ¿Jugamos a la pelota?"
+      },
+      {
+        "prompt": "¿Qué sorpresa le dio el curso a Valentina?",
+        "options": [
+          "Una torta",
+          "Una canción con la voz y con señas",
+          "Un viaje al mar"
+        ],
+        "answer": 1,
+        "explanation": "En la izada de bandera, todos cantaron con la voz y con las manos al mismo tiempo."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "sorda",
+        "meaning": "Persona que no oye o que oye muy poco."
+      },
+      {
+        "word": "Lengua de Señas Colombiana",
+        "meaning": "Idioma de las personas sordas de Colombia; se habla con las manos, la cara y el cuerpo."
+      },
+      {
+        "word": "seña",
+        "meaning": "Movimiento de las manos que significa una palabra o idea."
+      },
+      {
+        "word": "izada de bandera",
+        "meaning": "Acto en la escuela para celebrar fechas especiales y reconocer a los estudiantes."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/lucero-y-el-jardin.epub",
+    "cover": "cuentos/portadas/lucero-y-el-jardin.png",
+    "title": "Lucero y el jardín de la escuela",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En la huerta de una escuela de Sampués, los niños se preguntan por qué sus matas de ahuyama no dan fruto. Lucero, un colibrí curioso, les ayuda a descubrir el secreto del polen.",
+    "gradeMin": 2,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "polinización",
+      "ciencias naturales"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "lucero-y-el-jardin",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "9f9b3f5eba298854e028cea9bbd154027fe3ce414d867db9d790217fdbadf67f",
+    "sizeBytes": 96316,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "polinización",
+    "grade": 2,
+    "wordCount": 295,
+    "text": "Lucero y el jardín de la escuela\n\nLa escuela de Sampués tenía una huerta detrás del salón de segundo. Allí, Daniela, Yeison y Camilo sembraron ahuyama, ají y flores.\n\nLas matas crecieron grandes, con flores amarillas. Pero pasaban los días y no aparecía ni una ahuyama.\n\n—¿Qué le pasa a nuestra huerta? —preguntó Daniela, preocupada.\n\nNadie lo sabía. Entonces escucharon un zumbido: ¡zzzum, zzzum! Era un colibrí verde y brillante.\n\nEl colibrí se quedó quieto en el aire, aleteando rapidísimo, como si los estuviera mirando con curiosidad. Luego voló hacia una flor de ají.\n\nEl colibrí se llamaba Lucero. Volaba tan rápido que sus alas parecían una nube.\n\nLucero metió el pico en una flor de ají para tomar néctar. Cuando salió, tenía la cabeza llena de un polvito amarillo.\n\n—¿Qué es eso? —preguntó Camilo, acercándose con su lupa.\n\nLa profesora Nelly explicó: —Es polen. Cuando el colibrí, las abejas o las mariposas visitan las flores, llevan el polen de una flor a otra. Así las flores se convierten en frutos. A eso se le llama polinización.\n\n—¡Entonces nuestra huerta necesita más visitantes! —dijo Yeison.\n\nCamilo anotó en su cuaderno de ciencias: Sin polinizadores, no hay frutos. Debajo dibujó a Lucero con una flecha que iba de una flor a otra.\n\nLos niños sembraron más flores de colores alrededor de la huerta: rojas, moradas y amarillas. Pusieron un platito con agua para los visitantes y prometieron no usar venenos.\n\nPronto llegaron más colibríes, abejas y mariposas. Lucero iba de flor en flor, como un cartero con su bolsa de polen.\n\nDos semanas después, Daniela gritó: —¡Miren! ¡Una ahuyamita!\n\nDebajo de una hoja crecía una ahuyama redonda y verde. Todos aplaudieron y Lucero dio una vuelta en el aire.\n\n—Gracias, Lucero —dijo Daniela—. Tú cuidas la huerta y nosotros te cuidamos a ti.",
+    "questions": [
+      {
+        "prompt": "¿Cuál era el problema de la huerta?",
+        "options": [
+          "Las matas tenían flores pero no daban fruto",
+          "No había agua",
+          "Las matas no crecían"
+        ],
+        "answer": 0,
+        "explanation": "Las matas crecieron con flores amarillas, pero no aparecía ninguna ahuyama."
+      },
+      {
+        "prompt": "¿Qué es la polinización?",
+        "options": [
+          "Regar las matas",
+          "Llevar el polen de una flor a otra para que se formen frutos",
+          "Cortar las flores"
+        ],
+        "answer": 1,
+        "explanation": "La profesora explicó que los colibríes, abejas y mariposas llevan polen de flor en flor."
+      },
+      {
+        "prompt": "¿Qué hicieron los niños para ayudar a los polinizadores?",
+        "options": [
+          "Pusieron venenos",
+          "Cortaron los árboles",
+          "Sembraron más flores y pusieron agua"
+        ],
+        "answer": 2,
+        "explanation": "Sembraron flores de colores, pusieron un platito con agua y prometieron no usar venenos."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "polen",
+        "meaning": "Polvito amarillo que producen las flores."
+      },
+      {
+        "word": "néctar",
+        "meaning": "Líquido dulce que hay dentro de las flores."
+      },
+      {
+        "word": "polinización",
+        "meaning": "Cuando el polen pasa de una flor a otra y así se pueden formar frutos y semillas."
+      },
+      {
+        "word": "ahuyama",
+        "meaning": "Fruto grande y anaranjado por dentro, también llamado calabaza."
+      },
+      {
+        "word": "lupa",
+        "meaning": "Lente que hace ver las cosas más grandes."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/babi-la-babilla.epub",
+    "cover": "cuentos/portadas/babi-la-babilla.png",
+    "title": "Babi, la babilla",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En la ciénaga, todos se alejan de Babi la babilla sin conocerla, solo por sus dientes y sus escamas. Cuando Babi ayuda a encontrar a un pececito perdido, los animales aprenden a no juzgar por las apariencias.",
+    "gradeMin": 2,
+    "gradeMax": 2,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "respeto a la diversidad",
+      "fauna"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "babi-la-babilla",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "e08c05946bd3bbaf58e315fd856fde4d7e5cff196ae24d8a6a47f020b52b60ff",
+    "sizeBytes": 93353,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "respeto a la diversidad",
+    "grade": 2,
+    "wordCount": 295,
+    "text": "Babi, la babilla\n\nEn una ciénaga de La Mojana vivía Babi, una babilla de escamas verdes y sonrisa larga. A Babi le gustaba flotar quietecita, mirando las nubes.\n\nPero cuando ella se acercaba, la garza levantaba el vuelo, la tortuga se escondía en su caparazón y los pececitos huían.\n\n—Tiene muchos dientes —susurraba la garza.\n\n—Seguro es gruñona —decía la tortuga.\n\nNadie le había preguntado su nombre. Babi se sentía sola.\n\nA veces, Babi intentaba saludar. —Buenos días, garza. ¡Qué bonitas plumas! Pero la garza ya se había ido volando, y el saludo se quedaba flotando en el agua, solito, como una hoja.\n\nUna tarde, la mamá pez llegó llorando.\n\n—¡Mi pececito Pipo se perdió entre las raíces del mangle!\n\nLa garza buscó desde arriba, pero las hojas tapaban todo. La tortuga buscó, pero era muy lenta.\n\nEntonces Babi dijo con voz suave: —Yo conozco cada rincón de la ciénaga. Puedo ver bajo el agua y nado sin hacer olas. ¿Me dejan ayudar?\n\nLos animales se miraron. No tenían otra idea, así que dijeron que sí.\n\nLa mamá pez nadó junto a Babi, muy nerviosa. La garza voló por encima, mirando con atención. Por primera vez, todos iban juntos.\n\nBabi nadó despacito entre las raíces. Allí, enredado en una hoja, estaba Pipo, temblando. Babi apartó la hoja con su nariz y lo acompañó, nadando a su lado, hasta donde estaba su mamá.\n\n—¡Gracias, Babi! —dijo la mamá pez.\n\nLa garza bajó la cabeza. —Perdón, Babi. Te juzgamos sin conocerte.\n\n—Todos somos distintos —dijo Babi—. Mis dientes son para comer, mis escamas me protegen, y mi corazón es para tener amigos.\n\nDesde entonces, Babi tuvo muchos amigos en la ciénaga. Cada uno a su manera, y cada uno en su espacio: así se respetan los animales que viven juntos.",
+    "questions": [
+      {
+        "prompt": "¿Por qué los animales se alejaban de Babi?",
+        "options": [
+          "Porque ella era grosera",
+          "Por su apariencia, sin conocerla",
+          "Porque cantaba muy fuerte"
+        ],
+        "answer": 1,
+        "explanation": "La juzgaban por sus dientes y escamas, pero nadie le había preguntado su nombre."
+      },
+      {
+        "prompt": "¿Cómo ayudó Babi a la mamá pez?",
+        "options": [
+          "Encontró a Pipo entre las raíces del mangle",
+          "Le dio comida",
+          "Llamó a la garza"
+        ],
+        "answer": 0,
+        "explanation": "Babi conocía la ciénaga, encontró a Pipo enredado en una hoja y lo acompañó hasta su mamá."
+      },
+      {
+        "prompt": "¿Qué enseñanza deja el cuento?",
+        "options": [
+          "Que hay que tocar a todos los animales",
+          "Que las babillas son iguales a los peces",
+          "Que no debemos juzgar a otros por su apariencia"
+        ],
+        "answer": 2,
+        "explanation": "La garza pide perdón por juzgar a Babi sin conocerla."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "babilla",
+        "meaning": "Reptil parecido a un caimán pequeño que vive en ciénagas y ríos del Caribe."
+      },
+      {
+        "word": "ciénaga",
+        "meaning": "Lugar con agua quieta y poco profunda, lleno de plantas y animales."
+      },
+      {
+        "word": "escamas",
+        "meaning": "Placas pequeñas y duras que cubren la piel de reptiles y peces."
+      },
+      {
+        "word": "juzgar",
+        "meaning": "Pensar algo de alguien, muchas veces antes de conocerlo."
+      },
+      {
+        "word": "caparazón",
+        "meaning": "Concha dura que protege el cuerpo de la tortuga."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-viaje-de-gotita.epub",
+    "cover": "cuentos/portadas/el-viaje-de-gotita.png",
+    "title": "El viaje de Gotita por La Mojana",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Gotita vive en una ciénaga de La Mojana. Un día el sol la calienta, sube al cielo, se vuelve nube, cae como lluvia y viaja por el río San Jorge. Así descubre el ciclo del agua.",
+    "gradeMin": 2,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "ciclo del agua",
+      "ciencias naturales"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-viaje-de-gotita",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "b8abcf56c5ef83393d29ed042eaa6448e58c26e43ef58c80f734245436a72e6f",
+    "sizeBytes": 95791,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "ciclo del agua",
+    "grade": 2,
+    "wordCount": 315,
+    "text": "El viaje de Gotita por La Mojana\n\nGotita era una gota de agua que vivía en una ciénaga de La Mojana, entre peces, garzas y flores de agua. Le encantaba jugar con sus amigas a hacer ondas.\n\nUna mañana, el sol salió muy brillante. Gotita empezó a sentir calorcito, luego más calor… y de pronto se sintió liviana, liviana como una pluma.\n\n—¡Estoy flotando! —gritó.\n\nGotita se había convertido en vapor, un vapor invisible que subía y subía. A esto se le llama evaporación.\n\nDesde arriba vio la ciénaga hacerse pequeñita. Las garzas parecían puntos blancos y las canoas parecían semillas flotando.\n\nAllá arriba hacía fresco. Gotita encontró a miles de gotitas como ella. Se juntaron tanto, tanto, que formaron una nube blanca y esponjosa. Eso es la condensación.\n\nLa nube viajó con el viento sobre las sabanas de Sucre. Gotita veía desde arriba las vacas chiquiticas, los techos de palma y el río brillando como una cinta.\n\nPero la nube se fue llenando de gotas y se puso gris y pesada.\n\n—¡Agárrense, que vamos a bajar! —dijo una gota grande.\n\nGotita sintió un poco de nervios, pero también mucha curiosidad. ¿Dónde caería?\n\n¡Plic, plic, plic! Gotita cayó como lluvia sobre un campo de arroz. Esa es la precipitación. Los sapos cantaron, las plantas tomaron agua y los niños salieron a jugar descalzos.\n\nUn niño puso un balde bajo el alero de su casa y guardó agua de lluvia para regar las matas.\n\nGotita resbaló por la tierra, se metió en un caño y llegó al río San Jorge. Navegó junto a canoas de pescadores y bajo un puente.\n\nDespués de muchos días, el río la llevó otra vez a su ciénaga.\n\n—¡Volví! —dijo Gotita a sus amigas—. Fui vapor, fui nube, fui lluvia y fui río.\n\n—Y lo volverás a hacer —dijo una garza—, porque el agua nunca deja de viajar. Por eso hay que cuidarla en cada parte del camino.",
+    "questions": [
+      {
+        "prompt": "¿Qué le pasó a Gotita cuando el sol la calentó?",
+        "options": [
+          "Se congeló",
+          "Se evaporó y subió al cielo",
+          "Se hundió en el barro"
+        ],
+        "answer": 1,
+        "explanation": "Con el calor, Gotita se volvió vapor y subió: eso es la evaporación."
+      },
+      {
+        "prompt": "¿Cómo se forma una nube?",
+        "options": [
+          "Cuando muchas gotitas se juntan en el aire fresco",
+          "Cuando sopla el viento",
+          "Cuando sale la luna"
+        ],
+        "answer": 0,
+        "explanation": "Allá arriba, las gotitas se juntan y forman la nube: eso es la condensación."
+      },
+      {
+        "prompt": "¿Por dónde viajó Gotita para volver a su ciénaga?",
+        "options": [
+          "Por una tubería",
+          "Por el mar",
+          "Por un caño y el río San Jorge"
+        ],
+        "answer": 2,
+        "explanation": "Después de caer como lluvia, Gotita llegó a un caño, luego al río San Jorge y volvió a la ciénaga."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "evaporación",
+        "meaning": "Cuando el agua se calienta y se convierte en vapor que sube."
+      },
+      {
+        "word": "condensación",
+        "meaning": "Cuando el vapor se enfría y se junta en gotitas que forman nubes."
+      },
+      {
+        "word": "precipitación",
+        "meaning": "Cuando el agua cae de las nubes como lluvia."
+      },
+      {
+        "word": "caño",
+        "meaning": "Corriente de agua que une ríos y ciénagas."
+      },
+      {
+        "word": "La Mojana",
+        "meaning": "Región del sur de Sucre y otros departamentos, llena de ríos, caños y ciénagas."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-aullido-de-aurelio.epub",
+    "cover": "cuentos/portadas/el-aullido-de-aurelio.png",
+    "title": "El aullido de Aurelio",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En el bosque de los Montes de María, todos los monos aulladores tienen una voz grave y poderosa, menos Aurelio, que aúlla finito. Cuando una niebla espesa cubre el bosque, la voz diferente de Aurelio es justo la que todos necesitan.",
+    "gradeMin": 2,
+    "gradeMax": 2,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "diversidad de talentos",
+      "fauna"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-aullido-de-aurelio",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "d677ab4462f1aa778bf39cd79fe70c03b20c084783f254709901fc626180c208",
+    "sizeBytes": 93580,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "diversidad de talentos",
+    "grade": 2,
+    "wordCount": 313,
+    "text": "El aullido de Aurelio\n\nEn los Montes de María, cada amanecer, los monos aulladores despertaban al bosque con su canto: ¡JUUUUU, JUUUUU! Era un sonido grave y fuerte, como un trueno suave.\n\nAurelio también quería aullar así. Llenaba el pecho de aire, abría la boca y… ¡jiii, jiii! Le salía una voz finita, como un silbido.\n\nAlgunos monos jóvenes se rieron.\n\n—Pareces un pajarito —le dijeron.\n\nAurelio se fue a la rama más alta y se quedó callado todo el día.\n\nDesde allí miró a los otros monos comer hojas tiernas y jugar colgados de la cola. Él también quería jugar, pero tenía miedo de que se volvieran a reír.\n\nSu abuela Clotilde subió despacito a sentarse a su lado.\n\n—¿Por qué estás tan callado, Aurelio?\n\n—Mi voz no sirve. No suena como la de los demás.\n\n—Tu voz es distinta, no inservible —dijo la abuela—. En el bosque cada uno tiene su sonido: el carpintero toca el tronco, la chicharra zumba y el arroyo canta bajito. Juntos hacen la música del monte.\n\nAurelio no estaba seguro. Pero esa noche se durmió pensando en las palabras de su abuela.\n\nAntes de dormir, Aurelio aulló bajito, solo para él: jiii. Esta vez no le pareció tan feo. Le pareció su sonido.\n\nAl día siguiente, una niebla blanca y espesa cubrió el bosque. No se veía nada. Los monitos pequeños se habían alejado jugando y no encontraban el camino de regreso.\n\nLos adultos aullaron: ¡JUUUU! Pero el sonido grave se mezclaba con la niebla y parecía venir de todas partes.\n\nEntonces Aurelio respiró hondo y aulló con su voz finita: ¡JIIII, JIIII!\n\nSu sonido atravesó la niebla como una flecha. Los monitos lo siguieron rama por rama hasta llegar a casa.\n\n—¡Gracias, Aurelio! —gritaron todos.\n\nDesde entonces, cada amanecer, el coro del bosque tiene una voz nueva: grave, grave, grave… y una finita que brilla en medio de todas.",
+    "questions": [
+      {
+        "prompt": "¿En qué era diferente Aurelio de los otros monos?",
+        "options": [
+          "Tenía la cola corta",
+          "Su aullido era finito",
+          "No le gustaban las ramas"
+        ],
+        "answer": 1,
+        "explanation": "Los monos aullaban grave, pero a Aurelio le salía una voz finita, como un silbido."
+      },
+      {
+        "prompt": "¿Qué le explicó la abuela Clotilde?",
+        "options": [
+          "Que su voz era distinta, no inservible",
+          "Que debía quedarse callado",
+          "Que se fuera del bosque"
+        ],
+        "answer": 0,
+        "explanation": "La abuela le dijo que en el bosque cada uno tiene su sonido y juntos hacen la música del monte."
+      },
+      {
+        "prompt": "¿Por qué la voz de Aurelio fue útil en la niebla?",
+        "options": [
+          "Porque era la más fuerte",
+          "Porque espantó la niebla",
+          "Porque su sonido finito atravesó la niebla y guió a los monitos"
+        ],
+        "answer": 2,
+        "explanation": "El aullido grave se perdía en la niebla, pero el de Aurelio la atravesó como una flecha."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "mono aullador",
+        "meaning": "Mono de pelo rojizo que vive en los bosques y lanza fuertes aullidos al amanecer."
+      },
+      {
+        "word": "grave",
+        "meaning": "Sonido bajo y profundo, como el de un tambor grande."
+      },
+      {
+        "word": "niebla",
+        "meaning": "Nube muy baja, pegada a la tierra, que no deja ver bien."
+      },
+      {
+        "word": "Montes de María",
+        "meaning": "Serranía con bosques entre Sucre y Bolívar."
+      },
+      {
+        "word": "coro",
+        "meaning": "Grupo que canta junto."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/bienvenida-yuleidis.epub",
+    "cover": "cuentos/portadas/bienvenida-yuleidis.png",
+    "title": "Bienvenida, Yuleidis",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Yuleidis llega desde Guapi, en el Pacífico, a una escuela de Corozal. Habla con otro acento y usa palabras que sus compañeros no conocen. Juntos descubren que las diferencias pueden ser un tesoro para compartir.",
+    "gradeMin": 2,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "convivencia escolar",
+      "diversidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "bienvenida-yuleidis",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "1ac4c84e47d05676fbbf614a5462ce213f225256dcd38319aea0fd70064f4cd0",
+    "sizeBytes": 91375,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "convivencia escolar",
+    "grade": 2,
+    "wordCount": 301,
+    "text": "Bienvenida, Yuleidis\n\nEl primer día en su nueva escuela de Corozal, Yuleidis tenía el estómago apretado. Venía de Guapi, un pueblo del Pacífico donde el río es ancho y la selva llega hasta las casas.\n\n—Buenos días. Yo soy Yuleidis —dijo con su acento cantadito.\n\nAlgunos niños se miraron. En Corozal hablaban distinto.\n\nA la hora del recreo, Yuleidis dijo: —Tengo ganas de comer una fruta, ¿alguien tiene un chontaduro?\n\n—¿Una qué? —preguntó Sebastián—. ¿Eso se come?\n\nAlgunos se rieron, y Yuleidis sintió que las mejillas se le ponían calientes.\n\nYuleidis bajó la cabeza. Pensó que se estaban burlando. Pero Mayerlin, una niña de coletas, se sentó a su lado.\n\n—No conocemos el chontaduro, pero queremos conocerlo. ¿Nos cuentas?\n\nYuleidis sonrió. Les contó que el chontaduro es una fruta de palma, anaranjada, que se come cocinada con sal. Les habló de las marimbas que suenan en Guapi y de las canoas que van por el río.\n\nSebastián se acercó, un poco apenado. —Perdón por reírme. No sabía qué era. ¿Me enseñas cómo se dice en Guapi cuando algo está muy bueno?\n\nDespués, Sebastián también compartió: —Aquí comemos bollo limpio y suero. ¡Y cuando hay fiesta, se baila porro!\n\nAl final del recreo, ya sabían cinco palabras nuevas cada uno.\n\nLa profesora Rosa tuvo una idea: hacer un mural llamado Nuestras palabras. Cada niño escribió una palabra de su familia o de su región.\n\nYuleidis escribió chontaduro y marimba. Sebastián escribió porro. Kelly, cuya abuela era zenú, escribió caña flecha. Y Mateo, que había llegado de Bogotá el año anterior, escribió chévere.\n\nEl mural quedó lleno de colores.\n\n—Mire, profe —dijo Mayerlin—. Venimos de lugares distintos, pero todos estamos en el mismo mural.\n\nEse día, Yuleidis ya no tenía el estómago apretado. Tenía el corazón contento, porque en Corozal también había encontrado su lugar.",
+    "questions": [
+      {
+        "prompt": "¿De dónde venía Yuleidis?",
+        "options": [
+          "De Guapi, en el Pacífico",
+          "De Bogotá",
+          "De Cartagena"
+        ],
+        "answer": 0,
+        "explanation": "Yuleidis venía de Guapi, un pueblo del Pacífico colombiano."
+      },
+      {
+        "prompt": "¿Qué hizo Mayerlin cuando vio triste a Yuleidis?",
+        "options": [
+          "Se fue a jugar sola",
+          "Se sentó a su lado y le pidió que les contara",
+          "Se rió de ella"
+        ],
+        "answer": 1,
+        "explanation": "Mayerlin le dijo que querían conocer el chontaduro y le pidió que les contara."
+      },
+      {
+        "prompt": "¿Qué mostraba el mural Nuestras palabras?",
+        "options": [
+          "Solo palabras difíciles",
+          "Las reglas del salón",
+          "Palabras de las familias y regiones de todos los niños"
+        ],
+        "answer": 2,
+        "explanation": "Cada niño escribió una palabra de su familia o región, y todos quedaron en el mismo mural."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "acento",
+        "meaning": "Forma especial de pronunciar que tiene la gente de cada región."
+      },
+      {
+        "word": "chontaduro",
+        "meaning": "Fruto anaranjado de una palma del Pacífico, que se come cocinado."
+      },
+      {
+        "word": "marimba",
+        "meaning": "Instrumento musical de teclas de madera, tradicional del Pacífico colombiano."
+      },
+      {
+        "word": "mural",
+        "meaning": "Dibujo o cartel grande hecho en una pared."
+      },
+      {
+        "word": "caña flecha",
+        "meaning": "Planta con la que el pueblo zenú teje artesanías como el sombrero vueltiao."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-secreto-del-manglar.epub",
+    "cover": "cuentos/portadas/el-secreto-del-manglar.png",
+    "title": "El secreto del manglar",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Dayana y Samuel visitan el manglar de Tolú con su curso y descubren un secreto: entre las raíces viven miles de crías de peces y cangrejos, y los árboles protegen la costa del Golfo de Morrosquillo.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "ciencia",
+      "conservación"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-secreto-del-manglar",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "1a5b74dcf44fcd14582674d164b5f7636088c54ee4d3a4febc544398f8b25e92",
+    "sizeBytes": 113262,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "ciencia",
+    "grade": 3,
+    "wordCount": 615,
+    "text": "El secreto del manglar\n\nEl martes, el curso tercero B del colegio de Tolú no fue al salón. La profe Edilsa los llevó al manglar que queda a la orilla del Golfo de Morrosquillo. Dayana iba adelante, con su cuaderno de dibujo bajo el brazo. Samuel caminaba detrás, limpiándose las gafas cada dos minutos porque el aire olía a sal y a hojas mojadas.\n\n—¿Qué tiene de especial un montón de árboles en el agua? —preguntó Samuel—. En el parque hay árboles más bonitos.\n\n—Hoy vamos a descubrir el secreto del manglar —respondió la profe Edilsa, y les guiñó un ojo.\n\nSubieron a una canoa larga que manejaba don Arnulfo, un pescador del barrio que conocía cada canal. La canoa avanzó despacio entre túneles verdes. Los árboles tenían raíces largas y curvas, como patas de araña que salían del tronco y se clavaban en el barro. Una garza blanca los miró desde una rama, muy quieta, y luego siguió pescando.\n\nDon Arnulfo detuvo la canoa junto a unas raíces. —Miren aquí abajo, sin tocar —dijo en voz baja.\n\nDayana se asomó. El agua era clara y poco profunda. Entre las raíces se movían cientos de pececitos plateados, tan pequeños como un grano de arroz. Sobre el barro caminaban cangrejos rojos que levantaban las pinzas como si saludaran. Pegadas a las raíces había ostras y caracoles.\n\n—¡Parece una guardería! —exclamó Dayana.\n\n—Eso es exactamente el manglar —explicó la profe Edilsa—. Muchos peces que después viven en el mar nacen y crecen aquí. Las raíces los esconden de los peces grandes y el agua tranquila les da comida. Sin manglar, habría menos pescado para las familias de Tolú y de Coveñas.\n\nSamuel abrió la boca, sorprendido. Luego vio un cangrejito azul muy cerca de la canoa y tuvo una idea. —Profe, ¿me lo puedo llevar a la casa en el balde? Lo cuido bien, se lo prometo.\n\nLa profe se quedó pensando un momento. —¿Dónde crees que estará más feliz ese cangrejo? ¿En un balde de plástico o aquí, con su barro, su agua y su familia?\n\nSamuel miró el balde vacío y luego miró el cangrejo, que se metió en un hueco del barro. —Aquí —dijo—. Mejor lo dibujo.\n\nMás adelante, don Arnulfo les mostró la orilla de una playa donde ya no había manglar. Allí la arena estaba revuelta y algunas palmeras se inclinaban, con las raíces al aire.\n\n—Hace años cortaron los mangles de esta parte —contó—. Cuando llegan los vientos fuertes y las olas grandes, el mar se come la playa. En cambio, donde hay manglar, las raíces frenan las olas y sostienen el barro, como una muralla viva.\n\n—Entonces el manglar también cuida las casas —dijo Samuel, pensativo.\n\n—Y limpia el agua, y es casa de aves como la garza —añadió Dayana, contando con los dedos—. ¡Tiene muchos secretos!\n\nLa profe Edilsa sonrió. —Por eso hay que protegerlo. No botar basura, no cortar sus ramas y contarles a otros lo que aprendimos hoy.\n\nDe regreso al colegio, el curso tercero B decidió hacer algo. Pintaron carteles con dibujos de cangrejos, peces y garzas. El de Samuel tenía un cangrejito azul enorme y decía: «El manglar es la guardería del mar».\n\nEl sábado siguiente, con sus familias y con don Arnulfo, sembraron veinte plantitas de mangle en una orilla donde faltaban árboles. Cada plantita parecía un lápiz verde clavado en el barro.\n\n—Van a tardar años en crecer —dijo Dayana—, pero cuando seamos grandes aquí habrá peces nuevos.\n\nSamuel se agachó junto a su plantita y le susurró: —Cuida bien a los cangrejos. Yo vuelvo a visitarte.\n\nY así, el secreto del manglar dejó de ser un secreto: ahora todo el barrio lo conocía y lo cuidaba.",
+    "questions": [
+      {
+        "prompt": "¿Por qué la profe Edilsa dice que el manglar es como una guardería?",
+        "options": [
+          "Porque allí los niños juegan después de clase",
+          "Porque muchos peces y cangrejos pequeños nacen y crecen protegidos entre sus raíces",
+          "Porque los pescadores guardan allí sus canoas"
+        ],
+        "answer": 1,
+        "explanation": "Entre las raíces del manglar las crías encuentran refugio y comida hasta que crecen."
+      },
+      {
+        "prompt": "¿Qué decidió Samuel sobre el cangrejito azul?",
+        "options": [
+          "Dejarlo en el manglar y dibujarlo",
+          "Llevarlo a la casa en un balde",
+          "Regalárselo a don Arnulfo"
+        ],
+        "answer": 0,
+        "explanation": "Samuel entendió que el cangrejo vive mejor en su hogar natural."
+      },
+      {
+        "prompt": "¿Cómo protege el manglar a la costa?",
+        "options": [
+          "Hace que el mar se seque",
+          "Atrae a los turistas",
+          "Sus raíces frenan las olas y sostienen el barro"
+        ],
+        "answer": 2,
+        "explanation": "Las raíces funcionan como una muralla viva que evita que el mar se lleve la playa."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "manglar",
+        "meaning": "Bosque de árboles llamados mangles que crece en la orilla del mar, donde se mezclan el agua dulce y la salada."
+      },
+      {
+        "word": "guardería",
+        "meaning": "Lugar donde se cuida a los más pequeños mientras crecen."
+      },
+      {
+        "word": "golfo",
+        "meaning": "Parte grande del mar que entra en la tierra, como el Golfo de Morrosquillo."
+      },
+      {
+        "word": "ostra",
+        "meaning": "Animal marino con concha dura que vive pegado a las rocas o a las raíces."
+      },
+      {
+        "word": "muralla",
+        "meaning": "Pared grande y fuerte que protege un lugar."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/las-tortugas-de-rincon-del-mar.epub",
+    "cover": "cuentos/portadas/las-tortugas-de-rincon-del-mar.png",
+    "title": "Las tortugas de Rincón del Mar",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Yeison y Luz Ángela se unen al grupo de voluntarios de Rincón del Mar que cuida los nidos de tortuga marina. Una noche de luna llena aprenden por qué hay que apagar las luces para que las tortuguitas encuentren el camino al mar.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "conservación",
+      "responsabilidad"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "las-tortugas-de-rincon-del-mar",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "7bb2e5724fa6fdd620a8be5d152d89e4dcf287d3fe25c864bb91b64b714373dc",
+    "sizeBytes": 101036,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "conservación",
+    "grade": 3,
+    "wordCount": 588,
+    "text": "Las tortugas de Rincón del Mar\n\nEn Rincón del Mar, un pueblo de pescadores de San Onofre, todos conocían a la señora Rosario. Tenía el pelo blanco como la espuma y caminaba cada mañana por la playa con una libreta y unos palitos de madera.\n\n—¿Qué busca, señora Rosario? —le preguntó un día Yeison, que tenía nueve años y vivía en la casa azul del final de la playa.\n\n—Busco huellas de tortuga —respondió ella—. Cuando una tortuga marina sale del mar de noche, deja en la arena un rastro ancho, como el de una llanta. Al final del rastro, enterrados, están sus huevos.\n\nEse mismo día, Yeison y su mejor amiga, Luz Ángela, se inscribieron en el grupo de voluntarios. Luz Ángela usaba un audífono de color coral y se sentaba siempre adelante en las reuniones para leer bien los labios de quien hablaba. Era la que mejor anotaba todo en la libreta.\n\nUna semana después encontraron un rastro nuevo. La señora Rosario midió con cuidado y marcó el nido con cuatro palitos y una cinta. Luz Ángela escribió en la libreta: «Nido 7. Encontrado el 2 de mayo».\n\n—Ahora hay que esperar unos dos meses —explicó la señora Rosario—. El sol calienta la arena y la arena calienta los huevos. Nadie debe pisar aquí ni sacar los huevos, porque las tortugas marinas están en peligro y cada nido es un tesoro.\n\nDurante semanas, Yeison y Luz Ángela visitaron el nido después de clase. Quitaban la basura que traía el mar y les explicaban a los turistas por qué no podían poner las sillas encima de la cinta. Algunos niños de otros barrios empezaron a ayudar también.\n\nPor fin llegó la noche esperada. Era luna llena. La señora Rosario reunió al grupo junto al nido y habló bajito: —Hoy pueden salir. Nada de linternas ni de fotos con luz. Las tortuguitas buscan el horizonte más brillante, que normalmente es el mar iluminado por la luna. Si ven otra luz, se confunden y caminan hacia el lado equivocado.\n\nPero en ese momento, Yeison vio algo que lo preocupó. En una casa cercana alguien había encendido un bombillo muy fuerte en el patio, justo frente a la playa.\n\n—Esa luz las va a despistar —dijo Luz Ángela, que había leído los labios de la señora Rosario.\n\nYeison respiró hondo y corrió hasta la casa. Tocó la puerta y, con mucho respeto, le explicó al señor que vivía allí lo que estaba pasando. —¿Nos ayuda a apagar el bombillo un ratico? Es por las tortuguitas.\n\nEl señor se sorprendió, pero sonrió y apagó la luz. —No lo sabía. Gracias por contarme —dijo, y salió con su hija a mirar desde lejos.\n\nCuando todo quedó oscuro, la arena del nido empezó a moverse. Primero salió una cabecita, después dos, después muchas. Eran tortuguitas del tamaño de una galleta, con aletas que se movían como remos.\n\nNadie las tocó. Nadie las cargó. Todos se quedaron a los lados, en silencio, formando un pasillo. Las tortuguitas avanzaron hacia el brillo plateado del mar y, una a una, las olas se las llevaron.\n\nLuz Ángela contó en voz baja y anotó en la libreta: «Nido 7. Salieron 84 tortuguitas. Todas llegaron al mar».\n\n—Algún día, algunas de estas tortugas volverán a esta misma playa a poner sus huevos —dijo la señora Rosario—. Y ustedes estarán aquí para cuidarlas.\n\nYeison miró el mar y sintió el pecho lleno, como si se le hubiera metido la luna adentro. Al día siguiente, el vecino del bombillo se inscribió en el grupo de voluntarios.",
+    "questions": [
+      {
+        "prompt": "¿Por qué la señora Rosario pidió que no usaran linternas?",
+        "options": [
+          "Porque las tortuguitas se confunden con otras luces y no encuentran el mar",
+          "Porque las linternas asustan a los pescadores",
+          "Porque estaba prohibido salir de noche"
+        ],
+        "answer": 0,
+        "explanation": "Las tortuguitas se guían por el horizonte más brillante, que debe ser el mar iluminado por la luna."
+      },
+      {
+        "prompt": "¿Qué hizo Yeison cuando vio el bombillo encendido?",
+        "options": [
+          "Se puso a llorar",
+          "Le tiró arena al bombillo",
+          "Fue a la casa y le pidió con respeto al vecino que lo apagara"
+        ],
+        "answer": 2,
+        "explanation": "Yeison explicó la situación con respeto y el vecino entendió y ayudó."
+      },
+      {
+        "prompt": "¿Qué hacía Luz Ángela en el grupo de voluntarios?",
+        "options": [
+          "Cargaba las tortuguitas hasta el mar",
+          "Anotaba con cuidado los datos de los nidos en la libreta",
+          "Vendía recuerdos a los turistas"
+        ],
+        "answer": 1,
+        "explanation": "Luz Ángela llevaba el registro de cada nido, un trabajo muy importante para cuidar las tortugas."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "voluntario",
+        "meaning": "Persona que ayuda en una tarea porque quiere, sin que le paguen."
+      },
+      {
+        "word": "rastro",
+        "meaning": "Marca o huella que deja algo al pasar."
+      },
+      {
+        "word": "horizonte",
+        "meaning": "Línea lejana donde parece que el cielo se junta con el mar o con la tierra."
+      },
+      {
+        "word": "en peligro",
+        "meaning": "Que quedan pocos y podrían desaparecer si no se cuidan."
+      },
+      {
+        "word": "audífono",
+        "meaning": "Aparato pequeño que se pone en la oreja y ayuda a escuchar mejor."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/la-canoa-de-la-abuela-mercedes.epub",
+    "cover": "cuentos/portadas/la-canoa-de-la-abuela-mercedes.png",
+    "title": "La canoa de la abuela Mercedes",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Cuando llega la creciente del río San Jorge, Camilo se pregunta cómo se puede vivir con tanta agua. En un paseo en canoa por La Mojana, su abuela Mercedes le cuenta cómo los antiguos zenúes construyeron canales para convivir con el río.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "historia",
+      "pueblo zenú"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "la-canoa-de-la-abuela-mercedes",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "43a64cbb40fe9df8aa1b34bae4fc19945cecca848bedf164d75675f8c55b7e37",
+    "sizeBytes": 103934,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "historia",
+    "grade": 3,
+    "wordCount": 587,
+    "text": "La canoa de la abuela Mercedes\n\nEn la casa de Camilo, en La Mojana, el río San Jorge tiene dos caras. En los meses secos se queda quieto en su cauce, angosto y tranquilo. Pero cuando llegan las lluvias, el río crece, se desborda y cubre los potreros hasta donde alcanza la vista. A eso le dicen la creciente.\n\nEse año el agua llegó hasta el último escalón de la casa. Camilo, que tenía nueve años, miraba por la ventana con la frente arrugada.\n\n—Abuela, ¿por qué vivimos en un lugar donde el agua lo tapa todo? —preguntó—. ¿No sería mejor vivir lejos del río?\n\nLa abuela Mercedes dejó a un lado la trenza de caña flecha que estaba tejiendo. Era zenú, como sus padres y sus abuelos, y siempre tenía una historia guardada para las preguntas difíciles.\n\n—Ven conmigo —le dijo—. Vamos a dar un paseo en la canoa. Hay cosas que se entienden mejor desde el agua.\n\nLa canoa se deslizó entre árboles medio sumergidos. Pasaron junto a una garza que pescaba y a un grupo de patos que nadaban en fila. La abuela remaba despacio, sin prisa, como si el río fuera un camino conocido.\n\n—Hace más de mil años —empezó a contar— aquí vivían nuestros antepasados, los zenúes. Ellos no peleaban con el agua. La estudiaban. Sabían que cada año el río crecía y que después bajaba.\n\n—¿Y qué hacían cuando crecía? —preguntó Camilo.\n\n—Construyeron miles de canales, largos y derechitos, uno al lado del otro, como las espinas de un pescado. Y entre canal y canal levantaron caminos de tierra más altos, que llamamos camellones. Cuando llegaba la creciente, el agua se repartía por los canales sin hacer daño. En los camellones sembraban maíz y yuca, y en los canales había peces para todos.\n\nCamilo abrió los ojos. —¡Era como un rompecabezas de agua y tierra!\n\n—Exacto. Desde un avión todavía se pueden ver las huellas de esos canales en la tierra de La Mojana y del San Jorge. Los científicos vienen desde lejos a estudiarlas.\n\nRemaron un rato en silencio. Camilo miraba el agua de otra manera. Ya no le parecía una enemiga, sino una vecina con la que había que aprender a convivir.\n\n—Abuela, ¿y nosotros todavía hacemos cosas como los zenúes? —preguntó.\n\n—Claro que sí. Por eso nuestra casa tiene el piso alto y por eso todos en el pueblo sabemos manejar una canoa. Y cuando el agua baje, la tierra quedará llena de barro fértil, perfecta para sembrar. El río se lleva cosas, pero también trae regalos.\n\nCamilo pensó en los peces que su papá pescaría en la ciénaga, en el maíz que crecería después. Se dio cuenta de que la creciente era parte del ritmo de La Mojana, como el día y la noche.\n\nAl otro día, en el colegio, Camilo le contó todo a su curso. La profe Yaneth propuso un experimento. En una bandeja grande hicieron canales con barro y dejaron camellones altos en medio. Luego echaron agua con una jarra, como si fuera la creciente.\n\nEl agua corrió por los canales y los camellones quedaron secos. En otra bandeja, sin canales, el agua lo inundó todo.\n\n—¡Funciona! —gritó Daniela, una compañera.\n\n—Los zenúes eran ingenieros —dijo Camilo, orgulloso.\n\nEsa tarde, cuando volvió a casa, encontró a la abuela Mercedes tejiendo otra vez. Se sentó a su lado y le pidió que le enseñara a hacer la trenza de caña flecha. —Quiero aprender todo lo que sabían nuestros abuelos —dijo.\n\nLa abuela sonrió y le puso las fibras en las manos.",
+    "questions": [
+      {
+        "prompt": "¿Qué es la creciente en La Mojana?",
+        "options": [
+          "Una fiesta del pueblo",
+          "El tiempo de lluvias en que el río sube y cubre los potreros",
+          "Una canoa muy grande"
+        ],
+        "answer": 1,
+        "explanation": "En la temporada de lluvias, el río San Jorge crece y el agua se extiende por la tierra."
+      },
+      {
+        "prompt": "¿Para qué construyeron los zenúes canales y camellones?",
+        "options": [
+          "Para repartir el agua de la creciente y poder sembrar y pescar",
+          "Para hacer carreras de canoas",
+          "Para esconderse del sol"
+        ],
+        "answer": 0,
+        "explanation": "Los canales llevaban el agua y en los camellones, más altos, sembraban; en los canales había peces."
+      },
+      {
+        "prompt": "¿Cómo cambió lo que Camilo pensaba del río?",
+        "options": [
+          "Decidió irse a vivir lejos del agua",
+          "Siguió creyendo que el río era un enemigo",
+          "Entendió que se puede convivir con el agua, como hacían los zenúes"
+        ],
+        "answer": 2,
+        "explanation": "Camilo aprendió que la creciente es parte del ritmo de La Mojana y que trae barro fértil y peces."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "creciente",
+        "meaning": "Tiempo en que el agua del río sube mucho por las lluvias."
+      },
+      {
+        "word": "cauce",
+        "meaning": "Camino por donde corre normalmente el agua de un río."
+      },
+      {
+        "word": "antepasados",
+        "meaning": "Personas de nuestra familia o pueblo que vivieron hace mucho tiempo."
+      },
+      {
+        "word": "camellón",
+        "meaning": "Franja de tierra alta entre dos canales, donde se puede sembrar."
+      },
+      {
+        "word": "fértil",
+        "meaning": "Tierra buena donde las plantas crecen fácilmente."
+      },
+      {
+        "word": "caña flecha",
+        "meaning": "Planta cuyas fibras usa el pueblo zenú para tejer trenzas y sombreros."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-club-de-la-luna.epub",
+    "cover": "cuentos/portadas/el-club-de-la-luna.png",
+    "title": "El club de la Luna",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En un colegio de Sincelejo, cuatro amigos forman el Club de la Luna y la dibujan cada noche durante un mes. Con una pelota y una lámpara descubren por qué la Luna parece cambiar de forma.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "ciencia",
+      "astronomía"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-club-de-la-luna",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "2395159c14c58d5d0622b0786dd38a5948947a94db5104f5bae5fa7b8fed75bb",
+    "sizeBytes": 92456,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "ciencia",
+    "grade": 3,
+    "wordCount": 519,
+    "text": "El club de la Luna\n\nTodo empezó con una discusión en el recreo del colegio, en Sincelejo.\n\n—La Luna cambia de forma porque la sombra de la Tierra la va tapando —dijo Andrés, muy seguro.\n\n—Yo creo que la Luna se va gastando y después vuelve a crecer, como las uñas —dijo Valeria, riéndose.\n\nSofía se acomodó las gafas. —No sé cuál es la respuesta, pero podemos averiguarlo. ¡Como científicos de verdad!\n\nAsí nació el Club de la Luna. El profe Ismael, que enseñaba Ciencias Naturales, aceptó ser su asesor. Les dio una tarea: durante un mes, cada noche, mirar la Luna desde su casa, dibujarla en un cuaderno y escribir la fecha. —Un buen científico primero observa —les dijo—, y después piensa.\n\nLas primeras noches no se veía nada. —¡La Luna se perdió! —escribió Valeria en su cuaderno. El profe les explicó que era luna nueva: la Luna estaba allí, pero no la veíamos iluminada.\n\nDespués apareció una rayita curva, delgada como una uña. Cada noche la parte brillante era un poquito más grande. A la semana parecía media galleta: era el cuarto creciente. Una semana después, la Luna estaba completamente redonda y brillante sobre los techos de Sincelejo: luna llena.\n\nLuego empezó a achicarse por el otro lado, hasta quedar otra vez como una rayita y desaparecer. Cuando juntaron sus cuadernos, los cuatro vieron lo mismo: el ciclo completo duraba casi un mes, unos veintinueve días y medio.\n\n—Entonces no se gasta —reconoció Valeria—, porque vuelve igualita.\n\n—Pero todavía no sabemos por qué cambia —dijo Andrés.\n\nPara resolver el misterio, el profe Ismael oscureció el salón, cerró las cortinas y encendió una lámpara en una esquina. —La lámpara es el Sol —dijo—. Sofía, tu cabeza será la Tierra. Y esta pelota blanca, en un palito, será la Luna.\n\nSofía sostuvo la pelota con el brazo estirado y empezó a girar despacio sobre sí misma, mirando siempre la pelota.\n\nPrimero, cuando la pelota quedó entre su cara y la lámpara, Sofía solo vio el lado oscuro. —¡Luna nueva! —gritó Valeria.\n\nAl girar un poco, apareció un borde iluminado. Luego media pelota brillante. Y cuando la lámpara quedó detrás de Sofía, la pelota se veía toda iluminada. —¡Luna llena! —dijeron todos a la vez.\n\nEl profe Ismael encendió la luz del salón. —¿Qué descubrieron?\n\nAndrés pensó un rato. —Que la Luna no tiene luz propia. El Sol siempre ilumina la mitad de la Luna, pero nosotros, desde la Tierra, vemos más o menos de esa parte brillante según dónde esté la Luna en su viaje alrededor de nosotros.\n\n—¡Exacto! —dijo el profe—. Y no es la sombra de la Tierra. La sombra de la Tierra solo cae sobre la Luna en los eclipses, que pasan pocas veces.\n\nAndrés se rascó la cabeza y sonrió. —Me equivoqué. Pero ahora sé más que antes.\n\n—Eso es lo mejor de la ciencia —dijo Sofía—. Equivocarse también sirve para aprender.\n\nEsa noche había luna llena. Los cuatro amigos la miraron desde sus casas, cada uno en un barrio distinto de Sincelejo, y sintieron que estaban juntos. Al día siguiente, el Club de la Luna tenía siete miembros nuevos.",
+    "questions": [
+      {
+        "prompt": "¿Qué hizo el Club de la Luna antes del experimento?",
+        "options": [
+          "Leyó un libro de cuentos",
+          "Observó y dibujó la Luna cada noche durante un mes",
+          "Viajó a la Luna en un cohete"
+        ],
+        "answer": 1,
+        "explanation": "El profe Ismael les enseñó que un buen científico primero observa."
+      },
+      {
+        "prompt": "En el experimento, ¿qué representaba la lámpara?",
+        "options": [
+          "La Luna",
+          "La Tierra",
+          "El Sol"
+        ],
+        "answer": 2,
+        "explanation": "La lámpara era el Sol, la cabeza de Sofía la Tierra y la pelota la Luna."
+      },
+      {
+        "prompt": "¿Por qué la Luna parece cambiar de forma?",
+        "options": [
+          "Porque vemos más o menos de su mitad iluminada por el Sol, según dónde esté en su recorrido",
+          "Porque se gasta y vuelve a crecer",
+          "Porque la sombra de la Tierra la tapa cada noche"
+        ],
+        "answer": 0,
+        "explanation": "El Sol siempre ilumina la mitad de la Luna; desde la Tierra vemos partes distintas de esa mitad."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "fases de la Luna",
+        "meaning": "Las distintas formas en que vemos la Luna durante un mes: nueva, creciente, llena y menguante."
+      },
+      {
+        "word": "observar",
+        "meaning": "Mirar algo con mucha atención para conocerlo mejor."
+      },
+      {
+        "word": "asesor",
+        "meaning": "Persona que guía y da consejos a un grupo."
+      },
+      {
+        "word": "luz propia",
+        "meaning": "Luz que algo produce por sí mismo, como el Sol. La Luna no tiene luz propia: refleja la del Sol."
+      },
+      {
+        "word": "eclipse",
+        "meaning": "Cuando la Tierra, el Sol y la Luna se alinean y uno tapa la luz del otro por un rato."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-porro-de-la-banda.epub",
+    "cover": "cuentos/portadas/el-porro-de-la-banda.png",
+    "title": "El porro de la banda escolar",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Daniela toca el redoblante en la banda de su colegio, pero el desfile de las fiestas tiene escalones y calles empinadas para su silla de ruedas. Toda la banda busca una solución para que el porro suene completo.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "inclusión",
+      "música tradicional"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-porro-de-la-banda",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "c0cd07c3a4e4afe9befb366027c6878427b82e10ec93331e608ee7d19ea8db25",
+    "sizeBytes": 103480,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "inclusión",
+    "grade": 3,
+    "wordCount": 575,
+    "text": "El porro de la banda escolar\n\nEn el colegio de Daniela, en las sabanas de Sucre, la banda ensayaba todas las tardes debajo del palo de mango. Había trompetas que brillaban al sol, clarinetes, un bombardino gordo y dorado, platillos, un bombo y un redoblante. El redoblante era de Daniela.\n\nDaniela tenía diez años, unas trenzas largas y una silla de ruedas azul con calcomanías de mariposas amarillas. Cuando tocaba, sus baquetas iban tan rápido que parecían colibríes.\n\n—¡Así se toca un porro! —decía siempre el profe Rafael, el director de la banda—. El porro nació aquí, en las sabanas de Sucre y Córdoba, en las bandas de los pueblos. Hay que tocarlo con alegría, para que la gente no aguante las ganas de bailar.\n\nEse año, la banda estaba invitada a tocar en el desfile de las fiestas del pueblo. Todos estaban felices. Todos menos Daniela.\n\n—¿Qué te pasa? —le preguntó Julián, el niño del bombo, cuando terminó el ensayo.\n\nDaniela miró al suelo. —El desfile sale de la plaza y sube por la calle de la iglesia vieja. Allí hay un sardinel altísimo y la calle es empinada. Además, ustedes marchan muy rápido. No voy a poder seguirlos.\n\nJulián se quedó callado. Nunca había pensado en eso. Para él, el sardinel era solo un escalón. Para Daniela, era una pared.\n\n—Entonces no voy a tocar en el desfile —dijo Daniela, con la voz bajita—. Que vaya otro con el redoblante.\n\n—¡No! —dijo Julián—. Un porro sin tu redoblante suena cojo. Vamos a hablar con el profe Rafael.\n\nAl día siguiente, el profe Rafael reunió a toda la banda en círculo. Daniela explicó el problema. Hubo un silencio largo. Luego empezaron a llover ideas.\n\n—Podemos cambiar la ruta —propuso Mayerlis, la de los platillos—. Por la calle del mercado no hay sardineles y es plana.\n\n—Y podemos marchar más despacio —dijo Julián—. El porro suena igual de sabroso si caminamos al ritmo de Daniela.\n\n—¡Que Daniela vaya adelante! —gritó el niño del bombardino—. Así ella marca el paso y nosotros la seguimos.\n\nEl profe Rafael sonrió de oreja a oreja. —Una banda es como un solo cuerpo. Si una parte no puede avanzar, todo el cuerpo se detiene a buscar el camino. Eso se llama trabajar en equipo.\n\nEsa tarde fueron con el profe a hablar con la alcaldía. Explicaron su idea y les dieron permiso para cambiar la ruta. Además, el señor encargado prometió poner una rampa en la entrada de la plaza para siempre.\n\nLlegó el día de las fiestas. La calle del mercado estaba llena de banderines de colores y de familias con sombreros vueltiaos, que en las sabanas se usan con orgullo como herencia del pueblo zenú.\n\nAdelante iba Daniela con su redoblante. Detrás, Julián con el bombo, Mayerlis con los platillos, las trompetas, los clarinetes y el bombardino dorado. Avanzaban al mismo paso, ni muy rápido ni muy lento.\n\nCuando Daniela marcó el ritmo con sus baquetas de colibrí, la banda arrancó con un porro. La música llenó la calle. Una abuela empezó a bailar con su nieto. Un señor levantó su sombrero y gritó: —¡Eso sí es un porro sabanero!\n\nAl llegar a la plaza, la silla de Daniela subió suavecito por la rampa nueva. La gente aplaudió.\n\n—Ahora el porro sí está completo —le dijo Julián, sudado y feliz.\n\nDaniela sonrió. Esa noche, en su cuaderno, escribió: «Hoy aprendí que cuando un camino no sirve para todos, se puede construir otro entre todos».",
+    "questions": [
+      {
+        "prompt": "¿Por qué Daniela estaba preocupada por el desfile?",
+        "options": [
+          "Porque no le gustaba el porro",
+          "Porque la ruta tenía un sardinel alto y una calle empinada, y la banda marchaba muy rápido",
+          "Porque había perdido sus baquetas"
+        ],
+        "answer": 1,
+        "explanation": "La ruta tenía barreras que no le permitían avanzar con su silla de ruedas."
+      },
+      {
+        "prompt": "¿Qué decidió la banda para que Daniela pudiera tocar?",
+        "options": [
+          "Cambiar la ruta, marchar más despacio y que ella fuera adelante",
+          "Que Daniela se quedara en la casa",
+          "Tocar sin redoblante"
+        ],
+        "answer": 0,
+        "explanation": "Entre todos encontraron soluciones para que nadie se quedara por fuera."
+      },
+      {
+        "prompt": "¿Dónde nació el porro, según el profe Rafael?",
+        "options": [
+          "En las montañas de los Andes",
+          "En una ciudad muy lejana",
+          "En las sabanas de Sucre y Córdoba"
+        ],
+        "answer": 2,
+        "explanation": "El porro es música tradicional de las bandas de los pueblos de las sabanas del Caribe colombiano."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "porro",
+        "meaning": "Música y baile tradicional de las sabanas de Sucre y Córdoba, tocado por bandas de viento."
+      },
+      {
+        "word": "redoblante",
+        "meaning": "Tambor pequeño que se toca con dos palitos llamados baquetas."
+      },
+      {
+        "word": "sardinel",
+        "meaning": "Borde alto de cemento entre la calle y el andén."
+      },
+      {
+        "word": "empinada",
+        "meaning": "Calle o camino muy inclinado, que sube mucho."
+      },
+      {
+        "word": "rampa",
+        "meaning": "Superficie inclinada que permite subir sin escalones, útil para sillas de ruedas y coches."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/las-semillas-viajeras.epub",
+    "cover": "cuentos/portadas/las-semillas-viajeras.png",
+    "title": "Las semillas viajeras",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En la huerta de una escuela rural cerca de Sincelejo aparecen plantas que nadie sembró. Daniela y Samuel investigan y descubren que las semillas viajan con el viento, con el agua y con los animales.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "ciencia",
+      "semillas"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "las-semillas-viajeras",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "7cba1dc12f6c1415b482e050dc59eb6e76661cdb82c2d92a5cef175cff3b529a",
+    "sizeBytes": 107557,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "ciencia",
+    "grade": 3,
+    "wordCount": 581,
+    "text": "Las semillas viajeras\n\nEn una vereda cerca de Sincelejo hay una escuela pequeña con techo azul y una huerta grande detrás del salón. Allí los estudiantes de tercero siembran ají, cilantro, ahuyama y fríjol. Cada mañana, antes de entrar a clase, Daniela y Samuel riegan los surcos con una regadera verde.\n\nUn lunes, Daniela se agachó junto a la cerca y abrió los ojos muy grandes.\n\n—¡Samuel, mira esto! Aquí nació una mata de papaya. ¡Y allá hay un árbol chiquito de mango!\n\n—Qué raro —dijo Samuel, rascándose la cabeza—. Nosotros nunca sembramos papaya ni mango.\n\nLa profesora Rocío se acercó con su cuaderno de campo bajo el brazo. Miró las plantas, sonrió y les hizo una pregunta que les dio vueltas en la cabeza todo el día:\n\n—Si nadie las sembró, ¿cómo llegaron las semillas hasta aquí? ¿Tendrán patas, alas o barquitos?\n\nEsa semana, el grupo se convirtió en un equipo de detectives de semillas. Con lupas y bolsitas de papel recorrieron el patio, el potrero y la orilla del arroyo.\n\nPrimero encontraron unas motas blancas y livianas que flotaban en el aire. Venían de una ceiba enorme que crece junto al camino.\n\n—Son semillas con pelusa —explicó la profesora—. La pelusa funciona como un paracaídas. El viento las empuja y las lleva lejos del árbol que las produjo.\n\nSamuel sopló una y la vio volar por encima de la cerca. —¡Viajan sin pagar pasaje! —dijo riendo.\n\nDespués, en la orilla del arroyo, Daniela halló un coco viejo atascado entre las raíces. Tenía una corteza dura y fibrosa.\n\n—El coco flota —dijo la profesora—. Hay semillas que viajan por el agua, por los ríos, las ciénagas y hasta por el mar. Así llegan a playas muy lejanas, como las del golfo de Morrosquillo.\n\nEl tercer descubrimiento fue el más divertido. Desde un guayabo, un pájaro azulejo picoteaba guayabas maduras. Más arriba, en el bosque, un grupo de monos aulladores comía frutas y dejaba caer las cáscaras.\n\n—Los animales también son jardineros —explicó la profesora Rocío—. Se comen las frutas, se van volando o caminando y, más tarde, dejan las semillas en otro lugar con su popó. Esa popó es abono, ¡como un regalito para la semilla!\n\nTodos se rieron, pero entendieron. Las semillas de papaya y mango de la huerta seguramente llegaron con algún pájaro que se posó en la cerca. Otras semillas se pegan al pelo de los perros, de los chigüiros o a los pantalones de las personas, y viajan como polizones.\n\n—Entonces las semillas tienen tres transportes —resumió Daniela, contando con los dedos—: el viento, el agua y los animales.\n\nAl final del mes, el grupo pintó un mural en la pared de la huerta. En él dibujaron una ceiba soltando paracaídas blancos, un coco navegando por el arroyo y un pájaro azul con una guayaba en el pico.\n\nLa profesora propuso un último experimento: sembrar en vasitos reciclados las semillas que recogieron y observar cuáles germinaban primero. Cada día anotaban en el cuaderno cuánto crecían los brotes.\n\nSamuel cuidó la mata de papaya que había llegado sola. Le puso un palito para que creciera derecha y le hizo un letrero que decía: «Papaya viajera, bienvenida a nuestra huerta».\n\n—Ahora entiendo por qué los bosques no necesitan jardineros con regadera —dijo Daniela—. Tienen al viento, al agua y a los animales trabajando todo el tiempo.\n\nY desde ese día, cada vez que veían una planta creciendo en un lugar inesperado, los detectives de semillas se preguntaban: ¿en qué viajaste tú?",
+    "questions": [
+      {
+        "prompt": "¿Por qué aparecieron matas de papaya y mango en la huerta si nadie las sembró?",
+        "options": [
+          "Porque las trajo la lluvia del mar",
+          "Porque un pájaro dejó caer sus semillas",
+          "Porque la profesora las sembró en secreto"
+        ],
+        "answer": 1,
+        "explanation": "Los pájaros comen frutas y luego dejan las semillas en otros lugares, como la cerca de la huerta."
+      },
+      {
+        "prompt": "¿Cómo viajan las semillas con pelusa de la ceiba?",
+        "options": [
+          "Con el viento, como paracaídas",
+          "Flotando en el arroyo",
+          "Pegadas a los zapatos"
+        ],
+        "answer": 0,
+        "explanation": "La pelusa funciona como un paracaídas y el viento las lleva lejos."
+      },
+      {
+        "prompt": "¿Cuáles son los tres transportes de las semillas que descubrieron los niños?",
+        "options": [
+          "El tractor, la bicicleta y el bus",
+          "La lluvia, la luna y el sol",
+          "El viento, el agua y los animales"
+        ],
+        "answer": 2,
+        "explanation": "Daniela lo resumió contando con los dedos: el viento, el agua y los animales."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "vereda",
+        "meaning": "Zona del campo que pertenece a un municipio, con fincas y casas dispersas."
+      },
+      {
+        "word": "surco",
+        "meaning": "Línea abierta en la tierra donde se siembran las semillas."
+      },
+      {
+        "word": "germinar",
+        "meaning": "Cuando una semilla empieza a brotar y a convertirse en planta."
+      },
+      {
+        "word": "abono",
+        "meaning": "Material que alimenta la tierra y ayuda a crecer a las plantas."
+      },
+      {
+        "word": "polizón",
+        "meaning": "Quien viaja escondido, sin que nadie lo note."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-circulo-de-la-palabra.epub",
+    "cover": "cuentos/portadas/el-circulo-de-la-palabra.png",
+    "title": "El círculo de la palabra",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Andrés y Mateo son grandes amigos, pero un balón los hace pelear en el recreo. La profesora Yolanda los invita a un círculo de la palabra, donde aprenden a escuchar, a nombrar lo que sienten y a reparar el daño.",
+    "gradeMin": 2,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "convivencia escolar",
+      "emociones"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-circulo-de-la-palabra",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "1a9d9c41d77ee0510347c3fba0489d5d1e9b28d240f3b59d8f893bd3c2795103",
+    "sizeBytes": 102792,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "convivencia escolar",
+    "grade": 3,
+    "wordCount": 611,
+    "text": "El círculo de la palabra\n\nAndrés y Mateo eran amigos desde primero. Se sentaban juntos, compartían los colores y, en el recreo, jugaban fútbol en el patio de la escuela, bajo la sombra de las palmeras.\n\nUn martes, Andrés llegó con un balón nuevo, rojo y brillante, que le había regalado su tía de Corozal. Todos querían jugar con él.\n\nEn medio del partido, Mateo pateó tan fuerte que el balón salió volando, pasó por encima de la reja y cayó en un charco lleno de barro.\n\n—¡Lo dañaste! —gritó Andrés, con la cara roja—. ¡Siempre haces lo mismo! ¡Ya no eres mi amigo!\n\n—¡Fue sin querer! —respondió Mateo, también gritando—. ¡Y tú no me pasas nunca el balón!\n\nLos dos se dieron la espalda. Ninguno quiso volver a jugar, y el resto del recreo pasó en silencio. En el salón, Andrés cambió su pupitre de lugar.\n\nLa profesora Yolanda notó que algo pasaba. Después del recreo, en lugar de empezar la clase de matemáticas, pidió que corrieran los pupitres hacia las paredes y que todos se sentaran en el piso formando un círculo.\n\nEn el centro puso una piedrita pintada de azul y verde.\n\n—Este es el círculo de la palabra —explicó—. Tiene tres acuerdos: habla solo quien tiene la piedra, los demás escuchamos sin interrumpir, y hablamos de lo que sentimos, sin insultar. Aquí nadie es juzgado.\n\nPrimero la piedra pasó por varias manos. Valentina contó que se sentía nerviosa por la izada de bandera. Luis dijo que estaba contento porque su abuela venía de visita desde Tolú. Poco a poco, el salón se fue calmando.\n\nEntonces la piedra llegó a Andrés. La apretó con fuerza y respiró hondo, como les había enseñado la profesora: inhalar contando hasta cuatro y soltar el aire despacito.\n\n—Yo me sentí… triste —dijo Andrés, y la voz le tembló un poquito—. El balón era nuevo y me lo regaló mi tía. Cuando cayó al barro, pensé que se había dañado para siempre. Por eso grité.\n\nLa profesora asintió. —Gracias por decirlo. Detrás de la rabia, muchas veces hay tristeza o miedo.\n\nDespués, la piedra llegó a Mateo. Miró al piso un buen rato.\n\n—Yo me sentí avergonzado —confesó—. No quería botar el balón. Y también me sentí rabioso, porque Andrés me dijo que ya no era su amigo. Eso me dolió más que el grito.\n\nAndrés levantó la cabeza. No sabía que sus palabras habían pesado tanto. Mateo tampoco sabía que el balón era un regalo especial.\n\n—¿Qué podemos hacer para reparar lo que pasó? —preguntó la profesora a todo el grupo.\n\nVarias manos se levantaron. Sara propuso lavar el balón. Luis sugirió hacer turnos para que todos lo patearan. Valentina dijo que pedir perdón también es reparar.\n\nAl día siguiente, Andrés y Mateo llegaron temprano. Entre los dos lavaron el balón con agua y jabón en el lavadero de la escuela. El barro se fue y el rojo volvió a brillar.\n\n—Perdóname por botarlo —dijo Mateo—. La próxima vez patearé con más cuidado.\n\n—Y tú perdóname por decir que ya no eras mi amigo —respondió Andrés—. No era verdad. Estaba bravo y lo dije sin pensar.\n\nEn el recreo, armaron dos equipos y acordaron reglas nuevas: el balón se pasa a todos, y si alguien lo bota, todos ayudan a buscarlo. Hasta la profesora Yolanda jugó de arquera.\n\nDesde entonces, cada viernes el grupo hace su círculo de la palabra. Ya no lo usan solo cuando hay peleas: también para contar alegrías, nervios y sueños. Andrés y Mateo aprendieron que los amigos pueden enojarse, pero que hablando con calma, escuchando de verdad y reparando el daño, la amistad se vuelve más fuerte, como un balón recién inflado.",
+    "questions": [
+      {
+        "prompt": "¿Qué emoción había detrás de la rabia de Andrés?",
+        "options": [
+          "Aburrimiento",
+          "Sorpresa",
+          "Tristeza"
+        ],
+        "answer": 2,
+        "explanation": "Andrés contó que se sintió triste porque el balón era un regalo de su tía."
+      },
+      {
+        "prompt": "¿Cuál es uno de los acuerdos del círculo de la palabra?",
+        "options": [
+          "Habla solo quien tiene la piedra",
+          "Gana quien grite más fuerte",
+          "Solo habla la profesora"
+        ],
+        "answer": 0,
+        "explanation": "En el círculo, habla quien tiene la piedra y los demás escuchan sin interrumpir."
+      },
+      {
+        "prompt": "¿Cómo repararon Andrés y Mateo lo que pasó?",
+        "options": [
+          "Compraron un balón nuevo",
+          "Lavaron el balón juntos y se pidieron perdón",
+          "Dejaron de jugar fútbol"
+        ],
+        "answer": 1,
+        "explanation": "Entre los dos limpiaron el balón, se pidieron perdón y acordaron reglas nuevas."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "acuerdo",
+        "meaning": "Algo que un grupo decide y promete cumplir."
+      },
+      {
+        "word": "avergonzado",
+        "meaning": "Que siente pena por algo que hizo o que le pasó."
+      },
+      {
+        "word": "reparar",
+        "meaning": "Arreglar un daño, también cuando se trata de los sentimientos de otra persona."
+      },
+      {
+        "word": "inhalar",
+        "meaning": "Tomar aire por la nariz y llevarlo a los pulmones."
+      },
+      {
+        "word": "juzgar",
+        "meaning": "Opinar sobre alguien, muchas veces sin conocer lo que siente."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-mapa-de-los-sonidos.epub",
+    "cover": "cuentos/portadas/el-mapa-de-los-sonidos.png",
+    "title": "El mapa de los sonidos",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Jhon Jairo es ciego y conoce el mundo con sus oídos, sus manos y su bastón blanco. En una salida a la ciénaga, guía a su grupo para descubrir los sonidos de la naturaleza y juntos crean un mapa de sonidos.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "inclusión",
+      "los sentidos"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-mapa-de-los-sonidos",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "529b2ca247481d9b72e09a7c2a6236fe978c16f162608e3d6b76fcbc9731cccd",
+    "sizeBytes": 111316,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "inclusión",
+    "grade": 3,
+    "wordCount": 621,
+    "text": "El mapa de los sonidos\n\nJhon Jairo tiene nueve años, vive en Sincelejo y es ciego desde que nació. Para caminar usa un bastón blanco que le avisa dónde hay un escalón, un hueco o una pared. Para leer usa el braille, unos puntitos en relieve que toca con la yema de los dedos. Y para conocer el mundo usa, sobre todo, sus oídos.\n\nUn jueves, la profesora Marlene anunció una salida pedagógica a la ciénaga.\n\n—Vamos a observar la naturaleza —dijo, y luego se corrigió con una sonrisa—: mejor dicho, vamos a percibirla con todos los sentidos.\n\nAlgunos compañeros se miraron. Camila, que se sentaba al lado de Jhon Jairo, le preguntó en voz baja:\n\n—¿Y tú cómo vas a ver la ciénaga?\n\n—Con las orejas —respondió él, tocándose una—. Ya verás. Bueno… ya oirás.\n\nLlegaron a la orilla de la ciénaga muy temprano, cuando el sol todavía estaba tibio. Los niños corrieron de un lado a otro, hablando todos al tiempo.\n\nJhon Jairo levantó la mano. —Profe, ¿podemos hacer un juego? Todos cerramos los ojos un minuto y escuchamos sin hablar.\n\nLa profesora aceptó. Poco a poco el grupo hizo silencio. Primero no oyeron nada. Luego, como si alguien subiera el volumen, empezaron a aparecer los sonidos.\n\n—A la derecha, arriba, hay pájaros chiquitos —susurró Jhon Jairo—. Hacen pi, pi, pi muy rápido.\n\n—Al frente se oye el agua que golpea despacito contra la orilla —siguió—. Chap… chap… chap.\n\n—Y ese ruido largo, como un zumbido que no se acaba, son las chicharras escondidas en los árboles. Cantan más cuando hace calor.\n\nCuando abrieron los ojos, Camila estaba asombrada. —¡Yo nunca había oído todo eso! Estaba ahí y no me daba cuenta.\n\nDe repente, Jhon Jairo giró la cabeza hacia la izquierda.\n\n—Algo grande va a volar —dijo—. Escuchen ese aleteo pesado, como sábanas sacudidas.\n\nUn segundo después, una garza blanca levantó el vuelo desde los juncos y cruzó la ciénaga despacio, con las patas estiradas. Los niños aplaudieron.\n\n—¿Cómo supiste? —preguntó Brayan.\n\n—Porque las garzas hacen un graznido ronco antes de volar, y sus alas suenan distinto a las de los pájaros pequeños —explicó Jhon Jairo—. Mi abuelo es pescador y me enseñó a reconocerlas desde la canoa.\n\nDespués, Jhon Jairo invitó a los demás a usar también las manos. Tocaron la corteza áspera de un árbol, el barro fresco y blando de la orilla y las hojas suaves de los juncos. Olieron el agua, que tenía un olor a tierra mojada y a plantas. Descubrieron que la ciénaga no solo se ve: también se oye, se toca y se huele.\n\nLa profesora Marlene tomaba notas, feliz. Ese día el maestro no era ella.\n\nDe vuelta en la escuela, el grupo decidió hacer un mapa de sonidos. No sería un mapa común con dibujos planos: Jhon Jairo propuso que se pudiera tocar.\n\nSobre un cartón grande pegaron hilos gruesos para marcar la orilla, arena para el camino, bolitas de plastilina para los árboles y plumas para el lugar donde voló la garza. Al lado de cada objeto escribieron el sonido con letras grandes y también en braille, con la ayuda de la profesora de apoyo: «pi, pi, pi», «chap, chap», «zzzzz».\n\nCuando terminaron, cada niño recorrió el mapa con los ojos cerrados, tocando los relieves y repitiendo los sonidos. Camila dijo que era el mapa más bonito que había visto… y tocado.\n\n—Todos percibimos el mundo de una manera distinta —dijo la profesora Marlene—. Cuando juntamos nuestras formas de conocer, aprendemos mucho más.\n\nJhon Jairo sonrió. Esa tarde, mientras caminaba a casa con su bastón, escuchó a un colibrí zumbar cerca de una flor y pensó que el mapa de sonidos nunca estaría terminado, porque el mundo siempre tiene algo nuevo que decir.",
+    "questions": [
+      {
+        "prompt": "¿Qué juego propuso Jhon Jairo al llegar a la ciénaga?",
+        "options": [
+          "Una carrera hasta la orilla",
+          "Cerrar los ojos y escuchar en silencio",
+          "Contar cuántos peces había"
+        ],
+        "answer": 1,
+        "explanation": "Jhon Jairo invitó al grupo a cerrar los ojos un minuto y escuchar sin hablar."
+      },
+      {
+        "prompt": "¿Cómo supo Jhon Jairo que una garza iba a volar?",
+        "options": [
+          "Por el graznido ronco y el aleteo pesado",
+          "Porque Camila se lo dijo",
+          "Porque sintió el agua fría"
+        ],
+        "answer": 0,
+        "explanation": "Él reconoce el sonido de las garzas, como le enseñó su abuelo pescador."
+      },
+      {
+        "prompt": "¿Qué tenía de especial el mapa de sonidos?",
+        "options": [
+          "Era una foto de la ciénaga",
+          "Estaba hecho solo con colores",
+          "Se podía tocar y tenía letras en braille"
+        ],
+        "answer": 2,
+        "explanation": "El mapa tenía hilos, arena, plastilina y plumas en relieve, y los sonidos escritos también en braille."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "braille",
+        "meaning": "Sistema de lectura y escritura con puntos en relieve que se leen con los dedos."
+      },
+      {
+        "word": "percibir",
+        "meaning": "Darse cuenta de algo usando los sentidos."
+      },
+      {
+        "word": "chicharra",
+        "meaning": "Insecto que hace un zumbido largo y fuerte, sobre todo cuando hace calor."
+      },
+      {
+        "word": "relieve",
+        "meaning": "Parte que sobresale de una superficie y se puede sentir al tocarla."
+      },
+      {
+        "word": "salida pedagógica",
+        "meaning": "Paseo de la escuela para aprender fuera del salón."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/las-pintas-del-sombrero.epub",
+    "cover": "cuentos/portadas/las-pintas-del-sombrero.png",
+    "title": "Las pintas del sombrero",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "En Sampués, Luz Dary, una niña zenú, aprende con su abuela Ana a trenzar la caña flecha. Descubre que las pintas del sombrero vueltiao son patrones que se repiten y que guardan historias de su pueblo.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "patrimonio cultural",
+      "matemáticas"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "las-pintas-del-sombrero",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "954944cf5665accbdb5ddbffce257c22bcfa42a9557a1dbb4a32feb47a90e6db",
+    "sizeBytes": 99488,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "patrimonio cultural",
+    "grade": 3,
+    "wordCount": 669,
+    "text": "Las pintas del sombrero\n\nEn Sampués, en el departamento de Sucre, casi todas las tardes se oye un sonido suave: fsss, fsss. Es el sonido de la caña flecha cuando las manos la trenzan. Luz Dary lo conoce desde bebé, porque su abuela Ana teje en el corredor de la casa, sentada en un taburete, mientras pasa la brisa.\n\nLuz Dary es zenú, como su abuela, como su mamá y como muchas familias de la región. Un sábado, por fin, se sentó al lado de la abuela con una pregunta que llevaba mucho tiempo guardando:\n\n—Abuela, ¿me enseñas a tejer?\n\nLa abuela Ana sonrió y le puso en las manos unas tiras largas, unas de color crema y otras negras.\n\n—Primero tienes que conocer la caña flecha —dijo—. Es una planta que se corta, se raspa y se deja secar al sol hasta que queda blanquita. Las tiras negras se tiñen con barro y con hojas de la región. Nada se hace de afán.\n\nLa abuela le enseñó a hacer la trenza más sencilla. Había que cruzar las tiras una encima de otra, siempre en el mismo orden, sin apretar demasiado ni dejar flojo.\n\nLuz Dary lo intentó. Al principio la trenza le salió torcida y se le soltaron dos tiras. Frunció el ceño.\n\n—No me sale —dijo—. Tus trenzas quedan perfectas.\n\n—Las mías tienen sesenta años de práctica —rió la abuela—. Las tuyas tienen diez minutos. Vuelve a empezar, que la caña flecha tiene paciencia.\n\nLuz Dary empezó otra vez. Cruzar, bajar, cruzar, bajar. Después de varios intentos, la trenza salió derechita. Entonces la abuela le mostró algo más: cuando se combinan tiras crema y negras, aparecen figuras. Esas figuras se llaman pintas.\n\n—Mira —dijo la abuela, señalando un sombrero terminado—. Esta pinta parece un ocho. Esta otra es como un rombo. Y esta de aquí recuerda las escamas de un pescado.\n\nEl lunes, en la escuela, la profesora Ingrid estaba enseñando patrones en matemáticas. Escribió en el tablero: A, B, A, B…\n\n—¿Qué letra sigue? —preguntó.\n\nLuz Dary levantó la mano tan rápido que casi se cae de la silla. —¡Profe, eso es como las pintas del sombrero de mi abuela!\n\nAl día siguiente llevó una trenza de muestra. En ella se veía un rombo negro, un espacio crema, un rombo negro, un espacio crema. Sus compañeros contaron cuántas veces se repetía la figura en cada vuelta y descubrieron que siempre era la misma cantidad.\n\n—Las tejedoras zenúes hacen matemáticas con las manos —dijo la profesora Ingrid—. Cuentan las tiras, repiten patrones y calculan para que la pinta cierre perfecta al dar la vuelta completa.\n\nEsteban, que nunca había visto un sombrero de cerca, preguntó por qué se llamaba vueltiao. Luz Dary explicó, orgullosa: —Porque la trenza se cose en vueltas, en espiral, desde el centro de la copa hasta el borde del ala.\n\nEsa tarde, la abuela Ana le contó a Luz Dary que cada pinta tiene un nombre y que muchas recuerdan cosas de la naturaleza y de la vida del pueblo: animales, flores, el río, los caminos. Algunas familias tienen pintas que pasan de abuelas a nietas, como un apellido tejido.\n\n—El sombrero vueltiao es patrimonio cultural de Colombia —dijo la abuela—. Eso quiere decir que es un tesoro de todos, y que hay que cuidarlo. Lo cuidamos tejiéndolo, contando sus historias y enseñándolo a los niños.\n\nLuz Dary decidió inventar su propia pinta. Pensó mucho y eligió un patrón con forma de ola, porque le encantaba el mar de Tolú, que había visitado en vacaciones. Contó las tiras con cuidado: dos negras, tres crema, dos negras, tres crema.\n\nLe tomó toda la semana terminar una trenza larga. Cuando la abuela la vio, se quedó callada un rato y luego le dio un abrazo.\n\n—Ahora tú también guardas la memoria de nuestro pueblo —le dijo.\n\nLuz Dary colgó su trenza en la pared del salón, junto al dibujo de los patrones. Debajo escribió con letras grandes: «Pinta de la ola, de Luz Dary, aprendida de la abuela Ana».",
+    "questions": [
+      {
+        "prompt": "¿Qué son las pintas del sombrero?",
+        "options": [
+          "Manchas de pintura",
+          "Figuras que se forman al combinar tiras crema y negras",
+          "Los nombres de quienes lo compran"
+        ],
+        "answer": 1,
+        "explanation": "La abuela explicó que al combinar tiras de colores aparecen figuras llamadas pintas."
+      },
+      {
+        "prompt": "¿Qué relación descubrió Luz Dary entre el tejido y las matemáticas?",
+        "options": [
+          "Que las pintas son patrones que se repiten",
+          "Que el sombrero sirve para sumar",
+          "Que las tiras son de diferentes tamaños"
+        ],
+        "answer": 0,
+        "explanation": "Las tejedoras cuentan tiras y repiten patrones, igual que en la clase de matemáticas."
+      },
+      {
+        "prompt": "¿Por qué Luz Dary eligió una pinta con forma de ola?",
+        "options": [
+          "Porque era la más fácil",
+          "Porque se la pidió la profesora",
+          "Porque le encantaba el mar de Tolú"
+        ],
+        "answer": 2,
+        "explanation": "Luz Dary pensó en el mar de Tolú que visitó en vacaciones."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "caña flecha",
+        "meaning": "Planta cuyas fibras se secan y se trenzan para tejer sombreros y otras artesanías."
+      },
+      {
+        "word": "trenzar",
+        "meaning": "Cruzar tiras o hilos de manera ordenada para formar una trenza."
+      },
+      {
+        "word": "patrón",
+        "meaning": "Secuencia de figuras o colores que se repite siempre en el mismo orden."
+      },
+      {
+        "word": "patrimonio cultural",
+        "meaning": "Tesoro de tradiciones y saberes que un pueblo cuida y comparte."
+      },
+      {
+        "word": "espiral",
+        "meaning": "Línea que da vueltas alrededor de un centro y se va abriendo."
+      },
+      {
+        "word": "zenú",
+        "meaning": "Pueblo indígena del Caribe colombiano, en especial de Córdoba y Sucre."
+      }
+    ]
+  },
+  {
+    "file": "cuentos/el-barrilete-de-diciembre.epub",
+    "cover": "cuentos/portadas/el-barrilete-de-diciembre.png",
+    "title": "El barrilete de diciembre",
+    "creator": "Biblioteca Macondo – Comfasucre (cuento original)",
+    "type": "BOOK",
+    "description": "Con los vientos de diciembre en Coveñas, Kevin y su abuelo Eliécer construyen un barrilete con materiales reciclados. Prueban, fallan y ajustan hasta descubrir cómo el viento lo sostiene en el cielo.",
+    "gradeMin": 3,
+    "gradeMax": 3,
+    "categories": [
+      "cuento",
+      "cuento original",
+      "Caribe colombiano",
+      "ciencia",
+      "familia"
+    ],
+    "language": "es",
+    "narrator": null,
+    "durationSeconds": null,
+    "status": "DRAFT",
+    "license": {
+      "rightsHolder": "Comfasucre – Biblioteca Macondo",
+      "licenseName": "Contenido original de Comfasucre (todos los derechos reservados)",
+      "licenseUrl": null,
+      "authorizedDevices": 30,
+      "offlineAllowed": true,
+      "validFrom": null,
+      "validUntil": null,
+      "territory": "CO"
+    },
+    "source": {
+      "provider": "Biblioteca Macondo – Comfasucre (cuento original)",
+      "id": "el-barrilete-de-diciembre",
+      "url": null,
+      "retrievedAt": "2026-10-31"
+    },
+    "rights": {
+      "authorDeathYear": null,
+      "translator": null,
+      "translatorDeathYear": null,
+      "basis": "Obra original creada para Biblioteca Macondo (texto con asistencia de IA e ilustraciones vectoriales propias); titular: Comfasucre."
+    },
+    "sha256": "82811330956adbc4146c32170c512bf0d295b8e6846761c7649e028eba2512e3",
+    "sizeBytes": 106679,
+    "reviewNotes": "Cuento original redactado con asistencia de IA; requiere revisión pedagógica y de estilo antes de publicar.",
+    "theme": "ciencia",
+    "grade": 3,
+    "wordCount": 644,
+    "text": "El barrilete de diciembre\n\nEn Coveñas, cuando llega diciembre, el viento cambia. Sopla fuerte desde el mar, mueve las hojas de las palmeras y hace que las olas lleguen con espuma blanca a la playa. Los pescadores dicen que son las brisas de fin de año.\n\nPara Kevin, esas brisas significaban una sola cosa: ¡temporada de barriletes!\n\n—Abuelo, este año quiero hacer mi propio barrilete —dijo una mañana—. No uno comprado. Uno hecho por mí.\n\nEl abuelo Eliécer, que había sido pescador toda la vida, se acomodó el sombrero y sonrió.\n\n—Entonces vamos a buscar materiales. Pero no vamos a comprar nada nuevo. Vamos a usar lo que otros botaron.\n\nRecorrieron la casa y el patio. Encontraron una bolsa plástica grande y resistente, dos varillas delgadas de caña brava, un rollo de hilo de pescar que ya nadie usaba, cinta, y tiras de tela de una camisa vieja. Kevin lo puso todo sobre la mesa, como un tesoro.\n\nCon las dos varillas armaron una cruz y la amarraron fuerte en el centro. Luego pasaron hilo por las cuatro puntas, formando un rombo. Encima pegaron la bolsa plástica, recortada con cuidado. Por último, amarraron el hilo largo para volarlo.\n\n—¡Listo! —gritó Kevin, y salió corriendo hacia la playa.\n\nPero el barrilete no subió. Daba vueltas como un trompo loco y se estrellaba contra la arena una y otra vez. Kevin lo intentó tres veces. A la cuarta, se sentó en la arena con los brazos cruzados.\n\n—No sirve. Mejor compramos uno.\n\nEl abuelo se sentó a su lado. —Cuando yo aprendí a pescar, las primeras veces no saqué ni una mojarra. ¿Sabes qué hice? Miré qué estaba fallando. Vamos a mirar como científicos.\n\nEl abuelo le explicó que el barrilete vuela gracias al viento. Cuando el aire choca contra la superficie inclinada del barrilete, lo empuja hacia arriba. Al mismo tiempo, el hilo lo sostiene para que no se lo lleve. Pero si el barrilete no está equilibrado, el viento lo hace girar.\n\n—¿Y cómo se equilibra? —preguntó Kevin.\n\n—Con la cola —dijo el abuelo—. La cola le da peso abajo y lo mantiene derecho, como la quilla de una canoa.\n\nKevin amarró una cola corta, con tres tiras de tela. Lo volvió a intentar. Esta vez subió un poquito, pero seguía cabeceando de un lado a otro.\n\n—Más larga —dijo Kevin, pensando en voz alta—. Le falta peso.\n\nAgregó más tiras, de todos los colores: amarillo, azul, verde, morado. Ahora la cola era casi tres veces más larga que el barrilete. También corrieron un poquito el punto donde se amarraba el hilo, para que el barrilete quedara inclinado frente al viento.\n\nSe pusieron de espaldas al viento. El abuelo sostuvo el barrilete en alto. Kevin tensó el hilo y gritó: —¡Ahora!\n\nEl barrilete dio un tirón, tembló un segundo y empezó a subir. Subió por encima de las palmeras, por encima de las gaviotas, hasta quedarse quieto allá arriba, como un pedazo de atardecer pegado al cielo. La cola de colores se movía suavecito, de lado a lado.\n\n—¡Vuela, abuelo! ¡Vuela! —gritaba Kevin, sintiendo cómo el viento jalaba el hilo entre sus manos.\n\nOtros niños de la playa se acercaron. Mariana, que usaba silla de ruedas, le pidió permiso para sostener el hilo. Kevin se lo pasó con cuidado y le explicó el truco: soltar hilo cuando el viento sopla fuerte y recogerlo cuando se calma. Mariana lo manejó tan bien que todos aplaudieron.\n\nEsa tarde, Kevin y el abuelo enseñaron a otros niños a construir barriletes con bolsas, cañas y telas viejas. Al final, cinco barriletes volaban sobre la playa de Coveñas.\n\n—¿Ves? —dijo el abuelo—. El barrilete no voló a la primera, pero cada error nos dio una pista.\n\nKevin miró hacia arriba y pensó que, en realidad, lo más importante no era el barrilete, sino haber aprendido a no rendirse. Y a escuchar al viento.",
+    "questions": [
+      {
+        "prompt": "¿Por qué al principio el barrilete daba vueltas y se caía?",
+        "options": [
+          "Porque no tenía cola para equilibrarse",
+          "Porque no había viento",
+          "Porque la bolsa era muy pequeña"
+        ],
+        "answer": 0,
+        "explanation": "Sin cola, el barrilete no estaba equilibrado y el viento lo hacía girar."
+      },
+      {
+        "prompt": "¿Qué materiales usaron Kevin y su abuelo?",
+        "options": [
+          "Papel nuevo y palos comprados",
+          "Materiales reciclados: una bolsa, cañas, hilo viejo y tela",
+          "Plumas de gaviota"
+        ],
+        "answer": 1,
+        "explanation": "Usaron cosas que otros habían botado, sin comprar nada nuevo."
+      },
+      {
+        "prompt": "¿Qué aprendió Kevin al final?",
+        "options": [
+          "Que es mejor comprar los barriletes",
+          "Que solo los adultos pueden volarlos",
+          "Que cada error da una pista y no hay que rendirse"
+        ],
+        "answer": 2,
+        "explanation": "El abuelo le mostró que, mirando qué fallaba, podían mejorar hasta lograrlo."
+      }
+    ],
+    "glossary": [
+      {
+        "word": "barrilete",
+        "meaning": "Nombre que se le da en el Caribe colombiano a la cometa."
+      },
+      {
+        "word": "equilibrio",
+        "meaning": "Estado en que algo se mantiene estable, sin caerse ni girar."
+      },
+      {
+        "word": "quilla",
+        "meaning": "Pieza de abajo de una embarcación que la mantiene derecha en el agua."
+      },
+      {
+        "word": "reciclado",
+        "meaning": "Material usado que se aprovecha otra vez para hacer algo nuevo."
+      },
+      {
+        "word": "tensar",
+        "meaning": "Estirar algo, como un hilo, hasta que quede firme."
+      }
+    ]
+  }
+]

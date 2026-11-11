@@ -1,0 +1,97 @@
+{
+ "title": "El antiguo Egipto",
+ "description": "Pirámides, faraones, jeroglíficos y templos a orillas del río Nilo. Recorre los monumentos y objetos que nos dejó una de las civilizaciones más antiguas del mundo.",
+ "gradeMin": 3,
+ "gradeMax": 9,
+ "categories": [
+  "Ciencias sociales",
+  "Historia",
+  "Historia antigua",
+  "África"
+ ],
+ "cover": 1,
+ "credits": {
+  "8": "Fotografía del Museo Británico; papiro de Ani (c. 1250 a. C.)"
+ },
+ "items": [
+  [
+   "Tres grandes pirámides de piedra en el desierto bajo un cielo azul, con tres pirámides pequeñas delante.",
+   "Las pirámides de Guiza se construyeron hace unos 4.500 años como tumbas de los faraones Keops, Kefrén y Micerinos. La Gran Pirámide fue durante miles de años el edificio más alto del mundo."
+  ],
+  [
+   "Gran escultura de piedra con cuerpo de león echado y cabeza humana con tocado, sobre la arena.",
+   "La Gran Esfinge de Guiza tiene cuerpo de león y cabeza humana. Mide unos 73 metros de largo y fue tallada en una sola roca hace más de 4.000 años."
+  ],
+  [
+   "Máscara dorada con franjas azules en el tocado, ojos delineados y una barba postiza larga.",
+   "La máscara funeraria del faraón Tutankamón está hecha de oro con incrustaciones de piedras y vidrio de colores. Su tumba fue descubierta casi intacta en 1922 en el Valle de los Reyes."
+  ],
+  [
+   "Bloque de piedra oscura, roto en la parte superior, cubierto de líneas de escritura muy pequeña.",
+   "La piedra de Rosetta tiene el mismo texto escrito en jeroglíficos, en escritura demótica y en griego. Gracias a ella, Jean-François Champollion logró descifrar los jeroglíficos en 1822."
+  ],
+  [
+   "Fachada de un templo excavado en la montaña, con cuatro estatuas gigantes de un faraón sentado.",
+   "El gran templo de Abu Simbel fue tallado en la roca por orden del faraón Ramsés II. En los años sesenta se trasladó piedra por piedra para salvarlo de las aguas de una represa."
+  ],
+  [
+   "Estatua de piedra pintada de un hombre sentado con las piernas cruzadas, sosteniendo un papiro sobre las rodillas.",
+   "El escriba sentado es una estatua de hace unos 4.500 años que hoy está en el Museo del Louvre. Los escribas sabían leer y escribir, algo que muy pocas personas podían hacer en Egipto."
+  ],
+  [
+   "Pintura mural de una reina sentada con vestido blanco frente a un tablero de juego, rodeada de jeroglíficos de colores.",
+   "Pintura de la tumba de la reina Nefertari, esposa de Ramsés II. La reina aparece jugando al senet, un juego de mesa muy popular entre los antiguos egipcios."
+  ],
+  [
+   "Franja de papiro pintada con figuras de dioses con cabeza de animal, una balanza en el centro y filas de jeroglíficos.",
+   "Escena del Libro de los Muertos de Ani. Los egipcios creían que, tras morir, el dios Anubis pesaba el corazón de la persona en una balanza contra una pluma, símbolo de la verdad y la justicia."
+  ],
+  [
+   "Templo de piedra clara con dos grandes torres en la entrada, rodeado de palmeras y arena.",
+   "El templo de File, dedicado a la diosa Isis, está cerca de Asuán, en el sur de Egipto. Igual que Abu Simbel, fue trasladado a una isla más alta para que no lo cubriera el agua de la represa."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Para qué se construyeron las pirámides de Guiza?",
+   [
+    "Como tumbas de los faraones",
+    "Como mercados",
+    "Como faros para los barcos"
+   ],
+   0,
+   "Eran tumbas monumentales de los faraones Keops, Kefrén y Micerinos."
+  ],
+  [
+   "¿Qué objeto permitió descifrar los jeroglíficos?",
+   [
+    "La máscara de Tutankamón",
+    "La piedra de Rosetta",
+    "La Gran Esfinge"
+   ],
+   1,
+   "La piedra de Rosetta tiene el mismo texto en tres escrituras, una de ellas el griego, que ya se conocía."
+  ],
+  [
+   "¿Qué juego aparece en la pintura de la tumba de Nefertari?",
+   [
+    "El ajedrez",
+    "El dominó",
+    "El senet"
+   ],
+   2,
+   "El senet era un juego de mesa muy popular en el antiguo Egipto."
+  ],
+  [
+   "¿Junto a qué río se desarrolló la civilización egipcia?",
+   [
+    "El Nilo",
+    "El Amazonas",
+    "El Magdalena"
+   ],
+   0,
+   "El Nilo daba agua y tierras fértiles en medio del desierto."
+  ]
+ ],
+ "reviewNotes": "El escriba sentado aparece con el torso descubierto, como es habitual en el arte egipcio (no es un desnudo). La escena del pesaje del corazón alude a creencias sobre la muerte."
+}

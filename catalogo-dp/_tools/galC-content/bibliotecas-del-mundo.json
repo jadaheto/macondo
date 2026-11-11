@@ -1,0 +1,33 @@
+{
+ "title": "Bibliotecas del mundo",
+ "description": "Un viaje por bibliotecas antiguas y modernas: desde la biblioteca romana de Éfeso hasta los parques biblioteca de Medellín. Lugares donde se guarda y se comparte el conocimiento.",
+ "gradeMin": 3, "gradeMax": 11,
+ "categories": ["Lectura y libros", "Bibliotecas", "Arquitectura", "Cultura"],
+ "cover": 2,
+ "credits": {"4": "Carol M. Highsmith (Biblioteca del Congreso de EE. UU.)"},
+ "items": [
+  ["Fachada de mármol de dos pisos con columnas y estatuas, entre ruinas antiguas y palmeras.",
+   "La biblioteca de Celso, en Éfeso (actual Turquía), fue construida por los romanos hacia el año 117. Guardaba unos 12.000 rollos y era una de las más grandes de su tiempo."],
+  ["Sala muy larga con techo de madera en forma de bóveda, estanterías de libros de dos pisos a los lados y bustos de mármol.",
+   "La Sala Larga del Trinity College de Dublín (Irlanda) guarda unos 200.000 libros antiguos. Allí se conserva también el famoso Libro de Kells."],
+  ["Sala blanca y dorada con techos pintados de frescos, estanterías claras llenas de libros y estatuas.",
+   "La biblioteca de la abadía de Admont (Austria), de 1776, es la biblioteca monástica más grande del mundo. Sus techos están pintados con escenas sobre el conocimiento."],
+  ["Gran sala de lectura circular con mesas en anillos, columnas de mármol y una cúpula con ventanales.",
+   "La sala de lectura principal de la Biblioteca del Congreso de Estados Unidos. Es la biblioteca más grande del mundo, con más de 170 millones de documentos."],
+  ["Sala alta con estanterías de madera oscura en varios pisos y un techo con un gran vitral de colores y una lámpara.",
+   "El Real Gabinete Portugués de Lectura, en Río de Janeiro (Brasil), tiene la mayor colección de libros en portugués fuera de Portugal."],
+  ["Muro inclinado de piedra gris con letras de muchos alfabetos talladas en su superficie.",
+   "El muro de la Bibliotheca Alexandrina, en Egipto, tiene letras de más de cien sistemas de escritura. Se inauguró en 2002 para recordar la antigua biblioteca de Alejandría."],
+  ["Interior blanco de varios pisos con escaleras y estanterías vistas desde arriba, bajo un techo de vidrio.",
+   "La biblioteca municipal de Stuttgart (Alemania), de 2011, tiene forma de cubo y una sala central blanca de varios pisos, iluminada por un techo de vidrio."],
+  ["Edificio moderno de piedra negra en lo alto de una montaña llena de casas de ladrillo, con un teleférico al lado.",
+   "El Parque Biblioteca España, en Medellín, se construyó junto al Metrocable en un barrio de montaña. Los parques biblioteca llevaron libros, internet y cultura a los barrios."]
+ ],
+ "questions": [
+  ["¿Qué guardaba la biblioteca de Celso en lugar de libros como los de hoy?", ["Rollos", "Discos", "Tabletas electrónicas"], 0, "En la Antigüedad los textos se escribían en rollos."],
+  ["¿Cuál es la biblioteca más grande del mundo?", ["La Biblioteca del Congreso de EE. UU.", "La de Celso", "La de Admont"], 0, "Tiene más de 170 millones de documentos."],
+  ["¿Junto a qué transporte se construyó el Parque Biblioteca España?", ["El Metrocable", "Un aeropuerto", "Un puerto"], 0, "Está en un barrio de montaña de Medellín."],
+  ["¿Qué tiene tallado el muro de la Bibliotheca Alexandrina?", ["Letras de muchos alfabetos", "Retratos de reyes", "Mapas del mar"], 0, "Recuerda la diversidad de la escritura humana."]
+ ],
+ "reviewNotes": null
+}

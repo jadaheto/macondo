@@ -1,0 +1,97 @@
+{
+ "title": "Esqueletos de animales",
+ "description": "Ballenas, caballos, gatos, tortugas, aves, chigüiros, murciélagos, serpientes y peces: lo que los huesos nos cuentan sobre cómo viven, se mueven y se parecen los animales vertebrados.",
+ "gradeMin": 4,
+ "gradeMax": 8,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Biología"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Esqueleto completo de una ballena jorobada colgado del techo de un museo.",
+   "Las aletas de la ballena tienen dentro huesos parecidos a los de nuestro brazo y nuestra mano. Esto muestra que las ballenas descienden de mamíferos que vivían en tierra. Esqueleto de una ballena jorobada en un museo."
+  ],
+  [
+   "Esqueleto de un caballo de pie en una vitrina de museo.",
+   "El caballo corre apoyado en un solo dedo de cada pata, cubierto por el casco. Este esqueleto perteneció a Marengo, el famoso caballo de Napoleón, y está en el Museo Nacional del Ejército de Londres."
+  ],
+  [
+   "Esqueleto de un gato montado en posición de caminar.",
+   "El gato tiene una columna vertebral muy flexible y no tiene clavícula fija, por eso puede pasar por huecos pequeños y caer de pie. Esqueleto del museo Naturalis, en los Países Bajos."
+  ],
+  [
+   "Esqueleto de una tortuga cortado por la mitad, que muestra la columna unida al caparazón.",
+   "El caparazón de la tortuga no es una casa que pueda dejar: está formado por sus costillas y su columna vertebral, unidas a placas de hueso. Por eso una tortuga nunca puede salir de su caparazón."
+  ],
+  [
+   "Una paloma disecada junto a su esqueleto, para comparar cómo encajan los huesos dentro del cuerpo.",
+   "Los huesos de las aves son huecos y livianos, lo que les ayuda a volar. El hueso del pecho tiene una quilla grande donde se sujetan los fuertes músculos de las alas."
+  ],
+  [
+   "Esqueleto de un chigüiro sobre una base, con cráneo grande y dientes delanteros largos.",
+   "El esqueleto del chigüiro, el roedor más grande del mundo. Como todos los roedores, tiene dos pares de dientes delanteros largos que crecen toda la vida."
+  ],
+  [
+   "Esqueleto de un murciélago con las alas abiertas, mostrando los huesos largos de los dedos.",
+   "Las alas del murciélago son en realidad manos: tienen dedos larguísimos unidos por una piel delgada. Por eso su grupo se llama quirópteros, que significa «manos con alas»."
+  ],
+  [
+   "Esqueletos de serpientes y de tortugas en una vitrina de museo.",
+   "Las serpientes no tienen patas, pero tienen cientos de vértebras y costillas. Esto les da un cuerpo muy flexible para reptar, trepar y nadar."
+  ],
+  [
+   "Dibujo antiguo del esqueleto de un pez perca, con su columna, espinas y aletas.",
+   "Los peces también son vertebrados: tienen columna vertebral y cráneo. Sus aletas están sostenidas por radios finos y huesudos. Dibujo de un libro de 1880 sobre el estudio de los peces."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué tienen dentro las aletas de las ballenas?",
+   [
+    "Plumas",
+    "Huesos parecidos a los de nuestro brazo y mano",
+    "Agua",
+    "Nada, solo músculo"
+   ],
+   1,
+   "Es una prueba de que las ballenas descienden de mamíferos terrestres."
+  ],
+  [
+   "¿Por qué una tortuga no puede salir de su caparazón?",
+   [
+    "Porque el caparazón está formado por sus costillas y columna",
+    "Porque es muy pesado",
+    "Porque tiene frío",
+    "Porque está pegado con barro"
+   ],
+   0,
+   "El caparazón es parte de su esqueleto."
+  ],
+  [
+   "¿Qué significa «quirópteros», el nombre del grupo de los murciélagos?",
+   [
+    "Ojos grandes",
+    "Dientes de roedor",
+    "Manos con alas",
+    "Patas de ave"
+   ],
+   2,
+   "Sus alas son manos con dedos muy largos unidos por piel."
+  ],
+  [
+   "¿Por qué los huesos de las aves son huecos?",
+   [
+    "Para guardar comida",
+    "Para nadar mejor",
+    "Para hacer ruido",
+    "Para ser más livianos y poder volar"
+   ],
+   3,
+   "Unos huesos livianos facilitan el vuelo."
+  ]
+ ],
+ "reviewNotes": "09: ilustración de A. Günther, An Introduction to the Study of Fishes (1880), dominio público."
+}

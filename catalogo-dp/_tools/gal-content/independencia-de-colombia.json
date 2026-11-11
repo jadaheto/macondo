@@ -1,0 +1,106 @@
+{
+ "title": "La independencia de Colombia",
+ "description": "Documentos, retratos y pinturas históricas en dominio público sobre la independencia de la Nueva Granada: el Acta de Cartagena de 1811, los próceres, las heroínas y la Batalla de Boyacá.",
+ "gradeMin": 5,
+ "gradeMax": 11,
+ "categories": [
+  "Ciencias sociales",
+  "Historia de Colombia",
+  "Independencia"
+ ],
+ "cover": 8,
+ "items": [
+  [
+   "Documento antiguo impreso con el título Acta de Independencia de la Provincia de Cartajena en la Nueva Granada y varias columnas de texto con firmas al final.",
+   "El 11 de noviembre de 1811 Cartagena declaró su independencia absoluta de España, una de las primeras provincias de la Nueva Granada en hacerlo. Por eso el 11 de noviembre es la gran fiesta de Cartagena."
+  ],
+  [
+   "Retrato pintado de un hombre sentado, de cabello oscuro y patillas, con levita oscura, chaleco rojo y pantalón claro.",
+   "Antonio Nariño (1765-1823) tradujo e imprimió en Santafé la Declaración de los Derechos del Hombre y del Ciudadano, por lo que fue encarcelado. Es considerado precursor de la independencia. Retrato de José María Espinosa."
+  ],
+  [
+   "Grabado en blanco y negro de un hombre mayor de cabello corto, con levita oscura y la mano dentro del chaleco.",
+   "Camilo Torres Tenorio (1766-1816) escribió el Memorial de agravios (1809), en el que reclamaba igualdad para los nacidos en América. Fue presidente de las Provincias Unidas de la Nueva Granada y fue fusilado en 1816."
+  ],
+  [
+   "Retrato de una joven de cabello negro largo, con blusa azul y cuello de encaje, que mira de frente.",
+   "Policarpa Salavarrieta, \"la Pola\", espiaba para los patriotas en Santafé y fue fusilada en 1817. En su honor, el 14 de noviembre se celebra en Colombia el Día de la Mujer Colombiana. Retrato de José María Espinosa."
+  ],
+  [
+   "Retrato de cuerpo entero de Simón Bolívar de pie, con uniforme militar azul y dorado, pantalón blanco y botas, sobre un piso de baldosas.",
+   "Simón Bolívar, el Libertador, en un retrato hecho en Lima en 1825 por José Gil de Castro. Bolívar dirigió la campaña que liberó a la Nueva Granada, Venezuela, Ecuador, Perú y Bolivia."
+  ],
+  [
+   "Retrato de Francisco de Paula Santander de pie, con uniforme militar, levantando un libro con la mano derecha; detrás, una escena de batalla.",
+   "Francisco de Paula Santander, llamado \"el hombre de las leyes\", luchó en la campaña libertadora y como vicepresidente organizó el nuevo Estado y la educación pública. Retrato de José María Espinosa."
+  ],
+  [
+   "Grabado antiguo de tonos sepia que muestra un valle con tropas en formación, humo de disparos y un puente de madera.",
+   "Grabado de la Batalla de Boyacá hecho por J. M. Darmet hacia 1824. La batalla, el 7 de agosto de 1819, junto al puente de Boyacá, selló la independencia de la Nueva Granada."
+  ],
+  [
+   "Pintura de batalla con muchos soldados que combaten con fusiles y bayonetas en una ladera, entre humo y banderas.",
+   "La Batalla de Boyacá pintada por el venezolano Martín Tovar y Tovar a finales del siglo XIX. Los artistas de esa época pintaron grandes escenas para recordar las hazañas de la independencia."
+  ],
+  [
+   "Retrato ovalado de una mujer de cabello recogido, con vestido negro y una cadena dorada al cuello.",
+   "Manuela Sáenz (1797-1856), patriota nacida en Quito, apoyó la causa de la independencia. En 1828 ayudó a Bolívar a escapar de un atentado en Bogotá, por lo que la llamaron \"la Libertadora del Libertador\". Retrato de Pedro Durante (1825)."
+  ],
+  [
+   "Litografía en blanco y negro de un hombre joven de cabello oscuro, con levita y corbatín blanco.",
+   "Francisco José de Caldas (1768-1816), \"el sabio Caldas\", fue astrónomo, geógrafo y naturalista. Apoyó la independencia y fue fusilado en 1816. Litografía de José María Espinosa (hacia 1836)."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Qué ciudad declaró su independencia absoluta el 11 de noviembre de 1811?",
+   [
+    "Cartagena",
+    "Bogotá",
+    "Tunja"
+   ],
+   0,
+   "Cartagena declaró su independencia absoluta el 11 de noviembre de 1811."
+  ],
+  [
+   "¿Qué documento tradujo e imprimió Antonio Nariño?",
+   [
+    "La Declaración de los Derechos del Hombre y del Ciudadano",
+    "El Memorial de agravios",
+    "La Constitución de 1886"
+   ],
+   0,
+   "Por traducir esa declaración, Nariño fue encarcelado."
+  ],
+  [
+   "¿En qué fecha fue la Batalla de Boyacá?",
+   [
+    "El 7 de agosto de 1819",
+    "El 20 de julio de 1810",
+    "El 11 de noviembre de 1811"
+   ],
+   0,
+   "La Batalla de Boyacá fue el 7 de agosto de 1819."
+  ],
+  [
+   "¿Qué se celebra el 14 de noviembre en honor de Policarpa Salavarrieta?",
+   [
+    "El Día de la Mujer Colombiana",
+    "El Día del Idioma",
+    "El Día de la Independencia"
+   ],
+   0,
+   "El 14 de noviembre es el Día de la Mujer Colombiana."
+  ],
+  [
+   "¿Por qué llamaron a Manuela Sáenz \"la Libertadora del Libertador\"?",
+   [
+    "Porque ayudó a Bolívar a escapar de un atentado en 1828",
+    "Porque dirigió la Batalla de Boyacá",
+    "Porque escribió el Acta de Cartagena"
+   ],
+   0,
+   "En 1828 ayudó a Bolívar a escapar de un atentado en Bogotá."
+  ]
+ ]
+}

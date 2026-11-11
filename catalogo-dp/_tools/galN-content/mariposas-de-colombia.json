@@ -1,0 +1,94 @@
+{
+ "title": "Mariposas de Colombia",
+ "description": "Colombia es el país con más especies de mariposas del mundo. Conoce morfos azules, mariposas búho y de cristal, y el viaje de la oruga a la mariposa.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Animales",
+  "Insectos",
+  "Biodiversidad"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Una mariposa de alas azul brillante con bordes oscuros, posada en una hoja.",
+   "Las mariposas morfo tienen alas de un azul metálico que brilla al sol. Ese azul no viene de un pigmento: lo producen escamas diminutas que reflejan la luz. Foto tomada en Panamá."
+  ],
+  [
+   "Una mariposa de alas negras con una franja roja, posada sobre una hoja verde.",
+   "Las mariposas Heliconius son venenosas para las aves y lo anuncian con sus colores. Sus orugas comen hojas de maracuyá y otras pasifloras. En Colombia hay muchísimas especies de este grupo."
+  ],
+  [
+   "Una mariposa café posada en un tronco, con una gran mancha redonda en el ala que parece un ojo.",
+   "La mariposa búho tiene en las alas una mancha que parece el ojo de un búho. Así asusta o confunde a los animales que quieren comérsela. Vuela sobre todo al amanecer y al atardecer."
+  ],
+  [
+   "Una mariposa de alas transparentes con bordes rojizos, posada en una hoja grande.",
+   "La mariposa de cristal tiene alas casi transparentes: a través de ellas se ve lo que hay detrás. Así es muy difícil de ver para sus depredadores. Vive en los bosques de Centroamérica y Colombia."
+  ],
+  [
+   "Una oruga verde con rayas negras y puntos anaranjados, subida a un tallo.",
+   "Toda mariposa empieza como un huevo del que sale una oruga. La oruga come hojas sin parar y crece muy rápido. Esta es la oruga de una mariposa macaón."
+  ],
+  [
+   "Una crisálida colgante de color oscuro, a través de la cual se ven las alas anaranjadas de una mariposa.",
+   "Cuando la oruga termina de crecer, se convierte en crisálida y por dentro su cuerpo cambia por completo. En esta crisálida de mariposa monarca ya se ven los colores de las alas: ¡falta poco para que salga!"
+  ],
+  [
+   "Una mariposa monarca de alas anaranjadas con venas negras y puntos blancos, posada en una margarita.",
+   "Una mariposa monarca recién salida de su crisálida. Algunas monarcas de Norteamérica viajan miles de kilómetros cada año para pasar el invierno en los bosques de México."
+  ],
+  [
+   "Muchas mariposas amarillas, verdes y anaranjadas posadas juntas sobre el suelo húmedo.",
+   "A veces se ven grupos de mariposas sobre la arena húmeda o el barro: están chupando agua con sales minerales que no encuentran en las flores. Colombia tiene más de 3.600 especies de mariposas, más que cualquier otro país."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Cuál es el orden correcto de la vida de una mariposa?",
+   [
+    "Oruga, huevo, mariposa, crisálida",
+    "Huevo, oruga, crisálida, mariposa",
+    "Crisálida, huevo, oruga, mariposa",
+    "Mariposa, oruga, huevo, crisálida"
+   ],
+   1,
+   "Este cambio completo de forma se llama metamorfosis."
+  ],
+  [
+   "¿Qué país tiene más especies de mariposas en el mundo?",
+   [
+    "Colombia",
+    "Canadá",
+    "España",
+    "Egipto"
+   ],
+   0,
+   "Colombia tiene más de 3.600 especies de mariposas gracias a sus montañas, selvas y llanuras."
+  ],
+  [
+   "¿Para qué le sirve a la mariposa búho la mancha de sus alas?",
+   [
+    "Para ver mejor",
+    "Para calentarse",
+    "Para asustar o confundir a sus enemigos",
+    "Para guardar comida"
+   ],
+   2,
+   "La mancha parece el ojo de un búho, un animal que muchos depredadores evitan."
+  ],
+  [
+   "¿Por qué las mariposas se posan en el barro húmedo?",
+   [
+    "Para dormir",
+    "Para esconderse de la lluvia",
+    "Para poner huevos",
+    "Para tomar agua con sales minerales"
+   ],
+   3,
+   "Las flores les dan azúcar, pero las sales minerales las obtienen del suelo húmedo."
+  ]
+ ],
+ "reviewNotes": null
+}

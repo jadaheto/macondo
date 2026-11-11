@@ -1,0 +1,93 @@
+{
+ "title": "La Luna",
+ "description": "Las fases de la Luna, su cara oculta, sus cráteres, la huella de los astronautas y la Luna vista junto a la Tierra: todo sobre nuestro satélite natural.",
+ "gradeMin": 1,
+ "gradeMax": 5,
+ "categories": [
+  "Ciencias naturales",
+  "Astronomía",
+  "Espacio"
+ ],
+ "cover": 1,
+ "items": [
+  [
+   "Cuatro fotos de la Luna en distintas fases: creciente, cuarto, gibosa y llena.",
+   "La Luna no tiene luz propia: brilla porque refleja la luz del Sol. Según cómo la ilumina el Sol, la vemos crecer y achicarse: son las fases de la Luna. Un ciclo completo dura unos 29 días y medio."
+  ],
+  [
+   "Una luna creciente muy delgada y brillante; el resto de la Luna se ve débilmente gris.",
+   "Cuando la Luna es una media luna muy delgada, a veces vemos el resto de su disco con una luz gris débil. Es la luz cenicienta: luz del Sol que rebota en la Tierra y llega a la Luna."
+  ],
+  [
+   "La Luna casi llena, gris, con manchas oscuras y cráteres claros, sobre fondo negro.",
+   "La Luna siempre nos muestra la misma cara, porque tarda lo mismo en girar sobre sí misma que en dar una vuelta a la Tierra. La cara oculta solo se conoció gracias a las naves espaciales: tiene muchos más cráteres. Imagen de la NASA."
+  ],
+  [
+   "Un cráter redondo de la Luna con un pico en el centro y rayos claros a su alrededor.",
+   "Los cráteres se formaron cuando rocas del espacio chocaron contra la Luna. Este es el cráter Tycho, de 85 kilómetros de ancho; en Luna llena se ve desde la Tierra como un punto brillante con rayos."
+  ],
+  [
+   "La huella de una bota de astronauta marcada en el polvo gris de la Luna.",
+   "Esta es la huella de Buzz Aldrin, astronauta del Apolo 11, en 1969. Como en la Luna no hay viento ni lluvia, las huellas de los astronautas pueden durar millones de años."
+  ],
+  [
+   "Un astronauta con traje espacial blanco de pie sobre la superficie gris de la Luna; en su visor se refleja otro astronauta.",
+   "El 20 de julio de 1969, Neil Armstrong y Buzz Aldrin fueron las primeras personas en caminar sobre la Luna. En esta foto famosa, tomada por Armstrong, Aldrin posa y en su visor se ve el reflejo de Armstrong y del módulo lunar."
+  ],
+  [
+   "La Tierra y la Luna juntas en el espacio negro: la Tierra azul con nubes y la Luna más pequeña y gris.",
+   "La Tierra y la Luna fotografiadas juntas por la nave Galileo en 1992. La Luna está a unos 384.000 kilómetros de la Tierra: ¡cabrían unos 30 planetas Tierra en fila entre las dos!"
+  ],
+  [
+   "La Luna llena saliendo detrás de una montaña al atardecer, con el cielo rosado.",
+   "La Luna llena sale por el oriente más o menos cuando el Sol se pone por el occidente. Cerca del horizonte parece más grande, aunque en realidad es una ilusión de nuestros ojos."
+  ]
+ ],
+ "questions": [
+  [
+   "¿Por qué brilla la Luna?",
+   [
+    "Porque tiene fuego",
+    "Porque refleja la luz del Sol",
+    "Porque tiene bombillos",
+    "Porque es una estrella"
+   ],
+   1,
+   "La Luna no tiene luz propia; refleja la luz del Sol."
+  ],
+  [
+   "¿Cuánto dura más o menos un ciclo completo de fases de la Luna?",
+   [
+    "Unos 29 días y medio",
+    "Un día",
+    "Un año",
+    "Una semana"
+   ],
+   0,
+   "De una Luna llena a la siguiente pasan unos 29 días y medio."
+  ],
+  [
+   "¿Quiénes fueron las primeras personas en caminar sobre la Luna?",
+   [
+    "Cristóbal Colón y Magallanes",
+    "Galileo y Newton",
+    "Neil Armstrong y Buzz Aldrin",
+    "Yuri Gagarin y Laika"
+   ],
+   2,
+   "Llegaron el 20 de julio de 1969 en la misión Apolo 11."
+  ],
+  [
+   "¿Por qué las huellas de los astronautas pueden durar millones de años en la Luna?",
+   [
+    "Porque las cuidan guardias",
+    "Porque son de cemento",
+    "Porque hace mucho frío",
+    "Porque allí no hay viento ni lluvia que las borren"
+   ],
+   3,
+   "Sin atmósfera, no hay viento ni lluvia que erosionen el suelo lunar."
+  ]
+ ],
+ "reviewNotes": null
+}

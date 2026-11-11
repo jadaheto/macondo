@@ -1,0 +1,227 @@
+// Macondo Digital — esquema de datos (PostgreSQL 16)
+// Estadísticas solo agregadas: ningún modelo almacena identidad de estudiantes.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  LIBRARIAN
+}
+
+enum ResourceType {
+  BOOK
+  AUDIOBOOK
+  AUDIOBIOGRAPHY
+  AUDIOSUMMARY
+  GALLERY
+}
+
+enum FileFormat {
+  EPUB
+  PDF
+  MP3
+  IMAGE_SET
+  NONE
+}
+
+enum ResourceStatus {
+  DRAFT
+  PUBLISHED
+  RETIRED
+}
+
+enum TvSlideKind {
+  BOOK_OF_WEEK
+  FEATURED_AUTHOR
+  FUN_FACT
+  GALLERY
+  AGENDA
+  CHALLENGE
+  MESSAGE
+  TUTORIAL
+}
+
+model User {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  name         String
+  passwordHash String
+  role         Role       @default(LIBRARIAN)
+  active       Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  auditLogs    AuditLog[]
+}
+
+model Resource {
+  id              String         @id @default(cuid())
+  title           String
+  creator         String
+  type            ResourceType
+  description     String         @default("")
+  gradeMin        Int
+  gradeMax        Int
+  categories      String[]       @default([])
+  language        String         @default("es")
+  narrator        String?
+  durationSeconds Int?
+  format          FileFormat     @default(NONE)
+  status          ResourceStatus @default(DRAFT)
+
+  // Archivo principal (clave en el proveedor de almacenamiento, nunca el nombre del cliente)
+  filePath      String?
+  fileMime      String?
+  fileSha256    String?
+  fileSizeBytes Int?
+  // Portada
+  coverPath String?
+  coverMime String?
+
+  // Licencia de contenido (aplanada)
+  licenseRightsHolder      String
+  licenseName              String
+  licenseUrl               String?
+  licenseAuthorizedDevices Int       @default(0)
+  licenseOfflineAllowed    Boolean   @default(false)
+  licenseValidFrom         DateTime?
+  licenseValidUntil        DateTime?
+  licenseTerritory         String    @default("CO")
+
+  /// Galería (IMAGE_SET): { title, description, items:[{key,mime,sha256,sizeBytes,alt,caption,credit,license,licenseUrl,sourceUrl}], activity }
+  gallery Json?
+  /// Extras opcionales: timeline, funFacts, questions, text, relatedTitle, relatedCreator (ResourceExtraSchema)
+  extra   Json?
+
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  tvSlides      TvSlide[]
+  readingEvents ReadingEvent[]
+  challenges    Challenge[]
+
+  @@index([status])
+  @@index([type])
+  @@index([title, type])
+}
+
+model TvSlide {
+  id              String      @id @default(cuid())
+  kind            TvSlideKind
+  title           String
+  body            String      @default("")
+  resourceId      String?
+  resource        Resource?   @relation(fields: [resourceId], references: [id], onDelete: SetNull)
+  order           Int         @default(0)
+  durationSeconds Int         @default(20)
+  startsAt        DateTime?
+  endsAt          DateTime?
+  active          Boolean     @default(true)
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@index([active, order])
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  actorId   String?
+  actor     User?    @relation(fields: [actorId], references: [id], onDelete: SetNull)
+  action    String
+  entity    String
+  entityId  String?
+  details   Json?
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+/// Contadores agregados por recurso y día. SIN identidad de estudiante ni dispositivo.
+model ReadingEvent {
+  id         String   @id @default(cuid())
+  resourceId String
+  resource   Resource @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  day        DateTime @db.Date
+  kind       String // FILE_OPEN
+  count      Int      @default(0)
+
+  @@unique([resourceId, day, kind])
+}
+
+enum ChallengeKind {
+  trivia
+  sequence
+  match
+}
+
+/// Reto lector importado desde catalogo-dp/retos/retos.json (id = slug estable, importación idempotente).
+model Challenge {
+  id         String        @id
+  kind       ChallengeKind
+  title      String
+  source     String        @default("")
+  bands      String[]      @default([])
+  text       String        @default("")
+  /// { questions } | { steps } | { pairs } según kind
+  payload    Json
+  /// Título y autor declarados en el JSON (para volver a resolver el recurso)
+  resourceTitle   String?
+  resourceCreator String?
+  resourceId String?
+  resource   Resource?     @relation(fields: [resourceId], references: [id], onDelete: SetNull)
+  active     Boolean       @default(true)
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  @@index([active])
+  @@index([resourceId])
+}
+
+enum StoryStatus {
+  GENERATING
+  GENERATED
+  PENDING_REVIEW
+  APPROVED
+  REJECTED
+  FAILED
+}
+
+/// Cuento del Taller de cuentos (ADR-018). `autorNombre` es el nombre que el niño eligió mostrar (opcional) y
+/// NUNCA sale del servidor hacia el proveedor de IA. `deviceHash` = SHA-256 de un id aleatorio del dispositivo
+/// (sin IP) solo para el límite por hora. `contenido` = CuentoGeneradoSchema.
+model GeneratedStory {
+  id            String      @id @default(cuid())
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  band          String
+  autorNombre   String?
+  protagonista  String
+  tipo          String
+  lugar         String
+  valor         String
+  modo          String      @default("plantilla")
+  titulo        String      @default("")
+  contenido     Json?
+  audioPath     String?
+  audioDuration Int?
+  audioError    String?
+  status        StoryStatus @default(GENERATING)
+  error         String?
+  reviewNote    String?
+  reviewedBy    String?
+  reviewedAt    DateTime?
+  deviceHash    String
+  resourceIds   Json?
+  providerMs    Int?
+  tokensIn      Int?
+  tokensOut     Int?
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([deviceHash, createdAt])
+}
