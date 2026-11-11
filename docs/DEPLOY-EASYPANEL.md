@@ -78,6 +78,18 @@ en la raíz o, en el servicio, pestaña **Build → Dockerfile** con ruta `Docke
    No definir `PORT` ni `API_PORT` (la imagen ya fija web 3100 y API interna 4100). Tampoco hace falta nada para la
    **narración sintética** (ADR-017): la imagen trae Piper y la voz `es_ES-davefx-medium` y fija `TTS_*`; se comprueba en
    el panel (Resumen → «Narración: Piper davefx · disponible») o con `GET /api/admin/tts/estado` con sesión de administración.
+   Para el **Taller de cuentos** (ADR-018) añadir `DEEPSEEK_API_KEY` y `DEEPSEEK_MODEL=deepseek-chat`; sin ellas funciona en modo plantilla.
+
+   **No copiar `.env.example` entero** al Environment. En concreto, con la imagen todo en uno:
+   - `STORAGE_DIR` debe ser `/app/storage` (o no definirse). El valor local `../../storage` solo sirve en desarrollo.
+   - `API_INTERNAL_URL`, `WEB_PORT`, `ALLOWED_DEV_ORIGINS` y `LAN_HOST` se ignoran: no hace falta ponerlos.
+   - Sin `SEED_ON_START=true` en el primer arranque **no existe ningún usuario** y no se puede entrar a `/admin`.
+   - **EasyPanel pasa todas las variables como `--build-arg` y las imprime completas en el log del build**
+     (`DATABASE_URL` con contraseña, `JWT_SECRET`, `DEEPSEEK_API_KEY`). El `Dockerfile` no declara esos `ARG`, así que no
+     quedan dentro de la imagen, pero sí en el log: no compartir ese log y, si se compartió, rotar la clave de DeepSeek
+     (platform.deepseek.com → API keys) y el `JWT_SECRET`.
+   - **Source: GitHub** (`jadaheto/macondo`, rama `main`, Build → Dockerfile `Dockerfile`) equivale a subir el ZIP; cada
+     *push* permite redesplegar con un clic.
 4. **Mounts:** Volume → `/app/storage` (archivos subidos, portadas, galerías, miniaturas).
 5. **Domains:** `macondo.comfasucre.co` → puerto **3100**, HTTPS activado.
 6. Deploy → revisar *Logs*: `[macondo] Aplicando migraciones…`, `API lista`, `Iniciando web…`.

@@ -41,7 +41,10 @@ RUN npm run build -w @macondo/shared \
 # (Misma etapa que en apps/api/Dockerfile; mantener ambas iguales.)
 FROM base AS tts
 ARG PIPER_VERSION=1.8.0
-ARG PIPER_VOICE_URL=https://huggingface.co/rhasspy/piper-voices/resolve/main/es/es_ES/davefx/medium
+# Revisión FIJA del repositorio de voces: el 2026-11-09 y 2026-11-11 upstream reentrenó davefx y cambiaron los archivos.
+# e7229f7 es la versión que se escuchó y aprobó (muestras del 2026-11-05) y cuyas sumas SHA-256 se verifican abajo.
+ARG PIPER_VOICE_REV=e7229f7d33a10e145e109b886d661984201ac3c4
+ARG PIPER_VOICE_URL=https://huggingface.co/rhasspy/piper-voices/resolve/${PIPER_VOICE_REV}/es/es_ES/davefx/medium
 RUN apt-get update && apt-get install -y --no-install-recommends python3 python3-venv curl \
   && rm -rf /var/lib/apt/lists/*
 RUN /usr/bin/python3.11 -m venv /opt/piper-venv \
