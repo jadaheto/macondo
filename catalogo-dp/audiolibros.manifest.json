@@ -1,7 +1,7 @@
 [
   {
     "file": "audiolibros/librivox-6706-s01.mp3",
-    "cover": "portadas/librivox-6706-s01.png",
+    "cover": "portadas-originales/librivox-6706-s01.jpg",
     "title": "La abeja haragana",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -42,11 +42,12 @@
     },
     "sha256": "936a9e74c7b9ef906cc822b1f00d1c044bf471c22bdf6ba7e9690b56285f9924",
     "sizeBytes": 6776320,
-    "reviewNotes": "Sección 1 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Sección 1 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-6706-s02.mp3",
-    "cover": "portadas/librivox-6706-s02.png",
+    "cover": "portadas-originales/librivox-6706-s02.jpg",
     "title": "Historia de dos cachorros de coatí y de dos cachorros de hombre",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -87,11 +88,12 @@
     },
     "sha256": "b1403598689e6cd91655af6d465dccf7c452932f776a3f3eab70a407355b9d81",
     "sizeBytes": 7821312,
-    "reviewNotes": "Incluye peligros propios de la selva (animales salvajes); apto con acompañamiento en los primeros grados. Sección 2 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Incluye peligros propios de la selva (animales salvajes); apto con acompañamiento en los primeros grados. Sección 2 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-6706-s04.mp3",
-    "cover": "portadas/librivox-6706-s04.png",
+    "cover": "portadas-originales/librivox-6706-s04.jpg",
     "title": "La tortuga gigante",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -132,11 +134,12 @@
     },
     "sha256": "a23a7f765c8d8f8f504296f04c8d4c9a63d5bb3474b9dd2c63a8dac65202d632",
     "sizeBytes": 5500416,
-    "reviewNotes": "Sección 4 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Sección 4 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-6706-s05.mp3",
-    "cover": "portadas/librivox-6706-s05.png",
+    "cover": "portadas-originales/librivox-6706-s05.jpg",
     "title": "El paso del Yabebirí",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -177,11 +180,12 @@
     },
     "sha256": "aac2405d203683f0030960e9b64fb06499fcebf1f4b722c7da2ce778e2a5b68c",
     "sizeBytes": 10986496,
-    "reviewNotes": "Contiene escenas de lucha entre animales. Sección 5 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Contiene escenas de lucha entre animales. Sección 5 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-6706-s06.mp3",
-    "cover": "portadas/librivox-6706-s06.png",
+    "cover": "portadas-originales/librivox-6706-s06.jpg",
     "title": "El loro pelado",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -221,11 +225,12 @@
     },
     "sha256": "ddd5f97a7a150a4a1238f776f7059c7cde065d7a5a68ca2dfde712dc4e25217f",
     "sizeBytes": 5997056,
-    "reviewNotes": "Sección 6 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Sección 6 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-6706-s07.mp3",
-    "cover": "portadas/librivox-6706-s07.png",
+    "cover": "portadas-originales/librivox-6706-s07.jpg",
     "title": "La guerra de los yacarés",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -266,11 +271,12 @@
     },
     "sha256": "66afaf940dfddc760d23bccb1129595f65e002358484fdb5f3d7320ad7754082",
     "sizeBytes": 11958784,
-    "reviewNotes": "Incluye combate (con un buque de guerra). Sección 7 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Incluye combate (con un buque de guerra). Sección 7 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-6706-s08.mp3",
-    "cover": "portadas/librivox-6706-s08.png",
+    "cover": "portadas-originales/librivox-6706-s08.jpg",
     "title": "La gama ciega",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -311,11 +317,12 @@
     },
     "sha256": "7d2089a45f583acaa3ec6451fe11f45e7ee2720b87e827dca2605937b728e773",
     "sizeBytes": 6595584,
-    "reviewNotes": "Sección 8 de la grabación LibriVox «Cuentos de la selva para los niños»."
+    "reviewNotes": "Sección 8 de la grabación LibriVox «Cuentos de la selva para los niños».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdelaselva_1603_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s03.mp3",
-    "cover": "portadas/librivox-2162-s03.png",
+    "cover": "portadas-originales/librivox-2162-s03.jpg",
     "title": "Meñique",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -355,11 +362,12 @@
     },
     "sha256": "bfc6c4c4157dc8a49f63a81d1c5528ed2d25022f7292993950d866b7edf416ee",
     "sizeBytes": 17710600,
-    "reviewNotes": "Sección 3 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 3 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s07.mp3",
-    "cover": "portadas/librivox-2162-s07.png",
+    "cover": "portadas-originales/librivox-2162-s07.jpg",
     "title": "Bebé y el señor don Pomposo",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -399,11 +407,12 @@
     },
     "sha256": "74d3e000ef10a3d2e1ea66fa1325952ac4973cafa0a79818f5a9fd17e052ba43",
     "sizeBytes": 4772693,
-    "reviewNotes": "Sección 7 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 7 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s11.mp3",
-    "cover": "portadas/librivox-2162-s11.png",
+    "cover": "portadas-originales/librivox-2162-s11.jpg",
     "title": "Nené traviesa",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -443,11 +452,12 @@
     },
     "sha256": "4e05d06f5ad36e002ad95db5e6a547e4be8a554ed9a0c1f84a70514380d87f60",
     "sizeBytes": 6200846,
-    "reviewNotes": "Refleja costumbres y roles familiares del siglo XIX. Sección 11 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Refleja costumbres y roles familiares del siglo XIX. Sección 11 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s17.mp3",
-    "cover": "portadas/librivox-2162-s17.png",
+    "cover": "portadas-originales/librivox-2162-s17.jpg",
     "title": "El camarón encantado",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -488,11 +498,12 @@
     },
     "sha256": "de13e49ff4873855cb678d5d23626fddf09c3340e0a012c7d8b475c63f160f18",
     "sizeBytes": 11186688,
-    "reviewNotes": "Sección 17 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 17 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s23.mp3",
-    "cover": "portadas/librivox-2162-s23.png",
+    "cover": "portadas-originales/librivox-2162-s23.jpg",
     "title": "La muñeca negra",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -532,11 +543,12 @@
     },
     "sha256": "0da771818aeb1dbcdd7995c9bffeaf94621a1560f1ff8d85d72121fa3f2f49e7",
     "sizeBytes": 8529508,
-    "reviewNotes": "Sección 23 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 23 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-20074-s21.mp3",
-    "cover": "portadas/librivox-20074-s21.png",
+    "cover": "portadas-originales/librivox-20074-s21.jpg",
     "title": "Cuentos pintados",
     "creator": "Rafael Pombo",
     "type": "AUDIOBOOK",
@@ -577,11 +589,12 @@
     },
     "sha256": "fbe29fc6b57c8ac3e2a69194aa57236dd9d07d7f0b13ab549a39f13c9df9e24a",
     "sizeBytes": 9459915,
-    "reviewNotes": "Sección 21 de la grabación LibriVox «Fábulas y Verdades»."
+    "reviewNotes": "Sección 21 de la grabación LibriVox «Fábulas y Verdades».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fabulasyverdades_2412_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-20074-s22.mp3",
-    "cover": "portadas/librivox-20074-s22.png",
+    "cover": "portadas-originales/librivox-20074-s22.jpg",
     "title": "Cuentos morales para niños formales",
     "creator": "Rafael Pombo",
     "type": "AUDIOBOOK",
@@ -622,11 +635,12 @@
     },
     "sha256": "d264e31ce5494cf926c697772833a36aadf3a012a593c2e2db89065fdc7ceb6b",
     "sizeBytes": 42553212,
-    "reviewNotes": "Algunos poemas tienen un tono moralizante propio del siglo XIX. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Cuentos morales para niños formales; 24:23 Cuentos morales para niños formales continuación; 45:04 Cuentos morales para niños formales continuación; 1:08:17 Cuentos morales para niños formales continuación."
+    "reviewNotes": "Algunos poemas tienen un tono moralizante propio del siglo XIX. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Cuentos morales para niños formales; 24:23 Cuentos morales para niños formales continuación; 45:04 Cuentos morales para niños formales continuación; 1:08:17 Cuentos morales para niños formales continuación.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fabulasyverdades_2412_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-20074-s01.mp3",
-    "cover": "portadas/librivox-20074-s01.png",
+    "cover": "portadas-originales/librivox-20074-s01.jpg",
     "title": "Fábulas y verdades (primera parte)",
     "creator": "Rafael Pombo",
     "type": "AUDIOBOOK",
@@ -666,11 +680,12 @@
     },
     "sha256": "c65157b1bedb4675b21b8db27d86e797099dc65645de471d42f53286bd9a637e",
     "sizeBytes": 77493968,
-    "reviewNotes": "Corresponde a las secciones 1–10 de la grabación LibriVox (el libro completo dura casi 9 horas). La sección 1 empieza con un artículo anónimo de la revista Mundo Nuevo (Nueva York, década de 1870) reproducido en la edición de 1916. Archivo único formado por 10 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Fábulas y verdades; 11:54 Fábulas y verdades continuación; 26:22 Fábulas y verdades continuación; 41:59 Fábulas y verdades continuación; 57:20 Fábulas y verdades continuación; 1:10:49 Fábulas y verdades continuación; 1:30:28 Fábulas y verdades continuación; 1:47:47 Fábulas y verdades continuación; 2:01:35 Fábulas y verdades continuación; 2:25:11 Fábulas y verdades continuación."
+    "reviewNotes": "Corresponde a las secciones 1–10 de la grabación LibriVox (el libro completo dura casi 9 horas). La sección 1 empieza con un artículo anónimo de la revista Mundo Nuevo (Nueva York, década de 1870) reproducido en la edición de 1916. Archivo único formado por 10 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Fábulas y verdades; 11:54 Fábulas y verdades continuación; 26:22 Fábulas y verdades continuación; 41:59 Fábulas y verdades continuación; 57:20 Fábulas y verdades continuación; 1:10:49 Fábulas y verdades continuación; 1:30:28 Fábulas y verdades continuación; 1:47:47 Fábulas y verdades continuación; 2:01:35 Fábulas y verdades continuación; 2:25:11 Fábulas y verdades continuación.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fabulasyverdades_2412_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21304.mp3",
-    "cover": "portadas/librivox-21304.png",
+    "cover": "portadas-originales/librivox-21304.jpg",
     "title": "En la diestra de Dios Padre",
     "creator": "Tomás Carrasquilla",
     "type": "AUDIOBOOK",
@@ -710,11 +725,12 @@
     },
     "sha256": "abea889ee693087bb9d95862b1153f6c0635da92a5e7fc549b825773af117b63",
     "sizeBytes": 33195523,
-    "reviewNotes": "Usa habla popular antioqueña y elementos religiosos del folclor (Jesús, San Pedro, el diablo, la Muerte). Archivo único formado por 3 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 En la Diestra de Dios Padre- Primera parte; 19:53 En la Diestra de Dios Padre - Segunda parte; 40:05 En la Diestra de Dios Padre - Tercera parte."
+    "reviewNotes": "Usa habla popular antioqueña y elementos religiosos del folclor (Jesús, San Pedro, el diablo, la Muerte). Archivo único formado por 3 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 En la Diestra de Dios Padre- Primera parte; 19:53 En la Diestra de Dios Padre - Segunda parte; 40:05 En la Diestra de Dios Padre - Tercera parte.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/enladiestradediospadre_2501_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-7662.mp3",
-    "cover": "portadas/librivox-7662.png",
+    "cover": "portadas-originales/librivox-7662.jpg",
     "title": "Cuentos, adivinanzas y refranes populares",
     "creator": "Fernán Caballero",
     "type": "AUDIOBOOK",
@@ -755,11 +771,12 @@
     },
     "sha256": "98fdc54abb858bfafd5df7fa2baee3107bb66a5f8c7d8524b9e4bcae55e9fdf2",
     "sizeBytes": 83914447,
-    "reviewNotes": "Varios cuentos tienen contenido religioso católico tradicional; algunos reflejan valores de su época. Archivo único formado por 39 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 La hormiguita; 4:48 El lobo bobo y la zorra astuta; 12:02 Los caballeros del pez; 28:19 La niña de los tres maridos; 34:23 Bella Flor; 43:35 El lirio azul; 47:14 El pájaro de la verdad; 1:11:41 Los deseos; 1:16:57 El pícaro pajarillo; 1:19:50 El Carlanco; 1:23:56 Otra versión del Carlanco; 1:25:34 Benibaire; 1:29:55 La zorra y la vejeta; 1:32:17 El gallo y el pato; 1:34:21 La joroba; 1:41:18 El galleguito; 1:43:43 Juan Cigarrón; 1:48:52 El zurrón que cantaba; 1:52:21 Pico, pico, a ver si me pongo rico; 1:57:20 Cuento de embustes; 2:02:08 El duendecillo fraile; 2:03:38 La gallina duende; 2:04:59 El pan; 2:11:21 Si Dios quiere; 2:14:27 Una promesa; 2:18:53 La tentación; 2:22:44 Los dos caminitos; 2:25:13 Cuento de bruja; 2:26:35 Cómo le gusta al Niño Dios que le pidan; 2:28:39 La Virgen costurera; 2:32:05 San Lorenzo; 2:33:23 San Pedro; 2:35:17 El holgazán; 2:36:42 Desprecio de las advertencias; 2:39:27 Creación de la golondrina; 2:41:50 Ejemplos; 2:43:25 ¡Señor, aquí está Juan!; 2:45:29 Adán; 2:46:46 Justicia de Dios y desengaños de España. Lectores: gribuongiorne, Kathrine Engan, Etel Buss, Tux, Kimberly Krause, Sue Anderson, mahiba, Eduardo, Juan Santana, Paolo Paez."
+    "reviewNotes": "Varios cuentos tienen contenido religioso católico tradicional; algunos reflejan valores de su época. Archivo único formado por 39 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 La hormiguita; 4:48 El lobo bobo y la zorra astuta; 12:02 Los caballeros del pez; 28:19 La niña de los tres maridos; 34:23 Bella Flor; 43:35 El lirio azul; 47:14 El pájaro de la verdad; 1:11:41 Los deseos; 1:16:57 El pícaro pajarillo; 1:19:50 El Carlanco; 1:23:56 Otra versión del Carlanco; 1:25:34 Benibaire; 1:29:55 La zorra y la vejeta; 1:32:17 El gallo y el pato; 1:34:21 La joroba; 1:41:18 El galleguito; 1:43:43 Juan Cigarrón; 1:48:52 El zurrón que cantaba; 1:52:21 Pico, pico, a ver si me pongo rico; 1:57:20 Cuento de embustes; 2:02:08 El duendecillo fraile; 2:03:38 La gallina duende; 2:04:59 El pan; 2:11:21 Si Dios quiere; 2:14:27 Una promesa; 2:18:53 La tentación; 2:22:44 Los dos caminitos; 2:25:13 Cuento de bruja; 2:26:35 Cómo le gusta al Niño Dios que le pidan; 2:28:39 La Virgen costurera; 2:32:05 San Lorenzo; 2:33:23 San Pedro; 2:35:17 El holgazán; 2:36:42 Desprecio de las advertencias; 2:39:27 Creación de la golondrina; 2:41:50 Ejemplos; 2:43:25 ¡Señor, aquí está Juan!; 2:45:29 Adán; 2:46:46 Justicia de Dios y desengaños de España. Lectores: gribuongiorne, Kathrine Engan, Etel Buss, Tux, Kimberly Krause, Sue Anderson, mahiba, Eduardo, Juan Santana, Paolo Paez.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentos_fernancaballero_1312_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13232.mp3",
-    "cover": "portadas/librivox-13232.png",
+    "cover": "portadas-originales/librivox-13232.jpg",
     "title": "Mitología contada a los niños",
     "creator": "Fernán Caballero",
     "type": "AUDIOBOOK",
@@ -799,11 +816,12 @@
     },
     "sha256": "867793915bfcbaa8f423b327d037b50e2d39cad0a5b17ea7bd35f99e15af8835",
     "sizeBytes": 55199398,
-    "reviewNotes": "Se omitieron la sección 1 (censura eclesiástica y prólogo de los editores) y la tercera parte (semblanzas de sabios griegos, secciones 15–22) para no solaparse con las audiobiografías. La obra se publica atribuida a Fernán Caballero. Archivo único formado por 13 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 PRIMERA PARTE : Capítulos I y II; 5:25 Capítulo III (Saturno) - IV (Cibeles) y V (Júpiter); 14:44 Capítulo VI (Neptuno y las Ninfas Marinas) - VII (Plutón y el orco); 23:43 Capítulo VIII (Minerva) - IX (Venus y Cupido); 32:25 Capítulo X (Baco - Ariadna) - XI (Apolo y las musas); 43:30 Capítulo XII (Diana) - Capítulo XIII (Hesculapio - Hebe - Némesis - Los cíclopes - Argos); 50:35 Capítulo XIV (Atlas - Mercurio - Lares - Penates) - Capítulo XV ( Infierno, Averno u orco ); 58:52 Capítulo XVI (Eolo - Boreas - Zéfiro - Eco - Proteo) - XVII (Animales Fabulosos); 1:05:39 Capítulo XVIII (Divinidades campestres) - Capítulo XIX (Locuciones tomadas de la Mitología); 1:15:59 SEGUNDA PARTE: Capítulo I (Hércules) - Capítulo II (Teseo ); 1:32:10 Capítulo III (Agamenón y Orestes) - Capítulo IV (Ulises) - Capítulo V (Ulises); 1:43:37 Capítulo VI (Castor y Pólux) - Capítulo VII (Edipo) - Capítulo VIII (Aquiles); 1:50:56 Capítulo IX (Deucalion y Pirra) - Capítulo X (Jano)."
+    "reviewNotes": "Se omitieron la sección 1 (censura eclesiástica y prólogo de los editores) y la tercera parte (semblanzas de sabios griegos, secciones 15–22) para no solaparse con las audiobiografías. La obra se publica atribuida a Fernán Caballero. Archivo único formado por 13 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 PRIMERA PARTE : Capítulos I y II; 5:25 Capítulo III (Saturno) - IV (Cibeles) y V (Júpiter); 14:44 Capítulo VI (Neptuno y las Ninfas Marinas) - VII (Plutón y el orco); 23:43 Capítulo VIII (Minerva) - IX (Venus y Cupido); 32:25 Capítulo X (Baco - Ariadna) - XI (Apolo y las musas); 43:30 Capítulo XII (Diana) - Capítulo XIII (Hesculapio - Hebe - Némesis - Los cíclopes - Argos); 50:35 Capítulo XIV (Atlas - Mercurio - Lares - Penates) - Capítulo XV ( Infierno, Averno u orco ); 58:52 Capítulo XVI (Eolo - Boreas - Zéfiro - Eco - Proteo) - XVII (Animales Fabulosos); 1:05:39 Capítulo XVIII (Divinidades campestres) - Capítulo XIX (Locuciones tomadas de la Mitología); 1:15:59 SEGUNDA PARTE: Capítulo I (Hércules) - Capítulo II (Teseo ); 1:32:10 Capítulo III (Agamenón y Orestes) - Capítulo IV (Ulises) - Capítulo V (Ulises); 1:43:37 Capítulo VI (Castor y Pólux) - Capítulo VII (Edipo) - Capítulo VIII (Aquiles); 1:50:56 Capítulo IX (Deucalion y Pirra) - Capítulo X (Jano).",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/mitologia_contada_a_los_ninos_1812_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-15446.mp3",
-    "cover": "portadas/librivox-15446.png",
+    "cover": "portadas-originales/librivox-15446.jpg",
     "title": "La media docena: cuentos y fábulas para niños",
     "creator": "Juan Gualberto López-Valdemoro, conde de las Navas",
     "type": "AUDIOBOOK",
@@ -843,11 +861,12 @@
     },
     "sha256": "a2445f67defa13335ec9acffef4480cc8244e0e50d4410668fc6829d36f0c7d6",
     "sizeBytes": 30454389,
-    "reviewNotes": "Archivo único formado por 6 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Las cuentas de San Pedro (Cuento); 8:33 La luciérnaga y el Vidrio (Fábula); 15:05 El Sepulcro de Golferico (Cuento); 28:34 La Liebre y el Cangrejo (Fábula); 37:40 El Candelecho (Cuento); 51:31 La Lira Rota."
+    "reviewNotes": "Archivo único formado por 6 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Las cuentas de San Pedro (Cuento); 8:33 La luciérnaga y el Vidrio (Fábula); 15:05 El Sepulcro de Golferico (Cuento); 28:34 La Liebre y el Cangrejo (Fábula); 37:40 El Candelecho (Cuento); 51:31 La Lira Rota.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/media_docena_2008_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-19615.mp3",
-    "cover": "portadas/librivox-19615.png",
+    "cover": "portadas-originales/librivox-19615.jpg",
     "title": "El Caballero Carmelo y otros cuentos",
     "creator": "Abraham Valdelomar",
     "type": "AUDIOBOOK",
@@ -887,11 +906,12 @@
     },
     "sha256": "4ba28e5370c8f573e3d362c71f3519f94bb9a4e5585f82eb9b5a2c1efb23a9e7",
     "sizeBytes": 46325091,
-    "reviewNotes": "«El Caballero Carmelo» incluye una pelea de gallos; «Los ojos de Judas» trata la muerte. Revisar para grados bajos. Archivo único formado por 5 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Introducción - Dedicatoria; 2:27 El Caballero Carmelo; 29:10 El vuelo de los cóndores; 52:44 Los ojos de Judas; 1:22:56 Hebaristo, el sauce que murió de amor."
+    "reviewNotes": "«El Caballero Carmelo» incluye una pelea de gallos; «Los ojos de Judas» trata la muerte. Revisar para grados bajos. Archivo único formado por 5 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Introducción - Dedicatoria; 2:27 El Caballero Carmelo; 29:10 El vuelo de los cóndores; 52:44 Los ojos de Judas; 1:22:56 Hebaristo, el sauce que murió de amor.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/caballerocarmelo_2310_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-3898-s04.mp3",
-    "cover": "portadas/librivox-3898-s04.png",
+    "cover": "portadas-originales/librivox-3898-s04.jpg",
     "title": "¡Adiós, Cordera!",
     "creator": "Leopoldo Alas «Clarín»",
     "type": "AUDIOBOOK",
@@ -931,11 +951,12 @@
     },
     "sha256": "26f068ced423c31b17505a709fbfb67be670f3396a98639978edbed2484f8f38",
     "sizeBytes": 11639988,
-    "reviewNotes": "Tema triste (venta del animal, partida a la guerra). La metadata de LibriVox marca la sección como «en»: verificar acento/claridad de la lectura. Sección 4 de la grabación LibriVox «Relatos y Cuentos 001»."
+    "reviewNotes": "Tema triste (venta del animal, partida a la guerra). La metadata de LibriVox marca la sección como «en»: verificar acento/claridad de la lectura. Sección 4 de la grabación LibriVox «Relatos y Cuentos 001».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1003_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-3898-s05.mp3",
-    "cover": "portadas/librivox-3898-s05.png",
+    "cover": "portadas-originales/librivox-3898-s05.jpg",
     "title": "El ratón Pérez",
     "creator": "Luis Coloma",
     "type": "AUDIOBOOK",
@@ -975,11 +996,12 @@
     },
     "sha256": "6e1698906ba113ffd394fe1f60448dfccc2143623d2c744efbd3ad6a880d15c6",
     "sizeBytes": 12589582,
-    "reviewNotes": "La metadata de LibriVox marca la sección como «en»: verificar acento/claridad de la lectura. Sección 5 de la grabación LibriVox «Relatos y Cuentos 001»."
+    "reviewNotes": "La metadata de LibriVox marca la sección como «en»: verificar acento/claridad de la lectura. Sección 5 de la grabación LibriVox «Relatos y Cuentos 001».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1003_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-3898-s06.mp3",
-    "cover": "portadas/librivox-3898-s06.png",
+    "cover": "portadas-originales/librivox-3898-s06.jpg",
     "title": "El alguacil endemoniado",
     "creator": "Francisco de Quevedo",
     "type": "AUDIOBOOK",
@@ -1019,11 +1041,12 @@
     },
     "sha256": "f52fdd6273f2cf174ccfdd9ed635a4b95492550cfd2477064cb41df702f938b3",
     "sizeBytes": 14041381,
-    "reviewNotes": "Sátira del Siglo de Oro con lenguaje difícil y referencias religiosas. La metadata de LibriVox marca la sección como «en»: verificar la lectura. Sección 6 de la grabación LibriVox «Relatos y Cuentos 001»."
+    "reviewNotes": "Sátira del Siglo de Oro con lenguaje difícil y referencias religiosas. La metadata de LibriVox marca la sección como «en»: verificar la lectura. Sección 6 de la grabación LibriVox «Relatos y Cuentos 001».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1003_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-3898-s07.mp3",
-    "cover": "portadas/librivox-3898-s07.png",
+    "cover": "portadas-originales/librivox-3898-s07.jpg",
     "title": "El pescadorcito Urashima",
     "creator": "Juan Valera",
     "type": "AUDIOBOOK",
@@ -1063,11 +1086,12 @@
     },
     "sha256": "166286d76f8a6cf9a1020e26366e5493138dbc7e926eae5ee53adcb6135aa273",
     "sizeBytes": 3686435,
-    "reviewNotes": "La metadata de LibriVox marca la sección como «en»: verificar acento/claridad de la lectura. Sección 7 de la grabación LibriVox «Relatos y Cuentos 001»."
+    "reviewNotes": "La metadata de LibriVox marca la sección como «en»: verificar acento/claridad de la lectura. Sección 7 de la grabación LibriVox «Relatos y Cuentos 001».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1003_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-4182-s06.mp3",
-    "cover": "portadas/librivox-4182-s06.png",
+    "cover": "portadas-originales/librivox-4182-s06.jpg",
     "title": "La camisa del hombre feliz",
     "creator": "Luis Coloma",
     "type": "AUDIOBOOK",
@@ -1107,11 +1131,12 @@
     },
     "sha256": "ea56f0720e81667ba9e46e016578619dd420eebfc4701b7dabe41011116dddfc",
     "sizeBytes": 6284887,
-    "reviewNotes": "Sección 6 de la grabación LibriVox «Relatos y Cuentos 002»."
+    "reviewNotes": "Sección 6 de la grabación LibriVox «Relatos y Cuentos 002».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-4182-s08.mp3",
-    "cover": "portadas/librivox-4182-s08.png",
+    "cover": "portadas-originales/librivox-4182-s08.jpg",
     "title": "El almohadón de plumas",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -1151,11 +1176,12 @@
     },
     "sha256": "58ab5a25fffb600529d9662ee4468a81f2efb9d445af63d4961d3b0769ef20ff",
     "sizeBytes": 4614304,
-    "reviewNotes": "Cuento de terror con muerte y final impactante. Solo para grados superiores. Sección 8 de la grabación LibriVox «Relatos y Cuentos 002»."
+    "reviewNotes": "Cuento de terror con muerte y final impactante. Solo para grados superiores. Sección 8 de la grabación LibriVox «Relatos y Cuentos 002».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-4182-s12.mp3",
-    "cover": "portadas/librivox-4182-s12.png",
+    "cover": "portadas-originales/librivox-4182-s12.jpg",
     "title": "La conjuración de las palabras",
     "creator": "Benito Pérez Galdós",
     "type": "AUDIOBOOK",
@@ -1195,11 +1221,12 @@
     },
     "sha256": "d798ca8d8a24bec1345fd307c99ab66d861317543f691937189fb99ac8afc4b0",
     "sizeBytes": 8724959,
-    "reviewNotes": "Sección 12 de la grabación LibriVox «Relatos y Cuentos 002»."
+    "reviewNotes": "Sección 12 de la grabación LibriVox «Relatos y Cuentos 002».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13609-s05.mp3",
-    "cover": "portadas/librivox-13609-s05.png",
+    "cover": "portadas-originales/librivox-13609-s05.jpg",
     "title": "La garita del diablo",
     "creator": "Manuel Fernández Juncos",
     "type": "AUDIOBOOK",
@@ -1239,11 +1266,12 @@
     },
     "sha256": "8738745fa09821a736d7b5a53f8e6d1afbd0ec6cca22cb66cfadd36fcb07de98",
     "sizeBytes": 9959306,
-    "reviewNotes": "Sección 5 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos»."
+    "reviewNotes": "Sección 5 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/antologia_de_cuentos_hispanoamericanos_1910_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-9358.mp3",
-    "cover": "portadas/librivox-9358.png",
+    "cover": "portadas-originales/librivox-9358.jpg",
     "title": "Fábulas literarias",
     "creator": "Tomás de Iriarte",
     "type": "AUDIOBOOK",
@@ -1283,11 +1311,12 @@
     },
     "sha256": "b9003aae55a33177d25f8a4952c25917ff375310e7e813124f7372e844bc8bf6",
     "sizeBytes": 63595948,
-    "reviewNotes": "Archivo único formado por 75 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Fábula 1: El Elefante y otros animales; 3:17 Fábula 2: El Gusano de seda y la Araña; 4:22 Fábula 3: El Oso, la Mona y el Cerdo; 6:04 Fábula 4: La Abeja y los Zánganos; 8:24 Fábula 5: Los dos Loros y la Cotorra; 10:10 Fábula 6: El Mono y el Titiritero; 13:08 Fábula 7: La Campana y el Esquilón; 14:45 Fábula 8: El Burro flautista; 15:43 Fábula 9: La Hormiga y la Pulga; 18:26 Fábula 10: La Parietaria y el Tomillo; 19:39 Fábula 11: Los dos Conejos; 20:58 Fábula 12: Los Huevos; 23:16 Fábula 13: El Pato y la Serpiente; 24:14 Fábula 14: El Manguito, el Abanico y el Quitasol; 25:30 Fábula 15: La Rana y el Renacuajo; 26:26 Fábula 16: La Avutarda; 27:45 Fábula 17: El Jilguero y el Cisne; 29:01 Fábula 18: El Caminante y la Mula de Alquiler; 30:46 Fábula 19: La Cabra y el Caballo; 32:30 Fábula 20: La Abeja y el Cuclillo; 33:42 Fábula 21: El Ratón y el Gato; 35:22 Fábula 22: La Lechuza y Fábula 23: Los Perros y el Trapero; 37:23 Fábula 24: El Papagayo, el Tordo y la Marica; 38:13 Fábula 25: El Lobo y el Pastor; 39:35 Fábula 26: El León y el Águila; 41:06 Fábula 27: La Mona; 44:08 Fábula 28: El Asno y su Amo; 45:34 Fábula 29: El Gozque y el Macho de noria; 47:50 Fábula 30: El Erudito y el Ratón; 50:05 Fábula 31: La Ardilla y el Caballo; 51:35 Fábula 32: El Galán y la Dama; 52:37 Fábula 33: El Avestruz, el Dromedario y la Zorra; 54:23 Fábula 34: El Cuervo y el Pavo; 55:43 Fábula 35: La Oruga y la Zorra; 57:32 Fábula 36: La compra del Asno; 59:24 Fábula 37: El Buey y la Cigarra; 1:00:32 Fábula 38: El Guacamayo y la Marmota; 1:01:45 Fábula 39: El Retrato de Golilla; 1:04:58 Fábula 40: Los dos Huéspedes; 1:06:22 Fábula 41: El Té y la Salvia; 1:08:17 Fábula 42: El Gato, el Lagarto y el Grillo; 1:11:06 Fábula 43: La Música de los Animales; 1:15:04 Fábula 44: La Espada y el Asador; 1:17:31 Fábula 45: Los cuatro Lisiados; 1:19:38 Fábula 46: El Pollo y los dos Gallos; 1:21:07 Fábula 47: La Urraca y la Mona; 1:23:24 Fábula 48: El Ruiseñor y el Gorrión; 1:24:40 Fábula 49: El Jardinero y su Amo; 1:26:11 Fábula 50: Los dos Tordos; 1:27:50 Fábula 51: El Fabricante de Galones y la Encajera; 1:29:26 Fábula 52: El Cazador y el Hurón; 1:31:52 Fábula 53: El Gallo, el Cerdo y el Cordero; 1:34:25 Fábula 54: El Pedernal y el Eslabón; 1:35:54 Fábula 55: El Juez y el Bandolero; 1:37:16 Fábula 56: La Criada y la Escoba; 1:38:11 Fábula 57: El Naturalista y las Lagartijas; 1:40:23 Fábula 58: La Discordia de los Relojes; 1:42:35 Fábula 59: El Topo y otros animales; 1:44:14 Fábula 60: El Volatín y su Maestro; 1:45:40 Fábula 61: El Sapo y el Mochuelo; 1:46:56 Fábula 62: El Burro del Aceitero; 1:47:55 Fábula 63: La Contienda de los Mosquitos; 1:51:04 Fábula 64: La Rana y la Gallina; 1:52:08 Fábula 65: El Escarabajo; 1:53:53 Fábula 66: El Ricote erudito; 1:55:54 Fábula 67: La Víbora y la Sanguijuela; 1:56:56 Fábula 68: El Ricacho metido a Arquitecto; 1:58:18 Fábula 69: El Médico, el Enfermo y la Enfermedad; 1:59:33 Fábula 70: El Canario y el Grajo; 2:02:29 Fábula 71: El Guacamayo y el Topo; 2:03:34 Fábula 72: El Canario y otros Animales; 2:05:16 Fábula 73: El Mono y el Elefante; 2:07:04 Fábula 74: El río Tajo, una Fuente y un Arroyo; 2:08:24 Fábula 75: El Caracol y los Galápagos; 2:10:29 Fábula 76: La Verruga, el Lobanillo y la Corcova. Lectores: Catherine Grissom, Pamela Nagami, Mongope, mariemdover, jrodzg, YasmineHaggag, Joyfull, Anusha Iyer, crecente, Luis Alberto Martín, Judith Vainman, Mayah."
+    "reviewNotes": "Archivo único formado por 75 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Fábula 1: El Elefante y otros animales; 3:17 Fábula 2: El Gusano de seda y la Araña; 4:22 Fábula 3: El Oso, la Mona y el Cerdo; 6:04 Fábula 4: La Abeja y los Zánganos; 8:24 Fábula 5: Los dos Loros y la Cotorra; 10:10 Fábula 6: El Mono y el Titiritero; 13:08 Fábula 7: La Campana y el Esquilón; 14:45 Fábula 8: El Burro flautista; 15:43 Fábula 9: La Hormiga y la Pulga; 18:26 Fábula 10: La Parietaria y el Tomillo; 19:39 Fábula 11: Los dos Conejos; 20:58 Fábula 12: Los Huevos; 23:16 Fábula 13: El Pato y la Serpiente; 24:14 Fábula 14: El Manguito, el Abanico y el Quitasol; 25:30 Fábula 15: La Rana y el Renacuajo; 26:26 Fábula 16: La Avutarda; 27:45 Fábula 17: El Jilguero y el Cisne; 29:01 Fábula 18: El Caminante y la Mula de Alquiler; 30:46 Fábula 19: La Cabra y el Caballo; 32:30 Fábula 20: La Abeja y el Cuclillo; 33:42 Fábula 21: El Ratón y el Gato; 35:22 Fábula 22: La Lechuza y Fábula 23: Los Perros y el Trapero; 37:23 Fábula 24: El Papagayo, el Tordo y la Marica; 38:13 Fábula 25: El Lobo y el Pastor; 39:35 Fábula 26: El León y el Águila; 41:06 Fábula 27: La Mona; 44:08 Fábula 28: El Asno y su Amo; 45:34 Fábula 29: El Gozque y el Macho de noria; 47:50 Fábula 30: El Erudito y el Ratón; 50:05 Fábula 31: La Ardilla y el Caballo; 51:35 Fábula 32: El Galán y la Dama; 52:37 Fábula 33: El Avestruz, el Dromedario y la Zorra; 54:23 Fábula 34: El Cuervo y el Pavo; 55:43 Fábula 35: La Oruga y la Zorra; 57:32 Fábula 36: La compra del Asno; 59:24 Fábula 37: El Buey y la Cigarra; 1:00:32 Fábula 38: El Guacamayo y la Marmota; 1:01:45 Fábula 39: El Retrato de Golilla; 1:04:58 Fábula 40: Los dos Huéspedes; 1:06:22 Fábula 41: El Té y la Salvia; 1:08:17 Fábula 42: El Gato, el Lagarto y el Grillo; 1:11:06 Fábula 43: La Música de los Animales; 1:15:04 Fábula 44: La Espada y el Asador; 1:17:31 Fábula 45: Los cuatro Lisiados; 1:19:38 Fábula 46: El Pollo y los dos Gallos; 1:21:07 Fábula 47: La Urraca y la Mona; 1:23:24 Fábula 48: El Ruiseñor y el Gorrión; 1:24:40 Fábula 49: El Jardinero y su Amo; 1:26:11 Fábula 50: Los dos Tordos; 1:27:50 Fábula 51: El Fabricante de Galones y la Encajera; 1:29:26 Fábula 52: El Cazador y el Hurón; 1:31:52 Fábula 53: El Gallo, el Cerdo y el Cordero; 1:34:25 Fábula 54: El Pedernal y el Eslabón; 1:35:54 Fábula 55: El Juez y el Bandolero; 1:37:16 Fábula 56: La Criada y la Escoba; 1:38:11 Fábula 57: El Naturalista y las Lagartijas; 1:40:23 Fábula 58: La Discordia de los Relojes; 1:42:35 Fábula 59: El Topo y otros animales; 1:44:14 Fábula 60: El Volatín y su Maestro; 1:45:40 Fábula 61: El Sapo y el Mochuelo; 1:46:56 Fábula 62: El Burro del Aceitero; 1:47:55 Fábula 63: La Contienda de los Mosquitos; 1:51:04 Fábula 64: La Rana y la Gallina; 1:52:08 Fábula 65: El Escarabajo; 1:53:53 Fábula 66: El Ricote erudito; 1:55:54 Fábula 67: La Víbora y la Sanguijuela; 1:56:56 Fábula 68: El Ricacho metido a Arquitecto; 1:58:18 Fábula 69: El Médico, el Enfermo y la Enfermedad; 1:59:33 Fábula 70: El Canario y el Grajo; 2:02:29 Fábula 71: El Guacamayo y el Topo; 2:03:34 Fábula 72: El Canario y otros Animales; 2:05:16 Fábula 73: El Mono y el Elefante; 2:07:04 Fábula 74: El río Tajo, una Fuente y un Arroyo; 2:08:24 Fábula 75: El Caracol y los Galápagos; 2:10:29 Fábula 76: La Verruga, el Lobanillo y la Corcova. Lectores: Catherine Grissom, Pamela Nagami, Mongope, mariemdover, jrodzg, YasmineHaggag, Joyfull, Anusha Iyer, crecente, Luis Alberto Martín, Judith Vainman, Mayah.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fabulasliterarias_1702_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21015.mp3",
-    "cover": "portadas/librivox-21015.png",
+    "cover": "portadas-originales/librivox-21015.jpg",
     "title": "Fábulas",
     "creator": "Félix María de Samaniego",
     "type": "AUDIOBOOK",
@@ -1328,11 +1357,12 @@
     },
     "sha256": "74b9aaedd73cff516ff017eb480ecee8f03920978a1eba13152b53dd62d4af73",
     "sizeBytes": 119064385,
-    "reviewNotes": "Incluye la introducción y el prólogo de la edición de 1902 (notas de Miguel de Toro Gómez, †1922). Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Introducción - Samaniego - Prólogo del Autor - Advertencia; 18:38 Libro Primero; 44:04 Libro Segundo; 1:07:28 Libro Tercero; 1:27:40 Libro Cuarto, fábulas I a XIII; 1:40:55 Libro Cuarto, fábulas XIV a XXV; 1:57:23 Libro Quinto, fábulas I a XI; 2:12:17 Libro Quinto, fábulas XII a XXV; 2:28:23 Libro Sexto; 2:50:29 Libro Séptimo; 3:08:16 Libro Octavo; 3:27:54 Libro Nono, fábulas I a X; 3:44:56 Libro Nono, fábulas XI a XIX; 4:01:01 Apéndice. Lectores: Epachuko, Meribau, GatoLunar, mpinedag, Consuelo Aponte, juanina, Pablocrdz, Lu."
+    "reviewNotes": "Incluye la introducción y el prólogo de la edición de 1902 (notas de Miguel de Toro Gómez, †1922). Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Introducción - Samaniego - Prólogo del Autor - Advertencia; 18:38 Libro Primero; 44:04 Libro Segundo; 1:07:28 Libro Tercero; 1:27:40 Libro Cuarto, fábulas I a XIII; 1:40:55 Libro Cuarto, fábulas XIV a XXV; 1:57:23 Libro Quinto, fábulas I a XI; 2:12:17 Libro Quinto, fábulas XII a XXV; 2:28:23 Libro Sexto; 2:50:29 Libro Séptimo; 3:08:16 Libro Octavo; 3:27:54 Libro Nono, fábulas I a X; 3:44:56 Libro Nono, fábulas XI a XIX; 4:01:01 Apéndice. Lectores: Epachuko, Meribau, GatoLunar, mpinedag, Consuelo Aponte, juanina, Pablocrdz, Lu.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fabulas_2412_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2527.mp3",
-    "cover": "portadas/librivox-2527.png",
+    "cover": "portadas-originales/librivox-2527.jpg",
     "title": "Simplemente Darío",
     "creator": "Rubén Darío",
     "type": "AUDIOBOOK",
@@ -1371,11 +1401,12 @@
     },
     "sha256": "c3a6c16a9f8da094ce2061eab3b5c05bec101e409be5ea9dd71436c816ec4415",
     "sizeBytes": 10785579,
-    "reviewNotes": "«Canción de otoño en primavera» trata del amor adulto. Archivo único formado por 5 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Los Motivos del Lobo; 7:49 A Margarita Debayle; 11:32 Sonatina; 14:35 Letan&iacute;a de Don Quijote; 18:44 Canci&oacute;n de Oto&ntilde;o en Primavera."
+    "reviewNotes": "«Canción de otoño en primavera» trata del amor adulto. Archivo único formado por 5 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Los Motivos del Lobo; 7:49 A Margarita Debayle; 11:32 Sonatina; 14:35 Letan&iacute;a de Don Quijote; 18:44 Canci&oacute;n de Oto&ntilde;o en Primavera.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/simplemente_dario_0810_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13242.mp3",
-    "cover": "portadas/librivox-13242.png",
+    "cover": "portadas-originales/librivox-13242.jpg",
     "title": "Rimas",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -1415,11 +1446,12 @@
     },
     "sha256": "e9285a2bef7b4a7b3e23707a378f28bfb79cb6b1d27399700bf4b94c5c9ff702",
     "sizeBytes": 25926565,
-    "reviewNotes": "Archivo único formado por 8 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Rimas del I al X; 9:35 Rimas del XI al XX; 16:22 Rimas del XXI al XXX; 23:17 Rimas del XXXI al XL; 28:48 Rimas del XLI al L; 33:51 Rimas del LI al LX; 39:54 Rimas del LXI al LXX; 45:50 Rimas del LXXI al LXXVI."
+    "reviewNotes": "Archivo único formado por 8 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Rimas del I al X; 9:35 Rimas del XI al XX; 16:22 Rimas del XXI al XXX; 23:17 Rimas del XXXI al XL; 28:48 Rimas del XLI al L; 33:51 Rimas del LI al LX; 39:54 Rimas del LXI al LXX; 45:50 Rimas del LXXI al LXXVI.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/rimas_1810_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13497.mp3",
-    "cover": "portadas/librivox-13497.png",
+    "cover": "portadas-originales/librivox-13497.jpg",
     "title": "Coplas por la muerte de su padre",
     "creator": "Jorge Manrique",
     "type": "AUDIOBOOK",
@@ -1459,11 +1491,12 @@
     },
     "sha256": "192a8946734716f1d857876d940beea35860c97bb65ae0112584fe2688fb721c",
     "sizeBytes": 5718336,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/coplas_1903_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-15253.mp3",
-    "cover": "portadas/librivox-15253.png",
+    "cover": "portadas-originales/librivox-15253.jpg",
     "title": "Páginas escogidas (poesía)",
     "creator": "Antonio Machado",
     "type": "AUDIOBOOK",
@@ -1502,11 +1535,12 @@
     },
     "sha256": "739da2f5922a5b91e1de0a92caa97114c9fb80bb6303b91130656f1aa7ef1f2d",
     "sizeBytes": 42555920,
-    "reviewNotes": "«La tierra de Alvargonzález» narra un crimen familiar. Se omitió la sección 1 (prólogo y nota biográfica de la edición). Archivo único formado por 11 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 SOLEDADES: Prólogo - El viajero - La plaza y los naranjos encendidos - En el entierro de un amigo - Recuerdo infantil - Yo voy soñando caminos - Hacia un ocaso radiante; 8:34 Cante Hondo - La calle en sombra - El poeta - Verdes Jardinillos - Del Camino; 15:12 Galerías - Introducción - Sueño Infantil - Campo - Los sueños - Renacimiento; 26:08 CANCIONES HUMORADAS: Abril florecía - De la vida - La noria - Las moscas - Elegía de un madrigal - Acaso ... - Jardín; 33:20 A un naranjo y a un limonero vistos en una tienda de plantas y flores - Hastío - Nevermore - De la vida - Sol de invierno - A un viejo y distinguido señor; 38:30 CAMPOS DE CASTILLA: Prólogo - A orillas del Duero - Por tierras de España; 46:26 El Hospicio - Amanecer de otoño - Noche de verano - Pascua de Resurrección - Campos de Soria - A un olmo seco; 55:24 LA TIERRA DE ALVARGONZÁLEZ: Siendo mozo Alvargonzález - Feliz vivió Alvargonzález - Mucha sangre de Caín - Alvargonzález ya tiene - El sueño - Aquella tarde... - Otros días - Castigo; 1:04:55 El viajero - El indiano - La casa - La tierra - Los asesinos; 1:15:52 PROVERBIOS Y CANTARES - Viaje - Mariposa de la sierra - Las encinas; 1:24:24 Retrato - A Don Miguel de Unamuno - A Don Francisco Giner de los Ríos."
+    "reviewNotes": "«La tierra de Alvargonzález» narra un crimen familiar. Se omitió la sección 1 (prólogo y nota biográfica de la edición). Archivo único formado por 11 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 SOLEDADES: Prólogo - El viajero - La plaza y los naranjos encendidos - En el entierro de un amigo - Recuerdo infantil - Yo voy soñando caminos - Hacia un ocaso radiante; 8:34 Cante Hondo - La calle en sombra - El poeta - Verdes Jardinillos - Del Camino; 15:12 Galerías - Introducción - Sueño Infantil - Campo - Los sueños - Renacimiento; 26:08 CANCIONES HUMORADAS: Abril florecía - De la vida - La noria - Las moscas - Elegía de un madrigal - Acaso ... - Jardín; 33:20 A un naranjo y a un limonero vistos en una tienda de plantas y flores - Hastío - Nevermore - De la vida - Sol de invierno - A un viejo y distinguido señor; 38:30 CAMPOS DE CASTILLA: Prólogo - A orillas del Duero - Por tierras de España; 46:26 El Hospicio - Amanecer de otoño - Noche de verano - Pascua de Resurrección - Campos de Soria - A un olmo seco; 55:24 LA TIERRA DE ALVARGONZÁLEZ: Siendo mozo Alvargonzález - Feliz vivió Alvargonzález - Mucha sangre de Caín - Alvargonzález ya tiene - El sueño - Aquella tarde... - Otros días - Castigo; 1:04:55 El viajero - El indiano - La casa - La tierra - Los asesinos; 1:15:52 PROVERBIOS Y CANTARES - Viaje - Mariposa de la sierra - Las encinas; 1:24:24 Retrato - A Don Miguel de Unamuno - A Don Francisco Giner de los Ríos.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/paginasescogidas_2008_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s09.mp3",
-    "cover": "portadas/librivox-5079-s09.png",
+    "cover": "portadas-originales/librivox-5079-s09.jpg",
     "title": "El rayo de luna",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -1546,11 +1580,12 @@
     },
     "sha256": "ab1bdf2fad063baf79acb3ee5911b423382cb0d641ba2ed6d4c700e90d1d0d8c",
     "sizeBytes": 11948032,
-    "reviewNotes": "Sección 9 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Sección 9 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s21.mp3",
-    "cover": "portadas/librivox-5079-s21.png",
+    "cover": "portadas-originales/librivox-5079-s21.jpg",
     "title": "Maese Pérez el organista",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -1590,11 +1625,12 @@
     },
     "sha256": "d378d0a12ad486dcf2960b6392ffd685d7d7ecffce5fb68c861c777a6a87b648",
     "sizeBytes": 17721344,
-    "reviewNotes": "Contiene elementos sobrenaturales y religiosos. Sección 21 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Contiene elementos sobrenaturales y religiosos. Sección 21 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s08.mp3",
-    "cover": "portadas/librivox-5079-s08.png",
+    "cover": "portadas-originales/librivox-5079-s08.jpg",
     "title": "El monte de las ánimas",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -1635,11 +1671,12 @@
     },
     "sha256": "28224889addbada0937b6e116e20ac14021bcabd7151da32d7a6eff19d0624b6",
     "sizeBytes": 9290752,
-    "reviewNotes": "Relato de terror con muerte. Sección 8 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Relato de terror con muerte. Sección 8 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-8509.mp3",
-    "cover": "portadas/librivox-8509.png",
+    "cover": "portadas-originales/librivox-8509.jpg",
     "title": "El gaucho Martín Fierro",
     "creator": "José Hernández",
     "type": "AUDIOBOOK",
@@ -1679,11 +1716,12 @@
     },
     "sha256": "befd372f0b7341427d40b285f226eeb410a2a0eb11be654ade71d01cffdec55d",
     "sizeBytes": 44257428,
-    "reviewNotes": "Contiene violencia (peleas a cuchillo) y expresiones racistas de la época (canto VII). Grabación de la primera parte («La ida»). Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Carta del autor; 5:54 I - Cantor y Gaucho.; 10:49 II - Ayer y hoy.; 18:06 III - Sirviendo en la frontera.; 28:55 IV - El pulpero. A buena cuenta.; 35:34 V - Gringos en la frontera. La estaquiada.; 40:15 VI - Desertor. Las ruinas del rancho.; 46:46 VII - Pelea con el moreno.; 52:29 VIII - El ser gaucho es un delito.; 58:22 IX - Matreriando. La lucha con la partida.; 1:08:34 X - Por culpa de una mujer.; 1:16:29 XI - A bailar un pericón.; 1:21:34 XII - Ansí estuve en la partida.; 1:25:46 XIII - A los indios me refalo.."
+    "reviewNotes": "Contiene violencia (peleas a cuchillo) y expresiones racistas de la época (canto VII). Grabación de la primera parte («La ida»). Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Carta del autor; 5:54 I - Cantor y Gaucho.; 10:49 II - Ayer y hoy.; 18:06 III - Sirviendo en la frontera.; 28:55 IV - El pulpero. A buena cuenta.; 35:34 V - Gringos en la frontera. La estaquiada.; 40:15 VI - Desertor. Las ruinas del rancho.; 46:46 VII - Pelea con el moreno.; 52:29 VIII - El ser gaucho es un delito.; 58:22 IX - Matreriando. La lucha con la partida.; 1:08:34 X - Por culpa de una mujer.; 1:16:29 XI - A bailar un pericón.; 1:21:34 XII - Ansí estuve en la partida.; 1:25:46 XIII - A los indios me refalo..",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/martinfierro_1402_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-3579.mp3",
-    "cover": "portadas/librivox-3579.png",
+    "cover": "portadas-originales/librivox-3579.jpg",
     "title": "Lazarillo de Tormes",
     "creator": "Anónimo",
     "type": "AUDIOBOOK",
@@ -1724,11 +1762,12 @@
     },
     "sha256": "38ee512b269dcb4da3bdcc249f36c61698c7786b1467d9c7f64e42c973b06185",
     "sizeBytes": 55980757,
-    "reviewNotes": "Contiene maltrato infantil, hambre y crítica al clero propios de la obra. Archivo único formado por 5 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Prologo - Tratado primero: Cuenta Lazaro su vida, y cuyo hijo fue.; 29:35 Tratado Segundo: Como Lazaro se asento con un clerigo, y de las cosas que con el paso.; 53:05 Tratado Tercero: Como Lazaro se asento con un escudero, y de lo que le acaecio con el.; 1:30:05 Tratados Cuarto y Quinto: Como Lazaro se asento con un fraile de la Merced, y de lo que le acaecio con el.  Como Lazaro se asento con un buldero, y de las cosas que con el paso.; 1:49:13 Tratados Sexto y Septimo: Como Lazaro se asento con un capellan, y lo que con el paso. Como Lazaro se asento con un alguacil, y de lo que le acaecio con el.."
+    "reviewNotes": "Contiene maltrato infantil, hambre y crítica al clero propios de la obra. Archivo único formado por 5 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Prologo - Tratado primero: Cuenta Lazaro su vida, y cuyo hijo fue.; 29:35 Tratado Segundo: Como Lazaro se asento con un clerigo, y de las cosas que con el paso.; 53:05 Tratado Tercero: Como Lazaro se asento con un escudero, y de lo que le acaecio con el.; 1:30:05 Tratados Cuarto y Quinto: Como Lazaro se asento con un fraile de la Merced, y de lo que le acaecio con el.  Como Lazaro se asento con un buldero, y de las cosas que con el paso.; 1:49:13 Tratados Sexto y Septimo: Como Lazaro se asento con un capellan, y lo que con el paso. Como Lazaro se asento con un alguacil, y de lo que le acaecio con el..",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/lazarillo_0912_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13104.mp3",
-    "cover": "portadas/librivox-13104.png",
+    "cover": "portadas-originales/librivox-13104.jpg",
     "title": "La vida es sueño",
     "creator": "Pedro Calderón de la Barca",
     "type": "AUDIOBOOK",
@@ -1768,11 +1807,12 @@
     },
     "sha256": "93837db2675230fd7e60987d43a4edf9ab4f37cbe19d21e1cd4df19d53143e02",
     "sizeBytes": 53857955,
-    "reviewNotes": "Lectura de una sola voz. Se omitieron la advertencia, la biografía y la nota de los editores (secciones 0, 1 y 16). Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Jornada Primera - I; 13:31 Jornada Primera - II; 25:12 Jornada Primera - III; 30:20 Jornada Segunda - I; 35:48 Jornada Segunda - II; 42:14 Jornada Segunda - III; 49:38 Jornada Segunda - IV; 58:37 Jornada Segunda - V; 1:07:38 Jornada  Segunda - VI; 1:13:59 Jornada Tercera - I; 1:22:28 Jornada Tercera - II; 1:31:36 Jornada Tercera - II; 1:43:17 Jornada Tercera - III; 1:45:58 Jornada Tercera - IV."
+    "reviewNotes": "Lectura de una sola voz. Se omitieron la advertencia, la biografía y la nota de los editores (secciones 0, 1 y 16). Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Jornada Primera - I; 13:31 Jornada Primera - II; 25:12 Jornada Primera - III; 30:20 Jornada Segunda - I; 35:48 Jornada Segunda - II; 42:14 Jornada Segunda - III; 49:38 Jornada Segunda - IV; 58:37 Jornada Segunda - V; 1:07:38 Jornada  Segunda - VI; 1:13:59 Jornada Tercera - I; 1:22:28 Jornada Tercera - II; 1:31:36 Jornada Tercera - II; 1:43:17 Jornada Tercera - III; 1:45:58 Jornada Tercera - IV.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/lavidaessueno_1808_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-20704.mp3",
-    "cover": "portadas/librivox-20704.png",
+    "cover": "portadas-originales/librivox-20704.jpg",
     "title": "El sí de las niñas",
     "creator": "Leandro Fernández de Moratín",
     "type": "AUDIOBOOK",
@@ -1812,11 +1852,12 @@
     },
     "sha256": "1c0e662703f5b5ac07e271731b727c80f7faac27db5bce6f7db4033b789f8018",
     "sizeBytes": 60046897,
-    "reviewNotes": "Lectura de una sola voz. Archivo único formado por 3 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Acto primero; 39:00 Acto segundo; 1:21:02 Acto tercero."
+    "reviewNotes": "Lectura de una sola voz. Archivo único formado por 3 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Acto primero; 39:00 Acto segundo; 1:21:02 Acto tercero.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/elsidelasninas_2409_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-17676-s01.mp3",
-    "cover": "portadas/librivox-17676-s01.png",
+    "cover": "portadas-originales/librivox-17676-s01.jpg",
     "title": "María (parte 1 de 2)",
     "creator": "Jorge Isaacs",
     "type": "AUDIOBOOK",
@@ -1856,11 +1897,12 @@
     },
     "sha256": "0566798692f0e816389f440b754eb638514dafb86c6ad5293310d7ce5a73b522",
     "sizeBytes": 189083203,
-    "reviewNotes": "Se omitió el prólogo de la edición (sección 0). Incluye descripciones de la esclavitud en la hacienda, propias de la época. Archivo único formado por 15 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Capítulos 1, 2, 3, 4; 19:19 Capítulos 5, 6, 7; 39:06 Capítulos 8, 9, 10, 11; 1:00:23 Capítulos 12, 13, 14, 15; 1:23:05 Capítulos 16, 17; 1:51:27 Capítulos 18, 19; 2:24:26 Capítulos 20, 21; 3:01:55 Capítulos 22, 23; 3:40:04 Capítulos 24, 25; 4:02:38 Capítulos 26, 27; 4:23:46 Capítulos 28, 29; 4:47:16 Capítulos 30, 31; 5:10:40 Capítulos 32, 33, 34; 5:34:20 Capítulo 35; 5:59:04 Capítulos 36, 37."
+    "reviewNotes": "Se omitió el prólogo de la edición (sección 0). Incluye descripciones de la esclavitud en la hacienda, propias de la época. Archivo único formado por 15 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Capítulos 1, 2, 3, 4; 19:19 Capítulos 5, 6, 7; 39:06 Capítulos 8, 9, 10, 11; 1:00:23 Capítulos 12, 13, 14, 15; 1:23:05 Capítulos 16, 17; 1:51:27 Capítulos 18, 19; 2:24:26 Capítulos 20, 21; 3:01:55 Capítulos 22, 23; 3:40:04 Capítulos 24, 25; 4:02:38 Capítulos 26, 27; 4:23:46 Capítulos 28, 29; 4:47:16 Capítulos 30, 31; 5:10:40 Capítulos 32, 33, 34; 5:34:20 Capítulo 35; 5:59:04 Capítulos 36, 37.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/maria_2301_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-17676-s16.mp3",
-    "cover": "portadas/librivox-17676-s16.png",
+    "cover": "portadas-originales/librivox-17676-s16.jpg",
     "title": "María (parte 2 de 2)",
     "creator": "Jorge Isaacs",
     "type": "AUDIOBOOK",
@@ -1900,11 +1942,12 @@
     },
     "sha256": "6e8f7989bdd77eec636a8880e3a001b75e67b1ec6cf817d3aadffb31a7f24551",
     "sizeBytes": 161083284,
-    "reviewNotes": "Final trágico (enfermedad y muerte). Incluye descripciones de la esclavitud en la hacienda, propias de la época. Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Capítulos 38, 39; 26:37 Capítulos 40, 41; 1:00:35 Capítulos 42, 43; 1:31:12 Capítulos 44, 45; 1:51:05 Capítulos 46, 47; 2:05:27 Capítulo 48; 2:38:45 Capítulo 49; 3:03:16 Capítulos 50, 51; 3:20:38 Capítulos 52, 53, 54; 3:42:59 Capítulos 55, 56; 4:02:04 Capítulo 57; 4:29:21 Capítulos 58, 59; 4:50:50 Capítulos 60, 61, 62; 5:14:26 Capítulos 63, 64, 65."
+    "reviewNotes": "Final trágico (enfermedad y muerte). Incluye descripciones de la esclavitud en la hacienda, propias de la época. Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Capítulos 38, 39; 26:37 Capítulos 40, 41; 1:00:35 Capítulos 42, 43; 1:31:12 Capítulos 44, 45; 1:51:05 Capítulos 46, 47; 2:05:27 Capítulo 48; 2:38:45 Capítulo 49; 3:03:16 Capítulos 50, 51; 3:20:38 Capítulos 52, 53, 54; 3:42:59 Capítulos 55, 56; 4:02:04 Capítulo 57; 4:29:21 Capítulos 58, 59; 4:50:50 Capítulos 60, 61, 62; 5:14:26 Capítulos 63, 64, 65.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/maria_2301_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21023.mp3",
-    "cover": "portadas/librivox-21023.png",
+    "cover": "portadas-originales/librivox-21023.jpg",
     "title": "Leyendas de los indios guaraníes",
     "creator": "Filiberto de Oliveira Cézar",
     "type": "AUDIOBOOK",
@@ -1944,11 +1987,12 @@
     },
     "sha256": "1a32be467f4ec685457f61e1f10e949edaa582a1913b88bf431ec2024b7851a9",
     "sizeBytes": 78378385,
-    "reviewNotes": "Mirada de un autor del siglo XIX sobre los pueblos indígenas; conviene contextualizar. Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Advertencia - Los Guaraníes y las Misiones; 30:48 El Hogaraitèg (Hornero, ave); 48:57 Kalila; 58:05 Ê- Yara (Padre de las Aguas); 1:02:42 El Payé del Curundú (Amuleto indio); 1:21:29 El Rio Agua Caliente; 1:23:59 Roè-Chovèg (El frio azul); 1:34:15 Tepeig-porá (Baile de los lindos sueños); 1:37:07 La Cadena de Oro; 1:45:38 El Padre de los Minuanes; 1:59:23 Aventuras de Juan Tuyá; 2:11:04 Orígen del Maíz; 2:30:11 El Hermano de los Zorros; 2:37:45 La Tumba Aérea."
+    "reviewNotes": "Mirada de un autor del siglo XIX sobre los pueblos indígenas; conviene contextualizar. Archivo único formado por 14 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Advertencia - Los Guaraníes y las Misiones; 30:48 El Hogaraitèg (Hornero, ave); 48:57 Kalila; 58:05 Ê- Yara (Padre de las Aguas); 1:02:42 El Payé del Curundú (Amuleto indio); 1:21:29 El Rio Agua Caliente; 1:23:59 Roè-Chovèg (El frio azul); 1:34:15 Tepeig-porá (Baile de los lindos sueños); 1:37:07 La Cadena de Oro; 1:45:38 El Padre de los Minuanes; 1:59:23 Aventuras de Juan Tuyá; 2:11:04 Orígen del Maíz; 2:30:11 El Hermano de los Zorros; 2:37:45 La Tumba Aérea.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_2411_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-20630.mp3",
-    "cover": "portadas/librivox-20630.png",
+    "cover": "portadas-originales/librivox-20630.jpg",
     "title": "Leyendas de los indios quichuas",
     "creator": "Filiberto de Oliveira Cézar",
     "type": "AUDIOBOOK",
@@ -1988,11 +2032,12 @@
     },
     "sha256": "5903a0d5061b949b38df9ac372a94b8dd0357fdaa74a8945acff0a66ecf26c0e",
     "sizeBytes": 54882804,
-    "reviewNotes": "Mirada de un autor del siglo XIX sobre los pueblos indígenas; conviene contextualizar. Archivo único formado por 16 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 El Colla; 10:11 El puente del diablo; 20:02 Los Jigantes; 27:03 Los últimos Chulpas (Guerreros enanos); 31:08 Pachac Coillatica (El Dios Iris); 34:00 Origen de la lluvia (Illapantac); 38:17 El Cumurí (Arriero de las montañas); 43:29 La piedra cansada; 50:09 El águila agorera; 56:40 La maga de las serpientes; 1:00:16 Descubrimiento del Potosí; 1:05:55 Idilio de las montañas; 1:10:41 La Apacheta (Descanso en los caminos); 1:13:11 Champa Makanacui (Batalla sin orden); 1:17:55 Apéndice 1:  Los Quichuas y su imperio; 1:36:44 Apéndice 2: Los Quichuas y su imperio. Lectores: Lu, Meribau, mpinedag, Cristina Peláez, Epachuko."
+    "reviewNotes": "Mirada de un autor del siglo XIX sobre los pueblos indígenas; conviene contextualizar. Archivo único formado por 16 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 El Colla; 10:11 El puente del diablo; 20:02 Los Jigantes; 27:03 Los últimos Chulpas (Guerreros enanos); 31:08 Pachac Coillatica (El Dios Iris); 34:00 Origen de la lluvia (Illapantac); 38:17 El Cumurí (Arriero de las montañas); 43:29 La piedra cansada; 50:09 El águila agorera; 56:40 La maga de las serpientes; 1:00:16 Descubrimiento del Potosí; 1:05:55 Idilio de las montañas; 1:10:41 La Apacheta (Descanso en los caminos); 1:13:11 Champa Makanacui (Batalla sin orden); 1:17:55 Apéndice 1:  Los Quichuas y su imperio; 1:36:44 Apéndice 2: Los Quichuas y su imperio. Lectores: Lu, Meribau, mpinedag, Cristina Peláez, Epachuko.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendasdelosindiosquichuas_2411_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-18867-s01.mp3",
-    "cover": "portadas/librivox-18867-s01.png",
+    "cover": "portadas-originales/librivox-18867-s01.jpg",
     "title": "La vorágine (parte 1 de 2)",
     "creator": "José Eustasio Rivera",
     "type": "AUDIOBOOK",
@@ -2032,11 +2077,12 @@
     },
     "sha256": "93cc0da24eea780910450ad0cb1173a169a132f976ce1ced9254d5b4d9ebec40",
     "sizeBytes": 161808876,
-    "reviewNotes": "Novela para grados superiores: violencia, explotación de los caucheros y escenas de contenido adulto. Archivo único formado por 16 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Prólogo - Primera parte; 23:36 Primera parte (continuación); 45:58 Primera parte (continuación); 1:06:46 Primera parte (continuación); 1:26:38 Primera parte (continuación); 1:46:59 Primera parte (continuación); 2:06:43 Primera parte (continuación); 2:27:20 Primera parte (continuación); 2:49:03 Primera parte (continuación); 3:08:54 Primera parte (continuación); 3:28:54 Primera parte (continuación); 3:51:13 Primera parte (continuación); 4:03:04 Segunda parte; 4:17:00 Segunda parte (continuación); 4:45:24 Segunda parte (continuación); 5:08:21 Segunda parte (continuación)."
+    "reviewNotes": "Novela para grados superiores: violencia, explotación de los caucheros y escenas de contenido adulto. Archivo único formado por 16 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Prólogo - Primera parte; 23:36 Primera parte (continuación); 45:58 Primera parte (continuación); 1:06:46 Primera parte (continuación); 1:26:38 Primera parte (continuación); 1:46:59 Primera parte (continuación); 2:06:43 Primera parte (continuación); 2:27:20 Primera parte (continuación); 2:49:03 Primera parte (continuación); 3:08:54 Primera parte (continuación); 3:28:54 Primera parte (continuación); 3:51:13 Primera parte (continuación); 4:03:04 Segunda parte; 4:17:00 Segunda parte (continuación); 4:45:24 Segunda parte (continuación); 5:08:21 Segunda parte (continuación).",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/voragine_2312_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-18867-s17.mp3",
-    "cover": "portadas/librivox-18867-s17.png",
+    "cover": "portadas-originales/librivox-18867-s17.jpg",
     "title": "La vorágine (parte 2 de 2)",
     "creator": "José Eustasio Rivera",
     "type": "AUDIOBOOK",
@@ -2076,11 +2122,12 @@
     },
     "sha256": "03a07b665cd70b467e61eb0c84b57cf19b68d55bfb061546c20f2270c5e3760f",
     "sizeBytes": 185362754,
-    "reviewNotes": "Novela para grados superiores: violencia, explotación de los caucheros y escenas de contenido adulto. Archivo único formado por 17 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Segunda parte (continuación); 24:55 Segunda parte (continuación); 49:55 Segunda parte (continuación); 1:08:54 Segunda parte (continuación); 1:29:09 Segunda parte (continuación); 1:59:09 Segunda parte (continuación); 2:17:34 Tercera parte; 2:45:42 Tercera parte (continuación); 3:08:37 Tercera parte (continuación); 3:29:36 Tercera parte (continuación); 3:49:01 Tercera parte (continuación); 4:13:44 Tercera parte (continuación); 4:37:36 Tercera parte (continuación); 5:01:06 Tercera parte (continuación); 5:25:50 Tercera parte (continuación); 5:45:46 Tercera parte (continuación); 6:13:37 Tercera parte (continuación) / Epílogo."
+    "reviewNotes": "Novela para grados superiores: violencia, explotación de los caucheros y escenas de contenido adulto. Archivo único formado por 17 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Segunda parte (continuación); 24:55 Segunda parte (continuación); 49:55 Segunda parte (continuación); 1:08:54 Segunda parte (continuación); 1:29:09 Segunda parte (continuación); 1:59:09 Segunda parte (continuación); 2:17:34 Tercera parte; 2:45:42 Tercera parte (continuación); 3:08:37 Tercera parte (continuación); 3:29:36 Tercera parte (continuación); 3:49:01 Tercera parte (continuación); 4:13:44 Tercera parte (continuación); 4:37:36 Tercera parte (continuación); 5:01:06 Tercera parte (continuación); 5:25:50 Tercera parte (continuación); 5:45:46 Tercera parte (continuación); 6:13:37 Tercera parte (continuación) / Epílogo.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/voragine_2312_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-16285.mp3",
-    "cover": "portadas/librivox-16285.png",
+    "cover": "portadas-originales/librivox-16285.jpg",
     "title": "Marianela",
     "creator": "Benito Pérez Galdós",
     "type": "AUDIOBOOK",
@@ -2119,11 +2166,12 @@
     },
     "sha256": "dee2da40d122c33968de16c1fe87bbef635e3ee457f4c133b0783cd9641c2928",
     "sizeBytes": 173519443,
-    "reviewNotes": "Final triste (muerte de la protagonista). Archivo único formado por 22 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Perdido - Cap. I; 14:05 Guiado - Cap. II; 33:36 Un diálogo que servirá de exposición - Cap. III; 49:21 La familia de piedra - Cap. IV; 1:12:03 Trabajo. Paisaje. Figura - Cap. V; 1:28:19 Tonterías - Cap VI; 1:42:34 Más tonterías - Cap. VII; 1:59:04 Prosiguen las tonterías - Cap. VIII; 2:17:12 Los Golfines - Cap. IX; 2:41:58 Historia de dos hijos del pueblo - Cap. X; 2:51:01 El patriarca de Aldeacorba - Cap. XI; 3:08:42 El doctor Celipín - Cap. XII; 3:17:41 Entre dos cestas - Cap XIII; 3:27:40 De cómo la Virgen María se apareció a la Nela - Cap. XIV; 3:46:46 Los tres - Cap. XV; 3:58:44 La promesa - Cap. XVI; 4:08:15 Fugitiva y meditabunda - Cap. XVII; 4:26:33 La Nela se decide a partir - Cap. XVIII; 4:37:46 Domesticación - Cap. XIX; 5:03:18 El nuevo mundo - Cap. XX; 5:20:07 Los ojos matan - Cap. XXI; 5:54:46 Adios - Cap. XXII."
+    "reviewNotes": "Final triste (muerte de la protagonista). Archivo único formado por 22 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Perdido - Cap. I; 14:05 Guiado - Cap. II; 33:36 Un diálogo que servirá de exposición - Cap. III; 49:21 La familia de piedra - Cap. IV; 1:12:03 Trabajo. Paisaje. Figura - Cap. V; 1:28:19 Tonterías - Cap VI; 1:42:34 Más tonterías - Cap. VII; 1:59:04 Prosiguen las tonterías - Cap. VIII; 2:17:12 Los Golfines - Cap. IX; 2:41:58 Historia de dos hijos del pueblo - Cap. X; 2:51:01 El patriarca de Aldeacorba - Cap. XI; 3:08:42 El doctor Celipín - Cap. XII; 3:17:41 Entre dos cestas - Cap XIII; 3:27:40 De cómo la Virgen María se apareció a la Nela - Cap. XIV; 3:46:46 Los tres - Cap. XV; 3:58:44 La promesa - Cap. XVI; 4:08:15 Fugitiva y meditabunda - Cap. XVII; 4:26:33 La Nela se decide a partir - Cap. XVIII; 4:37:46 Domesticación - Cap. XIX; 5:03:18 El nuevo mundo - Cap. XX; 5:20:07 Los ojos matan - Cap. XXI; 5:54:46 Adios - Cap. XXII.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/marianela_2104_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-15710.mp3",
-    "cover": "portadas/librivox-15710.png",
+    "cover": "portadas-originales/librivox-15710.jpg",
     "title": "Tradiciones peruanas (selección)",
     "creator": "Ricardo Palma",
     "type": "AUDIOBOOK",
@@ -2164,11 +2212,12 @@
     },
     "sha256": "1c1ec1e0081af5e8b0af222ac4c7fb0232d44f0d6b24e1d854f03c5a03ab051c",
     "sizeBytes": 157102020,
-    "reviewNotes": "Algunas tradiciones tratan con humor temas religiosos, crímenes o castigos de la época colonial. Archivo único formado por 27 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Los duendes del Cuzco; 16:06 Los polvos de la condesa; 29:04 La justicia mayor de Laycacota; 42:29 Racimo de horca; 57:24 Amor de madre; 1:09:42 Lucas el sacrílego; 1:23:04 Rudamente, pulidamente, mañosamente; 1:43:20 El resucitado; 1:54:07 El corregidor de tinta; 2:04:34 La gatita de Mari-Ramos, que halaga con la boquita y araña con las manos; 2:37:07 ¡A la cárcel todo Cristo!; 2:46:12 Nadie se muere hasta que Dios quiere; 2:58:21 El fraile y la monja del Callao; 3:18:20 Por beber una copa de oro; 3:21:41 Una excomunión famosa; 3:34:16 Aceituna, una; 3:38:50 Oficiosidad no agradecida; 3:42:49 El alma de fray Venancio; 3:51:17 La trenza de sus cabellos; 4:02:38 De asta y rejón; 4:08:52 Los argumentos del corregidor; 4:17:46 La niña del antojo; 4:25:01 La llorona del Viernes Santo; 4:40:34 ¡A nadar, peces!; 4:50:15 Conversión de un libertino; 4:57:33 El rey del monte; 5:14:09 Tres cuestiones históricas sobre Pizarro. Lectores: Epachuko, evafolch, RQuintero, mpinedag, Yoyo, KendalRigans, Misikis, elguti, Odal, joseasaez."
+    "reviewNotes": "Algunas tradiciones tratan con humor temas religiosos, crímenes o castigos de la época colonial. Archivo único formado por 27 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Los duendes del Cuzco; 16:06 Los polvos de la condesa; 29:04 La justicia mayor de Laycacota; 42:29 Racimo de horca; 57:24 Amor de madre; 1:09:42 Lucas el sacrílego; 1:23:04 Rudamente, pulidamente, mañosamente; 1:43:20 El resucitado; 1:54:07 El corregidor de tinta; 2:04:34 La gatita de Mari-Ramos, que halaga con la boquita y araña con las manos; 2:37:07 ¡A la cárcel todo Cristo!; 2:46:12 Nadie se muere hasta que Dios quiere; 2:58:21 El fraile y la monja del Callao; 3:18:20 Por beber una copa de oro; 3:21:41 Una excomunión famosa; 3:34:16 Aceituna, una; 3:38:50 Oficiosidad no agradecida; 3:42:49 El alma de fray Venancio; 3:51:17 La trenza de sus cabellos; 4:02:38 De asta y rejón; 4:08:52 Los argumentos del corregidor; 4:17:46 La niña del antojo; 4:25:01 La llorona del Viernes Santo; 4:40:34 ¡A nadar, peces!; 4:50:15 Conversión de un libertino; 4:57:33 El rey del monte; 5:14:09 Tres cuestiones históricas sobre Pizarro. Lectores: Epachuko, evafolch, RQuintero, mpinedag, Yoyo, KendalRigans, Misikis, elguti, Odal, joseasaez.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/tradicionesperuanas_2101_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-8805.mp3",
-    "cover": "portadas/librivox-8805.png",
+    "cover": "portadas-originales/librivox-8805.jpg",
     "title": "El sombrero de tres picos",
     "creator": "Pedro Antonio de Alarcón",
     "type": "AUDIOBOOK",
@@ -2208,11 +2257,12 @@
     },
     "sha256": "f177756ac501e108af9320c658ff65ef489bde980d3f35c663c20a811e08e0b2",
     "sizeBytes": 82205614,
-    "reviewNotes": "Comedia de enredo sobre un intento de seducción y celos matrimoniales. Archivo único formado por 36 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 01 - De cuándo sucedió la cosa; 3:58 02 - De cómo vivía entonces la gente; 6:21 03 - Do ut des; 10:38 04 - Una mujer vista por fuera; 16:55 05 - Un hombre visto por fuera y por dentro; 20:05 06 - Habilidades de los dos cónyuges; 24:15 07 - El fondo de la felicidad; 26:35 08 - El hombre del sombrero de tres picos; 32:25 09 - ¡Arre, burra!; 34:50 10 - Desde la parra; 40:06 11 - El bombardeo de Pamplona; 50:29 12 - Diezmos y primicias; 56:39 13 - Le dijo el grajo al cuervo; 1:01:05 14 - Los consejos de Garduña; 1:08:57 15 - Despedida en prosa; 1:16:41 16 - Un ave de mal agüero; 1:19:06 17 - Un alcalde de monterilla; 1:23:37 18 - Donde se verá que el tío Lucas tenía el sueño muy ligero; 1:25:04 19 - Voces clamantes in deserto; 1:28:53 20 - La duda y la realidad; 1:39:50 21 - ¡En guardia, caballero!; 1:48:50 22 - Garduña se multiplica; 1:53:03 23 - Otra vez el desierto y las consabidas voces; 1:54:35 24 - Un rey de entonces; 1:59:20 25 - La estrella de Garduña; 2:02:31 26 - Reacción; 2:03:58 27 - ¡Favor al rey!; 2:08:37 28 - ¡Ave María purísima! ¡Las doce y media y sereno!; 2:12:30 29 - Post nubila... diana; 2:14:06 30 - Una señora de clase; 2:16:38 31 - La pena del Talión; 2:25:40 32 - La fe mueve las montañas; 2:29:44 33 - Pues ¿y tú?; 2:36:15 34 - También la corregidora es guapa; 2:41:52 35 - Decreto imperial; 2:45:54 36 - Conclusión, moraleja y epílogo."
+    "reviewNotes": "Comedia de enredo sobre un intento de seducción y celos matrimoniales. Archivo único formado por 36 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 01 - De cuándo sucedió la cosa; 3:58 02 - De cómo vivía entonces la gente; 6:21 03 - Do ut des; 10:38 04 - Una mujer vista por fuera; 16:55 05 - Un hombre visto por fuera y por dentro; 20:05 06 - Habilidades de los dos cónyuges; 24:15 07 - El fondo de la felicidad; 26:35 08 - El hombre del sombrero de tres picos; 32:25 09 - ¡Arre, burra!; 34:50 10 - Desde la parra; 40:06 11 - El bombardeo de Pamplona; 50:29 12 - Diezmos y primicias; 56:39 13 - Le dijo el grajo al cuervo; 1:01:05 14 - Los consejos de Garduña; 1:08:57 15 - Despedida en prosa; 1:16:41 16 - Un ave de mal agüero; 1:19:06 17 - Un alcalde de monterilla; 1:23:37 18 - Donde se verá que el tío Lucas tenía el sueño muy ligero; 1:25:04 19 - Voces clamantes in deserto; 1:28:53 20 - La duda y la realidad; 1:39:50 21 - ¡En guardia, caballero!; 1:48:50 22 - Garduña se multiplica; 1:53:03 23 - Otra vez el desierto y las consabidas voces; 1:54:35 24 - Un rey de entonces; 1:59:20 25 - La estrella de Garduña; 2:02:31 26 - Reacción; 2:03:58 27 - ¡Favor al rey!; 2:08:37 28 - ¡Ave María purísima! ¡Las doce y media y sereno!; 2:12:30 29 - Post nubila... diana; 2:14:06 30 - Una señora de clase; 2:16:38 31 - La pena del Talión; 2:25:40 32 - La fe mueve las montañas; 2:29:44 33 - Pues ¿y tú?; 2:36:15 34 - También la corregidora es guapa; 2:41:52 35 - Decreto imperial; 2:45:54 36 - Conclusión, moraleja y epílogo.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/sombrerotrespicos_1405_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s02.mp3",
-    "cover": "portadas/librivox-21132-s02.png",
+    "cover": "portadas-originales/librivox-21132-s02.jpg",
     "title": "El pescadito encantado",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2253,11 +2303,12 @@
     },
     "sha256": "22babb62bc50dae97924ec287bc86c31a0eba2a3ceba9ee419df1b8e7f70eec3",
     "sizeBytes": 5182850,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 2 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 2 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s04.mp3",
-    "cover": "portadas/librivox-21132-s04.png",
+    "cover": "portadas-originales/librivox-21132-s04.jpg",
     "title": "La tenquita",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2298,11 +2349,12 @@
     },
     "sha256": "3c4985a4b5ccc11e6e8f5b106c2a4dcf36df760cf1f34a5fd72a927f69d4b78c",
     "sizeBytes": 3889847,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 4 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 4 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s05.mp3",
-    "cover": "portadas/librivox-21132-s05.png",
+    "cover": "portadas-originales/librivox-21132-s05.jpg",
     "title": "El gallito",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2343,11 +2395,12 @@
     },
     "sha256": "6ae2166d78d000cac0a34d3b00fe3af9d830bbec716d67e6879b965c7ab7bb56",
     "sizeBytes": 2362351,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 5 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 5 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s06.mp3",
-    "cover": "portadas/librivox-21132-s06.png",
+    "cover": "portadas-originales/librivox-21132-s06.jpg",
     "title": "La tortilla o el canarito encantado",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2388,11 +2441,12 @@
     },
     "sha256": "3501649e730f06adc419cc4a319ca7aa1ba4f170147a05a7c0d100b2ee66b07d",
     "sizeBytes": 14099738,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 6 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 6 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s09.mp3",
-    "cover": "portadas/librivox-21132-s09.png",
+    "cover": "portadas-originales/librivox-21132-s09.jpg",
     "title": "La huachita cordera",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2433,11 +2487,12 @@
     },
     "sha256": "f1379436b457e8ecc4f0a53324d6449fab5251b479577a81b7e94ab24e970bc3",
     "sizeBytes": 7230387,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 9 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 9 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s11.mp3",
-    "cover": "portadas/librivox-21132-s11.png",
+    "cover": "portadas-originales/librivox-21132-s11.jpg",
     "title": "El Miñique",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2478,11 +2533,12 @@
     },
     "sha256": "e2465e6534c56ec839eeae52af9806f70f496be47bf698c63be650f49fa83f71",
     "sizeBytes": 6486715,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 11 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 11 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s12.mp3",
-    "cover": "portadas/librivox-21132-s12.png",
+    "cover": "portadas-originales/librivox-21132-s12.jpg",
     "title": "Los tres consejos",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2523,11 +2579,12 @@
     },
     "sha256": "e689e6c05f17e86481502f83855696006849d18f14d57c2dc8abb7e69952f3d9",
     "sizeBytes": 7870713,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 12 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 12 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s13.mp3",
-    "cover": "portadas/librivox-21132-s13.png",
+    "cover": "portadas-originales/librivox-21132-s13.jpg",
     "title": "El loro adivino",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2568,11 +2625,12 @@
     },
     "sha256": "06603c48e28bae12144285e4411a8e5501c0b5e399a41e3e3fef5c63045dab8e",
     "sizeBytes": 12197987,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 13 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 13 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s14.mp3",
-    "cover": "portadas/librivox-21132-s14.png",
+    "cover": "portadas-originales/librivox-21132-s14.jpg",
     "title": "El medio pollo",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2613,11 +2671,12 @@
     },
     "sha256": "63559a08ea80ba2c88eb5be5f832b59ed920f4051e0ac6bf96af5f6b1eb76e1d",
     "sizeBytes": 6410573,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 14 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 14 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s19.mp3",
-    "cover": "portadas/librivox-21132-s19.png",
+    "cover": "portadas-originales/librivox-21132-s19.jpg",
     "title": "El compadrito león, potito quemado",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2658,11 +2717,12 @@
     },
     "sha256": "20854f11e044eaa6cf84bddb11cdbe8c6190c97bd6b18adf653a4cdd59e8773d",
     "sizeBytes": 11480072,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 19 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 19 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s21.mp3",
-    "cover": "portadas/librivox-21132-s21.png",
+    "cover": "portadas-originales/librivox-21132-s21.jpg",
     "title": "Chilindrín y Chilindrón",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2703,11 +2763,12 @@
     },
     "sha256": "12ed562116023c0657351b1daec2e623151a72a784f5bd728741c94ec4912782",
     "sizeBytes": 10633893,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 21 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 21 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s22.mp3",
-    "cover": "portadas/librivox-21132-s22.png",
+    "cover": "portadas-originales/librivox-21132-s22.jpg",
     "title": "Juan Valiente, el de la vaquilla",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2748,11 +2809,12 @@
     },
     "sha256": "7cfe17998a8550159cd40084dc85ae07cb9e08c4987192730f5bad19a6ae1154",
     "sizeBytes": 3809750,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 22 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 22 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s23.mp3",
-    "cover": "portadas/librivox-21132-s23.png",
+    "cover": "portadas-originales/librivox-21132-s23.jpg",
     "title": "La sapita encantada",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2793,11 +2855,12 @@
     },
     "sha256": "c1ee9595e75e86087c038970a8e9781402f9476b67eacefbc09b501c24a8aad4",
     "sizeBytes": 7457358,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 23 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 23 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s24.mp3",
-    "cover": "portadas/librivox-21132-s24.png",
+    "cover": "portadas-originales/librivox-21132-s24.jpg",
     "title": "Gallarín y el gigante",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2838,11 +2901,12 @@
     },
     "sha256": "5bc5ff30259eee2deb595301d009244ce037ad93d73505bafc13ef1eb687a151",
     "sizeBytes": 14367070,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 24 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 24 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s26.mp3",
-    "cover": "portadas/librivox-21132-s26.png",
+    "cover": "portadas-originales/librivox-21132-s26.jpg",
     "title": "La lorita encantada",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2883,11 +2947,12 @@
     },
     "sha256": "94e3edabbc62a46a9efdde51a8b751a15085f6c56e4e9513bf639ca652bb797e",
     "sizeBytes": 6329832,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 26 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 26 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s28.mp3",
-    "cover": "portadas/librivox-21132-s28.png",
+    "cover": "portadas-originales/librivox-21132-s28.jpg",
     "title": "El león y el hombre",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2928,11 +2993,12 @@
     },
     "sha256": "6d9679bc226ee1ba18c7e8b84a5b79c1c4fc993d3054211862267f61a7c8c9cc",
     "sizeBytes": 5872337,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 28 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 28 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s36.mp3",
-    "cover": "portadas/librivox-21132-s36.png",
+    "cover": "portadas-originales/librivox-21132-s36.jpg",
     "title": "Por qué el jote tiene la cabeza y el cogote sin plumas",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -2973,11 +3039,12 @@
     },
     "sha256": "9938bba83f3160eae99f3b8d6d07f6a0dcac2977cbb439acdef3de877a58a229",
     "sizeBytes": 2048196,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 36 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 36 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21132-s17.mp3",
-    "cover": "portadas/librivox-21132-s17.png",
+    "cover": "portadas-originales/librivox-21132-s17.jpg",
     "title": "El árbol de las tres manzanas de oro",
     "creator": "Ramón Laval (recopilador)",
     "type": "AUDIOBOOK",
@@ -3018,11 +3085,12 @@
     },
     "sha256": "932d357bf425b05892fd268f5763a01f0c6740d7d13ab7a7abb8486c2ebc4d71",
     "sizeBytes": 11950119,
-    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 17 de la grabación LibriVox «Cuentos populares en Chile»."
+    "reviewNotes": "Cuento de tradición oral; la descripción se basa en el título y no se escuchó el audio completo: revisar el contenido antes de publicar. Sección 17 de la grabación LibriVox «Cuentos populares en Chile».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentoschile_2502_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s00.mp3",
-    "cover": "portadas/librivox-2162-s00.png",
+    "cover": "portadas-originales/librivox-2162-s00.jpg",
     "title": "A los niños que lean La Edad de Oro",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3062,11 +3130,12 @@
     },
     "sha256": "7a9922523c43fca7bd9f7d260d0f379449e3c83b0c84c9556f26776d7fefa7f6",
     "sizeBytes": 2548114,
-    "reviewNotes": "Refleja ideas de su época sobre los roles de niños y niñas. Sección 0 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Refleja ideas de su época sobre los roles de niños y niñas. Sección 0 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s05.mp3",
-    "cover": "portadas/librivox-2162-s05.png",
+    "cover": "portadas-originales/librivox-2162-s05.jpg",
     "title": "La Ilíada, de Homero",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3106,11 +3175,12 @@
     },
     "sha256": "c205c8ed02093c82d23a06393d92ddf6199d45845fea1833a147fc428f66591c",
     "sizeBytes": 16053614,
-    "reviewNotes": "Incluye batallas y muertes de la épica griega. Sección 5 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Incluye batallas y muertes de la épica griega. Sección 5 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s06.mp3",
-    "cover": "portadas/librivox-2162-s06.png",
+    "cover": "portadas-originales/librivox-2162-s06.jpg",
     "title": "Un juego nuevo y otros viejos",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3150,11 +3220,12 @@
     },
     "sha256": "3c0c5b936d0bee21539f4854e53f1996bfd78f7c8e64392c26fb3c1fdb1268c2",
     "sizeBytes": 6449130,
-    "reviewNotes": "Sección 6 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 6 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s09.mp3",
-    "cover": "portadas/librivox-2162-s09.png",
+    "cover": "portadas-originales/librivox-2162-s09.jpg",
     "title": "La historia del hombre, contada por sus casas",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3194,11 +3265,12 @@
     },
     "sha256": "304ae6445a092f89d2c23c0fde71742db380b7b3ba7a8d0356f17c4e50eb2fb4",
     "sizeBytes": 14475425,
-    "reviewNotes": "Sección 9 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 9 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s13.mp3",
-    "cover": "portadas/librivox-2162-s13.png",
+    "cover": "portadas-originales/librivox-2162-s13.jpg",
     "title": "Las ruinas indias",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3238,11 +3310,12 @@
     },
     "sha256": "a295847f650d5d4075077d90115c0c5a9b7ed52e223c0f8a297ea34a5a13e92c",
     "sizeBytes": 16267606,
-    "reviewNotes": "Menciona sacrificios y guerras de las culturas precolombinas. Sección 13 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Menciona sacrificios y guerras de las culturas precolombinas. Sección 13 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s21.mp3",
-    "cover": "portadas/librivox-2162-s21.png",
+    "cover": "portadas-originales/librivox-2162-s21.jpg",
     "title": "Un paseo por la tierra de los anamitas",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3282,11 +3355,12 @@
     },
     "sha256": "3c1e5e3d2c7ea56fedaa0eff8b947444172f68cd1c819b5946e17c09255a8c12",
     "sizeBytes": 12570151,
-    "reviewNotes": "Visión del siglo XIX sobre una cultura asiática; conviene contextualizar. Sección 21 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Visión del siglo XIX sobre una cultura asiática; conviene contextualizar. Sección 21 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s22.mp3",
-    "cover": "portadas/librivox-2162-s22.png",
+    "cover": "portadas-originales/librivox-2162-s22.jpg",
     "title": "Historia de la cuchara y el tenedor",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3326,11 +3400,12 @@
     },
     "sha256": "b54bd4f486046d51bea7b324fd3c3b71df2c5387787df9453f4ee384dd8410d9",
     "sizeBytes": 8517616,
-    "reviewNotes": "Sección 22 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 22 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s24.mp3",
-    "cover": "portadas/librivox-2162-s24.png",
+    "cover": "portadas-originales/librivox-2162-s24.jpg",
     "title": "Cuentos de elefantes",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3370,11 +3445,12 @@
     },
     "sha256": "3672507fdd8e7bcb25b924284f38e8a26dde7c506a980fa1cd713277ceafc57e",
     "sizeBytes": 11248964,
-    "reviewNotes": "Puede incluir escenas de caza propias de la época. Sección 24 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Puede incluir escenas de caza propias de la época. Sección 24 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-2162-s25.mp3",
-    "cover": "portadas/librivox-2162-s25.png",
+    "cover": "portadas-originales/librivox-2162-s25.jpg",
     "title": "Los dos ruiseñores",
     "creator": "José Martí",
     "type": "AUDIOBOOK",
@@ -3414,11 +3490,12 @@
     },
     "sha256": "c7db02c6d47b088dfffcd1a18e3a896eb5d2b9d1d28a4cc77ce8e86d0db28887",
     "sizeBytes": 16383382,
-    "reviewNotes": "Sección 25 de la grabación LibriVox «Edad de Oro»."
+    "reviewNotes": "Sección 25 de la grabación LibriVox «Edad de Oro».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/edad_de_oro_1001_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-20074-s11.mp3",
-    "cover": "portadas/librivox-20074-s11.png",
+    "cover": "portadas-originales/librivox-20074-s11.jpg",
     "title": "Fábulas y verdades (segunda parte)",
     "creator": "Rafael Pombo",
     "type": "AUDIOBOOK",
@@ -3458,11 +3535,12 @@
     },
     "sha256": "e4192ca33f87f9cee347c85a9289c978dfb79237b99da201b6cefcfbe75456fd",
     "sizeBytes": 101799132,
-    "reviewNotes": "Corresponde a las secciones 11–20 de la grabación LibriVox. Archivo único formado por 10 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Fábulas y verdades continuación; 18:15 Fábulas y verdades continuación; 37:44 Fábulas y verdades continuación; 1:02:07 Fábulas y verdades continuación; 1:17:53 Fábulas y verdades continuación; 1:38:06 Fábulas y verdades continuación; 2:19:13 Fábulas y verdades continuación; 2:35:08 Fábulas y verdades continuación; 2:50:11 Fábulas y verdades continuación; 3:10:46 Fábulas y verdades continuación."
+    "reviewNotes": "Corresponde a las secciones 11–20 de la grabación LibriVox. Archivo único formado por 10 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Fábulas y verdades continuación; 18:15 Fábulas y verdades continuación; 37:44 Fábulas y verdades continuación; 1:02:07 Fábulas y verdades continuación; 1:17:53 Fábulas y verdades continuación; 1:38:06 Fábulas y verdades continuación; 2:19:13 Fábulas y verdades continuación; 2:35:08 Fábulas y verdades continuación; 2:50:11 Fábulas y verdades continuación; 3:10:46 Fábulas y verdades continuación.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fabulasyverdades_2412_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s20.mp3",
-    "cover": "portadas/librivox-5079-s20.png",
+    "cover": "portadas-originales/librivox-5079-s20.jpg",
     "title": "Los ojos verdes",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -3502,11 +3580,12 @@
     },
     "sha256": "1bcd6dbc000d17800eb13937f56dddb15e391d863276a1f474c4ab55c4e550b2",
     "sizeBytes": 9922048,
-    "reviewNotes": "Final trágico (el protagonista muere). Sección 20 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Final trágico (el protagonista muere). Sección 20 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s06.mp3",
-    "cover": "portadas/librivox-5079-s06.png",
+    "cover": "portadas-originales/librivox-5079-s06.jpg",
     "title": "El gnomo",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -3546,11 +3625,12 @@
     },
     "sha256": "570916b6a41fe4db506e11ccfe21b25ccd175883556490ca5074580b21ffc55d",
     "sizeBytes": 18218496,
-    "reviewNotes": "Elementos sobrenaturales; final triste. Sección 6 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Elementos sobrenaturales; final triste. Sección 6 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s13.mp3",
-    "cover": "portadas/librivox-5079-s13.png",
+    "cover": "portadas-originales/librivox-5079-s13.jpg",
     "title": "La corza blanca",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -3590,11 +3670,12 @@
     },
     "sha256": "20d0edb1c34f003d4814db925ad013a79e4ccc1194dda0f99208ae705f60bbe0",
     "sizeBytes": 22398976,
-    "reviewNotes": "Final trágico. Sección 13 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Final trágico. Sección 13 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-5079-s16.mp3",
-    "cover": "portadas/librivox-5079-s16.png",
+    "cover": "portadas-originales/librivox-5079-s16.jpg",
     "title": "La cueva de la mora",
     "creator": "Gustavo Adolfo Bécquer",
     "type": "AUDIOBOOK",
@@ -3634,11 +3715,12 @@
     },
     "sha256": "95113bd060784419aca9eb41ce77e10a493f500383f6d05fae9eab9939bf3082",
     "sizeBytes": 5998592,
-    "reviewNotes": "Final trágico. Sección 16 de la grabación LibriVox «Leyendas»."
+    "reviewNotes": "Final trágico. Sección 16 de la grabación LibriVox «Leyendas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_becquer_1208_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-4182-s02.mp3",
-    "cover": "portadas/librivox-4182-s02.png",
+    "cover": "portadas-originales/librivox-4182-s02.jpg",
     "title": "El duende-beso",
     "creator": "Juan Valera",
     "type": "AUDIOBOOK",
@@ -3678,11 +3760,12 @@
     },
     "sha256": "faf4334f31a017712b8b65fc8600091addd39b146b14436ab90e0570be4092d4",
     "sizeBytes": 7705518,
-    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Puede tener tono romántico. Sección 2 de la grabación LibriVox «Relatos y Cuentos 002»."
+    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Puede tener tono romántico. Sección 2 de la grabación LibriVox «Relatos y Cuentos 002».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-4182-s03.mp3",
-    "cover": "portadas/librivox-4182-s03.png",
+    "cover": "portadas-originales/librivox-4182-s03.jpg",
     "title": "La muñequita",
     "creator": "Juan Valera",
     "type": "AUDIOBOOK",
@@ -3721,11 +3804,12 @@
     },
     "sha256": "bd7dacb795f2aee0c724aef32517a87cd3c8911044a2e8fa764b12a7480aee0e",
     "sizeBytes": 8163188,
-    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Sección 3 de la grabación LibriVox «Relatos y Cuentos 002»."
+    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Sección 3 de la grabación LibriVox «Relatos y Cuentos 002».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-3898-s02.mp3",
-    "cover": "portadas/librivox-3898-s02.png",
+    "cover": "portadas-originales/librivox-3898-s02.jpg",
     "title": "Los buques suicidantes",
     "creator": "Horacio Quiroga",
     "type": "AUDIOBOOK",
@@ -3765,11 +3849,12 @@
     },
     "sha256": "dafce4faf27d7dcae7d381dab68b7095cd76e7f08794d7e57cad9e404385ebdd",
     "sizeBytes": 4254025,
-    "reviewNotes": "Cuento de terror (desaparición y muerte de marineros). La metadata de LibriVox marca la sección como «en»: verificar acento/claridad. Sección 2 de la grabación LibriVox «Relatos y Cuentos 001»."
+    "reviewNotes": "Cuento de terror (desaparición y muerte de marineros). La metadata de LibriVox marca la sección como «en»: verificar acento/claridad. Sección 2 de la grabación LibriVox «Relatos y Cuentos 001».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/relatosycuentos_1003_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13609-s04.mp3",
-    "cover": "portadas/librivox-13609-s04.png",
+    "cover": "portadas-originales/librivox-13609-s04.jpg",
     "title": "El lago encantado",
     "creator": "Amado Nervo",
     "type": "AUDIOBOOK",
@@ -3808,11 +3893,12 @@
     },
     "sha256": "db4067fb5b40cdcb66b0cb32b758269f7e0a280ac648514ea1f8e8c07b3e2f81",
     "sizeBytes": 5898938,
-    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Sección 4 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos»."
+    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Sección 4 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/antologia_de_cuentos_hispanoamericanos_1910_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13609-s07.mp3",
-    "cover": "portadas/librivox-13609-s07.png",
+    "cover": "portadas-originales/librivox-13609-s07.jpg",
     "title": "El extranjero",
     "creator": "Pedro Antonio de Alarcón",
     "type": "AUDIOBOOK",
@@ -3851,11 +3937,12 @@
     },
     "sha256": "39364f5d3840a5b6b9df7ff6c13417e86031558c9e05e8cba1009ebe1e240f28",
     "sizeBytes": 11269665,
-    "reviewNotes": "Relato de guerra con violencia. Sección 7 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos»."
+    "reviewNotes": "Relato de guerra con violencia. Sección 7 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/antologia_de_cuentos_hispanoamericanos_1910_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13609-s12.mp3",
-    "cover": "portadas/librivox-13609-s12.png",
+    "cover": "portadas-originales/librivox-13609-s12.jpg",
     "title": "Dos sabios",
     "creator": "Leopoldo Alas «Clarín»",
     "type": "AUDIOBOOK",
@@ -3895,11 +3982,12 @@
     },
     "sha256": "84112f95058ff358ef3199fe7e95f460408d651e24b6a73cadd40c7e3f60b4f0",
     "sizeBytes": 9515394,
-    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Sección 12 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos»."
+    "reviewNotes": "Descripción general: no se verificó el argumento escuchando el audio. Sección 12 de la grabación LibriVox «Antología de Cuentos Hispanoamericanos».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/antologia_de_cuentos_hispanoamericanos_1910_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21264-s01.mp3",
-    "cover": "portadas/librivox-21264-s01.png",
+    "cover": "portadas-originales/librivox-21264-s01.jpg",
     "title": "Guanina",
     "creator": "Cayetano Coll y Toste",
     "type": "AUDIOBOOK",
@@ -3940,11 +4028,12 @@
     },
     "sha256": "65a28ed7529bf669ac8f1324ec9dbffa790f07e69740dada16e4e8c36e25ab94",
     "sizeBytes": 12143615,
-    "reviewNotes": "Violencia de la conquista y muerte de los protagonistas. Sección 1 de la grabación LibriVox «Leyendas Puertorriqueñas»."
+    "reviewNotes": "Violencia de la conquista y muerte de los protagonistas. Sección 1 de la grabación LibriVox «Leyendas Puertorriqueñas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendaspuertorriquenas_2512_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21264-s21.mp3",
-    "cover": "portadas/librivox-21264-s21.png",
+    "cover": "portadas-originales/librivox-21264-s21.jpg",
     "title": "El pirata Cofresí",
     "creator": "Cayetano Coll y Toste",
     "type": "AUDIOBOOK",
@@ -3984,11 +4073,12 @@
     },
     "sha256": "072303058e9be5194e267cbd88634dacf7507452ec36195c08c300995a1488f9",
     "sizeBytes": 5953108,
-    "reviewNotes": "Puede incluir violencia propia de la piratería. Sección 21 de la grabación LibriVox «Leyendas Puertorriqueñas»."
+    "reviewNotes": "Puede incluir violencia propia de la piratería. Sección 21 de la grabación LibriVox «Leyendas Puertorriqueñas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendaspuertorriquenas_2512_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-19098-s02.mp3",
-    "cover": "portadas/librivox-19098-s02.png",
+    "cover": "portadas-originales/librivox-19098-s02.jpg",
     "title": "La fundación de Tenochtitlán",
     "creator": "Heriberto Frías",
     "type": "AUDIOBOOK",
@@ -4029,11 +4119,12 @@
     },
     "sha256": "b7c74405dfd8d54f2f11d7845f5d7e9f65e91c31d64a465bcdc83dffe5c95b94",
     "sizeBytes": 5789323,
-    "reviewNotes": "Sección 2 de la grabación LibriVox «Leyendas históricas mexicanas»."
+    "reviewNotes": "Sección 2 de la grabación LibriVox «Leyendas históricas mexicanas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/leyendas_historicas_mexicanas_2305_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-19267-s10.mp3",
-    "cover": "portadas/librivox-19267-s10.png",
+    "cover": "portadas-originales/librivox-19267-s10.jpg",
     "title": "¿Por qué el Pergamino se llama Pergamino?",
     "creator": "Pastor Servando Obligado",
     "type": "AUDIOBOOK",
@@ -4073,11 +4164,12 @@
     },
     "sha256": "1376601da6f855f4b74b4a4e994a971ed08b9606216ebf1b4b014b9496dff2dd",
     "sizeBytes": 5013031,
-    "reviewNotes": "Sección 10 de la grabación LibriVox «Tradiciones Argentinas»."
+    "reviewNotes": "Sección 10 de la grabación LibriVox «Tradiciones Argentinas».",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/tradicionesargentinas_2401_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-16146.mp3",
-    "cover": "portadas/librivox-16146.png",
+    "cover": "portadas-originales/librivox-16146.jpg",
     "title": "Cuentos de Navidad y Reyes",
     "creator": "Emilia Pardo Bazán",
     "type": "AUDIOBOOK",
@@ -4117,11 +4209,12 @@
     },
     "sha256": "31132ea02d25f03c740008919dafc0e19335f8a83acc5485e9088275a312e666",
     "sizeBytes": 103189048,
-    "reviewNotes": "Contenido religioso; algunos cuentos tratan pobreza, juego o muerte («Nochebuena del jugador»). Archivo único formado por 18 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 La Nochebuena del Papa; 8:40 La tentación de Sor María; 18:18 La Navidad del Peludo; 27:38 Jesusa; 37:35 Nochebuena del jugador; 51:15 De Navidad; 1:04:34 Jesús en la tierra; 1:20:02 El Belén; 1:32:57 Página suelta; 1:46:02 Dos cenas; 2:04:42 La Nochebuena del carpintero; 2:16:55 El ciego; 2:25:02 Los Magos; 2:36:30 Sueños regios; 2:48:07 La visión de los Reyes Magos; 2:55:50 El Rompecabezas; 3:06:46 En Semana Santa; 3:20:17 La oración de Semana Santa. Lectores: Epachuko, Mongope, Odal, mpinedag, campanilla, evafolch, earcicar, KendalRigans, Patrisss."
+    "reviewNotes": "Contenido religioso; algunos cuentos tratan pobreza, juego o muerte («Nochebuena del jugador»). Archivo único formado por 18 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 La Nochebuena del Papa; 8:40 La tentación de Sor María; 18:18 La Navidad del Peludo; 27:38 Jesusa; 37:35 Nochebuena del jugador; 51:15 De Navidad; 1:04:34 Jesús en la tierra; 1:20:02 El Belén; 1:32:57 Página suelta; 1:46:02 Dos cenas; 2:04:42 La Nochebuena del carpintero; 2:16:55 El ciego; 2:25:02 Los Magos; 2:36:30 Sueños regios; 2:48:07 La visión de los Reyes Magos; 2:55:50 El Rompecabezas; 3:06:46 En Semana Santa; 3:20:17 La oración de Semana Santa. Lectores: Epachuko, Mongope, Odal, mpinedag, campanilla, evafolch, earcicar, KendalRigans, Patrisss.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cuentosdenavidad_2103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-15087.mp3",
-    "cover": "portadas/librivox-15087.png",
+    "cover": "portadas-originales/librivox-15087.jpg",
     "title": "La gitanilla",
     "creator": "Miguel de Cervantes",
     "type": "AUDIOBOOK",
@@ -4161,11 +4254,12 @@
     },
     "sha256": "4988ee2a6a63db2a999ab2181e799a52a88a8a79d59a54166c9d6d3072700005",
     "sizeBytes": 64703570,
-    "reviewNotes": "Refleja estereotipos sobre el pueblo gitano propios del siglo XVII; conviene contextualizar. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 La Gitanilla - Parte I; 34:12 La Gitanilla - Parte II; 1:05:46 La Gitanilla - Parte III; 1:38:36 La Gitanilla - Parte IV."
+    "reviewNotes": "Refleja estereotipos sobre el pueblo gitano propios del siglo XVII; conviene contextualizar. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 La Gitanilla - Parte I; 34:12 La Gitanilla - Parte II; 1:05:46 La Gitanilla - Parte III; 1:38:36 La Gitanilla - Parte IV.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/la_gitanilla_2103_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-13341.mp3",
-    "cover": "portadas/librivox-13341.png",
+    "cover": "portadas-originales/librivox-13341.jpg",
     "title": "Fuente Ovejuna",
     "creator": "Félix Lope de Vega",
     "type": "AUDIOBOOK",
@@ -4205,11 +4299,12 @@
     },
     "sha256": "a81d4f58dceae806a66c8b9f4d97d6b277bbcc9cc0fdf8896fe752386614527d",
     "sizeBytes": 44972973,
-    "reviewNotes": "Incluye abusos sexuales (aludidos), tortura y una muerte violenta. Lectura de una sola voz. Archivo único formado por 3 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Acto Primero; 29:07 Acto Segundo; 1:00:56 Acto Tercero."
+    "reviewNotes": "Incluye abusos sexuales (aludidos), tortura y una muerte violenta. Lectura de una sola voz. Archivo único formado por 3 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Acto Primero; 29:07 Acto Segundo; 1:00:56 Acto Tercero.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fuenteovejuna_2007_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-16967.mp3",
-    "cover": "portadas/librivox-16967.png",
+    "cover": "portadas-originales/librivox-16967.jpg",
     "title": "Don Juan Tenorio",
     "creator": "José Zorrilla",
     "type": "AUDIOBOOK",
@@ -4249,11 +4344,12 @@
     },
     "sha256": "b3729347a656819dd3abc7c97263e8e7c2743975973fdfd256ce9e40498f046d",
     "sizeBytes": 78078679,
-    "reviewNotes": "Seducción, duelos, muertes y elementos sobrenaturales. Archivo único formado por 7 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Parte 1 - Acto 1: Libertinaje y escándalo; 38:14 Parte 1 - Acto 2: Destreza; 1:03:11 Parte 1 - Acto 3: Profanación; 1:22:19 Parte 1 - Acto 4: El diablo a las puertas del cielo; 1:50:45 Parte 2 - Acto 1: La sombra de Doña Inés; 2:13:59 Parte 2 - Acto 2: La sombra de Don Gonzalo; 2:30:55 Parte 2 - Acto 3: Misericordia de Dios y apoteosis de amor."
+    "reviewNotes": "Seducción, duelos, muertes y elementos sobrenaturales. Archivo único formado por 7 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Parte 1 - Acto 1: Libertinaje y escándalo; 38:14 Parte 1 - Acto 2: Destreza; 1:03:11 Parte 1 - Acto 3: Profanación; 1:22:19 Parte 1 - Acto 4: El diablo a las puertas del cielo; 1:50:45 Parte 2 - Acto 1: La sombra de Doña Inés; 2:13:59 Parte 2 - Acto 2: La sombra de Don Gonzalo; 2:30:55 Parte 2 - Acto 3: Misericordia de Dios y apoteosis de amor.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/donjuan_2110_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-19128.mp3",
-    "cover": "portadas/librivox-19128.png",
+    "cover": "portadas-originales/librivox-19128.jpg",
     "title": "El estudiante de Salamanca",
     "creator": "José de Espronceda",
     "type": "AUDIOBOOK",
@@ -4293,11 +4389,12 @@
     },
     "sha256": "c24307fa91a40c9b83449e3eeaf55d9b69c014cb98b892daf371e7f8effcb3cc",
     "sizeBytes": 46839590,
-    "reviewNotes": "Poema de terror romántico con muerte y temas adultos. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Parte Primera; 9:36 Parte Segunda; 24:02 Parte Tercera; 41:41 Parte Cuarta."
+    "reviewNotes": "Poema de terror romántico con muerte y temas adultos. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Parte Primera; 9:36 Parte Segunda; 24:02 Parte Tercera; 41:41 Parte Cuarta.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/estudiantedesalamanca_2304_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-11486.mp3",
-    "cover": "portadas/librivox-11486.png",
+    "cover": "portadas-originales/librivox-11486.jpg",
     "title": "La cautiva",
     "creator": "Esteban Echeverría",
     "type": "AUDIOBOOK",
@@ -4337,11 +4434,12 @@
     },
     "sha256": "b282f63cf34acc9a22c8cdd2548b3e7d3b01fcdbf0f726e30538ddfef94b1697",
     "sizeBytes": 38766899,
-    "reviewNotes": "Contiene violencia y una visión negativa de los pueblos indígenas propia de su época; conviene contextualizar. Archivo único formado por 10 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Primera Parte - El Desierto; 7:04 Segunda Parte - El Festín; 17:08 Tercera Parte - El Puñal; 29:23 Cuarta Parte - La Alborada; 34:04 Quinta Parte - El Pajonal; 40:45 Sexta Parte - La Espera; 45:26 Séptima Parte - La Quemazón; 52:24 Octava Parte - Brián; 1:03:56 Novena Parte - María; 1:16:31 Epílogo."
+    "reviewNotes": "Contiene violencia y una visión negativa de los pueblos indígenas propia de su época; conviene contextualizar. Archivo único formado por 10 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Primera Parte - El Desierto; 7:04 Segunda Parte - El Festín; 17:08 Tercera Parte - El Puñal; 29:23 Cuarta Parte - La Alborada; 34:04 Quinta Parte - El Pajonal; 40:45 Sexta Parte - La Espera; 45:26 Séptima Parte - La Quemazón; 52:24 Octava Parte - Brián; 1:03:56 Novena Parte - María; 1:16:31 Epílogo.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/cautiva_1702_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-12389.mp3",
-    "cover": "portadas/librivox-12389.png",
+    "cover": "portadas-originales/librivox-12389.jpg",
     "title": "Fausto (impresiones del gaucho Anastasio el Pollo)",
     "creator": "Estanislao del Campo",
     "type": "AUDIOBOOK",
@@ -4382,11 +4480,12 @@
     },
     "sha256": "15224eb1216888b756a2d1a8027dea1e5e398d82ab00778b74bdce5b635861e5",
     "sizeBytes": 20776098,
-    "reviewNotes": "Lenguaje gauchesco. Archivo único formado por 6 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Canto I; 6:52 Canto II; 14:28 Canto III; 20:25 Canto IV; 30:42 Canto V; 37:52 Canto VI."
+    "reviewNotes": "Lenguaje gauchesco. Archivo único formado por 6 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Canto I; 6:52 Canto II; 14:28 Canto III; 20:25 Canto IV; 30:42 Canto V; 37:52 Canto VI.",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/fausto_1710_librivox, dominio público)"
   },
   {
     "file": "audiolibros/librivox-21306.mp3",
-    "cover": "portadas/librivox-21306.png",
+    "cover": "portadas-originales/librivox-21306.jpg",
     "title": "A mi madre",
     "creator": "Rosalía de Castro",
     "type": "AUDIOBOOK",
@@ -4426,6 +4525,7 @@
     },
     "sha256": "93547061091cc0dad0dd140ef8b9c467d47ca465e3c3d9dc156bff596dbfb8c8",
     "sizeBytes": 9013013,
-    "reviewNotes": "Tema del duelo. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Cuan tristes pasan los días (I, II); 2:31 ¡Ay! Cuando los hijos mueren (I, II); 4:14 Ya pasó la estación de los calores (I-VIII); 10:03 De gemidos quejumbrosos (I)."
+    "reviewNotes": "Tema del duelo. Archivo único formado por 4 secciones LibriVox (ffmpeg concat -c copy). Índice: 0:00 Cuan tristes pasan los días (I, II); 2:31 ¡Ay! Cuando los hijos mueren (I, II); 4:14 Ya pasó la estación de los calores (I-VIII); 10:03 De gemidos quejumbrosos (I).",
+    "coverCredit": "Arte del proyecto LibriVox (archive.org/details/amimadre_2501_librivox, dominio público)"
   }
 ]

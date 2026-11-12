@@ -90,7 +90,7 @@
   },
   {
     "file": "libros/gutenberg-63424.epub",
-    "cover": "portadas/gutenberg-63424.png",
+    "cover": "portadas-originales/gutenberg-63424.jpg",
     "title": "Cuentos populares en Chile",
     "creator": "Ramón A. Laval",
     "type": "BOOK",
@@ -131,11 +131,12 @@
     },
     "sha256": "cd355343ea521e69f376f3e66ea3ab6d976da4bfd577d67a9dfd3440b44e76da",
     "sizeBytes": 288910,
-    "reviewNotes": "Cuentos populares transcritos con habla rural; algunos relatos tradicionales incluyen castigos o violencia propia del folclor."
+    "reviewNotes": "Cuentos populares transcritos con habla rural; algunos relatos tradicionales incluyen castigos o violencia propia del folclor.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63424)"
   },
   {
     "file": "libros/gutenberg-29497.epub",
-    "cover": "portadas/gutenberg-29497.png",
+    "cover": "portadas-originales/gutenberg-29497.jpg",
     "title": "Fábulas literarias",
     "creator": "Tomás de Iriarte",
     "type": "BOOK",
@@ -175,7 +176,8 @@
     },
     "sha256": "0d0285c59a2304e36defef3ce5f0c390b8714e43289a61d29b10a44abe8d5911",
     "sizeBytes": 126648,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo «Fabulas Literarias.djvu» (Wikimedia Commons, dominio público), fuente de la transcripción de Wikisource"
   },
   {
     "file": "libros/gutenberg-73486.epub",
@@ -224,7 +226,7 @@
   },
   {
     "file": "libros/gutenberg-45438.epub",
-    "cover": "portadas/gutenberg-45438.png",
+    "cover": "portadas-originales/gutenberg-45438.jpg",
     "title": "La isla del tesoro",
     "creator": "Robert Louis Stevenson",
     "type": "BOOK",
@@ -265,11 +267,12 @@
     },
     "sha256": "3ce7f48fc8d2cffe96df772c8ba7a65688c523020c1665033b799badf1c04b2c",
     "sizeBytes": 308959,
-    "reviewNotes": "Contiene escenas de violencia propias de la obra."
+    "reviewNotes": "Contiene escenas de violencia propias de la obra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/45438)"
   },
   {
     "file": "libros/gutenberg-57648.epub",
-    "cover": "portadas/gutenberg-57648.png",
+    "cover": "portadas-originales/gutenberg-57648.jpg",
     "title": "Romancero selecto del Cid",
     "creator": "Anónimo",
     "type": "BOOK",
@@ -310,11 +313,12 @@
     },
     "sha256": "2684144aea14c88fa6ba380bdde8afd0de2935a6dcfe1b75aa6736a0c237f9d2",
     "sizeBytes": 272063,
-    "reviewNotes": "Romances medievales con lenguaje antiguo y episodios de guerra."
+    "reviewNotes": "Romances medievales con lenguaje antiguo y episodios de guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/57648)"
   },
   {
     "file": "libros/gutenberg-77298.epub",
-    "cover": "portadas/gutenberg-77298.png",
+    "cover": "portadas-originales/gutenberg-77298.jpg",
     "title": "Las mejores tradiciones peruanas",
     "creator": "Ricardo Palma",
     "type": "BOOK",
@@ -355,11 +359,12 @@
     },
     "sha256": "113ca03594205e98f018bb705012a290770db58671416878daaf1cc615d33553",
     "sizeBytes": 337442,
-    "reviewNotes": "Algunas tradiciones reflejan actitudes coloniales de la época."
+    "reviewNotes": "Algunas tradiciones reflejan actitudes coloniales de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/77298)"
   },
   {
     "file": "libros/gutenberg-55812.epub",
-    "cover": "portadas/gutenberg-55812.png",
+    "cover": "portadas-originales/gutenberg-55812.jpg",
     "title": "Cuentos de navidad y reyes; cuentos de la patria; cuentos antiguos",
     "creator": "Emilia Pardo Bazán",
     "type": "BOOK",
@@ -398,11 +403,12 @@
     },
     "sha256": "39e8e8ede0121087281d6a0656405b3e5f33893262f7e331292b55e104c1095f",
     "sizeBytes": 234907,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/55812)"
   },
   {
     "file": "libros/gutenberg-77072.epub",
-    "cover": "portadas/gutenberg-77072.png",
+    "cover": "portadas-originales/gutenberg-77072.jpg",
     "title": "Las aventuras de Telémaco seguidas de las de Aristonoo",
     "creator": "Fénelon",
     "type": "BOOK",
@@ -443,11 +449,12 @@
     },
     "sha256": "4096b41e1a75b197f19e427c69a46af6a4bcb9f25e171a1ac053223c086e4aed",
     "sizeBytes": 643739,
-    "reviewNotes": "Traducción de José Collado (†1853)."
+    "reviewNotes": "Traducción de José Collado (†1853).",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/77072)"
   },
   {
     "file": "libros/gutenberg-64656.epub",
-    "cover": "portadas/gutenberg-64656.png",
+    "cover": "portadas-originales/gutenberg-64656.jpg",
     "title": "Historia de los siete murciélagos, leyenda árabe",
     "creator": "Manuel Fernández y González",
     "type": "BOOK",
@@ -487,11 +494,12 @@
     },
     "sha256": "0f35723e90687ab5d9630a134bb15626cb3563afa92d58fd2fb33a1c4f193f81",
     "sizeBytes": 270625,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/64656)"
   },
   {
     "file": "libros/gutenberg-57654.epub",
-    "cover": "portadas/gutenberg-57654.png",
+    "cover": "portadas-originales/gutenberg-57654.jpg",
     "title": "La Ilíada",
     "creator": "Homero",
     "type": "BOOK",
@@ -532,11 +540,12 @@
     },
     "sha256": "15a476eb1fa4597fc99974800623cd24d44e33936b73ef5db23fcb64be209009",
     "sizeBytes": 599261,
-    "reviewNotes": "Contiene combates y muertes en batalla. Edición con ilustraciones clásicas de Flaxman (†1826) en la versión con imágenes; se usó la versión sin imágenes."
+    "reviewNotes": "Contiene combates y muertes en batalla. Edición con ilustraciones clásicas de Flaxman (†1826) en la versión con imágenes; se usó la versión sin imágenes.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/57654)"
   },
   {
     "file": "libros/gutenberg-58221.epub",
-    "cover": "portadas/gutenberg-58221.png",
+    "cover": "portadas-originales/gutenberg-58221.jpg",
     "title": "La Odisea",
     "creator": "Homero",
     "type": "BOOK",
@@ -577,11 +586,12 @@
     },
     "sha256": "da66fdaa4824d9388390f897e81800564dc99db4a3d2ab44538ff1fdc65b51ba",
     "sizeBytes": 565756,
-    "reviewNotes": "Contiene episodios de violencia (p. ej., el castigo a los pretendientes)."
+    "reviewNotes": "Contiene episodios de violencia (p. ej., el castigo a los pretendientes).",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/58221)"
   },
   {
     "file": "libros/gutenberg-75703.epub",
-    "cover": "portadas/gutenberg-75703.png",
+    "cover": "portadas-originales/gutenberg-75703.jpg",
     "title": "Libro de poemas",
     "creator": "Federico García Lorca",
     "type": "BOOK",
@@ -620,7 +630,8 @@
     },
     "sha256": "6405f22c4760881eb91a81ead2e8a1e6c2f5d3cd7e4837dee7a2f5e357de267d",
     "sizeBytes": 129994,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/75703)"
   },
   {
     "file": "libros/gutenberg-53552.epub",
@@ -670,7 +681,7 @@
   },
   {
     "file": "libros/gutenberg-65880.epub",
-    "cover": "portadas/gutenberg-65880.png",
+    "cover": "portadas-originales/gutenberg-65880.jpg",
     "title": "Las cien mejores poesías (lí­ricas) de la lengua castellana",
     "creator": "Selección de Marcelino Menéndez y Pelayo",
     "type": "BOOK",
@@ -710,11 +721,12 @@
     },
     "sha256": "83a901c9c07397ea44196389be4d08da3b916549334e6aa2b47828680345a4ac",
     "sizeBytes": 313977,
-    "reviewNotes": "Antología multiautor: se revisó el índice; todos los poetas incluidos (de Jorge Manrique a Núñez de Arce, Campoamor y Querol) murieron antes de 1912."
+    "reviewNotes": "Antología multiautor: se revisó el índice; todos los poetas incluidos (de Jorge Manrique a Núñez de Arce, Campoamor y Querol) murieron antes de 1912.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/65880)"
   },
   {
     "file": "libros/gutenberg-49437.epub",
-    "cover": "portadas/gutenberg-49437.png",
+    "cover": "portadas-originales/gutenberg-49437.jpg",
     "title": "Páginas escogidas",
     "creator": "Antonio Machado",
     "type": "BOOK",
@@ -754,7 +766,8 @@
     },
     "sha256": "de27d62634b0aaf1c30498f1b14a28214c08711a4feba0ed420cdd784f69d360",
     "sizeBytes": 139203,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49437)"
   },
   {
     "file": "libros/gutenberg-10825.epub",
@@ -801,7 +814,7 @@
   },
   {
     "file": "libros/gutenberg-62359.epub",
-    "cover": "portadas/gutenberg-62359.png",
+    "cover": "portadas-originales/gutenberg-62359.jpg",
     "title": "El anacronópete; Viaje a China; Metempsicosis",
     "creator": "Enrique Gaspar",
     "type": "BOOK",
@@ -841,7 +854,8 @@
     },
     "sha256": "1077b30ad792de42cc2cfcbb87b1c37bb2e642bff1f0a35cd128f2dfeea38322",
     "sizeBytes": 395767,
-    "reviewNotes": "Humor y estereotipos culturales propios de la época."
+    "reviewNotes": "Humor y estereotipos culturales propios de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/62359)"
   },
   {
     "file": "libros/gutenberg-29506.epub",
@@ -890,7 +904,7 @@
   },
   {
     "file": "libros/gutenberg-29731.epub",
-    "cover": "portadas/gutenberg-29731.png",
+    "cover": "portadas-originales/gutenberg-29731.jpg",
     "title": "El Capitán Veneno The Hispanic Series",
     "creator": "Pedro Antonio de Alarcón",
     "type": "BOOK",
@@ -929,7 +943,8 @@
     },
     "sha256": "74cc35518f8c21611949e07544f57382d9b57b37f15a4682ba8a8f74a263b14f",
     "sizeBytes": 234898,
-    "reviewNotes": "Edición escolar anotada (Burnet, †1935)."
+    "reviewNotes": "Edición escolar anotada (Burnet, †1935).",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/29731)"
   },
   {
     "file": "libros/gutenberg-16961.epub",
@@ -979,7 +994,7 @@
   },
   {
     "file": "libros/gutenberg-17340.epub",
-    "cover": "portadas/gutenberg-17340.png",
+    "cover": "portadas-originales/gutenberg-17340.jpg",
     "title": "Marianela",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -1020,7 +1035,8 @@
     },
     "sha256": "889476794d8b7452feb7faa38563ce80494ba31c4914804deb98152029a66d7d",
     "sizeBytes": 287519,
-    "reviewNotes": "Final trágico; temas de discriminación por apariencia y pobreza."
+    "reviewNotes": "Final trágico; temas de discriminación por apariencia y pobreza.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/17340)"
   },
   {
     "file": "libros/gutenberg-320.epub",
@@ -1115,7 +1131,7 @@
   },
   {
     "file": "libros/gutenberg-57955.epub",
-    "cover": "portadas/gutenberg-57955.png",
+    "cover": "portadas-originales/gutenberg-57955.jpg",
     "title": "Los entremeses",
     "creator": "Miguel de Cervantes Saavedra",
     "type": "BOOK",
@@ -1155,11 +1171,12 @@
     },
     "sha256": "323aa599c548ed51d959b1f765b203d9ffe0cedf7ffd7c06c4c089ac608c66bb",
     "sizeBytes": 160155,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/57955)"
   },
   {
     "file": "libros/gutenberg-49333.epub",
-    "cover": "portadas/gutenberg-49333.png",
+    "cover": "portadas-originales/gutenberg-49333.jpg",
     "title": "Coplas por la muerte de su padre",
     "creator": "Jorge Manrique",
     "type": "BOOK",
@@ -1200,11 +1217,12 @@
     },
     "sha256": "90ede6978502bc4a812a001e0be308b33214d9381605c35ec00d829e6a53367f",
     "sizeBytes": 92408,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49333)"
   },
   {
     "file": "libros/gutenberg-50027.epub",
-    "cover": "portadas/gutenberg-50027.png",
+    "cover": "portadas-originales/gutenberg-50027.jpg",
     "title": "El sí de las niñas",
     "creator": "Leandro Fernández de Moratín",
     "type": "BOOK",
@@ -1244,7 +1262,8 @@
     },
     "sha256": "26153b51deb1ee5ac8e565b2aba70934184e2d2f71f30f6590f079d168372cce",
     "sizeBytes": 114351,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/50027)"
   },
   {
     "file": "libros/gutenberg-14765.epub",
@@ -1292,7 +1311,7 @@
   },
   {
     "file": "libros/gutenberg-15066.epub",
-    "cover": "portadas/gutenberg-15066.png",
+    "cover": "portadas-originales/gutenberg-15066.jpg",
     "title": "La Vuelta de Martín Fierro",
     "creator": "José Hernández",
     "type": "BOOK",
@@ -1331,7 +1350,8 @@
     },
     "sha256": "483abd178348f6d15ae7312a6a3c60cc74293d6319bcb4f7703bf8754674133d",
     "sizeBytes": 145276,
-    "reviewNotes": "Violencia y expresiones racistas propias de la época."
+    "reviewNotes": "Violencia y expresiones racistas propias de la época.",
+    "coverCredit": "Escaneo «La vuelta de Martin Fierro - Jose Hernandez (2ed).pdf» (Wikimedia Commons, dominio público), fuente de la transcripción de Wikisource"
   },
   {
     "file": "libros/gutenberg-18600.epub",
@@ -1422,7 +1442,7 @@
   },
   {
     "file": "libros/gutenberg-75382.epub",
-    "cover": "portadas/gutenberg-75382.png",
+    "cover": "portadas-originales/gutenberg-75382.jpg",
     "title": "Pachín González",
     "creator": "José María de Pereda",
     "type": "BOOK",
@@ -1461,7 +1481,8 @@
     },
     "sha256": "01f49734bf232bc239afd2f5b9806ccec45926a1f36e54c240d363554256b355",
     "sizeBytes": 331868,
-    "reviewNotes": "Narra una catástrofe con víctimas."
+    "reviewNotes": "Narra una catástrofe con víctimas.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/75382)"
   },
   {
     "file": "libros/gutenberg-27900.epub",
@@ -1509,7 +1530,7 @@
   },
   {
     "file": "libros/gutenberg-65685.epub",
-    "cover": "portadas/gutenberg-65685.png",
+    "cover": "portadas-originales/gutenberg-65685.jpg",
     "title": "Libros de caballerías Selección",
     "creator": "Selección de Ramón María Tenreiro",
     "type": "BOOK",
@@ -1549,11 +1570,12 @@
     },
     "sha256": "dd368342cc4f9bdc4591042adbd99ca8aa00a3729ed0f8c9694feee78a6a141a",
     "sizeBytes": 334805,
-    "reviewNotes": "Combates caballerescos."
+    "reviewNotes": "Combates caballerescos.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/65685)"
   },
   {
     "file": "libros/gutenberg-46196.epub",
-    "cover": "portadas/gutenberg-46196.png",
+    "cover": "portadas-originales/gutenberg-46196.jpg",
     "title": "Cuentos Clásicos del Norte, Primera Serie",
     "creator": "Edgar Allan Poe",
     "type": "BOOK",
@@ -1593,11 +1615,12 @@
     },
     "sha256": "768d9a79ed178d02d1492341013c15f1ae99462d4e7934df9ab3da4932d7fe9e",
     "sizeBytes": 230637,
-    "reviewNotes": "Relatos de misterio y terror (muerte, crimen)."
+    "reviewNotes": "Relatos de misterio y terror (muerte, crimen).",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/46196)"
   },
   {
     "file": "libros/gutenberg-46496.epub",
-    "cover": "portadas/gutenberg-46496.png",
+    "cover": "portadas-originales/gutenberg-46496.jpg",
     "title": "Cuentos Clásicos del Norte, Segunda Serie",
     "creator": "Washington Irving, Edward Everett Hale, Nathaniel Hawthorne",
     "type": "BOOK",
@@ -1636,7 +1659,8 @@
     },
     "sha256": "d841c0246921db337260a28574b3054ad0a212386504e024811508350d1c145e",
     "sizeBytes": 270110,
-    "reviewNotes": "Algunos relatos con elementos sobrenaturales."
+    "reviewNotes": "Algunos relatos con elementos sobrenaturales.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/46496)"
   },
   {
     "file": "libros/gutenberg-29770.epub",
@@ -1684,7 +1708,7 @@
   },
   {
     "file": "libros/gutenberg-36546.epub",
-    "cover": "portadas/gutenberg-36546.png",
+    "cover": "portadas-originales/gutenberg-36546.jpg",
     "title": "Los pescadores de \"Trépang\"",
     "creator": "Emilio Salgari",
     "type": "BOOK",
@@ -1724,7 +1748,8 @@
     },
     "sha256": "cd78e370a51ff97cc97f9dfa19a01bbf5e38e7b91d9a7c420c49e1877babac01",
     "sizeBytes": 210955,
-    "reviewNotes": "Traducción anónima, Casa Editorial Calleja, Madrid 1916. Violencia y estereotipos raciales propios de las novelas de aventuras de la época."
+    "reviewNotes": "Traducción anónima, Casa Editorial Calleja, Madrid 1916. Violencia y estereotipos raciales propios de las novelas de aventuras de la época.",
+    "coverCredit": "Escaneo «Los pescadores de Trepang.djvu» (Wikimedia Commons, dominio público), fuente de la transcripción de Wikisource"
   },
   {
     "file": "libros/gutenberg-24801.epub",
@@ -2077,7 +2102,7 @@
   },
   {
     "file": "libros/gutenberg-61202.epub",
-    "cover": "portadas/gutenberg-61202.png",
+    "cover": "portadas-originales/gutenberg-61202.jpg",
     "title": "Novelas ejemplares",
     "creator": "Miguel de Cervantes Saavedra",
     "type": "BOOK",
@@ -2118,7 +2143,8 @@
     },
     "sha256": "9d8d60f4864275da2f92b33247586a0538901dbd574312e7c14fb5f16bed5b4c",
     "sizeBytes": 529918,
-    "reviewNotes": "Algunas novelas incluyen raptos o violencia."
+    "reviewNotes": "Algunas novelas incluyen raptos o violencia.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/61202)"
   },
   {
     "file": "libros/gutenberg-16110.epub",
@@ -2167,7 +2193,7 @@
   },
   {
     "file": "libros/gutenberg-12457.epub",
-    "cover": "portadas/gutenberg-12457.png",
+    "cover": "portadas-originales/gutenberg-12457.jpg",
     "title": "El Diablo Cojuelo",
     "creator": "Luis Vélez de Guevara",
     "type": "BOOK",
@@ -2207,7 +2233,8 @@
     },
     "sha256": "3aee3599b707b1d3a139e16a30b0ea8b24330a9ffd40465059284d0edbcec3fb",
     "sizeBytes": 329346,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo «El diablo cojuelo (1919).pdf» (Wikimedia Commons, dominio público), fuente de la transcripción de Wikisource"
   },
   {
     "file": "libros/gutenberg-32315.epub",
@@ -2300,7 +2327,7 @@
   },
   {
     "file": "libros/gutenberg-62691.epub",
-    "cover": "portadas/gutenberg-62691.png",
+    "cover": "portadas-originales/gutenberg-62691.jpg",
     "title": "El criticón (tomo 1 de 2)",
     "creator": "Baltasar Gracián y Morales",
     "type": "BOOK",
@@ -2340,11 +2367,12 @@
     },
     "sha256": "e40f122a83b040f44004c3f6ec6505894e9c8145630db51e93829a84e6a39dd4",
     "sizeBytes": 370420,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/62691)"
   },
   {
     "file": "libros/gutenberg-60198.epub",
-    "cover": "portadas/gutenberg-60198.png",
+    "cover": "portadas-originales/gutenberg-60198.jpg",
     "title": "Fuente Ovejuna",
     "creator": "Lope de Vega",
     "type": "BOOK",
@@ -2385,11 +2413,12 @@
     },
     "sha256": "2201de522eb151e48c908b827a16c3a393a84aaf57da2529edd15a539c8a11f6",
     "sizeBytes": 103321,
-    "reviewNotes": "Abuso de poder, violencia sexual implícita y tortura."
+    "reviewNotes": "Abuso de poder, violencia sexual implícita y tortura.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/60198)"
   },
   {
     "file": "libros/gutenberg-57590.epub",
-    "cover": "portadas/gutenberg-57590.png",
+    "cover": "portadas-originales/gutenberg-57590.jpg",
     "title": "La verdad sospechosa",
     "creator": "Juan Ruiz de Alarcón",
     "type": "BOOK",
@@ -2429,11 +2458,12 @@
     },
     "sha256": "34d39a8316c7a5f9ab5712bd921b75d93a781978b99b88fb4960856e8be54c0e",
     "sizeBytes": 144069,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/57590)"
   },
   {
     "file": "libros/gutenberg-77445.epub",
-    "cover": "portadas/gutenberg-77445.png",
+    "cover": "portadas-originales/gutenberg-77445.jpg",
     "title": "Las paredes oyen",
     "creator": "Juan Ruiz de Alarcón",
     "type": "BOOK",
@@ -2473,11 +2503,12 @@
     },
     "sha256": "83f740c13de59feb2d0862f1331a77e3e4ba86a3cbda546d5fd4ce30ba3c207c",
     "sizeBytes": 168480,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/77445)"
   },
   {
     "file": "libros/gutenberg-54436.epub",
-    "cover": "portadas/gutenberg-54436.png",
+    "cover": "portadas-originales/gutenberg-54436.jpg",
     "title": "Teatro selecto, tomo 1 de 4",
     "creator": "Pedro Calderón de la Barca",
     "type": "BOOK",
@@ -2518,11 +2549,12 @@
     },
     "sha256": "bdd95c2ff36a2434ebba0733b5f205360bc30d89f65b687a66c0f9737acaee89",
     "sizeBytes": 350716,
-    "reviewNotes": "Dramas de honor con violencia."
+    "reviewNotes": "Dramas de honor con violencia.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/54436)"
   },
   {
     "file": "libros/gutenberg-76276.epub",
-    "cover": "portadas/gutenberg-76276.png",
+    "cover": "portadas-originales/gutenberg-76276.jpg",
     "title": "El lindo don Diego",
     "creator": "Agustín Moreto",
     "type": "BOOK",
@@ -2562,11 +2594,12 @@
     },
     "sha256": "6c21b9735dd86502e9facaeef1270b6d4b8fe34d24f25b47bc518766d3995b80",
     "sizeBytes": 179877,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/76276)"
   },
   {
     "file": "libros/gutenberg-60147.epub",
-    "cover": "portadas/gutenberg-60147.png",
+    "cover": "portadas-originales/gutenberg-60147.jpg",
     "title": "Vida del escudero Marcos de Obregón",
     "creator": "Vicente Espinel",
     "type": "BOOK",
@@ -2606,11 +2639,12 @@
     },
     "sha256": "d1433936012463a2d8811d308b44bdf478cbd2e2514320ef8cb277707c401818",
     "sizeBytes": 494149,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/60147)"
   },
   {
     "file": "libros/gutenberg-74087.epub",
-    "cover": "portadas/gutenberg-74087.png",
+    "cover": "portadas-originales/gutenberg-74087.jpg",
     "title": "Obras selectas de la celebre monja de Mejico, sor Juana Ines de la Cruz",
     "creator": "Sor Juana Inés de la Cruz",
     "type": "BOOK",
@@ -2652,11 +2686,12 @@
     },
     "sha256": "8147497ebd86581b064bbe406f91101ff2ff919c82c79870213a855fd63b22d3",
     "sizeBytes": 318904,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/74087)"
   },
   {
     "file": "libros/gutenberg-50492.epub",
-    "cover": "portadas/gutenberg-50492.png",
+    "cover": "portadas-originales/gutenberg-50492.jpg",
     "title": "Historia de Gil Blas de Santillana: Novela (Vol 1 de 3)",
     "creator": "Alain René Le Sage",
     "type": "BOOK",
@@ -2695,11 +2730,12 @@
     },
     "sha256": "2b9004f918455a3f6d1bc8b4baf4dbcbbd249af09b1f91efc51817ffca1e8999",
     "sizeBytes": 299318,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/50492)"
   },
   {
     "file": "libros/gutenberg-52682.epub",
-    "cover": "portadas/gutenberg-52682.png",
+    "cover": "portadas-originales/gutenberg-52682.jpg",
     "title": "Historia de Gil Blas de Santillana: Novela (Vol 2 de 3)",
     "creator": "Alain René Le Sage",
     "type": "BOOK",
@@ -2738,11 +2774,12 @@
     },
     "sha256": "b742d3505eebe413eedb880257872a1c99df4744d053f52696d5af62ccc7168d",
     "sizeBytes": 316778,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/52682)"
   },
   {
     "file": "libros/gutenberg-55796.epub",
-    "cover": "portadas/gutenberg-55796.png",
+    "cover": "portadas-originales/gutenberg-55796.jpg",
     "title": "Historia de Gil Blas de Santillana: Novela (Vol 3 de 3)",
     "creator": "Alain René Le Sage",
     "type": "BOOK",
@@ -2781,7 +2818,8 @@
     },
     "sha256": "8ec446f46399db088ee430de83b97595b169e975fee1e79d157e7e666eff8d8e",
     "sizeBytes": 430365,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/55796)"
   },
   {
     "file": "libros/gutenberg-58261.epub",
@@ -2828,7 +2866,7 @@
   },
   {
     "file": "libros/gutenberg-60927.epub",
-    "cover": "portadas/gutenberg-60927.png",
+    "cover": "portadas-originales/gutenberg-60927.jpg",
     "title": "Comedias escogidas",
     "creator": "Leandro Fernández de Moratín, Molière",
     "type": "BOOK",
@@ -2867,11 +2905,12 @@
     },
     "sha256": "c50af9ddc77146f3e210a35c540e19e7d7bc189e17bd95227ea957aee84de2fb",
     "sizeBytes": 287591,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/60927)"
   },
   {
     "file": "libros/gutenberg-56454.epub",
-    "cover": "portadas/gutenberg-56454.png",
+    "cover": "portadas-originales/gutenberg-56454.jpg",
     "title": "Hamlet: Drama en cinco actos",
     "creator": "William Shakespeare",
     "type": "BOOK",
@@ -2911,7 +2950,8 @@
     },
     "sha256": "7d5eea3bda2bf3c6d20a497a00900d3ef5b56ff5ebf63cb3c231db4108b8b36a",
     "sizeBytes": 146842,
-    "reviewNotes": "Muertes violentas y suicidio."
+    "reviewNotes": "Muertes violentas y suicidio.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/56454)"
   },
   {
     "file": "libros/gutenberg-31541.epub",
@@ -2961,7 +3001,7 @@
   },
   {
     "file": "libros/gutenberg-59492.epub",
-    "cover": "portadas/gutenberg-59492.png",
+    "cover": "portadas-originales/gutenberg-59492.jpg",
     "title": "Don Álvaro, o, La fuerza del Sino",
     "creator": "Duque de Rivas",
     "type": "BOOK",
@@ -3002,11 +3042,12 @@
     },
     "sha256": "91d4b396192f70acbf9f9c4cac31c0409f486a60cbfe5f8444c4a37e17485155",
     "sizeBytes": 114027,
-    "reviewNotes": "Duelos, muertes y suicidio final."
+    "reviewNotes": "Duelos, muertes y suicidio final.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/59492)"
   },
   {
     "file": "libros/gutenberg-76073.epub",
-    "cover": "portadas/gutenberg-76073.png",
+    "cover": "portadas-originales/gutenberg-76073.jpg",
     "title": "Traidor, inconfeso y martir",
     "creator": "José Zorrilla",
     "type": "BOOK",
@@ -3046,11 +3087,12 @@
     },
     "sha256": "65d712b5d80d896e23207797d749d42db58a9940db162fff8c03cdf0345f804e",
     "sizeBytes": 184124,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/76073)"
   },
   {
     "file": "libros/gutenberg-70984.epub",
-    "cover": "portadas/gutenberg-70984.png",
+    "cover": "portadas-originales/gutenberg-70984.jpg",
     "title": "En las orillas del Sar",
     "creator": "Rosalía de Castro",
     "type": "BOOK",
@@ -3090,7 +3132,8 @@
     },
     "sha256": "96c3bca50edc2cb1f477382965bcefdb530ada63f70b0ff6366eb093af96ee0c",
     "sizeBytes": 232560,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/70984)"
   },
   {
     "file": "libros/gutenberg-23600.epub",
@@ -3181,7 +3224,7 @@
   },
   {
     "file": "libros/gutenberg-59154.epub",
-    "cover": "portadas/gutenberg-59154.png",
+    "cover": "portadas-originales/gutenberg-59154.jpg",
     "title": "El Niño de la Bola: Novela",
     "creator": "Pedro Antonio de Alarcón",
     "type": "BOOK",
@@ -3220,11 +3263,12 @@
     },
     "sha256": "eebff231e34d77bdbbba2ca9049120c90926ab5c1ac7381dc53af5d538e7df99",
     "sizeBytes": 266987,
-    "reviewNotes": "Final violento."
+    "reviewNotes": "Final violento.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/59154)"
   },
   {
     "file": "libros/gutenberg-61244.epub",
-    "cover": "portadas/gutenberg-61244.png",
+    "cover": "portadas-originales/gutenberg-61244.jpg",
     "title": "Cosas que fueron: Cuadros de costumbres",
     "creator": "Pedro Antonio de Alarcón",
     "type": "BOOK",
@@ -3263,11 +3307,12 @@
     },
     "sha256": "87bcb4f4924a43588fced47703fbc721a04ba3e34f1ba9f070b438957637db64",
     "sizeBytes": 214070,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/61244)"
   },
   {
     "file": "libros/gutenberg-67248.epub",
-    "cover": "portadas/gutenberg-67248.png",
+    "cover": "portadas-originales/gutenberg-67248.jpg",
     "title": "El clavo",
     "creator": "Pedro Antonio de Alarcón",
     "type": "BOOK",
@@ -3307,7 +3352,8 @@
     },
     "sha256": "3c3ec601aeac244094d0d8c5f5afa7e703679a31d2b40627e6ef5af0e25277c5",
     "sizeBytes": 135881,
-    "reviewNotes": "Crimen y pena de muerte."
+    "reviewNotes": "Crimen y pena de muerte.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67248)"
   },
   {
     "file": "libros/gutenberg-27214.epub",
@@ -3488,7 +3534,7 @@
   },
   {
     "file": "libros/gutenberg-66488.epub",
-    "cover": "portadas/gutenberg-66488.png",
+    "cover": "portadas-originales/gutenberg-66488.jpg",
     "title": "El abuelo (Novela en cinco jornadas)",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -3527,7 +3573,8 @@
     },
     "sha256": "203c451e177ec9cf96c3b8d7fa6aa9e1abfc64b1579fb4d3ea8ae635b76ebbef",
     "sizeBytes": 298482,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/66488)"
   },
   {
     "file": "libros/gutenberg-11070.epub",
@@ -3660,7 +3707,7 @@
   },
   {
     "file": "libros/gutenberg-55563.epub",
-    "cover": "portadas/gutenberg-55563.png",
+    "cover": "portadas-originales/gutenberg-55563.jpg",
     "title": "El amigo Manso",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -3699,7 +3746,8 @@
     },
     "sha256": "4af908f9f51bdbf53325aa35b90dbb121c85ea40895dc7def975dbeeea8ae69e",
     "sizeBytes": 344570,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/55563)"
   },
   {
     "file": "libros/gutenberg-28002.epub",
@@ -3746,7 +3794,7 @@
   },
   {
     "file": "libros/gutenberg-52392.epub",
-    "cover": "portadas/gutenberg-52392.png",
+    "cover": "portadas-originales/gutenberg-52392.jpg",
     "title": "Miau",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -3785,11 +3833,12 @@
     },
     "sha256": "d125695b6acc30ab0c66867fb6e1acde69e675c7ccb296f3dfba84a567126129",
     "sizeBytes": 322738,
-    "reviewNotes": "Final con suicidio."
+    "reviewNotes": "Final con suicidio.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/52392)"
   },
   {
     "file": "libros/gutenberg-73322.epub",
-    "cover": "portadas/gutenberg-73322.png",
+    "cover": "portadas-originales/gutenberg-73322.jpg",
     "title": "Nazarín",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -3828,11 +3877,12 @@
     },
     "sha256": "414858262fbc2d3bbb8ad0f592f2f30f33324e2345c4c8560ba1b829c9be1ffe",
     "sizeBytes": 314237,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/73322)"
   },
   {
     "file": "libros/gutenberg-67126.epub",
-    "cover": "portadas/gutenberg-67126.png",
+    "cover": "portadas-originales/gutenberg-67126.jpg",
     "title": "El caballero encantado (cuento real... inverosí­mil)",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -3871,7 +3921,8 @@
     },
     "sha256": "953a81afa642dd088b7f12dc8c4f9925ca8f0e09bec00081a69c75e10ae034f1",
     "sizeBytes": 351670,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67126)"
   },
   {
     "file": "libros/gutenberg-14311.epub",
@@ -3965,7 +4016,7 @@
   },
   {
     "file": "libros/gutenberg-49433.epub",
-    "cover": "portadas/gutenberg-49433.png",
+    "cover": "portadas-originales/gutenberg-49433.jpg",
     "title": "Zaragoza",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4006,11 +4057,12 @@
     },
     "sha256": "7387b74452805bad5153cec3d07df216c27e9ed4e9537e436e63826fa18d77cd",
     "sizeBytes": 230907,
-    "reviewNotes": "Escenas de guerra."
+    "reviewNotes": "Escenas de guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49433)"
   },
   {
     "file": "libros/gutenberg-67415.epub",
-    "cover": "portadas/gutenberg-67415.png",
+    "cover": "portadas-originales/gutenberg-67415.jpg",
     "title": "Gerona",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4051,11 +4103,12 @@
     },
     "sha256": "bb59c274caac2f8ec0137f5536c7f115da36f1b6160a2ca1d68caab76fbe0495",
     "sizeBytes": 267413,
-    "reviewNotes": "Escenas de guerra y hambre."
+    "reviewNotes": "Escenas de guerra y hambre.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67415)"
   },
   {
     "file": "libros/gutenberg-67155.epub",
-    "cover": "portadas/gutenberg-67155.png",
+    "cover": "portadas-originales/gutenberg-67155.jpg",
     "title": "La corte de Carlos IV",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4096,11 +4149,12 @@
     },
     "sha256": "65d58aedeed52d50e1c7d050c8a2037ed11b4054340845d55477cc96c52476b8",
     "sizeBytes": 286811,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67155)"
   },
   {
     "file": "libros/gutenberg-67189.epub",
-    "cover": "portadas/gutenberg-67189.png",
+    "cover": "portadas-originales/gutenberg-67189.jpg",
     "title": "El 19 de marzo y el 2 de mayo",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4141,11 +4195,12 @@
     },
     "sha256": "4bdacc7b75c4ea1647bf45eb14c16323cde013def383588031558cfa20c91b33",
     "sizeBytes": 292739,
-    "reviewNotes": "Escenas de guerra."
+    "reviewNotes": "Escenas de guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67189)"
   },
   {
     "file": "libros/gutenberg-67360.epub",
-    "cover": "portadas/gutenberg-67360.png",
+    "cover": "portadas-originales/gutenberg-67360.jpg",
     "title": "Napoleón en Chamartín",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4186,11 +4241,12 @@
     },
     "sha256": "8b67f3da3f671bfd0551a6a4e37b5b6c6bc648d577fc37dced773f57723c6ac5",
     "sizeBytes": 310433,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67360)"
   },
   {
     "file": "libros/gutenberg-67705.epub",
-    "cover": "portadas/gutenberg-67705.png",
+    "cover": "portadas-originales/gutenberg-67705.jpg",
     "title": "Juan Martín el Empecinado",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4231,11 +4287,12 @@
     },
     "sha256": "e0923329a90dc1a16eeb224b2cf1d2c94f6b504eb8fc8c4669e512598b7dc0f5",
     "sizeBytes": 286708,
-    "reviewNotes": "Escenas de guerra."
+    "reviewNotes": "Escenas de guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67705)"
   },
   {
     "file": "libros/gutenberg-67817.epub",
-    "cover": "portadas/gutenberg-67817.png",
+    "cover": "portadas-originales/gutenberg-67817.jpg",
     "title": "La batalla de los Arapiles",
     "creator": "Benito Pérez Galdós",
     "type": "BOOK",
@@ -4276,7 +4333,8 @@
     },
     "sha256": "dfdc5a580fa352366db15da15e43cc9f974f96c02bcf0158eaa7b21bfa5ce10b",
     "sizeBytes": 405639,
-    "reviewNotes": "Escenas de guerra."
+    "reviewNotes": "Escenas de guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67817)"
   },
   {
     "file": "libros/gutenberg-17073.epub",
@@ -4413,7 +4471,7 @@
   },
   {
     "file": "libros/gutenberg-55514.epub",
-    "cover": "portadas/gutenberg-55514.png",
+    "cover": "portadas-originales/gutenberg-55514.jpg",
     "title": "Cuentos de amor",
     "creator": "Emilia Pardo Bazán",
     "type": "BOOK",
@@ -4452,11 +4510,12 @@
     },
     "sha256": "1be1b0dd7ec2133149d1c54506305ab894e525edd1bf1e2bd9e1b890d95c9da9",
     "sizeBytes": 237591,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/55514)"
   },
   {
     "file": "libros/gutenberg-75814.epub",
-    "cover": "portadas/gutenberg-75814.png",
+    "cover": "portadas-originales/gutenberg-75814.jpg",
     "title": "En tranvía",
     "creator": "Emilia Pardo Bazán",
     "type": "BOOK",
@@ -4495,11 +4554,12 @@
     },
     "sha256": "b30623f0520f5a833bf21b6bd4b0f83050f68e706126e6d102ab07e53f105761",
     "sizeBytes": 279569,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/75814)"
   },
   {
     "file": "libros/gutenberg-49388.epub",
-    "cover": "portadas/gutenberg-49388.png",
+    "cover": "portadas-originales/gutenberg-49388.jpg",
     "title": "Sotileza",
     "creator": "José María de Pereda",
     "type": "BOOK",
@@ -4538,7 +4598,8 @@
     },
     "sha256": "b9e2e00221155f98d6c2dd8f2e7985e5eb7735023f18b511cde54a77089d762e",
     "sizeBytes": 390811,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49388)"
   },
   {
     "file": "libros/gutenberg-24127.epub",
@@ -4628,7 +4689,7 @@
   },
   {
     "file": "libros/gutenberg-53429.epub",
-    "cover": "portadas/gutenberg-53429.png",
+    "cover": "portadas-originales/gutenberg-53429.jpg",
     "title": "El sabor de la tierruca",
     "creator": "José María de Pereda",
     "type": "BOOK",
@@ -4667,7 +4728,8 @@
     },
     "sha256": "9cb390cfb66e42bbee3736391f99b4328a838b12a62b7ea5ae0054e72e190dd2",
     "sizeBytes": 325540,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/53429)"
   },
   {
     "file": "libros/gutenberg-31013.epub",
@@ -4843,7 +4905,7 @@
   },
   {
     "file": "libros/gutenberg-49413.epub",
-    "cover": "portadas/gutenberg-49413.png",
+    "cover": "portadas-originales/gutenberg-49413.jpg",
     "title": "El señor de Bembibre",
     "creator": "Enrique Gil y Carrasco",
     "type": "BOOK",
@@ -4883,7 +4945,8 @@
     },
     "sha256": "79e4d91a1bb3064211e852e47667e0c01890ada8cf59af4bddb66171ff068283",
     "sizeBytes": 416641,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49413)"
   },
   {
     "file": "libros/gutenberg-33275.epub",
@@ -4930,7 +4993,7 @@
   },
   {
     "file": "libros/gutenberg-44584.epub",
-    "cover": "portadas/gutenberg-44584.png",
+    "cover": "portadas-originales/gutenberg-44584.jpg",
     "title": "Los monfíes de las Alpujarras: novela original",
     "creator": "Manuel Fernández y González",
     "type": "BOOK",
@@ -4969,11 +5032,12 @@
     },
     "sha256": "2fc519728c37984a702191895641e6b25eb2a3d6e0a4e4e871148b55ffb9a573",
     "sizeBytes": 988543,
-    "reviewNotes": "Contiene escenas de violencia propias de la obra."
+    "reviewNotes": "Contiene escenas de violencia propias de la obra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/44584)"
   },
   {
     "file": "libros/gutenberg-49660.epub",
-    "cover": "portadas/gutenberg-49660.png",
+    "cover": "portadas-originales/gutenberg-49660.jpg",
     "title": "La alhambra; leyendas árabes",
     "creator": "Manuel Fernández y González",
     "type": "BOOK",
@@ -5012,7 +5076,8 @@
     },
     "sha256": "0c13392c44ff545634feb8a002fa8ca8d93cef1fd212d727583b5d968ad02b48",
     "sizeBytes": 563588,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49660)"
   },
   {
     "file": "libros/gutenberg-14944.epub",
@@ -5061,7 +5126,7 @@
   },
   {
     "file": "libros/gutenberg-66514.epub",
-    "cover": "portadas/gutenberg-66514.png",
+    "cover": "portadas-originales/gutenberg-66514.jpg",
     "title": "Cuentos valencianos",
     "creator": "Vicente Blasco Ibáñez",
     "type": "BOOK",
@@ -5100,7 +5165,8 @@
     },
     "sha256": "e61d24467284a34e20df7c3291b3a01bcc0421117c0f7c5a1131807fc4340118",
     "sizeBytes": 206655,
-    "reviewNotes": "Contiene escenas de violencia propias de la obra."
+    "reviewNotes": "Contiene escenas de violencia propias de la obra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/66514)"
   },
   {
     "file": "libros/gutenberg-24536.epub",
@@ -5191,7 +5257,7 @@
   },
   {
     "file": "libros/gutenberg-63810.epub",
-    "cover": "portadas/gutenberg-63810.png",
+    "cover": "portadas-originales/gutenberg-63810.jpg",
     "title": "La vuelta al mundo de un novelista; vol. 1/3",
     "creator": "Vicente Blasco Ibáñez",
     "type": "BOOK",
@@ -5230,11 +5296,12 @@
     },
     "sha256": "3489f1bd80e3e47fa7d397bb0adb3f22d75ccf21c54bf7b27e9787c390fcf16e",
     "sizeBytes": 340838,
-    "reviewNotes": "Visiones de otros pueblos con prejuicios de la época."
+    "reviewNotes": "Visiones de otros pueblos con prejuicios de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63810)"
   },
   {
     "file": "libros/gutenberg-63816.epub",
-    "cover": "portadas/gutenberg-63816.png",
+    "cover": "portadas-originales/gutenberg-63816.jpg",
     "title": "La vuelta al mundo de un novelista; vol. 2/3",
     "creator": "Vicente Blasco Ibáñez",
     "type": "BOOK",
@@ -5273,11 +5340,12 @@
     },
     "sha256": "ea65d7da598c563b56769ab59f3ae376d7f02af4525c5374d9b463a95d761d76",
     "sizeBytes": 342908,
-    "reviewNotes": "Visiones de otros pueblos con prejuicios de la época."
+    "reviewNotes": "Visiones de otros pueblos con prejuicios de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63816)"
   },
   {
     "file": "libros/gutenberg-49836.epub",
-    "cover": "portadas/gutenberg-49836.png",
+    "cover": "portadas-originales/gutenberg-49836.jpg",
     "title": "Niebla (Nivola)",
     "creator": "Miguel de Unamuno",
     "type": "BOOK",
@@ -5317,11 +5385,12 @@
     },
     "sha256": "cfa1f634252453f22bb4c042a6ac8d4a07e100518b4a346bc4f86f53aae716a1",
     "sizeBytes": 227072,
-    "reviewNotes": "Tema del suicidio."
+    "reviewNotes": "Tema del suicidio.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49836)"
   },
   {
     "file": "libros/gutenberg-44512.epub",
-    "cover": "portadas/gutenberg-44512.png",
+    "cover": "portadas-originales/gutenberg-44512.jpg",
     "title": "Abel Sánchez: Una Historia de Pasión",
     "creator": "Miguel de Unamuno",
     "type": "BOOK",
@@ -5360,7 +5429,8 @@
     },
     "sha256": "22c9b2f9d72058b3bee2c500f0f3ec7973a28988c53595fad266f81692d1ef60",
     "sizeBytes": 127917,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/44512)"
   },
   {
     "file": "libros/gutenberg-75472.epub",
@@ -5495,7 +5565,7 @@
   },
   {
     "file": "libros/gutenberg-72665.epub",
-    "cover": "portadas/gutenberg-72665.png",
+    "cover": "portadas-originales/gutenberg-72665.jpg",
     "title": "Romancero gitano",
     "creator": "Federico García Lorca",
     "type": "BOOK",
@@ -5535,7 +5605,8 @@
     },
     "sha256": "d29f8489e9ac8323e34012525e18eefda5f202bba7c7fb2e2d0eedd156b1b79d",
     "sizeBytes": 153259,
-    "reviewNotes": "Violencia y alusiones sexuales en algunos romances."
+    "reviewNotes": "Violencia y alusiones sexuales en algunos romances.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/72665)"
   },
   {
     "file": "libros/gutenberg-68745.epub",
@@ -5628,7 +5699,7 @@
   },
   {
     "file": "libros/gutenberg-49013.epub",
-    "cover": "portadas/gutenberg-49013.png",
+    "cover": "portadas-originales/gutenberg-49013.jpg",
     "title": "La venganza de Don Mendo",
     "creator": "Pedro Muñoz Seca",
     "type": "BOOK",
@@ -5668,11 +5739,12 @@
     },
     "sha256": "0b52701106777ab8ec6687e210b6dfafb21ad3ea7996f36ec22e24a09c584284",
     "sizeBytes": 154643,
-    "reviewNotes": "Muertes cómicas; humor de época."
+    "reviewNotes": "Muertes cómicas; humor de época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49013)"
   },
   {
     "file": "libros/gutenberg-53947.epub",
-    "cover": "portadas/gutenberg-53947.png",
+    "cover": "portadas-originales/gutenberg-53947.jpg",
     "title": "La señorita de Trevelez: Farsa cómica en tres actos",
     "creator": "Carlos Arniches y Barrera",
     "type": "BOOK",
@@ -5712,11 +5784,12 @@
     },
     "sha256": "41465c6d76577e61377b0931e209e357e09c2a59e36800f138e7e15fa06c45d8",
     "sizeBytes": 118198,
-    "reviewNotes": "Trata el acoso y la burla; útil para conversar sobre el respeto."
+    "reviewNotes": "Trata el acoso y la burla; útil para conversar sobre el respeto.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/53947)"
   },
   {
     "file": "libros/gutenberg-63019.epub",
-    "cover": "portadas/gutenberg-63019.png",
+    "cover": "portadas-originales/gutenberg-63019.jpg",
     "title": "Sainetes",
     "creator": "Carlos Arniches y Barrera",
     "type": "BOOK",
@@ -5756,11 +5829,12 @@
     },
     "sha256": "eab242316f61cca509fefb9766d744aff19234d7506ee97eff03b5ba5984471d",
     "sizeBytes": 297128,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63019)"
   },
   {
     "file": "libros/gutenberg-76793.epub",
-    "cover": "portadas/gutenberg-76793.png",
+    "cover": "portadas-originales/gutenberg-76793.jpg",
     "title": "Marcela, o ¿a cuál de los tres?",
     "creator": "Manuel Bretón de los Herreros",
     "type": "BOOK",
@@ -5800,11 +5874,12 @@
     },
     "sha256": "64fa0bf466a67a45decf626a99750661a0c60cf017ccfabca52beb76c775c229",
     "sizeBytes": 162015,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/76793)"
   },
   {
     "file": "libros/gutenberg-58331.epub",
-    "cover": "portadas/gutenberg-58331.png",
+    "cover": "portadas-originales/gutenberg-58331.jpg",
     "title": "Recuerdos de mi vida (tomo 1 de 2)",
     "creator": "Santiago Ramón y Cajal",
     "type": "BOOK",
@@ -5844,11 +5919,12 @@
     },
     "sha256": "44e797d21aa83caacb4a66b416919b4a8ffe4c51567ccddcc5594e0d4c147120",
     "sizeBytes": 323933,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/58331)"
   },
   {
     "file": "libros/gutenberg-60675.epub",
-    "cover": "portadas/gutenberg-60675.png",
+    "cover": "portadas-originales/gutenberg-60675.jpg",
     "title": "Recuerdos de mi vida (tomo 2 de 2)",
     "creator": "Santiago Ramón y Cajal",
     "type": "BOOK",
@@ -5888,11 +5964,12 @@
     },
     "sha256": "2c33a6a659d88f87f77e05d313c34813aedf2e65c7db3f8aadb86de073ec8b72",
     "sizeBytes": 515477,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/60675)"
   },
   {
     "file": "libros/gutenberg-66373.epub",
-    "cover": "portadas/gutenberg-66373.png",
+    "cover": "portadas-originales/gutenberg-66373.jpg",
     "title": "Reglas y consejos sobre investigación científica (Los tónicos de la voluntad)",
     "creator": "Santiago Ramón y Cajal",
     "type": "BOOK",
@@ -5932,7 +6009,8 @@
     },
     "sha256": "299ada91b84e46084513333a419cadb8a873b87926c29fe0844c32fb55709435",
     "sizeBytes": 274769,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/66373)"
   },
   {
     "file": "libros/gutenberg-47650.epub",
@@ -6335,7 +6413,7 @@
   },
   {
     "file": "libros/gutenberg-67197.epub",
-    "cover": "portadas/gutenberg-67197.png",
+    "cover": "portadas-originales/gutenberg-67197.jpg",
     "title": "Eneida; v. 2 de 2",
     "creator": "Virgilio",
     "type": "BOOK",
@@ -6376,7 +6454,8 @@
     },
     "sha256": "e2bc879fdd19e33851e3adeb88650c3b32db7f6d02986b71a7db05248dd4b7b8",
     "sizeBytes": 324665,
-    "reviewNotes": "Combates y muertes en batalla."
+    "reviewNotes": "Combates y muertes en batalla.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67197)"
   },
   {
     "file": "libros/gutenberg-14329.epub",
@@ -6553,7 +6632,7 @@
   },
   {
     "file": "libros/gutenberg-75126.epub",
-    "cover": "portadas/gutenberg-75126.png",
+    "cover": "portadas-originales/gutenberg-75126.jpg",
     "title": "Sab (novela original)",
     "creator": "Gertrudis Gómez de Avellaneda",
     "type": "BOOK",
@@ -6593,11 +6672,12 @@
     },
     "sha256": "5235e0a3563718c3110750c59fabcbb48bc1b97efbf4733dce9b855873bea910",
     "sizeBytes": 216665,
-    "reviewNotes": "Esclavitud y racismo."
+    "reviewNotes": "Esclavitud y racismo.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/75126)"
   },
   {
     "file": "libros/gutenberg-49560.epub",
-    "cover": "portadas/gutenberg-49560.png",
+    "cover": "portadas-originales/gutenberg-49560.jpg",
     "title": "Monja y casada, vírgen y mártir",
     "creator": "Vicente Riva Palacio",
     "type": "BOOK",
@@ -6636,7 +6716,8 @@
     },
     "sha256": "9759ebb8ef67748a9406b2259148b0a34262e9107598b9f36812621067825bf5",
     "sizeBytes": 437598,
-    "reviewNotes": "Inquisición, violencia."
+    "reviewNotes": "Inquisición, violencia.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49560)"
   },
   {
     "file": "libros/gutenberg-31724.epub",
@@ -6727,7 +6808,7 @@
   },
   {
     "file": "libros/gutenberg-63600.epub",
-    "cover": "portadas/gutenberg-63600.png",
+    "cover": "portadas-originales/gutenberg-63600.jpg",
     "title": "Una Excursión a los Indios Ranqueles - Tomo 1",
     "creator": "Lucio V. Mansilla",
     "type": "BOOK",
@@ -6767,11 +6848,12 @@
     },
     "sha256": "e69749e63208b8fb55b3bdf5d00497ba17ab6460e4a675925c67b91cb129e118",
     "sizeBytes": 512779,
-    "reviewNotes": "Mirada de la época sobre los pueblos indígenas; violencia de frontera."
+    "reviewNotes": "Mirada de la época sobre los pueblos indígenas; violencia de frontera.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63600)"
   },
   {
     "file": "libros/gutenberg-63767.epub",
-    "cover": "portadas/gutenberg-63767.png",
+    "cover": "portadas-originales/gutenberg-63767.jpg",
     "title": "Una excursión a los indios ranqueles - Tomo 2",
     "creator": "Lucio V. Mansilla",
     "type": "BOOK",
@@ -6811,11 +6893,12 @@
     },
     "sha256": "613f26624f62cb4b582c038f3e853839981467146bfa7e6b077e88b374acf534",
     "sizeBytes": 365298,
-    "reviewNotes": "Mirada de la época sobre los pueblos indígenas."
+    "reviewNotes": "Mirada de la época sobre los pueblos indígenas.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63767)"
   },
   {
     "file": "libros/gutenberg-53798.epub",
-    "cover": "portadas/gutenberg-53798.png",
+    "cover": "portadas-originales/gutenberg-53798.jpg",
     "title": "Ranchos (Costumbres del Campo)",
     "creator": "Javier de Viana",
     "type": "BOOK",
@@ -6854,11 +6937,12 @@
     },
     "sha256": "f54deb0d0c31bc114568add7d6501de81f7d32f8f2c912de7073443e60538241",
     "sizeBytes": 192045,
-    "reviewNotes": "Contiene escenas de violencia propias de la obra."
+    "reviewNotes": "Contiene escenas de violencia propias de la obra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/53798)"
   },
   {
     "file": "libros/gutenberg-60376.epub",
-    "cover": "portadas/gutenberg-60376.png",
+    "cover": "portadas-originales/gutenberg-60376.jpg",
     "title": "Cuentos de poeta",
     "creator": "Rufino Blanco-Fombona",
     "type": "BOOK",
@@ -6897,11 +6981,12 @@
     },
     "sha256": "5e4880d02a27bb8cc15f706279324b477deec2a24396193fc7bc089b0e5bd716",
     "sizeBytes": 160141,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/60376)"
   },
   {
     "file": "libros/gutenberg-62564.epub",
-    "cover": "portadas/gutenberg-62564.png",
+    "cover": "portadas-originales/gutenberg-62564.jpg",
     "title": "Oasis en la vida",
     "creator": "Juana Manuela Gorriti",
     "type": "BOOK",
@@ -6940,11 +7025,12 @@
     },
     "sha256": "735c3f3cb3e509c181143efefcf3748af1b770af50d7e47114996d9cbf414116",
     "sizeBytes": 148132,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/62564)"
   },
   {
     "file": "libros/gutenberg-63378.epub",
-    "cover": "portadas/gutenberg-63378.png",
+    "cover": "portadas-originales/gutenberg-63378.jpg",
     "title": "El corazón juglar",
     "creator": "Luis G. Urbina",
     "type": "BOOK",
@@ -6983,7 +7069,8 @@
     },
     "sha256": "58adc46e997a33b5a4c83e686d94a75dd0fe68634ece0f858f5ec69ba0faefab",
     "sizeBytes": 106153,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/63378)"
   },
   {
     "file": "libros/gutenberg-35407.epub",
@@ -7030,7 +7117,7 @@
   },
   {
     "file": "libros/gutenberg-75613.epub",
-    "cover": "portadas/gutenberg-75613.png",
+    "cover": "portadas-originales/gutenberg-75613.jpg",
     "title": "Cuentos de Fray Mocho",
     "creator": "José S. Álvarez («Fray Mocho»)",
     "type": "BOOK",
@@ -7070,11 +7157,12 @@
     },
     "sha256": "0d15903dd869ff5029ee8ba40cfaa961ea9059c7fc57fd6ac66f1c25c6784449",
     "sizeBytes": 291745,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/75613)"
   },
   {
     "file": "libros/gutenberg-64974.epub",
-    "cover": "portadas/gutenberg-64974.png",
+    "cover": "portadas-originales/gutenberg-64974.jpg",
     "title": "El Hombre Mediocre: Ensayo de psicologia y moral",
     "creator": "José Ingenieros",
     "type": "BOOK",
@@ -7113,7 +7201,8 @@
     },
     "sha256": "d57aa2b043d09ac511b3bd31158773fa205192db8442df51a97eaeadac229ce5",
     "sizeBytes": 290207,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/64974)"
   },
   {
     "file": "libros/gutenberg-73064.epub",
@@ -7160,7 +7249,7 @@
   },
   {
     "file": "libros/gutenberg-44918.epub",
-    "cover": "portadas/gutenberg-44918.png",
+    "cover": "portadas-originales/gutenberg-44918.jpg",
     "title": "Hombres y glorias de América",
     "creator": "Enrique Piñeyro",
     "type": "BOOK",
@@ -7200,11 +7289,12 @@
     },
     "sha256": "bd60c9927214723ad88429710c169eb9b5d9c292c9c71a138f64bbe2c165e632",
     "sizeBytes": 301662,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/44918)"
   },
   {
     "file": "libros/gutenberg-61739.epub",
-    "cover": "portadas/gutenberg-61739.png",
+    "cover": "portadas-originales/gutenberg-61739.jpg",
     "title": "Los exploradores españoles del siglo XVI",
     "creator": "Charles Fletcher Lummis",
     "type": "BOOK",
@@ -7243,11 +7333,12 @@
     },
     "sha256": "a34d44a4548c4e03ad4db8fdccf2b507a3991736f7626c7374ee0575f8b05601",
     "sizeBytes": 279122,
-    "reviewNotes": "Visión apologética de la conquista; contrastar con otras fuentes."
+    "reviewNotes": "Visión apologética de la conquista; contrastar con otras fuentes.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/61739)"
   },
   {
     "file": "libros/gutenberg-59879.epub",
-    "cover": "portadas/gutenberg-59879.png",
+    "cover": "portadas-originales/gutenberg-59879.jpg",
     "title": "Américo Vespucio",
     "creator": "G. Pérez Gomar",
     "type": "BOOK",
@@ -7287,11 +7378,12 @@
     },
     "sha256": "972d1d8ef06db5f173bcc2c66645cdfd8eb856ea68a6ebcb3356b18d65eb137d",
     "sizeBytes": 173620,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/59879)"
   },
   {
     "file": "libros/gutenberg-73179.epub",
-    "cover": "portadas/gutenberg-73179.png",
+    "cover": "portadas-originales/gutenberg-73179.jpg",
     "title": "Colon en Puerto-Rico",
     "creator": "Cayetano Coll y Toste",
     "type": "BOOK",
@@ -7330,11 +7422,12 @@
     },
     "sha256": "3d49e4100c07625de12f1b261792ca50703f87067cda40598a2a5fb272e25f38",
     "sizeBytes": 302926,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/73179)"
   },
   {
     "file": "libros/gutenberg-47584.epub",
-    "cover": "portadas/gutenberg-47584.png",
+    "cover": "portadas-originales/gutenberg-47584.jpg",
     "title": "Noli me tángere Novela Tagala, Edición completa con notas de R. Sempau",
     "creator": "José Rizal",
     "type": "BOOK",
@@ -7373,7 +7466,8 @@
     },
     "sha256": "f36cc74c9e94c345f7470ba622cb02bf23255c5f45f3d7c9e4fc70a07757f55e",
     "sizeBytes": 555045,
-    "reviewNotes": "Violencia, abusos coloniales y religiosos."
+    "reviewNotes": "Violencia, abusos coloniales y religiosos.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/47584)"
   },
   {
     "file": "libros/gutenberg-30903.epub",
@@ -7420,7 +7514,7 @@
   },
   {
     "file": "libros/gutenberg-64945.epub",
-    "cover": "portadas/gutenberg-64945.png",
+    "cover": "portadas-originales/gutenberg-64945.jpg",
     "title": "Verdadera historia de los sucesos de la conquista de la Nueva-España (1 de 3)",
     "creator": "Bernal Díaz del Castillo",
     "type": "BOOK",
@@ -7460,11 +7554,12 @@
     },
     "sha256": "7eb3d63cbddd9cdbfbb7c35e7edd4fc332cf22bc4776eaae87ac9f46be09b639",
     "sizeBytes": 473939,
-    "reviewNotes": "Crónica de la conquista: violencia y visión colonial."
+    "reviewNotes": "Crónica de la conquista: violencia y visión colonial.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/64945)"
   },
   {
     "file": "libros/gutenberg-64946.epub",
-    "cover": "portadas/gutenberg-64946.png",
+    "cover": "portadas-originales/gutenberg-64946.jpg",
     "title": "Verdadera historia de los sucesos de la conquista de la Nueva-España (2 de 3)",
     "creator": "Bernal Díaz del Castillo",
     "type": "BOOK",
@@ -7504,11 +7599,12 @@
     },
     "sha256": "e469faafccdaadcb3dd84fcce0b15afd4eb98808d11b87708149eb427dc38036",
     "sizeBytes": 422579,
-    "reviewNotes": "Crónica de la conquista: violencia y visión colonial."
+    "reviewNotes": "Crónica de la conquista: violencia y visión colonial.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/64946)"
   },
   {
     "file": "libros/gutenberg-64947.epub",
-    "cover": "portadas/gutenberg-64947.png",
+    "cover": "portadas-originales/gutenberg-64947.jpg",
     "title": "Verdadera historia de los sucesos de la conquista de la Nueva-España (3 de 3)",
     "creator": "Bernal Díaz del Castillo",
     "type": "BOOK",
@@ -7548,11 +7644,12 @@
     },
     "sha256": "93ee56f5a4c3c755639eb42b43ebe850a9049106da2ca5915b49a1bea5563052",
     "sizeBytes": 324793,
-    "reviewNotes": "Crónica de la conquista: violencia y visión colonial."
+    "reviewNotes": "Crónica de la conquista: violencia y visión colonial.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/64947)"
   },
   {
     "file": "libros/gutenberg-49298.epub",
-    "cover": "portadas/gutenberg-49298.png",
+    "cover": "portadas-originales/gutenberg-49298.jpg",
     "title": "Historia de las Indias (vol. 1 de 5)",
     "creator": "Bartolomé de las Casas",
     "type": "BOOK",
@@ -7592,7 +7689,8 @@
     },
     "sha256": "ebdbffc01bfff92a4c7b44be933673f67b03b1d9cf8c5b57f333726043bd01b6",
     "sizeBytes": 569863,
-    "reviewNotes": "Describe violencia de la conquista."
+    "reviewNotes": "Describe violencia de la conquista.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49298)"
   },
   {
     "file": "libros/gutenberg-25255.epub",
@@ -7684,7 +7782,7 @@
   },
   {
     "file": "libros/gutenberg-70219.epub",
-    "cover": "portadas/gutenberg-70219.png",
+    "cover": "portadas-originales/gutenberg-70219.jpg",
     "title": "Historia natural y moral de las Indias (vol. 1 of 2)",
     "creator": "José de Acosta",
     "type": "BOOK",
@@ -7725,11 +7823,12 @@
     },
     "sha256": "79e132e32b531f612fa0aac60725789670cbe502390e53e795e100c6b7227062",
     "sizeBytes": 502001,
-    "reviewNotes": "Visión colonial y religiosa de la época."
+    "reviewNotes": "Visión colonial y religiosa de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/70219)"
   },
   {
     "file": "libros/gutenberg-50430.epub",
-    "cover": "portadas/gutenberg-50430.png",
+    "cover": "portadas-originales/gutenberg-50430.jpg",
     "title": "Historia natural y moral de las Indias (vol. 2 of 2)",
     "creator": "José de Acosta",
     "type": "BOOK",
@@ -7770,11 +7869,12 @@
     },
     "sha256": "5121bdc42c5ad247dafdde77755c9864f63c1f0bf5552415faa0389a436fa5cf",
     "sizeBytes": 356560,
-    "reviewNotes": "Visión colonial y religiosa de la época."
+    "reviewNotes": "Visión colonial y religiosa de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/50430)"
   },
   {
     "file": "libros/gutenberg-73500.epub",
-    "cover": "portadas/gutenberg-73500.png",
+    "cover": "portadas-originales/gutenberg-73500.jpg",
     "title": "Obras dramáticas de Eurípides (1 de 3)",
     "creator": "Eurípides",
     "type": "BOOK",
@@ -7814,11 +7914,12 @@
     },
     "sha256": "365c6b4328f3a7d44fa218a82c6c7f078b3e3c738a55531aef071f50496c8b7d",
     "sizeBytes": 443269,
-    "reviewNotes": "Tragedias griegas con violencia y muerte."
+    "reviewNotes": "Tragedias griegas con violencia y muerte.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/73500)"
   },
   {
     "file": "libros/gutenberg-74704.epub",
-    "cover": "portadas/gutenberg-74704.png",
+    "cover": "portadas-originales/gutenberg-74704.jpg",
     "title": "Obras dramáticas de Eurípides (2 de 3)",
     "creator": "Eurípides",
     "type": "BOOK",
@@ -7858,11 +7959,12 @@
     },
     "sha256": "5e2efc0202002a07598f4bbe4aa1515d43b3b3d0a09e39fee1da462b5d43a95c",
     "sizeBytes": 407882,
-    "reviewNotes": "Tragedias griegas con violencia y muerte."
+    "reviewNotes": "Tragedias griegas con violencia y muerte.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/74704)"
   },
   {
     "file": "libros/gutenberg-75775.epub",
-    "cover": "portadas/gutenberg-75775.png",
+    "cover": "portadas-originales/gutenberg-75775.jpg",
     "title": "Obras dramáticas de Eurípides (3 de 3)",
     "creator": "Eurípides",
     "type": "BOOK",
@@ -7902,11 +8004,12 @@
     },
     "sha256": "e6a8695d221747ebf4628ab2685874fb85264eb0721f757783834d3b4c82a4a0",
     "sizeBytes": 377102,
-    "reviewNotes": "Tragedias griegas con violencia y muerte."
+    "reviewNotes": "Tragedias griegas con violencia y muerte.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/75775)"
   },
   {
     "file": "libros/gutenberg-72753.epub",
-    "cover": "portadas/gutenberg-72753.png",
+    "cover": "portadas-originales/gutenberg-72753.jpg",
     "title": "Los nueve libros de la Historia (1 de 2)",
     "creator": "Heródoto",
     "type": "BOOK",
@@ -7945,11 +8048,12 @@
     },
     "sha256": "e0f27b7ca8225cf092bb66dc79502e3a12233c75bce5214fd29661737d11eeb5",
     "sizeBytes": 537655,
-    "reviewNotes": "Guerras y costumbres antiguas."
+    "reviewNotes": "Guerras y costumbres antiguas.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/72753)"
   },
   {
     "file": "libros/gutenberg-72754.epub",
-    "cover": "portadas/gutenberg-72754.png",
+    "cover": "portadas-originales/gutenberg-72754.jpg",
     "title": "Los nueve libros de la Historia (2 de 2)",
     "creator": "Heródoto",
     "type": "BOOK",
@@ -7988,11 +8092,12 @@
     },
     "sha256": "fecdc04798b3708476bb9e6a03cbcbcbefc31bb1dabf9a75ecdc459b9a89b416",
     "sizeBytes": 502297,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/72754)"
   },
   {
     "file": "libros/gutenberg-57303.epub",
-    "cover": "portadas/gutenberg-57303.png",
+    "cover": "portadas-originales/gutenberg-57303.jpg",
     "title": "La Divina Comedia",
     "creator": "Dante Alighieri",
     "type": "BOOK",
@@ -8032,7 +8137,8 @@
     },
     "sha256": "a117bb9712f66fbff2d5b6a1003da9243a129b19c4baa206c02e6547f3680d97",
     "sizeBytes": 507609,
-    "reviewNotes": "Castigos infernales descritos con crudeza."
+    "reviewNotes": "Castigos infernales descritos con crudeza.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/57303)"
   },
   {
     "file": "libros/gutenberg-46201.epub",
@@ -8079,7 +8185,7 @@
   },
   {
     "file": "libros/gutenberg-49063.epub",
-    "cover": "portadas/gutenberg-49063.png",
+    "cover": "portadas-originales/gutenberg-49063.jpg",
     "title": "Orlando Furioso, Tomo II",
     "creator": "Lodovico Ariosto",
     "type": "BOOK",
@@ -8118,11 +8224,12 @@
     },
     "sha256": "dd14c3bd70ce7e39e3a62899e59a1b6505e11dfb11e23ab1e37bca52fa82af21",
     "sizeBytes": 505409,
-    "reviewNotes": "Combates caballerescos y episodios amorosos."
+    "reviewNotes": "Combates caballerescos y episodios amorosos.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49063)"
   },
   {
     "file": "libros/gutenberg-68566.epub",
-    "cover": "portadas/gutenberg-68566.png",
+    "cover": "portadas-originales/gutenberg-68566.jpg",
     "title": "Fausto: Primera parte",
     "creator": "Johann Wolfgang von Goethe",
     "type": "BOOK",
@@ -8162,11 +8269,12 @@
     },
     "sha256": "eda1f80ec9770513fdb2fb2621032be27d36b695bc24e1ce597780d106ede6e7",
     "sizeBytes": 509756,
-    "reviewNotes": "Pacto diabólico, muerte, infanticidio."
+    "reviewNotes": "Pacto diabólico, muerte, infanticidio.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/68566)"
   },
   {
     "file": "libros/gutenberg-53207.epub",
-    "cover": "portadas/gutenberg-53207.png",
+    "cover": "portadas-originales/gutenberg-53207.jpg",
     "title": "Dramas de Guillermo Shakspeare [vol. 1]",
     "creator": "William Shakespeare",
     "type": "BOOK",
@@ -8205,11 +8313,12 @@
     },
     "sha256": "de2ce5bf6c7e87174cdc32d8216e2695a9f88010f5315ad063759aaca6c4422d",
     "sizeBytes": 328378,
-    "reviewNotes": "Tragedias con violencia y muerte."
+    "reviewNotes": "Tragedias con violencia y muerte.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/53207)"
   },
   {
     "file": "libros/gutenberg-67092.epub",
-    "cover": "portadas/gutenberg-67092.png",
+    "cover": "portadas-originales/gutenberg-67092.jpg",
     "title": "El paraíso perdido",
     "creator": "John Milton",
     "type": "BOOK",
@@ -8248,11 +8357,12 @@
     },
     "sha256": "aa251ab6f6cb2f0d013f2e4cfad9020237bdf0342e093fe091ee974d3b88b600",
     "sizeBytes": 613140,
-    "reviewNotes": "Tema religioso; la versión con imágenes contiene grabados de Doré (†1883); se usó la versión sin imágenes."
+    "reviewNotes": "Tema religioso; la versión con imágenes contiene grabados de Doré (†1883); se usó la versión sin imágenes.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67092)"
   },
   {
     "file": "libros/gutenberg-49258.epub",
-    "cover": "portadas/gutenberg-49258.png",
+    "cover": "portadas-originales/gutenberg-49258.jpg",
     "title": "Crónica de la conquista de Granada (1 de 2)",
     "creator": "Washington Irving",
     "type": "BOOK",
@@ -8291,11 +8401,12 @@
     },
     "sha256": "849d081bc7ad72d9bb972e5df8d8b5d52596f70149ba34233aae046e4fd26351",
     "sizeBytes": 264969,
-    "reviewNotes": "Guerra."
+    "reviewNotes": "Guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49258)"
   },
   {
     "file": "libros/gutenberg-49259.epub",
-    "cover": "portadas/gutenberg-49259.png",
+    "cover": "portadas-originales/gutenberg-49259.jpg",
     "title": "Crónica de la conquista de Granada (2 de 2)",
     "creator": "Washington Irving",
     "type": "BOOK",
@@ -8334,11 +8445,12 @@
     },
     "sha256": "4afa5e134b8ccc2b8e8f2082c24929302d3a79a72ce2e76fc5443151b1e883dc",
     "sizeBytes": 261006,
-    "reviewNotes": "Guerra."
+    "reviewNotes": "Guerra.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/49259)"
   },
   {
     "file": "libros/gutenberg-67819.epub",
-    "cover": "portadas/gutenberg-67819.png",
+    "cover": "portadas-originales/gutenberg-67819.jpg",
     "title": "Bug-Jargal",
     "creator": "Victor Hugo",
     "type": "BOOK",
@@ -8377,11 +8489,12 @@
     },
     "sha256": "0731be94108121b135f02514522e2554e4c6cfbdd376cc44ccaa2e6dd94734a6",
     "sizeBytes": 338359,
-    "reviewNotes": "Esclavitud, violencia; representación racial propia de la época."
+    "reviewNotes": "Esclavitud, violencia; representación racial propia de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/67819)"
   },
   {
     "file": "libros/gutenberg-65486.epub",
-    "cover": "portadas/gutenberg-65486.png",
+    "cover": "portadas-originales/gutenberg-65486.jpg",
     "title": "Dramas (1 de 2): Hernani; El Rey se divierte; Los Burgraves",
     "creator": "Victor Hugo",
     "type": "BOOK",
@@ -8420,11 +8533,12 @@
     },
     "sha256": "88a460b9a39f80fa4a3dac35c18d643785fa42dd3388f810735a9e4a9f23aee2",
     "sizeBytes": 342302,
-    "reviewNotes": "Dramas románticos con muertes violentas."
+    "reviewNotes": "Dramas románticos con muertes violentas.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/65486)"
   },
   {
     "file": "libros/gutenberg-65584.epub",
-    "cover": "portadas/gutenberg-65584.png",
+    "cover": "portadas-originales/gutenberg-65584.jpg",
     "title": "Dramas (2 de 2): Lucrecia Borgia; María Tudor; La Esmeralda; Ruy Blas",
     "creator": "Victor Hugo",
     "type": "BOOK",
@@ -8463,11 +8577,12 @@
     },
     "sha256": "51a02d8187184233f9888c756ed27cf29e7bb56fbce761eea2a8de85368485bd",
     "sizeBytes": 364670,
-    "reviewNotes": "Dramas románticos con muertes violentas."
+    "reviewNotes": "Dramas románticos con muertes violentas.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/65584)"
   },
   {
     "file": "libros/gutenberg-74908.epub",
-    "cover": "portadas/gutenberg-74908.png",
+    "cover": "portadas-originales/gutenberg-74908.jpg",
     "title": "Cuentos escogidos",
     "creator": "Guy de Maupassant",
     "type": "BOOK",
@@ -8506,11 +8621,12 @@
     },
     "sha256": "44fcbc792e895323a7f7e72d687460f0d9ecb5a078f97209418de13fbccd42a4",
     "sizeBytes": 417624,
-    "reviewNotes": "Algunos cuentos tratan guerra, muerte y temas adultos."
+    "reviewNotes": "Algunos cuentos tratan guerra, muerte y temas adultos.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/74908)"
   },
   {
     "file": "libros/gutenberg-57505.epub",
-    "cover": "portadas/gutenberg-57505.png",
+    "cover": "portadas-originales/gutenberg-57505.jpg",
     "title": "El tratado de la pintura",
     "creator": "Leonardo da Vinci, Leon Battista Alberti",
     "type": "BOOK",
@@ -8550,11 +8666,12 @@
     },
     "sha256": "54269bcaa5341f05af68c2bd6156d5974924d51b6e5a9c8a5d8dfaa2feb30ece",
     "sizeBytes": 233728,
-    "reviewNotes": null
+    "reviewNotes": null,
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/57505)"
   },
   {
     "file": "libros/gutenberg-51019.epub",
-    "cover": "portadas/gutenberg-51019.png",
+    "cover": "portadas-originales/gutenberg-51019.jpg",
     "title": "La Biblia en España, Tomo I (de 3) O viajes, aventuras y prisiones de un inglés en su intento de difundir las Escrituras por la Península",
     "creator": "George Borrow",
     "type": "BOOK",
@@ -8594,7 +8711,8 @@
     },
     "sha256": "b489448a6efb0cbfc72c12e6afdf5dcff5e10560fff2d004752bb125a5efe01c",
     "sizeBytes": 294852,
-    "reviewNotes": "Perspectiva protestante crítica con la Iglesia católica; estereotipos de la época."
+    "reviewNotes": "Perspectiva protestante crítica con la Iglesia católica; estereotipos de la época.",
+    "coverCredit": "Escaneo de la edición original incluido en el EPUB de Project Gutenberg (https://www.gutenberg.org/ebooks/51019)"
   },
   {
     "file": "libros/gutenberg-5985.epub",

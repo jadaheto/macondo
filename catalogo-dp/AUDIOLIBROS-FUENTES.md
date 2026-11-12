@@ -162,3 +162,7 @@ Scripts: `_tools/audio-fetch-details.sh`, `_tools/audio-show.py`, `_tools/audio-
 - Lote 2: 18 cuentos populares de Laval tienen descripción genérica (basada en el título); conviene escucharlos o leerlos (Project Gutenberg #63424) antes de publicar.
 - Escucha de control de los archivos concatenados (las transiciones entre secciones no se revisaron de oído).
 - Descripciones redactadas sin escuchar los audios: se basan en el conocimiento de las obras y en los títulos de sección; conviene cotejarlas.
+
+## Portadas (2026-11-11)
+
+Los 100 audiolibros usan ahora el **arte del proyecto publicado por LibriVox en archive.org** (`url_iarchive` de la API → JPG del ítem que no es miniatura ni forma de onda), de dominio público por las normas de LibriVox; 41 proyectos, de modo que las secciones de una misma obra comparten portada. Son imágenes de 300 × 300 px; se sirven normalizadas a JPEG. Procedencia en `coverCredit` de `audiolibros.manifest.json`. Ver ADR-019.

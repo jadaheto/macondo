@@ -115,16 +115,20 @@ El contenido no viaja en el ZIP del código (pesa ≈4,4 GB). Se entrega aparte 
 
 ```bash
 # 1. Copiar la carpeta del paquete al servidor (scp/rsync) y entrar en ella
-# 2. Identificar contenedor de Postgres y volumen de /app/storage del proyecto
+# 2. Identificar el contenedor de la app y el volumen montado en /app/storage
 docker ps --format '{{.Names}}' | grep macondo
 docker volume ls --format '{{.Name}}' | grep macondo
-# 3. Detener la API, restaurar y volver a arrancar
-docker stop <contenedor_macondo-api>
-sh restore-content.sh <contenedor_macondo-db> <volumen_storage> .
-docker start <contenedor_macondo-api>
+# 3. Detener la app, restaurar y volver a arrancar
+docker stop <contenedor_app>
+#    a) Postgres como contenedor del proyecto:
+sh restore-content.sh <contenedor_postgres> <volumen_storage> .
+#    b) Postgres externo o publicado en el host (la misma DATABASE_URL del Environment, con o sin ?schema=public):
+sh restore-content.sh 'postgresql://usuario:clave@127.0.0.1:5432/macondo' <volumen_storage> .
+docker start <contenedor_app>
 ```
 
-Comprueba luego `https://<dominio>/api/health` y que `/catalogo` muestre 570 recursos.
+Verificado el 2026-11-11 con el modo URL contra un Postgres de prueba: 51 s, 2797 archivos (4,4 GB), 570 publicados + 80
+retirados, 2 usuarios, 102 retos. Comprueba luego `https://<dominio>/api/health` y que `/catalogo` muestre 570 recursos.
 El dump incluye los usuarios `admin@macondo.local` y `bibliotecaria@macondo.local` con las claves de desarrollo:
 **cámbialas desde `/admin` tras el primer acceso** y pon `SEED_ON_START=false`.
 

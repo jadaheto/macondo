@@ -41,6 +41,8 @@ Detalle completo, URL, fecha y SHA-256: `demo-content/SOURCES.md`.
 
 Portadas: 8 diseños propios (`demo-content/covers/*.png`), sin imágenes de terceros. Las portadas escaneadas de las ediciones Gutenberg de *Fábulas* y *Azul...* se retiraron por no poder verificar los derechos de sus ilustradores.
 
+**Portadas del catálogo (2026-11-11, ADR-019):** 254 recursos llevan una portada original de dominio público: escaneo de la edición de época incluido en el EPUB de Gutenberg (140), arte del proyecto LibriVox (100) o página del escaneo de Commons del que se transcribió el texto de Wikisource (14). Cada manifiesto registra la procedencia en `coverCredit`; `catalogo-dp/portadas-originales/exclusiones.json` lista las 39 descartadas y el motivo (diseñador con derechos vigentes, cubierta moderna del transcriptor, página sin portada). El resto conserva las portadas tipográficas propias.
+
 ## Voz sintética de la biblioteca (ADR-017)
 
 - Las narraciones regrabadas desde el panel («Regrabar con la voz de la biblioteca») usan **Piper `es_ES-davefx-medium`**: motor Piper 1.8.0 (GPL-3, ejecutado como proceso aparte) y voz entrenada con datos **CC0** (`MODEL_CARD`: dataset OHF-Voice, afinada a partir de la voz inglesa *lessac*). El crédito se escribe automáticamente en `narrator`: **«Voz sintética Piper es_ES-davefx-medium (datos CC0)»** (`TTS_VOICE_CREDIT`).

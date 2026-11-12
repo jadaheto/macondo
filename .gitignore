@@ -41,3 +41,9 @@ entregables/
 _tmp/
 __pycache__/
 *.pyc
+
+# Portadas originales (binarios; se regeneran con _tools/portadas-originales.mjs). Se versionan estado.json y exclusiones.json
+catalogo-dp/portadas-originales/*.jpg
+catalogo-dp/portadas-originales/_raw/
+catalogo-dp/portadas-originales/_revision/
+catalogo-dp/portadas-tipograficas/
