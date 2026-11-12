@@ -46,6 +46,24 @@ export interface CuentosConfig {
   timeoutMs: number;
   /** Narrar automáticamente el cuento con la voz de la biblioteca (ADR-017) si el motor está disponible. */
   audio: boolean;
+  /** Ilustración con IA (ADR-020). */
+  imagenes: ImagenesConfig;
+}
+
+export interface ImagenesConfig {
+  /** CUENTOS_IMAGENES=false desactiva la ilustración (el cuento sigue con portada tipográfica). */
+  enabled: boolean;
+  /** IMAGENES_PROVEEDOR: pollinations (gratuito, por defecto) | huggingface (de pago, con token) | none. */
+  proveedor: 'pollinations' | 'huggingface' | 'none';
+  /** Pollinations: URL base; `nologo`/`safe` se añaden siempre. Sin clave (anónimo) o con IMAGENES_POLLINATIONS_TOKEN. */
+  pollinationsUrl: string;
+  pollinationsToken: string;
+  /** Hugging Face Inference Providers: URL del modelo de texto→imagen y token (nunca se registran). */
+  huggingfaceUrl: string;
+  huggingfaceToken: string;
+  /** Tiempo máximo por imagen (ms) y separación mínima entre peticiones (ms; Pollinations anónimo limita a 1 cada ~15 s). */
+  timeoutMs: number;
+  intervaloMs: number;
 }
 
 export interface TtsConfig {
@@ -108,6 +126,16 @@ export function readConfig(): AppConfig {
       deepseekUrl: env.DEEPSEEK_URL?.trim() || 'https://api.deepseek.com/chat/completions',
       timeoutMs: int(env.CUENTOS_TIMEOUT_MS, 60_000),
       audio: (env.CUENTOS_AUDIO ?? 'true').toLowerCase() !== 'false',
+      imagenes: {
+        enabled: (env.CUENTOS_IMAGENES ?? 'true').toLowerCase() !== 'false',
+        proveedor: (['pollinations', 'huggingface', 'none'] as const).find((p) => p === (env.IMAGENES_PROVEEDOR ?? 'pollinations').trim().toLowerCase()) ?? 'pollinations',
+        pollinationsUrl: env.IMAGENES_POLLINATIONS_URL?.trim() || 'https://image.pollinations.ai/prompt/',
+        pollinationsToken: (env.IMAGENES_POLLINATIONS_TOKEN ?? '').trim(),
+        huggingfaceUrl: env.IMAGENES_HF_URL?.trim() || 'https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell',
+        huggingfaceToken: (env.HUGGINGFACE_TOKEN ?? env.HF_TOKEN ?? '').trim(),
+        timeoutMs: int(env.IMAGENES_TIMEOUT_MS, 90_000),
+        intervaloMs: int(env.IMAGENES_INTERVALO_MS, 15_000),
+      },
     },
   };
 }

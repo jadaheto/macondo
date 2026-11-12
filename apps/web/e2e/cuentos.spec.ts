@@ -73,7 +73,8 @@ test('asistente completo: creadores → lugar → enseñanza → generando → r
   expect(posted).toMatchObject({ banda: '1-3', autorNombre: 'Sofía', protagonista: 'Lía', tipo: 'nino', lugar: 'covenas', valor: 'amistad' });
   expect(typeof posted!.deviceId).toBe('string');
   await expect(page.getByText('Escrito por Sofía con ayuda del taller')).toBeVisible();
-  await expect(page.getByTestId('cuento-portada')).toBeVisible();
+  // Portada tipográfica o, si el proveedor de imágenes respondió, la ilustración con IA (ADR-020).
+  await expect(page.getByTestId('cuento-portada').or(page.getByTestId('cuento-ilustracion')).first()).toBeVisible();
   await expect(page.getByText('Tomás y Lía halan juntos: ¡uno, dos, tres!')).toBeVisible();
   await expect(page.getByTestId('cuento-audio')).toBeVisible({ timeout: 15_000 });
   await expect(page.getByText(/quedó en la biblioteca para que la bibliotecaria lo revise/)).toBeVisible();

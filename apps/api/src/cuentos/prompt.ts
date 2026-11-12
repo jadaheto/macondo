@@ -1,4 +1,4 @@
-import { CUENTO_LIMITES, CUENTO_OPCIONES, type CuentoOpciones, type GradeBand } from '@macondo/shared';
+import { CUENTO_LIMITES, CUENTO_OPCIONES, type CuentoLugar, type CuentoOpciones, type CuentoTipo, type CuentoValor, type GradeBand } from '@macondo/shared';
 
 /**
  * Prompts fijos del Taller de cuentos (ADR-018). Al proveedor solo llegan: banda, opciones cerradas (tipo, lugar,
@@ -72,4 +72,40 @@ Corrige eso. Devuelve ÚNICAMENTE el objeto JSON con las claves exactas (titulo,
 
 export function maxTokensFor(banda: GradeBand): number {
   return banda === '1-3' ? 1800 : 2600;
+}
+
+/* ───────────── Ilustración (ADR-020) ───────────── */
+
+const IMG_TIPO: Record<CuentoTipo, string> = {
+  nino: 'a cheerful Colombian child with a small backpack (gender not specified, round friendly face)',
+  animal: 'a clever friendly animal character (a small coastal animal with bright expressive eyes)',
+  robot: 'a curious friendly little robot with round eyes and a small antenna',
+  leyenda: 'a gentle legendary creature from Caribbean folk tales, luminous and kind, not scary',
+};
+const IMG_LUGAR: Record<CuentoLugar, string> = {
+  covenas: 'on a sunny Caribbean beach in Coveñas, Colombia, with coconut palms and colorful fishing boats',
+  mojana: 'among the wetlands of La Mojana, Colombia, with water lilies, herons, canoes and tall grasses',
+  sincelejo: 'in a lively town square of Sincelejo, Colombia, with colonial houses, a church tower and a market with hats',
+  espacio: 'inside a bright space station with big windows showing Earth and the stars',
+};
+const IMG_VALOR: Record<CuentoValor, string> = {
+  amistad: 'sharing a moment of friendship with a companion',
+  valentia: 'bravely taking a first step with a hopeful smile',
+  curiosidad: 'curiously looking at something wonderful with a magnifying glass',
+  cuidado: 'gently caring for a small plant or animal',
+};
+
+/**
+ * Descripción para el proveedor de imágenes. SOLO opciones cerradas: nunca el nombre del protagonista, del autor
+ * ni el texto del cuento (el niño no puede influir en la imagen con texto libre). Inglés porque los modelos de
+ * imagen responden mejor; estilo de libro infantil, sin texto en la imagen.
+ */
+export function imagePrompt(o: Pick<CuentoOpciones, 'tipo' | 'lugar' | 'valor'>): string {
+  // El personaje va PRIMERO: FLUX (pocos pasos) tiende a omitir el sujeto si el estilo encabeza la descripción (probado el 2026-11-12).
+  const sujeto = IMG_TIPO[o.tipo].replace(/^a /, 'A ');
+  return [
+    `${sujeto} ${IMG_VALOR[o.valor]}, ${IMG_LUGAR[o.lugar]}`,
+    "Children's picture book illustration, soft watercolor and gouache, warm gentle colors, wholesome and friendly",
+    'daylight, wide shot, simple composition, no text, no letters, no logos, no scary elements',
+  ].join('. ');
 }

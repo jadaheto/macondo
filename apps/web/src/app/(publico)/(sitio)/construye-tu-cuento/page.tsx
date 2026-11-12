@@ -295,7 +295,17 @@ function Resultado({ cuento, desdeLocal, xl, onOtro }: { cuento: CuentoDTO; desd
       <p className="mt-1 text-brand-muted">Escrito por {cuento.autorNombre ?? 'un autor del taller'} con ayuda del taller</p>
       {cuento.modo === 'plantilla' && <p role="status" className="mt-2 rounded-card border border-brand-border bg-brand-info-bg p-3 text-sm text-brand-text">{COPY.plantillaAviso}</p>}
       <div className="mt-4 grid gap-6 md:grid-cols-[220px_1fr]">
-        <CuentoCover titulo={cuento.titulo} autorNombre={cuento.autorNombre} lugar={cuento.lugar} tipo={cuento.tipo} className="mx-auto w-full max-w-[220px]" />
+        <div className="mx-auto w-full max-w-[220px]">
+          {cuento.imagen?.listo && cuento.imagen.url ? (
+            // Ilustración con IA (ADR-020), generada solo con las opciones cerradas; la bibliotecaria puede ocultarla.
+            <img src={cuento.imagen.url} alt={COPY.ilustracionAlt} width={600} height={900} className="block h-auto w-full rounded-card shadow-card" data-testid="cuento-ilustracion" />
+          ) : (
+            <CuentoCover titulo={cuento.titulo} autorNombre={cuento.autorNombre} lugar={cuento.lugar} tipo={cuento.tipo} />
+          )}
+          {cuento.imagen?.pendiente && (
+            <p className="mt-2 text-center text-sm text-brand-muted" role="status"><Icon name="cargando" className="mr-1 inline h-4 w-4 motion-safe:animate-spin" /> {COPY.ilustrando}</p>
+          )}
+        </div>
         <div>
           <p className="italic text-brand-muted">{c.sinopsis}</p>
           {cuento.audio.listo && cuento.audio.url ? (
@@ -352,7 +362,9 @@ function MisCuentosResumen({ onOpen }: { onOpen: (id: string) => void }) {
         {items.slice(0, 6).map((c) => (
           <li key={c.id}>
             <button type="button" className="tarjeta flex min-h-touch w-full items-center gap-3 p-3 text-left" onClick={() => onOpen(c.id)}>
-              <Icon name="libro" className="h-6 w-6 shrink-0 text-brand-secondary" />
+              {c.imagenUrl
+                ? <img src={c.imagenUrl} alt="" width={40} height={60} className="h-[60px] w-[40px] shrink-0 rounded object-cover" />
+                : <Icon name="libro" className="h-6 w-6 shrink-0 text-brand-secondary" />}
               <span className="min-w-0"><span className="block font-semibold text-brand-primary">{c.titulo}</span><span className="block text-sm text-brand-muted">Protagonista: {c.protagonista}</span></span>
             </button>
           </li>

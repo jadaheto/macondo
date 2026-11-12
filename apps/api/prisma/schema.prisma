@@ -210,6 +210,12 @@ model GeneratedStory {
   audioPath     String?
   audioDuration Int?
   audioError    String?
+  // Ilustración generada con IA (ADR-020): JPEG en storage; oculta por la bibliotecaria si no conviene.
+  imagePath     String?
+  imageError    String?
+  imageHidden   Boolean     @default(false)
+  imageProvider String?
+  imageMs       Int?
   status        StoryStatus @default(GENERATING)
   error         String?
   reviewNote    String?

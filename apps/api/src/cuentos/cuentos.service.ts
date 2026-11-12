@@ -11,9 +11,10 @@ import { PrismaService } from '../prisma/prisma.service';
 import { STORAGE_PROVIDER, type StorageProvider } from '../storage/storage.provider';
 import { TtsService } from '../tts/tts.service';
 import { buildCuentoEpub, textoNarracion } from './epub';
+import { IMAGE_PROVIDER, type ImageProvider, ImageQueue, ImageUnavailableError, NoImageProvider } from './image.provider';
 import { LLM_PROVIDER, type LlmProvider, LlmUnavailableError, NoLlmProvider } from './llm.provider';
 import { generarPlantilla } from './plantilla';
-import { maxTokensFor, SYSTEM_PROMPT, userPrompt, userPromptEstricto } from './prompt';
+import { imagePrompt, maxTokensFor, SYSTEM_PROMPT, userPrompt, userPromptEstricto } from './prompt';
 import { extraerJson, validarCuento, validarNombre } from './safety';
 
 /** 429 con mensaje en español (sin cabeceras con identidad). */
@@ -52,6 +53,9 @@ export class CuentosService {
   private readonly log = new Logger(CuentosService.name);
   private readonly cfg: CuentosConfig;
   private readonly llm: LlmProvider;
+  private readonly imagenes: ImageProvider;
+  /** Cola de imágenes: una petición cada `intervaloMs` (límite del proveedor gratuito). */
+  private readonly colaImagenes: ImageQueue;
   /** Trabajos en curso (por id) para poder esperarlos en pruebas y al apagar. */
   private readonly enCurso = new Map<string, Promise<void>>();
 
@@ -62,9 +66,13 @@ export class CuentosService {
     @Inject(STORAGE_PROVIDER) private readonly storage: StorageProvider,
     @Inject(APP_CONFIG) appConfig: AppConfig,
     @Optional() @Inject(LLM_PROVIDER) llm?: LlmProvider,
+    @Optional() @Inject(IMAGE_PROVIDER) imagenes?: ImageProvider,
   ) {
     this.cfg = appConfig.cuentos;
     this.llm = llm ?? new NoLlmProvider();
+    this.imagenes = imagenes ?? new NoImageProvider();
+    // `imagenes` puede faltar en pruebas unitarias con configuración parcial.
+    this.colaImagenes = new ImageQueue(this.cfg.imagenes?.intervaloMs ?? 15_000);
   }
 
   /* ───────────── público ───────────── */
@@ -125,6 +133,13 @@ export class CuentosService {
     const r = await this.find(id);
     if (!r.audioPath) throw new NotFoundException('Este cuento todavía no tiene audio.');
     return { key: r.audioPath, titulo: r.titulo, sha: createHash('sha256').update(r.audioPath).digest('hex') };
+  }
+
+  /** Clave del JPEG de la ilustración; 404 si no existe o (fuera del panel) si está oculta. */
+  async imagenKey(id: string, incluirOculta: boolean): Promise<{ key: string; sha: string }> {
+    const r = await this.find(id);
+    if (!r.imagePath || (r.imageHidden && !incluirOculta)) throw new NotFoundException('Este cuento no tiene ilustración disponible.');
+    return { key: r.imagePath, sha: createHash('sha256').update(r.imagePath).digest('hex') };
   }
 
   /* ───────────── generación ───────────── */
@@ -199,24 +214,63 @@ export class CuentosService {
     });
     this.log.log(`Cuento ${id} (${o.banda}, ${o.tipo}/${o.lugar}/${o.valor}) listo en modo ${gen.modo}${gen.providerMs != null ? ` · ${gen.providerMs} ms · tokens ${gen.tokensIn ?? '?'}/${gen.tokensOut ?? '?'}` : ''} · ${gen.intentos} intento(s) de IA`);
 
-    // Narración (ADR-017). Si el motor no está, el cuento sigue sin audio.
-    let audio: { audioPath: string; audioDuration: number } | null = null;
-    let audioError: string | null = null;
-    if (this.cfg.audio) {
-      try {
-        const st = await this.tts.status();
-        if (!st.ok) audioError = st.detail ?? 'motor de voz no disponible';
-        else {
-          const res = await this.tts.synthesize(textoNarracion(gen.contenido.titulo, gen.contenido), { title: gen.contenido.titulo });
-          const saved = await this.storage.save('files', 'mp3', res.mp3);
-          audio = { audioPath: saved.key, audioDuration: Math.round(res.durationSeconds) };
-        }
-      } catch (e) {
-        audioError = (e as Error)?.message?.slice(0, 300) ?? 'error de narración';
-        this.log.warn(`Cuento ${id}: sin audio (${audioError})`);
-      }
-    } else audioError = 'narración desactivada (CUENTOS_AUDIO=false)';
-    await this.prisma.generatedStory.update({ where: { id }, data: { status: 'PENDING_REVIEW', ...(audio ?? {}), audioError } });
+    // Narración (ADR-017) e ilustración (ADR-020) en paralelo. Si algo falla, el cuento sigue sin esa pieza.
+    const [audioRes, imagenRes] = await Promise.all([this.narrar(id, gen.contenido), this.ilustrar(id, o)]);
+    await this.prisma.generatedStory.update({ where: { id }, data: { status: 'PENDING_REVIEW', ...audioRes, ...imagenRes } });
+  }
+
+  private async narrar(id: string, contenido: CuentoGenerado): Promise<{ audioPath?: string; audioDuration?: number; audioError: string | null }> {
+    if (!this.cfg.audio) return { audioError: 'narración desactivada (CUENTOS_AUDIO=false)' };
+    try {
+      const st = await this.tts.status();
+      if (!st.ok) return { audioError: st.detail ?? 'motor de voz no disponible' };
+      const res = await this.tts.synthesize(textoNarracion(contenido.titulo, contenido), { title: contenido.titulo });
+      const saved = await this.storage.save('files', 'mp3', res.mp3);
+      return { audioPath: saved.key, audioDuration: Math.round(res.durationSeconds), audioError: null };
+    } catch (e) {
+      const audioError = (e as Error)?.message?.slice(0, 300) ?? 'error de narración';
+      this.log.warn(`Cuento ${id}: sin audio (${audioError})`);
+      return { audioError };
+    }
+  }
+
+  /**
+   * Ilustración con IA (ADR-020): descripción SOLO con opciones cerradas (nunca nombres ni texto del cuento), en cola
+   * para respetar el ritmo del proveedor gratuito, normalizada a JPEG 600×900 sin metadatos. Nunca lanza.
+   */
+  private async ilustrar(id: string, o: Pick<CuentoOpciones, 'tipo' | 'lugar' | 'valor'>): Promise<{ imagePath?: string; imageProvider?: string; imageMs?: number; imageError: string | null }> {
+    if (!this.cfg.imagenes?.enabled || !this.imagenes.available()) return { imageError: 'ilustración desactivada o sin proveedor' };
+    try {
+      const seed = parseInt(createHash('sha256').update(`macondo-ilustracion:${id}`).digest('hex').slice(0, 8), 16) % 2_147_483_647;
+      const res = await this.colaImagenes.run(() => this.imagenes.generate({ prompt: imagePrompt(o), width: 768, height: 1024, seed }));
+      const jpeg = await this.normalizarIlustracion(res.data);
+      const saved = await this.storage.save('covers', 'jpg', jpeg);
+      this.log.log(`Cuento ${id}: ilustración lista (${res.provider}, ${res.ms} ms, ${jpeg.length} B)`);
+      return { imagePath: saved.key, imageProvider: res.provider, imageMs: res.ms, imageError: null };
+    } catch (e) {
+      const imageError = (e instanceof ImageUnavailableError ? e.message : `error al procesar la imagen: ${(e as Error)?.message ?? e}`).slice(0, 300);
+      this.log.warn(`Cuento ${id}: sin ilustración (${imageError})`);
+      return { imageError };
+    }
+  }
+
+  /** Recorta la franja inferior (marca de agua del proveedor), encuadra a 600×900 y re-codifica a JPEG sin metadatos. */
+  private async normalizarIlustracion(data: Buffer): Promise<Buffer> {
+    const sharp = (await import('sharp')).default;
+    const img = sharp(data).rotate();
+    const m = await img.metadata();
+    if (!m.width || !m.height || m.width < 256 || m.height < 256) throw new Error('imagen demasiado pequeña');
+    const recorte = Math.round(m.height * 0.94);
+    return img.extract({ left: 0, top: 0, width: m.width, height: recorte }).resize(600, 900, { fit: 'cover', position: 'centre' }).jpeg({ quality: 85, mozjpeg: true }).toBuffer();
+  }
+
+  /** La bibliotecaria oculta (o vuelve a mostrar) la ilustración; queda en la auditoría. */
+  async ocultarImagen(id: string, oculta: boolean, actorId: string): Promise<CuentoAdminDTO> {
+    const r = await this.find(id);
+    if (!r.imagePath) throw new ConflictException('Este cuento no tiene ilustración.');
+    const upd = await this.prisma.generatedStory.update({ where: { id }, data: { imageHidden: oculta } });
+    await this.audit.log(actorId, 'CUENTO_REVIEW', 'GeneratedStory', id, { decision: oculta ? 'OCULTAR_ILUSTRACION' : 'MOSTRAR_ILUSTRACION', modo: r.modo, band: r.band });
+    return this.toAdminDTO(upd);
   }
 
   /* ───────────── administración ───────────── */
@@ -255,10 +309,10 @@ export class CuentosService {
     const [gradeMin, gradeMax] = cuentoGrades(r.band as GradeBand);
     const creator = r.autorNombre ? `${r.autorNombre} (Taller de cuentos)` : 'Taller de cuentos – Biblioteca Macondo';
     const autorLinea = r.autorNombre ? `Escrito por ${r.autorNombre} con ayuda del Taller de cuentos` : 'Escrito en el Taller de cuentos de la biblioteca';
-    const coverPng = await this.renderCover(r);
-    const epub = buildCuentoEpub({ id: r.id, titulo: r.titulo, autorLinea, creator, contenido: c, banda: r.band, coverPng, fecha: new Date().toISOString().slice(0, 10) });
+    const cover = await this.portadaParaPublicar(r);
+    const epub = buildCuentoEpub({ id: r.id, titulo: r.titulo, autorLinea, creator, contenido: c, banda: r.band, cover, fecha: new Date().toISOString().slice(0, 10) });
     const savedEpub = await this.storage.save('files', 'epub', epub);
-    const savedCover = coverPng ? await this.storage.save('covers', 'png', coverPng) : null;
+    const savedCover = cover ? await this.storage.save('covers', cover.mime === 'image/jpeg' ? 'jpg' : 'png', cover.data) : null;
     const extra: ResourceExtra = {
       cuentoId: r.id,
       text: textoNarracion(r.titulo, c),
@@ -270,7 +324,7 @@ export class CuentosService {
       licenseRightsHolder: CUENTO_LICENSE.rightsHolder, licenseName: CUENTO_LICENSE.licenseName, licenseUrl: null,
       licenseAuthorizedDevices: 30, licenseOfflineAllowed: true, licenseValidFrom: null, licenseValidUntil: null, licenseTerritory: 'CO',
       extra: extra as unknown as Prisma.InputJsonValue,
-      coverPath: savedCover?.key ?? null, coverMime: savedCover ? 'image/png' : null,
+      coverPath: savedCover?.key ?? null, coverMime: savedCover ? cover!.mime : null,
     };
     const ids: string[] = [];
     const libro = await this.prisma.resource.create({
@@ -292,9 +346,24 @@ export class CuentosService {
     const upd = await this.prisma.generatedStory.update({
       where: { id }, data: { status: 'APPROVED', reviewNote: nota, reviewedBy: actorId, reviewedAt: new Date(), resourceIds: ids },
     });
-    await this.audit.log(actorId, 'CUENTO_REVIEW', 'GeneratedStory', id, { decision: 'APROBAR', nota, modo: r.modo, band: r.band, resourceIds: ids, epubSha256: savedEpub.sha256, cover: !!savedCover, audio: !!r.audioPath });
+    await this.audit.log(actorId, 'CUENTO_REVIEW', 'GeneratedStory', id, { decision: 'APROBAR', nota, modo: r.modo, band: r.band, resourceIds: ids, epubSha256: savedEpub.sha256, cover: cover ? (cover.mime === 'image/jpeg' ? 'ilustracion-ia' : 'tipografica') : null, audio: !!r.audioPath });
     for (const rid of ids) await this.audit.log(actorId, 'RESOURCE_CREATE', 'Resource', rid, { title: r.titulo, type: rid === libro.id ? 'BOOK' : 'AUDIOBOOK', cuentoId: r.id });
     return this.toAdminDTO(upd);
+  }
+
+  /** Portada al publicar: la ilustración con IA si existe y no está oculta (ADR-020); si no, la tipográfica. */
+  private async portadaParaPublicar(r: GeneratedStory): Promise<{ data: Buffer; mime: 'image/png' | 'image/jpeg' } | null> {
+    if (r.imagePath && !r.imageHidden) {
+      try {
+        const chunks: Buffer[] = [];
+        for await (const ch of await this.storage.createReadStream(r.imagePath)) chunks.push(Buffer.isBuffer(ch) ? ch : Buffer.from(ch));
+        return { data: Buffer.concat(chunks), mime: 'image/jpeg' };
+      } catch (e) {
+        this.log.warn(`Cuento ${r.id}: no se pudo leer la ilustración; se usa la portada tipográfica (${(e as Error)?.message ?? e})`);
+      }
+    }
+    const png = await this.renderCover(r);
+    return png ? { data: png, mime: 'image/png' } : null;
   }
 
   /** PNG 600×900 de la portada con sharp (SVG del contrato, sin emoji). Si falla, el recurso queda sin portada. */
@@ -337,6 +406,11 @@ export class CuentosService {
         durationSeconds: r.audioDuration,
         pendiente: !r.audioPath && (r.status === 'GENERATING' || r.status === 'GENERATED'),
       },
+      imagen: {
+        listo: !!r.imagePath && !r.imageHidden,
+        url: r.imagePath && !r.imageHidden ? API_ROUTES.cuentoImagen(r.id) : null,
+        pendiente: !r.imagePath && !r.imageError && (r.status === 'GENERATING' || r.status === 'GENERATED'),
+      },
       error: r.status === 'FAILED' ? (r.error ?? MENSAJE_FALLO) : null,
       createdAt: r.createdAt.toISOString(),
     };
@@ -350,6 +424,7 @@ export class CuentosService {
       reviewedAt: r.reviewedAt ? r.reviewedAt.toISOString() : null,
       resourceIds: Array.isArray(r.resourceIds) ? (r.resourceIds as string[]) : [],
       proveedor: r.modo === 'ia' ? { ms: r.providerMs, tokensEntrada: r.tokensIn, tokensSalida: r.tokensOut } : null,
+      imagenAdmin: { existe: !!r.imagePath, oculta: r.imageHidden, error: r.imageError, proveedor: r.imageProvider, ms: r.imageMs },
     };
   }
 }

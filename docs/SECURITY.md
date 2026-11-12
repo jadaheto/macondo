@@ -46,6 +46,12 @@ Evaluación específica (la especificación exige una valoración adicional para
 | Trazabilidad | Auditoría `CUENTO_REVIEW` (decisión, nota, modo, banda, recursos creados) y `RESOURCE_CREATE`; el cuento conserva `modo`, latencia y tokens. |
 | Archivos generados | EPUB construido por nosotros (sin contenido externo); MP3 por Piper en el servidor; portada PNG por sharp a partir de nuestro SVG. |
 
+### Ilustración con IA (ADR-020)
+- **Prompt cerrado:** solo tipo de protagonista, lugar y enseñanza, en una plantilla fija; nunca nombres ni texto del cuento. El niño no puede escribir texto libre que llegue al generador de imágenes.
+- **Proveedor:** Pollinations (FLUX, `safe=true`) por defecto; sin clave ni datos de usuario; solo la descripción y una semilla. Alternativa de pago con token (Hugging Face), nunca registrado.
+- **Exposición:** el estudiante ve la imagen al instante (decisión del usuario). Mitigación: prompt cerrado, estilo infantil, filtro del proveedor, botón «Ocultar ilustración» en la revisión (auditado) y, al rechazar el cuento, nada se publica. Una ilustración oculta no se sirve al público (404) ni se usa como portada.
+- **Tratamiento:** la imagen se re-codifica en el servidor (JPEG 600×900, sin metadatos) antes de guardarse; se sirve por `/api/cuentos/:id/imagen` con id aleatorio no enumerable.
+
 Límites conocidos: la lista de bloqueo es finita (la revisión humana es la barrera principal); la heurística de idioma detecta inglés, no otros idiomas; el modelo puede inventar detalles geográficos (la bibliotecaria revisa).
 
 ## Operación

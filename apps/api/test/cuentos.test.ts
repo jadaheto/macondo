@@ -127,7 +127,7 @@ describe('prompts: privacidad', () => {
 describe('EPUB y portada', () => {
   it('ZIP válido: mimetype primero y sin comprimir; archivos esperados; determinista', () => {
     const c = generarPlantilla(base);
-    const epub = buildCuentoEpub({ id: 'abc', titulo: c.titulo, autorLinea: 'Escrito por Lía con ayuda del taller', creator: 'Lía (Taller de cuentos)', contenido: c, banda: '1-3', coverPng: Buffer.from('89504e470d0a1a0a', 'hex'), fecha: '2026-11-05' });
+    const epub = buildCuentoEpub({ id: 'abc', titulo: c.titulo, autorLinea: 'Escrito por Lía con ayuda del taller', creator: 'Lía (Taller de cuentos)', contenido: c, banda: '1-3', cover: { data: Buffer.from('89504e470d0a1a0a', 'hex'), mime: 'image/png' }, fecha: '2026-11-05' });
     expect(epub.subarray(0, 4)).toEqual(Buffer.from([0x50, 0x4b, 0x03, 0x04]));
     expect(epub.subarray(30, 38).toString()).toBe('mimetype');
     expect(epub.readUInt16LE(8)).toBe(0); // STORE
@@ -135,9 +135,9 @@ describe('EPUB y portada', () => {
     const names = zipNames(epub);
     expect(names[0]).toBe('mimetype');
     expect(names).toEqual(expect.arrayContaining(['META-INF/container.xml', 'OEBPS/content.opf', 'OEBPS/nav.xhtml', 'OEBPS/toc.ncx', 'OEBPS/cuento.xhtml', 'OEBPS/actividades.xhtml', 'OEBPS/creditos.xhtml', 'OEBPS/portada.xhtml', 'OEBPS/img/portada.png', 'OEBPS/css/estilo.css']));
-    const again = buildCuentoEpub({ id: 'abc', titulo: c.titulo, autorLinea: 'Escrito por Lía con ayuda del taller', creator: 'Lía (Taller de cuentos)', contenido: c, banda: '1-3', coverPng: Buffer.from('89504e470d0a1a0a', 'hex'), fecha: '2026-11-05' });
+    const again = buildCuentoEpub({ id: 'abc', titulo: c.titulo, autorLinea: 'Escrito por Lía con ayuda del taller', creator: 'Lía (Taller de cuentos)', contenido: c, banda: '1-3', cover: { data: Buffer.from('89504e470d0a1a0a', 'hex'), mime: 'image/png' }, fecha: '2026-11-05' });
     expect(again.equals(epub)).toBe(true);
-    const sinPortada = buildCuentoEpub({ id: 'abc', titulo: c.titulo, autorLinea: 'x', creator: 'y', contenido: c, banda: '4-5', coverPng: null, fecha: '2026-11-05' });
+    const sinPortada = buildCuentoEpub({ id: 'abc', titulo: c.titulo, autorLinea: 'x', creator: 'y', contenido: c, banda: '4-5', cover: null, fecha: '2026-11-05' });
     expect(zipNames(sinPortada)).not.toContain('OEBPS/portada.xhtml');
   });
   it('writeZip escapa correctamente y textoNarracion une título y párrafos', () => {

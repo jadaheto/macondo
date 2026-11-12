@@ -14,6 +14,7 @@ import request from 'supertest';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import { AppModule } from '../src/app.module';
 import { CuentosService } from '../src/cuentos/cuentos.service';
+import { IMAGE_PROVIDER, type ImageProvider, type ImageRequest, ImageUnavailableError } from '../src/cuentos/image.provider';
 import { LLM_PROVIDER, type LlmProvider, type LlmRequest, LlmUnavailableError } from '../src/cuentos/llm.provider';
 import { generarPlantilla } from '../src/cuentos/plantilla';
 import { ADMIN, binaryParser, LIBRARIAN, resetDb, tokenFor } from './helpers';
@@ -41,17 +42,30 @@ const fake: LlmProvider & { calls: LlmRequest[]; next: Array<string | Error>; on
   },
 };
 
+/** Proveedor de imágenes FALSO (ADR-020): devuelve un JPEG generado con sharp; `fail` simula al proveedor caído. */
+const fakeImg: ImageProvider & { calls: ImageRequest[]; fail: boolean; on: boolean } = {
+  name: 'falso-img', calls: [], fail: false, on: true,
+  available: () => fakeImg.on,
+  async generate(req) {
+    fakeImg.calls.push(req);
+    if (fakeImg.fail) throw new ImageUnavailableError('HTTP 429');
+    const sharp = (await import('sharp')).default;
+    const data = await sharp({ create: { width: req.width, height: req.height, channels: 3, background: '#7fb3d5' } }).jpeg().toBuffer();
+    return { data, ms: 40, provider: 'falso-img' };
+  },
+};
+
 const opciones = (over: Record<string, unknown> = {}) => ({ banda: '1-3', autorNombre: 'Sofía', protagonista: 'Lía', tipo: 'nino', lugar: 'covenas', valor: 'amistad', deviceId: 'tablet-prueba-0001', ...over });
 const iaJson = (over: Record<string, unknown> = {}) => JSON.stringify({ ...generarPlantilla({ banda: '1-3', protagonista: 'Lía', tipo: 'nino', lugar: 'covenas', valor: 'amistad' }), titulo: 'Lía y el mar de Coveñas', ...over });
 
 beforeAll(async () => {
   dir = mkdtempSync(path.join(os.tmpdir(), 'macondo-cuentos-e2e-'));
   const tts = installFakeTts(dir);
-  for (const k of [...Object.keys(tts), 'CUENTOS_LIMITE_POR_HORA', 'CUENTOS_BANDAS', 'DEEPSEEK_API_KEY']) savedEnv[k] = process.env[k];
-  Object.assign(process.env, tts, { CUENTOS_LIMITE_POR_HORA: '3', CUENTOS_BANDAS: '1-3,4-5', DEEPSEEK_API_KEY: '' });
+  for (const k of [...Object.keys(tts), 'CUENTOS_LIMITE_POR_HORA', 'CUENTOS_BANDAS', 'DEEPSEEK_API_KEY', 'IMAGENES_INTERVALO_MS']) savedEnv[k] = process.env[k];
+  Object.assign(process.env, tts, { CUENTOS_LIMITE_POR_HORA: '3', CUENTOS_BANDAS: '1-3,4-5', DEEPSEEK_API_KEY: '', IMAGENES_INTERVALO_MS: '1' });
   prisma = new PrismaClient();
   await resetDb(prisma);
-  const mod = await Test.createTestingModule({ imports: [AppModule] }).overrideProvider(LLM_PROVIDER).useValue(fake).compile();
+  const mod = await Test.createTestingModule({ imports: [AppModule] }).overrideProvider(LLM_PROVIDER).useValue(fake).overrideProvider(IMAGE_PROVIDER).useValue(fakeImg).compile();
   app = mod.createNestApplication({ logger: false });
   app.setGlobalPrefix('api');
   await app.init();
@@ -76,7 +90,7 @@ async function crearYEsperar(body: Record<string, unknown>) {
   expect(res.body).toMatchObject({ status: 'GENERATING' });
   await svc.esperar(res.body.id as string);
   const got = await http().get(`/api/cuentos/${res.body.id}`).expect(200);
-  return got.body as { id: string; status: string; modo: string; titulo: string; contenido: { parrafos: string[] } | null; audio: { listo: boolean; url: string | null; durationSeconds: number | null }; autorNombre: string | null };
+  return got.body as { id: string; status: string; modo: string; titulo: string; contenido: { parrafos: string[] } | null; audio: { listo: boolean; url: string | null; durationSeconds: number | null }; imagen: { listo: boolean; url: string | null; pendiente: boolean }; autorNombre: string | null };
 }
 
 describe('público', () => {
@@ -114,6 +128,34 @@ describe('público', () => {
     expect(row?.deviceHash).not.toBe('tablet-prueba-0001');
     expect(row?.providerMs).toBe(25);
     expect(row?.tokensIn).toBe(300);
+    // Ilustración (ADR-020): lista, servida como JPEG 600×900, y el prompt SOLO lleva opciones cerradas (ni nombres ni texto).
+    expect(c.imagen).toEqual({ listo: true, url: `/api/cuentos/${c.id}/imagen`, pendiente: false });
+    const img = await http().get(`/api/cuentos/${c.id}/imagen`).buffer().parse(binaryParser).expect(200);
+    expect(img.headers['content-type']).toBe('image/jpeg');
+    const meta = await (await import('sharp')).default(img.body as Buffer).metadata();
+    expect([meta.width, meta.height]).toEqual([600, 900]);
+    const last = fakeImg.calls.at(-1)!;
+    expect(last.prompt).toMatch(/Coveñas/);
+    expect(last.prompt).toMatch(/friendship/);
+    expect(last.prompt).not.toContain('Lía');
+    expect(last.prompt).not.toContain('Sofía');
+    expect(last.prompt).not.toContain(c.titulo);
+    expect(row?.imageProvider).toBe('falso-img');
+  });
+
+  it('proveedor de imágenes caído → el cuento se completa sin ilustración (sin quedar pendiente)', async () => {
+    fakeImg.fail = true;
+    fake.next.push(iaJson({ titulo: 'Sin dibujo' }));
+    try {
+      const c = await crearYEsperar(opciones({ deviceId: 'tablet-prueba-0002' }));
+      expect(c.status).toBe('PENDING_REVIEW');
+      expect(c.imagen).toEqual({ listo: false, url: null, pendiente: false });
+      await http().get(`/api/cuentos/${c.id}/imagen`).expect(404);
+      const det = await http().get(`/api/admin/cuentos/${c.id}`).set('Authorization', `Bearer ${adminToken}`).expect(200);
+      expect(det.body.imagenAdmin).toMatchObject({ existe: false, oculta: false, error: 'HTTP 429' });
+    } finally {
+      fakeImg.fail = false;
+    }
   });
 
   it('IA inválida → reintento estricto → plantilla (segundo intento también inválido)', async () => {
@@ -198,6 +240,10 @@ describe('panel: guardias y revisión', () => {
     });
     expect(libro.extra.cuentoId).toBe(pendienteId);
     expect(libro.extra.questions).toHaveLength(3);
+    // La ilustración con IA es la portada del libro y del audiolibro (ADR-020).
+    expect(libro.hasCover).toBe(true);
+    const portada = await http().get(`/api/resources/${libroId}/cover`).buffer().parse(binaryParser).expect(200);
+    expect(portada.headers['content-type']).toBe('image/jpeg');
     const audio = (await http().get(`/api/resources/${audioId}`).expect(200)).body;
     expect(audio).toMatchObject({ type: 'AUDIOBOOK', format: 'MP3', status: 'PUBLISHED', title: 'El cangrejo azul de Lía', hasFile: true });
     expect(audio.durationSeconds).toBeGreaterThan(0);
@@ -210,12 +256,33 @@ describe('panel: guardias y revisión', () => {
     // Auditoría y bloqueo de doble revisión.
     const audit = await http().get('/api/admin/audit?limit=10').set('Authorization', `Bearer ${adminToken}`).expect(200);
     const rev = audit.body.find((a: { action: string; entityId: string }) => a.action === 'CUENTO_REVIEW' && a.entityId === pendienteId);
-    expect(rev.details).toMatchObject({ decision: 'APROBAR', resourceIds: [libroId, audioId], audio: true });
+    expect(rev.details).toMatchObject({ decision: 'APROBAR', resourceIds: [libroId, audioId], audio: true, cover: 'ilustracion-ia' });
     await http().post(`/api/admin/cuentos/${pendienteId}/revisar`).set('Authorization', `Bearer ${adminToken}`).send({ decision: 'RECHAZAR' }).expect(409);
     // Retirar los recursos no borra el cuento aprobado.
     await http().delete(`/api/admin/resources/${libroId}`).set('Authorization', `Bearer ${adminToken}`).expect(200);
     await http().delete(`/api/admin/resources/${audioId}`).set('Authorization', `Bearer ${adminToken}`).expect(200);
     await http().get(`/api/resources/${libroId}`).expect(404);
+  });
+
+  it('ocultar la ilustración: deja de servirse al público, el panel la sigue viendo y al aprobar la portada es la tipográfica', async () => {
+    fake.next.push(iaJson({ titulo: 'Cuento con dibujo oculto' }));
+    const c = await crearYEsperar(opciones({ deviceId: 'tablet-admin-0022' }));
+    expect(c.imagen.listo).toBe(true);
+    await http().post(`/api/admin/cuentos/${c.id}/imagen`).send({ oculta: true }).expect(401);
+    const oc = await http().post(`/api/admin/cuentos/${c.id}/imagen`).set('Authorization', `Bearer ${libToken}`).send({ oculta: true }).expect(200);
+    expect(oc.body.imagenAdmin).toMatchObject({ existe: true, oculta: true });
+    expect(oc.body.imagen).toEqual({ listo: false, url: null, pendiente: false });
+    await http().get(`/api/cuentos/${c.id}/imagen`).expect(404);
+    const prev = await http().get(`/api/admin/cuentos/${c.id}/imagen`).set('Authorization', `Bearer ${libToken}`).buffer().parse(binaryParser).expect(200);
+    expect(prev.headers['content-type']).toBe('image/jpeg');
+    await http().post(`/api/admin/cuentos/${c.id}/imagen`).set('Authorization', `Bearer ${libToken}`).send({ oculta: 'sí' }).expect(400);
+    const res = await http().post(`/api/admin/cuentos/${c.id}/revisar`).set('Authorization', `Bearer ${libToken}`).send({ decision: 'APROBAR' }).expect(200);
+    const libroId = res.body.resourceIds[0] as string;
+    const portada = await http().get(`/api/resources/${libroId}/cover`).buffer().parse(binaryParser).expect(200);
+    expect(portada.headers['content-type']).toBe('image/png');
+    const audit = await http().get('/api/admin/audit?limit=20').set('Authorization', `Bearer ${adminToken}`).expect(200);
+    expect(audit.body.some((a: { action: string; entityId: string; details: { decision?: string } }) => a.action === 'CUENTO_REVIEW' && a.entityId === c.id && a.details?.decision === 'OCULTAR_ILUSTRACION')).toBe(true);
+    for (const rid of res.body.resourceIds as string[]) await http().delete(`/api/admin/resources/${rid}`).set('Authorization', `Bearer ${adminToken}`).expect(200);
   });
 
   it('rechazar no crea recursos y queda auditado; stats del panel cuentan los cuentos', async () => {
@@ -228,7 +295,7 @@ describe('panel: guardias y revisión', () => {
     await http().post(`/api/admin/cuentos/${c.id}/revisar`).set('Authorization', `Bearer ${adminToken}`).send({ decision: 'APROBAR' }).expect(409);
     await http().post(`/api/admin/cuentos/${c.id}/revisar`).set('Authorization', `Bearer ${adminToken}`).send({ decision: 'QUEMAR' }).expect(400);
     const stats = await http().get('/api/admin/stats').set('Authorization', `Bearer ${libToken}`).expect(200);
-    expect(stats.body.cuentos).toMatchObject({ aprobados: 1, rechazados: 1 });
+    expect(stats.body.cuentos).toMatchObject({ aprobados: 2, rechazados: 1 });
     expect(stats.body.cuentos.pendientes).toBeGreaterThanOrEqual(1);
   });
 });

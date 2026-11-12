@@ -10,7 +10,8 @@ const run = (acts: Parameters<typeof wizardReducer>[1][], from: WizardState = IN
 const cuento = (over: Partial<CuentoDTO> = {}): CuentoDTO => ({
   id: 'c1', status: 'PENDING_REVIEW', modo: 'ia', banda: '1-3', titulo: 'Lía y el mar', autorNombre: 'Sofía', protagonista: 'Lía', tipo: 'nino', lugar: 'covenas', valor: 'amistad',
   contenido: { titulo: 'Lía y el mar', sinopsis: 's', parrafos: ['a', 'b', 'c'], preguntas: [], glosario: [], valorRecordatorio: 'v' },
-  audio: { listo: true, url: '/api/cuentos/c1/audio', durationSeconds: 60, pendiente: false }, error: null, createdAt: '2026-11-05T00:00:00.000Z', ...over,
+  audio: { listo: true, url: '/api/cuentos/c1/audio', durationSeconds: 60, pendiente: false },
+  imagen: { listo: true, url: '/api/cuentos/c1/imagen', pendiente: false }, error: null, createdAt: '2026-11-05T00:00:00.000Z', ...over,
 });
 
 describe('asistente: máquina de estados', () => {
@@ -79,6 +80,9 @@ describe('estado del cuento y disponibilidad', () => {
     expect(cuentoListo(cuento({ status: 'GENERATED' }))).toBe(true);
     expect(cuentoListo(cuento({ status: 'FAILED' }))).toBe(false);
     expect(seguirConsultando(cuento({ status: 'GENERATED', audio: { listo: false, url: null, durationSeconds: null, pendiente: true } }))).toBe(true);
+    // La ilustración pendiente también mantiene la consulta; sin ilustración (sin proveedor) no.
+    expect(seguirConsultando(cuento({ status: 'PENDING_REVIEW', imagen: { listo: false, url: null, pendiente: true } }))).toBe(true);
+    expect(seguirConsultando(cuento({ status: 'PENDING_REVIEW', imagen: { listo: false, url: null, pendiente: false } }))).toBe(false);
     expect(seguirConsultando(cuento())).toBe(false);
   });
   it('bandaHabilitada usa la API si existe y, si no, las bandas por defecto', () => {
@@ -124,6 +128,6 @@ describe('dispositivo y «Mis cuentos» (localStorage)', () => {
     expect(listarMisCuentos()).toEqual([]);
     const g = guardarMiCuento(cuento())[0]!;
     const dto = guardadoADTO(g);
-    expect(dto).toMatchObject({ id: 'c1', titulo: 'Lía y el mar', audio: { listo: true, url: '/api/cuentos/c1/audio' } });
+    expect(dto).toMatchObject({ id: 'c1', titulo: 'Lía y el mar', audio: { listo: true, url: '/api/cuentos/c1/audio' }, imagen: { listo: true, url: '/api/cuentos/c1/imagen', pendiente: false } });
   });
 });

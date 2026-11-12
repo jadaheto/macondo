@@ -93,8 +93,8 @@ export interface EpubInput {
   creator: string;
   contenido: CuentoGenerado;
   banda: string;
-  /** PNG de portada (opcional). */
-  coverPng: Buffer | null;
+  /** Portada (opcional): PNG tipográfica o JPEG de la ilustración con IA (ADR-020). */
+  cover: { data: Buffer; mime: 'image/png' | 'image/jpeg' } | null;
   fecha: string; // YYYY-MM-DD
 }
 
@@ -105,10 +105,11 @@ export function buildCuentoEpub(i: EpubInput): Buffer {
   const cls = i.banda === '1-3' ? 'g1' : '';
   const files: Array<[string, Buffer | string]> = [];
   files.push(['OEBPS/css/estilo.css', CSS]);
-  const hasCover = !!i.coverPng;
-  if (i.coverPng) {
-    files.push(['OEBPS/img/portada.png', i.coverPng]);
-    files.push(['OEBPS/portada.xhtml', xhtml(titulo, `<section epub:type="cover" class="cover"><img src="img/portada.png" alt="Portada: ${E(titulo)}"/></section>`)]);
+  const hasCover = !!i.cover;
+  const coverFile = i.cover?.mime === 'image/jpeg' ? 'img/portada.jpg' : 'img/portada.png';
+  if (i.cover) {
+    files.push([`OEBPS/${coverFile}`, i.cover.data]);
+    files.push(['OEBPS/portada.xhtml', xhtml(titulo, `<section epub:type="cover" class="cover"><img src="${coverFile}" alt="Portada: ${E(titulo)}"/></section>`)]);
   }
   const paras = c.parrafos.map((p) => `<p>${E(p)}</p>`).join('\n');
   files.push(['OEBPS/cuento.xhtml', xhtml(titulo, `<section epub:type="bodymatter chapter">\n<h1>${E(titulo)}</h1>\n<p class="autor">${E(i.autorLinea)}</p>\n${paras}\n<p class="valor">${E(c.valorRecordatorio)}</p>\n</section>`, cls)]);
@@ -133,7 +134,7 @@ export function buildCuentoEpub(i: EpubInput): Buffer {
     '<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>',
     '<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>',
     '<item id="css" href="css/estilo.css" media-type="text/css"/>',
-    ...(hasCover ? ['<item id="cover-img" href="img/portada.png" media-type="image/png" properties="cover-image"/>'] : []),
+    ...(hasCover ? [`<item id="cover-img" href="${coverFile}" media-type="${i.cover?.mime ?? 'image/png'}" properties="cover-image"/>`] : []),
     ...spine.map((h) => `<item id="${h.split('.')[0]}" href="${h}" media-type="application/xhtml+xml"/>`),
   ];
   const opf = `<?xml version="1.0" encoding="UTF-8"?>

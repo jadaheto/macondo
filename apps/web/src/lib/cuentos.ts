@@ -33,6 +33,8 @@ export const COPY = {
   guardar: 'Guardar en esta tablet',
   otro: 'Hacer otro cuento',
   escuchar: 'Escuchar',
+  ilustrando: 'Estamos dibujando la ilustración de tu cuento…',
+  ilustracionAlt: 'Ilustración del cuento hecha con inteligencia artificial',
 } as const;
 
 export type Paso = 'portada' | 'creadores' | 'lugar' | 'ensenanza' | 'generando' | 'resultado' | 'error';
@@ -129,9 +131,9 @@ export function wizardReducer(s: WizardState, a: WizardAction): WizardState {
 export function cuentoListo(c: Pick<CuentoDTO, 'status' | 'contenido'>): boolean {
   return !!c.contenido && c.status !== 'GENERATING' && c.status !== 'FAILED';
 }
-/** ¿Hay que seguir consultando? (texto o audio pendientes). */
-export function seguirConsultando(c: Pick<CuentoDTO, 'status' | 'audio'>): boolean {
-  return c.status === 'GENERATING' || c.status === 'GENERATED' || c.audio.pendiente;
+/** ¿Hay que seguir consultando? (texto, audio o ilustración pendientes). */
+export function seguirConsultando(c: Pick<CuentoDTO, 'status' | 'audio'> & { imagen?: CuentoDTO['imagen'] }): boolean {
+  return c.status === 'GENERATING' || c.status === 'GENERATED' || c.audio.pendiente || !!c.imagen?.pendiente;
 }
 
 export function opcionesParaEnviar(s: WizardState, banda: GradeBand, deviceId: string): CuentoOpciones {
@@ -187,6 +189,8 @@ export interface CuentoGuardado {
   modo: CuentoDTO['modo'];
   contenido: NonNullable<CuentoDTO['contenido']>;
   audioUrl: string | null;
+  /** Ilustración con IA (ADR-020), si existía al guardar; se muestra en línea. */
+  imagenUrl?: string | null;
   guardadoEn: string;
 }
 
@@ -201,7 +205,7 @@ export function guardarMiCuento(c: CuentoDTO, now = new Date()): CuentoGuardado[
   if (!c.contenido) return listarMisCuentos();
   const item: CuentoGuardado = {
     id: c.id, titulo: c.titulo, autorNombre: c.autorNombre, protagonista: c.protagonista, tipo: c.tipo, lugar: c.lugar, valor: c.valor, banda: c.banda,
-    modo: c.modo, contenido: c.contenido, audioUrl: c.audio.url, guardadoEn: now.toISOString(),
+    modo: c.modo, contenido: c.contenido, audioUrl: c.audio.url, imagenUrl: c.imagen?.listo ? c.imagen.url : null, guardadoEn: now.toISOString(),
   };
   const list = [item, ...listarMisCuentos().filter((x) => x.id !== c.id)].slice(0, MAX_MIS_CUENTOS);
   writeJSON(MIS_CUENTOS_KEY, list);
@@ -223,7 +227,8 @@ export function guardadoADTO(g: CuentoGuardado): CuentoDTO {
   return {
     id: g.id, status: 'PENDING_REVIEW', modo: g.modo, banda: g.banda, titulo: g.titulo, autorNombre: g.autorNombre, protagonista: g.protagonista,
     tipo: g.tipo, lugar: g.lugar, valor: g.valor, contenido: g.contenido,
-    audio: { listo: !!g.audioUrl, url: g.audioUrl, durationSeconds: null, pendiente: false }, error: null, createdAt: g.guardadoEn,
+    audio: { listo: !!g.audioUrl, url: g.audioUrl, durationSeconds: null, pendiente: false },
+    imagen: { listo: !!g.imagenUrl, url: g.imagenUrl ?? null, pendiente: false }, error: null, createdAt: g.guardadoEn,
   };
 }
 

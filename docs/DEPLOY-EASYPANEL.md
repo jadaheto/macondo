@@ -79,6 +79,7 @@ en la raíz o, en el servicio, pestaña **Build → Dockerfile** con ruta `Docke
    **narración sintética** (ADR-017): la imagen trae Piper y la voz `es_ES-davefx-medium` y fija `TTS_*`; se comprueba en
    el panel (Resumen → «Narración: Piper davefx · disponible») o con `GET /api/admin/tts/estado` con sesión de administración.
    Para el **Taller de cuentos** (ADR-018) añadir `DEEPSEEK_API_KEY` y `DEEPSEEK_MODEL=deepseek-chat`; sin ellas funciona en modo plantilla.
+   La **ilustración de los cuentos** (ADR-020) funciona sin configurar nada (Pollinations, gratuito; el servidor debe poder salir a `image.pollinations.ai`). Para desactivarla: `CUENTOS_IMAGENES=false`; para Hugging Face: `IMAGENES_PROVEEDOR=huggingface` + `HUGGINGFACE_TOKEN`.
 
    **No copiar `.env.example` entero** al Environment. En concreto, con la imagen todo en uno:
    - `STORAGE_DIR` debe ser `/app/storage` (o no definirse). El valor local `../../storage` solo sirve en desarrollo.

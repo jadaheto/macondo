@@ -277,6 +277,8 @@ export const API_ROUTES = {
   cuentos: '/api/cuentos',                          // POST CuentoOpciones -> CuentoCreadoDTO (crea el trabajo; 429 si se supera el límite)
   cuento: (id: string) => `/api/cuentos/${id}`,     // GET -> CuentoDTO (estado + contenido + audio)
   cuentoAudio: (id: string) => `/api/cuentos/${id}/audio`, // GET stream MP3 (Range) cuando el audio está listo
+  cuentoImagen: (id: string) => `/api/cuentos/${id}/imagen`, // GET JPEG de la ilustración (ADR-020) cuando está lista y no está oculta
+  adminCuentoImagen: (id: string) => `/api/admin/cuentos/${id}/imagen`, // POST { oculta } -> CuentoAdminDTO (la bibliotecaria oculta/muestra la ilustración)
   cuentosDisponible: '/api/cuentos/disponible',     // GET -> CuentosDisponibleDTO
   adminCuentos: '/api/admin/cuentos',               // GET ?status -> CuentoAdminDTO[]
   adminCuento: (id: string) => `/api/admin/cuentos/${id}`, // GET -> CuentoAdminDTO
@@ -546,6 +548,11 @@ export interface CuentoDTO {
   valor: CuentoValor;
   contenido: CuentoGenerado | null;
   audio: { listo: boolean; url: string | null; durationSeconds: number | null; pendiente: boolean };
+  /**
+   * Ilustración generada con IA a partir de las opciones cerradas (ADR-020). `listo` = hay imagen y no está oculta;
+   * `pendiente` = se está dibujando (seguir consultando). Si no hay proveedor o falló, ambas en false: se usa la portada tipográfica.
+   */
+  imagen: { listo: boolean; url: string | null; pendiente: boolean };
   /** Mensaje para el niño cuando falló (sin detalles técnicos). */
   error: string | null;
   createdAt: string;
@@ -558,7 +565,12 @@ export interface CuentoAdminDTO extends CuentoDTO {
   resourceIds: string[];
   /** Latencia y tokens del proveedor (solo cifras; nunca el prompt). */
   proveedor: { ms: number | null; tokensEntrada: number | null; tokensSalida: number | null } | null;
+  /** Ilustración: existe el archivo aunque esté oculta; motivo del fallo (técnico, solo panel); proveedor usado. */
+  imagenAdmin: { existe: boolean; oculta: boolean; error: string | null; proveedor: string | null; ms: number | null };
 }
+/** Decisión de la bibliotecaria sobre la ilustración (auditada). */
+export const CuentoImagenSchema = z.object({ oculta: z.boolean() }).strict();
+export type CuentoImagenInput = z.infer<typeof CuentoImagenSchema>;
 export const CuentoRevisarSchema = z.object({
   decision: z.enum(['APROBAR', 'RECHAZAR']),
   nota: z.string().trim().max(500).optional(),

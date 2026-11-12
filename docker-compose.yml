@@ -49,6 +49,12 @@ services:
       CUENTOS_BANDAS: ${CUENTOS_BANDAS:-1-3,4-5}
       CUENTOS_LIMITE_POR_HORA: ${CUENTOS_LIMITE_POR_HORA:-3}
       CUENTOS_LIMITE_GLOBAL_POR_HORA: ${CUENTOS_LIMITE_GLOBAL_POR_HORA:-60}
+      # Ilustración de los cuentos (ADR-020): Pollinations (FLUX, gratuito, sin clave) por defecto; huggingface (de pago, con token) | none.
+      CUENTOS_IMAGENES: ${CUENTOS_IMAGENES:-true}
+      IMAGENES_PROVEEDOR: ${IMAGENES_PROVEEDOR:-pollinations}
+      IMAGENES_POLLINATIONS_TOKEN: ${IMAGENES_POLLINATIONS_TOKEN:-}
+      HUGGINGFACE_TOKEN: ${HUGGINGFACE_TOKEN:-}
+      IMAGENES_INTERVALO_MS: ${IMAGENES_INTERVALO_MS:-15000}
     # DNS público: solo hace falta en redes cuyo DNS bloquea api.deepseek.com (el servidor de EasyPanel normalmente
     # no lo necesita; es inofensivo dejarlo). Sin resolución, la API pasa a modo plantilla y lo registra.
     dns: ["8.8.8.8", "1.1.1.1"]

@@ -1,5 +1,5 @@
 import { Body, Controller, Get, HttpCode, Param, Post, Query, Req, Res, UseGuards } from '@nestjs/common';
-import { type CuentoAdminDTO, CuentoAdminQuerySchema, type CuentoCreadoDTO, type CuentoDTO, CuentoOpcionesSchema, CuentoRevisarSchema, type CuentosDisponibleDTO } from '@macondo/shared';
+import { type CuentoAdminDTO, CuentoAdminQuerySchema, type CuentoCreadoDTO, type CuentoDTO, CuentoImagenSchema, CuentoOpcionesSchema, CuentoRevisarSchema, type CuentosDisponibleDTO } from '@macondo/shared';
 import type { Request, Response } from 'express';
 import type { z } from 'zod';
 import type { AuthUser } from '../auth/auth.types';
@@ -37,6 +37,13 @@ export class CuentosController {
     const a = await this.svc.audioKey(id);
     await this.streamer.send(req, res, { key: a.key, mime: 'audio/mpeg', filename: `cuento-${id}.mp3`, etag: a.sha });
   }
+
+  /** Ilustración (ADR-020): 404 mientras se dibuja, si falló o si la bibliotecaria la ocultó. */
+  @Get(':id/imagen')
+  async imagen(@Param('id') id: string, @Req() req: Request, @Res() res: Response): Promise<void> {
+    const im = await this.svc.imagenKey(id, false);
+    await this.streamer.send(req, res, { key: im.key, mime: 'image/jpeg', filename: `cuento-${id}.jpg`, etag: im.sha });
+  }
 }
 
 /** Panel (ADMIN y LIBRARIAN): cola de revisión, detalle y decisión (auditada). */
@@ -44,7 +51,21 @@ export class CuentosController {
 @UseGuards(JwtAuthGuard, RolesGuard)
 @Roles('ADMIN', 'LIBRARIAN')
 export class AdminCuentosController {
-  constructor(private readonly svc: CuentosService) {}
+  constructor(private readonly svc: CuentosService, private readonly streamer: FileStreamerService) {}
+
+  /** Vista previa de la ilustración para el panel (también si está oculta). */
+  @Get(':id/imagen')
+  async imagen(@Param('id') id: string, @Req() req: Request, @Res() res: Response): Promise<void> {
+    const im = await this.svc.imagenKey(id, true);
+    await this.streamer.send(req, res, { key: im.key, mime: 'image/jpeg', filename: `cuento-${id}.jpg`, etag: im.sha });
+  }
+
+  /** Oculta o vuelve a mostrar la ilustración (auditado). Al aprobar, una ilustración oculta no se usa como portada. */
+  @Post(':id/imagen')
+  @HttpCode(200)
+  imagenOcultar(@Param('id') id: string, @Body(new ZodValidationPipe(CuentoImagenSchema)) body: z.infer<typeof CuentoImagenSchema>, @CurrentUser() user: AuthUser): Promise<CuentoAdminDTO> {
+    return this.svc.ocultarImagen(id, body.oculta, user.id);
+  }
 
   @Get()
   listar(@Query(new ZodValidationPipe(CuentoAdminQuerySchema)) q: z.infer<typeof CuentoAdminQuerySchema>): Promise<CuentoAdminDTO[]> {

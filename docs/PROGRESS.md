@@ -36,6 +36,7 @@
 - Contrato: añadir a `packages/shared` tipos de stats/audit, `ResourcePatchSchema`, reglas de imagen y rutas extra que la API ya expone.
 
 ## Taller de cuentos «Construye tu cuento» (2026-11-05, ADR-018)
+- **Ilustración con IA (2026-11-12, ADR-020):** cada cuento recibe una imagen generada con Pollinations (FLUX, gratuito) a partir de las opciones cerradas; el niño la ve al instante, la bibliotecaria puede ocultarla y al aprobar es la portada del libro y del audiolibro. Proveedor alternativo Hugging Face (de pago) por variable. Sin proveedor: portada tipográfica. Pruebas de integración 13/13 con proveedor falso.
 - Implementado y verificado en vivo: `/construye-tu-cuento` (bandas 1-3 y 4-5; módulo en el inicio solo para primaria), API `cuentos` con DeepSeek detrás de `LlmProvider`, controles de contenido, reintento y modo plantilla propio, narración automática, cola de revisión en el panel (pestaña «Taller de cuentos» + KPI), aprobación que crea libro EPUB + audiolibro en el catálogo. Evidencia en `docs/TESTING.md` (generación real: modo ia, 710 ms, 917/855 tokens, audio 81 s; plantilla forzada; aprobación; limpieza con conteos 300/100/50/20/100).
 - Docker: `DEEPSEEK_*` y `CUENTOS_*` en `docker-compose.yml`, `dns` público para `macondo-api` (solo necesario donde el DNS bloquea `api.deepseek.com`), `fonts-dejavu-core` en las imágenes.
 
